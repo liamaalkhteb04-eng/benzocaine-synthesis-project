@@ -1,8 +1,8 @@
 {
   "generated_from": "benzocaine-synthesis-project working copy plus verified page-layout/instruction-cleanup release",
   "status": "validated_submission_package",
-  "latest_report_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/????_AI????_?????.pdf",
-  "latest_docx_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/????_AI????_?????.docx",
+  "latest_report_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.pdf",
+  "latest_docx_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx",
   "latest_report_page_count": 19,
   "citation_audit": "passed",
   "document_validation": "passed",
@@ -11,7 +11,7 @@
   "latest_solar_actual_cost_including_vat_usd": 0.00040722,
   "cumulative_solar_actual_cost_usd": 0.96937284,
   "new_chemical_model_inference": false,
-  "package_secret_scan_status": "passed; final post-manifest scan recorded at validation/package-secret-audit-content.json",
+  "package_secret_scan_status": "passed; package tree/index scan summary: validation/package-secret-audit-content.json; final post-manifest scan is recorded in the local submission validation folder",
   "excluded_from_package": [
     ".env",
     "API keys",
@@ -4665,8 +4665,8 @@
     },
     {
       "path": "scripts/build_package_manifest.py",
-      "size_bytes": 3245,
-      "sha256": "9c5e09ea748f66b10f3151e2be5c51870ebe504fff1231a9b2b4b6b516a1626c"
+      "size_bytes": 3360,
+      "sha256": "ad489fb2ece69f5fafcefc0f77641a62b0418db63661b878ffbc46d56f1335c3"
     },
     {
       "path": "scripts/build_submission_report.py",
@@ -4920,8 +4920,8 @@
     },
     {
       "path": "validation/package-secret-audit-content.json",
-      "size_bytes": 241,
-      "sha256": "abcc11553d4602bc9ae6e2ce8a6e14cf342c179e63243bcdd2adfbd630ae6fb3"
+      "size_bytes": 308,
+      "sha256": "7cefe9d5b4ca83305e8c45b2aba9871d172cf325289401de49027fd22f6e1621"
     },
     {
       "path": "validation/privacy-redaction-log.json",

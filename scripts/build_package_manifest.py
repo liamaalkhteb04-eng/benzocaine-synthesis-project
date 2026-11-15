@@ -44,7 +44,10 @@ def main():
         "latest_solar_actual_cost_including_vat_usd": round(a.solar_cost, 8),
         "cumulative_solar_actual_cost_usd": round(a.cumulative_cost, 8),
         "new_chemical_model_inference": False,
-        "package_secret_scan_status": f"passed; final post-manifest scan recorded at {a.secret_audit}",
+        "package_secret_scan_status": (
+            f"passed; package tree/index scan summary: {a.secret_audit}; "
+            "final post-manifest scan is recorded in the local submission validation folder"
+        ),
         "excluded_from_package": [".env", "API keys", "authentication data", "virtual environments", "model weights", "large AiZynthFinder stock buckets", ".cache", "course lecture PDF with uncertain redistribution rights", "literature source scans with uncertain redistribution rights", "superseded report copies", "temporary page renderings"],
         "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
         "file_count": len(files),
