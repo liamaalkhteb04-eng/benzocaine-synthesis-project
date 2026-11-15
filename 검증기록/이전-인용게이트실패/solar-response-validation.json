@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "premerge_only": true,
+  "report_merged": false,
+  "docx_pdf_generated": false,
+  "response_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\solar-call\\solar-response.raw.json",
+  "response_sha256": "9fe906589a8550cc73e5ec7949703aa31528e9b3934f3924e8712a7d781ac348",
+  "run_id": "benzocaine-hash-correction-final-20261115-01",
+  "blocks": {
+    "section21_chars": 620,
+    "section8_chars": 1447,
+    "marker_counts": {
+      "s21_open": 1,
+      "s21_close": 1,
+      "s8_open": 1,
+      "s8_close": 1
+    }
+  },
+  "checks": {
+    "Solar_call_success_and_run_id": true,
+    "all_four_output_markers_once": true,
+    "no_text_outside_two_blocks": true,
+    "route01_rank1_raw_slots_confirmed": true,
+    "route01_rank4_raw_slots_confirmed": true,
+    "route05_tokens_are_not_assigned_to_route01": true,
+    "primary_source_is_same_transformation": true,
+    "95_percent_alcohol_is_solvent_not_yield_in_source": true,
+    "isolated_yield_detail_in_verified_literature_markdown": true,
+    "section21_cites_literature_and_states_post_inference": true,
+    "selection_rationale_does_not_claim_literature_exclusivity": true,
+    "route01_reference_subsection_exists": true,
+    "reproducibility_all_model_stock_hashes_present": true,
+    "reproducibility_config_hashes_and_unresolved_cause_correct": true,
+    "run_roles_match_corrected_evidence": true,
+    "citation_D10_path_in_new_packet_resolves_to_corrected_record": true,
+    "response_matches_requested_two_edit_scope": true
+  },
+  "failed_checks": [],
+  "evidence": {
+    "conditions_raw_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.raw.json",
+    "conditions_raw_sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6",
+    "literature_comparison_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-literature-validated-20261114\\literature-validation\\comparison.json",
+    "literature_comparison_sha256": "42c64e53e642ec50c3db569f2d25fb765793df0176505b3a6871ed3b8c80c7aa",
+    "corrected_validation_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\analyses\\route-replay-hash-audit-20261114\\reproduction-validation-corrected.json",
+    "corrected_validation_sha256": "7087c15ddeabf85006934214fb148f3b3a6bbc173b69502b011a9b3517cef287",
+    "D10_source_line": "- [D10] `evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation.json`, `verification.json`, `manifest.json`"
+  },
+  "finding": "All pre-merge checks passed."
+}

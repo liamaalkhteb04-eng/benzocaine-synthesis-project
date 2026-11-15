@@ -1,0 +1,2 @@
+# Optional only when rebuilding AiZynthFinder's full stock buckets from its downloaded HDF stock table.
+tables==3.11.1

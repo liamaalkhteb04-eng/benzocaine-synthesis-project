@@ -1,0 +1,67 @@
+{
+  "status": "single_record_sdf_prepared_not_new_calculation_or_visualizer_result",
+  "created_local_date": "2026-11-03",
+  "geometry_source": "existing MOPAC PM7 conformer records already present in prepared multi-conformer SDFs",
+  "selection_basis": {
+    "route01": "conf1 and conf2 retained for comparison of two previously observed Visualizer conformers; benzocaine product conf1 contextual product structure",
+    "route05": "PABA conf4 and ethanol conf2 selected because they were the lowest PM7 heat conformers among existing five-start calculations; distinct-molecule energies are not compared across species"
+  },
+  "files": [
+    {
+      "file": "analyses\\visualizer\\accessibility-review\\inputs\\route01-ethyl-4-nitrobenzoate-conf1.sdf",
+      "species": "ethyl-4-nitrobenzoate",
+      "selected_conformer_index": 1,
+      "source_multiconformer_sdf": "analyses\\visualizer\\inputs\\ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+      "source_sha256": "7fd21a27e7ab18d77efb2a417ee7ba8d6797d73bdf136f5035681b7409da2e4c",
+      "output_sha256": "60e537da8ab7a6d75bd938e581161e4471391986cab301226fd5860dfa7354b1",
+      "record_count": 1,
+      "coordinates_modified": false,
+      "record_exact_copy": true
+    },
+    {
+      "file": "analyses\\visualizer\\accessibility-review\\inputs\\route01-ethyl-4-nitrobenzoate-conf2.sdf",
+      "species": "ethyl-4-nitrobenzoate",
+      "selected_conformer_index": 2,
+      "source_multiconformer_sdf": "analyses\\visualizer\\inputs\\ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+      "source_sha256": "7fd21a27e7ab18d77efb2a417ee7ba8d6797d73bdf136f5035681b7409da2e4c",
+      "output_sha256": "2ee406d775d4c24445dc480fb277be753a115c19edfb8bf7c5d0533674ff0604",
+      "record_count": 1,
+      "coordinates_modified": false,
+      "record_exact_copy": true
+    },
+    {
+      "file": "analyses\\visualizer\\accessibility-review\\inputs\\route01-benzocaine-product-conf1.sdf",
+      "species": "benzocaine",
+      "selected_conformer_index": 1,
+      "source_multiconformer_sdf": "analyses\\visualizer\\inputs\\benzocaine-mopac-pm7-conformers.sdf",
+      "source_sha256": "bf53a2d04da8cd004d6b1012c00680a370a9aff2f8c16841c47c61d1175dba82",
+      "output_sha256": "58c410cd43468e11e25f6c08643c2dd570c936e02b511f9e493f2fb9889327ab",
+      "record_count": 1,
+      "coordinates_modified": false,
+      "record_exact_copy": true
+    },
+    {
+      "file": "analyses\\visualizer\\accessibility-review\\inputs\\route05-p-aminobenzoic-acid-conf4.sdf",
+      "species": "p-aminobenzoic-acid",
+      "selected_conformer_index": 4,
+      "source_multiconformer_sdf": "analyses\\visualizer\\inputs\\p-aminobenzoic-acid-mopac-pm7-conformers.sdf",
+      "source_sha256": "e9707fcbb6b32bc598980ceb70e515686021ef063d62e5b758d5fa2a0a9c62b2",
+      "output_sha256": "4f4643cbe0d3450dd77ca6ef204651e159f1de6b854bbff025524312ca785f48",
+      "record_count": 1,
+      "coordinates_modified": false,
+      "record_exact_copy": true
+    },
+    {
+      "file": "analyses\\visualizer\\accessibility-review\\inputs\\route05-ethanol-conf2.sdf",
+      "species": "ethanol",
+      "selected_conformer_index": 2,
+      "source_multiconformer_sdf": "analyses\\visualizer\\inputs\\ethanol-mopac-pm7-conformers.sdf",
+      "source_sha256": "bb5636c0fa1a9f1135829c37e537d8f9c43800aca649c5731a2b3dbd2f8941ba",
+      "output_sha256": "5c0b776996d130696cccb083623051516bb279d82d80ef7b17a8247709e2081d",
+      "record_count": 1,
+      "coordinates_modified": false,
+      "record_exact_copy": true
+    }
+  ],
+  "interpretation_limit": "Coordinate copying only; no geometry optimization, conformer generation, new calculation, or reaction complex."
+}

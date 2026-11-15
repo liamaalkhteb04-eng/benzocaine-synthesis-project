@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "correct_report_audit": "passed",
+  "content_check": "passed",
+  "content_errors": [],
+  "unique_step_resolved_yield_table_count": 1,
+  "total_distinct_tables": 4,
+  "missing_D1_negative_control_detected": true,
+  "missing_D10_negative_control_detected": true,
+  "method_false_positive_count": 0,
+  "errors": []
+}

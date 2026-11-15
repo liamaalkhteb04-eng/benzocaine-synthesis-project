@@ -1,0 +1,162 @@
+{
+  "api_url": "https://episuite.dev/api/submit/batch",
+  "requests": [
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "cas": "150-13-0",
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "chemicalName": "4-Aminobenzoic acid"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "cas": "64-17-5",
+      "smiles": "CCO",
+      "chemicalName": "Ethanol"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "cas": "64-19-7",
+      "smiles": "CC(=O)O",
+      "chemicalName": "Acetic acid"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "cas": "109-99-9",
+      "smiles": "C1CCOC1",
+      "chemicalName": "Tetrahydrofuran"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "cas": "60-29-7",
+      "smiles": "CCOCC",
+      "chemicalName": "Diethyl ether"
+    }
+  ],
+  "cas_provenance": [
+    {
+      "species_id": "p-aminobenzoic-acid",
+      "name": "4-Aminobenzoic acid",
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "epi_search_exact_structure_matches": [
+        {
+          "name": "4-AMINOBENZOIC ACID",
+          "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+          "cas": "000150-13-0"
+        },
+        {
+          "name": "4-Aminobenzoic acid",
+          "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+          "cas": "002906-28-7"
+        }
+      ],
+      "pubchem_synonym_cas_candidates": [
+        "150-13-0",
+        "25136-77-0"
+      ],
+      "cas_used": "150-13-0",
+      "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+      "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+      "search_raw": "analyses\\epi-suite\\raw\\search\\p-aminobenzoic-acid.json",
+      "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\p-aminobenzoic-acid-synonyms.json"
+    },
+    {
+      "species_id": "ethanol",
+      "name": "Ethanol",
+      "smiles": "CCO",
+      "epi_search_exact_structure_matches": [
+        {
+          "name": "ETHANOL",
+          "smiles": "CCO",
+          "cas": "000064-17-5"
+        }
+      ],
+      "pubchem_synonym_cas_candidates": [
+        "42845-45-4",
+        "64-17-5"
+      ],
+      "cas_used": "64-17-5",
+      "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+      "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+      "search_raw": "analyses\\epi-suite\\raw\\search\\ethanol.json",
+      "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\ethanol-synonyms.json"
+    },
+    {
+      "species_id": "acetic-acid",
+      "name": "Acetic acid",
+      "smiles": "CC(=O)O",
+      "epi_search_exact_structure_matches": [
+        {
+          "name": "ACETIC ACID",
+          "smiles": "CC(=O)O",
+          "cas": "000064-19-7"
+        },
+        {
+          "name": "Acetic Acid",
+          "smiles": "CC(=O)O",
+          "cas": "000071-50-1"
+        }
+      ],
+      "pubchem_synonym_cas_candidates": [
+        "64-19-7",
+        "6993-75-5",
+        "77671-22-8"
+      ],
+      "cas_used": "64-19-7",
+      "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+      "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+      "search_raw": "analyses\\epi-suite\\raw\\search\\acetic-acid.json",
+      "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\acetic-acid-synonyms.json"
+    },
+    {
+      "species_id": "tetrahydrofuran-condition-slot",
+      "name": "Tetrahydrofuran",
+      "smiles": "C1CCOC1",
+      "epi_search_exact_structure_matches": [
+        {
+          "name": "TETRAHYDROFURAN",
+          "smiles": "C1CCOC1",
+          "cas": "000109-99-9"
+        }
+      ],
+      "pubchem_synonym_cas_candidates": [
+        "109-99-9"
+      ],
+      "cas_used": "109-99-9",
+      "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+      "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+      "search_raw": "analyses\\epi-suite\\raw\\search\\tetrahydrofuran-condition-slot.json",
+      "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\tetrahydrofuran-condition-slot-synonyms.json"
+    },
+    {
+      "species_id": "diethyl-ether-condition-slot",
+      "name": "Diethyl ether",
+      "smiles": "CCOCC",
+      "epi_search_exact_structure_matches": [
+        {
+          "name": "DIETHYL ETHER",
+          "smiles": "CCOCC",
+          "cas": "000060-29-7"
+        }
+      ],
+      "pubchem_synonym_cas_candidates": [
+        "60-29-7",
+        "667919-88-2"
+      ],
+      "cas_used": "60-29-7",
+      "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+      "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+      "search_raw": "analyses\\epi-suite\\raw\\search\\diethyl-ether-condition-slot.json",
+      "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\diethyl-ether-condition-slot-synonyms.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿criterion,OpenCode trial 02,Pi trial 02,assessment
+Run / status,opencode-trial-02 / HTTP 200,pi-trial-02 / HTTP 200,Both completed one request; no retry
+Model / core settings,solar-pro4-260806; temperature 0; reasoning none; max_tokens 10000; tools off,solar-pro4-260806; temperature 0; reasoning none; max_tokens 10000; tools off,Same normalized generation controls
+Frozen evidence payload SHA256,636BE4F7EE73A4BD08682629B95F906EC246A986E07C17348BB4EA93F72A973E,636BE4F7EE73A4BD08682629B95F906EC246A986E07C17348BB4EA93F72A973E,Same 12 source blocks
+Input/output tokens,65764 / 1128,65425 / 3458,Harness framing differs; prompt token counts are not identical
+Latency seconds,14.796,31.587,Single-run observation only
+Estimated cost incl. VAT USD,0.02319108,0.02615481,Combined 0.04934589; account debit not rechecked
+Factual consistency,Mostly aligned with evidence; concise summary,"Mostly aligned, but internal status contradiction and overbroad Visualizer interpretation",Pi needs tighter evidence-state consistency
+Sources,"Names/repos, no claim-linked URLs","Numbered sources, but bibliography lacks actual URLs",Neither adequate for final citations
+Required content,"Routes, conditions/yields, limits covered; weak selection rationale; little numeric MOPAC/EPI",More detailed step-level chemistry and measurements; weak selection rationale; numeric MOPAC/EPI omitted,Both need revisions before final report
+Style/readability,"Concise, readable, memo-like rather than full report",Report-like detail but repetitive and self-contradictory,Different style from one sample each; no general ranking
+Omissions / overclaim,No numeric EPI MP/BP or individual MOPAC geometry/energy; stale harness status,Same numeric omissions; calls Visualizer relevant to accessibility/shielding beyond measured intramolecular geometry,External reactant accessibility was not measured

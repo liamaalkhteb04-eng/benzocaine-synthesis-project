@@ -1,0 +1,22 @@
+{
+  "harness_comparison": {
+    "status": "not_implemented",
+    "inference_executed": false,
+    "reason": "Preparation only; tool installation or paid execution is not authorized in this phase"
+  },
+  "mopac": {
+    "status": "not_implemented",
+    "inference_executed": false,
+    "reason": "Preparation only; tool installation or paid execution is not authorized in this phase"
+  },
+  "epi_suite": {
+    "status": "not_implemented",
+    "inference_executed": false,
+    "reason": "Preparation only; tool installation or paid execution is not authorized in this phase"
+  },
+  "discovery_studio": {
+    "status": "not_implemented",
+    "inference_executed": false,
+    "reason": "Preparation only; tool installation or paid execution is not authorized in this phase"
+  }
+}

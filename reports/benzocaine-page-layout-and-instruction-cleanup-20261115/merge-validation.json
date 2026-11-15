@@ -1,0 +1,90 @@
+{
+    "status":  "passed",
+    "solar_targeted_blocks_verified":  true,
+    "approved_local_edits_verified":  true,
+    "solar_response_sha256":  "3a5111656eb9fbd20aa67649bff04a8b4910d1b8fbf0a0069ca3d9ac92421298",
+    "solar_run_id":  "benzocaine-documentation-cleanup-20261115-01",
+    "solar_model":  "solar-pro4-260806",
+    "source_report_sha256_before":  "600887eb427406c7f33e925898eea79a040ee8f6647d2906177213d244438dff",
+    "final_report_sha256":  "884a2a1d880daa74d61d377f89745a34e331054c82e3a9ed11bcdf6390441f40",
+    "target_sentence_replacements":  [
+                                         {
+                                             "section":  "3.3",
+                                             "old_anchor":  "이 간선은 … 먼저 명시해야 한다.",
+                                             "new_sentence":  "route-05/step-01의 `CC(=O)O\u003e\u003eCCO` 변환은 역합성 탐색 그래프의 연결로 확인되었으며, 검증된 정방향 실험 반응 순서로 해석되지 않는다 [2][D1].",
+                                             "citations":  [
+                                                               "2",
+                                                               "D1"
+                                                           ],
+                                             "evidence":  [
+                                                              "D1",
+                                                              "2"
+                                                          ]
+                                         },
+                                         {
+                                             "section":  "5.4",
+                                             "old_anchor":  "각 모델의 공식 저장소, … [D2].",
+                                             "new_sentence":  "본 프로젝트에서 경로, 반응 조건, 수율 예측은 AiZynthFinder, Parrot, rxn_yields를 통해 수행되었고, ASKCOS v2와 SynthEx는 저장소 수준에서 식별되었으며, DRFP는 지문 도구로 기술되었다 [2][5][6][7][D1][D2].",
+                                             "citations":  [
+                                                               "2",
+                                                               "5",
+                                                               "6",
+                                                               "7",
+                                                               "D1",
+                                                               "D2"
+                                                           ],
+                                             "evidence":  [
+                                                              "D1",
+                                                              "D2",
+                                                              "2",
+                                                              "5",
+                                                              "6",
+                                                              "7"
+                                                          ]
+                                         }
+                                     ],
+    "local_edits":  {
+                        "yield_display_rounding_only":  [
+                                                            {
+                                                                "line":  21,
+                                                                "raw_evidence_value":  "82.9537143%",
+                                                                "display_value":  "82.95%",
+                                                                "scope":  "Markdown table cell only"
+                                                            },
+                                                            {
+                                                                "line":  22,
+                                                                "raw_evidence_value":  "77.6954919%",
+                                                                "display_value":  "77.70%",
+                                                                "scope":  "Markdown table cell only"
+                                                            },
+                                                            {
+                                                                "line":  23,
+                                                                "raw_evidence_value":  "77.5889033%",
+                                                                "display_value":  "77.59%",
+                                                                "scope":  "Markdown table cell only"
+                                                            },
+                                                            {
+                                                                "line":  23,
+                                                                "raw_evidence_value":  "79.7983250%",
+                                                                "display_value":  "79.80%",
+                                                                "scope":  "Markdown table cell only"
+                                                            }
+                                                        ],
+                        "raw_values_preserved_in_source_evidence":  true,
+                        "D10_corrected_path":  "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+                        "D10_corrected_sha256":  "7087c15ddeabf85006934214fb148f3b3a6bbc173b69502b011a9b3517cef287",
+                        "D10_preserved_original_path":  "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+                        "D10_original_sha256":  "63ab33c238fda07120f87ff9e4024195b12bb68cc689565539f83112dd7db7a8"
+                    },
+    "scope":  "No other prose, figures, or analysis changed; new report copy only.",
+    "package_path_only_updates":  {
+                                      "previous_report_sha256":  "1c0b116b8a806c01efd8b0b81dc2986d866e7379cdf9e7332f4c04f1aaa38752",
+                                      "current_report_sha256":  "884a2a1d880daa74d61d377f89745a34e331054c82e3a9ed11bcdf6390441f40",
+                                      "scientific_content_changed":  false,
+                                      "updated_references":  [
+                                                                 "bibliography [17] local PDF path -\u003e evidence-run/course-material-acquisition.md",
+                                                                 "D9 source-scan paths -\u003e source-acquisition.md and packaged comparison/raw evidence"
+                                                             ],
+                                      "date":  "2026-11-15"
+                                  }
+}

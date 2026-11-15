@@ -1,0 +1,11 @@
+﻿species_id,name,smiles,chemical_form,route_context,source,applicability,EPI_Suite_execution
+ethyl-4-nitrobenzoate,Ethyl 4-nitrobenzoate,CCOC(=O)c1ccc([N+](=O)[O-])cc1,neutral input structure,route-01/step-01,actual selected-route reactant/product,review structure/form before use,not_run
+benzocaine,Benzocaine,CCOC(=O)c1ccc(N)cc1,neutral input structure,target;route-01/step-01;route-05/step-02,actual selected-route reactant/product,review structure/form before use,not_run
+p-aminobenzoic-acid,4-Aminobenzoic acid,Nc1ccc(C(=O)O)cc1,neutral input structure,route-05/step-02,actual selected-route reactant/product,review structure/form before use,not_run
+ethanol,Ethanol,CCO,neutral input structure,route-01/step-01;route-05/step-01;route-05/step-02,actual selected-route reactant/product,review structure/form before use,not_run
+acetic-acid,Acetic acid,CC(=O)O,neutral input structure,route-05/step-01,actual selected-route reactant/product,review structure/form before use,not_run
+palladium-condition-slot,Palladium atom model token,[Pd],elemental atom token; not a Pd/C or Pd surface model,route-01/step-01,Parrot rank-1 catalyst1,likely outside organic property-model scope; do not estimate until checked,not_run
+tetrahydrofuran-condition-slot,Tetrahydrofuran,C1CCOC1,neutral solvent,route-05/step-01,Parrot rank-1 solvent1,review model input coverage,not_run
+lithium-aluminium-hydride-condition-slots,LiAlH4 model fragment set,[Al+3].[H-].[H-].[H-].[H-].[Li+],disconnected ionic fragments exactly as model output,route-05/step-01,Parrot rank-1 reagent1,ionic/multifragment form may be unsupported; not a measured liquid or a complete formulation,not_run
+diethyl-ether-condition-slot,Diethyl ether,CCOCC,neutral solvent/reagent token,route-05/step-02,Parrot rank-1 reagent1,review model input coverage,not_run
+boron-trifluoride-condition-slot,Boron trifluoride model token,FB(F)F,neutral BF3 structure token; not an etherate or specified solution,route-05/step-02,Parrot rank-1 reagent2,review model support and actual chemical form before estimation,not_run

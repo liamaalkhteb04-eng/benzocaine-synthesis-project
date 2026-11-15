@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "run_id": "benzocaine-documentation-cleanup-20261115-01",
+  "model": "solar-pro4-260806",
+  "request_sha256": "7bffcce5f599a1341865383a61c9a441e335db2b1673a044a600dbb744f163ad",
+  "input_bytes": 2535,
+  "conservative_input_token_upper_bound": 4583,
+  "max_output_tokens": 700,
+  "max_external_posts": 1,
+  "retries": 0,
+  "max_reserved_cost_including_vat_usd": 0.01,
+  "conservative_estimated_cost_including_vat_usd": 0.00243639,
+  "prior_cumulative_usd": 0.96896562,
+  "cumulative_with_reservation_usd": 0.97896562,
+  "remaining_under_cap_after_reservation_usd": 0.02103438,
+  "api_key_value_logged": false,
+  "solar_request_sent": true,
+  "http_status": 200,
+  "returned_model": "solar-pro4-260806",
+  "finish_reason": "stop",
+  "latency_ms": 3179.0,
+  "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 155,
+    "total_tokens": 769,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "actual_cost_usd_including_vat": 0.00040722,
+  "cumulative_after_usd": 0.96937284,
+  "remaining_under_cap_usd": 0.03062716,
+  "retry_count": 0,
+  "transport_error_type": null,
+  "response_sha256": "3a5111656eb9fbd20aa67649bff04a8b4910d1b8fbf0a0069ca3d9ac92421298"
+}

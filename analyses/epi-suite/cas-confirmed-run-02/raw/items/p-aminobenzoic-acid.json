@@ -1,0 +1,170 @@
+{
+  "parameters": {
+    "cas": "150-13-0",
+    "smiles": "C1=C(C=CC(=C1)N)C(=O)O"
+  },
+  "chemicalProperties": {
+    "name": "4-AMINOBENZOIC ACID",
+    "systematicName": "Benzoic acid, 4-amino-",
+    "cas": "150-13-0",
+    "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+    "molecularWeight": null,
+    "molecularFormula": null,
+    "molecularFormulaHtml": null,
+    "organic": null,
+    "organicAcid": null,
+    "aminoAcid": null,
+    "nonStandardMetal": null,
+    "flags": null
+  },
+  "meltingPoint": {
+    "parameters": {
+      "meltingPoint": {
+        "value": 188.5,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+        "valueType": "EVIDENCE"
+      },
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+      "cas": "150-13-0"
+    },
+    "estimatedValue": {
+      "value": 94.07730865478516,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [
+      {
+        "author": "Aromatic acid slope analogy",
+        "year": 0,
+        "order": 1,
+        "value": 188.5,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 1726,
+        "referenceId": 1086,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "selectedValue": {
+      "value": 188.5,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 94.07730865478516\nMelting Point (adapted Joback, deg C): 178.29000854492188\nMelting Point (Gold/Ogle, deg C): 66.00640869140625\nMelting Point (mean, deg C): 122.14822387695312\nBoiling Point (deg C): 307.7038879394531\nBoiling Point (K uncorrected): 630.280029296875\nBoiling Point (K corrected): 580.8638916015625\nVapor Pressure selected (mm Hg): 2.5167618596655577E-5\nVapor Pressure selected (Pa): 0.003355397246543315\nVapor Pressure subcooled (mm Hg): 0.0012951079988852143\nVapor Pressure subcooled (Pa): 0.17266638862737455\n"
+  },
+  "boilingPoint": {
+    "parameters": {
+      "meltingPoint": {
+        "value": 188.5,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+        "valueType": "EVIDENCE"
+      },
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+      "cas": "150-13-0"
+    },
+    "estimatedValue": {
+      "value": 307.7038879394531,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [],
+    "selectedValue": {
+      "value": 307.7038879394531,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 94.07730865478516\nMelting Point (adapted Joback, deg C): 178.29000854492188\nMelting Point (Gold/Ogle, deg C): 66.00640869140625\nMelting Point (mean, deg C): 122.14822387695312\nBoiling Point (deg C): 307.7038879394531\nBoiling Point (K uncorrected): 630.280029296875\nBoiling Point (K corrected): 580.8638916015625\nVapor Pressure selected (mm Hg): 2.5167618596655577E-5\nVapor Pressure selected (Pa): 0.003355397246543315\nVapor Pressure subcooled (mm Hg): 0.0012951079988852143\nVapor Pressure subcooled (Pa): 0.17266638862737455\n"
+  },
+  "vaporPressure": {
+    "parameters": {
+      "meltingPoint": {
+        "value": 188.5,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+        "valueType": "EVIDENCE"
+      },
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+      "cas": "150-13-0"
+    },
+    "estimatedValue": {
+      "model": [
+        {
+          "type": "Antoine",
+          "mmHg": 1.8423781511955895e-05,
+          "pa": 0.002456295398736984
+        },
+        {
+          "type": "Grain",
+          "mmHg": 2.5167618596655577e-05,
+          "pa": 0.003355397246543315
+        },
+        {
+          "type": "Mackay",
+          "mmHg": 5.927205697810164e-05,
+          "pa": 0.007902269180434466
+        },
+        {
+          "type": "Selected",
+          "mmHg": 2.5167618596655577e-05,
+          "pa": 0.003355397246543315
+        },
+        {
+          "type": "SubCooled",
+          "mmHg": 0.0012951079988852143,
+          "pa": 0.17266638862737455
+        }
+      ],
+      "value": 2.5167618596655577e-05,
+      "units": "mmHg",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [
+      {
+        "author": "BARLEY,MH & McFIGGINS,G",
+        "year": 2010,
+        "order": 1,
+        "value": 4.5e-06,
+        "units": "mmHg",
+        "source": "experimental:EpiUnified:VaporPressures:BARLEY,MH & McFIGGINS,G:2010",
+        "valueType": "EXTRAPOLATED",
+        "method": "EXT",
+        "evidenceType": "EXTRAPOLATED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "VaporPressures",
+        "sourceId": 2094,
+        "referenceId": 1087,
+        "temperatureC": 25.0,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "selectedValue": {
+      "value": 4.5e-06,
+      "units": "mmHg",
+      "source": "experimental:EpiUnified:VaporPressures:BARLEY,MH & McFIGGINS,G:2010",
+      "valueType": "EXTRAPOLATED",
+      "method": "EXT",
+      "evidenceType": "EXTRAPOLATED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 94.07730865478516\nMelting Point (adapted Joback, deg C): 178.29000854492188\nMelting Point (Gold/Ogle, deg C): 66.00640869140625\nMelting Point (mean, deg C): 122.14822387695312\nBoiling Point (deg C): 307.7038879394531\nBoiling Point (K uncorrected): 630.280029296875\nBoiling Point (K corrected): 580.8638916015625\nVapor Pressure selected (mm Hg): 2.5167618596655577E-5\nVapor Pressure selected (Pa): 0.003355397246543315\nVapor Pressure subcooled (mm Hg): 0.0012951079988852143\nVapor Pressure subcooled (Pa): 0.17266638862737455\n"
+  }
+}

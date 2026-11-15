@@ -1,0 +1,4 @@
+﻿harness,official_project,selected,solar_pro4_connection,installation_version,api_call_planned,api_call_made,credit_gate,retry_gate,status
+OpenCode,https://github.com/anomalyco/opencode,yes,project-local config via loopback guard to pinned Solar Pro 4,2.2.5 project-local,1,1,credits applied per user-reported Usage; coupon identity not shown,one upstream POST; subsequent local attempts denied 409,HTTP 200 title only; no draft
+Pi Coding Agent,https://github.com/earendil-works/pi,yes,project-local config via loopback guard to pinned Solar Pro 4,1.4.0 project-local,1,1,credits applied per user-reported Usage; coupon identity not shown,one upstream POST; no retry,HTTP 400 unsupported argument store; no draft
+Feynman,https://github.com/Companion-Inc/feynman,no,official docs reject Pro-class IDs,not installed,0,0,not applicable,not assessed,excluded

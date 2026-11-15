@@ -1,0 +1,19 @@
+{
+  "previous_cumulative_usd": 0.96896562,
+  "new_call_reserved_usd": 0.01,
+  "new_call_actual_including_vat_usd": 0.00040722,
+  "cumulative_after_usd": 0.96937284,
+  "cap_usd": 1.0,
+  "cash_payment_or_topup": false,
+  "calls": [
+    {
+      "run_id": "benzocaine-documentation-cleanup-20261115-01",
+      "request_sha256": "7bffcce5f599a1341865383a61c9a441e335db2b1673a044a600dbb744f163ad",
+      "status": "success",
+      "input_tokens": 614,
+      "output_tokens": 155,
+      "actual_cost_usd_including_vat": 0.00040722,
+      "retry_count": 0
+    }
+  ]
+}

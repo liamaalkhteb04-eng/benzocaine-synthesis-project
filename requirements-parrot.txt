@@ -1,0 +1,19 @@
+# Windows compatibility trial, Python 3.8; differs from upstream Linux environment.
+# Freeze exact resolved environment after a successful inference.
+torch==1.13.1
+transformers==4.18.0
+simpletransformers==0.63.6
+rdkit-pypi==2022.9.5
+pandas==1.3.5
+numpy==1.23.5
+scipy==1.10.1
+scikit-learn==1.0.2
+matplotlib==3.7.5
+seaborn==0.12.2
+pandarallel==1.6.5
+bertviz==1.4.0
+tensorboardX==2.6.2.2
+IPython==8.12.3
+PyYAML==6.0.3
+# rxnfp==0.1.0 installed separately with --no-deps: upstream environment combines
+# it with transformers==4.18.0 despite rxnfp's older declared dependency pins.

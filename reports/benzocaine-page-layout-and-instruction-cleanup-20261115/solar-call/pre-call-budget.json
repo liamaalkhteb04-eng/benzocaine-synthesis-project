@@ -1,0 +1,18 @@
+{
+  "status": "prepared",
+  "run_id": "benzocaine-documentation-cleanup-20261115-01",
+  "model": "solar-pro4-260806",
+  "request_sha256": "7bffcce5f599a1341865383a61c9a441e335db2b1673a044a600dbb744f163ad",
+  "input_bytes": 2535,
+  "conservative_input_token_upper_bound": 4583,
+  "max_output_tokens": 700,
+  "max_external_posts": 1,
+  "retries": 0,
+  "max_reserved_cost_including_vat_usd": 0.01,
+  "conservative_estimated_cost_including_vat_usd": 0.00243639,
+  "prior_cumulative_usd": 0.96896562,
+  "cumulative_with_reservation_usd": 0.97896562,
+  "remaining_under_cap_after_reservation_usd": 0.02103438,
+  "api_key_value_logged": false,
+  "solar_request_sent": false
+}

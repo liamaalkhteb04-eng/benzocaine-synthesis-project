@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Known-good asset lock from benzocaine-live-20261031-03/04; update deliberately after validating a replacement checkpoint",
+  "aizynthfinder": {
+    "python": "3.12.0",
+    "packages": {
+      "aizynthfinder": "4.4.1",
+      "rdkit": "2023.9.6",
+      "onnxruntime": "1.23.2",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "tables": "3.11.1"
+    },
+    "files": {
+      "uspto_model.onnx": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
+      "uspto_templates.csv.gz": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe"
+    },
+    "stock_source_sha256": "99d39a6f807c3e815487500bafc2b4a9dc66a31af189e3b1776874fb0d4a188d",
+    "stock_rows": 17422831
+  },
+  "parrot": {
+    "python": "3.8.20",
+    "packages": {
+      "torch": "1.13.1",
+      "transformers": "4.18.0",
+      "rxnfp": "0.1.0",
+      "simpletransformers": "0.63.6"
+    },
+    "files": {
+      "pytorch_model.bin": "f226fcea2f9bbb510e9a2053991f50374fd3a2427391bdc0b4c7e0b59974f816",
+      "config.json": "8c5bf2b88086ae435cfb6fe276eaf1802bdd46fe97da18310abcd85f94101091",
+      "model_args.json": "274677187cb6646af7ab980d68c09312525d1162b06d4bd5ac52e8818a7a7ef0",
+      "vocab.txt": "376446c56a4b09c80fd716aacd3e191320e405e3b463863ab7e28af9bf252b45",
+      "tokenizer_config.json": "bf72b6c92f7c94460222457a6b71d9ac3fff17b12c7675745ba1db1785e369f1",
+      "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+    },
+    "repository_commit": "0fb2325567e21011589641544e32427c8244e2a9"
+  },
+  "rxn_yields": {
+    "python": "3.8.20",
+    "packages": {
+      "torch": "1.13.1",
+      "transformers": "4.18.0",
+      "rxnfp": "0.1.0"
+    },
+    "files": {
+      "pytorch_model.bin": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
+      "config.json": "a39c2cdc0398aa52fef05bc23fec1054ab0eb80fd1df79801428035c7f3aa3d4",
+      "model_args.json": "e77bd27ad705db019a31e5f259c086a7741848024cc527bb559b6b7d04dfefbf",
+      "vocab.txt": "399868a653e85549ce150af4a1f6cd2776240c6a3d951ced2120565f00f027fd",
+      "tokenizer_config.json": "b5b2e89ec50e3dd87bb0d0193ebfc353fa2788c54cca663b7f2d3e6c6ff647f6",
+      "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+    },
+    "source_commit": "d9e6b87ce1b881978490d68bfc00021e3b48127a"
+  }
+}

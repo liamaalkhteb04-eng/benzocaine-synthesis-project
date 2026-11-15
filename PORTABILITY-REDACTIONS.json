@@ -1,0 +1,17 @@
+{
+  "additional_report_bundle_redactions": [],
+  "github_public_copy_personal_data_review": {
+    "status": "completed",
+    "details_path": "validation/privacy-redaction-log.json",
+    "changed_scope": "run logs and hash audit only; absolute workstation paths replaced with package-relative results paths or <AIZYNTH_MODEL_DIR> placeholder; report body/source untouched; public DOCX author metadata neutralized"
+  },
+  "excluded_transient_files": {
+    "paths": [
+      "analyses/harness-comparison/guard-state-cumulative/usage-ledger.lock",
+      "analyses/harness-comparison/guard-state/usage-ledger.lock",
+      "analyses/harness-comparison/local-harness-verification-02/temporary_guard_state/opencode/usage-ledger.lock",
+      "analyses/harness-comparison/local-harness-verification-02/temporary_guard_state/pi/usage-ledger.lock"
+    ],
+    "reason": "one-byte usage-ledger.lock synchronization artifacts excluded from the public upload copy only; no result, model data, or original project file removed"
+  }
+}

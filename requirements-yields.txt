@@ -1,0 +1,4 @@
+# Isolated Yield-BERT runtime; tested historical interpreter was the Parrot Python 3.8 environment.
+# Install rxnfp separately with --no-deps as documented in requirements-parrot.txt.
+torch==1.13.1
+transformers==4.18.0

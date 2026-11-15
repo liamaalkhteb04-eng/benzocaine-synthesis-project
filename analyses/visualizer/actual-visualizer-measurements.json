@@ -1,0 +1,72 @@
+﻿{
+    "application":  "BIOVIA Discovery Studio Visualizer 2025 Client",
+    "version":  "25.1.0",
+    "file_version":  "25,1,0,24284",
+    "install_path":  "C:\\Program Files\\BIOVIA\\Discovery Studio 2025\\",
+    "process_id":  12132,
+    "responding":  true,
+    "graphics_recovery":  [
+                              "View \u003e Graphics (Ctrl+G) restored the 3D pane from Data Table view",
+                              "Molecule Data Table Visible column confirmed conformer 1 alone",
+                              "Enabling conformers 1 and 2 simultaneously displayed both as overlapping geometries; then one was hidden",
+                              "Reopening the original saved SDF and reverting in-memory edits reset the document to conformer 1 and restored a complete 3D rendering"
+                          ],
+    "measured_actual_visualizer":  [
+                                       {
+                                           "id":  "D-01",
+                                           "value":  2.684,
+                                           "screenshot":  "screenshots/route01-distance-monitor-table.png",
+                                           "atoms":  "N10-H21",
+                                           "conformer":  1,
+                                           "unit":  "angstrom"
+                                       },
+                                       {
+                                           "id":  "A-01",
+                                           "value":  119.102,
+                                           "screenshot":  "screenshots/route01-angle-monitor-table.png",
+                                           "atoms":  "C8-C9-N10",
+                                           "conformer":  1,
+                                           "unit":  "degrees"
+                                       },
+                                       {
+                                           "id":  "D-02",
+                                           "value":  2.682,
+                                           "screenshot":  "screenshots/route01-conf2-distance-monitor.png",
+                                           "atoms":  "N10-H21",
+                                           "conformer":  2,
+                                           "unit":  "angstrom"
+                                       },
+                                       {
+                                           "id":  "A-02",
+                                           "value":  119.062,
+                                           "screenshot":  "screenshots/route01-conf2-angle-monitor.png",
+                                           "atoms":  "C8-C9-N10",
+                                           "conformer":  2,
+                                           "unit":  "degrees"
+                                       }
+                                   ],
+    "conformer3plus":  "not recorded; unstable/ambiguous rendering after conformer switching, and post-reopen defaulted to conformer 1",
+    "multiple_conformers_displayed":  true,
+    "source_files_hashes":  [
+                                {
+                                    "file":  "ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+                                    "sha256":  "7FD21A27E7AB18D77EFB2A417EE7BA8D6797D73BDF136F5035681B7409DA2E4C",
+                                    "matches_pre_session":  true
+                                },
+                                {
+                                    "file":  "p-aminobenzoic-acid-mopac-pm7-conformers.sdf",
+                                    "sha256":  "E9707FCBB6B32BC598980CEB70E515686021EF063D62E5B758D5FA2A0A9C62B2",
+                                    "matches_pre_session":  true
+                                }
+                            ],
+    "source_sdf_saved_or_overwritten":  false,
+    "other_code_measurements_used":  false,
+    "interpretation_limit":  "isolated PM7 geometry only; no inference of reaction rate, barrier, success, or yield",
+    "remaining":  "route01 other planned distances/angles and route05/ethanol measurements across conformers remain incomplete",
+    "final_view":  {
+                       "screenshot":  "screenshots/final-clean-single-conformer-view.png",
+                       "document":  "ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+                       "visible_conformer":  1,
+                       "other_conformers_visible":  false
+                   }
+}

@@ -1,0 +1,11 @@
+{
+  "target_id": "<stable-slug>",
+  "name": "<English or source name>",
+  "name_ko": "<Korean name>",
+  "smiles": "<isomeric SMILES in the intended chemical form>",
+  "expected_formula": "<molecular formula>",
+  "pubchem_cid": 0,
+  "identity_reference": "<direct structure or database URL>",
+  "chemical_form": "<neutral form, salt, ion, or other explicit state>",
+  "purpose": "AI synthesis route, condition, and yield prediction/report generation"
+}

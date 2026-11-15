@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "manifest_listed_file_count": 1205,
+  "manifest_actual_sha256": "338441030c9a998bd7618cabe5b84902b250ca46a32fb40261bd5e20bdb71d1d",
+  "manifest_sidecar_matches": true,
+  "manifest_file_errors": [],
+  "latest_report_matches_package": {
+    "report.md": {
+      "working_copy": "600887eb427406c7f33e925898eea79a040ee8f6647d2906177213d244438dff",
+      "package": "600887eb427406c7f33e925898eea79a040ee8f6647d2906177213d244438dff",
+      "same": true
+    },
+    "report.docx": {
+      "working_copy": "0ab8ee7a2e23a6c025a734862943a27a599552908c031f47b0ca23169ad4cfbc",
+      "package": "0ab8ee7a2e23a6c025a734862943a27a599552908c031f47b0ca23169ad4cfbc",
+      "same": true
+    },
+    "report.pdf": {
+      "working_copy": "926e65d086277a40ff45e7c3d72231b129d0f4ee8b366b399c3f55cf8ebc0092",
+      "package": "926e65d086277a40ff45e7c3d72231b129d0f4ee8b366b399c3f55cf8ebc0092",
+      "same": true
+    }
+  },
+  "secret_scan_status": "passed",
+  "secret_scan_file_count": 1207,
+  "secret_findings": 0
+}

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checks": {
+    "Solar_success_single_run_no_retry": true,
+    "merge_manifest_binds_base_and_response": true,
+    "only_allowed_citation_tokens_added": true,
+    "scientific_text_and_numbers_unchanged": true,
+    "Solar_two_target_blocks_present": true,
+    "citation_change_log_binds_artifacts": true,
+    "citation_audit_passed": true,
+    "D10_is_corrected_validation": true,
+    "D10_hash_matches_corrected_source": true
+  },
+  "added_citations": {
+    "D1": 2,
+    "6": 1
+  },
+  "removed_citations": {},
+  "citation_audit_status": "passed",
+  "citation_audit_errors": [],
+  "base_sha256": "f2915bb32c874510f71a58675cceb0a81ab1d52518b99dbf682d634e872cca36",
+  "candidate_sha256": "c1b21525c8a8073484ec9fca6dc8d54490915eae2fcacb88f48f34f067fb42a2",
+  "final_report_sha256": "600887eb427406c7f33e925898eea79a040ee8f6647d2906177213d244438dff",
+  "solar_response_sha256": "9fe906589a8550cc73e5ec7949703aa31528e9b3934f3924e8712a7d781ac348",
+  "merge_manifest_sha256": "a47b29e7c303fe317f734b4b008c1ed7bad37489609eb3881a3341dda817a42a",
+  "citation_change_log_sha256": "3cfaf3d0caa5986ace8e96845dfacdc24772a1bdf7e2187466d01874e1329e04",
+  "citation_only_changes": true,
+  "solar_targeted_blocks_verified": true,
+  "no_model_call_or_inference": true
+}

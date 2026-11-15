@@ -1,0 +1,9 @@
+{
+  "status": "prepared_not_executed",
+  "inference_executed": false,
+  "model": "solar-pro4-260806",
+  "skill_sha256": "7da4b5b48ebc4e2d954fe9331ae0b27c89fcd2aa6c25617513d72e2cbe8e4714",
+  "request_sha256": "5d7f873ae7e319bf462ee0fe74019edf10d42033736ca176a9d9ae83779bfff6",
+  "paid_calls": 0,
+  "reason": "Preparation only; no network request and no report authored"
+}

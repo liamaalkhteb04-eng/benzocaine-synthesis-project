@@ -1,0 +1,31 @@
+{
+  "status": "failed_final_citation_gate",
+  "final_report_accepted": false,
+  "solar_call": {
+    "run_id": "benzocaine-hash-correction-final-20261115-01",
+    "model": "solar-pro4-260806",
+    "http_status": 200,
+    "actual_cost_usd_including_vat": 0.00204732,
+    "cumulative_after_usd": 0.96896562,
+    "remaining_under_cap_usd": 0.03103438,
+    "retry_count": 0,
+    "response_sha256": "9fe906589a8550cc73e5ec7949703aa31528e9b3934f3924e8712a7d781ac348"
+  },
+  "premerge_fact_and_marker_validation": "passed",
+  "full_report_content_validation": {
+    "source_report_status": "passed",
+    "candidate_report_status": "failed",
+    "errors": [
+      "Paragraph 14 (new section 2.1 paragraph): missing [5] and [D1] method/result citations per citation-source audit.",
+      "Paragraph 112 (new section 8 paragraph): missing [2], [5], [6], [8], [D1], and [D4] citations per citation-source audit."
+    ],
+    "baseline_source_citation_audit_sha256": "51b527c9906a3065299a8392bc5457774ed4c4b6d2848045bac944f012cb6f59"
+  },
+  "existing_report_unchanged": true,
+  "candidate_retained_unaccepted": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\unvalidated-candidate-report.md",
+  "candidate_sha256": "c1b21525c8a8073484ec9fca6dc8d54490915eae2fcacb88f48f34f067fb42a2",
+  "docx_created": false,
+  "pdf_created": false,
+  "submission_package_promoted": false,
+  "reason": "The report citation audit passed on the base report but failed only after the two Solar paragraphs were spliced. The user required no direct correction or additional call on failure, so no DOCX/PDF or final package was produced."
+}

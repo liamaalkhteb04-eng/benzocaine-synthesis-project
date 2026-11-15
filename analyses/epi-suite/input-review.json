@@ -1,0 +1,333 @@
+{
+  "source": "analyses\\preparation\\epi-suite-inputs.csv",
+  "source_sha256": "2ab35bc121f476580152af6cd572f72abd4814ea6484c1cc21a40e2150271525",
+  "rdkit": "2026.03.2",
+  "items": [
+    {
+      "species_id": "ethyl-4-nitrobenzoate",
+      "name": "Ethyl 4-nitrobenzoate",
+      "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+      "chemical_form": "neutral input structure",
+      "route_context": "route-01/step-01",
+      "source": "actual selected-route reactant/product",
+      "applicability": "review structure/form before use",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+      "formula": "C9H9NO4",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "benzocaine",
+      "name": "Benzocaine",
+      "smiles": "CCOC(=O)c1ccc(N)cc1",
+      "chemical_form": "neutral input structure",
+      "route_context": "target;route-01/step-01;route-05/step-02",
+      "source": "actual selected-route reactant/product",
+      "applicability": "review structure/form before use",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "formula": "C9H11NO2",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "p-aminobenzoic-acid",
+      "name": "4-Aminobenzoic acid",
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "chemical_form": "neutral input structure",
+      "route_context": "route-05/step-02",
+      "source": "actual selected-route reactant/product",
+      "applicability": "review structure/form before use",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "Nc1ccc(C(=O)O)cc1",
+      "formula": "C7H7NO2",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "ethanol",
+      "name": "Ethanol",
+      "smiles": "CCO",
+      "chemical_form": "neutral input structure",
+      "route_context": "route-01/step-01;route-05/step-01;route-05/step-02",
+      "source": "actual selected-route reactant/product",
+      "applicability": "review structure/form before use",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "CCO",
+      "formula": "C2H6O",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "acetic-acid",
+      "name": "Acetic acid",
+      "smiles": "CC(=O)O",
+      "chemical_form": "neutral input structure",
+      "route_context": "route-05/step-01",
+      "source": "actual selected-route reactant/product",
+      "applicability": "review structure/form before use",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "CC(=O)O",
+      "formula": "C2H4O2",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "palladium-condition-slot",
+      "name": "Palladium atom model token",
+      "smiles": "[Pd]",
+      "chemical_form": "elemental atom token; not a Pd/C or Pd surface model",
+      "route_context": "route-01/step-01",
+      "source": "Parrot rank-1 catalyst1",
+      "applicability": "likely outside organic property-model scope; do not estimate until checked",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "[Pd]",
+      "formula": "Pd",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "not_submitted",
+      "reason": "Elemental metal atom token; MPBPWIN is described by EPA as estimating organic chemicals; the token is not a Pd/C surface or a defined material."
+    },
+    {
+      "species_id": "tetrahydrofuran-condition-slot",
+      "name": "Tetrahydrofuran",
+      "smiles": "C1CCOC1",
+      "chemical_form": "neutral solvent",
+      "route_context": "route-05/step-01",
+      "source": "Parrot rank-1 solvent1",
+      "applicability": "review model input coverage",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "C1CCOC1",
+      "formula": "C4H8O",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "lithium-aluminium-hydride-condition-slots",
+      "name": "LiAlH4 model fragment set",
+      "smiles": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+      "chemical_form": "disconnected ionic fragments exactly as model output",
+      "route_context": "route-05/step-01",
+      "source": "Parrot rank-1 reagent1",
+      "applicability": "ionic/multifragment form may be unsupported; not a measured liquid or a complete formulation",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+      "formula": "H4AlLi",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "not_submitted",
+      "reason": "Disconnected multicomponent ionic reagent representation; a single-compound BP/MP estimate would not represent the commercial reagent formulation."
+    },
+    {
+      "species_id": "diethyl-ether-condition-slot",
+      "name": "Diethyl ether",
+      "smiles": "CCOCC",
+      "chemical_form": "neutral solvent/reagent token",
+      "route_context": "route-05/step-02",
+      "source": "Parrot rank-1 reagent1",
+      "applicability": "review model input coverage",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "CCOCC",
+      "formula": "C4H10O",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "submitted",
+      "experimental_lookup_cas": null,
+      "experimental_lookup_status": "SMILES-only; no measured-data lookup"
+    },
+    {
+      "species_id": "boron-trifluoride-condition-slot",
+      "name": "Boron trifluoride model token",
+      "smiles": "FB(F)F",
+      "chemical_form": "neutral BF3 structure token; not an etherate or specified solution",
+      "route_context": "route-05/step-02",
+      "source": "Parrot rank-1 reagent2",
+      "applicability": "review model support and actual chemical form before estimation",
+      "EPI_Suite_execution": "not_run",
+      "canonical_smiles": "FB(F)F",
+      "formula": "BF3",
+      "net_formal_charge": 0,
+      "rdkit_parse_status": "success",
+      "status": "not_submitted",
+      "reason": "Inorganic BF3 token; outside the intended organic-compound scope of MPBPWIN; also not the actual concentration/etherate formulation."
+    }
+  ],
+  "cas_references": [
+    {
+      "species_id": "ethyl-4-nitrobenzoate",
+      "search_query": "ethyl 4-nitrobenzoate",
+      "epi_search_url": "https://episuite.dev/api/search?query=ethyl+4-nitrobenzoate&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\ethyl-4-nitrobenzoate.json",
+      "exact_structure_matches": [],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethyl%204-nitrobenzoate/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\ethyl-4-nitrobenzoate-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "99-77-4"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    },
+    {
+      "species_id": "benzocaine",
+      "search_query": "benzocaine",
+      "epi_search_url": "https://episuite.dev/api/search?query=benzocaine&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\benzocaine.json",
+      "exact_structure_matches": [],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/benzocaine/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\benzocaine-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "94-09-7"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    },
+    {
+      "species_id": "p-aminobenzoic-acid",
+      "search_query": "4-aminobenzoic acid",
+      "epi_search_url": "https://episuite.dev/api/search?query=4-aminobenzoic+acid&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\p-aminobenzoic-acid.json",
+      "exact_structure_matches": [
+        {
+          "name": "4-AMINOBENZOIC ACID",
+          "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+          "cas": "000150-13-0"
+        },
+        {
+          "name": "4-Aminobenzoic acid",
+          "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+          "cas": "002906-28-7"
+        }
+      ],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/4-aminobenzoic%20acid/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\p-aminobenzoic-acid-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "150-13-0",
+        "25136-77-0"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    },
+    {
+      "species_id": "ethanol",
+      "search_query": "ethanol",
+      "epi_search_url": "https://episuite.dev/api/search?query=ethanol&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\ethanol.json",
+      "exact_structure_matches": [
+        {
+          "name": "ETHANOL",
+          "smiles": "CCO",
+          "cas": "000064-17-5"
+        }
+      ],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ethanol/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\ethanol-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "42845-45-4",
+        "64-17-5"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    },
+    {
+      "species_id": "acetic-acid",
+      "search_query": "acetic acid",
+      "epi_search_url": "https://episuite.dev/api/search?query=acetic+acid&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\acetic-acid.json",
+      "exact_structure_matches": [
+        {
+          "name": "ACETIC ACID",
+          "smiles": "CC(=O)O",
+          "cas": "000064-19-7"
+        },
+        {
+          "name": "Acetic Acid",
+          "smiles": "CC(=O)O",
+          "cas": "000071-50-1"
+        }
+      ],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/acetic%20acid/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\acetic-acid-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "64-19-7",
+        "6993-75-5",
+        "77671-22-8"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    },
+    {
+      "species_id": "tetrahydrofuran-condition-slot",
+      "search_query": "tetrahydrofuran",
+      "epi_search_url": "https://episuite.dev/api/search?query=tetrahydrofuran&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\tetrahydrofuran-condition-slot.json",
+      "exact_structure_matches": [
+        {
+          "name": "TETRAHYDROFURAN",
+          "smiles": "C1CCOC1",
+          "cas": "000109-99-9"
+        }
+      ],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tetrahydrofuran/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\tetrahydrofuran-condition-slot-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "109-99-9"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    },
+    {
+      "species_id": "diethyl-ether-condition-slot",
+      "search_query": "diethyl ether",
+      "epi_search_url": "https://episuite.dev/api/search?query=diethyl+ether&limit=20",
+      "epi_search_http_status": 200,
+      "epi_search_raw": "analyses\\epi-suite\\raw\\search\\diethyl-ether-condition-slot.json",
+      "exact_structure_matches": [
+        {
+          "name": "DIETHYL ETHER",
+          "smiles": "CCOCC",
+          "cas": "000060-29-7"
+        }
+      ],
+      "pubchem_synonym_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/diethyl%20ether/synonyms/JSON",
+      "pubchem_synonyms_raw": "analyses\\epi-suite\\raw\\pubchem\\diethyl-ether-condition-slot-synonyms.json",
+      "pubchem_http_status": 200,
+      "pubchem_cas_candidates": [
+        "60-29-7",
+        "667919-88-2"
+      ],
+      "cas_used_for_experimental_lookup": null,
+      "cas_resolution": "no independently verified EPI experimental-data CAS; model-only SMILES request"
+    }
+  ]
+}

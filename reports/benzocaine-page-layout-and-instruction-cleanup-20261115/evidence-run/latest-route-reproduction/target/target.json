@@ -1,0 +1,6 @@
+{
+  "name": "Benzocaine",
+  "canonical_smiles": "CCOC(=O)c1ccc(N)cc1",
+  "formula": "C9H11NO2",
+  "source": "RDKit input validation; not a synthesis prediction"
+}

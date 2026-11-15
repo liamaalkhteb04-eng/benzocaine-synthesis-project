@@ -1,0 +1,3 @@
+# Starter requirement only; lock the validated version before final submission.
+# Install separately from upstream prediction-model environments.
+rdkit

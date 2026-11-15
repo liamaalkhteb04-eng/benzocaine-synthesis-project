@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "verification_scope": "offline_comparison_of_saved_run_evidence_only_no_inference",
+  "historical_route_run_id": "benzocaine-live-20261031-03",
+  "historical_representative_run_id": "benzocaine-live-20261031-04",
+  "rerun_id": "benzocaine-live-repro-20261105-01",
+  "relationship": {
+    "route_reference": "-03 is the original AiZynthFinder route run. Its routes.json SHA-256 is byte-identical to the routes.json copied into representative bundle -04.",
+    "representative_bundle": "-04 is the earlier representative result bundle; it contains successful Parrot conditions and Yield-BERT outputs, while its route artifact is reused from -03.",
+    "comparison_basis": "Compare route assets and route predictions from -03 to rerun; compare Parrot conditions and Yield-BERT outputs from representative -04 to rerun. The -03 conditions file is failed and is not used as the successful condition reference."
+  },
+  "source_files": {
+    "historical_routes_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03\\routes.json",
+      "sha256": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63"
+    },
+    "representative_routes_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
+      "sha256": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63"
+    },
+    "rerun_routes_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
+      "sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb"
+    },
+    "prior_validation_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\reproduction-validation.json",
+      "sha256": "63ab33c238fda07120f87ff9e4024195b12bb68cc689565539f83112dd7db7a8"
+    },
+    "representative_conditions_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json",
+      "sha256": "c1ec5ed4493b25c25a8d38c0c10372cf2592078e0b2d322fd1fe32f170bc0747"
+    },
+    "rerun_conditions_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.json",
+      "sha256": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79"
+    },
+    "representative_yields_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\yields-rxn_yields.json",
+      "sha256": "18fd9a6f0cd303e15b690b8936d3519eebefddb9899ea2cc1cfb2e5d3935a63a"
+    },
+    "rerun_yields_json": {
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.json",
+      "sha256": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a"
+    }
+  },
+  "asset_comparison": {
+    "model_and_reaction_template_archives": {
+      "uspto_model.onnx": {
+        "historical_sha256": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
+        "rerun_sha256": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
+        "same": true
+      },
+      "uspto_templates.csv.gz": {
+        "historical_sha256": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe",
+        "rerun_sha256": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe",
+        "same": true
+      }
+    },
+    "zinc_source": {
+      "historical_sha256": "99d39a6f807c3e815487500bafc2b4a9dc66a31af189e3b1776874fb0d4a188d",
+      "rerun_sha256": "99d39a6f807c3e815487500bafc2b4a9dc66a31af189e3b1776874fb0d4a188d",
+      "same": true
+    },
+    "derived_stock_buckets": {
+      "count_historical": 26,
+      "count_rerun": 26,
+      "all_file_sha256_and_size_entries_same": true
+    },
+    "aizynthfinder_code_module": {
+      "historical_sha256": "90b4d2ef6d53e9261d9727c55332f8d5ee31e97d7a292d83642cd99ad2711f9a",
+      "rerun_sha256": "90b4d2ef6d53e9261d9727c55332f8d5ee31e97d7a292d83642cd99ad2711f9a",
+      "same": true
+    }
+  },
+  "configuration_comparison": {
+    "historical_materialized_config_sha256": "ef98c6f2fa1540fb59b41837afc33b550d7c5800fa16e71e50ebc3ec7edfc6bd",
+    "rerun_materialized_config_sha256": "9cf3ea6f9da7d0e1c5bfd942c74fa551a87eb70ea36bc7b48662a9e4d31d2563",
+    "byte_hash_same": false,
+    "recorded_configuration_object_same_after_path_separator_normalization": true,
+    "historical_config_template_sha256": null,
+    "rerun_config_template_sha256": "ef767652d07af2f4b144f3ddfcd6f1ce950d63c82da4f8686451208b4101ebdc",
+    "config_template_hash_comparable": false,
+    "cause_of_byte_hash_difference": "unresolved; historical temporary materialized configuration source file was not retained"
+  },
+  "prior_validation_conflict": {
+    "prior_false_model_and_stock_hashes_same": false,
+    "prior_false_model_and_template_hashes_same": false,
+    "prior_free_text_says_asset_hashes_match": true,
+    "recomputed_model_and_reaction_template_hashes_same": true,
+    "recomputed_stock_source_and_all_bucket_hashes_same": true,
+    "false_fields_are_inconsistent_with_raw_hashes": true,
+    "corrected_interpretation": "model, USPTO reaction-template archive and stock hashes match; configuration JSON byte hashes differ while recorded configuration objects match after path separator normalization",
+    "original_validation_record_preserved": true
+  },
+  "checks": {
+    "run_relationship_routes_03_equals_representative_04_file_sha": true,
+    "route_run_03_success": true,
+    "representative_04_conditions_success": true,
+    "representative_04_yields_success": true,
+    "rerun_routes_success": true,
+    "rerun_conditions_success": true,
+    "rerun_yields_success": true,
+    "model_hashes_match": true,
+    "prior_false_hash_flags_reconciled_against_raw_evidence": true,
+    "stock_source_hash_matches": true,
+    "all_26_stock_bucket_hashes_match": true,
+    "semantic_configuration_matches_after_path_separator_normalization": true,
+    "configuration_json_byte_hashes_differ": true,
+    "route_predictions_match": true,
+    "conditions_match_representative_run_04": true,
+    "yields_match_representative_run_04": true
+  },
+  "interpretation_limits": [
+    "Identical outputs and identical assets are separate claims and checked separately.",
+    "Config JSON hashes differ; semantic configuration is equal only after normalizing path separators.",
+    "No cause for the historical config byte-hash difference is asserted.",
+    "No fresh model inference was run."
+  ]
+}

@@ -1,0 +1,7 @@
+# Actual Python 3.13.7 driver environment; separate from the two inference runtimes.
+rdkit==2026.3.2
+requests==2.33.0
+numpy==2.4.3
+pandas==3.0.1
+PyYAML==6.0.3
+pillow==13.0.0

@@ -1,0 +1,59 @@
+{
+  "status": "redacted_public_copy_only",
+  "created_utc": "2026-11-15T06:30:35.952545+00:00",
+  "path_redaction_count": 26,
+  "files_changed": [
+    {
+      "path": "results/benzocaine-live-20261031-04/pipeline.log",
+      "redactions": 2
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/routes.log",
+      "redactions": 2
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/pipeline.log",
+      "redactions": 4
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/routes.log",
+      "redactions": 2
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/pipeline.log",
+      "redactions": 4
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.log",
+      "redactions": 2
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/hash-audit.md",
+      "redactions": 4
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/pipeline.log",
+      "redactions": 4
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.log",
+      "redactions": 2
+    }
+  ],
+  "docx_metadata_changes": [
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx",
+      "document_body_and_media_unchanged": true,
+      "author_metadata": "neutralized"
+    }
+  ],
+  "email_matches_found": false,
+  "report_body_or_original_source_changed": false,
+  "mapping": "benzocaine project results absolute roots -> package-relative results\\; aspirin AiZynthFinder model root -> <AIZYNTH_MODEL_DIR>\\; run IDs, filenames, and checksums preserved",
+  "excluded_transient_upload_copy_files": [
+    "analyses/harness-comparison/guard-state-cumulative/usage-ledger.lock",
+    "analyses/harness-comparison/guard-state/usage-ledger.lock",
+    "analyses/harness-comparison/local-harness-verification-02/temporary_guard_state/opencode/usage-ledger.lock",
+    "analyses/harness-comparison/local-harness-verification-02/temporary_guard_state/pi/usage-ledger.lock"
+  ]
+}

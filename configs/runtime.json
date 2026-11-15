@@ -1,0 +1,22 @@
+{
+  "aizynthfinder": {
+    "python": "${AIZYNTH_PYTHON}",
+    "model_dir": "${AIZYNTH_MODEL_DIR}",
+    "stock_buckets": "${AIZYNTH_STOCK_BUCKETS}",
+    "config": "${PROJECT_ROOT}/configs/aizynthfinder.json",
+    "timeout_seconds": 600,
+    "inference_route_limit": 12,
+    "multistep_reserve": 4
+  },
+  "parrot": {
+    "python": "${PARROT_PYTHON}",
+    "repository": "${PARROT_REPOSITORY}",
+    "checkpoint": "${PARROT_CHECKPOINT}",
+    "config": "${PROJECT_ROOT}/configs/parrot.json"
+  },
+  "rxn_yields": {
+    "python": "${RXN_YIELDS_PYTHON}",
+    "checkpoint": "${RXN_YIELDS_CHECKPOINT}",
+    "metadata": "${PROJECT_ROOT}/configs/yield-normalization.json"
+  }
+}

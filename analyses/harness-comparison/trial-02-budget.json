@@ -1,0 +1,16 @@
+{
+  "authorized_credit_cap_usd": 1.0,
+  "reported_prior_usage_credit_usd": 0.08,
+  "historical_attempt_reservation_usd": 0.264,
+  "new_trial_reservation_usd": 0.264,
+  "conservative_cumulative_upper_bound_usd": 0.608,
+  "remaining_headroom_usd": 0.392,
+  "trial_02_actual_estimated_including_vat_usd": 0.04934589,
+  "trial_02_actual_estimated_excluding_vat_usd": 0.0448599,
+  "external_requests_lifetime_in_ledger": 4,
+  "lifetime_request_cap": 4,
+  "trial_02_external_requests": 2,
+  "trial_02_retries": 0,
+  "cash_charge_or_topup_authorized": false,
+  "post_run_console_verification": "not performed"
+}

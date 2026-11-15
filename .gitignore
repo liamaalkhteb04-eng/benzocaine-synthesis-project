@@ -1,0 +1,12 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+models/**
+external/**
+.cache/**
+*.lock

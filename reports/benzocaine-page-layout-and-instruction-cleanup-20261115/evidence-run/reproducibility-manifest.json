@@ -1,0 +1,158 @@
+{
+  "scope": "provenance and reproducibility; not a claim that all models were rerun during final report generation",
+  "project_root_at_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project",
+  "benzocaine_prediction_run": "benzocaine-live-20261031-04",
+  "result_manifest_path": "results/benzocaine-live-20261031-04/manifest.json",
+  "result_manifest_sha256": "3bca312ead8e2fc3314031e93b2d19df39549ab909ad0f0e509c3007f93f0348",
+  "verified_result_status": {
+    "status": "passed",
+    "routes": 12,
+    "steps": 20,
+    "multi_step_routes": 8,
+    "unique_condition_reactions": 14,
+    "condition_step_mappings": 20,
+    "yield_step_outputs": 20,
+    "reaction_figures": 20,
+    "truncated_yield_inputs": 0,
+    "out_of_bounds_yields": 0,
+    "scope": "Actual output integrity and joins; no experimental/target-domain accuracy validation"
+  },
+  "reuse_records": {
+    "routes": {
+      "source_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03",
+      "files": {
+        "routes.json": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63",
+        "routes.log": "0bb8667c3dae5e6fddf5e1b8247230f4265c95abcee65902a26782d49a532a92",
+        "routes.metadata.json": "d1e6495818f2ae1d818db5a97a54cfc241c12e74083f1198943b56b7df1f3f26",
+        "routes.raw.json": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8"
+      }
+    },
+    "yields-rxn_yields": {
+      "source_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03",
+      "files": {
+        "yields-rxn_yields.json": "18fd9a6f0cd303e15b690b8936d3519eebefddb9899ea2cc1cfb2e5d3935a63a",
+        "yields-rxn_yields.log": "e36d45e11913deb9c28b2e8cb403193ba5f7ca5d61bccb55d011f4f2e244dda1",
+        "yields-rxn_yields.raw.json": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998"
+      }
+    }
+  },
+  "observed_commands_and_reuse_actions": [
+    {
+      "action": "executed",
+      "command": [
+        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\draw_structures.py",
+        "--input",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\input.json",
+        "--output-dir",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\target"
+      ],
+      "exit_code": 0
+    },
+    {
+      "action": "reuse_actual_successful_evidence",
+      "stem": "routes",
+      "source_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03"
+    },
+    {
+      "action": "executed",
+      "command": [
+        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\predict_conditions.py",
+        "--model",
+        "parrot",
+        "--input",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
+        "--output",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "action": "reuse_actual_successful_evidence",
+      "stem": "yields-rxn_yields",
+      "source_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03"
+    },
+    {
+      "action": "executed",
+      "command": [
+        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\draw_routes.py",
+        "--input",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
+        "--output-dir",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\figures"
+      ],
+      "exit_code": 0
+    },
+    {
+      "action": "executed",
+      "command": [
+        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\build_evidence.py",
+        "--run-dir",
+        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "runtime_config": {
+    "aizynthfinder": {
+      "python": "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-aizynth\\Scripts\\python.exe",
+      "config": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\configs\\aizynthfinder.json",
+      "timeout_seconds": 600,
+      "inference_route_limit": 12,
+      "multistep_reserve": 4
+    },
+    "parrot": {
+      "python": "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
+      "repository": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot",
+      "config": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\configs\\parrot.json"
+    },
+    "rxn_yields": {
+      "python": "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
+      "checkpoint": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint",
+      "metadata": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\configs\\yield-normalization.json"
+    }
+  },
+  "runtime_config_path": "configs/runtime.json",
+  "important_reproducibility_limit": "AiZynthFinder and Parrot/rxn_yields Python environments, repositories, and checkpoints are configured under the preserved aspirin-synthesis-project path. This was reused read-only; another machine must update configs/runtime.json and provide the corresponding assets. Routes and yields in run 04 were copied byte-for-byte from run 03; the condition inference was executed in run 04. Do not claim three fresh inferences in run 04.",
+  "mopac": {
+    "version": "23.2.5",
+    "executable": "tools/mopac-23.2.5-win/bin/mopac.exe",
+    "manifest": "analyses/mopac/run-manifest.json",
+    "jobs": 25,
+    "execution_kind": "PM7 gas-phase isolated-molecule geometry optimization"
+  },
+  "epi_suite": {
+    "mode": "EPI Suite Web beta remote endpoint",
+    "api_version": "1.1.0",
+    "status": "degraded",
+    "source_manifest": "analyses/epi-suite/run-metadata.json",
+    "local_installation": false
+  },
+  "visualizer": {
+    "version": "25.1.0",
+    "evidence": "reports/final-report-evidence-20261103/visualizer/visualizer-accessibility-session.json",
+    "measurements": "reports/final-report-evidence-20261103/visualizer/visualizer-measurements.csv"
+  },
+  "report_authoring": {
+    "provider": "Upstage",
+    "model": "solar-pro4-260806",
+    "actual_successful_authoring_run": "benzocaine-final-report-20261103-05",
+    "conversion": "local; reuses unchanged Solar Markdown response"
+  },
+  "secret_values_included": false
+}

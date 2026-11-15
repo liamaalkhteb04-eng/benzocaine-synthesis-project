@@ -1,0 +1,36 @@
+{
+  "captured_at_utc": "2026-11-01T10:31:01.770679+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "runtime_status_at_session": "degraded",
+  "runtime_health_at_session": {
+    "experimentalData": {
+      "available": true,
+      "source": "embedded:/webroot/data.parquet",
+      "bytes": 1651336.0,
+      "sha256": "c3a06b0892cbfcce4afef6d983366a1d84632142ffb02166c8202cbfeffef55c",
+      "rows": 58115.0,
+      "rowGroups": 39,
+      "searchCatalogAvailable": true,
+      "searchBytes": 5737515.0,
+      "searchSha256": "c248acdfd382e4ad799e95b2476c88b663e71bf83a8c8fc1cf53e622b6f61c94",
+      "searchIndexCandidates": 115594,
+      "searchIndexBuildMillis": 4133.0
+    },
+    "requestHandling": {
+      "healthy": false,
+      "unexpectedFailureCount": 6,
+      "estimationAvailable": true,
+      "estimateActive": false,
+      "lastFailurePath": "/help.zip"
+    }
+  },
+  "api_spec_sha256": "860c944bdb96a7f6831850c2e739f07701e9d48402fcaacc0f0da195713677eb",
+  "request_sha256": "9220e5431de933114aedc8fe89a0a5baddbfa304c9b99e484469a09ab4361218",
+  "response_sha256": "51ef6b0e722c53d753960074012d09fa07d0c2f0cd2b19c52652c05c4994e771",
+  "submitted": 5,
+  "experimental_mp_records": 5,
+  "experimental_bp_records": 4,
+  "estimated_values_returned": 5,
+  "note": "This CAS-confirmed request supplements, and does not overwrite, the original SMILES-only estimate response. Experimental values are reported only from the API experimentalValues arrays."
+}

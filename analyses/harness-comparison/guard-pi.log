@@ -1,0 +1,4 @@
+{"status": "listening_loopback", "harness": "pi", "port": 18711, "secret_value_printed": false, "forwarding_enabled": true}
+pi local GET /v1/models 200
+pi reserved its single upstream request; input_bytes=200417; request_body_bytes=223721
+pi local POST /v1/chat/completions 400

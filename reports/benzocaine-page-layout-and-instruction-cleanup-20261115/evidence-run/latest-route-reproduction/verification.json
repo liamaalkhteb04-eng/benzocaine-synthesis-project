@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "routes": 12,
+  "steps": 20,
+  "multi_step_routes": 8,
+  "unique_condition_reactions": 14,
+  "condition_step_mappings": 20,
+  "yield_step_outputs": 20,
+  "reaction_figures": 20,
+  "truncated_yield_inputs": 0,
+  "out_of_bounds_yields": 0,
+  "scope": "Actual output integrity and joins; no experimental/target-domain accuracy validation"
+}

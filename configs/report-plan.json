@@ -1,0 +1,13 @@
+{
+ "maximum_pages_including_references":20,
+ "planned_pages": {"summary_selection":1,"models_reproducibility":2,"routes_conditions_yields":5,"harness_comparison":2,"quantum_analysis":2,"physical_properties":2,"3d_accessibility":2,"conclusions_limits":1,"references":2},
+ "layout_reserve_pages":1,
+ "max_report_routes":3,
+ "selection_rule":"Initial score-order presentation shortlist; not a claim of chemical feasibility. Review chemistry before final authoring.",
+ "final_author":"Solar Pro 4",
+ "model":"solar-pro4-260806",
+ "temperature":0.0,
+ "max_tokens":10000,
+ "paid_calls_authorized":false,
+ "report_generation_authorized":false
+}

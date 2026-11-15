@@ -1,0 +1,15 @@
+{
+  "status": "passed_local_pre_send_inspection",
+  "wire_body_sha256": "7bffcce5f599a1341865383a61c9a441e335db2b1673a044a600dbb744f163ad",
+  "checks": {
+    "exact_two_messages": true,
+    "request_has_two_markers": true,
+    "no_harness_or_ab_comparison": true,
+    "only_two_replacements": true,
+    "citations_preserved": true,
+    "evidence_A_B_separated": true,
+    "no_api_key_fields": true,
+    "model_and_caps": true
+  },
+  "note": "Local request inspection only; not evidence of model response correctness."
+}

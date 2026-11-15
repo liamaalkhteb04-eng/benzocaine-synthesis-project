@@ -1,0 +1,71 @@
+﻿{
+    "source":  "user-reported Upstage Console balance on 2026-11-03",
+    "credits":  [
+                    {
+                        "name":  "Welcome coupon",
+                        "amount_usd":  9.63,
+                        "expires_utc":  "2026-11-25T05:05:00Z"
+                    },
+                    {
+                        "name":  "Survey Credit Reward",
+                        "amount_usd":  10,
+                        "expires_utc":  "2027-01-28T14:32:00Z"
+                    }
+                ],
+    "total_user_reported_usd":  19.63,
+    "auto_recharge":  "not configured (user-reported)",
+    "commitment_usd":  0,
+    "per_run":  {
+                    "max_output_tokens":  10000,
+                    "reasoning":  "off",
+                    "max_request_body_bytes":  350000,
+                    "upstream_requests":  1
+                },
+    "total_trial":  {
+                        "max_output_tokens":  20000,
+                        "max_upstream_requests":  2,
+                        "maximum_budget_usd":  1,
+                        "harnesses":  2,
+                        "estimated_max_with_10_percent_vat_usd":  0.264
+                    },
+    "published_rates_usd_per_million_tokens":  {
+                                                   "input":  0.3,
+                                                   "cached_input":  0.06,
+                                                   "source":  "https://www.upstage.ai/pricing/api",
+                                                   "checked":  "2026-11-03",
+                                                   "output":  1.2
+                                               },
+    "conservative_estimate":  {
+                                  "input_cost_per_call_usd":  0.108,
+                                  "pre_vat_total_two_calls_usd":  0.24,
+                                  "output_cost_per_call_usd":  0.012,
+                                  "basis":  "350000 UTF-8 request-body byte cap plus 10000 token envelope allowance; actual response usage is authoritative; pre-forward proxy must enforce body and one-request cap",
+                                  "input_token_allowance_per_call":  360000,
+                                  "with_10_percent_vat_usd":  0.264
+                              },
+    "gates":  {
+                  "calls_allowed":  false,
+                  "specific_coupon_eligibility_for_solar_pro4":  "Solar Pro 4 credit application confirmed by user-reported Usage transaction; specific coupon source not displayed",
+                  "post_credit_payg":  "official pricing FAQ: API use continues after credits run out and is billed to registered payment method; user-reported auto-recharge off is not an equivalent no-charge guarantee",
+                  "retry_zero":  "implemented in local guard; persistent one-request-per-harness ledger and 2 total; mock tests passed",
+                  "api_key":  "present in aspirin project root .env; not printed/copied; read-only process-scope bridge added; validity not tested",
+                  "request_cap_implemented":  true,
+                  "live_call_gate":  "trial budget exhausted after exactly two upstream POSTs; no retries allowed"
+              },
+    "usage_so_far":  {
+                         "cash_charged_usd":  null,
+                         "credits_used_usd":  null,
+                         "solar_api_requests":  2,
+                         "user_reported_prior_solar_pro4_credits_used_usd":  0.08,
+                         "coupon_identity":  "not displayed in Console Usage",
+                         "api_reported_open_code_usage":  {
+                                                              "input_tokens":  65736,
+                                                              "output_tokens":  9,
+                                                              "estimated_cost_ex_vat_usd":  0.0197316,
+                                                              "cash_or_credit_debit":  "not independently confirmed after call"
+                                                          },
+                         "pi_usage":  "HTTP 400; response contains no token usage or billed amount",
+                         "max_reserved_trial_total_including_vat_usd":  0.264
+                     },
+    "enforcement_status":  "IMPLEMENTED_AND_LOCAL_MOCK_VERIFIED_LIVE_BLOCKED_PENDING_ACCOUNT_CREDIT_CONFIRMATION"
+}

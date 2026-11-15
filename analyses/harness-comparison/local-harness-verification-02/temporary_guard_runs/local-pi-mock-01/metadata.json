@@ -1,0 +1,34 @@
+{
+  "harness": "pi",
+  "run_id": "local-pi-mock-01",
+  "timestamp_utc": "2026-11-03T12:26:13Z",
+  "upstream_model": "solar-pro4-260806",
+  "upstream_status": 200,
+  "latency_ms": 85.8,
+  "usage": {
+    "prompt_tokens": 17,
+    "completion_tokens": 8,
+    "total_tokens": 25
+  },
+  "estimated_api_cost_usd_ex_vat": 1.47e-05,
+  "estimated_api_cost_usd_including_vat": 1.617e-05,
+  "cached_input_tokens": 0,
+  "input_utf8_bytes": 200446,
+  "serialized_request_bytes": 223736,
+  "request_controls": {
+    "upstream_posts_total_max": 1,
+    "upstream_posts_this_harness_max": 1,
+    "cumulative_budget_usd": 1.0,
+    "max_input_tokens_estimate": 360000,
+    "max_output_tokens": 10000,
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "tools": "disabled",
+    "retries_to_upstream": 0,
+    "removed_unsupported_request_fields": []
+  },
+  "reserved_max_cost_usd_including_vat": 0.132,
+  "transport_error_type": null,
+  "api_key_logged": false,
+  "auto_retry": false
+}

@@ -1,0 +1,17 @@
+﻿{
+    "recorded_at":  "2026-11-01T21:01:23.5604436+09:00",
+    "process_id":  12132,
+    "window_title":  "Discovery Studio Visualizer",
+    "screenshot":  "screenshots/before-recovery-session.png",
+    "input_hashes":  [
+                         {
+                             "file":  "ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+                             "sha256":  "7FD21A27E7AB18D77EFB2A417EE7BA8D6797D73BDF136F5035681B7409DA2E4C"
+                         },
+                         {
+                             "file":  "p-aminobenzoic-acid-mopac-pm7-conformers.sdf",
+                             "sha256":  "E9707FCBB6B32BC598980CEB70E515686021EF063D62E5B758D5FA2A0A9C62B2"
+                         }
+                     ],
+    "action_state":  "route-01 document open; data table and script dock visible; do not save edits to source SDF"
+}

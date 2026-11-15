@@ -1,0 +1,122 @@
+{
+  "verification_scope": "existing_pc_submission_code_benzocaine_rerun",
+  "run_id": "benzocaine-live-repro-20261105-01",
+  "target": {
+    "name": "Benzocaine",
+    "smiles": "CCOC(=O)c1ccc(N)cc1",
+    "formula": "C9H11NO2"
+  },
+  "preflight": {
+    "status": "passed",
+    "model_calls": 0
+  },
+  "statuses": {
+    "routes": "success",
+    "conditions-parrot": "success",
+    "yields-rxn_yields": "success"
+  },
+  "inference_executed": {
+    "routes": true,
+    "conditions": true,
+    "yields": true
+  },
+  "counts": {
+    "route_predictions": 12,
+    "route_trees_created": 70,
+    "solved_routes": 54,
+    "yieldable_route_steps": 20,
+    "condition_reaction_predictions": 14,
+    "yield_step_predictions": 20
+  },
+  "route_step_mapping": {
+    "status": "passed",
+    "map_errors": [],
+    "condition_step_mappings": 20,
+    "expected_steps": 20,
+    "yield_steps": 20
+  },
+  "comparison_to_historical_benzocaine": {
+    "reference_route_run": "benzocaine-live-20261031-03",
+    "reference_condition_run": "benzocaine-live-20261031-04",
+    "routes": {
+      "same_route_ids": true,
+      "same_route_step_reactions": true,
+      "new_route_ids": [],
+      "missing_route_ids": [],
+      "changed_route_ids": [],
+      "all_selected_route_metadata_scores_and_steps_identical": true
+    },
+    "conditions": {
+      "same_reactions": true,
+      "same_candidates_and_step_mappings": true,
+      "new_reactions": [],
+      "missing_reactions": [],
+      "changed_reactions": [],
+      "candidate_lists_and_step_mappings_identical": true
+    },
+    "yields": {
+      "same_route_step_keys": true,
+      "same_raw_and_normalized_values": true,
+      "changed_steps": [],
+      "new_steps": [],
+      "missing_steps": [],
+      "all_raw_and_normalized_step_predictions_identical": true
+    },
+    "search_time_seconds": {
+      "previous": 8.4323410987854,
+      "rerun": 15.464065074920654
+    },
+    "search_settings_same": true,
+    "model_and_stock_hashes_same": false,
+    "seed": 42,
+    "previous_seed": 42,
+    "model_and_template_hashes_same": false,
+    "stock_source_hash_same": true,
+    "stock_provenance": {
+      "source_sha256": "99d39a6f807c3e815487500bafc2b4a9dc66a31af189e3b1776874fb0d4a188d",
+      "source_rows": 17422831,
+      "extracted_rows": 17422831,
+      "manifest_status": "validated"
+    },
+    "performance_difference_interpretation": "AiZynth search time was 8.43 s in the historical run and 15.46 s in this rerun. Route content, scores, settings, runtime versions and model/template hashes match; the timing difference is observed, but its cause was not isolated and is attributed only tentatively to runtime load/cache variability."
+  },
+  "checks": {
+    "preflight_passed": true,
+    "input_same_benzocaine": true,
+    "all_model_statuses_success": true,
+    "all_inference_flags_true": true,
+    "routes_present": true,
+    "condition_predictions_present": true,
+    "yield_predictions_present": true,
+    "route_step_mapping_valid": true,
+    "expected_yield_steps_covered": true,
+    "logs_present": true,
+    "evidence_bundle_present": true,
+    "pipeline_integrity_verifier_passed": true
+  },
+  "costs": {
+    "solar_calls": 0,
+    "external_paid_api_calls": 0,
+    "paid_model_api_calls": 0
+  },
+  "scope_limits": {
+    "different_molecule_tested": false,
+    "new_pc_tested": false,
+    "report_values_modified": false,
+    "github_pushed": false,
+    "report_generated": false
+  },
+  "status": "passed",
+  "pipeline_integrity_verification": {
+    "status": "passed",
+    "routes": 12,
+    "steps": 20,
+    "multi_step_routes": 8,
+    "unique_condition_reactions": 14,
+    "condition_step_mappings": 20,
+    "yield_step_outputs": 20,
+    "reaction_figures": 20,
+    "truncated_yield_inputs": 0,
+    "out_of_bounds_yields": 0
+  }
+}

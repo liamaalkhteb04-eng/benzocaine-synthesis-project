@@ -1,0 +1,4909 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "target_id": "benzocaine",
+    "name": "Benzocaine",
+    "name_ko": "벤조카인",
+    "smiles": "CCOC(=O)c1ccc(N)cc1",
+    "expected_formula": "C9H11NO2",
+    "pubchem_cid": 2337,
+    "identity_reference": "https://pubchem.ncbi.nlm.nih.gov/compound/2337",
+    "chemical_form": "neutral free base",
+    "purpose": "Final course target; actual synthesis predictions and evidence-based additional analyses"
+  },
+  "model_status": {
+    "routes": "success",
+    "conditions": "success",
+    "yields": "success"
+  },
+  "route_summary": [
+    {
+      "route_id": "route-01",
+      "step_count": 1,
+      "scores": {
+        "state score": 0.9976287063411217,
+        "number of reactions": 1,
+        "number of pre-cursors": 1,
+        "number of pre-cursors in stock": 1
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-02",
+      "step_count": 1,
+      "scores": {
+        "state score": 0.9976287063411217,
+        "number of reactions": 1,
+        "number of pre-cursors": 1,
+        "number of pre-cursors in stock": 1
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-03",
+      "step_count": 1,
+      "scores": {
+        "state score": 0.9976287063411217,
+        "number of reactions": 1,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-04",
+      "step_count": 1,
+      "scores": {
+        "state score": 0.9976287063411217,
+        "number of reactions": 1,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-05",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-06",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-07",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-08",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-09",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-10",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-11",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    },
+    {
+      "route_id": "route-12",
+      "step_count": 2,
+      "scores": {
+        "state score": 0.994039853898894,
+        "number of reactions": 2,
+        "number of pre-cursors": 2,
+        "number of pre-cursors in stock": 2
+      },
+      "is_solved": true,
+      "overall_yield_percent": null,
+      "overall_yield_reason": "No experimentally validated overall yield; branching and independently predicted steps are not combined."
+    }
+  ],
+  "steps": [
+    {
+      "route_id": "route-01",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc([N+](=O)[O-])cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "664f7756f7526ad6c07e82dd3b3c15f7aabccbc99837dd22105068a2cfc385b5",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 33350,
+        "policy_probability": 0.42239999771118164,
+        "policy_probability_rank": 0,
+        "policy_name": "uspto",
+        "template_code": 17064,
+        "template": "[NH2;D1;+0:1]-[c:2]>>O=[N+;H0;D3:1](-[O-])-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([N+:10](=[O:13])[O-:14])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -1.700762152671814
+          },
+          {
+            "rank": 2,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.0481550693511963
+          },
+          {
+            "rank": 3,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.7931230068206787
+          },
+          {
+            "rank": 4,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -2.878655195236206
+          },
+          {
+            "rank": 5,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.4926724433898926
+          },
+          {
+            "rank": 6,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.8862576484680176
+          },
+          {
+            "rank": 7,
+            "catalyst1": "[Fe]",
+            "solvent1": "CCO",
+            "solvent2": "O",
+            "reagent1": "[Cl-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -3.8886513710021973
+          },
+          {
+            "rank": 8,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O=C[O-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -4.486337661743164
+          },
+          {
+            "rank": 9,
+            "catalyst1": "[Fe]",
+            "solvent1": "CC(=O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.683133125305176
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "O=C[O-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -5.087017059326172
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "",
+            "sequence_score": -5.712345600128174
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Fe]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[Cl-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -6.493983268737793
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Fe]",
+            "solvent1": "CCO",
+            "solvent2": "O",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.5203938484191895
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Fe]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.688980579376221
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Fe]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Cl-].[NH4+]",
+            "sequence_score": -6.779082298278809
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-01",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.46616947650909424,
+        "yield_percent": 82.95371431744555,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 46,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-02",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc(NC(C)=O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "8063032398e59c77d82569a4231c9d8f1dc9cd333085943b3f9ae7b5eafd5071",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 1668,
+        "policy_probability": 0.011800000444054604,
+        "policy_probability_rank": 5,
+        "policy_name": "uspto",
+        "template_code": 21399,
+        "template": "[NH2;D1;+0:1]-[c:2]>>C-C(=O)-[NH;D2;+0:1]-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([CH3:14])=[O:15])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -1.3239554166793823
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "Cl",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.660543441772461
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -3.2928555011749268
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "Cl",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -3.6584954261779785
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "Cl",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -3.7139711380004883
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "O=S(=O)(O)O",
+            "sequence_score": -4.38345193862915
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "Cl",
+            "sequence_score": -4.546271324157715
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -4.650010585784912
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -6.109102249145508
+          },
+          {
+            "rank": 10,
+            "catalyst1": "Cl",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -6.133055210113525
+          },
+          {
+            "rank": 11,
+            "catalyst1": "Cl",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "",
+            "sequence_score": -8.281896591186523
+          },
+          {
+            "rank": 12,
+            "catalyst1": "Cl",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "",
+            "sequence_score": -9.194323539733887
+          },
+          {
+            "rank": 13,
+            "catalyst1": "Cl",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.742517471313477
+          },
+          {
+            "rank": 14,
+            "catalyst1": "Cl",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.823410987854004
+          },
+          {
+            "rank": 15,
+            "catalyst1": "Cl",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOC(C)=O",
+            "reagent2": "O=C([O-])O.[Na+]",
+            "sequence_score": -10.718693733215332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-02",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.21513395011425018,
+        "yield_percent": 77.69549187778327,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 47,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-03",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true,
+        true
+      ],
+      "reaction_smiles": "C[Si](C)(C)N[Si](C)(C)C.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "C[Si](C)(C)N[Si](C)(C)C",
+        "CCOC(=O)c1ccc(Br)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "da486c14b949364bbad0a80d030bfb42636d243c23ed7c3a39e69b37c1cd5b78",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 61,
+        "policy_probability": 0.0013000000035390258,
+        "policy_probability_rank": 19,
+        "policy_name": "uspto",
+        "template_code": 36294,
+        "template": "[NH2;D1;+0:4]-[c;H0;D3;+0:1](:[c:2]):[c:3]>>Br-[c;H0;D3;+0:1](:[c:2]):[c:3].C-[Si](-C)(-C)-[NH;D2;+0:4]-[Si](-C)(-C)-C",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([Br:13])[cH:11][cH:12]1.[NH:10]([Si:14]([CH3:15])([CH3:16])[CH3:17])[Si:18]([CH3:19])([CH3:20])[CH3:21]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "C[Si](C)(C)N[Si](C)(C)C.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(Br)cc1.C[Si](C)(C)N[Si](C)(C)C>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+            "sequence_score": -2.1571593284606934
+          },
+          {
+            "rank": 2,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+            "sequence_score": -3.3405747413635254
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "O=C([O-])[O-].[Cs+].[Cs+]",
+            "reagent2": "",
+            "sequence_score": -3.3863651752471924
+          },
+          {
+            "rank": 4,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.122430324554443
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.343253135681152
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.805835247039795
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.908517360687256
+          },
+          {
+            "rank": 8,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+            "reagent2": "",
+            "sequence_score": -5.606592178344727
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cc1ccccc1",
+            "reagent2": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+            "sequence_score": -5.694052696228027
+          },
+          {
+            "rank": 10,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "c1ccncc1",
+            "reagent2": "",
+            "sequence_score": -5.862532615661621
+          },
+          {
+            "rank": 11,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])[O-].[Cs+].[Cs+]",
+            "reagent2": "",
+            "sequence_score": -5.94991397857666
+          },
+          {
+            "rank": 12,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+            "reagent2": "",
+            "sequence_score": -6.159550666809082
+          },
+          {
+            "rank": 13,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccccc1",
+            "reagent2": "",
+            "sequence_score": -6.474880218505859
+          },
+          {
+            "rank": 14,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cc1ccccc1",
+            "reagent2": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+            "sequence_score": -6.5210981369018555
+          },
+          {
+            "rank": 15,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "",
+            "sequence_score": -6.566495895385742
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-03",
+        "step_id": "step-01",
+        "reaction_smiles": "C[Si](C)(C)N[Si](C)(C)C.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": -0.1407427340745926,
+        "yield_percent": 70.24125305578036,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 59,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-04",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true,
+        true
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc(C(=O)O)cc1.[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc(C(=O)O)cc1",
+        "[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "ce6d7f4d8f151411474dd8b20aa72a759717b847f7a70371bc1f8953b7a24100",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 70,
+        "policy_probability": 0.00019999999494757503,
+        "policy_probability_rank": 49,
+        "policy_name": "uspto",
+        "template_code": 34347,
+        "template": "[NH2;D1;+0:4]-[c;H0;D3;+0:1](:[c:2]):[c:3]>>O-C(=O)-[c;H0;D3;+0:1](:[c:2]):[c:3].O=P(-[N;H0;D2;+0:4]=[N+]=[N-])(-c1:c:c:c:c:c:1)-c1:c:c:c:c:c:1",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([C:13]([OH:14])=[O:15])[cH:11][cH:12]1.[N:10]([P:16](=[O:17])([c:18]1[cH:19][cH:20][cH:21][cH:22][cH:23]1)[c:24]1[cH:25][cH:26][cH:27][cH:28][cH:29]1)=[N+:30]=[N-:31]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc(C(=O)O)cc1.[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(C(=O)O)cc1.[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CC(C)(C)O",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -0.8248026967048645
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CC(C)(C)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.1628024578094482
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "CN(C)C=O",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "O",
+            "sequence_score": -3.585378408432007
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "CC(C)(C)O",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "",
+            "sequence_score": -3.888746976852417
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -4.628708839416504
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CN(C)C=O",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "",
+            "sequence_score": -5.177088737487793
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CN(C)C=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.913084983825684
+          },
+          {
+            "rank": 8,
+            "catalyst1": "Cl[Cu]",
+            "solvent1": "CC(C)(C)O",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -6.799911022186279
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.032540321350098
+          },
+          {
+            "rank": 10,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "",
+            "sequence_score": -7.450817108154297
+          },
+          {
+            "rank": 11,
+            "catalyst1": "Cl[Cu]",
+            "solvent1": "CC(C)(C)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.830256462097168
+          },
+          {
+            "rank": 12,
+            "catalyst1": "Cl[Cu]",
+            "solvent1": "CC(C)(C)O",
+            "solvent2": "",
+            "reagent1": "CCN(C(C)C)C(C)C",
+            "reagent2": "",
+            "sequence_score": -10.234187126159668
+          },
+          {
+            "rank": 13,
+            "catalyst1": "Cl[Cu]",
+            "solvent1": "CN(C)C=O",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -11.263615608215332
+          },
+          {
+            "rank": 14,
+            "catalyst1": "Cl[Cu]",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "O",
+            "sequence_score": -11.529948234558105
+          },
+          {
+            "rank": 15,
+            "catalyst1": "Cl[Cu]",
+            "solvent1": "CN(C)C=O",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "",
+            "sequence_score": -14.083959579467773
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-04",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(=O)c1ccc(C(=O)O)cc1.[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": -0.02788764238357544,
+        "yield_percent": 72.60513032877832,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 75,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CC(=O)O>>CCO",
+      "precursor_smiles": [
+        "CC(=O)O"
+      ],
+      "product_smiles": "CCO",
+      "metadata": {
+        "template_hash": "c42f96a0658c03bc12dc20efce06e66daaeccc675d73631eea24ea610a7227b8",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 3921,
+        "policy_probability": 0.09149999916553497,
+        "policy_probability_rank": 0,
+        "policy_name": "uspto",
+        "template_code": 32658,
+        "template": "[C:2]-[CH2;D2;+0:1]-[O;D1;H1:3]>>O=[C;H0;D3;+0:1](-[C:2])-[O;D1;H1:3]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][C:2]([OH:3])=[O:4]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CC(=O)O>>CCO",
+        "canonical_reaction_smiles": "CC(=O)O>>CCO",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -1.8564977645874023
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -2.797421455383301
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.994331121444702
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -3.930743455886841
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -4.180272579193115
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "C1CCOC1",
+            "reagent2": "",
+            "sequence_score": -4.333145618438721
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -4.794863700866699
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.26922607421875
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "C1CCOC1",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -5.376748085021973
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.290542602539062
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -8.367009162902832
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.964522361755371
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "CC(=O)O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -9.066823959350586
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -9.778876304626465
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CC(=O)O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -10.121355056762695
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-05",
+        "step_id": "step-01",
+        "reaction_smiles": "CC(=O)O>>CCO",
+        "raw_value": 0.2100452482700348,
+        "yield_percent": 77.58890327412914,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 13,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 6214,
+        "policy_probability": 0.1680999994277954,
+        "policy_probability_rank": 2,
+        "policy_name": "uspto",
+        "template_code": 31869,
+        "template": "[C:4]-[O;H0;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3].[C:4]-[OH;D1;+0:5]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -2.1754837036132812
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CC(=O)Cl",
+            "reagent2": "",
+            "sequence_score": -2.3472180366516113
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.6159138679504395
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -2.7508246898651123
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccc(S(=O)(=O)O)cc1",
+            "reagent2": "O",
+            "sequence_score": -2.9795284271240234
+          },
+          {
+            "rank": 6,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.796043872833252
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(Cl)Cl",
+            "reagent2": "",
+            "sequence_score": -5.475196838378906
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.52998161315918
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.658388137817383
+          },
+          {
+            "rank": 10,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -6.2488322257995605
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.724697113037109
+          },
+          {
+            "rank": 12,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.166314601898193
+          },
+          {
+            "rank": 13,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -7.498518466949463
+          },
+          {
+            "rank": 14,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.016460418701172
+          },
+          {
+            "rank": 15,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.648869514465332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-05",
+        "step_id": "step-02",
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.31552639603614807,
+        "yield_percent": 79.79832496878097,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 43,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-06",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCOC(C)=O>>CCO",
+      "precursor_smiles": [
+        "CCOC(C)=O"
+      ],
+      "product_smiles": "CCO",
+      "metadata": {
+        "template_hash": "13a53dfded53d8e3e9188e0a246098e61687a926572896c49176fbd03c843f33",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 5091,
+        "policy_probability": 0.07039999961853027,
+        "policy_probability_rank": 1,
+        "policy_name": "uspto",
+        "template_code": 3300,
+        "template": "[C:3]-[C:2]-[OH;D1;+0:1]>>C-C(=O)-[O;H0;D2;+0:1]-[C:2]-[C:3]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][CH2:2][O:3][C:4]([CH3:5])=[O:6]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(C)=O>>CCO",
+        "canonical_reaction_smiles": "CCOC(C)=O>>CCO",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -1.2221254110336304
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -1.3163814544677734
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -3.3732333183288574
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -3.429737091064453
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -3.750460386276245
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "[H-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -3.8066563606262207
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.729113578796387
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -4.859377384185791
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -4.943013668060303
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.748725414276123
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -7.56317138671875
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -7.875537395477295
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.461974143981934
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -9.101846694946289
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.288086891174316
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-06",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(C)=O>>CCO",
+        "raw_value": 0.29851022362709045,
+        "yield_percent": 79.44190203182289,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 15,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-06",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 6214,
+        "policy_probability": 0.1680999994277954,
+        "policy_probability_rank": 2,
+        "policy_name": "uspto",
+        "template_code": 31869,
+        "template": "[C:4]-[O;H0;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3].[C:4]-[OH;D1;+0:5]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -2.1754837036132812
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CC(=O)Cl",
+            "reagent2": "",
+            "sequence_score": -2.3472180366516113
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.6159138679504395
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -2.7508246898651123
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccc(S(=O)(=O)O)cc1",
+            "reagent2": "O",
+            "sequence_score": -2.9795284271240234
+          },
+          {
+            "rank": 6,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.796043872833252
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(Cl)Cl",
+            "reagent2": "",
+            "sequence_score": -5.475196838378906
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.52998161315918
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.658388137817383
+          },
+          {
+            "rank": 10,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -6.2488322257995605
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.724697113037109
+          },
+          {
+            "rank": 12,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.166314601898193
+          },
+          {
+            "rank": 13,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -7.498518466949463
+          },
+          {
+            "rank": 14,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.016460418701172
+          },
+          {
+            "rank": 15,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.648869514465332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-06",
+        "step_id": "step-02",
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.31552639603614807,
+        "yield_percent": 79.79832496878097,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 43,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-07",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCOCc1ccccc1>>CCO",
+      "precursor_smiles": [
+        "CCOCc1ccccc1"
+      ],
+      "product_smiles": "CCO",
+      "metadata": {
+        "template_hash": "81e5d479b07120952b3f1fc090d28c2998576f7437fc81cc6464bff14c12c10a",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 1954,
+        "policy_probability": 0.027899999171495438,
+        "policy_probability_rank": 3,
+        "policy_name": "uspto",
+        "template_code": 21642,
+        "template": "[C:1]-[OH;D1;+0:2]>>[C:1]-[O;H0;D2;+0:2]-C-c1:c:c:c:c:c:1",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][CH2:2][O:3][CH2:4][c:5]1[cH:6][cH:7][cH:8][cH:9][cH:10]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOCc1ccccc1>>CCO",
+        "canonical_reaction_smiles": "CCOCc1ccccc1>>CCO",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -1.4996020793914795
+          },
+          {
+            "rank": 2,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -2.1760787963867188
+          },
+          {
+            "rank": 3,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.4178550243377686
+          },
+          {
+            "rank": 4,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.674546957015991
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.034674882888794
+          },
+          {
+            "rank": 6,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.235321283340454
+          },
+          {
+            "rank": 7,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.5359725952148438
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.0752272605896
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.450875282287598
+          },
+          {
+            "rank": 10,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "C",
+            "reagent2": "C[O-].[Na+]",
+            "sequence_score": -4.977729320526123
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "C1=CCCCC1",
+            "reagent2": "",
+            "sequence_score": -5.179065704345703
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "",
+            "sequence_score": -5.334011077880859
+          },
+          {
+            "rank": 13,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -5.365540981292725
+          },
+          {
+            "rank": 14,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -6.804378509521484
+          },
+          {
+            "rank": 15,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O=C1CCC(=O)N1Br",
+            "reagent2": "",
+            "sequence_score": -6.853660583496094
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-07",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOCc1ccccc1>>CCO",
+        "raw_value": 0.4255966544151306,
+        "yield_percent": 82.10387076486666,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 18,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-07",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 6214,
+        "policy_probability": 0.1680999994277954,
+        "policy_probability_rank": 2,
+        "policy_name": "uspto",
+        "template_code": 31869,
+        "template": "[C:4]-[O;H0;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3].[C:4]-[OH;D1;+0:5]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -2.1754837036132812
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CC(=O)Cl",
+            "reagent2": "",
+            "sequence_score": -2.3472180366516113
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.6159138679504395
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -2.7508246898651123
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccc(S(=O)(=O)O)cc1",
+            "reagent2": "O",
+            "sequence_score": -2.9795284271240234
+          },
+          {
+            "rank": 6,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.796043872833252
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(Cl)Cl",
+            "reagent2": "",
+            "sequence_score": -5.475196838378906
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.52998161315918
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.658388137817383
+          },
+          {
+            "rank": 10,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -6.2488322257995605
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.724697113037109
+          },
+          {
+            "rank": 12,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.166314601898193
+          },
+          {
+            "rank": 13,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -7.498518466949463
+          },
+          {
+            "rank": 14,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.016460418701172
+          },
+          {
+            "rank": 15,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.648869514465332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-07",
+        "step_id": "step-02",
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.31552639603614807,
+        "yield_percent": 79.79832496878097,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 43,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-08",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "COC(C)=O>>CCO",
+      "precursor_smiles": [
+        "COC(C)=O"
+      ],
+      "product_smiles": "CCO",
+      "metadata": {
+        "template_hash": "fa0d851e142c3b477b32521aea18d9f060fb648ef723206a28e37b25b71593bd",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 2881,
+        "policy_probability": 0.020099999383091927,
+        "policy_probability_rank": 5,
+        "policy_name": "uspto",
+        "template_code": 41576,
+        "template": "[C:3]-[CH2;D2;+0:2]-[OH;D1;+0:1]>>C-[O;H0;D2;+0:1]-[C;H0;D3;+0:2](=O)-[C:3]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][C:2]([O:3][CH3:4])=[O:5]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "COC(C)=O>>CCO",
+        "canonical_reaction_smiles": "COC(C)=O>>CCO",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -1.083698034286499
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -1.4739887714385986
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -3.3740928173065186
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -3.6971192359924316
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "[H-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -4.233254909515381
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -4.515024185180664
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.214523792266846
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -5.36590576171875
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -5.953917503356934
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.57941198348999
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -10.0001802444458
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CO",
+            "reagent2": "",
+            "sequence_score": -10.685522079467773
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -10.78955078125
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -11.431573867797852
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -11.83074951171875
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-08",
+        "step_id": "step-01",
+        "reaction_smiles": "COC(C)=O>>CCO",
+        "raw_value": 0.15397490561008453,
+        "yield_percent": 76.41444666152056,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 14,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-08",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 6214,
+        "policy_probability": 0.1680999994277954,
+        "policy_probability_rank": 2,
+        "policy_name": "uspto",
+        "template_code": 31869,
+        "template": "[C:4]-[O;H0;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3].[C:4]-[OH;D1;+0:5]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -2.1754837036132812
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CC(=O)Cl",
+            "reagent2": "",
+            "sequence_score": -2.3472180366516113
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.6159138679504395
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -2.7508246898651123
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccc(S(=O)(=O)O)cc1",
+            "reagent2": "O",
+            "sequence_score": -2.9795284271240234
+          },
+          {
+            "rank": 6,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.796043872833252
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(Cl)Cl",
+            "reagent2": "",
+            "sequence_score": -5.475196838378906
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.52998161315918
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.658388137817383
+          },
+          {
+            "rank": 10,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -6.2488322257995605
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.724697113037109
+          },
+          {
+            "rank": 12,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.166314601898193
+          },
+          {
+            "rank": 13,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -7.498518466949463
+          },
+          {
+            "rank": 14,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.016460418701172
+          },
+          {
+            "rank": 15,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.648869514465332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-08",
+        "step_id": "step-02",
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.31552639603614807,
+        "yield_percent": 79.79832496878097,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 43,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-09",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCO[Si](C)(C)C(C)(C)C>>CCO",
+      "precursor_smiles": [
+        "CCO[Si](C)(C)C(C)(C)C"
+      ],
+      "product_smiles": "CCO",
+      "metadata": {
+        "template_hash": "5a6df5201d3deedc0c8a2e95760ac64e7b20bed15455d053a10230fddcd650d2",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 5956,
+        "policy_probability": 0.008799999952316284,
+        "policy_probability_rank": 7,
+        "policy_name": "uspto",
+        "template_code": 15128,
+        "template": "[C:2]-[OH;D1;+0:1]>>C-C(-C)(-C)-[Si](-C)(-C)-[O;H0;D2;+0:1]-[C:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][CH2:2][O:3][Si:4]([C:5]([CH3:6])([CH3:7])[CH3:8])([CH3:9])[CH3:10]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO[Si](C)(C)C(C)(C)C>>CCO",
+        "canonical_reaction_smiles": "CCO[Si](C)(C)C(C)(C)C>>CCO",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+            "reagent2": "",
+            "sequence_score": -1.603074073791504
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.5312907695770264
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+            "sequence_score": -2.708242177963257
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -3.4517018795013428
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -3.7617411613464355
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.6967387199401855
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "Cl",
+            "sequence_score": -4.927858829498291
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -4.979980945587158
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[K+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.1338791847229
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -6.192807674407959
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -6.632704734802246
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.957650661468506
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.30918025970459
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -7.365476131439209
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -8.29153060913086
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-09",
+        "step_id": "step-01",
+        "reaction_smiles": "CCO[Si](C)(C)C(C)(C)C>>CCO",
+        "raw_value": 0.4711652398109436,
+        "yield_percent": 83.05835621843174,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 24,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-09",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 6214,
+        "policy_probability": 0.1680999994277954,
+        "policy_probability_rank": 2,
+        "policy_name": "uspto",
+        "template_code": 31869,
+        "template": "[C:4]-[O;H0;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3].[C:4]-[OH;D1;+0:5]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -2.1754837036132812
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CC(=O)Cl",
+            "reagent2": "",
+            "sequence_score": -2.3472180366516113
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.6159138679504395
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -2.7508246898651123
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccc(S(=O)(=O)O)cc1",
+            "reagent2": "O",
+            "sequence_score": -2.9795284271240234
+          },
+          {
+            "rank": 6,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.796043872833252
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(Cl)Cl",
+            "reagent2": "",
+            "sequence_score": -5.475196838378906
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.52998161315918
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.658388137817383
+          },
+          {
+            "rank": 10,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -6.2488322257995605
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.724697113037109
+          },
+          {
+            "rank": 12,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.166314601898193
+          },
+          {
+            "rank": 13,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -7.498518466949463
+          },
+          {
+            "rank": 14,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.016460418701172
+          },
+          {
+            "rank": 15,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.648869514465332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-09",
+        "step_id": "step-02",
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.31552639603614807,
+        "yield_percent": 79.79832496878097,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 43,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-10",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true,
+        true
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+        "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "metadata": {
+        "template_hash": "6c1f0998f5a1204d803a7d26455d4b60ade442865bd5ae920a2684c3975f067c",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 47,
+        "policy_probability": 0.008200000040233135,
+        "policy_probability_rank": 16,
+        "policy_name": "uspto",
+        "template_code": 18019,
+        "template": "[C;D1;H3:5]-[C:4](-[C;D1;H3:6])(-[C;D1;H3:7])-[#8:3]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[NH;D2;+0:8]-[c:9]>>C-C(-C)(-C)-O-C(=O)-O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[#8:3]-[C:4](-[C;D1;H3:5])(-[C;D1;H3:6])-[C;D1;H3:7].O=[N+;H0;D3:8](-[O-])-[c:9]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19])[cH:11][cH:12]1>>[C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])(=[O:19])[O:20][C:21]([O:22][C:23]([CH3:24])([CH3:25])[CH3:26])=[O:27].[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([N+:10](=[O:28])[O-:29])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "canonical_reaction_smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -1.4688613414764404
+          },
+          {
+            "rank": 2,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.1484031677246094
+          },
+          {
+            "rank": 3,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -2.6139049530029297
+          },
+          {
+            "rank": 4,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.623936891555786
+          },
+          {
+            "rank": 5,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.271146774291992
+          },
+          {
+            "rank": 6,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.631624698638916
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.515300273895264
+          },
+          {
+            "rank": 8,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -5.079000949859619
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.292091369628906
+          },
+          {
+            "rank": 10,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.527890682220459
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -5.579928398132324
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "",
+            "sequence_score": -5.60085916519165
+          },
+          {
+            "rank": 13,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -5.994451522827148
+          },
+          {
+            "rank": 14,
+            "catalyst1": "",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -6.929775714874268
+          },
+          {
+            "rank": 15,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -7.044196128845215
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-10",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "raw_value": -0.30631986260414124,
+        "yield_percent": 66.7730532147765,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 90,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-10",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "303ca079c60ed19d48241eab345c45a0301370b759b04d5bf70d770b04fd164b",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 1947,
+        "policy_probability": 0.0052999998442828655,
+        "policy_probability_rank": 7,
+        "policy_name": "uspto",
+        "template_code": 8083,
+        "template": "[NH2;D1;+0:1]-[c:2]>>C-C(-C)(-C)-O-C(=O)-[NH;D2;+0:1]-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O=C(O)C(F)(F)F",
+            "reagent2": "",
+            "sequence_score": -0.9713290333747864
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.1432390213012695
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.4259133338928223
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "Cl",
+            "sequence_score": -4.477711200714111
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "O=C(O)C(F)(F)F",
+            "sequence_score": -4.5558342933654785
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.963832855224609
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "Cl",
+            "sequence_score": -5.00631046295166
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.375456809997559
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "CCOC(C)=O",
+            "reagent2": "Cl",
+            "sequence_score": -5.666500568389893
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.624959945678711
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.614686965942383
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -9.368593215942383
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.488094329833984
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -10.797574996948242
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -10.971100807189941
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-10",
+        "step_id": "step-02",
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.5715302228927612,
+        "yield_percent": 85.16061406924716,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 55,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-11",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true,
+        true
+      ],
+      "reaction_smiles": "CC(C)(C)OC(N)=O.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "precursor_smiles": [
+        "CC(C)(C)OC(N)=O",
+        "CCOC(=O)c1ccc(Br)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "metadata": {
+        "template_hash": "75721415d53dcdeab06befe74ff673721c6b194c12e47ced2154269ce281cede",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 59,
+        "policy_probability": 0.0032999999821186066,
+        "policy_probability_rank": 23,
+        "policy_name": "uspto",
+        "template_code": 19596,
+        "template": "[C;D1;H3:4]-[C:5](-[C;D1;H3:6])(-[C;D1;H3:7])-[#8:8]-[C:9](=[O;D1;H0:11])-[NH;D2;+0:10]-[c;H0;D3;+0:1](:[c:2]):[c:3]>>Br-[c;H0;D3;+0:1](:[c:2]):[c:3].[C;D1;H3:4]-[C:5](-[C;D1;H3:6])(-[C;D1;H3:7])-[#8:8]-[C:9](-[NH2;D1;+0:10])=[O;D1;H0:11]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([Br:20])[cH:11][cH:12]1.[NH2:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CC(C)(C)OC(N)=O.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "canonical_reaction_smiles": "CC(C)(C)OC(N)=O.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -1.0220422744750977
+          },
+          {
+            "rank": 2,
+            "catalyst1": "[Cu]I",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -2.820655584335327
+          },
+          {
+            "rank": 3,
+            "catalyst1": "[Cu]I",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "N[C@@H]1CCCC[C@H]1N",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -3.03572678565979
+          },
+          {
+            "rank": 4,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -3.646731376647949
+          },
+          {
+            "rank": 5,
+            "catalyst1": "[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "N[C@@H]1CCCC[C@H]1N",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -4.312783718109131
+          },
+          {
+            "rank": 6,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "N[C@@H]1CCCC[C@H]1N",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -4.796841621398926
+          },
+          {
+            "rank": 7,
+            "catalyst1": "[Cu]I",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -5.288001537322998
+          },
+          {
+            "rank": 8,
+            "catalyst1": "[Cu]I",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "O=C([O-])[O-].[Cs+].[Cs+]",
+            "reagent2": "",
+            "sequence_score": -5.337760925292969
+          },
+          {
+            "rank": 9,
+            "catalyst1": "[Cu]I",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "N[C@@H]1CCCC[C@H]1N",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -5.960392951965332
+          },
+          {
+            "rank": 10,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -5.961459159851074
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CN[C@@H]1CCCC[C@H]1NC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -6.04400110244751
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Cu]I",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])[O-].[K+].[K+]",
+            "reagent2": "",
+            "sequence_score": -6.3879714012146
+          },
+          {
+            "rank": 13,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "Cc1ccccc1",
+            "reagent1": "CNCCNC",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -6.52508544921875
+          },
+          {
+            "rank": 14,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "N[C@@H]1CCCC[C@H]1N",
+            "reagent2": "O=C([O-])[O-].[K+].[K+]",
+            "sequence_score": -6.709542274475098
+          },
+          {
+            "rank": 15,
+            "catalyst1": "I[Cu]I",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "O=C([O-])[O-].[Cs+].[Cs+]",
+            "reagent2": "",
+            "sequence_score": -7.512386798858643
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-11",
+        "step_id": "step-01",
+        "reaction_smiles": "CC(C)(C)OC(N)=O.CCOC(=O)c1ccc(Br)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "raw_value": -0.17951302230358124,
+        "yield_percent": 69.4291656094912,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 71,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-11",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "303ca079c60ed19d48241eab345c45a0301370b759b04d5bf70d770b04fd164b",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 1947,
+        "policy_probability": 0.0052999998442828655,
+        "policy_probability_rank": 7,
+        "policy_name": "uspto",
+        "template_code": 8083,
+        "template": "[NH2;D1;+0:1]-[c:2]>>C-C(-C)(-C)-O-C(=O)-[NH;D2;+0:1]-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O=C(O)C(F)(F)F",
+            "reagent2": "",
+            "sequence_score": -0.9713290333747864
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.1432390213012695
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.4259133338928223
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "Cl",
+            "sequence_score": -4.477711200714111
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "O=C(O)C(F)(F)F",
+            "sequence_score": -4.5558342933654785
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.963832855224609
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "Cl",
+            "sequence_score": -5.00631046295166
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.375456809997559
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "CCOC(C)=O",
+            "reagent2": "Cl",
+            "sequence_score": -5.666500568389893
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.624959945678711
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.614686965942383
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -9.368593215942383
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.488094329833984
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -10.797574996948242
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -10.971100807189941
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-11",
+        "step_id": "step-02",
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.5715302228927612,
+        "yield_percent": 85.16061406924716,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 55,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-12",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true,
+        true
+      ],
+      "reaction_smiles": "CC(C)(C)O.CCOC(=O)c1ccc(N=C=O)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "precursor_smiles": [
+        "CC(C)(C)O",
+        "CCOC(=O)c1ccc(N=C=O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "metadata": {
+        "template_hash": "8b76950ffe2d69e2b5c3a150443a9d193a187a5fe22642a78f99bf6e6890e3b9",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 436,
+        "policy_probability": 0.003100000089034438,
+        "policy_probability_rank": 27,
+        "policy_name": "uspto",
+        "template_code": 23231,
+        "template": "[C:1]-[O;H0;D2;+0:2]-[C;H0;D3;+0:4](=[O;D1;H0:3])-[NH;D2;+0:5]-[c:6]>>[C:1]-[OH;D1;+0:2].[O;D1;H0:3]=[C;H0;D2;+0:4]=[N;H0;D2;+0:5]-[c:6]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([N:10]=[C:13]=[O:19])[cH:11][cH:12]1.[OH:14][C:15]([CH3:16])([CH3:17])[CH3:18]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CC(C)(C)O.CCOC(=O)c1ccc(N=C=O)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "canonical_reaction_smiles": "CC(C)(C)O.CCOC(=O)c1ccc(N=C=O)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -1.7368918657302856
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -2.621133804321289
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.852628231048584
+          },
+          {
+            "rank": 4,
+            "catalyst1": "CN(C)c1ccncc1",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -3.01552152633667
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.1860570907592773
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -3.4168710708618164
+          },
+          {
+            "rank": 7,
+            "catalyst1": "CN(C)c1ccncc1",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.5705270767211914
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "c1ccncc1",
+            "reagent2": "",
+            "sequence_score": -3.683016300201416
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.112870693206787
+          },
+          {
+            "rank": 10,
+            "catalyst1": "CN(C)c1ccncc1",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -4.674372673034668
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "Cc1ccccc1",
+            "solvent2": "",
+            "reagent1": "c1ccncc1",
+            "reagent2": "",
+            "sequence_score": -4.7290496826171875
+          },
+          {
+            "rank": 12,
+            "catalyst1": "CN(C)c1ccncc1",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CCN(CC)CC",
+            "reagent2": "",
+            "sequence_score": -5.139808654785156
+          },
+          {
+            "rank": 13,
+            "catalyst1": "CN(C)c1ccncc1",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.533695697784424
+          },
+          {
+            "rank": 14,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "c1ccncc1",
+            "reagent2": "",
+            "sequence_score": -5.558281421661377
+          },
+          {
+            "rank": 15,
+            "catalyst1": "CN(C)c1ccncc1",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.583839416503906
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-12",
+        "step_id": "step-01",
+        "reaction_smiles": "CC(C)(C)O.CCOC(=O)c1ccc(N=C=O)cc1>>CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+        "raw_value": 0.29192715883255005,
+        "yield_percent": 79.3040123095134,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 69,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-12",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "303ca079c60ed19d48241eab345c45a0301370b759b04d5bf70d770b04fd164b",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 1947,
+        "policy_probability": 0.0052999998442828655,
+        "policy_probability_rank": 7,
+        "policy_name": "uspto",
+        "template_code": 8083,
+        "template": "[NH2;D1;+0:1]-[c:2]>>C-C(-C)(-C)-O-C(=O)-[NH;D2;+0:1]-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([O:14][C:15]([CH3:16])([CH3:17])[CH3:18])=[O:19])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O=C(O)C(F)(F)F",
+            "reagent2": "",
+            "sequence_score": -0.9713290333747864
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.1432390213012695
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -2.4259133338928223
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "Cl",
+            "sequence_score": -4.477711200714111
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "ClCCl",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "O=C(O)C(F)(F)F",
+            "sequence_score": -4.5558342933654785
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.963832855224609
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "C1COCCO1",
+            "reagent2": "Cl",
+            "sequence_score": -5.00631046295166
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -5.375456809997559
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "C1COCCO1",
+            "solvent2": "",
+            "reagent1": "CCOC(C)=O",
+            "reagent2": "Cl",
+            "sequence_score": -5.666500568389893
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.624959945678711
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.614686965942383
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -9.368593215942383
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.488094329833984
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -10.797574996948242
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -10.971100807189941
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-12",
+        "step_id": "step-02",
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.5715302228927612,
+        "yield_percent": 85.16061406924716,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 55,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    }
+  ],
+  "selected_route_ids": [
+    "route-01",
+    "route-02",
+    "route-05"
+  ],
+  "report_steps": [
+    {
+      "route_id": "route-01",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc([N+](=O)[O-])cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "664f7756f7526ad6c07e82dd3b3c15f7aabccbc99837dd22105068a2cfc385b5",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 33350,
+        "policy_probability": 0.42239999771118164,
+        "policy_probability_rank": 0,
+        "policy_name": "uspto",
+        "template_code": 17064,
+        "template": "[NH2;D1;+0:1]-[c:2]>>O=[N+;H0;D3:1](-[O-])-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([N+:10](=[O:13])[O-:14])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -1.700762152671814
+          },
+          {
+            "rank": 2,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.0481550693511963
+          },
+          {
+            "rank": 3,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.7931230068206787
+          },
+          {
+            "rank": 4,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -2.878655195236206
+          },
+          {
+            "rank": 5,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.4926724433898926
+          },
+          {
+            "rank": 6,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "[H][H]",
+            "reagent2": "",
+            "sequence_score": -3.8862576484680176
+          },
+          {
+            "rank": 7,
+            "catalyst1": "[Fe]",
+            "solvent1": "CCO",
+            "solvent2": "O",
+            "reagent1": "[Cl-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -3.8886513710021973
+          },
+          {
+            "rank": 8,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O=C[O-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -4.486337661743164
+          },
+          {
+            "rank": 9,
+            "catalyst1": "[Fe]",
+            "solvent1": "CC(=O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -4.683133125305176
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "O=C[O-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -5.087017059326172
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "CCOC(C)=O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "",
+            "sequence_score": -5.712345600128174
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Fe]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "[Cl-].[NH4+]",
+            "reagent2": "",
+            "sequence_score": -6.493983268737793
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Fe]",
+            "solvent1": "CCO",
+            "solvent2": "O",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.5203938484191895
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Fe]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.688980579376221
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Fe]",
+            "solvent1": "CO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Cl-].[NH4+]",
+            "sequence_score": -6.779082298278809
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-01",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.46616947650909424,
+        "yield_percent": 82.95371431744555,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 46,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-02",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCOC(=O)c1ccc(NC(C)=O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "8063032398e59c77d82569a4231c9d8f1dc9cd333085943b3f9ae7b5eafd5071",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 1668,
+        "policy_probability": 0.011800000444054604,
+        "policy_probability_rank": 5,
+        "policy_name": "uspto",
+        "template_code": 21399,
+        "template": "[NH2;D1;+0:1]-[c:2]>>C-C(=O)-[NH;D2;+0:1]-[c:2]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([CH3:14])=[O:15])[cH:11][cH:12]1"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -1.3239554166793823
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "Cl",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.660543441772461
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -3.2928555011749268
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "Cl",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -3.6584954261779785
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "Cl",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -3.7139711380004883
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "O=S(=O)(O)O",
+            "sequence_score": -4.38345193862915
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "Cl",
+            "sequence_score": -4.546271324157715
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -4.650010585784912
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -6.109102249145508
+          },
+          {
+            "rank": 10,
+            "catalyst1": "Cl",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -6.133055210113525
+          },
+          {
+            "rank": 11,
+            "catalyst1": "Cl",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "",
+            "sequence_score": -8.281896591186523
+          },
+          {
+            "rank": 12,
+            "catalyst1": "Cl",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CCO",
+            "reagent2": "",
+            "sequence_score": -9.194323539733887
+          },
+          {
+            "rank": 13,
+            "catalyst1": "Cl",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.742517471313477
+          },
+          {
+            "rank": 14,
+            "catalyst1": "Cl",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -9.823410987854004
+          },
+          {
+            "rank": 15,
+            "catalyst1": "Cl",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOC(C)=O",
+            "reagent2": "O=C([O-])O.[Na+]",
+            "sequence_score": -10.718693733215332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-02",
+        "step_id": "step-01",
+        "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.21513395011425018,
+        "yield_percent": 77.69549187778327,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 47,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-01",
+      "depends_on": [],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CC(=O)O>>CCO",
+      "precursor_smiles": [
+        "CC(=O)O"
+      ],
+      "product_smiles": "CCO",
+      "metadata": {
+        "template_hash": "c42f96a0658c03bc12dc20efce06e66daaeccc675d73631eea24ea610a7227b8",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 3921,
+        "policy_probability": 0.09149999916553497,
+        "policy_probability_rank": 0,
+        "policy_name": "uspto",
+        "template_code": 32658,
+        "template": "[C:2]-[CH2;D2;+0:1]-[O;D1;H1:3]>>O=[C;H0;D3;+0:1](-[C:2])-[O;D1;H1:3]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][C:2]([OH:3])=[O:4]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CC(=O)O>>CCO",
+        "canonical_reaction_smiles": "CC(=O)O>>CCO",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -1.8564977645874023
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -2.797421455383301
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "C1CCOC1",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.994331121444702
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -3.930743455886841
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "O",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -4.180272579193115
+          },
+          {
+            "rank": 6,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "C1CCOC1",
+            "reagent2": "",
+            "sequence_score": -4.333145618438721
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "reagent2": "",
+            "sequence_score": -4.794863700866699
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.26922607421875
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "CCOCC",
+            "solvent2": "",
+            "reagent1": "C1CCOC1",
+            "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+            "sequence_score": -5.376748085021973
+          },
+          {
+            "rank": 10,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.290542602539062
+          },
+          {
+            "rank": 11,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -8.367009162902832
+          },
+          {
+            "rank": 12,
+            "catalyst1": "[Pd]",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.964522361755371
+          },
+          {
+            "rank": 13,
+            "catalyst1": "[Pd]",
+            "solvent1": "CC(=O)O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -9.066823959350586
+          },
+          {
+            "rank": 14,
+            "catalyst1": "[Pd]",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[K+]",
+            "reagent2": "",
+            "sequence_score": -9.778876304626465
+          },
+          {
+            "rank": 15,
+            "catalyst1": "[Pd]",
+            "solvent1": "CC(=O)O",
+            "solvent2": "",
+            "reagent1": "CC(=O)[O-].[Na+]",
+            "reagent2": "",
+            "sequence_score": -10.121355056762695
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-05",
+        "step_id": "step-01",
+        "reaction_smiles": "CC(=O)O>>CCO",
+        "raw_value": 0.2100452482700348,
+        "yield_percent": 77.58890327412914,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 13,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "product_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "metadata": {
+        "template_hash": "bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89",
+        "classification": "0.0 Unrecognized",
+        "library_occurence": 6214,
+        "policy_probability": 0.1680999994277954,
+        "policy_probability_rank": 2,
+        "policy_name": "uspto",
+        "template_code": 31869,
+        "template": "[C:4]-[O;H0;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]>>O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3].[C:4]-[OH;D1;+0:5]",
+        "mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]"
+      },
+      "caveat": "Template-derived disconnection; omitted agents were not reconstructed.",
+      "conditions": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "canonical_reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "candidates": [
+          {
+            "rank": 1,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CCOCC",
+            "reagent2": "FB(F)F",
+            "sequence_score": -2.1754837036132812
+          },
+          {
+            "rank": 2,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "CC(=O)Cl",
+            "reagent2": "",
+            "sequence_score": -2.3472180366516113
+          },
+          {
+            "rank": 3,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -2.6159138679504395
+          },
+          {
+            "rank": 4,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(=O)(O)O",
+            "reagent2": "",
+            "sequence_score": -2.7508246898651123
+          },
+          {
+            "rank": 5,
+            "catalyst1": "",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "Cc1ccc(S(=O)(=O)O)cc1",
+            "reagent2": "O",
+            "sequence_score": -2.9795284271240234
+          },
+          {
+            "rank": 6,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -3.796043872833252
+          },
+          {
+            "rank": 7,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=S(Cl)Cl",
+            "reagent2": "",
+            "sequence_score": -5.475196838378906
+          },
+          {
+            "rank": 8,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -5.52998161315918
+          },
+          {
+            "rank": 9,
+            "catalyst1": "",
+            "solvent1": "O=S(=O)(O)O",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -5.658388137817383
+          },
+          {
+            "rank": 10,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -6.2488322257995605
+          },
+          {
+            "rank": 11,
+            "catalyst1": "",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "Cl",
+            "reagent2": "",
+            "sequence_score": -6.724697113037109
+          },
+          {
+            "rank": 12,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -7.166314601898193
+          },
+          {
+            "rank": 13,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "",
+            "solvent2": "",
+            "reagent1": "[Na+].[OH-]",
+            "reagent2": "",
+            "sequence_score": -7.498518466949463
+          },
+          {
+            "rank": 14,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "CCO",
+            "solvent2": "",
+            "reagent1": "",
+            "reagent2": "",
+            "sequence_score": -8.016460418701172
+          },
+          {
+            "rank": 15,
+            "catalyst1": "O=S(=O)(O)O",
+            "solvent1": "O",
+            "solvent2": "",
+            "reagent1": "O=C([O-])O.[Na+]",
+            "reagent2": "",
+            "sequence_score": -8.648869514465332
+          }
+        ],
+        "temperature": null,
+        "temperature_status": "not_provided_by_checkpoint",
+        "time": null,
+        "yield_percent": null
+      },
+      "yield_prediction": {
+        "route_id": "route-05",
+        "step_id": "step-02",
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "raw_value": 0.31552639603614807,
+        "yield_percent": 79.79832496878097,
+        "raw_output_scale": "standardized_fraction",
+        "yield_status": "predicted_not_validated",
+        "within_physical_bounds": true,
+        "input_tokens": 43,
+        "max_input_tokens": 300,
+        "input_truncated": false,
+        "applicability": "not_assessed",
+        "conditions_in_input": false
+      }
+    }
+  ],
+  "report_figure_assets": [
+    {
+      "figure_id": "target",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\target.png",
+      "caption": "벤조카인(C9H11NO2) 구조: 파라 아미노기와 에틸 에스터",
+      "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa"
+    },
+    {
+      "figure_id": "route-01/step-01",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\route-01-step-01.png",
+      "caption": "route-01/step-01: 에틸 4-니트로벤조에이트에서 벤조카인으로; 방향족 니트로기(–NO₂)가 아미노기(–NH₂)로 바뀌고 에틸 에스터는 유지됨",
+      "sha256": "c427ced18853ff281255c83a4a515e05959ab871246a2990785a4aa92031d9f5"
+    },
+    {
+      "figure_id": "route-02/step-01",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\route-02-step-01.png",
+      "caption": "route-02/step-01: 에틸 4-아세트아미도벤조에이트에서 벤조카인으로; N-아세틸기가 제거되어 아미노기가 드러나며 에틸 에스터는 유지됨",
+      "sha256": "f0066e7df6c7cb75353766d20c38f2f4031dda172043095c13ba79f6b0dbe0fd"
+    },
+    {
+      "figure_id": "route-05/step-01",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\route-05-step-01.png",
+      "caption": "route-05/step-01: 아세트산에서 에탄올로; 검색 모델의 경로 간선이며 실제 순차 합성으로 검증되지 않음",
+      "sha256": "cdc84699e8182e0b5b0344d4aa04d4aebee5690a88f649947af42c68a785b836"
+    },
+    {
+      "figure_id": "route-05/step-02",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\route-05-step-02.png",
+      "caption": "route-05/step-02: 4-아미노벤조산과 에탄올에서 벤조카인으로; 카복실산이 에틸 에스터로 표현되고 아미노기는 유지됨",
+      "sha256": "da589f87a6d9497c2b70ec0c24d2b2ba03fa26a47232dd94251bd4950949db18"
+    },
+    {
+      "figure_id": "visualizer/route01-distance",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\visualizer-route01-conf1-distance.png",
+      "caption": "Discovery Studio Visualizer 실제 화면: 에틸 4-니트로벤조에이트, PM7 배좌 1, 분자 내부 N10–H21 거리 2.684 Å",
+      "sha256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f"
+    },
+    {
+      "figure_id": "visualizer/route01-angle",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\visualizer-route01-conf1-angle.png",
+      "caption": "Discovery Studio Visualizer 실제 화면: 같은 배좌, 분자 내부 C8–C9–N10 각도 119.102°",
+      "sha256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1"
+    },
+    {
+      "figure_id": "visualizer/route05-paba-conf4",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\visualizer-route05-paba-conf4.png",
+      "caption": "Discovery Studio Visualizer 실제 화면: 4-아미노벤조산, PM7 배좌 4, 고립 분자; 카복실기 원자 C6/O7/O8",
+      "sha256": "dac8b2f4ed83dc8600d3117d43cc1e13a929d6ece1b262e2ae113d803003694f"
+    },
+    {
+      "figure_id": "visualizer/route05-paba-edge",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\visualizer-route05-paba-edge.png",
+      "caption": "4-아미노벤조산 PM7 배좌 4의 다른 방향 화면; 강체 회전한 표시 사본이며 새 배좌가 아님",
+      "sha256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b"
+    },
+    {
+      "figure_id": "visualizer/route05-ethanol-conf2",
+      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-final-revision-20261104\\assets\\visualizer-route05-ethanol-conf2.png",
+      "caption": "Discovery Studio Visualizer 실제 화면: 고립 에탄올 PM7 배좌 2; 4-아미노벤조산과 함께 배치하지 않음",
+      "sha256": "f7ec98aeb179b5c85db0b98efd741ab47f8db0619a3844952a5fa18195a11b95"
+    }
+  ],
+  "required_references": [
+    {
+      "title": "Benzocaine identity",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2337",
+      "id": 1
+    },
+    {
+      "title": "aizynthfinder",
+      "url": "https://github.com/MolecularAI/aizynthfinder",
+      "id": 2
+    },
+    {
+      "title": "SynthEx official repository (source availability status)",
+      "url": "https://github.com/schwallergroup/synthex",
+      "id": 3
+    },
+    {
+      "title": "askcos",
+      "url": "https://gitlab.com/mlpds_mit/askcosv2/context_recommender",
+      "id": 4
+    },
+    {
+      "title": "parrot",
+      "url": "https://github.com/wangxr0526/Parrot",
+      "id": 5
+    },
+    {
+      "title": "rxn_yields",
+      "url": "https://github.com/rxn4chemistry/rxn_yields",
+      "id": 6
+    },
+    {
+      "title": "drfp",
+      "url": "https://github.com/reymond-group/drfp",
+      "id": 7
+    },
+    {
+      "title": "Yield normalization code",
+      "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+      "id": 8
+    },
+    {
+      "title": "Training data",
+      "url": "https://ibm.ent.box.com/v/uspto-yields-data",
+      "id": 9
+    },
+    {
+      "title": "MOPAC PM7 manual",
+      "url": "https://openmopac.net/Manual/pm7.html",
+      "id": 10
+    },
+    {
+      "title": "MOPAC geometry convergence/GNORM",
+      "url": "https://openmopac.net/Manual/precision.html",
+      "id": 11
+    },
+    {
+      "title": "EPA EPI Suite and Web notice",
+      "url": "https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface",
+      "id": 12
+    },
+    {
+      "title": "EPI Suite Web",
+      "url": "https://episuite.dev/EpiWebSuite/#/",
+      "id": 13
+    },
+    {
+      "title": "Australian Government acetic acid property cross-check",
+      "url": "https://www.dcceew.gov.au/environment/protection/npi/substances/acetic-acid-ethanoic-acid",
+      "id": 14
+    },
+    {
+      "id": 17,
+      "title": "rxn_yields USPTO data exploration notebook",
+      "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb"
+    }
+  ],
+  "limitations": [
+    {
+      "kind": "cross_model_limit",
+      "note": "Parrot conditions are not inputs to the yield model. Predicted yields are not experimentally validated."
+    },
+    {
+      "kind": "model_applicability",
+      "note": "Target-specific accuracy and domain membership are not assessed; normalization correctness is not accuracy validation."
+    },
+    {
+      "kind": "missing_conditions",
+      "note": "Temperature, time and equivalents are not supplied by the selected condition checkpoint."
+    },
+    {
+      "kind": "route_limit",
+      "note": "Stock membership and template scores do not prove practical feasibility. Search excludes target from stock; agents/byproducts can be omitted."
+    }
+  ],
+  "additional_analyses": {
+    "harness_comparison": {
+      "status": "completed_two_single_run_harness_comparison",
+      "inference_executed": true,
+      "evidence": "../harness-comparison/trial-02-status.json and trial-02-comparison-evaluation.md",
+      "limit": "one case per harness; no general performance ranking"
+    },
+    "mopac": {
+      "status": "completed_pm7_optimization_25_of_25_jobs_converged",
+      "inference_executed": true,
+      "evidence": "../analyses/mopac-results-interpretation.md",
+      "limit": "isolated molecular geometries/charges/formation heats; not reaction barrier, rate, success, or yield"
+    },
+    "epi_suite": {
+      "status": "partial_web_results_received_with_degraded_health",
+      "inference_executed": true,
+      "evidence": "../analyses/epi-analysis.md",
+      "limit": "MP/BP estimates and database records distinguished; unsupported/no-match values remain missing; neat-material properties do not settle mixture state"
+    },
+    "discovery_studio": {
+      "status": "partial_actual_visualizer_observation_and_four_prior_measurements",
+      "inference_executed": true,
+      "evidence": "../visualizer/accessibility-observations.md",
+      "limit": "isolated structures only; no reactant pair or external attack trajectory; no barrier/rate/success/yield inference"
+    }
+  },
+  "report_plan": {
+    "maximum_pages_including_references": 20,
+    "planned_pages": {
+      "selection_and_scope": 1,
+      "models_and_reproducibility": 2,
+      "routes_conditions_yields": 5,
+      "harness_case_comparison": 2,
+      "mopac": 2,
+      "epi_suite": 2,
+      "visualizer": 2,
+      "conditional_conclusion": 1,
+      "references_appendix": 2
+    },
+    "layout_reserve_pages": 1,
+    "max_report_routes": 3,
+    "selection_rule": "Initial score-order presentation shortlist; not a claim of chemical feasibility. Review chemistry before final authoring.",
+    "final_author": "Solar Pro 4",
+    "model": "solar-pro4-260806",
+    "temperature": 0.0,
+    "max_tokens": 10000,
+    "paid_calls_authorized": true,
+    "report_generation_authorized": true
+  },
+  "condition_results_file": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json",
+  "normalization": {
+    "checkpoint_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
+    "training_data_reference": "https://ibm.ent.box.com/v/uspto-yields-data",
+    "training_domain": "USPTO gram-scale random split; target-specific applicability not assessed",
+    "output_scale": "standardized_fraction",
+    "normalization_reference": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+    "normalization_note": "Recovered from original gram random_split=train rows using the authors' preprocessing and pandas sample standard deviation. Not global-dataset substitute statistics.",
+    "source_commit": "d9e6b87ce1b881978490d68bfc00021e3b48127a",
+    "training_yield_mean": 0.7318926847478698,
+    "training_yield_std": 0.20946128682168402,
+    "training_yield_units": "fraction",
+    "std_ddof": 1,
+    "normalization_formula": "yield_percent = 100 * (raw_z * training_yield_std + training_yield_mean)",
+    "normalization_provenance": {
+      "recovered_at": "2026-10-30T13:28:49.726548+00:00",
+      "source_url": "https://ibm.ent.box.com/index.php?rm=box_download_shared_file&shared_name=p08w6nysh4ua0nqie04qnspe0unri0ll&file_id=f_682273338317",
+      "source_file": "models/rxn_yields/data/yields_above_200622.tsv",
+      "source_sha256": "0e5952a277d4fa1ba0a24b753c3cd3c7da4b2de7af24a0164226db0aeb1274f4",
+      "source_size_bytes": 95196581,
+      "source_total_rows": 197619,
+      "train_rows": 158095,
+      "test_rows": 39524,
+      "preprocessing_reference": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb",
+      "training_reference": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+      "selection": "random_split == 'train'; calc_yield_above / 100",
+      "published_checkpoint": "uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2",
+      "pandas_version": "3.0.1"
+    }
+  },
+  "source_hashes": {
+    "input.json": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
+    "routes.json": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63",
+    "conditions-parrot.json": "c1ec5ed4493b25c25a8d38c0c10372cf2592078e0b2d322fd1fe32f170bc0747",
+    "yields-rxn_yields.json": "18fd9a6f0cd303e15b690b8936d3519eebefddb9899ea2cc1cfb2e5d3935a63a",
+    "figures/manifest.json": "222a4856af4d267cc8a22bc02f9109d6842080c50d9258b48692053b802e31c4"
+  }
+}

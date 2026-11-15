@@ -1,0 +1,6 @@
+# AiZynthFinder 4.4.1 requires NumPy < 2. Newer PyArrow 26 needs NumPy >= 2.
+# Pin the compatible Arrow build discovered during the actual Windows trial.
+aizynthfinder==4.4.1
+numpy==1.26.4
+pyarrow==18.1.0
+onnxruntime==1.23.2

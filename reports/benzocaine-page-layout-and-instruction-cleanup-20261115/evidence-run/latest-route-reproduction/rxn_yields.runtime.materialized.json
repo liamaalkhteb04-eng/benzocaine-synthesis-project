@@ -1,0 +1,7 @@
+{
+  "rxn_yields": {
+    "python": "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
+    "checkpoint": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint",
+    "metadata": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104/configs/yield-normalization.json"
+  }
+}

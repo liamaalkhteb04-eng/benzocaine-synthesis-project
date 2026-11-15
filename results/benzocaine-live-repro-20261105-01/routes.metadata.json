@@ -1,0 +1,178 @@
+{
+  "package_version": "4.4.1",
+  "package_versions": {
+    "rdkit": "2023.9.6",
+    "onnxruntime": "1.23.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "reaction-utils": "1.9.3"
+  },
+  "finder_source_sha256": "90b4d2ef6d53e9261d9727c55332f8d5ee31e97d7a292d83642cd99ad2711f9a",
+  "source_repository": "https://github.com/MolecularAI/aizynthfinder",
+  "random_seed": 42,
+  "numpy_seed": 42,
+  "filter_policy": "disabled; expansion-policy-only baseline",
+  "statistics": {
+    "target": "CCOC(=O)c1ccc(N)cc1",
+    "search_time": 15.464065074920654,
+    "first_solution_time": 0.14122366905212402,
+    "first_solution_iteration": 1,
+    "number_of_nodes": 129,
+    "max_transforms": 4,
+    "max_children": 20,
+    "number_of_routes": 70,
+    "number_of_solved_routes": 54,
+    "top_score": 0.9976287063411217,
+    "is_solved": true,
+    "number_of_steps": 1,
+    "number_of_precursors": 1,
+    "number_of_precursors_in_stock": 1,
+    "precursors_in_stock": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+    "precursors_not_in_stock": "",
+    "precursors_availability": "zinc",
+    "policy_used_counts": {
+      "uspto": 128
+    },
+    "profiling": {
+      "expansion_calls": 70,
+      "reactants_generations": 839,
+      "iterations": 100
+    }
+  },
+  "stock_info": {
+    "CCOC(=O)c1ccc([N+](=O)[O-])cc1": [
+      "zinc"
+    ],
+    "CCOC(=O)c1ccc(NC(C)=O)cc1": [
+      "zinc"
+    ],
+    "CCOC(=O)c1ccc(Br)cc1": [
+      "zinc"
+    ],
+    "C[Si](C)(C)N[Si](C)(C)C": [
+      "zinc"
+    ],
+    "CCOC(=O)c1ccc(C(=O)O)cc1": [
+      "zinc"
+    ],
+    "[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1": [
+      "zinc"
+    ],
+    "Nc1ccc(C(=O)O)cc1": [
+      "zinc"
+    ],
+    "CC(=O)O": [
+      "zinc"
+    ],
+    "CCOC(C)=O": [
+      "zinc"
+    ],
+    "CCOCc1ccccc1": [
+      "zinc"
+    ],
+    "COC(C)=O": [
+      "zinc"
+    ],
+    "CCO[Si](C)(C)C(C)(C)C": [
+      "zinc"
+    ],
+    "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C": [
+      "zinc"
+    ],
+    "CC(C)(C)OC(N)=O": [
+      "zinc"
+    ],
+    "CCOC(=O)c1ccc(N=C=O)cc1": [
+      "zinc"
+    ],
+    "CC(C)(C)O": [
+      "zinc"
+    ],
+    "COC(=O)c1ccc(N)cc1": [
+      "zinc"
+    ],
+    "N=C(c1ccccc1)c1ccccc1": [
+      "zinc"
+    ],
+    "OCc1ccccc1": [
+      "zinc"
+    ],
+    "BrCc1ccccc1": [
+      "zinc"
+    ],
+    "CCOC(=O)c1ccc(NC(=O)O)cc1": [
+      "zinc"
+    ],
+    "CCOC(=O)c1ccc(Cl)cc1": [
+      "zinc"
+    ],
+    "NCc1ccccc1": [
+      "zinc"
+    ],
+    "NC(=O)c1ccc(N)cc1": [
+      "zinc"
+    ],
+    "CC(=O)Cl": [
+      "zinc"
+    ],
+    "CC(C)(C)OC(=O)Nc1ccc(C(=O)O)cc1": [
+      "zinc"
+    ],
+    "[N-]=[N+]=Nc1ccc(C(=O)O)cc1": [
+      "zinc"
+    ],
+    "O=C(O)c1ccc(Br)cc1": [
+      "zinc"
+    ],
+    "O=C(O)c1ccc(NC(=O)C(F)(F)F)cc1": [
+      "zinc"
+    ],
+    "CCOC(=O)Cl": [
+      "zinc"
+    ],
+    "O=C(OC(=O)C(F)(F)F)C(F)(F)F": [
+      "zinc"
+    ],
+    "Nc1ccc(Br)cc1": [
+      "zinc"
+    ],
+    "O=C(Cl)OCc1ccccc1": [
+      "zinc"
+    ],
+    "O=C1CCC(=O)N1Br": [
+      "zinc"
+    ],
+    "O=C(O)c1ccc(NCc2ccccc2)cc1": [
+      "zinc"
+    ],
+    "O=C(O)C(F)(F)F": [
+      "zinc"
+    ],
+    "O=C(O)c1ccc(I)cc1": [
+      "zinc"
+    ],
+    "O=C(O)c1ccc(N=Cc2ccccc2)cc1": [
+      "zinc"
+    ],
+    "O=S(=O)(O)O": [],
+    "N#Cc1ccc(Br)cc1": [
+      "zinc"
+    ],
+    "C=O": [],
+    "I": [],
+    "O=S(Cl)Cl": [
+      "zinc"
+    ],
+    "II": [],
+    "CCO": [],
+    "CCOC(=O)c1ccc(O)cc1": [
+      "zinc"
+    ],
+    "O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F": [],
+    "CCI": [],
+    "Br": [],
+    "BrC(Br)(Br)Br": [],
+    "BrP(Br)Br": []
+  },
+  "exclude_target_from_stock": true
+}

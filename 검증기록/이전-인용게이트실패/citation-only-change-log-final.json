@@ -1,0 +1,24 @@
+{
+  "status": "citation_only_edit",
+  "solar_response_preserved": true,
+  "solar_response_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\solar-call\\solar-response.raw.json",
+  "solar_response_sha256": "9fe906589a8550cc73e5ec7949703aa31528e9b3934f3924e8712a7d781ac348",
+  "source_candidate": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\solar-merged-recomputed.md",
+  "source_candidate_sha256": "c1b21525c8a8073484ec9fca6dc8d54490915eae2fcacb88f48f34f067fb42a2",
+  "edited_report": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\report.md",
+  "edited_report_sha256": "600887eb427406c7f33e925898eea79a040ee8f6647d2906177213d244438dff",
+  "changes": [
+    {
+      "section": "section 2.1 route selection",
+      "change": "Appended [D1] to the existing paragraph end.",
+      "reason": "The paragraph reports route selection and roles for route-02 and route-05; D1 is the project route/result record. [18], [19], and [D9] already support the direct literature precedent and source comparison. No method citation was added for mere Parrot/Yield-BERT mentions."
+    },
+    {
+      "section": "route-01 literature comparison",
+      "change": "Appended [6][D1] to the paragraph that juxtaposes the Yield-BERT prediction and reported literature yields.",
+      "reason": "That paragraph includes the model-predicted numeric value (method source [6]) and the project-specific prediction/comparison ([D1]); [18], [19], and [D9] support the experimental literature values. No scientific prose or number was changed."
+    }
+  ],
+  "scientific_text_changed": false,
+  "source_map_sha256": "249b88c352066ae62535d594b91f7597d4cb85edc2373c067c5143dda5882db9"
+}

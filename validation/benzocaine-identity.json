@@ -1,0 +1,12 @@
+{
+  "target_id": "benzocaine",
+  "canonical_smiles": "CCOC(=O)c1ccc(N)cc1",
+  "formula": "C9H11NO2",
+  "formal_charge": 0,
+  "input_sha256": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
+  "rdkit_identity_check": "passed",
+  "pubchem_status": "matched",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Benzocaine/property/MolecularFormula,CanonicalSMILES,InChIKey/JSON",
+  "pubchem_cid": 2337,
+  "inchi_key": "BLFLLBZGZJTVJG-UHFFFAOYSA-N"
+}

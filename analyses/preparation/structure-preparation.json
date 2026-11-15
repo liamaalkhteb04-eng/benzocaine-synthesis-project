@@ -1,0 +1,157 @@
+{
+  "status": "preparation_only_not_calculated",
+  "source_run": "benzocaine-live-20261031-04",
+  "source_evidence_sha256": "44885f4e8a4ac7f3a07ed463202b11aaa4ebf1dd28cc7dfc43e373bc0483bd2a",
+  "geometry_method": "RDKit ETKDGv3 conformer generation; MMFF94s minimization used only to prepare starting geometries",
+  "conformers_per_species": 5,
+  "random_seed": 20261031,
+  "mopac": {
+    "input_template": "PM7 PRECISE GNORM=0.5 CHARGE=0",
+    "files_are_inputs_only": true,
+    "mopac_invoked": false,
+    "solvent_model": null,
+    "surface_catalyst_model": null,
+    "limitations": [
+      "No MOPAC energy, optimized geometry, charge, dipole, orbital, frequency, or convergence result exists.",
+      "Isolated neutral organic molecules do not represent Pd surface catalysis or hydrogen supply.",
+      "Generated starting conformers are not transition states or evidence for accessibility, feasibility, or yield."
+    ]
+  },
+  "species": [
+    {
+      "id": "ethyl-4-nitrobenzoate",
+      "name": "Ethyl 4-nitrobenzoate",
+      "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+      "routes": [
+        "route-01/step-01"
+      ],
+      "purpose": "Organic substrate in the selected direct nitro-reduction route",
+      "canonical_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+      "formula": "C9H9NO4",
+      "atom_count_including_hydrogens": 23,
+      "heavy_atom_count": 14,
+      "conformers_written": 5,
+      "lowest_mmff94s_conformer_index": 2,
+      "lowest_mmff94s_energy_kcal_mol_starting_geometry_only": 62.165143089168055,
+      "sdf_file": "analyses\\preparation\\structures\\ethyl-4-nitrobenzoate.sdf",
+      "sdf_sha256": "fdc2cab54e4dc38de24dd9b6f47c017207b47fc7d4213c3f4d11fd41cf952199",
+      "mopac_input": "analyses\\preparation\\mopac-inputs\\ethyl-4-nitrobenzoate.mop",
+      "mopac_input_sha256": "582b040c34b3056f07e705314f6befcc565c0dda15f553584e0e5802d430d1da"
+    },
+    {
+      "id": "benzocaine",
+      "name": "Benzocaine",
+      "smiles": "CCOC(=O)c1ccc(N)cc1",
+      "routes": [
+        "target",
+        "route-01/step-01",
+        "route-05/step-02"
+      ],
+      "purpose": "Target/product reference",
+      "canonical_smiles": "CCOC(=O)c1ccc(N)cc1",
+      "formula": "C9H11NO2",
+      "atom_count_including_hydrogens": 23,
+      "heavy_atom_count": 12,
+      "conformers_written": 5,
+      "lowest_mmff94s_conformer_index": 5,
+      "lowest_mmff94s_energy_kcal_mol_starting_geometry_only": 18.179321932165386,
+      "sdf_file": "analyses\\preparation\\structures\\benzocaine.sdf",
+      "sdf_sha256": "2b0f35866e00431dd7065b5b14fa61de2b1b3034699581e24cadcfba1e28e818",
+      "mopac_input": "analyses\\preparation\\mopac-inputs\\benzocaine.mop",
+      "mopac_input_sha256": "2dff6bdb413af698e8ad1dde8b2dae569f4b51e2fe51ccc0bf6747879cbfdaed"
+    },
+    {
+      "id": "p-aminobenzoic-acid",
+      "name": "4-Aminobenzoic acid",
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "routes": [
+        "route-05/step-02"
+      ],
+      "purpose": "Organic acid reactant in the alternative ester-forming step",
+      "canonical_smiles": "Nc1ccc(C(=O)O)cc1",
+      "formula": "C7H7NO2",
+      "atom_count_including_hydrogens": 17,
+      "heavy_atom_count": 10,
+      "conformers_written": 5,
+      "lowest_mmff94s_conformer_index": 2,
+      "lowest_mmff94s_energy_kcal_mol_starting_geometry_only": 1.9443555558011631,
+      "sdf_file": "analyses\\preparation\\structures\\p-aminobenzoic-acid.sdf",
+      "sdf_sha256": "7040501bce47e1c5eb1254091b688a394a747455d47202bade0de2d382372eb1",
+      "mopac_input": "analyses\\preparation\\mopac-inputs\\p-aminobenzoic-acid.mop",
+      "mopac_input_sha256": "ade5dbbc99631bf7f265d7baeee11361f30a6f582eac4d8c3e3078b0bc3a92ca"
+    },
+    {
+      "id": "ethanol",
+      "name": "Ethanol",
+      "smiles": "CCO",
+      "routes": [
+        "route-01/step-01",
+        "route-05/step-01",
+        "route-05/step-02"
+      ],
+      "purpose": "Predicted solvent and esterification reactant/intermediate",
+      "canonical_smiles": "CCO",
+      "formula": "C2H6O",
+      "atom_count_including_hydrogens": 9,
+      "heavy_atom_count": 3,
+      "conformers_written": 5,
+      "lowest_mmff94s_conformer_index": 5,
+      "lowest_mmff94s_energy_kcal_mol_starting_geometry_only": -1.5170975770260173,
+      "sdf_file": "analyses\\preparation\\structures\\ethanol.sdf",
+      "sdf_sha256": "f2fc6704cd1f3b00209a0975c14eb51fbe1225c8475bd9ac8082f5133151d848",
+      "mopac_input": "analyses\\preparation\\mopac-inputs\\ethanol.mop",
+      "mopac_input_sha256": "0788b9098b9d6a394c1a64fb7a487c09487dccb41301873cf2b5a7f9871957ce"
+    },
+    {
+      "id": "acetic-acid",
+      "name": "Acetic acid",
+      "smiles": "CC(=O)O",
+      "routes": [
+        "route-05/step-01"
+      ],
+      "purpose": "Predicted precursor to ethanol in the alternative route",
+      "canonical_smiles": "CC(=O)O",
+      "formula": "C2H4O2",
+      "atom_count_including_hydrogens": 8,
+      "heavy_atom_count": 4,
+      "conformers_written": 5,
+      "lowest_mmff94s_conformer_index": 5,
+      "lowest_mmff94s_energy_kcal_mol_starting_geometry_only": -26.405932719100782,
+      "sdf_file": "analyses\\preparation\\structures\\acetic-acid.sdf",
+      "sdf_sha256": "b2924aae36c8ed353fc1e4abf4ca8fbb9fee3b74e7e02cd7247599738ab442c7",
+      "mopac_input": "analyses\\preparation\\mopac-inputs\\acetic-acid.mop",
+      "mopac_input_sha256": "790eb31026a2f7ef5d7c04edd96152cea3c8cdd17e6e18a4bb1e2833e8c3f22a"
+    }
+  ],
+  "species_count": 5,
+  "atom_numbering_csv": "atom-numbers.csv",
+  "epi_suite_smiles_input_table": "epi-suite-inputs.csv",
+  "discovery_studio_visualizer": {
+    "prepared": true,
+    "files": [
+      {
+        "path": "analyses\\preparation\\structures\\ethyl-4-nitrobenzoate.sdf",
+        "sha256": "fdc2cab54e4dc38de24dd9b6f47c017207b47fc7d4213c3f4d11fd41cf952199"
+      },
+      {
+        "path": "analyses\\preparation\\structures\\benzocaine.sdf",
+        "sha256": "2b0f35866e00431dd7065b5b14fa61de2b1b3034699581e24cadcfba1e28e818"
+      },
+      {
+        "path": "analyses\\preparation\\structures\\p-aminobenzoic-acid.sdf",
+        "sha256": "7040501bce47e1c5eb1254091b688a394a747455d47202bade0de2d382372eb1"
+      },
+      {
+        "path": "analyses\\preparation\\structures\\ethanol.sdf",
+        "sha256": "f2fc6704cd1f3b00209a0975c14eb51fbe1225c8475bd9ac8082f5133151d848"
+      },
+      {
+        "path": "analyses\\preparation\\structures\\acetic-acid.sdf",
+        "sha256": "b2924aae36c8ed353fc1e4abf4ca8fbb9fee3b74e7e02cd7247599738ab442c7"
+      }
+    ],
+    "purpose": "Open conformer ensembles and inspect actual reaction-participant structures",
+    "approach_analysis_performed": false,
+    "note": "Independent conformers are not an assembled reactive complex; no distances/angles or accessibility conclusion were measured."
+  }
+}

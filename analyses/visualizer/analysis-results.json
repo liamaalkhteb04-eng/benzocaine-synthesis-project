@@ -1,0 +1,81 @@
+﻿{
+    "status":  "partial_actual_visualizer_measurements",
+    "analysis_type":  "Discovery Studio Visualizer GUI observation and measurement",
+    "mopac_inputs_preserved":  true,
+    "epa_results_preserved":  true,
+    "routes":  {
+                   "route-01":  {
+                                    "status":  "partial_visualizer_review_complete",
+                                    "observations":  [
+                                                         "Reopened the saved MOPAC PM7 conformer SDF in Discovery Studio Visualizer 2025 25.1.0.",
+                                                         "Conformer 1 alone renders fully after View \u003e Graphics; conf1 Visible=Yes, conf2-5 Visible=No.",
+                                                         "Turning conf1 and conf2 Visible on simultaneously displays overlapping conformer geometries.",
+                                                         "Switching to additional conformers intermittently caused partial rendering; re-opening and reverting the saved SDF restored the complete conformer-1 view."
+                                                     ],
+                                    "measurements":  [
+                                                         {
+                                                             "value":  2.684,
+                                                             "source":  "Visualizer DistanceMonitor",
+                                                             "kind":  "distance",
+                                                             "atoms":  "N10-H21",
+                                                             "conformer":  1,
+                                                             "unit":  "angstrom"
+                                                         },
+                                                         {
+                                                             "value":  119.102,
+                                                             "source":  "Visualizer AngleMonitor",
+                                                             "kind":  "angle",
+                                                             "atoms":  "C8-C9-N10",
+                                                             "conformer":  1,
+                                                             "unit":  "degrees"
+                                                         },
+                                                         {
+                                                             "value":  2.682,
+                                                             "source":  "Visualizer DistanceMonitor",
+                                                             "kind":  "distance",
+                                                             "atoms":  "N10-H21",
+                                                             "conformer":  2,
+                                                             "unit":  "angstrom"
+                                                         },
+                                                         {
+                                                             "value":  119.062,
+                                                             "source":  "Visualizer AngleMonitor",
+                                                             "kind":  "angle",
+                                                             "atoms":  "C8-C9-N10",
+                                                             "conformer":  2,
+                                                             "unit":  "degrees"
+                                                         }
+                                                     ],
+                                    "screenshots":  [
+                                                        "screenshots/route01-multiconformer-visible-test.png",
+                                                        "screenshots/route01-angle-monitor-table.png",
+                                                        "screenshots/route01-distance-monitor-table.png",
+                                                        "screenshots/route01-conformer2-only.png",
+                                                        "screenshots/route01-conf2-angle-monitor.png",
+                                                        "screenshots/route01-conf2-distance-monitor.png",
+                                                        "screenshots/final-clean-single-conformer-view.png"
+                                                    ],
+                                    "reason":  "Only conformers 1 and 2 were measured. Conformers 3-5 and remaining route-01 measurement-plan entries remain incomplete because switching caused unstable/ambiguous rendering; a duplicate post-reopen conformer-1 angle was excluded."
+                                },
+                   "route-05":  {
+                                    "status":  "pending_visualizer_measurement",
+                                    "observations":  [
+
+                                                     ],
+                                    "measurements":  [
+
+                                                     ],
+                                    "screenshots":  [
+
+                                                    ],
+                                    "reason":  "Not yet measured. PABA and ethanol measurement-plan entries require a separate Visualizer session after route-01 work."
+                                }
+               },
+    "not_inferred":  [
+                         "No activation barrier or reaction rate",
+                         "No yield or reaction success",
+                         "No solvent/catalyst accessibility or intermolecular complex geometry",
+                         "No conclusions from hypothetical manual reactant placements"
+                     ],
+    "next_step":  "Continue route-01 conformers 3-5 and remaining measurements only after confirming the currently visible conformer; then measure route-05 PABA/ethanol entries. See visualizer-recovery-and-measurement-session.md and visualizer-measurements.csv."
+}

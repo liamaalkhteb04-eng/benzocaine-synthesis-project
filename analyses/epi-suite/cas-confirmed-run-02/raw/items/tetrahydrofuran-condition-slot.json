@@ -1,0 +1,209 @@
+{
+  "parameters": {
+    "cas": "109-99-9",
+    "smiles": "C1CCOC1"
+  },
+  "chemicalProperties": {
+    "name": "TETRAHYDROFURAN",
+    "systematicName": "Furan, tetrahydro-",
+    "cas": "109-99-9",
+    "smiles": "C1CCOC1",
+    "molecularWeight": null,
+    "molecularFormula": null,
+    "molecularFormulaHtml": null,
+    "organic": null,
+    "organicAcid": null,
+    "aminoAcid": null,
+    "nonStandardMetal": null,
+    "flags": null
+  },
+  "meltingPoint": {
+    "parameters": {
+      "meltingPoint": {
+        "value": -108.44,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+        "valueType": "EVIDENCE"
+      },
+      "boilingPoint": {
+        "value": 65.0,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE"
+      },
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "C1CCOC1",
+      "cas": "109-99-9"
+    },
+    "estimatedValue": {
+      "value": -84.88720703125,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [
+      {
+        "author": "Ether slope analogy",
+        "year": 0,
+        "order": 1,
+        "value": -108.44,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 1381,
+        "referenceId": 128,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "selectedValue": {
+      "value": -108.44,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -84.88720703125\nMelting Point (adapted Joback, deg C): -96.61000061035156\nMelting Point (Gold/Ogle, deg C): -73.16441345214844\nMelting Point (mean, deg C): -84.88720703125\nBoiling Point (deg C): 69.35687255859375\nBoiling Point (K uncorrected): 336.91998291015625\nBoiling Point (K corrected): 342.5168762207031\nVapor Pressure selected (mm Hg): 173.3884775747914\nVapor Pressure selected (Pa): 23116.498607226342\nVapor Pressure subcooled (mm Hg): 170.2135772705078\nVapor Pressure subcooled (Pa): 22693.214548858643\n"
+  },
+  "boilingPoint": {
+    "parameters": {
+      "meltingPoint": {
+        "value": -108.44,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+        "valueType": "EVIDENCE"
+      },
+      "boilingPoint": {
+        "value": 65.0,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE"
+      },
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "C1CCOC1",
+      "cas": "109-99-9"
+    },
+    "estimatedValue": {
+      "value": 69.35687255859375,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [
+      {
+        "author": null,
+        "year": 0,
+        "order": 1,
+        "value": 65.0,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "BoilingPoints",
+        "sourceId": 1002,
+        "referenceId": null,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "selectedValue": {
+      "value": 65.0,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:BoilingPoints",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -84.88720703125\nMelting Point (adapted Joback, deg C): -96.61000061035156\nMelting Point (Gold/Ogle, deg C): -73.16441345214844\nMelting Point (mean, deg C): -84.88720703125\nBoiling Point (deg C): 69.35687255859375\nBoiling Point (K uncorrected): 336.91998291015625\nBoiling Point (K corrected): 342.5168762207031\nVapor Pressure selected (mm Hg): 173.3884775747914\nVapor Pressure selected (Pa): 23116.498607226342\nVapor Pressure subcooled (mm Hg): 170.2135772705078\nVapor Pressure subcooled (Pa): 22693.214548858643\n"
+  },
+  "vaporPressure": {
+    "parameters": {
+      "meltingPoint": {
+        "value": -108.44,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+        "valueType": "EVIDENCE"
+      },
+      "boilingPoint": {
+        "value": 65.0,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE"
+      },
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "C1CCOC1",
+      "cas": "109-99-9"
+    },
+    "estimatedValue": {
+      "model": [
+        {
+          "type": "Antoine",
+          "mmHg": 176.56338500976562,
+          "pa": 23539.783616271972
+        },
+        {
+          "type": "Grain",
+          "mmHg": 170.2135701398172,
+          "pa": 22693.213598180708
+        },
+        {
+          "type": "Mackay",
+          "mmHg": 180.16995743035946,
+          "pa": 24020.619064530383
+        },
+        {
+          "type": "Selected",
+          "mmHg": 173.3884775747914,
+          "pa": 23116.498607226342
+        },
+        {
+          "type": "SubCooled",
+          "mmHg": 170.2135772705078,
+          "pa": 22693.214548858643
+        }
+      ],
+      "value": 173.3884775747914,
+      "units": "mmHg",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [
+      {
+        "author": "DAUBERT,TE & DANNER,RP",
+        "year": 1989,
+        "order": 1,
+        "value": 162.0,
+        "units": "mmHg",
+        "source": "experimental:EpiUnified:VaporPressures:DAUBERT,TE & DANNER,RP:1989",
+        "valueType": "EXPERIMENTAL",
+        "method": "EXP",
+        "evidenceType": "EXPERIMENTAL",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "VaporPressures",
+        "sourceId": 1724,
+        "referenceId": 13,
+        "temperatureC": 25.0,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "selectedValue": {
+      "value": 162.0,
+      "units": "mmHg",
+      "source": "experimental:EpiUnified:VaporPressures:DAUBERT,TE & DANNER,RP:1989",
+      "valueType": "EXPERIMENTAL",
+      "method": "EXP",
+      "evidenceType": "EXPERIMENTAL"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -84.88720703125\nMelting Point (adapted Joback, deg C): -96.61000061035156\nMelting Point (Gold/Ogle, deg C): -73.16441345214844\nMelting Point (mean, deg C): -84.88720703125\nBoiling Point (deg C): 69.35687255859375\nBoiling Point (K uncorrected): 336.91998291015625\nBoiling Point (K corrected): 342.5168762207031\nVapor Pressure selected (mm Hg): 173.3884775747914\nVapor Pressure selected (Pa): 23116.498607226342\nVapor Pressure subcooled (mm Hg): 170.2135772705078\nVapor Pressure subcooled (Pa): 22693.214548858643\n"
+  }
+}

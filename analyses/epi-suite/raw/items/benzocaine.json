@@ -1,0 +1,107 @@
+{
+  "parameters": {
+    "cas": null,
+    "smiles": "CCOC(=O)c1ccc(N)cc1"
+  },
+  "chemicalProperties": {
+    "name": null,
+    "systematicName": null,
+    "cas": null,
+    "smiles": "CCOC(=O)c1ccc(N)cc1",
+    "molecularWeight": null,
+    "molecularFormula": null,
+    "molecularFormulaHtml": null,
+    "organic": null,
+    "organicAcid": null,
+    "aminoAcid": null,
+    "nonStandardMetal": null,
+    "flags": null
+  },
+  "meltingPoint": {
+    "parameters": {
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "CCOC(=O)c1ccc(N)cc1"
+    },
+    "estimatedValue": {
+      "value": 66.16531372070312,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [],
+    "selectedValue": {
+      "value": 66.16531372070312,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 66.16531372070312\nMelting Point (adapted Joback, deg C): 82.55999755859375\nMelting Point (Gold/Ogle, deg C): 49.770599365234375\nMelting Point (mean, deg C): 66.16531372070312\nBoiling Point (deg C): 279.8981018066406\nBoiling Point (K uncorrected): 585.5\nBoiling Point (K corrected): 553.05810546875\nVapor Pressure selected (mm Hg): 0.002317883790750044\nVapor Pressure selected (Pa): 0.3090249027503774\nVapor Pressure subcooled (mm Hg): 0.005636450834572315\nVapor Pressure subcooled (Pa): 0.7514628981668502\n"
+  },
+  "boilingPoint": {
+    "parameters": {
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "CCOC(=O)c1ccc(N)cc1"
+    },
+    "estimatedValue": {
+      "value": 279.8981018066406,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [],
+    "selectedValue": {
+      "value": 279.8981018066406,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 66.16531372070312\nMelting Point (adapted Joback, deg C): 82.55999755859375\nMelting Point (Gold/Ogle, deg C): 49.770599365234375\nMelting Point (mean, deg C): 66.16531372070312\nBoiling Point (deg C): 279.8981018066406\nBoiling Point (K uncorrected): 585.5\nBoiling Point (K corrected): 553.05810546875\nVapor Pressure selected (mm Hg): 0.002317883790750044\nVapor Pressure selected (Pa): 0.3090249027503774\nVapor Pressure subcooled (mm Hg): 0.005636450834572315\nVapor Pressure subcooled (Pa): 0.7514628981668502\n"
+  },
+  "vaporPressure": {
+    "parameters": {
+      "vaporPressureTemperatureCelsius": 25.0,
+      "smiles": "CCOC(=O)c1ccc(N)cc1"
+    },
+    "estimatedValue": {
+      "model": [
+        {
+          "type": "Antoine",
+          "mmHg": 0.002084159990772605,
+          "pa": 0.2778643782897852
+        },
+        {
+          "type": "Grain",
+          "mmHg": 0.002317883790750044,
+          "pa": 0.3090249027503774
+        },
+        {
+          "type": "Mackay",
+          "mmHg": 0.004061957633315745,
+          "pa": 0.5415483155889218
+        },
+        {
+          "type": "Selected",
+          "mmHg": 0.002317883790750044,
+          "pa": 0.3090249027503774
+        },
+        {
+          "type": "SubCooled",
+          "mmHg": 0.005636450834572315,
+          "pa": 0.7514628981668502
+        }
+      ],
+      "value": 0.002317883790750044,
+      "units": "mmHg",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "experimentalValues": [],
+    "selectedValue": {
+      "value": 0.002317883790750044,
+      "units": "mmHg",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 66.16531372070312\nMelting Point (adapted Joback, deg C): 82.55999755859375\nMelting Point (Gold/Ogle, deg C): 49.770599365234375\nMelting Point (mean, deg C): 66.16531372070312\nBoiling Point (deg C): 279.8981018066406\nBoiling Point (K uncorrected): 585.5\nBoiling Point (K corrected): 553.05810546875\nVapor Pressure selected (mm Hg): 0.002317883790750044\nVapor Pressure selected (Pa): 0.3090249027503774\nVapor Pressure subcooled (mm Hg): 0.005636450834572315\nVapor Pressure subcooled (Pa): 0.7514628981668502\n"
+  }
+}

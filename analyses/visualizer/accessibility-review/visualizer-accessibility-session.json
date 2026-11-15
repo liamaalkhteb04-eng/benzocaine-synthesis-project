@@ -1,0 +1,26 @@
+{
+  "date_local": "2026-11-03",
+  "application": "BIOVIA Discovery Studio Visualizer 2025 Client",
+  "version": "25.1.0",
+  "file_version": "25,1,0,24284",
+  "executable": "C:\\Program Files\\BIOVIA\\Discovery Studio 2025\\bin\\DiscoveryStudio2025.exe",
+  "gui_available": true,
+  "actions": [
+    "Created single-record SDF copies from existing PM7 multi-conformer SDF records.",
+    "Opened route-01 substrate conformer 1, route-05 PABA conformer 4, route-05 ethanol conformer 2, and route-01 product conformer 1 in Visualizer.",
+    "Used View > Graphics (Ctrl+G) to restore full graphics display and captured screenshots.",
+    "Prepared rigid coordinate rotations for alternative projected views, loaded those files in Visualizer, and captured screenshots.",
+    "Direct toolbar rotation drag did not alter the camera/view; no repeated drag attempt was used beyond two initial tries."
+  ],
+  "new_distance_or_angle_measurements": 0,
+  "previous_actual_visualizer_measurements_reused": [
+    "N10-H21 conf1 2.684 angstrom",
+    "C8-C9-N10 conf1 119.102 degrees",
+    "N10-H21 conf2 2.682 angstrom",
+    "C8-C9-N10 conf2 119.062 degrees"
+  ],
+  "original_sdf_modified": false,
+  "reaction_complex_created": false,
+  "reaction_partner_artificially_placed": false,
+  "conclusion_limit": "qualitative intramolecular exposure only; no external reagent approach, catalyst surface, activation barrier, rate, success, or yield inference"
+}

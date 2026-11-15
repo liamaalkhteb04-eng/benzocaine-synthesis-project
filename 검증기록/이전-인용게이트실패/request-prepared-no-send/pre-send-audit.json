@@ -1,0 +1,36 @@
+{
+  "status": "passed_local_pre_send_inspection",
+  "external_request_sent": false,
+  "model_call_made": false,
+  "api_key_or_auth_header_present": false,
+  "messages": [
+    {
+      "role": "system",
+      "content_chars": 1096,
+      "content_sha256": "f4575d9f653cacdbb09740fb14fa33e0229f7b1bc56a5db750fdbcc38f9aa88c"
+    },
+    {
+      "role": "user",
+      "content_chars": 5959,
+      "content_sha256": "8e3e6bde2d5d4ff9d9c904c0335c822cdd5372ac01288a92fbb0a77ead967e81"
+    }
+  ],
+  "wire_body_sha256": "c0a8cfd9a06156412eadf70349a2301778ff28f8e76ac099f8fd5a493885862e",
+  "source_files": {
+    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\skill\\targeted-benzocaine-section-revision-v1.md": "c39a1c9391cb7456d386f1184cdaf4f354cf24258a2ad3c42072d6c7bb0dcca2",
+    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\request-prepared-no-send\\section-2.1-evidence.md": "e9a9478eed7f13698fccb75c45d332740520f5e4a8389fd919b9d64a2498ba7c",
+    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\request-prepared-no-send\\section-8-evidence.md": "80eefb3e34d01e802c4820e03a596e831d034e7d6d9e30b107a608353f384dc4",
+    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\source-report.md": "f2915bb32c874510f71a58675cceb0a81ab1d52518b99dbf682d634e872cca36"
+  },
+  "checks": {
+    "exactly_two_messages_system_user": true,
+    "no_prior_conversation_or_tool_messages": true,
+    "each_required_marker_once": true,
+    "no_ambiguous_old_task_terms": true,
+    "all_required_evidence_present": true,
+    "only_two_target_paragraphs_selected": true,
+    "targeted_rules_only": true
+  },
+  "max_output_tokens": 2400,
+  "note": "Prepared request only; no model request was made. Any later mock fixture may test marker parsing only, not Solar success."
+}

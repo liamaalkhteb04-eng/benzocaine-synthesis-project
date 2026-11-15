@@ -1,0 +1,136 @@
+{
+  "aizynth_python": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-aizynth\\Scripts\\python.exe",
+    "exists": true,
+    "size_bytes": 270616,
+    "sha256": "d55736b9f3d6b4ca7985b82db8ce11edfa09994cf93ce31c6b506543b74f32eb",
+    "executable_check": {
+      "exit_code": 0,
+      "python_version": "3.12.0",
+      "stderr": null
+    }
+  },
+  "parrot_python": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
+    "exists": true,
+    "size_bytes": 588800,
+    "sha256": "7b7a1bf90b01ef3f613ac87701b22f25c606d262fe40a4c77150daae530ad784",
+    "executable_check": {
+      "exit_code": 0,
+      "python_version": "3.8.20",
+      "stderr": null
+    }
+  },
+  "aizynth_model": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\uspto_model.onnx",
+    "exists": true,
+    "size_bytes": 91518243,
+    "sha256": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8"
+  },
+  "aizynth_templates": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\uspto_templates.csv.gz",
+    "exists": true,
+    "size_bytes": 3313598,
+    "sha256": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe"
+  },
+  "aizynth_stock_hdf5": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\zinc_stock.hdf5",
+    "exists": true,
+    "size_bytes": 663232280,
+    "sha256": "99d39a6f807c3e815487500bafc2b4a9dc66a31af189e3b1776874fb0d4a188d"
+  },
+  "parrot_repo_inference": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\inference.py",
+    "exists": true,
+    "size_bytes": 4061,
+    "sha256": "755fa99e116f3d68a1b64619306cb6655ce29f46b25465ff03a1dc1251abb1d9"
+  },
+  "parrot_checkpoint_archive": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\parrot\\checkpoint.zip",
+    "exists": true,
+    "size_bytes": 100979102,
+    "sha256": "ecd8d06cf76a66f8d59cc0259d90f9a8083f0851ff693fda4d09554b8b35610c"
+  },
+  "parrot_dataset_archive": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\parrot\\dataset.zip",
+    "exists": true,
+    "size_bytes": 535725467,
+    "sha256": "34033a3522784111d5eed4e566a06895f0564dd59325724cce6a2f3e241b006c"
+  },
+  "yield_checkpoint": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\pytorch_model.bin",
+    "exists": true,
+    "size_bytes": 26749031,
+    "sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb"
+  },
+  "yield_config": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\config.json",
+    "exists": true,
+    "size_bytes": 547,
+    "sha256": "a39c2cdc0398aa52fef05bc23fec1054ab0eb80fd1df79801428035c7f3aa3d4"
+  },
+  "yield_model_args": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\model_args.json",
+    "exists": true,
+    "size_bytes": 1704,
+    "sha256": "e77bd27ad705db019a31e5f259c086a7741848024cc527bb559b6b7d04dfefbf"
+  },
+  "yield_vocab": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\vocab.txt",
+    "exists": true,
+    "size_bytes": 3525,
+    "sha256": "399868a653e85549ce150af4a1f6cd2776240c6a3d951ced2120565f00f027fd"
+  },
+  "yield_metadata": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\metadata.normalized.json",
+    "exists": true,
+    "size_bytes": 2096,
+    "sha256": "d0af28921d131319bd435d7f826be083ac45444eae3062ddeaf0be7b03a21fa8"
+  },
+  "package_yield_metadata": {
+    "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\yield-normalization.json",
+    "exists": true,
+    "size_bytes": 2044,
+    "sha256": "2918ecf0060ebddf7c18d0058b3d1824b900c1231017868ef5981f3db55664ac"
+  },
+  "aizynth_imports": {
+    "exit_code": 0,
+    "versions": {
+      "aizynthfinder": "4.4.1",
+      "rdkit": "2023.9.6",
+      "onnxruntime": "1.23.2",
+      "numpy": "1.26.4",
+      "pandas": "2.3.3",
+      "tables": "3.11.1"
+    },
+    "error": null
+  },
+  "parrot_and_yield_imports": {
+    "exit_code": 0,
+    "versions": {
+      "torch": "1.13.1",
+      "transformers": "4.18.0",
+      "rxnfp": "0.1.0",
+      "simpletransformers": "0.63.6",
+      "rdkit": "PackageNotFoundError"
+    },
+    "error": null
+  },
+  "yield_metadata_match": {
+    "checkpoint_actual_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
+    "legacy_metadata_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
+    "package_metadata_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
+    "match_both": true
+  },
+  "stock_buckets_exists": false,
+  "parrot_extracted_checkpoint_exists": true,
+  "status": "read_only_inventory_only",
+  "inference_executed": false,
+  "source_project_modified": false,
+  "parrot_extracted_checkpoint": {
+    "path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\pytorch_model.bin",
+    "exists": true,
+    "size_bytes": 40247861,
+    "sha256": "f226fcea2f9bbb510e9a2053991f50374fd3a2427391bdc0b4c7e0b59974f816"
+  }
+}

@@ -1,0 +1,38 @@
+﻿{
+    "status":  "installed_and_running",
+    "checked_local_date":  "2026-11-01",
+    "product":  "BIOVIA Discovery Studio Visualizer 2025 Client",
+    "version":  "25.1.0",
+    "file_version":  "25,1,0,24284",
+    "build":  "518165 20241010 2048",
+    "install_path":  "C:\\Program Files\\BIOVIA\\Discovery Studio 2025\\",
+    "executable":  "C:\\Program Files\\BIOVIA\\Discovery Studio 2025\\bin\\DiscoveryStudio2025.exe",
+    "process_id":  12132,
+    "responding":  true,
+    "main_window_title":  "Discovery Studio Visualizer",
+    "actual_visualizer_opened":  true,
+    "measurement_status":  "partial_actual_measurements_saved_in_visualizer-measurements.csv",
+    "historical_pre_install_check":  {
+                                         "status":  "installer_downloaded_and_verified_not_installed",
+                                         "checked_local_date":  "2026-11-01",
+                                         "commands":  {
+                                                          "DSVisualizer.exe":  "not_found_on_PATH",
+                                                          "DiscoveryStudioVisualizer.exe":  "not_found_on_PATH",
+                                                          "DiscoveryStudio.exe":  "not_found_on_PATH"
+                                                      },
+                                         "uninstall_registry":  {
+                                                                    "HKLM_64bit":  "no_matching_entry",
+                                                                    "HKLM_32bit":  "no_matching_entry",
+                                                                    "HKCU":  "no_matching_entry"
+                                                                },
+                                         "process_check":  "no_Discovery_Studio_or_Visualizer_process_running",
+                                         "installer_file":  "C:\\Users\\Abdo\\Downloads\\BIOVIA_DS2025Client.exe",
+                                         "installer_verification":  "analyses/visualizer/installer-verification.json; official Windows DS Visualizer Client URL, product metadata, and Authenticode checked",
+                                         "expected_install_directory_check":  "no_matching_BIOVIA_Discovery_Visualizer_directory_found_under_checked_Program_Files_and_user_program_roots",
+                                         "gui_access":  "unavailable_in_this_session",
+                                         "actual_visualizer_opened":  false,
+                                         "measurements_performed":  false,
+                                         "screenshots_captured":  false,
+                                         "check_scope_note":  "Read-only command, registry, process, and common installation-root checks; no installation or environment changes were made."
+                                     }
+}

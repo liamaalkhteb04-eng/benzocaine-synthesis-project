@@ -1,0 +1,990 @@
+{
+  "artifact_type": "RDKit_2D_structural_counts_not_new_model_predictions",
+  "smarts": {
+    "nitro": "[N+](=O)[O-]",
+    "primary_aryl_amine": "[NX3;H2][c]",
+    "carboxylic_acid": "[CX3](=O)[OX2H1]",
+    "ester": "[CX3](=O)[OX2][#6]",
+    "amide": "[CX3](=O)[NX3]",
+    "aryl_bromide": "[c][Br]"
+  },
+  "source_evidence_sha256": "44885f4e8a4ac7f3a07ed463202b11aaa4ebf1dd28cc7dfc43e373bc0483bd2a",
+  "steps": [
+    {
+      "route_id": "route-01",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+          "functional_group_counts": {
+            "nitro": 1,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "[Pd]",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": "",
+        "sequence_score": -1.700762152671814
+      },
+      "yield_percent": 82.95371431744555,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-02",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "Cl",
+        "reagent2": "",
+        "sequence_score": -1.3239554166793823
+      },
+      "yield_percent": 77.69549187778327,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-03",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "C[Si](C)(C)N[Si](C)(C)C",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(Br)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 1
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "Cc1ccccc1",
+        "solvent2": "",
+        "reagent1": "CNCCNC",
+        "reagent2": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+        "sequence_score": -2.1571593284606934
+      },
+      "yield_percent": 70.24125305578036,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-04",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(C(=O)O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 1,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CC(C)(C)O",
+        "solvent2": "",
+        "reagent1": "CCN(CC)CC",
+        "reagent2": "",
+        "sequence_score": -0.8248026967048645
+      },
+      "yield_percent": 72.60513032877832,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CC(=O)O",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 1,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+        "reagent2": "",
+        "sequence_score": -1.8564977645874023
+      },
+      "yield_percent": 77.58890327412914,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "Nc1ccc(C(=O)O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 1,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F",
+        "sequence_score": -2.1754837036132812
+      },
+      "yield_percent": 79.79832496878097,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-06",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(C)=O",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+        "reagent2": "",
+        "sequence_score": -1.2221254110336304
+      },
+      "yield_percent": 79.44190203182289,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-06",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "Nc1ccc(C(=O)O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 1,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F",
+        "sequence_score": -2.1754837036132812
+      },
+      "yield_percent": 79.79832496878097,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-07",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOCc1ccccc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "[Pd]",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": "",
+        "sequence_score": -1.4996020793914795
+      },
+      "yield_percent": 82.10387076486666,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-07",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "Nc1ccc(C(=O)O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 1,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F",
+        "sequence_score": -2.1754837036132812
+      },
+      "yield_percent": 79.79832496878097,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-08",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "COC(C)=O",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+        "reagent2": "",
+        "sequence_score": -1.083698034286499
+      },
+      "yield_percent": 76.41444666152056,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-08",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "Nc1ccc(C(=O)O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 1,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F",
+        "sequence_score": -2.1754837036132812
+      },
+      "yield_percent": 79.79832496878097,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-09",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCO[Si](C)(C)C(C)(C)C",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+        "reagent2": "",
+        "sequence_score": -1.603074073791504
+      },
+      "yield_percent": 83.05835621843174,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-09",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCO",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "Nc1ccc(C(=O)O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 1,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F",
+        "sequence_score": -2.1754837036132812
+      },
+      "yield_percent": 79.79832496878097,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-10",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+          "functional_group_counts": {
+            "nitro": 1,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 4,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 2,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "[Pd]",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": "",
+        "sequence_score": -1.4688613414764404
+      },
+      "yield_percent": 66.7730532147765,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-10",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 2,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "ClCCl",
+        "solvent2": "",
+        "reagent1": "O=C(O)C(F)(F)F",
+        "reagent2": "",
+        "sequence_score": -0.9713290333747864
+      },
+      "yield_percent": 85.16061406924716,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-11",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CC(C)(C)OC(N)=O",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(Br)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 1
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 2,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "[Cu]I",
+        "solvent1": "Cc1ccccc1",
+        "solvent2": "",
+        "reagent1": "CNCCNC",
+        "reagent2": "O=C([O-])[O-].[K+].[K+]",
+        "sequence_score": -1.0220422744750977
+      },
+      "yield_percent": 69.4291656094912,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-11",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 2,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "ClCCl",
+        "solvent2": "",
+        "reagent1": "O=C(O)C(F)(F)F",
+        "reagent2": "",
+        "sequence_score": -0.9713290333747864
+      },
+      "yield_percent": 85.16061406924716,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-12",
+      "step_id": "step-01",
+      "depends_on": [],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CC(C)(C)O",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 0,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(N=C=O)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 2,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "ClCCl",
+        "solvent2": "",
+        "reagent1": "CCN(CC)CC",
+        "reagent2": "",
+        "sequence_score": -1.7368918657302856
+      },
+      "yield_percent": 79.3040123095134,
+      "status": "observations_only_not_experimental_validation"
+    },
+    {
+      "route_id": "route-12",
+      "step_id": "step-02",
+      "depends_on": [
+        "step-01"
+      ],
+      "structures": [
+        {
+          "role": "precursor",
+          "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 0,
+            "carboxylic_acid": 0,
+            "ester": 2,
+            "amide": 1,
+            "aryl_bromide": 0
+          }
+        },
+        {
+          "role": "product",
+          "smiles": "CCOC(=O)c1ccc(N)cc1",
+          "functional_group_counts": {
+            "nitro": 0,
+            "primary_aryl_amine": 1,
+            "carboxylic_acid": 0,
+            "ester": 1,
+            "amide": 0,
+            "aryl_bromide": 0
+          }
+        }
+      ],
+      "rank1_conditions": {
+        "rank": 1,
+        "catalyst1": "",
+        "solvent1": "ClCCl",
+        "solvent2": "",
+        "reagent1": "O=C(O)C(F)(F)F",
+        "reagent2": "",
+        "sequence_score": -0.9713290333747864
+      },
+      "yield_percent": 85.16061406924716,
+      "status": "observations_only_not_experimental_validation"
+    }
+  ]
+}

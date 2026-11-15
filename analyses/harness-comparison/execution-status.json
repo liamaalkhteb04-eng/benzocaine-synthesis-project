@@ -1,0 +1,121 @@
+{
+    "checked_local_time":  "2026-11-03 Asia/Seoul",
+    "project_root":  ".",
+    "installations":  [
+                          {
+                              "version":  "2.2.5",
+                              "name":  "OpenCode",
+                              "source":  "official npm package @opencode/cli@2.2.5",
+                              "version_check":  "passed",
+                              "path":  "tools/harnesses/opencode",
+                              "API_call":  false
+                          },
+                          {
+                              "version":  "1.4.0",
+                              "name":  "Pi Coding Agent",
+                              "source":  "official npm package @earendil-works/pi-coding-agent@1.4.0",
+                              "version_check":  "passed",
+                              "path":  "tools/harnesses/pi",
+                              "offline_custom_model_config_check":  "passed_with_temporary_nonsecret_placeholder",
+                              "API_call":  false
+                          }
+                      ],
+    "runtime":  {
+                    "path":  "C:\\Program Files\\nodejs\\node.exe",
+                    "node":  "24.22.1",
+                    "global_install_or_environment_modified":  false
+                },
+    "solar":  {
+                  "free_balance":  "user-reported $19.63 on 2026-11-03; not independently account-verified",
+                  "project_dotenv_present":  false,
+                  "model_eligibility":  "unverified",
+                  "model_requests":  2,
+                  "environment_key_present":  false,
+                  "status":  "trial_cap_exhausted; no substantive drafts produced",
+                  "console_billing_access":  false,
+                  "expiration":  "user-reported: Welcome coupon 2026-11-25T05:05:00Z; Survey Credit Reward 2027-01-28T14:32:00Z",
+                  "auto_charge_after_credit":  "official pricing FAQ says API usage continues and charges go to registered payment method after credits are exhausted",
+                  "credit_used":  "not independently read after these trials",
+                  "key_value_logged":  false,
+                  "user_reported_credits_usd":  19.63,
+                  "coupon_details":  [
+                                         {
+                                             "name":  "Welcome coupon",
+                                             "amount_usd":  9.63,
+                                             "expires_utc":  "2026-11-25T05:05:00Z"
+                                         },
+                                         {
+                                             "name":  "Survey Credit Reward",
+                                             "amount_usd":  10,
+                                             "expires_utc":  "2027-01-28T14:32:00Z"
+                                         }
+                                     ],
+                  "auto_recharge":  "not configured (user-reported)",
+                  "commitment_usd":  0,
+                  "credits_used_usd":  null,
+                  "cash_charged_usd":  null,
+                  "specific_coupon_eligibility_for_solar_pro4":  "confirmed for Solar Pro 4 by user-reported Usage transaction: $0.08 usage covered by $0.08 credits; coupon identity not shown",
+                  "calls_allowed":  false,
+                  "reason":  "Exactly two forwarded POSTs: OpenCode 200 title-only output (65,736 input, 9 output tokens) then Pi 400 for unsupported store field. Durable cap exhausted; no retry. OpenCode estimated $0.0197316 ex-VAT from response usage; Pi billing unknown because error had no usage. Current account credit/cash debits not re-read.",
+                  "key_source_path":  "<historical external model/runtime root; not included>\\.env",
+                  "key_source_setting_present":  true,
+                  "key_copied_to_benzocaine":  false,
+                  "key_bridge":  "read-only source file, child-process environment only, launcher gate required",
+                  "user_reported_balance":  "$19.63 total, not account-verified by this process",
+                  "official_post_credit_billing":  "API usage may continue after credits deplete and be billed to registered payment method; auto-recharge off does not establish zero cash risk",
+                  "free_credit_deduction_order":  "Official terms state free credits are deducted before paid credits and earlier-expiring credits first; promotional entries may have separate terms"
+              },
+    "retry":  {
+                  "requirement_met":  true,
+                  "pi":  "proxy permanently reserves at most one upstream POST for Pi; later attempts receive 409; loopback mock verified",
+                  "opencode_timeout_retries":  "client may retry locally; the durable proxy ledger blocks forwarding any retry upstream; loopback mock verified",
+                  "max_requests_per_harness":  1,
+                  "total_upstream_request_cap":  2,
+                  "max_output_tokens_per_request":  10000,
+                  "estimated_input_token_ceiling":  360000,
+                  "test_result":  "4 local mock tests passed; no Solar API requests",
+                  "upstream_attempts":  2,
+                  "post_trial_retry_policy":  "no retries made; durable ledger exhausted; no repeat allowed"
+              },
+    "final_report_created":  false,
+    "github_push":  false,
+    "aspirin_project_touched":  false,
+    "checked_local_date":  "2026-11-03",
+    "max_trial_budget_usd":  1,
+    "maximum_model_requests":  2,
+    "actual_comparison_drafts_created":  0,
+    "local_guard_mock_requests":  2,
+    "api_calls_are_distinct_from_mock_test":  true,
+    "live_usage_evidence":  {
+                                "date":  "2026-11-02",
+                                "product":  "Solar Pro 4",
+                                "usage_usd":  0.08,
+                                "credits_used_usd":  0.08,
+                                "subtotal_usd":  0,
+                                "current_due_usd":  0,
+                                "account_limit":  "Unlimited",
+                                "coupon_identity":  "not displayed",
+                                "source":  "user verified authenticated Console Usage page"
+                            },
+    "live_trial_outcomes":  {
+                                "opencode":  {
+                                                 "request_count":  1,
+                                                 "http_status":  200,
+                                                 "input_tokens":  65736,
+                                                 "output_tokens":  9,
+                                                 "draft_created":  false,
+                                                 "reason":  "automatic title generation consumed sole allowed call",
+                                                 "estimated_api_cost_ex_vat_usd":  0.0197316,
+                                                 "estimated_with_10_percent_vat_usd":  0.02170476
+                                             },
+                                "pi":  {
+                                           "request_count":  1,
+                                           "http_status":  400,
+                                           "input_tokens":  null,
+                                           "output_tokens":  null,
+                                           "draft_created":  false,
+                                           "reason":  "unsupported request argument: store",
+                                           "billing":  "not exposed in response"
+                                       }
+                            }
+}

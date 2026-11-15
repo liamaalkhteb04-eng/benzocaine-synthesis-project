@@ -1,0 +1,735 @@
+{
+  "status": "prepared_from_actual_structures_and_rank1_condition_slots",
+  "materials": [
+    {
+      "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+      "formula": "C9H9NO4",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-01",
+          "step_id": "step-01",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-10",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(=O)c1ccc(N)cc1",
+      "formula": "C9H11NO2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-01",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-02",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-03",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-04",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-05",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-10",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-02",
+          "role": "product"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-02",
+          "role": "product"
+        }
+      ]
+    },
+    {
+      "smiles": "[Pd]",
+      "formula": "Pd",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-01",
+          "step_id": "step-01",
+          "role": "catalyst1"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-01",
+          "role": "catalyst1"
+        },
+        {
+          "route_id": "route-10",
+          "step_id": "step-01",
+          "role": "catalyst1"
+        }
+      ]
+    },
+    {
+      "smiles": "CCO",
+      "formula": "C2H6O",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-01",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-02",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-05",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-05",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-05",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-10",
+          "step_id": "step-01",
+          "role": "solvent1"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1",
+      "formula": "C11H13NO3",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-02",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "Cl",
+      "formula": "HCl",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-02",
+          "step_id": "step-01",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "C[Si](C)(C)N[Si](C)(C)C",
+      "formula": "C6H19NSi2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-03",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(=O)c1ccc(Br)cc1",
+      "formula": "C9H9BrO2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-03",
+          "step_id": "step-01",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "Cc1ccccc1",
+      "formula": "C7H8",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-03",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "solvent1"
+        }
+      ]
+    },
+    {
+      "smiles": "CNCCNC",
+      "formula": "C4H12N2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-03",
+          "step_id": "step-01",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+      "formula": "K3O4P",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-03",
+          "step_id": "step-01",
+          "role": "reagent2"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(=O)c1ccc(C(=O)O)cc1",
+      "formula": "C10H10O4",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-04",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "[N-]=[N+]=NP(=O)(c1ccccc1)c1ccccc1",
+      "formula": "C12H10N3OP",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-04",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CC(C)(C)O",
+      "formula": "C4H10O",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-04",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCN(CC)CC",
+      "formula": "C6H15N",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-04",
+          "step_id": "step-01",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-01",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "CC(=O)O",
+      "formula": "C2H4O2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-05",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "C1CCOC1",
+      "formula": "C4H8O",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-05",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-01",
+          "role": "solvent1"
+        }
+      ]
+    },
+    {
+      "smiles": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+      "formula": "H4AlLi",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-05",
+          "step_id": "step-01",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-01",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-01",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "formula": "C7H7NO2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-05",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-02",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOCC",
+      "formula": "C4H10O",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-05",
+          "step_id": "step-02",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-02",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-02",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-02",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-02",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "FB(F)F",
+      "formula": "BF3",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-05",
+          "step_id": "step-02",
+          "role": "reagent2"
+        },
+        {
+          "route_id": "route-06",
+          "step_id": "step-02",
+          "role": "reagent2"
+        },
+        {
+          "route_id": "route-07",
+          "step_id": "step-02",
+          "role": "reagent2"
+        },
+        {
+          "route_id": "route-08",
+          "step_id": "step-02",
+          "role": "reagent2"
+        },
+        {
+          "route_id": "route-09",
+          "step_id": "step-02",
+          "role": "reagent2"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(C)=O",
+      "formula": "C4H8O2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-06",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOCc1ccccc1",
+      "formula": "C9H12O",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-07",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "COC(C)=O",
+      "formula": "C3H6O2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-08",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCO[Si](C)(C)C(C)(C)C",
+      "formula": "C8H20OSi",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-09",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCCC[N+](CCCC)(CCCC)CCCC.[F-]",
+      "formula": "C16H36FN",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-09",
+          "step_id": "step-01",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "CC(C)(C)OC(=O)OC(=O)OC(C)(C)C",
+      "formula": "C10H18O5",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-10",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(=O)c1ccc(NC(=O)OC(C)(C)C)cc1",
+      "formula": "C14H19NO4",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-10",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-10",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-02",
+          "role": "precursor"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-01",
+          "role": "product"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-02",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "ClCCl",
+      "formula": "CH2Cl2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-10",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-02",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-01",
+          "role": "solvent1"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-02",
+          "role": "solvent1"
+        }
+      ]
+    },
+    {
+      "smiles": "O=C(O)C(F)(F)F",
+      "formula": "C2HF3O2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-10",
+          "step_id": "step-02",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-11",
+          "step_id": "step-02",
+          "role": "reagent1"
+        },
+        {
+          "route_id": "route-12",
+          "step_id": "step-02",
+          "role": "reagent1"
+        }
+      ]
+    },
+    {
+      "smiles": "CC(C)(C)OC(N)=O",
+      "formula": "C5H11NO2",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    },
+    {
+      "smiles": "[Cu][I]",
+      "formula": "CuI",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "catalyst1"
+        }
+      ]
+    },
+    {
+      "smiles": "O=C([O-])[O-].[K+].[K+]",
+      "formula": "CK2O3",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-11",
+          "step_id": "step-01",
+          "role": "reagent2"
+        }
+      ]
+    },
+    {
+      "smiles": "CCOC(=O)c1ccc(N=C=O)cc1",
+      "formula": "C10H9NO3",
+      "formal_charge": 0,
+      "occurrences": [
+        {
+          "route_id": "route-12",
+          "step_id": "step-01",
+          "role": "precursor"
+        }
+      ]
+    }
+  ],
+  "property_values": null,
+  "three_dimensional_coordinates_generated": false
+}

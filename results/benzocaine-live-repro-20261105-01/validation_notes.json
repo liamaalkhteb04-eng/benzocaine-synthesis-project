@@ -1,0 +1,30 @@
+{
+  "artifact_type": "deterministic_checks_not_a_Solar_report",
+  "target_id": "benzocaine",
+  "notes": [
+    {
+      "kind": "cross_model_limit",
+      "note": "Parrot conditions are not inputs to the yield model. Predicted yields are not experimentally validated."
+    },
+    {
+      "kind": "model_applicability",
+      "note": "Target-specific accuracy and domain membership are not assessed; normalization correctness is not accuracy validation."
+    },
+    {
+      "kind": "missing_conditions",
+      "note": "Temperature, time and equivalents are not supplied by the selected condition checkpoint."
+    },
+    {
+      "kind": "route_limit",
+      "note": "Stock membership and template scores do not prove practical feasibility. Search excludes target from stock; agents/byproducts can be omitted."
+    }
+  ],
+  "applicability": "not_assessed",
+  "source_hashes": {
+    "input.json": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
+    "routes.json": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb",
+    "conditions-parrot.json": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79",
+    "yields-rxn_yields.json": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a",
+    "figures/manifest.json": "4747768b29db6d1feeb8ce95aa8f2bbe5b2de5f4bfa83636a85f5bf4ac7134a2"
+  }
+}

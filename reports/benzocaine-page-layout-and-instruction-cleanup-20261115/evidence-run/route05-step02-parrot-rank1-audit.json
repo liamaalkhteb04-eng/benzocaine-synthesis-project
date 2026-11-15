@@ -1,0 +1,13 @@
+{
+  "source_file": "results/benzocaine-live-20261031-04/conditions-parrot.raw.json",
+  "file_sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6",
+  "route_id": "route-05",
+  "step_id": "step-02",
+  "rank": 1,
+  "catalyst1": "",
+  "solvent1": "CCO",
+  "solvent2": "",
+  "reagent1": "CCOCC",
+  "reagent2": "FB(F)F",
+  "sequence_score": -2.1754837036132812
+}
