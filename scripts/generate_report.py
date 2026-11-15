@@ -16,7 +16,7 @@ def main():
     for name,sha in evidence['source_hashes'].items():
         if digest(run/name)!=sha:raise ValueError('Evidence source changed: '+name)
     attempt=run/'solar-attempts'/a.attempt_id;attempt.mkdir(parents=True,exist_ok=False)
-    skill=ROOT/'skill/synthesis_report_skill.md'
+    skill=ROOT/plan.get('skill_path','skill/SKILL.md')
     evidence['execution_record']=load(run/'manifest.json')
     request={'model':plan['model'],'temperature':plan['temperature'],'max_tokens':plan['max_tokens'],'stream':False,'messages':[{'role':'system','content':skill.read_text(encoding='utf-8')},{'role':'user','content':'실제 근거를 읽어 지침에 따른 한국어 보고서 전문을 작성하세요.\n'+json.dumps(evidence,ensure_ascii=False)}]}
     save(attempt/'solar-request.json',request)

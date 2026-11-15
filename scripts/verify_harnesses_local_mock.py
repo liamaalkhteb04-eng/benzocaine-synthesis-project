@@ -87,7 +87,7 @@ def inspect_body(body: dict[str, Any], source_payload: str) -> dict[str, Any]:
         problems.append("frozen_evidence_payload_not_attached")
     if source_payload not in user_text:
         problems.append("full_frozen_payload_not_attached")
-    if "synthesis_report_skill.md" not in user_text:
+    if "skill/SKILL.md" not in user_text:
         problems.append("skill_evidence_not_attached")
     if unknown:
         problems.append("unsupported_top_level_fields:" + ",".join(unknown))
@@ -106,7 +106,7 @@ def inspect_body(body: dict[str, Any], source_payload: str) -> dict[str, Any]:
         "full_frozen_payload_present": source_payload in user_text,
         "report_prompt_present": PROMPT in user_text,
         "benzocaine_evidence_present": "Benzocaine" in user_text,
-        "skill_filename_present": "synthesis_report_skill.md" in user_text,
+        "skill_filename_present": "skill/SKILL.md" in user_text,
         "store_absent": "store" not in body,
         "problems": problems,
         "pass": not problems,

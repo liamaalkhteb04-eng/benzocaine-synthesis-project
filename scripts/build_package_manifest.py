@@ -33,7 +33,7 @@ def main():
         files.append({"path": rel, "size_bytes": path.stat().st_size, "sha256": sha(path)})
     data = {
         "generated_from": "benzocaine-synthesis-project working copy plus verified page-layout/instruction-cleanup release",
-        "status": "public_release_candidate",
+        "status": "validated_submission_package",
         "latest_report_path": a.latest_pdf,
         "latest_docx_path": a.latest_docx,
         "latest_report_page_count": 19,

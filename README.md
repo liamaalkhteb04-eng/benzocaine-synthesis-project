@@ -1,6 +1,13 @@
 # AI synthesis report pipeline - reproducible source package
 
-This package includes target-neutral route, condition and yield adapters; report-writing skills; benzocaine example inputs and evidence; and the current verified report. Saved benzocaine predictions are examples only and are never reused for a different target.
+This package includes target-neutral route, condition and yield adapters; report-writing skill; benzocaine example inputs and evidence; and the current verified report. Saved benzocaine predictions are examples only and are never reused for a different target.
+
+## Unified report skill
+
+[`skill/SKILL.md`](skill/SKILL.md) is the single current entrypoint for Solar Pro 4 report writing and the pipeline workflow. New report requests default to a complete report from the selected target and verified evidence. Section- or sentence-only edits apply only when the user explicitly requests a narrow revision. Historical prompts and exact skill files used in prior calls are preserved with hashes and run IDs in [`provenance/skills/PATH-MAP.md`](provenance/skills/PATH-MAP.md); they are not injected into new full-report requests.
+
+The standard flow is: create `inputs/<target_id>.json` from `inputs/input-template.json`, validate and preflight it, execute `scripts/run_pipeline.py` with a new run ID, review raw outputs and additional analyses, prepare or execute the explicitly authorized Solar Pro 4 request through `scripts/generate_report.py`, then export and validate DOCX/PDF. Saved-response document rebuilds use the archived response and do not make a new model request. See `skill/SKILL.md` for the full evidence and page-limit rules.
+
 
 ## Current verified Benzocaine release (2026-11-15)
 
@@ -205,14 +212,14 @@ Move-Item "$work/report.pdf" "$work/벤조카인_AI유기합성_최종보고서.
 The current included run was rebuilt and passed citation/content checks: 19 pages, 10 figures, 4 tables, all referenced URLs present, no detected overflow or authoring instructions. Details are in `reports/benzocaine-page-layout-and-instruction-cleanup-20261115/document-validation.json`. Report source scans and the course PDF are intentionally not bundled; official links and access instructions are in `reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/source-acquisition.md` and `evidence-run/course-material-acquisition.md`.
 
 
-Official model repositories, versions, checkpoint requirements and setup instructions are listed above and in `skill/synthesis_report_skill.md`. Model weights, local environments, private API keys, and large derived stock buckets are excluded. The package retains the asset lock/checksum metadata and the stock generation instructions.
+Official model repositories, versions, checkpoint requirements and setup instructions are listed above and in `skill/SKILL.md`. Model weights, local environments, private API keys, and large derived stock buckets are excluded. The package retains the asset lock/checksum metadata and the stock generation instructions.
 
 The report is based on the saved Benzocaine evidence; its displayed values remain tied to the listed run IDs. A fresh local rerun with the submission entrypoint succeeded on this same PC for the same Benzocaine input at `results/benzocaine-live-repro-20261105-01/`. The route/condition/yield integrity and reuse comparison records are included there and under `validation/`. This does not verify another molecule or a clean computer. For a new molecule, prepare its own JSON, install isolated runtimes, obtain matching model assets and full AiZynthFinder stock buckets, run preflight, and then use `scripts/run_pipeline.py` as described above. Never reuse Benzocaine predictions for a different target.
 
 Saved-response DOCX/PDF rebuilding is distinct from fresh model inference and a new Solar-authored report. The saved-response build was verified locally with the existing external report environment and Word 16.0; no new installation, inference, Solar request, GitHub push, or school submission was part of this curation.
 ## 6. Sources, limitations and reproducibility
 
-Official model repositories, versions, checkpoint requirements and setup instructions are listed above and in `skill/synthesis_report_skill.md`. Model weights, local environments, private API keys, and large derived stock buckets are excluded. The package retains the asset lock/checksum metadata and stock generation instructions.
+Official model repositories, versions, checkpoint requirements and setup instructions are listed above and in `skill/SKILL.md`. Model weights, local environments, private API keys, and large derived stock buckets are excluded. The package retains the asset lock/checksum metadata and stock generation instructions.
 
 The report is based on the saved Benzocaine evidence; its displayed values remain tied to the listed run IDs. A fresh local rerun with the submission entrypoint succeeded on this same PC for the same Benzocaine input at `results/benzocaine-live-repro-20261105-01/`. The route/condition/yield integrity and reuse comparison records are included there and under `validation/`. This does not verify another molecule or a clean computer. For a new molecule, prepare its own JSON, install isolated runtimes, obtain matching model assets and full AiZynthFinder stock buckets, run preflight, and then use `scripts/run_pipeline.py` as described above. Never reuse Benzocaine predictions for a different target.
 

@@ -12,7 +12,7 @@ def main():
     a=p.parse_args(); root=a.project_root.resolve()
     for name in ('skill','inputs','configs','results','reports','validation','plans','tests','analyses'):
         (root/name).mkdir(parents=True,exist_ok=True)
-    required=[root/'skill'/'synthesis_report_skill.md',root/'inputs'/'input-template.json',root/'configs'/'runtime.json']
+    required=[root/'skill'/'SKILL.md',root/'inputs'/'input-template.json',root/'configs'/'runtime.json']
     missing=[str(x) for x in required if not x.is_file()]
     unresolved=set()
     pattern=re.compile(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}")

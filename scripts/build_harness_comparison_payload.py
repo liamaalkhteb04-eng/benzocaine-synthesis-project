@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FILES = [
     "analyses/harness-comparison/comparison-system-prompt.txt",
-    "skill/synthesis_report_skill.md",
+    "skill/SKILL.md",
     "results/benzocaine-live-20261031-04/report-evidence.json",
     "results/benzocaine-live-20261031-04/validation_notes.json",
     "analyses/mopac/results-interpretation.md",

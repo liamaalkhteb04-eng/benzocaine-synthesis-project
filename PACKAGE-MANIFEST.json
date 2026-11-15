@@ -1,6 +1,6 @@
 {
   "generated_from": "benzocaine-synthesis-project working copy plus verified page-layout/instruction-cleanup release",
-  "status": "public_release_candidate",
+  "status": "validated_submission_package",
   "latest_report_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.pdf",
   "latest_docx_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx",
   "latest_report_page_count": 19,
@@ -26,7 +26,7 @@
     "temporary page renderings"
   ],
   "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
-  "file_count": 993,
+  "file_count": 997,
   "files": [
     {
       "path": ".env.example",
@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 20619,
-      "sha256": "e1b5b146aff8c6fddc25d5ea1fd4c38dc8a5a3d89141ae97902e8d2176ed203b"
+      "size_bytes": 21665,
+      "sha256": "d4fef63b5e30c86fde3284abfdc82d4b93afbc88a72975de3452c49094063e73"
     },
     {
       "path": "REPRODUCIBILITY-REVIEW.md",
@@ -2270,8 +2270,8 @@
     },
     {
       "path": "configs/report-plan.json",
-      "size_bytes": 638,
-      "sha256": "a68c22aa18cd16c3edb4f6f25156b6d5e888dc928d37142a5d1370356d1a4dc1"
+      "size_bytes": 761,
+      "sha256": "e6749a337ad4edc686443e2f18f2c9ff2dab4ae73c1cff8b3b98c4c0990891f7"
     },
     {
       "path": "configs/runtime.json",
@@ -2292,6 +2292,36 @@
       "path": "inputs/input-template.json",
       "size_bytes": 451,
       "sha256": "1cc568d996c662815da5bc1c7e63b54a8f5141d8af687f1b19a93e14182f3e54"
+    },
+    {
+      "path": "provenance/skills/PATH-MAP.md",
+      "size_bytes": 2955,
+      "sha256": "758fb5f6bade908e2bbc587281e43e86bf4afb683d71798c8223dc0eb428d125"
+    },
+    {
+      "path": "provenance/skills/SKILL-launcher-before-unification.md",
+      "size_bytes": 645,
+      "sha256": "2ef980a5bca4e4f4423c2e46dbeea8dfd8b6c6a7c63a4132a0495f9c19ba0990"
+    },
+    {
+      "path": "provenance/skills/synthesis_report_skill-harness-v1.md",
+      "size_bytes": 7381,
+      "sha256": "7da4b5b48ebc4e2d954fe9331ae0b27c89fcd2aa6c25617513d72e2cbe8e4714"
+    },
+    {
+      "path": "provenance/skills/synthesis_report_skill-report-v1.md",
+      "size_bytes": 19177,
+      "sha256": "cc78e000280a5dc968772226650c2d5a6888a767ef9731dbe72e9542e5ee46d8"
+    },
+    {
+      "path": "provenance/skills/targeted-benzocaine-section-revision-v1.md",
+      "size_bytes": 1107,
+      "sha256": "c39a1c9391cb7456d386f1184cdaf4f354cf24258a2ad3c42072d6c7bb0dcca2"
+    },
+    {
+      "path": "provenance/skills/targeted-report-sentence-cleanup-v1.md",
+      "size_bytes": 846,
+      "sha256": "a791638e22b0f5154afdf54d70646ff1ce96ffdde76dcfff0904f2f26b33b39a"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/citation-audit.json",
@@ -4615,8 +4645,8 @@
     },
     {
       "path": "scripts/bootstrap_project.py",
-      "size_bytes": 1719,
-      "sha256": "effb80d643a32a8542690c6b2394d0dcb53cc19ca69a8e34c760cc50510a6dec"
+      "size_bytes": 1669,
+      "sha256": "8dbabb44c52d052f6953af4d6b1055823fe60289b33e3a9186b1c76659faf609"
     },
     {
       "path": "scripts/build_evidence.py",
@@ -4625,13 +4655,13 @@
     },
     {
       "path": "scripts/build_harness_comparison_payload.py",
-      "size_bytes": 3898,
-      "sha256": "6d1031f6afc989b75ae2f6cfd8d8ca7744ebc2267ea1571df71bdd816617282f"
+      "size_bytes": 3881,
+      "sha256": "ab202579fd3233dcd4b34ce9f7ef1d02be633533b63ee54e57a35feebb8b57d6"
     },
     {
       "path": "scripts/build_package_manifest.py",
-      "size_bytes": 3233,
-      "sha256": "b3491b2b96630c6b076023a5550082e35593a6cf16b0eed0e0fddc4ee5aef867"
+      "size_bytes": 3173,
+      "sha256": "074137b625b543c5fc1b2958a2248ddc2b4c70b408fb047c81d1bf661c761bae"
     },
     {
       "path": "scripts/build_submission_report.py",
@@ -4675,13 +4705,13 @@
     },
     {
       "path": "scripts/generate_report.py",
-      "size_bytes": 3303,
-      "sha256": "84edaea903461680d9d8c238146d6d148186cade59c2ecef5438419275fbba9a"
+      "size_bytes": 3309,
+      "sha256": "ae956cdf71e2e54e6aafad444c32fae7f56899dcf268cb945ab12b854b113451"
     },
     {
       "path": "scripts/generate_solar_report_from_bundle.py",
-      "size_bytes": 16714,
-      "sha256": "137ed68b1e252cd54a5f25dbe4622913b356e9d909fc1933132f2a0207777945"
+      "size_bytes": 17593,
+      "sha256": "40e4d4b55425465f178875df9bae0a44210486b7486404a96d81f97e145eff8f"
     },
     {
       "path": "scripts/generate_targeted_revision_once.py",
@@ -4725,8 +4755,8 @@
     },
     {
       "path": "scripts/prepare_additional_analyses.py",
-      "size_bytes": 6419,
-      "sha256": "1312e56f980b2bbea9e7906df47e89bfadabc23f850613460656ed4d8be91a46"
+      "size_bytes": 6458,
+      "sha256": "097c888006ebb3a9c822c6603e647e10d570ff0173d0770b4a55e03b609c80fa"
     },
     {
       "path": "scripts/prepare_additional_structures.py",
@@ -4830,8 +4860,8 @@
     },
     {
       "path": "scripts/verify_harnesses_local_mock.py",
-      "size_bytes": 11875,
-      "sha256": "448777e5093f52954d424a024440d3bbd18b03005bfce065488fb1bf5c0b2504"
+      "size_bytes": 11853,
+      "sha256": "f94e6491f064b33df6fcd3e9cd1fefb4a731788ac939e89167efbf263f3757a0"
     },
     {
       "path": "scripts/verify_preservation.py",
@@ -4845,23 +4875,8 @@
     },
     {
       "path": "skill/SKILL.md",
-      "size_bytes": 645,
-      "sha256": "2ef980a5bca4e4f4423c2e46dbeea8dfd8b6c6a7c63a4132a0495f9c19ba0990"
-    },
-    {
-      "path": "skill/synthesis_report_skill.md",
-      "size_bytes": 19177,
-      "sha256": "cc78e000280a5dc968772226650c2d5a6888a767ef9731dbe72e9542e5ee46d8"
-    },
-    {
-      "path": "skill/targeted-benzocaine-section-revision-v1.md",
-      "size_bytes": 1107,
-      "sha256": "c39a1c9391cb7456d386f1184cdaf4f354cf24258a2ad3c42072d6c7bb0dcca2"
-    },
-    {
-      "path": "skill/targeted-report-sentence-cleanup-v1.md",
-      "size_bytes": 846,
-      "sha256": "a791638e22b0f5154afdf54d70646ff1ce96ffdde76dcfff0904f2f26b33b39a"
+      "size_bytes": 13842,
+      "sha256": "bdf50f2f0dfbcde3f3240e3c13db816e27e59cc298a978fcdcf2951be038d310"
     },
     {
       "path": "tests/test_harness_request_guard.py",
@@ -4901,7 +4916,7 @@
     {
       "path": "validation/package-secret-audit-content.json",
       "size_bytes": 248,
-      "sha256": "6d8a6f437788bf86038c97568a7146d602913f744b9aef6b8b16175e991793a7"
+      "sha256": "a4294eee478a4475595527702e592813c770eff1d3ea59c790fe2f368bd0fc6e"
     },
     {
       "path": "validation/privacy-redaction-log.json",
@@ -4922,6 +4937,11 @@
       "path": "validation/reproducibility-preflight/pubchem.raw.json",
       "size_bytes": 250,
       "sha256": "51f418de99ac859a3f3365913af3096a290dd4fd82ca98e30a0e2f17db7ee68b"
+    },
+    {
+      "path": "validation/skill-unification-offline-check.json",
+      "size_bytes": 4769,
+      "sha256": "5611c8acbb5e27dc946f5164b2dbf4b98c17f268af286727dc9d17fd11af0099"
     },
     {
       "path": "검증기록/이전-인용게이트실패/citation-audit-logic-regression.json",

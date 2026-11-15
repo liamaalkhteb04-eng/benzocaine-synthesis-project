@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "scope": "offline request construction, path/config checks, saved-file/hash checks; no Solar API call, no chemical model inference, and no Solar response-quality assessment.",
+  "current_skill_sha256": "bdf50f2f0dfbcde3f3240e3c13db816e27e59cc298a978fcdcf2951be038d310",
+  "checks": {
+    "only_one_current_skill": true,
+    "config_default_points_to_unified_skill": true,
+    "mode_separation_rules_present": true,
+    "no_historical_run_or_patch_prompt_in_current_skill": true,
+    "default_code_paths_unified": true,
+    "legacy_default_path_absent_from_active_code_config_readme": true,
+    "preserved_original_skill_hashes": true,
+    "offline_prepare_only_matches_unified_skill": true,
+    "bundle_request_builder_matches_unified_skill": true,
+    "saved_report_rebuild_inputs_present": true,
+    "reports_within_20_pages": true,
+    "readme_local_links_valid": true,
+    "solar_quality_not_assessed": true,
+    "changed_python_files_compile": true,
+    "legacy_report_writing_brief_not_auto_included": true,
+    "untagged_targeted_brief_rejected": true,
+    "explicit_full_report_brief_requires_and_accepts_marker": true,
+    "official_model_sources_present": true
+  },
+  "code_path_checks": {
+    "scripts/generate_report.py": true,
+    "scripts/generate_solar_report_from_bundle.py": true,
+    "scripts/build_harness_comparison_payload.py": true,
+    "scripts/bootstrap_project.py": true,
+    "scripts/prepare_additional_analyses.py": true,
+    "scripts/verify_harnesses_local_mock.py": true
+  },
+  "provenance_file_hash_checks": {
+    "synthesis_report_skill-harness-v1.md": true,
+    "synthesis_report_skill-report-v1.md": true,
+    "targeted-benzocaine-section-revision-v1.md": true,
+    "targeted-report-sentence-cleanup-v1.md": true,
+    "SKILL-launcher-before-unification.md": true
+  },
+  "offline_request_checks": {
+    "generate_report_prepare_only": {
+      "system_sha256": "bdf50f2f0dfbcde3f3240e3c13db816e27e59cc298a978fcdcf2951be038d310",
+      "matches_unified_skill": true,
+      "mode_request_is_full_report": true,
+      "paid_calls": 0,
+      "inference_executed": false,
+      "status": "prepared_not_executed",
+      "source_run_id": "benzocaine-live-repro-20261105-01"
+    },
+    "bundle_request_builder": {
+      "system_sha256": "bdf50f2f0dfbcde3f3240e3c13db816e27e59cc298a978fcdcf2951be038d310",
+      "matches_unified_skill": true,
+      "source_count": 13,
+      "contains_full_report_request": true,
+      "legacy_targeted_markers_in_request": false
+    }
+  },
+  "report_checks": {
+    "pdf_sha256": "2a6dde37ffd9a43d267b7825f11cc0a15686934af9c1ed98471e1e0dd8ae2b33",
+    "docx_sha256": "ee183773821f40e0b96a35086583e11b53189deb58ea8fbeaaf67c5465678e13",
+    "pdf_pages": 19,
+    "docx_file_unchanged_by_this_validation": true
+  },
+  "readme_link_count": 8,
+  "broken_readme_links": [],
+  "code_syntax_checks": {
+    "scripts/generate_report.py": true,
+    "scripts/generate_solar_report_from_bundle.py": true,
+    "scripts/build_harness_comparison_payload.py": true,
+    "scripts/bootstrap_project.py": true,
+    "scripts/prepare_additional_analyses.py": true,
+    "scripts/verify_harnesses_local_mock.py": true
+  },
+  "brief_mode_gate_checks": {
+    "stale_brief_ignored_by_default": true,
+    "targeted_mode_brief_rejected": true,
+    "explicit_full_report_brief_accepted": true,
+    "no_network_or_model_call": true
+  },
+  "preexisting_alternate_run_check": {
+    "run_id": "benzocaine-live-20261031-04",
+    "status": "not_usable_for_request_preparation_due_to_saved_source_hash_mismatches",
+    "mismatched_sources": [
+      "routes.json",
+      "conditions-parrot.json",
+      "yields-rxn_yields.json",
+      "figures/manifest.json"
+    ],
+    "cause": "not established; no source evidence or report was modified"
+  },
+  "interpretation_note": "The successful offline request check used the newer same-PC rerun whose source hashes matched. The earlier representative bundle has separate existing mismatches and was not silently repaired.",
+  "editing_recovery_note": "The report bundle generator working copy was restored from the previously committed source and the unified skill path plus explicit brief gate were reapplied; final file compiled and request construction passed. No report, saved response, or model result was changed.",
+  "official_model_source_links": [
+    "https://github.com/MolecularAI/aizynthfinder",
+    "https://github.com/schwallergroup/synthex/tree/submission",
+    "https://gitlab.com/mlpds_mit/askcosv2/context_recommender",
+    "https://github.com/wangxr0526/Parrot",
+    "https://github.com/rxn4chemistry/rxn_yields",
+    "https://github.com/reymond-group/drfp"
+  ]
+}
