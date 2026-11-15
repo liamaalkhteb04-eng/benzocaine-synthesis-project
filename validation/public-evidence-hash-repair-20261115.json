@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "scope": "Hash-lineage and path-anonymization audit; local RDKit input validation and Solar request preparation; no Solar call, chemistry-model inference, or network request.",
+  "historical_run_id": "benzocaine-live-20261031-04",
+  "historical_execution_manifest_sha256": "3bca312ead8e2fc3314031e93b2d19df39549ab909ad0f0e509c3007f93f0348",
+  "historical_report_evidence_sha256": "44885f4e8a4ac7f3a07ed463202b11aaa4ebf1dd28cc7dfc43e373bc0483bd2a",
+  "historical_manifest_and_evidence_hash_agreement": true,
+  "mismatched_artifacts": [
+    {
+      "path": "results/benzocaine-live-20261031-04/routes.json",
+      "expected_historical_sha256": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63",
+      "actual_published_copy_sha256": "49d6a5b9a3a4a17ca6292c73aadd32ad004c5275e78b520d0dd73b37f14c0a6a",
+      "recorded_by": [
+        "results/benzocaine-live-20261031-04/manifest.json:files",
+        "results/benzocaine-live-20261031-04/report-evidence.json:source_hashes"
+      ],
+      "historical_run_id": "benzocaine-live-20261031-04",
+      "reason_class": "path-anonymized derivative; JSON pointer differences are enumerated in results/benzocaine-live-20261031-04-public-curated/public-derivation.json",
+      "semantic_non_path_differences": 0
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/conditions-parrot.json",
+      "expected_historical_sha256": "c1ec5ed4493b25c25a8d38c0c10372cf2592078e0b2d322fd1fe32f170bc0747",
+      "actual_published_copy_sha256": "daf7e2cfb1cac0f33b9884ba3995cdc093c6f6bae0b426fc3ee993b2cb3c4fd8",
+      "recorded_by": [
+        "results/benzocaine-live-20261031-04/manifest.json:files",
+        "results/benzocaine-live-20261031-04/report-evidence.json:source_hashes"
+      ],
+      "historical_run_id": "benzocaine-live-20261031-04",
+      "reason_class": "path-anonymized derivative; JSON pointer differences are enumerated in results/benzocaine-live-20261031-04-public-curated/public-derivation.json",
+      "semantic_non_path_differences": 0
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/yields-rxn_yields.json",
+      "expected_historical_sha256": "18fd9a6f0cd303e15b690b8936d3519eebefddb9899ea2cc1cfb2e5d3935a63a",
+      "actual_published_copy_sha256": "c60daf507378a0528320e3123656896bded2a8ee0a22911f0f0c0bd873a357b2",
+      "recorded_by": [
+        "results/benzocaine-live-20261031-04/manifest.json:files",
+        "results/benzocaine-live-20261031-04/report-evidence.json:source_hashes"
+      ],
+      "historical_run_id": "benzocaine-live-20261031-04",
+      "reason_class": "path-anonymized derivative; JSON pointer differences are enumerated in results/benzocaine-live-20261031-04-public-curated/public-derivation.json",
+      "semantic_non_path_differences": 0
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/figures/manifest.json",
+      "expected_historical_sha256": "222a4856af4d267cc8a22bc02f9109d6842080c50d9258b48692053b802e31c4",
+      "actual_published_copy_sha256": "177b649c57b2d6742668c8fa45182b419e96b58204af23f756f16bccfdb80880",
+      "recorded_by": [
+        "results/benzocaine-live-20261031-04/manifest.json:files",
+        "results/benzocaine-live-20261031-04/report-evidence.json:source_hashes"
+      ],
+      "historical_run_id": "benzocaine-live-20261031-04",
+      "reason_class": "path-anonymized derivative; JSON pointer differences are enumerated in results/benzocaine-live-20261031-04-public-curated/public-derivation.json",
+      "semantic_non_path_differences": 0
+    }
+  ],
+  "root_cause": "The public submission copy replaced user/machine-specific absolute paths with relative paths or redacted placeholders in the prediction and figure JSON. It retained the historical run manifest and report-evidence source hashes, which correctly describe the pre-anonymization execution bytes but cannot validate the transformed public bytes. This was path anonymization, not a science-field change, source replacement, or wrong target file.",
+  "correction": "Preserved the original historical run directory unchanged. Created results/benzocaine-live-20261031-04-public-curated as a separately identified derivative with exact hashes for the public bytes, a lineage record retaining historical hashes and changed JSON pointers, and a fresh deterministic route/step evidence join.",
+  "input_validation_record": "validation/benzocaine-live-20261031-04-public-curated-target-offline.json",
+  "prepared_request": "results/benzocaine-live-20261031-04-public-curated/solar-attempts/readme-offline-demo-01/solar-request.json",
+  "request_validation": {
+    "status": "passed",
+    "report_writing_skill_matches_system_message": true,
+    "source_hashes_match_derivative_files": true,
+    "route_count": 12,
+    "step_count": 20,
+    "network_requests": 0,
+    "solar_calls": 0,
+    "chemical_model_calls": 0
+  },
+  "report_hashes_unchanged": {
+    "pdf": "2a6dde37ffd9a43d267b7825f11cc0a15686934af9c1ed98471e1e0dd8ae2b33",
+    "docx": "ee183773821f40e0b96a35086583e11b53189deb58ea8fbeaaf67c5465678e13"
+  },
+  "readme_commands_executed": {
+    "offline_validator": "scripts/validate_target_offline.py",
+    "report_request_builder": "scripts/generate_report.py --prepare-only",
+    "target_match": "passed",
+    "request_status": "prepared_not_executed",
+    "external_requests": 0,
+    "solar_calls": 0,
+    "chemical_model_calls": 0
+  },
+  "manifest_lineage": {
+    "relative_path": "results/benzocaine-live-20261031-04/manifest.json",
+    "historical_execution_manifest_sha256": "3bca312ead8e2fc3314031e93b2d19df39549ab909ad0f0e509c3007f93f0348",
+    "published_anonymized_manifest_sha256": "4f4929d687f9b47a26a60ebf197c2e6b3107c8ca2f60fba674372c42da812043",
+    "hash_values_used_as_expected_values_are_the_historical_files_entries": true,
+    "report_evidence_relative_path": "results/benzocaine-live-20261031-04/report-evidence.json",
+    "historical_report_evidence_sha256": "44885f4e8a4ac7f3a07ed463202b11aaa4ebf1dd28cc7dfc43e373bc0483bd2a",
+    "published_anonymized_report_evidence_sha256": "1c15f261e3b38fd936847cb5300badd588550abcc9493b3dfcbac954ed7f69ed",
+    "expected_hash_values_agree_between_historical_manifest_and_historical_report_evidence": true
+  }
+}

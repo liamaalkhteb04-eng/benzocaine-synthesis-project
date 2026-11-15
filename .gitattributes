@@ -1,2 +1,7 @@
 * text=auto eol=lf
 provenance/skills/*.md -text
+results/benzocaine-live-20261031-04-public-curated/** -text -eol
+validation/benzocaine-live-20261031-04-public-curated-target-offline*.json -text -eol
+validation/public-curated-request-offline-20261115.json -text -eol
+validation/public-evidence-hash-repair-20261115.json -text -eol
+validation/package-secret-audit-content.json -text -eol

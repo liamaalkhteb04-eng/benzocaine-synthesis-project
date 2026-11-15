@@ -18,6 +18,8 @@ from scripts.generate_solar_report_from_bundle import make_request
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-dir", type=Path, help="Optional real run outside the package, for read-only request-construction validation")
+    parser.add_argument("--output", type=Path, default=ROOT / "validation/report-writing-skill-request-offline-check-final-03.json",
+                        help="New verification record path; existing records are never overwritten")
     args = parser.parse_args()
     config = load(ROOT / "configs/report-plan.json")
     execution_path = ROOT / config["execution_skill_path"]
@@ -120,7 +122,7 @@ def main() -> int:
             "external_requests": 0,
         }
 
-    output = ROOT / "validation/report-writing-skill-request-offline-check-final-03.json"
+    output = args.output if args.output.is_absolute() else ROOT / args.output
     if output.exists():
         raise SystemExit(f"Refusing to overwrite prior verification: {output.relative_to(ROOT)}")
     output.write_text(json.dumps(checks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")

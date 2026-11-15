@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "route_count": 12,
+  "step_count": 20,
+  "multi_step_route_count": 8,
+  "conditions_joined": 20,
+  "yields_joined": 20,
+  "scope": "Exact route/step/reaction joins for this public derivative; not chemical feasibility validation."
+}

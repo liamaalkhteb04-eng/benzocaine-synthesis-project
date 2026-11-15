@@ -1,0 +1,10 @@
+{
+  "status": "prepared_not_executed",
+  "inference_executed": false,
+  "model": "solar-pro4-260806",
+  "report_writing_skill_path": "skill\\report-writing\\SKILL.md",
+  "skill_sha256": "c861bf1130bf400fd89cde0df662f4d0ab27a1fff2612f4541fd477226a49b0b",
+  "request_sha256": "910b5245be4165ad1ed94cbf6d58e32564ede0a5d84f1288f84fb431c8857538",
+  "paid_calls": 0,
+  "reason": "Preparation only; no network request and no report authored"
+}

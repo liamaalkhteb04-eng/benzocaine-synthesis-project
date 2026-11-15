@@ -26,7 +26,7 @@
     "temporary page renderings"
   ],
   "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
-  "file_count": 1005,
+  "file_count": 1110,
   "files": [
     {
       "path": ".env.example",
@@ -35,8 +35,8 @@
     },
     {
       "path": ".gitattributes",
-      "size_bytes": 48,
-      "sha256": "2b52ddf9024d47fa937852b6c971fc24cb332bbd0137be0b20746f42860214d1"
+      "size_bytes": 386,
+      "sha256": "ee7774adba893445e261633b7a088c4d7655b2c9a0c686eab21bbedad998365e"
     },
     {
       "path": ".gitignore",
@@ -50,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 25250,
-      "sha256": "fc1c66e6a6eef41804971b793c63011d465938dea5fe74d48a65394ef25e9482"
+      "size_bytes": 28282,
+      "sha256": "c81ca15872e5b2267f3f3b8e213826f5e838bc5779a0fb3093f869849f579b2a"
     },
     {
       "path": "REPRODUCIBILITY-REVIEW.md",
@@ -3654,6 +3654,501 @@
       "sha256": "fc5cfe1fa4aa94725311b00deec7e02adc265d817f7cb62e8881f373e710e07e"
     },
     {
+      "path": "results/benzocaine-live-20261031-04-public-curated/additional-analysis-status.json",
+      "size_bytes": 775,
+      "sha256": "134a9a265fddb342cf67ff8e76d8412e4ff391d2a69853abfcbfd65b166a699e"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/analysis-material-inventory.json",
+      "size_bytes": 16069,
+      "sha256": "47d80b71d75f64cdd415f73db80aa348dc0f74b438e8a70a1894cd6ced9f8662"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/conditions-parrot.json",
+      "size_bytes": 87511,
+      "sha256": "daf7e2cfb1cac0f33b9884ba3995cdc093c6f6bae0b426fc3ee993b2cb3c4fd8"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/conditions-parrot.log",
+      "size_bytes": 2015,
+      "sha256": "16a997434aeac7e60ae466a07582bb9912187a27924867cda2205599ff1dfd9e"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/conditions-parrot.raw.json",
+      "size_bytes": 61838,
+      "sha256": "6ad0fbf86b3e9dbbd71700e8e3e8ab2785c9494c1d49177a78f01e760c5397a6"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/manifest.json",
+      "size_bytes": 7581,
+      "sha256": "177b649c57b2d6742668c8fa45182b419e96b58204af23f756f16bccfdb80880"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-01-step-01-molecule-1.png",
+      "size_bytes": 18239,
+      "sha256": "3f1b8a2d0e229b3853c777dadb743abbe37da0a73ff9169bc62f74f5affe13ce"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-01-step-01-molecule-2.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-01-step-01.png",
+      "size_bytes": 30016,
+      "sha256": "42f47032880a4b4e5936e5cf8572e3ec44232953f592b7132bb230ef21dda3d7"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-02-step-01-molecule-1.png",
+      "size_bytes": 17586,
+      "sha256": "c2c1fa6e97bcda266dcb45fcf0fb2a05999d1447a3e0ef5dd4c5f6c299139c58"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-02-step-01-molecule-2.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-02-step-01.png",
+      "size_bytes": 28624,
+      "sha256": "cf09de3b47f8354e1bb9bcff219bb8ded618309f2ae77477fbbe052d5b8075c2"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-03-step-01-molecule-1.png",
+      "size_bytes": 16127,
+      "sha256": "db2bd6489ab89f381841d63b06fabded793841a5f170f63084eb00ca5aa1c5ca"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-03-step-01-molecule-2.png",
+      "size_bytes": 17039,
+      "sha256": "99f37f48b78f5b76556724a78c1696702af22d6dd97b681ad5d6fea02e0434d1"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-03-step-01-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-03-step-01.png",
+      "size_bytes": 43093,
+      "sha256": "f193169f2a8a1e862d136b21e3699268f25f5220d37cf198053a886739404ea2"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-04-step-01-molecule-1.png",
+      "size_bytes": 18165,
+      "sha256": "e90e16902aa7c6e08fa4f790164665452078521b9a5cd298d245667e6a1db65f"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-04-step-01-molecule-2.png",
+      "size_bytes": 25650,
+      "sha256": "3b97afab7e0189e93f405147531675ca3bd618312b1535047b061c429f56af71"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-04-step-01-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-04-step-01.png",
+      "size_bytes": 50722,
+      "sha256": "06c5119d46b63c104def9f0ef5a1dcc5219b7b71d0c2e1f096bdb7152b1aae0a"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-01-molecule-1.png",
+      "size_bytes": 9464,
+      "sha256": "462d659944269edd4d952587a7954a3b90487b69711b85a21a0e8f41583ffa8d"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-01-molecule-2.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-01.png",
+      "size_bytes": 19623,
+      "sha256": "eb2995a7f1ff8bdd381efa7d5485033b7bab9d1938a44439ff5d00e094ce6c1d"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-02-molecule-1.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-02-molecule-2.png",
+      "size_bytes": 16025,
+      "sha256": "b775eb261932415625c4bbfcf5de5fd6ebff2938f9ae4c9d2a0f2bc203b47a77"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-02-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-05-step-02.png",
+      "size_bytes": 36407,
+      "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-01-molecule-1.png",
+      "size_bytes": 10991,
+      "sha256": "628094ba68c2dbfc9a938eea1f4ca1667e615445cfca3c16ffe1f27ecc432d89"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-01-molecule-2.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-01.png",
+      "size_bytes": 21186,
+      "sha256": "ca5a6136f22b0e5e9ef6b2c43fc22401dc7dd0c964e7035898ea36a67209a6ce"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-02-molecule-1.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-02-molecule-2.png",
+      "size_bytes": 16025,
+      "sha256": "b775eb261932415625c4bbfcf5de5fd6ebff2938f9ae4c9d2a0f2bc203b47a77"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-02-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-06-step-02.png",
+      "size_bytes": 36407,
+      "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-01-molecule-1.png",
+      "size_bytes": 16608,
+      "sha256": "5698416ea0a983ad14f67ae4b94ff3fdc4921f85af3aa542063e7ad4c448e4f9"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-01-molecule-2.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-01.png",
+      "size_bytes": 24258,
+      "sha256": "1cbd1a4f5493c1c00e9e9801fbe79e78694dac2f457c1ad1144a2cf3021d1320"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-02-molecule-1.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-02-molecule-2.png",
+      "size_bytes": 16025,
+      "sha256": "b775eb261932415625c4bbfcf5de5fd6ebff2938f9ae4c9d2a0f2bc203b47a77"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-02-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-07-step-02.png",
+      "size_bytes": 36407,
+      "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-01-molecule-1.png",
+      "size_bytes": 9827,
+      "sha256": "dea5919ac250d4cef2e605a9c727d93325d48c0d08c90847edc5587a86d16ab1"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-01-molecule-2.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-01.png",
+      "size_bytes": 19215,
+      "sha256": "ab1800eb2201e0543dfa47013d89bded036ad2270e88c39c233ff69c52ad5ee5"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-02-molecule-1.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-02-molecule-2.png",
+      "size_bytes": 16025,
+      "sha256": "b775eb261932415625c4bbfcf5de5fd6ebff2938f9ae4c9d2a0f2bc203b47a77"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-02-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-08-step-02.png",
+      "size_bytes": 36407,
+      "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-01-molecule-1.png",
+      "size_bytes": 14138,
+      "sha256": "9c1d0de58a047787f2b941eb3eed2eb5d3c628697e1a32380335771c42c2dc4d"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-01-molecule-2.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-01.png",
+      "size_bytes": 22223,
+      "sha256": "9a8c5784a44cb0cf61bf168e4aabb036081fcfb4e7c43ac10f10d6dc68d8845e"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-02-molecule-1.png",
+      "size_bytes": 8989,
+      "sha256": "d0ed99d07231754d1a88b18b5d4d7a669b0c2ff79d91a1c39547d980cca4169b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-02-molecule-2.png",
+      "size_bytes": 16025,
+      "sha256": "b775eb261932415625c4bbfcf5de5fd6ebff2938f9ae4c9d2a0f2bc203b47a77"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-02-molecule-3.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-09-step-02.png",
+      "size_bytes": 36407,
+      "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-01-molecule-1.png",
+      "size_bytes": 18239,
+      "sha256": "3f1b8a2d0e229b3853c777dadb743abbe37da0a73ff9169bc62f74f5affe13ce"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-01-molecule-2.png",
+      "size_bytes": 17006,
+      "sha256": "599612ebe21cbd0ee5385251bb9a6347fd6962e707a832fc3019013f539e85eb"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-01-molecule-3.png",
+      "size_bytes": 15327,
+      "sha256": "3bc22442240562d0bb34b5e110ced4385b57283b38e032501113430ae47dbcff"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-01.png",
+      "size_bytes": 43239,
+      "sha256": "b61acfef7387040786a8a1b3be31e6d7b1d6accbf3c78c16d17933e548b10b2e"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-02-molecule-1.png",
+      "size_bytes": 15327,
+      "sha256": "3bc22442240562d0bb34b5e110ced4385b57283b38e032501113430ae47dbcff"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-02-molecule-2.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-10-step-02.png",
+      "size_bytes": 27097,
+      "sha256": "4927eb8fd94296e3f2d4a426136db18938a5700ac6ebd47c0e836602c90d3c9c"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-01-molecule-1.png",
+      "size_bytes": 14529,
+      "sha256": "230e2a8357c7a79cad34aaa2f29788ea5eaedf309ba58283e8ae8f56e9e7b526"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-01-molecule-2.png",
+      "size_bytes": 17039,
+      "sha256": "99f37f48b78f5b76556724a78c1696702af22d6dd97b681ad5d6fea02e0434d1"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-01-molecule-3.png",
+      "size_bytes": 15327,
+      "sha256": "3bc22442240562d0bb34b5e110ced4385b57283b38e032501113430ae47dbcff"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-01.png",
+      "size_bytes": 41522,
+      "sha256": "fb259fdc8cb990da8f1982858642cdef9e37850ec66de65b741e265ab49770b6"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-02-molecule-1.png",
+      "size_bytes": 15327,
+      "sha256": "3bc22442240562d0bb34b5e110ced4385b57283b38e032501113430ae47dbcff"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-02-molecule-2.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-11-step-02.png",
+      "size_bytes": 27097,
+      "sha256": "4927eb8fd94296e3f2d4a426136db18938a5700ac6ebd47c0e836602c90d3c9c"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-01-molecule-1.png",
+      "size_bytes": 15661,
+      "sha256": "b2f81ae05d0f3f273b1c1142c69d531e47ab532149ab8209fc9a552b514b71ad"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-01-molecule-2.png",
+      "size_bytes": 16991,
+      "sha256": "a0a14d4b1aaf889dce95fdbd32ebc0fd1fb2470f5a176ccf35b8abcb6dcdcc9d"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-01-molecule-3.png",
+      "size_bytes": 15327,
+      "sha256": "3bc22442240562d0bb34b5e110ced4385b57283b38e032501113430ae47dbcff"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-01.png",
+      "size_bytes": 40925,
+      "sha256": "933717ad8a80d6eb0c262f582714bb0b9f97f21f7d8368d5dda9a711a6bbd961"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-02-molecule-1.png",
+      "size_bytes": 15327,
+      "sha256": "3bc22442240562d0bb34b5e110ced4385b57283b38e032501113430ae47dbcff"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-02-molecule-2.png",
+      "size_bytes": 15599,
+      "sha256": "5bf69eff01c524d56d387473f195b7521a663f24c7abef16faba018f4ba059dd"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/figures/route-12-step-02.png",
+      "size_bytes": 27097,
+      "sha256": "4927eb8fd94296e3f2d4a426136db18938a5700ac6ebd47c0e836602c90d3c9c"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/input.json",
+      "size_bytes": 387,
+      "sha256": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/manifest.json",
+      "size_bytes": 10770,
+      "sha256": "37d783b8c2b497c04b63fde0c309a518dc961ec05c899c09401a65628c2dc14f"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/pipeline.log",
+      "size_bytes": 1775,
+      "sha256": "2397f1e7fab5b4db2944ef3c9d4070a10d09a83328133d19e063fb891163a4e5"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/public-derivation.json",
+      "size_bytes": 4206,
+      "sha256": "17beaf0a5e2c13a37d64dd157059fd8cda0d5860cc0d8140a103f2b69873ec48"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/report-evidence.json",
+      "size_bytes": 161363,
+      "sha256": "dd04d21c64107534f3c3fa049771156306067a0b2004ef8bea5bbecb80bbbc65"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/reused-evidence.json",
+      "size_bytes": 923,
+      "sha256": "f86325fe6de9998cef717d1a0dbefbf0369e8bff6a9af66ca2345e18e5e775e9"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/routes.json",
+      "size_bytes": 41616,
+      "sha256": "49d6a5b9a3a4a17ca6292c73aadd32ad004c5275e78b520d0dd73b37f14c0a6a"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/routes.log",
+      "size_bytes": 161677,
+      "sha256": "0cb76394568230df1821a18ed837a20d802c969881eff7c02aadcf78f4023c77"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/routes.metadata.json",
+      "size_bytes": 3492,
+      "sha256": "71ac901de2e3cd52a4ab852bafd3695fdb8327fa43a885302ebc38aa9623999a"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/routes.raw.json",
+      "size_bytes": 233081,
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/solar-attempts/readme-offline-20261115/solar-prepare-status.json",
+      "size_bytes": 447,
+      "sha256": "a6762b129ccfd3d6cf8c49089263faa310d7e2fef4e0f2310f94df3e089a5cac"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/solar-attempts/readme-offline-20261115/solar-request.json",
+      "size_bytes": 138424,
+      "sha256": "910b5245be4165ad1ed94cbf6d58e32564ede0a5d84f1288f84fb431c8857538"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/solar-attempts/readme-offline-demo-01/solar-prepare-status.json",
+      "size_bytes": 447,
+      "sha256": "a6762b129ccfd3d6cf8c49089263faa310d7e2fef4e0f2310f94df3e089a5cac"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/solar-attempts/readme-offline-demo-01/solar-request.json",
+      "size_bytes": 138424,
+      "sha256": "910b5245be4165ad1ed94cbf6d58e32564ede0a5d84f1288f84fb431c8857538"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/step-validation.json",
+      "size_bytes": 267,
+      "sha256": "9f5ccc898fc389d4ae9f7bed92d0db7e42bfd4ee582c8c8f35a3595734e2fc75"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/structural-observations.json",
+      "size_bytes": 25963,
+      "sha256": "17e400a78d011b72b5d8f3a7d341247d29bd10321623bd8b564541c808d518a4"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/target/target.json",
+      "size_bytes": 163,
+      "sha256": "13e0e8302e8755f7afb7a952e813649ee0b73e4412db3fb3dcd9d49cb29238ac"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/target/target.png",
+      "size_bytes": 27429,
+      "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/validation_notes.json",
+      "size_bytes": 1556,
+      "sha256": "1d07c70708b07cc79389d108c570787a7449d260fcc9ce318a619193c7362089"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/verification.json",
+      "size_bytes": 364,
+      "sha256": "02f7768aa9e369f13c5fc36eef4b185610442942df7edb18e91918e047b97acc"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/yields-rxn_yields.json",
+      "size_bytes": 38952,
+      "sha256": "c60daf507378a0528320e3123656896bded2a8ee0a22911f0f0c0bd873a357b2"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/yields-rxn_yields.log",
+      "size_bytes": 844,
+      "sha256": "80fe7614cd34b464bfda6c1d8bbc63512c73556d9ef573736c9362b1547bda42"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/yields-rxn_yields.raw.json",
+      "size_bytes": 9987,
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
+    },
+    {
       "path": "results/benzocaine-live-20261031-04/additional-analysis-status.json",
       "size_bytes": 775,
       "sha256": "134a9a265fddb342cf67ff8e76d8412e4ff391d2a69853abfcbfd65b166a699e"
@@ -4710,8 +5205,8 @@
     },
     {
       "path": "scripts/generate_report.py",
-      "size_bytes": 5079,
-      "sha256": "7651ac62de2cca748c9d53b2b278e352fa3f0abe4d336ed044f422cc539df650"
+      "size_bytes": 5714,
+      "sha256": "20bfb15896c6922cbec88559427586cdde573d90a4da857650170b1f6ac899dd"
     },
     {
       "path": "scripts/generate_solar_report_from_bundle.py",
@@ -4767,6 +5262,11 @@
       "path": "scripts/prepare_additional_structures.py",
       "size_bytes": 9606,
       "sha256": "aa24d48751bec78b1cd4d93d351e4720e79b982cd65e2565287d3a48947f7ee4"
+    },
+    {
+      "path": "scripts/prepare_public_evidence_derivative.py",
+      "size_bytes": 10200,
+      "sha256": "7a611fb8e51737adb9f3b9f77c40f56d2e4568cf43e8c117ba599ed60669c305"
     },
     {
       "path": "scripts/prepare_report_figures.py",
@@ -4849,6 +5349,11 @@
       "sha256": "3ef0a4a9d92463ead6bb0722477459c42da95308c10dff698cde3f2fcc00125e"
     },
     {
+      "path": "scripts/validate_target_offline.py",
+      "size_bytes": 2650,
+      "sha256": "2d059a7ea4ff3681be933acc42df1fd860555da1f08e599bf6f21a64d86e37aa"
+    },
+    {
       "path": "scripts/validate_targeted_revision.py",
       "size_bytes": 5098,
       "sha256": "52a20f45f7c59b355a7f73295519e3e94a45302b9342f74fe52977af40f74f0b"
@@ -4875,8 +5380,8 @@
     },
     {
       "path": "scripts/verify_report_skill_request.py",
-      "size_bytes": 6936,
-      "sha256": "a550e2842ba91993f906e1020200e4f642fd6038c6c9c353e8b93d9103f49e31"
+      "size_bytes": 7158,
+      "sha256": "034191c82585e68c6f8223ee5c3e4977144c20eb8c6d0e6048bcb8b6680b44d0"
     },
     {
       "path": "scripts/verify_run.py",
@@ -4914,6 +5419,16 @@
       "sha256": "4aa044436f2af431f51fc389ff309b4c0f5f00dedb2cc631103a62a56b873f17"
     },
     {
+      "path": "validation/benzocaine-live-20261031-04-public-curated-target-offline-20261115.json",
+      "size_bytes": 578,
+      "sha256": "5534f3a17aee010f3c2a49621ab763a6262070a0adec04e451b63d4da28910a3"
+    },
+    {
+      "path": "validation/benzocaine-live-20261031-04-public-curated-target-offline.json",
+      "size_bytes": 578,
+      "sha256": "5534f3a17aee010f3c2a49621ab763a6262070a0adec04e451b63d4da28910a3"
+    },
+    {
       "path": "validation/model-asset-reuse-audit-20261105.json",
       "size_bytes": 5195,
       "sha256": "b402a689fb27a03107348b4b2dfeb650c8d4afb6901c4d854f906b6541fb16a7"
@@ -4930,8 +5445,8 @@
     },
     {
       "path": "validation/package-secret-audit-content.json",
-      "size_bytes": 308,
-      "sha256": "6be02c9fe0cd15ffb7349ab8ce908d06fae4c66e72768b37f44b9350493e4403"
+      "size_bytes": 452,
+      "sha256": "ec3fd0e65fb8a96c5647e571d82b55409d56536bcd572ffa79e72994953c44ce"
     },
     {
       "path": "validation/privacy-redaction-log.json",
@@ -4942,6 +5457,16 @@
       "path": "validation/pubchem.raw.json",
       "size_bytes": 238,
       "sha256": "b5ce920aaae61cd4f5be64359f5eec211047f8474561155d717a5e010d5c1ea1"
+    },
+    {
+      "path": "validation/public-curated-request-offline-20261115.json",
+      "size_bytes": 1552,
+      "sha256": "189a37d21f46a7dea3287499460cd4b6c2e332b904a9c227fca50c35383fdcba"
+    },
+    {
+      "path": "validation/public-evidence-hash-repair-20261115.json",
+      "size_bytes": 6322,
+      "sha256": "d4d4dde37ae4b787300c55f98fee1162fdb752f7f296d4ae584142ef8c5a46cf"
     },
     {
       "path": "validation/report-writing-skill-request-offline-check-final-02.json",

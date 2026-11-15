@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "artifact_type": "public_path_anonymized_evidence_derivative",
+  "source_run_id": "benzocaine-live-20261031-04",
+  "source_execution_manifest_sha256": "3bca312ead8e2fc3314031e93b2d19df39549ab909ad0f0e509c3007f93f0348",
+  "source_manifest_statuses": {
+    "routes": "success",
+    "conditions-parrot": "success",
+    "yields-rxn_yields": "success"
+  },
+  "new_inference_executed": false,
+  "report_generated": false,
+  "network_requests": 0,
+  "parity_scope": "The four model/figure JSON files were structurally compared with the original run. Changed fields were limited to local paths, commands, checkpoints, path-keyed asset-hash labels, and image paths; scientific values were unchanged.",
+  "source_files": {
+    "input.json": {
+      "historical_execution_sha256": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
+      "published_path_anonymized_sha256": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
+      "byte_identical": true
+    },
+    "routes.json": {
+      "historical_execution_sha256": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63",
+      "published_path_anonymized_sha256": "49d6a5b9a3a4a17ca6292c73aadd32ad004c5275e78b520d0dd73b37f14c0a6a",
+      "byte_identical": false,
+      "changed_json_pointer_count": 14,
+      "changed_json_pointers": [
+        "/asset_sha256",
+        "/command/0",
+        "/command/3",
+        "/command/5",
+        "/command/6",
+        "/command/7",
+        "/command/8",
+        "/configuration/expansion/uspto/0",
+        "/configuration/expansion/uspto/1",
+        "/configuration/stock/zinc/path",
+        "/derived_stock_provenance/source_path",
+        "/input_path",
+        "/log_path",
+        "/raw_path"
+      ],
+      "semantic_non_path_differences": 0
+    },
+    "conditions-parrot.json": {
+      "historical_execution_sha256": "c1ec5ed4493b25c25a8d38c0c10372cf2592078e0b2d322fd1fe32f170bc0747",
+      "published_path_anonymized_sha256": "daf7e2cfb1cac0f33b9884ba3995cdc093c6f6bae0b426fc3ee993b2cb3c4fd8",
+      "byte_identical": false,
+      "changed_json_pointer_count": 10,
+      "changed_json_pointers": [
+        "/checkpoint",
+        "/command/0",
+        "/command/3",
+        "/command/4",
+        "/command/5",
+        "/command/6",
+        "/command/7",
+        "/input_path",
+        "/log_path",
+        "/raw_path"
+      ],
+      "semantic_non_path_differences": 0
+    },
+    "yields-rxn_yields.json": {
+      "historical_execution_sha256": "18fd9a6f0cd303e15b690b8936d3519eebefddb9899ea2cc1cfb2e5d3935a63a",
+      "published_path_anonymized_sha256": "c60daf507378a0528320e3123656896bded2a8ee0a22911f0f0c0bd873a357b2",
+      "byte_identical": false,
+      "changed_json_pointer_count": 8,
+      "changed_json_pointers": [
+        "/command/0",
+        "/command/3",
+        "/command/6",
+        "/command/7",
+        "/command/8",
+        "/input_path",
+        "/log_path",
+        "/raw_path"
+      ],
+      "semantic_non_path_differences": 0
+    },
+    "figures/manifest.json": {
+      "historical_execution_sha256": "222a4856af4d267cc8a22bc02f9109d6842080c50d9258b48692053b802e31c4",
+      "published_path_anonymized_sha256": "177b649c57b2d6742668c8fa45182b419e96b58204af23f756f16bccfdb80880",
+      "byte_identical": false,
+      "changed_json_pointer_count": 20,
+      "changed_json_pointers": [
+        "/figures/0/image_path",
+        "/figures/1/image_path",
+        "/figures/2/image_path",
+        "/figures/3/image_path",
+        "/figures/4/image_path",
+        "/figures/5/image_path",
+        "/figures/6/image_path",
+        "/figures/7/image_path",
+        "/figures/8/image_path",
+        "/figures/9/image_path",
+        "/figures/10/image_path",
+        "/figures/11/image_path",
+        "/figures/12/image_path",
+        "/figures/13/image_path",
+        "/figures/14/image_path",
+        "/figures/15/image_path",
+        "/figures/16/image_path",
+        "/figures/17/image_path",
+        "/figures/18/image_path",
+        "/figures/19/image_path"
+      ],
+      "semantic_non_path_differences": 0
+    }
+  }
+}

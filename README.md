@@ -15,9 +15,11 @@ Copy or clone the **entire repository**, not only either skill file. The skills 
 
 **Full pipeline:** create `inputs/<target_id>.json` from `inputs/input-template.json`; run structure identity and model preflight; run `scripts/run_pipeline.py` with a fresh run ID; inspect raw results and additional analyses; then prepare a Solar report request from the prepared run. The full instructions and actual model/weight preparation are in [`skill/SKILL.md`](skill/SKILL.md) and the model setup sections below.
 
-**Report only from prepared results:** point `scripts/generate_report.py` at an existing `results/<run_id>/` directory. This does not rerun chemistry models. The request builder places `skill/report-writing/SKILL.md` in the Solar system message and passes that run's `report-evidence.json` and manifest. `--prepare-only` constructs the request locally and makes no API call. It verifies source hashes first and refuses changed or mismatched evidence rather than silently repairing it. In the packaged `benzocaine-live-20261031-04` example, four source hashes are already mismatched; see `validation/skill-unification-offline-check.json`. The current request-construction check used a separate read-only copy of that run whose recorded hashes matched. Solar authoring is a separate, potentially billable action; this package's two authorization flags are disabled by default. After an authorized response, use `scripts/export_report_docx.py` and the configured PDF converter. For the curated release, the README's saved-response rebuild procedure converts archived Solar Markdown without a new Solar call.
+**Report only from prepared results:** point `scripts/generate_report.py` at an existing `results/<run_id>/` directory. This does not rerun chemistry models. The request builder places `skill/report-writing/SKILL.md` in the Solar system message and passes that run's `report-evidence.json` and manifest. `--prepare-only` constructs the request locally and makes no API call. It verifies source hashes first and refuses changed or mismatched evidence rather than silently repairing it. For the portable Benzocaine example, use `results/benzocaine-live-20261031-04-public-curated/`, not the older path-anonymized archival copies. Solar authoring is separate and may be billable; this package's two authorization flags are disabled by default. After an authorized response, use `scripts/export_report_docx.py` and the configured PDF converter. For the curated release, the README's saved-response rebuild procedure converts archived Solar Markdown without a new Solar call.
 
-The report request builders and configured skill paths are `configs/report-plan.json`, `scripts/generate_report.py`, and `scripts/generate_solar_report_from_bundle.py`. Model outputs are not verified merely because a request or document was generated. Exact Solar skill inclusion, actual evidence blocks, and isolation from historical task instructions are covered by [`validation/report-writing-skill-request-offline-check-final-03.json`](validation/report-writing-skill-request-offline-check-final-03.json) and [`validation/skill-role-separation-check.json`](validation/skill-role-separation-check.json); they do not evaluate Solar response quality.
+The historical `benzocaine-live-20261031-04` run and its original execution manifest are preserved. During creation of the public copy, absolute local paths and checkpoint locations were anonymized in four JSON artifacts; their old source hashes therefore no longer matched the public bytes. [The hash audit](validation/public-evidence-hash-repair-20261115.json) records each expected and actual hash and where the expected value was recorded. The separate `benzocaine-live-20261031-04-public-curated` bundle has new derivative hashes, a provenance map back to the historical execution, and a freshly joined report-evidence file. Its derivation check found path/command/checkpoint/image-path changes only and zero changed scientific values. The new `manifest.json` is explicitly a derivative-artifact manifest, not an execution record. Do not rewrite the old run's manifest or model-input hashes to make the archival copy pass.
+
+The report request builders and configured skill paths are `configs/report-plan.json`, `scripts/generate_report.py`, and `scripts/generate_solar_report_from_bundle.py`. Model outputs are not verified merely because a request or document was generated. Exact Solar skill inclusion, actual evidence blocks, and isolation from historical task instructions are covered by [`validation/report-writing-skill-request-offline-check-final-03.json`](validation/report-writing-skill-request-offline-check-final-03.json), [`validation/public-curated-request-offline-20261115.json`](validation/public-curated-request-offline-20261115.json), and [`validation/skill-role-separation-check.json`](validation/skill-role-separation-check.json); they do not evaluate Solar response quality.
 
 
 ## Current verified Benzocaine release (2026-11-15)
@@ -72,6 +74,8 @@ The commands validate the generic build filenames first, then rename the validat
 
 Use 64-bit Windows, Python 3.13 for the driver, and PowerShell. From the repository root, create a new JSON file from the template and replace every placeholder. Set the intended chemical form, an isomeric SMILES, expected formula, name, stable target ID, and PubChem CID (or adjust the identity-check code for a different trusted identifier). Do not use `inputs/benzocaine.json` for another substance.
 
+For an offline structure check, use `scripts/validate_target_offline.py`. It checks the input fields, parses the SMILES with RDKit, verifies the formula and can compare the target to an existing prepared run. It does not contact PubChem. The next section documents `prepare_target.py`, which additionally makes a PubChem identity request; that command is not part of offline verification.
+
 ```powershell
 $targetId = 'my-compound'
 Copy-Item inputs/input-template.json "inputs/$targetId.json"
@@ -82,6 +86,28 @@ py -3.13 -B -X utf8 scripts/prepare_target.py `
 ```
 
 `prepare_target.py` validates SMILES/formula with RDKit and makes a PubChem PUG REST identity request. This is an identity check, not synthesis inference.
+
+### Reproduce target validation and request preparation offline
+
+This demonstration validates the example input against the same target in the path-anonymized public derivative, then builds the exact report request locally. It does not rerun AiZynthFinder, Parrot, Yield-BERT, or Solar. Use a new attempt ID if repeating it, because request attempts are immutable.
+
+```powershell
+$runId = 'benzocaine-live-20261031-04-public-curated'
+$demoId = Get-Date -Format 'yyyyMMdd-HHmmss'
+$attemptId = "readme-offline-$demoId"
+py -3.13 -B -X utf8 scripts/validate_target_offline.py `
+  --input inputs/benzocaine.json `
+  --compare "results/$runId/input.json" `
+  --output "validation/$runId-target-offline-$demoId.json"
+if ($LASTEXITCODE -ne 0) { throw 'Offline target validation failed' }
+py -3.13 -B -X utf8 scripts/generate_report.py `
+  --run-dir "results/$runId" `
+  --attempt-id $attemptId `
+  --prepare-only
+if ($LASTEXITCODE -ne 0) { throw 'Local request preparation failed' }
+```
+
+The expected result is `prepared_not_executed`. Inspect `solar-prepare-status.json` and `solar-request.json`; the request's system message must match `skill/report-writing/SKILL.md`. This validates the packaged example only. It is not a new chemical inference, a Solar response, or a test on another computer. The command and output from this package's offline check are recorded in [the hash-repair validation](validation/public-evidence-hash-repair-20261115.json). The one-time curation utility `scripts/prepare_public_evidence_derivative.py` used a read-only local copy of the original run to verify its path-only changes. Other computers should use the already bundled curated derivative and do not need that private historical source folder.
 
 ## 2. Install only the driver dependencies
 

@@ -12,7 +12,19 @@ def build_request(run, plan):
         if digest(run/name)!=sha:raise ValueError('Evidence source changed: '+name)
     skill=ROOT/plan.get('report_writing_skill_path','skill/report-writing/SKILL.md')
     if not skill.is_file():raise FileNotFoundError(f'Report-writing skill is missing: {skill.relative_to(ROOT)}')
-    evidence['execution_record']=load(run/'manifest.json')
+    record=load(run/'manifest.json')
+    if record.get('artifact_type')=='public_curated_evidence_derivative_not_execution_record':
+        evidence['execution_record']={
+            'artifact_type':record['artifact_type'],
+            'source_run_id':record['source_run_id'],
+            'source_execution_manifest_sha256':record['source_execution_manifest_sha256'],
+            'prediction_statuses_from_source_run':record['prediction_statuses_from_source_run'],
+            'new_inference_executed':False,
+            'solar_call_executed':False,
+        }
+        evidence['public_derivation_record']=load(run/'public-derivation.json')
+    else:
+        evidence['execution_record']=record
     request={'model':plan['model'],'temperature':plan['temperature'],'max_tokens':plan['max_tokens'],'stream':False,'messages':[{'role':'system','content':skill.read_text(encoding='utf-8')},{'role':'user','content':'보고서 작성 스킬과 실제 실행 근거에 따라 전체 한국어 보고서 원고를 작성하세요. 근거에 없는 값은 만들지 말고 누락 사항을 표시하세요.\n'+json.dumps(evidence,ensure_ascii=False)}]}
     return request,skill
 
