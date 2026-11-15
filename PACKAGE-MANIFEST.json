@@ -35,8 +35,8 @@
     },
     {
       "path": ".gitattributes",
-      "size_bytes": 19,
-      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+      "size_bytes": 48,
+      "sha256": "2b52ddf9024d47fa937852b6c971fc24cb332bbd0137be0b20746f42860214d1"
     },
     {
       "path": ".gitignore",
@@ -2315,13 +2315,13 @@
     },
     {
       "path": "provenance/skills/synthesis_report_skill-report-v1.md",
-      "size_bytes": 19057,
-      "sha256": "24d6da8ea9fd17def1eb4465db66e35f963f9cd3c71f34498ec3dd9d39bfbf90"
+      "size_bytes": 19177,
+      "sha256": "cc78e000280a5dc968772226650c2d5a6888a767ef9731dbe72e9542e5ee46d8"
     },
     {
       "path": "provenance/skills/targeted-benzocaine-section-revision-v1.md",
-      "size_bytes": 1096,
-      "sha256": "f4575d9f653cacdbb09740fb14fa33e0229f7b1bc56a5db750fdbcc38f9aa88c"
+      "size_bytes": 1107,
+      "sha256": "c39a1c9391cb7456d386f1184cdaf4f354cf24258a2ad3c42072d6c7bb0dcca2"
     },
     {
       "path": "provenance/skills/targeted-report-sentence-cleanup-v1.md",
@@ -4921,7 +4921,7 @@
     {
       "path": "validation/package-secret-audit-content.json",
       "size_bytes": 308,
-      "sha256": "7cefe9d5b4ca83305e8c45b2aba9871d172cf325289401de49027fd22f6e1621"
+      "sha256": "8da2f804c2cb12afeef4e14098155083682ee8e40fe1aa9d8f18619921f5a888"
     },
     {
       "path": "validation/privacy-redaction-log.json",
