@@ -1,8 +1,8 @@
 {
   "generated_from": "benzocaine-synthesis-project working copy plus verified page-layout/instruction-cleanup release",
   "status": "validated_submission_package",
-  "latest_report_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.pdf",
-  "latest_docx_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx",
+  "latest_report_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/????_AI????_?????.pdf",
+  "latest_docx_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/????_AI????_?????.docx",
   "latest_report_page_count": 19,
   "citation_audit": "passed",
   "document_validation": "passed",
@@ -26,22 +26,27 @@
     "temporary page renderings"
   ],
   "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
-  "file_count": 997,
+  "file_count": 998,
   "files": [
     {
       "path": ".env.example",
-      "size_bytes": 343,
-      "sha256": "2e8e8eb733b13f79d7d4f6f0c9c716190d908147fa516461f2cdabf6e365a99e"
+      "size_bytes": 342,
+      "sha256": "7cdc85337ac3fe84679be4d4617112483e31f878269f1516d55f884b411c1708"
+    },
+    {
+      "path": ".gitattributes",
+      "size_bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
     },
     {
       "path": ".gitignore",
-      "size_bytes": 150,
-      "sha256": "c82e809f2dd263bc131d9b16326d8af95123240a6bb11619eca289b18f9a64bd"
+      "size_bytes": 138,
+      "sha256": "545481f1a075297092537023a4cbf12ff6b03e7d5474d83ceca642c465463179"
     },
     {
       "path": "PORTABILITY-REDACTIONS.json",
-      "size_bytes": 1033,
-      "sha256": "31be68a6d9ad6883e4f73e0c24d142379cbb41bee4bfce90c22b400974eddc9a"
+      "size_bytes": 1016,
+      "sha256": "7c9d9cbced1cd402a9e7750db73f1afcae60b6bfb70bca8ec8ff0c381ba6b674"
     },
     {
       "path": "README.md",
@@ -55,8 +60,8 @@
     },
     {
       "path": "analyses/epi-suite/analysis.md",
-      "size_bytes": 6343,
-      "sha256": "eee96f0927788cd54ce6d3cae85fac54a596794afa588c7599a64c19d61b35b0"
+      "size_bytes": 6297,
+      "sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84"
     },
     {
       "path": "analyses/epi-suite/cas-confirmed-run-02/raw/items/acetic-acid.json",
@@ -90,8 +95,8 @@
     },
     {
       "path": "analyses/epi-suite/cas-confirmed-run-02/request.json",
-      "size_bytes": 5453,
-      "sha256": "7c259010df25d776890d237a9b2d6181f110842b8eace5582cfac0ccf122d8ce"
+      "size_bytes": 5291,
+      "sha256": "0a24e29b4522aa0514e6d0c0c25a4f3bbb212d3c48d5165ab0db2081541174d5"
     },
     {
       "path": "analyses/epi-suite/cas-confirmed-run-02/response.raw.json",
@@ -100,18 +105,18 @@
     },
     {
       "path": "analyses/epi-suite/cas-confirmed-run-02/results.json",
-      "size_bytes": 17480,
-      "sha256": "cf9690984c51615f18de4f54084ae433df217e8f487c11787ee16ae0c1bc1a53"
+      "size_bytes": 17034,
+      "sha256": "41decd7cfc30199f89b1a47022ca105932e32b9985a748664f1fd8f71c0e46ea"
     },
     {
       "path": "analyses/epi-suite/cas-confirmed-run-02/run-metadata.json",
-      "size_bytes": 1528,
-      "sha256": "3093ec57db7b95f6f676d0fe5e1815ccf4c5423338c46c68e7b30bf5a3c86321"
+      "size_bytes": 1492,
+      "sha256": "0b174850ebe6614fdef674c721823604ac8275488898f3393313fbc415eb79e8"
     },
     {
       "path": "analyses/epi-suite/classified-results.json",
-      "size_bytes": 19613,
-      "sha256": "971e7bb445d6bbe21fa14135bdd96ce245f9f8057d4b2c96488509cbf017d3c0"
+      "size_bytes": 19074,
+      "sha256": "f029b58a9d0e3e1896cc430a12838d93c42855273aabe118ffb614561d778401"
     },
     {
       "path": "analyses/epi-suite/classify_epi_results.py",
@@ -120,18 +125,18 @@
     },
     {
       "path": "analyses/epi-suite/input-review-final.json",
-      "size_bytes": 10410,
-      "sha256": "5bd05783d5d494bfde4e05865c909afd6a6ae9d43fea106bfbe028e095feb30a"
+      "size_bytes": 10189,
+      "sha256": "50033fa0425d26002352128ed7999c29791e005865b324b6c6d7312a8e2807ce"
     },
     {
       "path": "analyses/epi-suite/input-review.json",
-      "size_bytes": 14153,
-      "sha256": "bb227646c0abbb499b75b302b1d333dec080e4326d77212f3b04f6b5d6cd1771"
+      "size_bytes": 13820,
+      "sha256": "f0bd41359bcc74dc87670a8f95962d3a9ea3c8dbe0cdc1930fa699065100deb9"
     },
     {
       "path": "analyses/epi-suite/raw/api-openapi.http.json",
-      "size_bytes": 259,
-      "sha256": "aac107b25b429079834dfe3ae95f036caf9690e4ab03d96267d1ba70454d2b30"
+      "size_bytes": 252,
+      "sha256": "fa6fa0c9925ebfb815c20030e27638e6a1ac81b1e8c380e53158bfdc377e8093"
     },
     {
       "path": "analyses/epi-suite/raw/api-openapi.json",
@@ -140,38 +145,38 @@
     },
     {
       "path": "analyses/epi-suite/raw/items/acetic-acid.json",
-      "size_bytes": 4358,
-      "sha256": "5684f02f637f9528bf19adbfe1f9e3c5a43087f900f431f1c1463060cf1bc4aa"
+      "size_bytes": 4251,
+      "sha256": "e27ba82e4bea7feec6c0735a9894eac481acdd3503967e9846843ab5c15bb00f"
     },
     {
       "path": "analyses/epi-suite/raw/items/benzocaine.json",
-      "size_bytes": 4427,
-      "sha256": "fef898d0cb46e2e15e2cd95e43ea6f1d0dc3588f493883be14306793c8167116"
+      "size_bytes": 4320,
+      "sha256": "3067224762a408e091f0402f2c67a23d336c7c0f9fdc44c7c2245744d3c88144"
     },
     {
       "path": "analyses/epi-suite/raw/items/diethyl-ether-condition-slot.json",
-      "size_bytes": 4380,
-      "sha256": "36fa6ee0dd0f1445a5322956e2139c509f708e990fd7ad226ef091f8f097ac48"
+      "size_bytes": 4273,
+      "sha256": "24cc165c39e9738191f3f523db75121c97e9f0994e1f81aeb2485850c9fb5278"
     },
     {
       "path": "analyses/epi-suite/raw/items/ethanol.json",
-      "size_bytes": 4363,
-      "sha256": "7350f260052e81fb3445257af0b212ac00e9fba5dbe6ac2d99e62a8ab8062434"
+      "size_bytes": 4256,
+      "sha256": "0e4cb343cc394be80428301ff3313178d61dc55e9d17edb5b62398b57743c2e9"
     },
     {
       "path": "analyses/epi-suite/raw/items/ethyl-4-nitrobenzoate.json",
-      "size_bytes": 4535,
-      "sha256": "aa2ae30a005e6061d1a0ff0bf419b6c5705f5e2b119888bfb43d9859cd1086b1"
+      "size_bytes": 4428,
+      "sha256": "c055ccb1a82c7aa5863b05c1ecdb2d5df63b3761a31e2a497fac52400a0b2a0e"
     },
     {
       "path": "analyses/epi-suite/raw/items/p-aminobenzoic-acid.json",
-      "size_bytes": 4486,
-      "sha256": "dea8e07b5dc6d9891b35c88941679f06a0c25923a11ef5adf972cfc892a9e868"
+      "size_bytes": 4379,
+      "sha256": "017b7c4b7dee37802ec67fea71db074191b5f80a2219a28549d2388313a8a1c7"
     },
     {
       "path": "analyses/epi-suite/raw/items/tetrahydrofuran-condition-slot.json",
-      "size_bytes": 4356,
-      "sha256": "9ea1fac43ef26517dbcab8b778b30dcebf04e4aca10068035bcab96f1ea24d15"
+      "size_bytes": 4249,
+      "sha256": "58be620863dc9f1b0fc3ab8d4ea50766ce926d87651e7b7ba828b051d319d28a"
     },
     {
       "path": "analyses/epi-suite/raw/probe-ethanol-response.json",
@@ -185,8 +190,8 @@
     },
     {
       "path": "analyses/epi-suite/raw/pubchem/benzocaine-compound-page.html",
-      "size_bytes": 21394,
-      "sha256": "14ce5cc3f62e27c787ad6e418ef2fb0c1257dd708a45419d21fb976ca1e9a11b"
+      "size_bytes": 21393,
+      "sha256": "4dff032bd2cf62f8499aac1301519bf241b471917739ba9a5f62f35d7fa251dd"
     },
     {
       "path": "analyses/epi-suite/raw/pubchem/benzocaine-synonyms.json",
@@ -265,13 +270,13 @@
     },
     {
       "path": "analyses/epi-suite/request.json",
-      "size_bytes": 1520,
-      "sha256": "cf19710019d49d788559b10e5c20f9704cc208dd969b6408c749507fffb723bd"
+      "size_bytes": 1459,
+      "sha256": "f19a190e58acfd6cc91a5d3b756c9545aad00fc8f8fd94c66f6d4cb89ce6cc4d"
     },
     {
       "path": "analyses/epi-suite/response.json",
-      "size_bytes": 11584,
-      "sha256": "e3ab8e2d30cc23cf0cb12fc67fae286a92f8ac4c111cb924c23bf84b5c6622ea"
+      "size_bytes": 11316,
+      "sha256": "672e46699a172b5852276218e9df88764adf344ca630cfed6a4639e7ded5f413"
     },
     {
       "path": "analyses/epi-suite/response.raw.json",
@@ -280,8 +285,8 @@
     },
     {
       "path": "analyses/epi-suite/run-metadata.json",
-      "size_bytes": 2365,
-      "sha256": "a0c1c17f943b201115ebbd53b1390f03d6e070e291b513fb0d727419598d1400"
+      "size_bytes": 2319,
+      "sha256": "88e3fff76be2610d494d6818a52cc94cfa79f0664d4cbb0e346275a6b8e6efc9"
     },
     {
       "path": "analyses/epi-suite/run_epi_cas_confirmed.py",
@@ -295,18 +300,18 @@
     },
     {
       "path": "analyses/harness-comparison/account-credit-check.md",
-      "size_bytes": 4033,
-      "sha256": "9970d5ea175bc33fffe649aec7cdfa18a29c77c910abd986de9d430f33daa079"
+      "size_bytes": 4031,
+      "sha256": "47bf693bcc9a55c52875bc865992af1036da28e7a5235c4a939d0cc81a409078"
     },
     {
       "path": "analyses/harness-comparison/comparison-input-manifest.json",
-      "size_bytes": 6265,
-      "sha256": "5d9aeef1e0898f0bd70adb479d8095ec98f810bad4b83fefda46b7578ed0e27b"
+      "size_bytes": 6157,
+      "sha256": "9a7274e8af8bb3b8467570482d3e8c513d16d6003030b0e391f5afca543525c7"
     },
     {
       "path": "analyses/harness-comparison/comparison-input-payload-manifest.json",
-      "size_bytes": 2693,
-      "sha256": "e6bdd209517ffa4ef1ac6da906252084cc677b3146af215ea1bb245d5b3e86d4"
+      "size_bytes": 2621,
+      "sha256": "e44f944f3c7c6d15047f42a9767e67feb718ed3df1e2107bf0f04a421fa5ab4b"
     },
     {
       "path": "analyses/harness-comparison/comparison-input-payload.md",
@@ -360,8 +365,8 @@
     },
     {
       "path": "analyses/harness-comparison/credit-and-request-budget.json",
-      "size_bytes": 4485,
-      "sha256": "3396a22d1b7c0fa7f7c20bcbe9892c43f6b19f0938b354e3cef60962fdcf7bf3"
+      "size_bytes": 4414,
+      "sha256": "383aa1e7c786a11f009686672ab952b576fce7574b48aa97f6fa43358eb17853"
     },
     {
       "path": "analyses/harness-comparison/execution-status.json",
@@ -370,8 +375,8 @@
     },
     {
       "path": "analyses/harness-comparison/guard-opencode-trial-02.log",
-      "size_bytes": 337,
-      "sha256": "02eda221fa988abb485be7ab983a2d79a329db9cc0436643168e2776842bee7c"
+      "size_bytes": 333,
+      "sha256": "f582433519406c4569f1c696f872652ec887d893c4f44fcb62e6e69c93385f02"
     },
     {
       "path": "analyses/harness-comparison/guard-opencode-trial-02.stderr.log",
@@ -380,8 +385,8 @@
     },
     {
       "path": "analyses/harness-comparison/guard-opencode.log",
-      "size_bytes": 766,
-      "sha256": "0b283b92d3cefcfb1f0465a1a27fff5f8f3228e2f9caea2e031494a7e4d0ef1e"
+      "size_bytes": 752,
+      "sha256": "13a54dc4d2d87da9775ba8caa36c3df7b00da305d4d21490d95d6a6c81b58d7e"
     },
     {
       "path": "analyses/harness-comparison/guard-opencode.stderr.log",
@@ -390,8 +395,8 @@
     },
     {
       "path": "analyses/harness-comparison/guard-pi-trial-02.log",
-      "size_bytes": 307,
-      "sha256": "2b10c46de63cd25074abb73a8b73484e52c6e77a1aa8581abf1c79b17e2e980e"
+      "size_bytes": 303,
+      "sha256": "8585566cc237e12af79bb94aa9521684a8f73a4ce86095fd6b80b0202072cc6d"
     },
     {
       "path": "analyses/harness-comparison/guard-pi-trial-02.stderr.log",
@@ -400,8 +405,8 @@
     },
     {
       "path": "analyses/harness-comparison/guard-pi.log",
-      "size_bytes": 282,
-      "sha256": "c80fca7d7a17b32301babb432fd64e019f513ec03c60aabaa3b30ae55720f136"
+      "size_bytes": 278,
+      "sha256": "2d00d589bc2b0a5ce46c9c8149af882b66e1ca3d08fdb0c6a78e3ecaebd64498"
     },
     {
       "path": "analyses/harness-comparison/guard-pi.stderr.log",
@@ -410,13 +415,13 @@
     },
     {
       "path": "analyses/harness-comparison/guard-state-cumulative/usage-ledger.json",
-      "size_bytes": 3715,
-      "sha256": "1f3ac25e2dcde7fb6aba4ae6398e2adbe0411eb9887b917bd53d795c597f7b7e"
+      "size_bytes": 3627,
+      "sha256": "267370ed823dea620e0803da2dc95306814e471419fde08da0a83944330aaca7"
     },
     {
       "path": "analyses/harness-comparison/guard-state/usage-ledger.json",
-      "size_bytes": 992,
-      "sha256": "490a9054905b6638a0971d88b2ea3e1d115334ed310e0558300a0a05be51e38a"
+      "size_bytes": 960,
+      "sha256": "1d1ea92b07c2fb29bc28e1fbe3263954005ba1c5d7cc4f8b6a0919738b91ec4a"
     },
     {
       "path": "analyses/harness-comparison/harness-comparison-plan.md",
@@ -425,13 +430,13 @@
     },
     {
       "path": "analyses/harness-comparison/harness-matrix-trial-02.csv",
-      "size_bytes": 1882,
-      "sha256": "83e72db3419cbc2673c4b299aa551b4fb2e8e129eb393d9c9725992f68f50d0f"
+      "size_bytes": 1870,
+      "sha256": "2e7ceb54a64d52bb70e992a1b923b1393dcf4c20e397f7a3c8e86d329406e64e"
     },
     {
       "path": "analyses/harness-comparison/harness-matrix.csv",
-      "size_bytes": 858,
-      "sha256": "4e2d7c7b5d39fc9beddde14fcab6393ebbab7c40611c8b9ee440ec838edceb6b"
+      "size_bytes": 857,
+      "sha256": "516911491ef0684bd5c90df426c3d5d79bae5952a888817ebed5f5d44a7ea922"
     },
     {
       "path": "analyses/harness-comparison/harness-opencode-trial-02.log",
@@ -460,13 +465,13 @@
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/opencode.log",
-      "size_bytes": 108,
-      "sha256": "3afbf6ed1d91abefd1c0b6ce1b1bb5cb8adccfa348ba9240dabe2592e892f489"
+      "size_bytes": 104,
+      "sha256": "a55756624938281c1b9b79dbb0fc048312e9574a18a7c198944207306abb183d"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/opencode.mock.json",
-      "size_bytes": 1360,
-      "sha256": "f48dff69cbb480cb00d59a68b626bfeaf46eaab70d8fb06d77fff687412c5fb0"
+      "size_bytes": 1323,
+      "sha256": "133638ac20aaa81ef2546c59b7e0b265029709d4baa7ab0561ec1c9557211b1c"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/pi-config/auth.json",
@@ -480,18 +485,18 @@
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/pi-config/models.json",
-      "size_bytes": 765,
-      "sha256": "df56ee35d1e31ccbb2aba63b80503ca1ec6a3f28971f8c2ca1fbdfcb4fd8d623"
+      "size_bytes": 737,
+      "sha256": "0b928ab1a38376298e2ecb98bbdffa9c44b7d20ae668eacfea1a609d5a16425b"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/pi.log",
-      "size_bytes": 59,
-      "sha256": "40da5d90650f42a749552e1e4e0cf14225033beacbc91f96c586b5d63226c35d"
+      "size_bytes": 57,
+      "sha256": "ca1ee06de8c1125ee9c277e47bd3cc2bf11e1714a6b1bc1e4e8988160d07133b"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_runs/local-opencode-mock-01/metadata.json",
-      "size_bytes": 1116,
-      "sha256": "53d975a65497a1b6e45cd06621ca8351a9697ca4c8a9d0539063121b87a75000"
+      "size_bytes": 1078,
+      "sha256": "63928efde47fabf3c2244f5a74a5ec46bc5a7cac9708e94bce33956889fbb3eb"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_runs/local-opencode-mock-01/request.redacted.json",
@@ -505,8 +510,8 @@
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_runs/local-pi-mock-01/metadata.json",
-      "size_bytes": 1003,
-      "sha256": "fe3360e3e1f32fcaabe6be09290923ff24f06391f146705c09cd8fd6fa225c1e"
+      "size_bytes": 970,
+      "sha256": "bc656a68b42816cf60f222853390964655b4c5bfd90d0b0fc0a24dd21b96cd2b"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_runs/local-pi-mock-01/request.redacted.json",
@@ -520,23 +525,23 @@
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_state/opencode/usage-ledger.json",
-      "size_bytes": 617,
-      "sha256": "b0f944ecf4881ee8bc10bd150c6aa1464bd5ecaf257e47eecc2a649dadc91039"
+      "size_bytes": 596,
+      "sha256": "23ed005c46e3d4505afb423fbce1772bb52f4c169a2e9c3353e4dc4e5f1f9c59"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_state/pi/usage-ledger.json",
-      "size_bytes": 604,
-      "sha256": "6fd34b036e18ce362fb20bd6d8e61c5df35b8e2da2adb32583bde7d484dd9b26"
+      "size_bytes": 583,
+      "sha256": "b37e10ff29f8c59b462b9e3324221d0c547fadd596ff63bd76e3c219429d4f4d"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification-02/verification.json",
-      "size_bytes": 2814,
-      "sha256": "c422fd8ed266beabe12b9c17a0f99de949ceedfdf897e77ebe5313db39d3f0cd"
+      "size_bytes": 2719,
+      "sha256": "5ddac268192328837ef2bdb0834e68de056fd29e78a78b85da4e826bd0680a54"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification/opencode.log",
-      "size_bytes": 506,
-      "sha256": "f2cb71a39c9fddee68307e3ebf90849dc2d6abc597881797d3a3aa53a7c537fc"
+      "size_bytes": 493,
+      "sha256": "73d7f22d03b509e50042f644c1395c0ed48a80148a9868fd144606ff38ed7424"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification/opencode.request.json",
@@ -545,8 +550,8 @@
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification/pi.log",
-      "size_bytes": 38,
-      "sha256": "0da32b0d2ad3edf342546ae271370b8e467f061159d842a8d7870aa1a55f2a15"
+      "size_bytes": 36,
+      "sha256": "eb933453310c5b09bf6d266ef8d83aaab48be19c5109ee298db4954b7bd6d978"
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification/pi.request.json",
@@ -555,8 +560,8 @@
     },
     {
       "path": "analyses/harness-comparison/local-harness-verification/verification.json",
-      "size_bytes": 2398,
-      "sha256": "2ebf691f3087c56645a8ac1818047a5aaea72272db393acbee1d94b593ac85db"
+      "size_bytes": 2322,
+      "sha256": "40e45892a731ba56182024793273838df09446ec9c67333e17352d12c4f7db84"
     },
     {
       "path": "analyses/harness-comparison/opencode-local-config-check.log",
@@ -575,8 +580,8 @@
     },
     {
       "path": "analyses/harness-comparison/trial-02-budget.json",
-      "size_bytes": 621,
-      "sha256": "274a75c46ca4d80539032577df71dd46963dae0cd0efdefe1ca5781c969dbf7c"
+      "size_bytes": 605,
+      "sha256": "6ceb905cb8be6695ab8e4cb4d489cc047f927262e83c9fe232bb287cbc92b955"
     },
     {
       "path": "analyses/harness-comparison/trial-02-comparison-evaluation.md",
@@ -590,8 +595,8 @@
     },
     {
       "path": "analyses/harness-comparison/trial-02-status.json",
-      "size_bytes": 1137,
-      "sha256": "00cc9a89e59a1ca4502861e123bf95639848508aa3210a763ad5496b1dc86558"
+      "size_bytes": 1108,
+      "sha256": "d820f6b2d8ba99041d6447d2d180208cbff2384f83a4c5fb99668b8750338c90"
     },
     {
       "path": "analyses/mopac/README.md",
@@ -600,18 +605,18 @@
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-01/acetic-acid-conf-01.arc",
-      "size_bytes": 2544,
-      "sha256": "f7629a34bd38913683cd7b5c633823deb1c7cd17729e11f9557f096f99c63e5a"
+      "size_bytes": 2493,
+      "sha256": "54f09e867a0d34f08b46fd19b8ccd1e09aacc8a8e84a09b9ef57166164c3f5dc"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-01/acetic-acid-conf-01.mop",
-      "size_bytes": 559,
-      "sha256": "931ab901c365a172ccfb7af34f2e17051ceeae7fca6d413d1a358449f61bd80b"
+      "size_bytes": 548,
+      "sha256": "c784fed1df96c79aac6efed1d9e4a7815b632250125c6ab12e0df4a9dd058af8"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-01/acetic-acid-conf-01.out",
-      "size_bytes": 11566,
-      "sha256": "810824292db02d3f2545605dcdf15cf25a8a67c3b89f7663f57802053fb0edb6"
+      "size_bytes": 11297,
+      "sha256": "ba948e332401d4573ebe28d3116ecab96e426ee1f9aad23cb635398b4ce23a0a"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-01/stderr.log",
@@ -620,23 +625,23 @@
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-01/stdout.log",
-      "size_bytes": 96,
-      "sha256": "b86dcc13cb43a1497e4f0b94fe2c9d51909ec31f4d3f8339af150a4f2be9e880"
+      "size_bytes": 92,
+      "sha256": "edad709418744065ce407d27c7bc50d9976b5d023196f8f5ebf7ba5a70f6b8e1"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-02/acetic-acid-conf-02.arc",
-      "size_bytes": 2544,
-      "sha256": "9fda2fcc9bffbabbf4544f1575089590847a53b822c845d4de374f1b30963a78"
+      "size_bytes": 2493,
+      "sha256": "f76b5801d7749fceb400a231ebf4994d0232814cba8859ba1e41975f568fccfb"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-02/acetic-acid-conf-02.mop",
-      "size_bytes": 559,
-      "sha256": "3d7a55ce1924de41998867c019230ca1d793ab398cc86bce24f16c0bc778571d"
+      "size_bytes": 548,
+      "sha256": "83c9a53f85ba36bbb04abb50ed631c09d010fd71f237109457eb8539181c37dc"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-02/acetic-acid-conf-02.out",
-      "size_bytes": 11566,
-      "sha256": "b163a4da21e8c93e92d5fc368ab2b3c3f5769feb742a02a2ea89d1f05a7d6a5b"
+      "size_bytes": 11297,
+      "sha256": "9d11bbf04a332ada2907624b44f98927af6664721be7d767b9b5c68758680f6f"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-02/stderr.log",
@@ -645,23 +650,23 @@
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-02/stdout.log",
-      "size_bytes": 96,
-      "sha256": "4de63d08763d8b92bd7757f6eeee3857d2cb812d091dfe06a4745c81897bae59"
+      "size_bytes": 92,
+      "sha256": "0a86ea8b314c584131d2f0d59943df2c5cf7dacb0c3718efdedbf34f07b8fb3c"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-03/acetic-acid-conf-03.arc",
-      "size_bytes": 2544,
-      "sha256": "09500065124144e651b08e5633be297a7955e456816edc558c482c2eac30015c"
+      "size_bytes": 2493,
+      "sha256": "d360e16e5f5b58c934b26f660b012835f66c1e7416eb060aa81fba0a39ccb660"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-03/acetic-acid-conf-03.mop",
-      "size_bytes": 559,
-      "sha256": "a88354df2a07c576056ff1987f72b70fdaf48e4ba4ab89cbae3bc8a1ca9296cb"
+      "size_bytes": 548,
+      "sha256": "c9f3d7cffbb5ee1b0edf6a285be85b6ffa23eac8181571e7ad13028e6adcde84"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-03/acetic-acid-conf-03.out",
-      "size_bytes": 11566,
-      "sha256": "beb88494d6f70ed12f878fd88ddd50fb9eee3beeb9019a9c36667846c92bd78a"
+      "size_bytes": 11297,
+      "sha256": "3b4907389134b311626b7d4ec0474c5b57089dbeb8d82da26c6b5d752db15588"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-03/stderr.log",
@@ -670,23 +675,23 @@
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-03/stdout.log",
-      "size_bytes": 96,
-      "sha256": "83df034d8e716a4ab041e95559371e04ab3d1b413808706db7e44bf541f99cf8"
+      "size_bytes": 92,
+      "sha256": "d43f2cff146d21cd71cbc24a178ee41d1befa147a5bcdec027526cf16668e7b1"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-04/acetic-acid-conf-04.arc",
-      "size_bytes": 2544,
-      "sha256": "c1e4330e5d5525427ec99dd5518a7905ad79b3eebcc7d598d5037d43349923cd"
+      "size_bytes": 2493,
+      "sha256": "f70f5fcb4d338ed56e4e166b1537dcda77d376c7866e6be571d51f9f9e152ec5"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-04/acetic-acid-conf-04.mop",
-      "size_bytes": 559,
-      "sha256": "02f7b0be401daaf1b18f7b378504bd0ea4e70f60595ef3cfe2dddc20bd7a8de7"
+      "size_bytes": 548,
+      "sha256": "68fb9404c507c07856cd6c5dd400d3d538b50f92580bda8e65aa6274a4de7dc4"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-04/acetic-acid-conf-04.out",
-      "size_bytes": 11485,
-      "sha256": "a2555717d63789c173e909b07f96bb08dc337d14244dae0bc0b061d83eef8ed4"
+      "size_bytes": 11217,
+      "sha256": "4148ad0e8b0e5286c0b2b50fd18698f570dc04916b95f7bc337f5df0dfec0d95"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-04/stderr.log",
@@ -695,23 +700,23 @@
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-04/stdout.log",
-      "size_bytes": 96,
-      "sha256": "bb294616a6a7146dba0098ef20856620afdc35d915b927c6875c60b59d416ccf"
+      "size_bytes": 92,
+      "sha256": "8e1fc43d1333209dd62098c5135c94340dfc30d8ee42f243910661d9c266bbd6"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-05/acetic-acid-conf-05.arc",
-      "size_bytes": 2544,
-      "sha256": "29d953f28148967e42078a01408961031623c5890dc6ea3bb5582832bc61355a"
+      "size_bytes": 2493,
+      "sha256": "2cdb41d5a4538aa1ddbe16dc689b9cbe06ab68d1796c8a737c295bd738cc7b63"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-05/acetic-acid-conf-05.mop",
-      "size_bytes": 559,
-      "sha256": "158249859093807086fb395685cfd3c14362983f7dc7f50484e7ec363324a9ba"
+      "size_bytes": 548,
+      "sha256": "fe11135b012cae6402b6f081e03be15601904f69eb9bd944808d60776ddd7784"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-05/acetic-acid-conf-05.out",
-      "size_bytes": 11485,
-      "sha256": "0630ab2a5ecf6bf4910ec9cdc300cebe4114eb20bb9940a6dc57ea49c9475671"
+      "size_bytes": 11217,
+      "sha256": "40240330a7d38570f170817be7e1227f50a971dfede19fb5763911df32011809"
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-05/stderr.log",
@@ -720,33 +725,33 @@
     },
     {
       "path": "analyses/mopac/acetic-acid/conformer-05/stdout.log",
-      "size_bytes": 96,
-      "sha256": "012b735b7d32507aca88122a4fb4224fa060951bff535cc7da97e2ce7eaa91da"
+      "size_bytes": 92,
+      "sha256": "045dd31979ab36b7a3b38307f9c88b7be35da7b1515c7ff63d1ac4a08ff845bf"
     },
     {
       "path": "analyses/mopac/analysis-summary.json",
-      "size_bytes": 30640,
-      "sha256": "0e47fcca93eeb56db263f79e2040494c9c7ee7c8d874f1134324e592e99f56fe"
+      "size_bytes": 29983,
+      "sha256": "241c744f90b8418a3104d94a947001b430c4f9afbb91acc55c8d0cdc93d03081"
     },
     {
       "path": "analyses/mopac/attempts/partial-attempt-02.json",
-      "size_bytes": 7270,
-      "sha256": "aba292ed6e9d4fa2625d9acca9341907deb21d318f7d2c2a740126f3f2466ee9"
+      "size_bytes": 7121,
+      "sha256": "4c8b5c873c20f75724c876fdaf334f7e9c0fa4c7985676862eb67473d517601e"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-01/benzocaine-conf-01.arc",
-      "size_bytes": 3835,
-      "sha256": "2610a38e5afc83ca517890fe37f77e8e9ae45c8c814d1255f32bba13d4b5913b"
+      "size_bytes": 3769,
+      "sha256": "0668f2dab88ea8120adebdc2568852dadba837ae940b1a57b65adede1df08f8a"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-01/benzocaine-conf-01.mop",
-      "size_bytes": 1263,
-      "sha256": "28fc8ebe69bccbbad9f09046a15b65520289acf127691ab2422df7f32cd400ea"
+      "size_bytes": 1237,
+      "sha256": "63ecd295c286d3ac841d455ff552238b5a9199154d184b1d55696efc97dbda96"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-01/benzocaine-conf-01.out",
-      "size_bytes": 27424,
-      "sha256": "db314dae12dd5b7655b5b7534978f512cec4e954741424d86e1d54673315284e"
+      "size_bytes": 26919,
+      "sha256": "f15be553c9441be962632385af72ce3824c94d139b23843f3b1e8d5edbbbb5c9"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-01/stderr.log",
@@ -755,23 +760,23 @@
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-01/stdout.log",
-      "size_bytes": 95,
-      "sha256": "89009ce9941bbda01431c3f480d02ec3d7d799d8ee424844d2890932f9e39832"
+      "size_bytes": 91,
+      "sha256": "38f0af4871cd92f270fde0680287a850708673abee58b19a79ad16686bf647ce"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-02/benzocaine-conf-02.arc",
-      "size_bytes": 3835,
-      "sha256": "695aae34fdbcb5bfa6e514674529d6091fba4c5a08a88d6eb50b953b369c40c6"
+      "size_bytes": 3769,
+      "sha256": "e8491b50345e73cd121c6b4648788bffaf488fae9b8496873acd6e8a48edb632"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-02/benzocaine-conf-02.mop",
-      "size_bytes": 1263,
-      "sha256": "e091ecb185a91742c3a4095be67aa2f8997e6828f5918972cce5ce347d43d569"
+      "size_bytes": 1237,
+      "sha256": "d339663feca2639089580ac09686d20498ec3b69edf32a2f0178c880bb313aa3"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-02/benzocaine-conf-02.out",
-      "size_bytes": 26857,
-      "sha256": "c839848b4846ed7696fd0244ec4317097d5f5043fe820c339c486dc8c76bf896"
+      "size_bytes": 26359,
+      "sha256": "2b82c2ee6eff166818d3311f601d22c1a5d212036307df5e95edfddae3f24590"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-02/stderr.log",
@@ -780,23 +785,23 @@
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-02/stdout.log",
-      "size_bytes": 95,
-      "sha256": "0390f89db2da33a3c6409bebaa21a6ba03e102d37ddd9bcd9fca2d16ccb6641f"
+      "size_bytes": 91,
+      "sha256": "cf0174e7790cec126785fbf79a25193225d75a1a6154238ee50e440570c384e4"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-03/benzocaine-conf-03.arc",
-      "size_bytes": 3835,
-      "sha256": "34345f52d7b3c4e90c68975204d4170d408496c2f0641ded181e1ca933b47d2a"
+      "size_bytes": 3769,
+      "sha256": "4685dec6784beb51391588a49240b1336c96b2ac810ee8b93909b011398f13fe"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-03/benzocaine-conf-03.mop",
-      "size_bytes": 1263,
-      "sha256": "33cf31d85492430f5fbd6290503f8f75ad300c8aa920696dc2b947108d957214"
+      "size_bytes": 1237,
+      "sha256": "5c8c881e54bfd77fae84ce57b063ba6d071834d827f778fe5870b2ba6ca50c64"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-03/benzocaine-conf-03.out",
-      "size_bytes": 27505,
-      "sha256": "8b7dab0f5b88acf4ac40692410d2d8709378a15456df8b2398ea2428f5b8396e"
+      "size_bytes": 26999,
+      "sha256": "1f538aa0d13396511c3a5161874ec6600c8b5b30d37465f958992fea5ecd96ac"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-03/stderr.log",
@@ -805,23 +810,23 @@
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-03/stdout.log",
-      "size_bytes": 95,
-      "sha256": "76ab75d32d29b19e169d2205ebf8061fefc804312703b958df04683124f15179"
+      "size_bytes": 91,
+      "sha256": "2fc3ac87d8961b14b7dbe3ebd993605e10a97e142f444b8ceea3b1ebcb9a4545"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-04/benzocaine-conf-04.arc",
-      "size_bytes": 3835,
-      "sha256": "1d98ea7d071df59a43d6918a1795e6ec386f761dd5bf7cdec0cfd8d3b0bdce4a"
+      "size_bytes": 3769,
+      "sha256": "9f3d21b3413dadf4908a65c3e49deb66f70e4731ea2d64849c114496fb6afdec"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-04/benzocaine-conf-04.mop",
-      "size_bytes": 1263,
-      "sha256": "99f4d72359acdd7a7c0f7e2b8f6255e8c299bc9c2f7def2de2d55734812d3aa8"
+      "size_bytes": 1237,
+      "sha256": "ccd7eda6b2e50aa25d43d3e8001d582f3953ffc492cc8412549045081181b164"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-04/benzocaine-conf-04.out",
-      "size_bytes": 26614,
-      "sha256": "472308eb795a16a50cf0aa18b79eea6082e0d3de798fc2a6a5a7928902ef799b"
+      "size_bytes": 26119,
+      "sha256": "a364806171cd22bdd132254948cfd07e670c44120eaa70a9892e5e10b140d934"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-04/stderr.log",
@@ -830,23 +835,23 @@
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-04/stdout.log",
-      "size_bytes": 95,
-      "sha256": "90eaa80d7e3f7d04efaf24765e2cda4fa09a2a2f693ef8fe9c7c4a0c18ea9b17"
+      "size_bytes": 91,
+      "sha256": "94571a1ff2118b762777302145058ced1cd4282914454e2ead6fbef1de9f8ef3"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-05/benzocaine-conf-05.arc",
-      "size_bytes": 3835,
-      "sha256": "dc2276ceb18f10ffcd8602148356bbb624083de2d5128005bf9f1315b53bb6e1"
+      "size_bytes": 3769,
+      "sha256": "f6bc812273cc424ab3af023eedeed302fff588fa5e44701a1b062d99c7f07739"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-05/benzocaine-conf-05.mop",
-      "size_bytes": 1263,
-      "sha256": "fd69d60b3a1996fd9ee1cfde9e915de4272048770598e5c73ff46c1217c762ae"
+      "size_bytes": 1237,
+      "sha256": "cc3b97cfa09b6020696a657b9ddb6701dcf2779e21b8832974a40383010cc40c"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-05/benzocaine-conf-05.out",
-      "size_bytes": 27019,
-      "sha256": "cad312ba844d47d56beece173af4670e28845a125951681b87b4f6237a78ccc9"
+      "size_bytes": 26519,
+      "sha256": "1139ec5713c3ff80da1f364a07df91d63dcc0e09d80bd9c7a93051c257a33e61"
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-05/stderr.log",
@@ -855,23 +860,23 @@
     },
     {
       "path": "analyses/mopac/benzocaine/conformer-05/stdout.log",
-      "size_bytes": 95,
-      "sha256": "7cef285982d20fdb36bf12ad0fbf68b0c67d72a4d3bc569a133f4c401b59f866"
+      "size_bytes": 91,
+      "sha256": "eca717360c7c8c566b6208903e5d4a206e347acd99cf2b75f018fa8b86cdb7cb"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-01/ethanol-conf-01.arc",
-      "size_bytes": 2621,
-      "sha256": "713b69bd85124ada92eeaa2227bee47eed9c982e49a58f6fe97a1afce842aea5"
+      "size_bytes": 2569,
+      "sha256": "f18e7f5e1f55ab32b7f523d4fad1b7c41e067d2dff0699c3f76ab849657c7bcc"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-01/ethanol-conf-01.mop",
-      "size_bytes": 602,
-      "sha256": "b3c2014c107589106ca79a10fc1c05c9364ea94d66eb63e736e028382d2a2eba"
+      "size_bytes": 590,
+      "sha256": "599f5f1cbb942db6b99f69ac1d43f24bdc5768455b66a19ad117f91f224aba29"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-01/ethanol-conf-01.out",
-      "size_bytes": 11973,
-      "sha256": "04885a8925c09f88fc0ca49f55e5bcfe7354995a443226a0857cf9b18d00a194"
+      "size_bytes": 11696,
+      "sha256": "dbf2947f85627bd2f8fa17c850a11475abdbb59032c362e5af39002592d3dde9"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-01/stderr.log",
@@ -880,23 +885,23 @@
     },
     {
       "path": "analyses/mopac/ethanol/conformer-01/stdout.log",
-      "size_bytes": 92,
-      "sha256": "e02abe577353a1878c464fbc9ebe5712fb6c39c90df66f9d4bed33769ed11898"
+      "size_bytes": 88,
+      "sha256": "35925f563b78316b7fb2d8d6035c6f845d4f58d0c89bc8efc734c9c04a6c7e01"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-02/ethanol-conf-02.arc",
-      "size_bytes": 2621,
-      "sha256": "8098037439e3d5c1c68fc5293efe51d48d53d35138419964fa0c41f6f5774b6a"
+      "size_bytes": 2569,
+      "sha256": "63feb80f75cbbe3a1f15f46bbeb350a7ba044fa22d9542a21a3166c8e86117af"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-02/ethanol-conf-02.mop",
-      "size_bytes": 602,
-      "sha256": "f720ab6d91d43b5302df64e372d411146d67dbd4aa2d5dd7b63a89b2a0b70bef"
+      "size_bytes": 590,
+      "sha256": "17c6f852c3506c576edaeedc12ee5aa6fe1de994247cd4fd54d8442fdb46f6ee"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-02/ethanol-conf-02.out",
-      "size_bytes": 12945,
-      "sha256": "c22b91c9e6aced5ff4ab7438a5ecffb2738cd511a79a1899c6d7324181d2314e"
+      "size_bytes": 12656,
+      "sha256": "ed1a0acda7063000474901ad5f0ea8372757164f82064b71f1837a4d53626f7f"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-02/stderr.log",
@@ -905,23 +910,23 @@
     },
     {
       "path": "analyses/mopac/ethanol/conformer-02/stdout.log",
-      "size_bytes": 92,
-      "sha256": "62820e37453a2f781a6579e6d902c659cc910dba45932101e925422e862cd126"
+      "size_bytes": 88,
+      "sha256": "4f1ce92e00496d60ae63f88dc4e46bc06ccc080a6d19979638ef3b6ca81ebf5d"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-03/ethanol-conf-03.arc",
-      "size_bytes": 2621,
-      "sha256": "234e7c16564eb28fa8cd34d6bb2211ade70ac0d876ea98947716af11a245ee73"
+      "size_bytes": 2569,
+      "sha256": "178ff2faaf05ad694caac07ecb8ba965439f4b56d7eae250c61bdd00997f0db5"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-03/ethanol-conf-03.mop",
-      "size_bytes": 602,
-      "sha256": "37e0683808314edaf77c1e850327d1f899e9de35c5913b903488ee76ee6a66f6"
+      "size_bytes": 590,
+      "sha256": "06b89865a266cd6011d871a2fa5c3747d449ffc249c44dde13bea22281e02fde"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-03/ethanol-conf-03.out",
-      "size_bytes": 12945,
-      "sha256": "82a5876a676bff5b5d702c7bdb56a6da277830c348281c201dfc7cd1f9ae56ac"
+      "size_bytes": 12656,
+      "sha256": "2e6f178616971507965e271ba66067f3a1a7874d90e1c6b33e606b2bccf96b70"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-03/stderr.log",
@@ -930,23 +935,23 @@
     },
     {
       "path": "analyses/mopac/ethanol/conformer-03/stdout.log",
-      "size_bytes": 92,
-      "sha256": "c6bdc33ca18a3653e22f2b520602ff95bff915927a150347f9f20844097ebb69"
+      "size_bytes": 88,
+      "sha256": "f0a5d18692f7803e96551a7c541a89944532cc2120998b6acb641d9631e192f8"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-04/ethanol-conf-04.arc",
-      "size_bytes": 2621,
-      "sha256": "36ce2a32d6b834531f94db82085a3de0ab7fd7dde90c21880d358e34cb484453"
+      "size_bytes": 2569,
+      "sha256": "0ffb1422d48e06d473989991799355d06c05097a1de6dd33dc6ae36fcc69509e"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-04/ethanol-conf-04.mop",
-      "size_bytes": 602,
-      "sha256": "6b7060c0f21a7e23e4a2f3db2a1a6b86d0587c8f86f3da06b4c0833a75e56647"
+      "size_bytes": 590,
+      "sha256": "52f763e9f9dec5837596f97cc3196b188c608626f3ffb61c4f5592b3d90df11d"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-04/ethanol-conf-04.out",
-      "size_bytes": 12864,
-      "sha256": "9cbeab5e4cb1e37757c8b7f1f2450ce2f2e0c50956979a72f794bd896172d1a9"
+      "size_bytes": 12576,
+      "sha256": "2a5c8f2dc10bd9c54c712fcc5531604b2bbf964e3a392b4e352a140123e3e6db"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-04/stderr.log",
@@ -955,23 +960,23 @@
     },
     {
       "path": "analyses/mopac/ethanol/conformer-04/stdout.log",
-      "size_bytes": 92,
-      "sha256": "dbca343ecf9dc1383dac7eb5662a7193416e125d604898a49fe2f7eea1214d90"
+      "size_bytes": 88,
+      "sha256": "f03b2aaf523b0d0a5c486785c9218d7be47b0b4b36cfb98419405014000c0e8f"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-05/ethanol-conf-05.arc",
-      "size_bytes": 2621,
-      "sha256": "964eaef8cba2d5f604378245ea18611df33e8b89680c3a87518df09bc46a63eb"
+      "size_bytes": 2569,
+      "sha256": "27a381fd90c032a489b49b9c4b544e2c814ac54b044bc862081553af3f8d56ad"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-05/ethanol-conf-05.mop",
-      "size_bytes": 602,
-      "sha256": "27480b9572e7bf09b3a14fa749e9ea384fab33091820818b761fa6830ce1c311"
+      "size_bytes": 590,
+      "sha256": "cd68b1624beae5b80339f1ffadcd1904f32f1b7d202bb906051c7de549d2cad9"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-05/ethanol-conf-05.out",
-      "size_bytes": 12054,
-      "sha256": "e37c87a299a30cbce8ba5f9d023d6d18212ef8b0d97f51b895e5faecb80c6af0"
+      "size_bytes": 11776,
+      "sha256": "66c39e9771ad8d4b91b31ea7f4fdb1133bc201aab2e76b5ee22c5843dee3cf69"
     },
     {
       "path": "analyses/mopac/ethanol/conformer-05/stderr.log",
@@ -980,23 +985,23 @@
     },
     {
       "path": "analyses/mopac/ethanol/conformer-05/stdout.log",
-      "size_bytes": 92,
-      "sha256": "840a11a1f8f20db07072499d80ffe4899f5278d7f017cbb5482543ff2ef5988c"
+      "size_bytes": 88,
+      "sha256": "817c77bbf65fff1f1ee31482776f1f1ad990f24f5e90962bba0b5622b4594f16"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-01/ethyl-4-nitrobenzoate-conf-01.arc",
-      "size_bytes": 3856,
-      "sha256": "0619ead6708357052aa211265f09612a2e470fa592490882713b9a88c8bb612a"
+      "size_bytes": 3790,
+      "sha256": "8787bde1ec89a8c5a7e4313e96618219f91b59d37bbc5d3faa406d5a232c86bd"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-01/ethyl-4-nitrobenzoate-conf-01.mop",
-      "size_bytes": 1274,
-      "sha256": "ca0e4b87cabd46e429435fdc4cdb9f4aedd5637f43b1ca238ba7f9fef13a489f"
+      "size_bytes": 1248,
+      "sha256": "985f241124e0a4dcea5fe63b2be5f52fbdee44a94bb335b2b3d5f4183c4653ba"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-01/ethyl-4-nitrobenzoate-conf-01.out",
-      "size_bytes": 27590,
-      "sha256": "3659c9248d51036e9fbb0f613923e23af7ffa59d56031f76e1fe565fa25297ce"
+      "size_bytes": 27084,
+      "sha256": "2d00add4d7a4dd6c601d66c7a1f0c916bbdd20b680e91969028d5c56df7cde08"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-01/stderr.log",
@@ -1005,23 +1010,23 @@
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-01/stdout.log",
-      "size_bytes": 106,
-      "sha256": "a93b4de34506700673d0cdae497b492c4143453ae454b405a8038412aa2c313c"
+      "size_bytes": 102,
+      "sha256": "b3d825d89a31c43e22b8a15c94c1fd27f9eb83ce6fd13d5fa5f0f6812f8eacd5"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-02/ethyl-4-nitrobenzoate-conf-02.arc",
-      "size_bytes": 3856,
-      "sha256": "f272ad0abaac6ebc80fb2a0d13c3017d803511cf85fa0fea2e3021853db97cc6"
+      "size_bytes": 3790,
+      "sha256": "624bb86c0b72953b62d097bb3ae7bbc7d7ccf7d8f3cf947d7d972028ee410c7b"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-02/ethyl-4-nitrobenzoate-conf-02.mop",
-      "size_bytes": 1274,
-      "sha256": "e1bc7cf0c726fd5fb4ff52ba860b9c27a03bb0cc53907950f76e43ea6bbb87a5"
+      "size_bytes": 1248,
+      "sha256": "ad12dc20703237adad2fe64480c300cce71a33077a1347acc0e1825e6d968035"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-02/ethyl-4-nitrobenzoate-conf-02.out",
-      "size_bytes": 27266,
-      "sha256": "0caf23f2bd4bcb6086926c0ae648235721b811c2ee25bc1075067e5f45adb9ae"
+      "size_bytes": 26764,
+      "sha256": "7ed804a6d3a6d9e8a2a8afe0ac3bfbb3e376e513f08a3c55d01f21a6812b61e9"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-02/stderr.log",
@@ -1030,23 +1035,23 @@
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-02/stdout.log",
-      "size_bytes": 106,
-      "sha256": "2ab41077af42bb6627f92c5a9138ef8fe6eca11a616ae4c3a8ebdf34ee7be219"
+      "size_bytes": 102,
+      "sha256": "1f499160ca7de7f0a167508d3d6ccefa3df3ae9d7fd82609ef5333cf0cc70274"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-03/ethyl-4-nitrobenzoate-conf-03.arc",
-      "size_bytes": 3856,
-      "sha256": "db7e6ca4d3681366974c65aab6e99899c7f8604a3b28211e8d000768579ecfee"
+      "size_bytes": 3790,
+      "sha256": "355a30e87e99f12ea38e97faeef8d4d328cfc5cbcb0eb15d8a09d60bc1929faf"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-03/ethyl-4-nitrobenzoate-conf-03.mop",
-      "size_bytes": 1274,
-      "sha256": "8ca16a3b5201e1187dbbe745e42d58f2b4472213bd3ee5c41c09fdce5d90b951"
+      "size_bytes": 1248,
+      "sha256": "a293d8443832b0139933d8a333170fd0fdb6595b28b98274ec11992bdb7b9dc5"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-03/ethyl-4-nitrobenzoate-conf-03.out",
-      "size_bytes": 27671,
-      "sha256": "602ab9d344cc19845282ef29bba88aaef0dce8c798f0da9ecd290eebf581775e"
+      "size_bytes": 27164,
+      "sha256": "dcb1f7483fa3475cea2c80aacb550d7e58c0abbe4fa45d71fd2815cfc782e90b"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-03/stderr.log",
@@ -1055,23 +1060,23 @@
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-03/stdout.log",
-      "size_bytes": 106,
-      "sha256": "5e70d65c82db0090727d325bc23d748fdc0b20fcb1ef1ff56b9201e24f713f4b"
+      "size_bytes": 102,
+      "sha256": "a8314d3c153ce137320c50fd933bdff79610e7d84af11ad72f958dce3ba54c2f"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-04/ethyl-4-nitrobenzoate-conf-04.arc",
-      "size_bytes": 3856,
-      "sha256": "046b9570d92a823b0687ee94b3da5014e9b5e304d307911caaa6c3e5bdfe2db5"
+      "size_bytes": 3790,
+      "sha256": "7e79a198f984ee6736f07a3756699c578a6261ea7e5104289a808fe5511de887"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-04/ethyl-4-nitrobenzoate-conf-04.mop",
-      "size_bytes": 1274,
-      "sha256": "c4a6e819c15da5dd80b4f41044afe5951634be94cd37ed8a316b3ce8eafb5b23"
+      "size_bytes": 1248,
+      "sha256": "fc7df934952a22f6242ee49dfe77fcdd6188ef6aae821ef77c766cb2468537c8"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-04/ethyl-4-nitrobenzoate-conf-04.out",
-      "size_bytes": 27590,
-      "sha256": "bd872222e031df25b167b8dfdfb4b5ea24d4cd81a3d44cfba2cf000cffbcd0ee"
+      "size_bytes": 27084,
+      "sha256": "889546d4192fdd2f78cc75a0f70f558c6a7f70ac7c85874340dc9479c852fe13"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-04/stderr.log",
@@ -1080,23 +1085,23 @@
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-04/stdout.log",
-      "size_bytes": 106,
-      "sha256": "e8520a87cc7f29013ea52fdf7899fc7647545572ec060de10d2f67fee9086c06"
+      "size_bytes": 102,
+      "sha256": "d9a42229cf17ed8cef0f503282364223ecb931249dbdd1b1e83245f98c590e01"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-05/ethyl-4-nitrobenzoate-conf-05.arc",
-      "size_bytes": 3856,
-      "sha256": "87da3a94c2068040238252ec9ef5877fa9f87ec1f5863f2280943028733743fe"
+      "size_bytes": 3790,
+      "sha256": "afc71c2a916fc2a2ed2a18c4fde55aac35aefe56ce4e322c3b126f452cff328b"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-05/ethyl-4-nitrobenzoate-conf-05.mop",
-      "size_bytes": 1274,
-      "sha256": "aea19adfde0111b0bada9b8031cfbfee163c1f86afae1822d99ee04334d37cd3"
+      "size_bytes": 1248,
+      "sha256": "62440b28d88c9ae4562ed069f66c40eccc2a0f59b1b6f5ae8e8e52b04246a298"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-05/ethyl-4-nitrobenzoate-conf-05.out",
-      "size_bytes": 27671,
-      "sha256": "dfaa16f577a0f7d6e70c2459da7b18aecca7282b015b6b9e1016ab1bc90ce43b"
+      "size_bytes": 27164,
+      "sha256": "8155c8251829fafbe0fca4ac4112657dd8dde72415fd1150da161f8452819831"
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-05/stderr.log",
@@ -1105,58 +1110,58 @@
     },
     {
       "path": "analyses/mopac/ethyl-4-nitrobenzoate/conformer-05/stdout.log",
-      "size_bytes": 106,
-      "sha256": "fcb3dca66c3f237b41516d7e2f3f17216b78adb38244896f7471fef60bda13d6"
+      "size_bytes": 102,
+      "sha256": "4a3e03ed89f65b6e12a3e394f9fa324ddfffd29cb35ebf6de0ebd03dadd0f561"
     },
     {
       "path": "analyses/mopac/net-atomic-charges.csv",
-      "size_bytes": 15456,
-      "sha256": "41e7c3e8bc5f83b59252e0c51f2c0c5426f0b81fb330e520ba3d98c38dcefea0"
+      "size_bytes": 15055,
+      "sha256": "8d0a3f47f8ee995dc1a9c6f91b6785de0f963fd2d1a4e8433252a369d0475f8e"
     },
     {
       "path": "analyses/mopac/optimized-bond-lengths.csv",
-      "size_bytes": 5283,
-      "sha256": "366adb4eeb6574f9be593e63d34527f14e3230c2a9a2c1d9371d383b0f843aa8"
+      "size_bytes": 5204,
+      "sha256": "e9407b3459426edf6708aca20a3942d46bcafde9760c9fa509430c47b9b47a80"
     },
     {
       "path": "analyses/mopac/optimized-structures/acetic-acid-pm7-optimized.sdf",
-      "size_bytes": 953,
-      "sha256": "e4de0c922e9eaa415fc605ff31c6cd3fac68cb7139386e6f7076710fda7b4e63"
+      "size_bytes": 917,
+      "sha256": "f2faa8003f62f19a3716438611b6b145fdafdc1eba076410340a40677d3d4e01"
     },
     {
       "path": "analyses/mopac/optimized-structures/benzocaine-pm7-optimized.sdf",
-      "size_bytes": 2241,
-      "sha256": "4d26153e013a3bca04263faf70a7cf2493d7b757e7d7e39f5c3b163ef550d2f8"
+      "size_bytes": 2174,
+      "sha256": "20944b8b849fef0fa9d18028b2534c6c3f4a2c0c2287ceaa8621f81bf3434692"
     },
     {
       "path": "analyses/mopac/optimized-structures/ethanol-pm7-optimized.sdf",
-      "size_bytes": 1034,
-      "sha256": "3f9c5c3bf5b96997d1a1780e2b68b1b2e7b1838c7e564e5195c9e3bde4f641df"
+      "size_bytes": 996,
+      "sha256": "676c0d9de2c580250fa883267bb50b19a517ec20cb7d0be4e14cd26e62563882"
     },
     {
       "path": "analyses/mopac/optimized-structures/ethyl-4-nitrobenzoate-pm7-optimized.sdf",
-      "size_bytes": 2279,
-      "sha256": "7af20c749cdc8260dc6fc86208d5c42e2dd834bf6d380c19be3a232ae09c7603"
+      "size_bytes": 2211,
+      "sha256": "2f0c163c38c6362d151bde1d39bef5511a8103765b19c77a0c2809b6572e130c"
     },
     {
       "path": "analyses/mopac/optimized-structures/p-aminobenzoic-acid-pm7-optimized.sdf",
-      "size_bytes": 1740,
-      "sha256": "b1e8fe22cc60058eaa0ecd7147320ab88ecfc78e290fda23d57a6a787c07204e"
+      "size_bytes": 1685,
+      "sha256": "08b499ed436dca6fcb5c4ea1571f9c7623485896a75321e260799c6f132441f0"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-01/p-aminobenzoic-acid-conf-01.arc",
-      "size_bytes": 3336,
-      "sha256": "8121eb359f0a9dd7a02b1283c6f2effaed47e66fc2a95852ef85ce59ba33cf2e"
+      "size_bytes": 3276,
+      "sha256": "0cdace1fcd8ef28266ab5aee0b23bb27d225dc983d3e310101641fb108736135"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-01/p-aminobenzoic-acid-conf-01.mop",
-      "size_bytes": 990,
-      "sha256": "6583c33fab0bf98954aec017667586b0f17ed27f1d8725816b547d1f57393aa4"
+      "size_bytes": 970,
+      "sha256": "8bc91652727b1104734b2fd4cc2259f1ff8b2ee3eea8a17a2384bea28a943bb0"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-01/p-aminobenzoic-acid-conf-01.out",
-      "size_bytes": 19748,
-      "sha256": "c72c04054345695f9e6888f1f8c84efd2892b72690c683c597b97711797777c8"
+      "size_bytes": 19357,
+      "sha256": "4be10efb23614541fa230b9f3a583aca8c8c6bc568361bb690fb2f4699122896"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-01/stderr.log",
@@ -1165,23 +1170,23 @@
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-01/stdout.log",
-      "size_bytes": 104,
-      "sha256": "a95c11a8075559f27d685087f99a3c0a60f1a7946ded0a75f34afcb04722d8d2"
+      "size_bytes": 100,
+      "sha256": "be1ffc114659b5742bd48ece22aace8a6434aaac303a66ee9f0f0d5d1f7ad672"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-02/p-aminobenzoic-acid-conf-02.arc",
-      "size_bytes": 3336,
-      "sha256": "8346fb5e08a3f93a1102fe93d5e689967f5c77fe71fc111d3a82dde53fc60702"
+      "size_bytes": 3276,
+      "sha256": "7178a53bdf8d3261fb5dced60fd8ffc3826a6d917d86c1bebc2e1add31f2e2b2"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-02/p-aminobenzoic-acid-conf-02.mop",
-      "size_bytes": 990,
-      "sha256": "892e4406c2fad7844d940bc891a943ca0dfc97910e2c3322404bcee6811d7ba1"
+      "size_bytes": 970,
+      "sha256": "6244c8932970867737a4db26c6e4e57dcb13bb505e2ea01ccafe511cf8b8a9ce"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-02/p-aminobenzoic-acid-conf-02.out",
-      "size_bytes": 19829,
-      "sha256": "8c4ce3b0530e0f1f2a8567040f05fa89db5549b8b5e8beb6c36a836793612590"
+      "size_bytes": 19437,
+      "sha256": "928e34c089de6aff4066edf9afb1dccb53fd1781bc0503300d463ca1133b9179"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-02/stderr.log",
@@ -1190,23 +1195,23 @@
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-02/stdout.log",
-      "size_bytes": 104,
-      "sha256": "64f7005db8fb50762b76e36404e4996ec25004d2a96a2efcfd494740d4322491"
+      "size_bytes": 100,
+      "sha256": "34f558c421a97d3ba540e4322f49f87dc88085ca10086b4b2a105c98a1826cd8"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-03/p-aminobenzoic-acid-conf-03.arc",
-      "size_bytes": 3336,
-      "sha256": "53a698d478201a73874ba607dee5468c6dcc56321fc1aacf6ace32a909703abe"
+      "size_bytes": 3276,
+      "sha256": "7df23196ac9d73fd192d54d3135f6096b486a769cf4901dae5743afa83298673"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-03/p-aminobenzoic-acid-conf-03.mop",
-      "size_bytes": 990,
-      "sha256": "ca11f4c23641b0ca104e841ffe1b69963786e3643149267373f67286d56239aa"
+      "size_bytes": 970,
+      "sha256": "505c43ab72021883e91ff34639329aa3e8ce5440a32e9a54aa4c679a421cf61e"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-03/p-aminobenzoic-acid-conf-03.out",
-      "size_bytes": 19829,
-      "sha256": "0a641cb16266dfb024554aac8ff5b93e383770398a26b24fa38deb53fa4c3207"
+      "size_bytes": 19437,
+      "sha256": "1d523fcefbb9008419322f8e415c4d4207ae67cf5e9054ef617cffc9d1e631f3"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-03/stderr.log",
@@ -1215,23 +1220,23 @@
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-03/stdout.log",
-      "size_bytes": 104,
-      "sha256": "eef9073fb31893d50c03bff98d4caf26c68095178a5b1af7f6ea0cb90d54b091"
+      "size_bytes": 100,
+      "sha256": "6b7ca0f48e3929aaa457e6212a17284b77dc58bd5b761a8734cf0a1c91b3f13b"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-04/p-aminobenzoic-acid-conf-04.arc",
-      "size_bytes": 3336,
-      "sha256": "06264d67a1ec29082158f082f634ae052fbaeb21538f54c5db6e5849180d8886"
+      "size_bytes": 3276,
+      "sha256": "59eaaa918d3b1ebab22847a23bfa8e75ec2e35ceb7e9ef0a780100a4ae8f65c1"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-04/p-aminobenzoic-acid-conf-04.mop",
-      "size_bytes": 990,
-      "sha256": "b14efaf6ecb0168467b4e24360692e1659af3f0354d3caea46b0635eede99b0c"
+      "size_bytes": 970,
+      "sha256": "8e3759bf6e630d1a85c4cc4e32a3a724635fdce45230e58ecb6eaf1f7f6f8bbc"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-04/p-aminobenzoic-acid-conf-04.out",
-      "size_bytes": 19667,
-      "sha256": "2d1c6ff179c6b859cdb66eae9e65125e0708c0738d9c5eed94a7a6c252df9cef"
+      "size_bytes": 19277,
+      "sha256": "183d712d2ac91c4b4735514996b66febd7f7c0dab4956fa16fc0819164fa4ea8"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-04/stderr.log",
@@ -1240,23 +1245,23 @@
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-04/stdout.log",
-      "size_bytes": 104,
-      "sha256": "e83816cab13375125a8e20f14662c40a435ac9cc2f1f65f4996656daff740e6d"
+      "size_bytes": 100,
+      "sha256": "ef02d322461ebe7bacbe5ea573b6989db4c455469bffec09826f50f28db4e02b"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-05/p-aminobenzoic-acid-conf-05.arc",
-      "size_bytes": 3336,
-      "sha256": "f9955d6fa0a7c8f42a4c5bd9522ff7561e7f80e9e41b3de84930f07977dd60f9"
+      "size_bytes": 3276,
+      "sha256": "f8c001871f1a9695f52790b185ae0b658617094b582040b45ae84dc219edb1ed"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-05/p-aminobenzoic-acid-conf-05.mop",
-      "size_bytes": 990,
-      "sha256": "9b8f428d3395158d0b84bfe14ca880de2c48442858d50463578a2c517ac1f79a"
+      "size_bytes": 970,
+      "sha256": "c70eb002cc79f1075dfe33cf15d1f2116c93828d912918b008fdf76b9b5c6b12"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-05/p-aminobenzoic-acid-conf-05.out",
-      "size_bytes": 19667,
-      "sha256": "289f410ce8e40e9c3d144438a82dd74463e7785f09dfe75398ff789f75740f33"
+      "size_bytes": 19277,
+      "sha256": "c336846e062b05bf21828a780aa33632d1734f646123c34d91a3783d0b2a28f8"
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-05/stderr.log",
@@ -1265,8 +1270,8 @@
     },
     {
       "path": "analyses/mopac/p-aminobenzoic-acid/conformer-05/stdout.log",
-      "size_bytes": 104,
-      "sha256": "211cf6ca3d7e7e847d24b5b7dab8d3a32829c1cc1779ccc962817ed4c987a0ba"
+      "size_bytes": 100,
+      "sha256": "1eb4d963b3a400141c01e0912bb581da90f1136ca3e81638ad72793ec5636b41"
     },
     {
       "path": "analyses/mopac/results-interpretation.md",
@@ -1275,83 +1280,83 @@
     },
     {
       "path": "analyses/mopac/run-manifest.json",
-      "size_bytes": 33407,
-      "sha256": "28aac44624408ba3698cf6d599bcf5956f045c7221eb41d79ae8217818cd8c28"
+      "size_bytes": 32700,
+      "sha256": "d69147dcbea03719d232e36c9bb6f6e7dd034049979a5099199533f134ddee5a"
     },
     {
       "path": "analyses/preparation/atom-numbers.csv",
-      "size_bytes": 1299,
-      "sha256": "3965f54501b94d902b1c91b32be520def86812f3c33c54ef07b6fb6001d75523"
+      "size_bytes": 1255,
+      "sha256": "76c44342f6450aeaaa467853ca1f85148af9f1a9fcc5c4a0d25798a9c9f30622"
     },
     {
       "path": "analyses/preparation/epi-suite-inputs.csv",
-      "size_bytes": 2076,
-      "sha256": "2ab35bc121f476580152af6cd572f72abd4814ea6484c1cc21a40e2150271525"
+      "size_bytes": 2065,
+      "sha256": "23969f789831b440a7ead99a8e2d1b00d4e25562f8f75c0bb07af1f3fd3292c1"
     },
     {
       "path": "analyses/preparation/mopac-inputs/acetic-acid.mop",
-      "size_bytes": 493,
-      "sha256": "790eb31026a2f7ef5d7c04edd96152cea3c8cdd17e6e18a4bb1e2833e8c3f22a"
+      "size_bytes": 482,
+      "sha256": "4971f5e07fc9212192c6fff4a07a32d45b6a2ddf281c9ea88f875f0c0150ad6c"
     },
     {
       "path": "analyses/preparation/mopac-inputs/benzocaine.mop",
-      "size_bytes": 1197,
-      "sha256": "2dff6bdb413af698e8ad1dde8b2dae569f4b51e2fe51ccc0bf6747879cbfdaed"
+      "size_bytes": 1171,
+      "sha256": "77ecbd2281f904de1b554c67184b37e2bd94f9bc9786f79c454bd817311029e2"
     },
     {
       "path": "analyses/preparation/mopac-inputs/ethanol.mop",
-      "size_bytes": 536,
-      "sha256": "0788b9098b9d6a394c1a64fb7a487c09487dccb41301873cf2b5a7f9871957ce"
+      "size_bytes": 524,
+      "sha256": "08e8f1688a9834b23ea4650451019ab2c91377fa243162fe479d1e4bdbd93715"
     },
     {
       "path": "analyses/preparation/mopac-inputs/ethyl-4-nitrobenzoate.mop",
-      "size_bytes": 1208,
-      "sha256": "582b040c34b3056f07e705314f6befcc565c0dda15f553584e0e5802d430d1da"
+      "size_bytes": 1182,
+      "sha256": "d9f79344f2442f101127f4fcef97ae697fd4292affd15b3a40e5a8fe027eb426"
     },
     {
       "path": "analyses/preparation/mopac-inputs/p-aminobenzoic-acid.mop",
-      "size_bytes": 924,
-      "sha256": "ade5dbbc99631bf7f265d7baeee11361f30a6f582eac4d8c3e3078b0bc3a92ca"
+      "size_bytes": 904,
+      "sha256": "726f1068661102617cf1831b85f3c9bfd2ecf8101b315832ecf25f8d195e4d73"
     },
     {
       "path": "analyses/preparation/structure-preparation.json",
-      "size_bytes": 6948,
-      "sha256": "9131e9ee6b525734b4e5a78059b8f7030b5b7da62046064adcd51e973be5fcd7"
+      "size_bytes": 6791,
+      "sha256": "a023b08002e6f65c3268010fc11f91adf059ac71229fe698a8f2c7856d8c99a7"
     },
     {
       "path": "analyses/preparation/structures/acetic-acid.sdf",
-      "size_bytes": 4550,
-      "sha256": "b2924aae36c8ed353fc1e4abf4ca8fbb9fee3b74e7e02cd7247599738ab442c7"
+      "size_bytes": 4400,
+      "sha256": "b8be1affd1bcf5bb04095336dc543cd963f729d782f13dbc4f53db1933b0718a"
     },
     {
       "path": "analyses/preparation/structures/benzocaine.sdf",
-      "size_bytes": 10990,
-      "sha256": "2b0f35866e00431dd7065b5b14fa61de2b1b3034699581e24cadcfba1e28e818"
+      "size_bytes": 10685,
+      "sha256": "62caa7150ff20b03785acc2c2b39b044215ddaaa41a757ee57a9d453a4626df1"
     },
     {
       "path": "analyses/preparation/structures/ethanol.sdf",
-      "size_bytes": 4955,
-      "sha256": "f2fc6704cd1f3b00209a0975c14eb51fbe1225c8475bd9ac8082f5133151d848"
+      "size_bytes": 4795,
+      "sha256": "682e3a3c087ae31d0393fa8045f8a6534f8ab6787a7473e353a21ff107d51e24"
     },
     {
       "path": "analyses/preparation/structures/ethyl-4-nitrobenzoate.sdf",
-      "size_bytes": 11180,
-      "sha256": "fdc2cab54e4dc38de24dd9b6f47c017207b47fc7d4213c3f4d11fd41cf952199"
+      "size_bytes": 10870,
+      "sha256": "203c63b425739ca7cb6975a417e3491904e09f41fe6a53b69353bf44c4b0a070"
     },
     {
       "path": "analyses/preparation/structures/p-aminobenzoic-acid.sdf",
-      "size_bytes": 8485,
-      "sha256": "7040501bce47e1c5eb1254091b688a394a747455d47202bade0de2d382372eb1"
+      "size_bytes": 8240,
+      "sha256": "96e08b6cfd32740e2c983bfbd8321ee1debec6b5dd2cbfaa6326c1f999ac994e"
     },
     {
       "path": "analyses/visualizer/accessibility-review/README.md",
-      "size_bytes": 933,
-      "sha256": "e372a039a6795f4064ecf1bf2077856e087d69c2a02f7daddc170943a3c4f554"
+      "size_bytes": 923,
+      "sha256": "1804f863cfd03d0612456280508e62eda1d73390d995174c2d938d640e94f1ca"
     },
     {
       "path": "analyses/visualizer/accessibility-review/accessibility-observations.md",
-      "size_bytes": 3873,
-      "sha256": "4d9e24b6bedc4f96774ed2ae61ff3301e8c816a15d57fe42211beb3213a03fae"
+      "size_bytes": 3830,
+      "sha256": "d18b1012f83c345143b2f9d3e7f146e4038554b743f1c40a681e44c18c5cb1cb"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route01-benzocaine-product-conf1.sdf",
@@ -1360,18 +1365,18 @@
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route01-ethyl-4-nitrobenzoate-conf1-as-loaded.sdf",
-      "size_bytes": 2487,
-      "sha256": "8ec88cbeddba1b2e61bc2707e50190eb8b0fdca2e3ed7626f2c0714ade12430e"
+      "size_bytes": 2414,
+      "sha256": "60e537da8ab7a6d75bd938e581161e4471391986cab301226fd5860dfa7354b1"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route01-ethyl-4-nitrobenzoate-conf1-rot-x90.sdf",
-      "size_bytes": 2487,
-      "sha256": "eb0201685319e1acae62cea3c8925d6c683f30ba764d7efa5e55328aac01ea08"
+      "size_bytes": 2414,
+      "sha256": "e8fdd918d1ce1374991a0ce728a3a47199d780262335a621d972bc965a3dcf20"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route01-ethyl-4-nitrobenzoate-conf1-rot-y90.sdf",
-      "size_bytes": 2487,
-      "sha256": "5b2f81eabd596338f6d791b61ef5c0f6b1a5abc00908acefe922324f9d294a89"
+      "size_bytes": 2414,
+      "sha256": "ee167ada1715767dfb3683b0b59abf34520ae2b977c255884b63c7470ba130cb"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route01-ethyl-4-nitrobenzoate-conf1.sdf",
@@ -1390,18 +1395,18 @@
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route05-p-aminobenzoic-acid-conf4-as-loaded.sdf",
-      "size_bytes": 1945,
-      "sha256": "5997737112313818cd3505fabcfb378ba424bc3df78e3302fd4140ad228fb304"
+      "size_bytes": 1885,
+      "sha256": "4f4643cbe0d3450dd77ca6ef204651e159f1de6b854bbff025524312ca785f48"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route05-p-aminobenzoic-acid-conf4-rot-x90.sdf",
-      "size_bytes": 1945,
-      "sha256": "2f5707f5116d949d25864dcbafa9a4c0ee5bd72061a40b19acad22609f7bac7c"
+      "size_bytes": 1885,
+      "sha256": "6d29a449e00b1c2da2c9fa4b9594b5de87cc9a788807d309ffbf380a309198a4"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route05-p-aminobenzoic-acid-conf4-rot-y90.sdf",
-      "size_bytes": 1945,
-      "sha256": "ec9fcf33323916ea4e926b0f7f7cda09671fe6e68bdb352c93e0e4f80b76e3f9"
+      "size_bytes": 1885,
+      "sha256": "07205fef28ee9c8b6a1110dbaf2b27ff90915786543eb0f75d522aaaa1d81df6"
     },
     {
       "path": "analyses/visualizer/accessibility-review/inputs/route05-p-aminobenzoic-acid-conf4.sdf",
@@ -1410,13 +1415,13 @@
     },
     {
       "path": "analyses/visualizer/accessibility-review/observation-index.csv",
-      "size_bytes": 3037,
-      "sha256": "cefc87b2b96fcb0c2e412d54d884feee26b00d65a8dce32036d616a9ed693186"
+      "size_bytes": 3027,
+      "sha256": "0580deee959fdda8e2007e7497204dddda3c0b391cabe93372826518fbb9663c"
     },
     {
       "path": "analyses/visualizer/accessibility-review/orientation-views-manifest.json",
-      "size_bytes": 4553,
-      "sha256": "249ff0b88c923b699b5a9691f9dfefbbf7fbe37d1d9d69e22a4e3cc83ba91d41"
+      "size_bytes": 4385,
+      "sha256": "71636357539cec87339c29d8c944c4197143572ac7aba0cc47717c8c906714ad"
     },
     {
       "path": "analyses/visualizer/accessibility-review/screenshots/attempted-ui-rotation-no-view-change.png",
@@ -1470,23 +1475,23 @@
     },
     {
       "path": "analyses/visualizer/accessibility-review/scripts/extract_single_conformer_records.py",
-      "size_bytes": 869,
-      "sha256": "9112ce0829f18ca2cfe1ab844fe71de06dde45d4810094a95107cda969499f52"
+      "size_bytes": 853,
+      "sha256": "62018d1947f2dc9e6ff8995e59fb45402fd329e6c45271f30aeb5daefc6c799b"
     },
     {
       "path": "analyses/visualizer/accessibility-review/scripts/make_rigid_orientation_views.py",
-      "size_bytes": 853,
-      "sha256": "42218e77bb218e589a73d85514e5a5accb835236aadbf11a43b1ca84b4c7359f"
+      "size_bytes": 841,
+      "sha256": "41f61531b3163dfb0dbc68567be75c179022aa802491b80f9e07609bbd998774"
     },
     {
       "path": "analyses/visualizer/accessibility-review/single-conformer-input-manifest.json",
-      "size_bytes": 3738,
-      "sha256": "43046fbcb127bb98b6fef66af3ebc9c8beffe3d5a36af9b6259884104b71c89a"
+      "size_bytes": 3671,
+      "sha256": "9ff8b6bd2813c1d3fb44220db51c6fd47b08c1be71f77597232bba51e1de1662"
     },
     {
       "path": "analyses/visualizer/accessibility-review/visualizer-accessibility-session.json",
-      "size_bytes": 1462,
-      "sha256": "11ce6aa407b6a615d62f678739cd7226b0a64cfa8cee104ba2332a8da2279e9c"
+      "size_bytes": 1436,
+      "sha256": "660b022895f19f2a522de98577509c9bfc307caf21eeb0ad5b2b07bdc6aa91d6"
     },
     {
       "path": "analyses/visualizer/accessibility-review/visualizer-launch-attempt.png",
@@ -1495,18 +1500,18 @@
     },
     {
       "path": "analyses/visualizer/actual-visualizer-measurements.json",
-      "size_bytes": 4548,
-      "sha256": "f323e37698a75a9168244f592bb580e23b0a55bba02c2ad3072c4e358990ec0c"
+      "size_bytes": 4476,
+      "sha256": "7b85d1e230972c9b379123859d7dbc0762c55df29e22681da96c005eca8632a9"
     },
     {
       "path": "analyses/visualizer/analysis-results.json",
-      "size_bytes": 6262,
-      "sha256": "29874c0c911c25f5d9ee38a683bb6b8ce2f44bce8c468f16c3765f645421d218"
+      "size_bytes": 6181,
+      "sha256": "d950408a31e40878a75528badb6b1b26a75ef37252ed76e45e3cd8f069594f15"
     },
     {
       "path": "analyses/visualizer/atom-serial-crosswalk.csv",
-      "size_bytes": 9930,
-      "sha256": "51300f48d3ed750fb6c22bcdf0058c2726d4e7d16960a9ad3f9b56f54b4a18ce"
+      "size_bytes": 9857,
+      "sha256": "2ac95ef44fbeb7accbca924df6c6d6c612e3ebc724a622b29f9f2f68e1450212"
     },
     {
       "path": "analyses/visualizer/inputs/benzocaine-mopac-pm7-conformers.sdf",
@@ -1530,13 +1535,13 @@
     },
     {
       "path": "analyses/visualizer/installation-guide.md",
-      "size_bytes": 4777,
-      "sha256": "46b9b94b3e010036856438dc79ca7676b75e2a6259e0bb60878821ea19e80af9"
+      "size_bytes": 4742,
+      "sha256": "2c88ac4a3be4c4c2ef7a7bd74e947b4d1bfbd4daf7beaa3f635f4d77226c8b49"
     },
     {
       "path": "analyses/visualizer/installation-status.json",
-      "size_bytes": 2958,
-      "sha256": "e1ca791caa8bfad09be71aaa1bef2f0be664418587e772bc492d00d281692963"
+      "size_bytes": 2920,
+      "sha256": "ff2827ab9773205abf31afc6df15b681198f45e1a758088572ecb8ff5ff95819"
     },
     {
       "path": "analyses/visualizer/installer-verification.json",
@@ -1560,8 +1565,8 @@
     },
     {
       "path": "analyses/visualizer/prepared-input-manifest.json",
-      "size_bytes": 10417,
-      "sha256": "004c8ed8834c8e286826fe4f2250fd85c0c93770f27c542a8c2f63a16106357e"
+      "size_bytes": 10215,
+      "sha256": "7fb85e804c31b1c257b24831641930d5c400f33760b929b8fe42c1fb81b32edc"
     },
     {
       "path": "analyses/visualizer/route-selection.json",
@@ -2220,8 +2225,8 @@
     },
     {
       "path": "analyses/visualizer/session-state-before-recovery.json",
-      "size_bytes": 880,
-      "sha256": "c2ab04bf2c87d09826ee4db095d8fd9e9d8c4f140923bb1d59d1f3de4e22fc00"
+      "size_bytes": 863,
+      "sha256": "52839fa839ad2d0088cf9d09c8cff716384bda40f44d322382fe97d5ac135f87"
     },
     {
       "path": "analyses/visualizer/visualizer-measurement-interpretation.md",
@@ -2230,43 +2235,43 @@
     },
     {
       "path": "analyses/visualizer/visualizer-measurements.csv",
-      "size_bytes": 1833,
-      "sha256": "10070f8701dce692d695ed08e3b7184c6a52a4978f44c6c8ab2b1721c1bb7ce0"
+      "size_bytes": 1832,
+      "sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33"
     },
     {
       "path": "analyses/visualizer/visualizer-recovery-and-measurement-session.md",
-      "size_bytes": 3249,
-      "sha256": "7c2bc2e03f687ba1b92f2d31d7fda7b221ba20a211a55dd7617c9b4b3d7845f8"
+      "size_bytes": 3248,
+      "sha256": "c26ee5825c23d34a88c22bae0a229f30a8823e1b117c57f8db31302b631e8fda"
     },
     {
       "path": "analyses/visualizer/visualizer-session-record.md",
-      "size_bytes": 3941,
-      "sha256": "4c6cfb8201c8ce8f05aa61cf6d1ff48d2331ab49465f5d1534bd3c6489224642"
+      "size_bytes": 3939,
+      "sha256": "747cf5550de6b3250fbbe2bb91b2e47dd148e16cef9edb2c678beeedc89f5207"
     },
     {
       "path": "analyses/visualizer/visualizer-session-status.json",
-      "size_bytes": 4475,
-      "sha256": "74ec1f4a013dc52463360cea0484bf6541d871b88a1b4e86571d0395899aeaed"
+      "size_bytes": 4404,
+      "sha256": "3141e9a72b39f3c030c1f68ce1446601436feefe2f1a9f8fe5f4aa094c1ca693"
     },
     {
       "path": "configs/aizynthfinder.json",
-      "size_bytes": 474,
-      "sha256": "ef767652d07af2f4b144f3ddfcd6f1ce950d63c82da4f8686451208b4101ebdc"
+      "size_bytes": 451,
+      "sha256": "a3501c66fb1958d2f043c7afce4d21d778be9ab9674d533576cfd7840f7c1ad6"
     },
     {
       "path": "configs/citation-source-map.json",
-      "size_bytes": 12117,
-      "sha256": "866b256b72bf1d10dcb853aa8e9f43d483ff7c809decc9ac35a88ece919b1316"
+      "size_bytes": 11940,
+      "sha256": "b8ad56c1e8db58e27fb27cc5f5751f77a6202c6cd5ddb252457bc86dec227660"
     },
     {
       "path": "configs/model-assets.lock.json",
-      "size_bytes": 2440,
-      "sha256": "fe20a837c76c5a9d0e3345256ca25b8ce40952f13747e3838ef7540bd4e25140"
+      "size_bytes": 2384,
+      "sha256": "072e741822c8360ed6c0b288c98100aba2080ce182ec456eed2d51032c1cd458"
     },
     {
       "path": "configs/parrot.json",
-      "size_bytes": 1115,
-      "sha256": "902cfd7ef5da7b975853ab96d5c04f64dcf9930e763d3502e0ce758c87d29465"
+      "size_bytes": 1073,
+      "sha256": "7c22b5a28e471c517e07b09200999b5f240a1ab82b1dd7257a499a9a8bf6f6d0"
     },
     {
       "path": "configs/report-plan.json",
@@ -2275,13 +2280,13 @@
     },
     {
       "path": "configs/runtime.json",
-      "size_bytes": 687,
-      "sha256": "f27a97379c50bffe1a98ce333623514c2be72a4a3a08376a5528773ff6e4186c"
+      "size_bytes": 665,
+      "sha256": "c4b8dbc51714759017c1ef4bdfeb00953c3b76b90ca2133eb97ffcf1fcd9cbce"
     },
     {
       "path": "configs/yield-normalization.json",
-      "size_bytes": 2077,
-      "sha256": "a3994ee55c764ec9be4f686b16ab06243d16c330f355bd799db8a831e24fee61"
+      "size_bytes": 2048,
+      "sha256": "1bbb157d0b163a809a5af617d7e3a8989dc5179c5f97427613df82e5923279d5"
     },
     {
       "path": "inputs/benzocaine.json",
@@ -2310,13 +2315,13 @@
     },
     {
       "path": "provenance/skills/synthesis_report_skill-report-v1.md",
-      "size_bytes": 19177,
-      "sha256": "cc78e000280a5dc968772226650c2d5a6888a767ef9731dbe72e9542e5ee46d8"
+      "size_bytes": 19057,
+      "sha256": "24d6da8ea9fd17def1eb4465db66e35f963f9cd3c71f34498ec3dd9d39bfbf90"
     },
     {
       "path": "provenance/skills/targeted-benzocaine-section-revision-v1.md",
-      "size_bytes": 1107,
-      "sha256": "c39a1c9391cb7456d386f1184cdaf4f354cf24258a2ad3c42072d6c7bb0dcca2"
+      "size_bytes": 1096,
+      "sha256": "f4575d9f653cacdbb09740fb14fa33e0229f7b1bc56a5db750fdbcc38f9aa88c"
     },
     {
       "path": "provenance/skills/targeted-report-sentence-cleanup-v1.md",
@@ -2325,58 +2330,58 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/citation-audit.json",
-      "size_bytes": 75139,
-      "sha256": "c413d18cefb619806655de516197e23d67f146afe840ee0d5cb32fbe526f5eae"
+      "size_bytes": 74059,
+      "sha256": "8719e8f0468af1f1c6c8ca0b648125c9b4ed9c06dc31a5a1ea04a558caa2d65c"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/citation-source-map.json",
-      "size_bytes": 12117,
-      "sha256": "866b256b72bf1d10dcb853aa8e9f43d483ff7c809decc9ac35a88ece919b1316"
+      "size_bytes": 11940,
+      "sha256": "b8ad56c1e8db58e27fb27cc5f5751f77a6202c6cd5ddb252457bc86dec227660"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/cost-ledger.json",
-      "size_bytes": 579,
-      "sha256": "d7d35a4ca7985f5bb67ce725b89f356d7539cb3b7e32e30d53dfae6e2a42bc8d"
+      "size_bytes": 560,
+      "sha256": "6abf0f97301d53db8f1859f22c104e19640018897451edf29e98a09f2a53aecb"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/document-validation.json",
-      "size_bytes": 155069,
-      "sha256": "44f78a3b6e4881c956b70b2f9e041f9cdf4cb8b2e8dd6d0f851cd84eab3f178c"
+      "size_bytes": 153677,
+      "sha256": "8b03fc8684c7e6d44f1744fdf7862371eee0b034890c41692c3b6abd08232150"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/docx-export.json",
-      "size_bytes": 8010,
-      "sha256": "ac489c740724aea105e68217339e2e31d8f7a9dba17c7457b7e9ba659cec23a6"
+      "size_bytes": 7917,
+      "sha256": "a84b5ba83f6a6d18a0a8476671ce8228d2659e0ca442e27884683f3f6ef206dc"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/additional-analysis-status-current.json",
-      "size_bytes": 1312,
-      "sha256": "3e48ee8a927c39d5ed92fc07637a3f1555fd1bbd164b636f4cdc196c328bca13"
+      "size_bytes": 1276,
+      "sha256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/course-material-acquisition.md",
-      "size_bytes": 564,
-      "sha256": "6831f75869b9b3ee85e1f03513ba5543e4943c79f6f2b480eb43e238c261a117"
+      "size_bytes": 563,
+      "sha256": "ba26e39ce5a285946c8e89175676cee2bd125f291a45a283782bc02100839a41"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/epi-analysis.md",
-      "size_bytes": 6343,
-      "sha256": "eee96f0927788cd54ce6d3cae85fac54a596794afa588c7599a64c19d61b35b0"
+      "size_bytes": 6297,
+      "sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/evidence-bundle-README.md",
-      "size_bytes": 1323,
-      "sha256": "cec42c5baae14711aa51ee2bf13e1c6a594c3ac2bfa01e3bbe25af1ebea7226f"
+      "size_bytes": 1314,
+      "sha256": "48ca1a278585e0a5635f1ed0f69d484271171395692f7361fba0689b41a554c4"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/evidence-conflict-resolution.md",
-      "size_bytes": 2982,
-      "sha256": "7ae125cabd33c6690a82377e4c23382a094d2d0782b67d1b624e5f88003e0b0b"
+      "size_bytes": 2962,
+      "sha256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/figures/figure-index.json",
-      "size_bytes": 2515,
-      "sha256": "c42ac216bda941912991fcbd1cfe60dc49afff225ed7f2619bfb4c194ea87d3f"
+      "size_bytes": 2453,
+      "sha256": "87b96332bbbd6130ffc291115b8d1ab63a01c1ca9cdb31f1beca7caf1f7fc914"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/figures/route-01-step-01.png",
@@ -2425,8 +2430,8 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/harness-trial-02-budget.json",
-      "size_bytes": 621,
-      "sha256": "274a75c46ca4d80539032577df71dd46963dae0cd0efdefe1ca5781c969dbf7c"
+      "size_bytes": 605,
+      "sha256": "6ceb905cb8be6695ab8e4cb4d489cc047f927262e83c9fe232bb287cbc92b955"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/harness-trial-02-comparison-evaluation.md",
@@ -2435,8 +2440,8 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/harness-trial-02-status.json",
-      "size_bytes": 1137,
-      "sha256": "00cc9a89e59a1ca4502861e123bf95639848508aa3210a763ad5496b1dc86558"
+      "size_bytes": 1108,
+      "sha256": "d820f6b2d8ba99041d6447d2d180208cbff2384f83a4c5fb99668b8750338c90"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/input.json",
@@ -2445,18 +2450,18 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/additional-analysis-status.json",
-      "size_bytes": 797,
-      "sha256": "9a82cd099e4482cf6f74cf73c0dbbc40ac978b4c7582bb8c9a61347be7d0e14e"
+      "size_bytes": 775,
+      "sha256": "134a9a265fddb342cf67ff8e76d8412e4ff391d2a69853abfcbfd65b166a699e"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/aizynthfinder.materialized.json",
-      "size_bytes": 608,
-      "sha256": "9cf3ea6f9da7d0e1c5bfd942c74fa551a87eb70ea36bc7b48662a9e4d31d2563"
+      "size_bytes": 585,
+      "sha256": "c9299bde08b4797523f1a9dbe5f33d9b345e29d1a995639de1e040a274053a25"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/conditions-parrot.json",
-      "size_bytes": 85839,
-      "sha256": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79"
+      "size_bytes": 83124,
+      "sha256": "5e66fb49be11cbe60128ab1b656c90346b21db3fe94a40484ec9d5f98ee4b2db"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/conditions-parrot.log",
@@ -2465,13 +2470,13 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/conditions-parrot.raw.json",
-      "size_bytes": 59678,
-      "sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6"
+      "size_bytes": 57530,
+      "sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/figures/manifest.json",
-      "size_bytes": 9114,
-      "sha256": "4747768b29db6d1feeb8ce95aa8f2bbe5b2de5f4bfa83636a85f5bf4ac7134a2"
+      "size_bytes": 8947,
+      "sha256": "482278fed77c877c0dc7278530266a1cf0ee08f044e2622d835083ff94c40210"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/figures/route-01-step-01-molecule-1.png",
@@ -2830,63 +2835,63 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/manifest.json",
-      "size_bytes": 14450,
-      "sha256": "c48849f831e45398e55e0bf4e90de131ec058f51f29e7e4301d4e1ec78db1781"
+      "size_bytes": 14253,
+      "sha256": "f683217c56b18a3e33b25d4af48a76ac822ec4effb946cf27e74e3704657ccc4"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/parrot.materialized.json",
-      "size_bytes": 1205,
-      "sha256": "e131f2e70c65bad5831c000709abf3bdc174c4d5c6c5ae099710394ea3022a30"
+      "size_bytes": 1163,
+      "sha256": "23137409f5576a8ebac5b1be9be06446e3df6e1904acec86aa8847f8a3d47347"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/pipeline.log",
-      "size_bytes": 3497,
-      "sha256": "4c53669b5855b6d54dcc0f4be70af024c10e32d95b3697d7ca118c8518c09220"
+      "size_bytes": 3485,
+      "sha256": "894631295287486375570622fca2ccb8f442fbe5b64295b76b43854a0c99d2da"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/report-evidence.json",
-      "size_bytes": 161344,
-      "sha256": "86281cd77a5e7979b61d14a5ebbfec085d9eae0ac36bbdbe4172d006ffded273"
+      "size_bytes": 156499,
+      "sha256": "4ff171a984a82a58e9beef6f7de18760fc2f4945be2bfaf1f8411aa9b2cd0cd7"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/reproduction-validation.json",
-      "size_bytes": 3899,
-      "sha256": "63ab33c238fda07120f87ff9e4024195b12bb68cc689565539f83112dd7db7a8"
+      "size_bytes": 3777,
+      "sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.json",
-      "size_bytes": 41490,
-      "sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb"
+      "size_bytes": 40417,
+      "sha256": "d35ea3dd88a9a4e0df397f3db90826e1aa5d5eb30e5fef77cebfb0dc28cce379"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.log",
-      "size_bytes": 162687,
-      "sha256": "9d65a2bdf75ab6cc89fcb0b5665eb439bbf5bd51b38eb33e25443dc6f654098a"
+      "size_bytes": 161953,
+      "sha256": "99ac511f20358499b1954ed8225b935400c7972cfb6a01aca7ed3cb212fafc81"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.metadata.json",
-      "size_bytes": 3673,
-      "sha256": "c1644dd9bf198b4ed486c5a25930565b4cf0043efc309263091e18a36cb4a2ca"
+      "size_bytes": 3495,
+      "sha256": "00e90a6d5330e177520197ccf76f953db446fdc17d1b82cd9e4feea2e368a193"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.raw.json",
-      "size_bytes": 238523,
-      "sha256": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8"
+      "size_bytes": 233081,
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/rxn_yields.runtime.materialized.json",
-      "size_bytes": 356,
-      "sha256": "b087ed4c0041f1d081647f587d08fc2ccb4fbc07998181a1acd1228c47334bd5"
+      "size_bytes": 349,
+      "sha256": "fd6ad466e85b47be33c8bb3e7bd1c617f519689bdb0073191ddd39e96cddb66c"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/step-validation.json",
-      "size_bytes": 273,
-      "sha256": "043bf78f2383e40732a19d7dde6e7e4fc0685c6b6fa5ec6ff9595f9838cd1f9b"
+      "size_bytes": 264,
+      "sha256": "dfc26d06666cc354ae99291882ca5588f777473352107cbe91666884a141188c"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/target/target.json",
-      "size_bytes": 169,
-      "sha256": "5275f50ec62f3a794ef7d340a519732e3cfe463a12efe7adc839933915599f3d"
+      "size_bytes": 163,
+      "sha256": "13e0e8302e8755f7afb7a952e813649ee0b73e4412db3fb3dcd9d49cb29238ac"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/target/target.png",
@@ -2895,78 +2900,78 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/validation_notes.json",
-      "size_bytes": 1374,
-      "sha256": "d4bc682e9741f806e694c451197965b465eb07eada1613201085e2e62ee51dc9"
+      "size_bytes": 1344,
+      "sha256": "ecde4168d28a8c0901f23e906767528a7eec98412bb080bd77fa4fc1faa99a9e"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/verification.json",
-      "size_bytes": 377,
-      "sha256": "50b4a24030af73b8025f356083f91e9113ec11d119142d40e08170f7d4c6f4e9"
+      "size_bytes": 364,
+      "sha256": "02f7768aa9e369f13c5fc36eef4b185610442942df7edb18e91918e047b97acc"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/yields-rxn_yields.json",
-      "size_bytes": 39026,
-      "sha256": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a"
+      "size_bytes": 38127,
+      "sha256": "a650c57b34a3d336b172fe38d0b729c028fabe91782663e8d565909c0171b51e"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/yields-rxn_yields.log",
-      "size_bytes": 1094,
-      "sha256": "d42bd32c0146003ead4c5e87b7454b1a62dbccbc1d5dcff7206d0301a54190f8"
+      "size_bytes": 1090,
+      "sha256": "1eb488c9f7411a9264cb556db9e51bbf0332c292606204b77bd0a195c4bedc29"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/yields-rxn_yields.raw.json",
-      "size_bytes": 10289,
-      "sha256": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998"
+      "size_bytes": 9987,
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/comparison.json",
-      "size_bytes": 5659,
-      "sha256": "42c64e53e642ec50c3db569f2d25fb765793df0176505b3a6871ed3b8c80c7aa"
+      "size_bytes": 5536,
+      "sha256": "24c8855e212336c2bd019030dec74ff5394d2f8fdae49e4f6ada18c488271262"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/conditions-parrot.raw.json",
-      "size_bytes": 59678,
-      "sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6"
+      "size_bytes": 57530,
+      "sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/routes.raw.json",
-      "size_bytes": 238523,
-      "sha256": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8"
+      "size_bytes": 233081,
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/yields-rxn_yields.raw.json",
-      "size_bytes": 10289,
-      "sha256": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998"
+      "size_bytes": 9987,
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/literature-comparison-original-paths.md",
-      "size_bytes": 8634,
-      "sha256": "fb7c972f966f8c1b453a69502cd8bb8371ba3bd1c05244f01db301236c3d07b0"
+      "size_bytes": 8633,
+      "sha256": "6846325da6395538af1a213bdf6ab6c0476127909540f8ee3aca363fdc349e01"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
-      "size_bytes": 8956,
-      "sha256": "2fd022f06a354ea91ba03a536c16218483bbd3ed42ab504821978146aeaaa907"
+      "size_bytes": 8954,
+      "sha256": "a9dc70b1543a9884d5236b03287544b4574303f2f7ceeeabbc210a78d221ccd1"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/source-acquisition.md",
-      "size_bytes": 2039,
-      "sha256": "afd7b8b42833c39c761af132f9028536361fde8696be113590d393965adc3308"
+      "size_bytes": 2038,
+      "sha256": "99110c042694ae6c52fd877e7e1d8eee5c31b970345fdfe1b540f0624c8bcb09"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/source-integrity.json",
-      "size_bytes": 725,
-      "sha256": "d0b1e93d887b590e345915459b8802f35c7e69e354bb8fd10450feb73ecbfacc"
+      "size_bytes": 712,
+      "sha256": "64bbe6c43a4e79cc7e18cab04de9651388ef65aa1b20ec499e0641317fb388f1"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/validation.json",
-      "size_bytes": 627,
-      "sha256": "47e4d5dfe9fea014abdf35d5ca2b315c3f39a62f8ce37b9b9b47d0b006f4cea9"
+      "size_bytes": 610,
+      "sha256": "9df7d6cf95236a8c094df4397930589f90a786d083172ab048c957277bacf53f"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/manifest.json",
-      "size_bytes": 12587,
-      "sha256": "3bca312ead8e2fc3314031e93b2d19df39549ab909ad0f0e509c3007f93f0348"
+      "size_bytes": 12417,
+      "sha256": "4f4929d687f9b47a26a60ebf197c2e6b3107c8ca2f60fba674372c42da812043"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/mopac-results-interpretation.md",
@@ -2975,33 +2980,33 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/report-evidence.json",
-      "size_bytes": 165426,
-      "sha256": "d29bf037e5c3c3dbe82801d8a900cef53d1374c214c7b2ffb383ef0973164905"
+      "size_bytes": 160517,
+      "sha256": "ef44cc4d39a42dc313e5057d1188a911149a70bc196e099ca51c75707f5bdb28"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/reproducibility-manifest.json",
-      "size_bytes": 7085,
-      "sha256": "19bf1ad416b3ef523bd3f761a395d59914794017cd492d0789f85220ac39c2d1"
+      "size_bytes": 6928,
+      "sha256": "12fd1e53295862d3d1418e5e18906eb9eb02398c9f5185b36ebadd5e55da111a"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/additional-analysis-status.json",
-      "size_bytes": 797,
-      "sha256": "9a82cd099e4482cf6f74cf73c0dbbc40ac978b4c7582bb8c9a61347be7d0e14e"
+      "size_bytes": 775,
+      "sha256": "134a9a265fddb342cf67ff8e76d8412e4ff391d2a69853abfcbfd65b166a699e"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/aizynthfinder.materialized.json",
-      "size_bytes": 608,
-      "sha256": "9cf3ea6f9da7d0e1c5bfd942c74fa551a87eb70ea36bc7b48662a9e4d31d2563"
+      "size_bytes": 585,
+      "sha256": "c9299bde08b4797523f1a9dbe5f33d9b345e29d1a995639de1e040a274053a25"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/compare_reproduction_assets.py",
-      "size_bytes": 10839,
-      "sha256": "8f1b62dd5084c291b553e3a9f624c0649d6bc905093a3240be5952279eec5980"
+      "size_bytes": 10694,
+      "sha256": "ce53c451158887da5aaca8ae5a48654806a00f66e82cfc4e5525caf69f0f70ef"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/conditions-parrot.json",
-      "size_bytes": 85839,
-      "sha256": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79"
+      "size_bytes": 83124,
+      "sha256": "5e66fb49be11cbe60128ab1b656c90346b21db3fe94a40484ec9d5f98ee4b2db"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/conditions-parrot.log",
@@ -3010,13 +3015,13 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/conditions-parrot.raw.json",
-      "size_bytes": 59678,
-      "sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6"
+      "size_bytes": 57530,
+      "sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/figures/manifest.json",
-      "size_bytes": 9114,
-      "sha256": "4747768b29db6d1feeb8ce95aa8f2bbe5b2de5f4bfa83636a85f5bf4ac7134a2"
+      "size_bytes": 8947,
+      "sha256": "482278fed77c877c0dc7278530266a1cf0ee08f044e2622d835083ff94c40210"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/figures/route-01-step-01-molecule-1.png",
@@ -3370,8 +3375,8 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/hash-audit.md",
-      "size_bytes": 7169,
-      "sha256": "8253a52de4e9bd54f8e3422421889ab004fbd402efee169882b56115ac7dccb3"
+      "size_bytes": 7084,
+      "sha256": "4e3f12147ec7f6cc8f25f4d3ba79ea9fec3e7ecdeeea531db3e40519402cde03"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/input.json",
@@ -3380,73 +3385,73 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/manifest.json",
-      "size_bytes": 14450,
-      "sha256": "c48849f831e45398e55e0bf4e90de131ec058f51f29e7e4301d4e1ec78db1781"
+      "size_bytes": 14253,
+      "sha256": "f683217c56b18a3e33b25d4af48a76ac822ec4effb946cf27e74e3704657ccc4"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/parrot.materialized.json",
-      "size_bytes": 1205,
-      "sha256": "e131f2e70c65bad5831c000709abf3bdc174c4d5c6c5ae099710394ea3022a30"
+      "size_bytes": 1163,
+      "sha256": "23137409f5576a8ebac5b1be9be06446e3df6e1904acec86aa8847f8a3d47347"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/pipeline.log",
-      "size_bytes": 3497,
-      "sha256": "4c53669b5855b6d54dcc0f4be70af024c10e32d95b3697d7ca118c8518c09220"
+      "size_bytes": 3485,
+      "sha256": "894631295287486375570622fca2ccb8f442fbe5b64295b76b43854a0c99d2da"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/report-evidence.json",
-      "size_bytes": 161344,
-      "sha256": "86281cd77a5e7979b61d14a5ebbfec085d9eae0ac36bbdbe4172d006ffded273"
+      "size_bytes": 156499,
+      "sha256": "4ff171a984a82a58e9beef6f7de18760fc2f4945be2bfaf1f8411aa9b2cd0cd7"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
-      "size_bytes": 6902,
-      "sha256": "7087c15ddeabf85006934214fb148f3b3a6bbc173b69502b011a9b3517cef287"
+      "size_bytes": 6782,
+      "sha256": "723f3ab6dd75a6295494e68c8682e3c1252c1dbe79088234251a906977cbe918"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
-      "size_bytes": 3899,
-      "sha256": "63ab33c238fda07120f87ff9e4024195b12bb68cc689565539f83112dd7db7a8"
+      "size_bytes": 3777,
+      "sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation.json",
-      "size_bytes": 6902,
-      "sha256": "7087c15ddeabf85006934214fb148f3b3a6bbc173b69502b011a9b3517cef287"
+      "size_bytes": 6782,
+      "sha256": "723f3ab6dd75a6295494e68c8682e3c1252c1dbe79088234251a906977cbe918"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.json",
-      "size_bytes": 41490,
-      "sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb"
+      "size_bytes": 40417,
+      "sha256": "d35ea3dd88a9a4e0df397f3db90826e1aa5d5eb30e5fef77cebfb0dc28cce379"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.log",
-      "size_bytes": 162687,
-      "sha256": "9d65a2bdf75ab6cc89fcb0b5665eb439bbf5bd51b38eb33e25443dc6f654098a"
+      "size_bytes": 161953,
+      "sha256": "99ac511f20358499b1954ed8225b935400c7972cfb6a01aca7ed3cb212fafc81"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.metadata.json",
-      "size_bytes": 3673,
-      "sha256": "c1644dd9bf198b4ed486c5a25930565b4cf0043efc309263091e18a36cb4a2ca"
+      "size_bytes": 3495,
+      "sha256": "00e90a6d5330e177520197ccf76f953db446fdc17d1b82cd9e4feea2e368a193"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.raw.json",
-      "size_bytes": 238523,
-      "sha256": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8"
+      "size_bytes": 233081,
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/rxn_yields.runtime.materialized.json",
-      "size_bytes": 356,
-      "sha256": "b087ed4c0041f1d081647f587d08fc2ccb4fbc07998181a1acd1228c47334bd5"
+      "size_bytes": 349,
+      "sha256": "fd6ad466e85b47be33c8bb3e7bd1c617f519689bdb0073191ddd39e96cddb66c"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/step-validation.json",
-      "size_bytes": 273,
-      "sha256": "043bf78f2383e40732a19d7dde6e7e4fc0685c6b6fa5ec6ff9595f9838cd1f9b"
+      "size_bytes": 264,
+      "sha256": "dfc26d06666cc354ae99291882ca5588f777473352107cbe91666884a141188c"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/target/target.json",
-      "size_bytes": 169,
-      "sha256": "5275f50ec62f3a794ef7d340a519732e3cfe463a12efe7adc839933915599f3d"
+      "size_bytes": 163,
+      "sha256": "13e0e8302e8755f7afb7a952e813649ee0b73e4412db3fb3dcd9d49cb29238ac"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/target/target.png",
@@ -3455,38 +3460,38 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/validation_notes.json",
-      "size_bytes": 1374,
-      "sha256": "d4bc682e9741f806e694c451197965b465eb07eada1613201085e2e62ee51dc9"
+      "size_bytes": 1344,
+      "sha256": "ecde4168d28a8c0901f23e906767528a7eec98412bb080bd77fa4fc1faa99a9e"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/verification.json",
-      "size_bytes": 377,
-      "sha256": "50b4a24030af73b8025f356083f91e9113ec11d119142d40e08170f7d4c6f4e9"
+      "size_bytes": 364,
+      "sha256": "02f7768aa9e369f13c5fc36eef4b185610442942df7edb18e91918e047b97acc"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/yields-rxn_yields.json",
-      "size_bytes": 39026,
-      "sha256": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a"
+      "size_bytes": 38127,
+      "sha256": "a650c57b34a3d336b172fe38d0b729c028fabe91782663e8d565909c0171b51e"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/yields-rxn_yields.log",
-      "size_bytes": 1094,
-      "sha256": "d42bd32c0146003ead4c5e87b7454b1a62dbccbc1d5dcff7206d0301a54190f8"
+      "size_bytes": 1090,
+      "sha256": "1eb488c9f7411a9264cb556db9e51bbf0332c292606204b77bd0a195c4bedc29"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/yields-rxn_yields.raw.json",
-      "size_bytes": 10289,
-      "sha256": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998"
+      "size_bytes": 9987,
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/route05-step02-parrot-rank1-audit.json",
-      "size_bytes": 393,
-      "sha256": "f15fe850ad9d9db14759ec21cba5a16f8228152cffe3e76a2507ef34ce7f97d4"
+      "size_bytes": 380,
+      "sha256": "dfbca4b386d1d5c1f845819e97201b8ef0dd2ec4b760b60819a8d35fff297489"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/synthesis_report_skill.md",
-      "size_bytes": 13153,
-      "sha256": "a5d6ed91e6c408b823fdf0fc01f2a4642fa9347c59ff2527525b5b36ec1866f9"
+      "size_bytes": 13063,
+      "sha256": "b7c128aff24f4aff9b8305eef74db8707e15e2b603112e6f3a11ae209a156ad8"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/target/target.png",
@@ -3495,78 +3500,78 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/validation_notes.json",
-      "size_bytes": 1374,
-      "sha256": "29c18a141bff3d76ecac8d0a3be0d591d45cae4bd26ef336ea41414fd4521057"
+      "size_bytes": 1344,
+      "sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/visualizer-accessibility-observations.md",
-      "size_bytes": 3873,
-      "sha256": "4d9e24b6bedc4f96774ed2ae61ff3301e8c816a15d57fe42211beb3213a03fae"
+      "size_bytes": 3830,
+      "sha256": "d18b1012f83c345143b2f9d3e7f146e4038554b743f1c40a681e44c18c5cb1cb"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/visualizer-measurements.csv",
-      "size_bytes": 1833,
-      "sha256": "10070f8701dce692d695ed08e3b7184c6a52a4978f44c6c8ab2b1721c1bb7ce0"
+      "size_bytes": 1832,
+      "sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/visualizer-observation-index.csv",
-      "size_bytes": 3037,
-      "sha256": "cefc87b2b96fcb0c2e412d54d884feee26b00d65a8dce32036d616a9ed693186"
+      "size_bytes": 3027,
+      "sha256": "0580deee959fdda8e2007e7497204dddda3c0b391cabe93372826518fbb9663c"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/general-report-skill.md",
-      "size_bytes": 19177,
-      "sha256": "cc78e000280a5dc968772226650c2d5a6888a767ef9731dbe72e9542e5ee46d8"
+      "size_bytes": 19057,
+      "sha256": "24d6da8ea9fd17def1eb4465db66e35f963f9cd3c71f34498ec3dd9d39bfbf90"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/merge-validation.json",
-      "size_bytes": 7103,
-      "sha256": "f5dac6c1a2c6186f4c8174f6ec8d4003bfc8dfefd407f54595d1411a9dd19365"
+      "size_bytes": 7014,
+      "sha256": "c54cf268c89a759e3ac3c2080c09bd01e2b63f6ac1cfce59c6d7ecca63b6c5e0"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/page-layout-audit.json",
-      "size_bytes": 2348,
-      "sha256": "b2bc739b40ce497516f986f7376e3cd7243d3f76a1431acf541394e4c29e3409"
+      "size_bytes": 2232,
+      "sha256": "fa5faeae448fad6e1996e6353b588917e42f602e6ba22f85ad84f913ed72857a"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/pre-send-audit.json",
-      "size_bytes": 535,
-      "sha256": "ccdeb07bf1b5e88edde0e15018b76f6cbee2470ac81fcc613372f8122943f200"
+      "size_bytes": 520,
+      "sha256": "c3b984cd2c24e1e5bdfd229de76eeea4de5b839b548b388152d988fd9d77a8d2"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/prior-ledger-for-call.json",
-      "size_bytes": 462,
-      "sha256": "beeb755843d1cb5a7ea8a1d5feca57cf97e4d664e4255ed23cce1b3609b14013"
+      "size_bytes": 453,
+      "sha256": "8cb8ad2992899af5fb8e8d4de90e66a610d749c496a90200416573dc1792329b"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/render-review.json",
-      "size_bytes": 230,
-      "sha256": "89b6f87fa7d8a99a29d845434bd3aae484c6bfdcf0b19bba3d96fe7fd231cf76"
+      "size_bytes": 220,
+      "sha256": "9abca50aab823c722238f59d736bb29c3d74250e75fdc8fa913eb62b24b50d99"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/report.md",
-      "size_bytes": 59669,
-      "sha256": "884a2a1d880daa74d61d377f89745a34e331054c82e3a9ed11bcdf6390441f40"
+      "size_bytes": 59668,
+      "sha256": "e2de01d7d5a02541196ac69baf3755b88493124fce2049dd81d59e4da9048813"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/request-provenance.json",
-      "size_bytes": 2173,
-      "sha256": "b841e8dc6e7366ac710b2687384dd0779afc1775e76cbf9a74c957d0060b8da9"
+      "size_bytes": 2145,
+      "sha256": "70af0388046db3316379f39c5f53577b250d476b7d219130555f18b73d4a917d"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/section-A-evidence.md",
-      "size_bytes": 614,
-      "sha256": "0e6e9de09624f91a96e69ec1853cac9445638bd4379e50ae237b9527e7986882"
+      "size_bytes": 608,
+      "sha256": "adffabcadfdbd9b528ffc009739d57f779ad9e416bfb302283cf34d17fbe5158"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/section-B-evidence.md",
-      "size_bytes": 888,
-      "sha256": "8ae13fad88f849538452b5507ec3514bdfbf7da10a7a98d6cfe0984a81c3d577"
+      "size_bytes": 882,
+      "sha256": "b35f889f41b07c6555ce67e3ce8522f53ac0ccdc4d87276b0eeec8d5b32999f3"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/solar-call/pre-call-budget.json",
-      "size_bytes": 687,
-      "sha256": "3d4a1dc0a8c0cdf9984270f22b705ea4f96ce377953f4e17386d6e6779969193"
+      "size_bytes": 669,
+      "sha256": "1c630fca18698e30733c093f9340eff78774cd2270c814324d40a33b9a0f30c3"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/solar-call/solar-request.redacted.json",
@@ -3580,13 +3585,13 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/solar-call/solar-status.json",
-      "size_bytes": 1450,
-      "sha256": "d44444c946e4b9190182afdfb31c1c7e17173c5c4f4d622b866ff490133caf22"
+      "size_bytes": 1407,
+      "sha256": "35bb23650efd3246301efb4a90ddf6cf5d09718823ae41e1b0594c20617c95c3"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/source-release-validation.json",
-      "size_bytes": 1048,
-      "sha256": "c3605b6c43a50f0e0e1e465f1c6c41958be43b39cfa60ebbb077a335c6f3fe07"
+      "size_bytes": 1021,
+      "sha256": "ea5cbb6ea57bd1dbbd2eeddcb97440931569506456f3ee1c3dddddd7d5e9bf06"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/targeted-report-sentence-cleanup-v1.md",
@@ -3600,8 +3605,8 @@
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/word-export.json",
-      "size_bytes": 276,
-      "sha256": "9de38bf9e11a6ecdbde26eea0174b36f2125601071dc4cd99f74bb0364bddca5"
+      "size_bytes": 269,
+      "sha256": "9feeb5ec453e4b964cb0bfd1b0e15ad2b340f2a9e11627d5d3409f5d578bd9c5"
     },
     {
       "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx",
@@ -3630,13 +3635,13 @@
     },
     {
       "path": "requirements-report.txt",
-      "size_bytes": 333,
-      "sha256": "3edb01fb9130b9b85fbffc5a7448f81838dac39ba9d257ed4e4026dcd5217368"
+      "size_bytes": 326,
+      "sha256": "9881da0a4b58d7d2fd5458b1df10472c85495b8119c72391dff14d758310d652"
     },
     {
       "path": "requirements-stock-preparation.txt",
-      "size_bytes": 121,
-      "sha256": "970e54bd2a72cab5e8ae9775c6c3e6a4e5438e1da456a64a93b3e6ebe735a475"
+      "size_bytes": 119,
+      "sha256": "d4263a15f3d63dfb4f77864b1847554699a2b38ed2e4e003fbc0de0b54c09f67"
     },
     {
       "path": "requirements-visuals.txt",
@@ -3645,18 +3650,18 @@
     },
     {
       "path": "requirements-yields.txt",
-      "size_bytes": 223,
-      "sha256": "a6ea45dcbba907cb4aea7c28bb1094260296c7a050f12c42641b45a18adab23d"
+      "size_bytes": 219,
+      "sha256": "fc5cfe1fa4aa94725311b00deec7e02adc265d817f7cb62e8881f373e710e07e"
     },
     {
       "path": "results/benzocaine-live-20261031-04/additional-analysis-status.json",
-      "size_bytes": 797,
-      "sha256": "9a82cd099e4482cf6f74cf73c0dbbc40ac978b4c7582bb8c9a61347be7d0e14e"
+      "size_bytes": 775,
+      "sha256": "134a9a265fddb342cf67ff8e76d8412e4ff391d2a69853abfcbfd65b166a699e"
     },
     {
       "path": "results/benzocaine-live-20261031-04/analysis-material-inventory.json",
-      "size_bytes": 16804,
-      "sha256": "9bbc8b3b185169b0a335c82499e1eaa8fe3318128a9d15d298d92808b84d103d"
+      "size_bytes": 16069,
+      "sha256": "47d80b71d75f64cdd415f73db80aa348dc0f74b438e8a70a1894cd6ced9f8662"
     },
     {
       "path": "results/benzocaine-live-20261031-04/conditions-parrot.json",
@@ -4035,13 +4040,13 @@
     },
     {
       "path": "results/benzocaine-live-20261031-04/manifest.json",
-      "size_bytes": 12587,
-      "sha256": "3bca312ead8e2fc3314031e93b2d19df39549ab909ad0f0e509c3007f93f0348"
+      "size_bytes": 12417,
+      "sha256": "4f4929d687f9b47a26a60ebf197c2e6b3107c8ca2f60fba674372c42da812043"
     },
     {
       "path": "results/benzocaine-live-20261031-04/pipeline.log",
-      "size_bytes": 1783,
-      "sha256": "40ada547bd2f9fb01eb3612f42079e2fd44c476f9e148e5050beec356808f8e6"
+      "size_bytes": 1775,
+      "sha256": "2397f1e7fab5b4db2944ef3c9d4070a10d09a83328133d19e063fb891163a4e5"
     },
     {
       "path": "results/benzocaine-live-20261031-04/report-evidence.json",
@@ -4060,43 +4065,43 @@
     },
     {
       "path": "results/benzocaine-live-20261031-04/routes.log",
-      "size_bytes": 162411,
-      "sha256": "d8325db4fb3c33e0ac25681cc870479d57dada8efebbcd6b8c4afad3b8de0320"
+      "size_bytes": 161677,
+      "sha256": "0cb76394568230df1821a18ed837a20d802c969881eff7c02aadcf78f4023c77"
     },
     {
       "path": "results/benzocaine-live-20261031-04/routes.metadata.json",
-      "size_bytes": 3670,
-      "sha256": "d1e6495818f2ae1d818db5a97a54cfc241c12e74083f1198943b56b7df1f3f26"
+      "size_bytes": 3492,
+      "sha256": "71ac901de2e3cd52a4ab852bafd3695fdb8327fa43a885302ebc38aa9623999a"
     },
     {
       "path": "results/benzocaine-live-20261031-04/routes.raw.json",
-      "size_bytes": 238523,
-      "sha256": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8"
+      "size_bytes": 233081,
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80"
     },
     {
       "path": "results/benzocaine-live-20261031-04/solar-attempts/preparation-only-01/solar-request.json",
-      "size_bytes": 139192,
-      "sha256": "5d7f873ae7e319bf462ee0fe74019edf10d42033736ca176a9d9ae83779bfff6"
+      "size_bytes": 139176,
+      "sha256": "586da553ddec3f5de3483cdb67c6bb474344499b01cfbacf5ab7753408fce213"
     },
     {
       "path": "results/benzocaine-live-20261031-04/solar-attempts/preparation-only-01/solar-status.json",
-      "size_bytes": 380,
-      "sha256": "0c1addac4705b03ab091b02696024ee6e417f76bac01f3c582e299b26e35ba33"
+      "size_bytes": 371,
+      "sha256": "1a9ddf716bb6788369f977c16f3bb67beaacbf0be4b816b0d2edd81bb86846c7"
     },
     {
       "path": "results/benzocaine-live-20261031-04/step-validation.json",
-      "size_bytes": 273,
-      "sha256": "043bf78f2383e40732a19d7dde6e7e4fc0685c6b6fa5ec6ff9595f9838cd1f9b"
+      "size_bytes": 264,
+      "sha256": "dfc26d06666cc354ae99291882ca5588f777473352107cbe91666884a141188c"
     },
     {
       "path": "results/benzocaine-live-20261031-04/structural-observations.json",
-      "size_bytes": 26953,
-      "sha256": "b604e84859b3496a82c3e132c5a99a1ea1026ab138c2798b2813df89d40623df"
+      "size_bytes": 25963,
+      "sha256": "17e400a78d011b72b5d8f3a7d341247d29bd10321623bd8b564541c808d518a4"
     },
     {
       "path": "results/benzocaine-live-20261031-04/target/target.json",
-      "size_bytes": 169,
-      "sha256": "5275f50ec62f3a794ef7d340a519732e3cfe463a12efe7adc839933915599f3d"
+      "size_bytes": 163,
+      "sha256": "13e0e8302e8755f7afb7a952e813649ee0b73e4412db3fb3dcd9d49cb29238ac"
     },
     {
       "path": "results/benzocaine-live-20261031-04/target/target.png",
@@ -4105,13 +4110,13 @@
     },
     {
       "path": "results/benzocaine-live-20261031-04/validation_notes.json",
-      "size_bytes": 1374,
-      "sha256": "29c18a141bff3d76ecac8d0a3be0d591d45cae4bd26ef336ea41414fd4521057"
+      "size_bytes": 1344,
+      "sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd"
     },
     {
       "path": "results/benzocaine-live-20261031-04/verification.json",
-      "size_bytes": 377,
-      "sha256": "50b4a24030af73b8025f356083f91e9113ec11d119142d40e08170f7d4c6f4e9"
+      "size_bytes": 364,
+      "sha256": "02f7768aa9e369f13c5fc36eef4b185610442942df7edb18e91918e047b97acc"
     },
     {
       "path": "results/benzocaine-live-20261031-04/yields-rxn_yields.json",
@@ -4120,28 +4125,28 @@
     },
     {
       "path": "results/benzocaine-live-20261031-04/yields-rxn_yields.log",
-      "size_bytes": 848,
-      "sha256": "e36d45e11913deb9c28b2e8cb403193ba5f7ca5d61bccb55d011f4f2e244dda1"
+      "size_bytes": 844,
+      "sha256": "80fe7614cd34b464bfda6c1d8bbc63512c73556d9ef573736c9362b1547bda42"
     },
     {
       "path": "results/benzocaine-live-20261031-04/yields-rxn_yields.raw.json",
-      "size_bytes": 10289,
-      "sha256": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998"
+      "size_bytes": 9987,
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/additional-analysis-status.json",
-      "size_bytes": 797,
-      "sha256": "9a82cd099e4482cf6f74cf73c0dbbc40ac978b4c7582bb8c9a61347be7d0e14e"
+      "size_bytes": 775,
+      "sha256": "134a9a265fddb342cf67ff8e76d8412e4ff391d2a69853abfcbfd65b166a699e"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/aizynthfinder.materialized.json",
-      "size_bytes": 608,
-      "sha256": "9cf3ea6f9da7d0e1c5bfd942c74fa551a87eb70ea36bc7b48662a9e4d31d2563"
+      "size_bytes": 585,
+      "sha256": "c9299bde08b4797523f1a9dbe5f33d9b345e29d1a995639de1e040a274053a25"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/conditions-parrot.json",
-      "size_bytes": 85839,
-      "sha256": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79"
+      "size_bytes": 83124,
+      "sha256": "5e66fb49be11cbe60128ab1b656c90346b21db3fe94a40484ec9d5f98ee4b2db"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/conditions-parrot.log",
@@ -4150,13 +4155,13 @@
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/conditions-parrot.raw.json",
-      "size_bytes": 59678,
-      "sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6"
+      "size_bytes": 57530,
+      "sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/figures/manifest.json",
-      "size_bytes": 9114,
-      "sha256": "4747768b29db6d1feeb8ce95aa8f2bbe5b2de5f4bfa83636a85f5bf4ac7134a2"
+      "size_bytes": 8947,
+      "sha256": "482278fed77c877c0dc7278530266a1cf0ee08f044e2622d835083ff94c40210"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/figures/route-01-step-01-molecule-1.png",
@@ -4515,63 +4520,63 @@
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/manifest.json",
-      "size_bytes": 14450,
-      "sha256": "c48849f831e45398e55e0bf4e90de131ec058f51f29e7e4301d4e1ec78db1781"
+      "size_bytes": 14253,
+      "sha256": "f683217c56b18a3e33b25d4af48a76ac822ec4effb946cf27e74e3704657ccc4"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/parrot.materialized.json",
-      "size_bytes": 1205,
-      "sha256": "e131f2e70c65bad5831c000709abf3bdc174c4d5c6c5ae099710394ea3022a30"
+      "size_bytes": 1163,
+      "sha256": "23137409f5576a8ebac5b1be9be06446e3df6e1904acec86aa8847f8a3d47347"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/pipeline.log",
-      "size_bytes": 3497,
-      "sha256": "4c53669b5855b6d54dcc0f4be70af024c10e32d95b3697d7ca118c8518c09220"
+      "size_bytes": 3485,
+      "sha256": "894631295287486375570622fca2ccb8f442fbe5b64295b76b43854a0c99d2da"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/report-evidence.json",
-      "size_bytes": 161344,
-      "sha256": "86281cd77a5e7979b61d14a5ebbfec085d9eae0ac36bbdbe4172d006ffded273"
+      "size_bytes": 156499,
+      "sha256": "4ff171a984a82a58e9beef6f7de18760fc2f4945be2bfaf1f8411aa9b2cd0cd7"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/reproduction-validation.json",
-      "size_bytes": 3899,
-      "sha256": "63ab33c238fda07120f87ff9e4024195b12bb68cc689565539f83112dd7db7a8"
+      "size_bytes": 3777,
+      "sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/routes.json",
-      "size_bytes": 41490,
-      "sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb"
+      "size_bytes": 40417,
+      "sha256": "d35ea3dd88a9a4e0df397f3db90826e1aa5d5eb30e5fef77cebfb0dc28cce379"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/routes.log",
-      "size_bytes": 162687,
-      "sha256": "9d65a2bdf75ab6cc89fcb0b5665eb439bbf5bd51b38eb33e25443dc6f654098a"
+      "size_bytes": 161953,
+      "sha256": "99ac511f20358499b1954ed8225b935400c7972cfb6a01aca7ed3cb212fafc81"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/routes.metadata.json",
-      "size_bytes": 3673,
-      "sha256": "c1644dd9bf198b4ed486c5a25930565b4cf0043efc309263091e18a36cb4a2ca"
+      "size_bytes": 3495,
+      "sha256": "00e90a6d5330e177520197ccf76f953db446fdc17d1b82cd9e4feea2e368a193"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/routes.raw.json",
-      "size_bytes": 238523,
-      "sha256": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8"
+      "size_bytes": 233081,
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/rxn_yields.runtime.materialized.json",
-      "size_bytes": 356,
-      "sha256": "b087ed4c0041f1d081647f587d08fc2ccb4fbc07998181a1acd1228c47334bd5"
+      "size_bytes": 349,
+      "sha256": "fd6ad466e85b47be33c8bb3e7bd1c617f519689bdb0073191ddd39e96cddb66c"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/step-validation.json",
-      "size_bytes": 273,
-      "sha256": "043bf78f2383e40732a19d7dde6e7e4fc0685c6b6fa5ec6ff9595f9838cd1f9b"
+      "size_bytes": 264,
+      "sha256": "dfc26d06666cc354ae99291882ca5588f777473352107cbe91666884a141188c"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/target/target.json",
-      "size_bytes": 169,
-      "sha256": "5275f50ec62f3a794ef7d340a519732e3cfe463a12efe7adc839933915599f3d"
+      "size_bytes": 163,
+      "sha256": "13e0e8302e8755f7afb7a952e813649ee0b73e4412db3fb3dcd9d49cb29238ac"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/target/target.png",
@@ -4580,33 +4585,33 @@
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/validation_notes.json",
-      "size_bytes": 1374,
-      "sha256": "d4bc682e9741f806e694c451197965b465eb07eada1613201085e2e62ee51dc9"
+      "size_bytes": 1344,
+      "sha256": "ecde4168d28a8c0901f23e906767528a7eec98412bb080bd77fa4fc1faa99a9e"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/verification.json",
-      "size_bytes": 377,
-      "sha256": "50b4a24030af73b8025f356083f91e9113ec11d119142d40e08170f7d4c6f4e9"
+      "size_bytes": 364,
+      "sha256": "02f7768aa9e369f13c5fc36eef4b185610442942df7edb18e91918e047b97acc"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/yields-rxn_yields.json",
-      "size_bytes": 39026,
-      "sha256": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a"
+      "size_bytes": 38127,
+      "sha256": "a650c57b34a3d336b172fe38d0b729c028fabe91782663e8d565909c0171b51e"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/yields-rxn_yields.log",
-      "size_bytes": 1094,
-      "sha256": "d42bd32c0146003ead4c5e87b7454b1a62dbccbc1d5dcff7206d0301a54190f8"
+      "size_bytes": 1090,
+      "sha256": "1eb488c9f7411a9264cb556db9e51bbf0332c292606204b77bd0a195c4bedc29"
     },
     {
       "path": "results/benzocaine-live-repro-20261105-01/yields-rxn_yields.raw.json",
-      "size_bytes": 10289,
-      "sha256": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998"
+      "size_bytes": 9987,
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
       "path": "scripts/_parrot_worker.py",
-      "size_bytes": 4537,
-      "sha256": "85dd274d467f69b0216f2ec1eeaf39459d51f7df0ab350185cb44dd069902d61"
+      "size_bytes": 4534,
+      "sha256": "27a059faba1154712a5f16b33fa90cf98506bd143b2e1485d72e6128c61653ed"
     },
     {
       "path": "scripts/_runtime.py",
@@ -4620,23 +4625,23 @@
     },
     {
       "path": "scripts/apply_targeted_solar_revision.py",
-      "size_bytes": 12013,
-      "sha256": "939806ccceb2cdedf6e033abae79ff594947500d8740d2d01259d6cce7095938"
+      "size_bytes": 12001,
+      "sha256": "3d29e1287fbfcec1e30999decbb6d4c1fc46e5a7ab3ef492f20ca678c47807c6"
     },
     {
       "path": "scripts/apply_validated_targeted_blocks.py",
-      "size_bytes": 3468,
-      "sha256": "7250b60e064b398c6de770c57896364c9180493213668ba7c7b73b8ca646e892"
+      "size_bytes": 3439,
+      "sha256": "eb45d4b34ff9f789476e0a3ed55a1b66eb367e345a14b7fcf44ae41d5da96c2d"
     },
     {
       "path": "scripts/audit_citations.py",
-      "size_bytes": 9023,
-      "sha256": "b5d12aee75a4c872844c10f4959fbc97dff96501634a65b9cd1cb76cd78a27ed"
+      "size_bytes": 8903,
+      "sha256": "b51f504cec4d89c3bb0bed1dc553a8005a58405e0eaec2400c2c8db544d90513"
     },
     {
       "path": "scripts/audit_parrot_slots.py",
-      "size_bytes": 7450,
-      "sha256": "5f078866fd2c56fb1e001ef987998a53075a71673353933444b392556544b9aa"
+      "size_bytes": 7444,
+      "sha256": "a870072e3f4ab1b8647d2a968df909171ac220cccb72801629d04e383ae7a252"
     },
     {
       "path": "scripts/audit_secrets.py",
@@ -4660,18 +4665,18 @@
     },
     {
       "path": "scripts/build_package_manifest.py",
-      "size_bytes": 3173,
-      "sha256": "074137b625b543c5fc1b2958a2248ddc2b4c70b408fb047c81d1bf661c761bae"
+      "size_bytes": 3245,
+      "sha256": "9c5e09ea748f66b10f3151e2be5c51870ebe504fff1231a9b2b4b6b516a1626c"
     },
     {
       "path": "scripts/build_submission_report.py",
-      "size_bytes": 2349,
-      "sha256": "5736e9b86dee488864f8819d551bbd3ed0aea699f98763023995e9024234f7ba"
+      "size_bytes": 2321,
+      "sha256": "a2452e9015885dd9668932d1d00c3a392ca05a3a98b85bd9ff20ff889d3bb172"
     },
     {
       "path": "scripts/compare_reproduction_assets.py",
-      "size_bytes": 10839,
-      "sha256": "8f1b62dd5084c291b553e3a9f624c0649d6bc905093a3240be5952279eec5980"
+      "size_bytes": 10694,
+      "sha256": "ce53c451158887da5aaca8ae5a48654806a00f66e82cfc4e5525caf69f0f70ef"
     },
     {
       "path": "scripts/convert_docx_to_pdf.ps1",
@@ -4695,13 +4700,13 @@
     },
     {
       "path": "scripts/export_report_docx.py",
-      "size_bytes": 20942,
-      "sha256": "fe01ae0be205da2bf53faef536c13e22657e233525c43ba9346cf25163ca30ec"
+      "size_bytes": 20583,
+      "sha256": "ef0d262d59d27a11a9c4cf3779140b7da70f92108d88b91823091bec74e80dd3"
     },
     {
       "path": "scripts/export_supplement_docx.py",
-      "size_bytes": 19234,
-      "sha256": "7456f3a06ea264b5690101a7f48a303468f26d947fe6d6c3c915c9b18818ae9f"
+      "size_bytes": 18900,
+      "sha256": "9e3cf46e0d837b520244453a6d51f9b2c42c0e7cfd55a6de769d6a318b5910f9"
     },
     {
       "path": "scripts/generate_report.py",
@@ -4715,13 +4720,13 @@
     },
     {
       "path": "scripts/generate_targeted_revision_once.py",
-      "size_bytes": 9423,
-      "sha256": "002cabfbf98e679e65b58a08ef3c7c408c025e7a28f8e8f32f4f42e099b88b75"
+      "size_bytes": 9422,
+      "sha256": "644a19245ac115b7b7beadca5b0e9e794015683ef71e01d05cbcfb5ff9ef2cc1"
     },
     {
       "path": "scripts/harness_request_guard.py",
-      "size_bytes": 24847,
-      "sha256": "92f84742deaf0caa082ed1cf7b5119c5c27714d595343f86ca63fb44e5425af0"
+      "size_bytes": 24411,
+      "sha256": "82ac782e24606cb571a4cfedfb51a9bf7289d904e2bdb342a31aa31a15e49b17"
     },
     {
       "path": "scripts/initialize_cumulative_harness_ledger.py",
@@ -4750,8 +4755,8 @@
     },
     {
       "path": "scripts/preflight_models.py",
-      "size_bytes": 15785,
-      "sha256": "9cdc35d9c1bcefe815adc7c3d91416df0ad2571f9122964a1fef6ec951c6ddd9"
+      "size_bytes": 15571,
+      "sha256": "0a518de287a339a9579b354113f8450975b6163551e2ea2c05566cea341b55f1"
     },
     {
       "path": "scripts/prepare_additional_analyses.py",
@@ -4765,8 +4770,8 @@
     },
     {
       "path": "scripts/prepare_report_figures.py",
-      "size_bytes": 8506,
-      "sha256": "385b56cef4a8e0aa2b57473d98cad8c5264e4abb0be01d790c1d059eaaf9e5d4"
+      "size_bytes": 8376,
+      "sha256": "7d4ee9980d75b80a8d270d388d357e7cb6a2fd1c0e214a42c5aa08d013ede80f"
     },
     {
       "path": "scripts/prepare_saved_report_copy.py",
@@ -4785,18 +4790,18 @@
     },
     {
       "path": "scripts/prepare_targeted_solar_request.py",
-      "size_bytes": 5576,
-      "sha256": "344e3e8a863edc2bf858fd86342899660ebb53566cbc5bd7665757e75648c1b6"
+      "size_bytes": 5544,
+      "sha256": "19ab34bc04a5ecae144b59ad44c3355077de927e12d5ffd960db6533bbcfd1ea"
     },
     {
       "path": "scripts/run_guarded_harness.ps1",
-      "size_bytes": 6326,
-      "sha256": "15028dbb6e0aa35d5b23668ff8d5e92668c631a4af8a08216b33c61895668a73"
+      "size_bytes": 6222,
+      "sha256": "6a60576c8670ec3f9964318363e9bd4957650994f33bfbf389d7678212b7c3f5"
     },
     {
       "path": "scripts/run_mopac_batch.py",
-      "size_bytes": 12573,
-      "sha256": "79de24a2855637aa826770d423008f410f7c2ee5beb42e20f3e510a25e10f731"
+      "size_bytes": 12376,
+      "sha256": "0a091af0583615e99b66bf8e17e2205fe0fe703d9c028641a17c60c3215fa042"
     },
     {
       "path": "scripts/run_pipeline.py",
@@ -4805,8 +4810,8 @@
     },
     {
       "path": "scripts/send_prepared_solar_once.py",
-      "size_bytes": 7328,
-      "sha256": "96c5d3fc32d0f2f4f61df98aaf88b0d1c620ed9c87d18bb6824e2a3de3386faf"
+      "size_bytes": 7266,
+      "sha256": "cfb94abbb1bd719cdf348ae4c3ca92706d2bc647d243a6158c783387341d26c7"
     },
     {
       "path": "scripts/send_sentence_cleanup_once.py",
@@ -4830,13 +4835,13 @@
     },
     {
       "path": "scripts/validate_report_content.py",
-      "size_bytes": 4709,
-      "sha256": "37abaca429826cc90a524820e5884b0e2720b29bb6f76e3657c08defb6cd6b99"
+      "size_bytes": 4646,
+      "sha256": "db3a30c5026589c0e0fd77dae2d030d0e904b69f0210c3193e7f8861ca28b270"
     },
     {
       "path": "scripts/validate_report_documents.py",
-      "size_bytes": 3340,
-      "sha256": "7f4a9c1aec45b05137ac8762bda52f8314a600c355e4308d1be08dc579bb00bb"
+      "size_bytes": 3298,
+      "sha256": "05c1ebbd7f2bcdd7a9e1b9054001bc46a0bd11f3d7577ed3a27bf413f1acb5e2"
     },
     {
       "path": "scripts/validate_saved_report_rebuild.py",
@@ -4845,13 +4850,13 @@
     },
     {
       "path": "scripts/validate_targeted_revision.py",
-      "size_bytes": 5144,
-      "sha256": "96c809fa43e533dfa24ea5fc4643fa915b831409221f753783bb15bfd42097fa"
+      "size_bytes": 5098,
+      "sha256": "52a20f45f7c59b355a7f73295519e3e94a45302b9342f74fe52977af40f74f0b"
     },
     {
       "path": "scripts/validate_targeted_solar_response.py",
-      "size_bytes": 7759,
-      "sha256": "f73d232453092797026945205da51f99066bd56a19c63462ab2e083e8e101181"
+      "size_bytes": 7706,
+      "sha256": "22023204543c3b34bdbbff2777543911c1fe38626f621916b301ba6acbc5d0c6"
     },
     {
       "path": "scripts/verify_harnesses_guarded_local_mock.py",
@@ -4865,13 +4870,13 @@
     },
     {
       "path": "scripts/verify_preservation.py",
-      "size_bytes": 1833,
-      "sha256": "ac839fb5cdce4462554ba20fb063ec55d3b7ba9c79ebc2d5a2a43b839199a0e5"
+      "size_bytes": 1812,
+      "sha256": "4adabd8ed4d4093c837aa1aa018849185ef8382127746cb5c49e6066b3b1f357"
     },
     {
       "path": "scripts/verify_run.py",
-      "size_bytes": 2648,
-      "sha256": "dd86da4d0df15a170c15aa5a2e43eaa2a8e4799c0fed23a328fda494d624d6b6"
+      "size_bytes": 2644,
+      "sha256": "d55daefb83db73d242fd96c9c597f13acfabc9270199fed7a5731e82d6e54d22"
     },
     {
       "path": "skill/SKILL.md",
@@ -4890,93 +4895,93 @@
     },
     {
       "path": "validation/adapter-runtime-comparison-20261105.json",
-      "size_bytes": 5287,
-      "sha256": "36e2ec6cf5e8ac52ea9eb561eec0ac999164a20616f2d0311681e1d194f3c31f"
+      "size_bytes": 5177,
+      "sha256": "190cfa98b3119691061dc48d404114c8d9d59bda131cb22ace3953fc572666cc"
     },
     {
       "path": "validation/benzocaine-identity.json",
-      "size_bytes": 500,
-      "sha256": "7e289583ff624fc9eb0c7fd9176fc80a5c5e26f60739c4a1f0b5e16bfec70125"
+      "size_bytes": 488,
+      "sha256": "4aa044436f2af431f51fc389ff309b4c0f5f00dedb2cc631103a62a56b873f17"
     },
     {
       "path": "validation/model-asset-reuse-audit-20261105.json",
-      "size_bytes": 5331,
-      "sha256": "08c52c3bdd7dea1d2d5be8f522a413924f59ada961f10d7cd79b03554f29e565"
+      "size_bytes": 5195,
+      "sha256": "b402a689fb27a03107348b4b2dfeb650c8d4afb6901c4d854f906b6541fb16a7"
     },
     {
       "path": "validation/model-preflight-20261105.json",
-      "size_bytes": 7987,
-      "sha256": "3ecd820cbaf890479729cc8f3e638dc5b37e84837fead00fe15ee420b0f479ab"
+      "size_bytes": 7835,
+      "sha256": "43d7b41e3be1ca420fba74c00bde04889daa8efb64ec3c2862037bb61043a7bb"
     },
     {
       "path": "validation/model-preflight-repro-20261105-01.json",
-      "size_bytes": 7987,
-      "sha256": "3ecd820cbaf890479729cc8f3e638dc5b37e84837fead00fe15ee420b0f479ab"
+      "size_bytes": 7835,
+      "sha256": "43d7b41e3be1ca420fba74c00bde04889daa8efb64ec3c2862037bb61043a7bb"
     },
     {
       "path": "validation/package-secret-audit-content.json",
-      "size_bytes": 248,
-      "sha256": "a4294eee478a4475595527702e592813c770eff1d3ea59c790fe2f368bd0fc6e"
+      "size_bytes": 241,
+      "sha256": "abcc11553d4602bc9ae6e2ce8a6e14cf342c179e63243bcdd2adfbd630ae6fb3"
     },
     {
       "path": "validation/privacy-redaction-log.json",
-      "size_bytes": 2452,
-      "sha256": "eddfb2d3bb82d311f51b3cad9e5ba07499eee85d401c2898181b275100220a93"
+      "size_bytes": 2393,
+      "sha256": "6522b4b154724d0d3e76f1169bc6bd4100702f393acc1e18f4e9bafbe7feffa0"
     },
     {
       "path": "validation/pubchem.raw.json",
-      "size_bytes": 250,
-      "sha256": "51f418de99ac859a3f3365913af3096a290dd4fd82ca98e30a0e2f17db7ee68b"
+      "size_bytes": 238,
+      "sha256": "b5ce920aaae61cd4f5be64359f5eec211047f8474561155d717a5e010d5c1ea1"
     },
     {
       "path": "validation/reproducibility-preflight/benzocaine-identity.json",
-      "size_bytes": 500,
-      "sha256": "7e289583ff624fc9eb0c7fd9176fc80a5c5e26f60739c4a1f0b5e16bfec70125"
+      "size_bytes": 488,
+      "sha256": "4aa044436f2af431f51fc389ff309b4c0f5f00dedb2cc631103a62a56b873f17"
     },
     {
       "path": "validation/reproducibility-preflight/pubchem.raw.json",
-      "size_bytes": 250,
-      "sha256": "51f418de99ac859a3f3365913af3096a290dd4fd82ca98e30a0e2f17db7ee68b"
+      "size_bytes": 238,
+      "sha256": "b5ce920aaae61cd4f5be64359f5eec211047f8474561155d717a5e010d5c1ea1"
     },
     {
       "path": "validation/skill-unification-offline-check.json",
-      "size_bytes": 4769,
-      "sha256": "5611c8acbb5e27dc946f5164b2dbf4b98c17f268af286727dc9d17fd11af0099"
+      "size_bytes": 4668,
+      "sha256": "b949c9cf07cce0691efd8cd03ec5b30fbe9fa0f1de8f82301b306165e2298fa9"
     },
     {
       "path": "검증기록/이전-인용게이트실패/citation-audit-logic-regression.json",
-      "size_bytes": 352,
-      "sha256": "b6f15624759f3c73951caeae1a7c85166c1942f01e633aa2c3053f0f90ba90d0"
+      "size_bytes": 340,
+      "sha256": "db6498537967a4713293a176e926f050a7fe533f38e8909a8e3780a76da972d6"
     },
     {
       "path": "검증기록/이전-인용게이트실패/citation-only-change-log-final.json",
-      "size_bytes": 1848,
-      "sha256": "3cfaf3d0caa5986ace8e96845dfacdc24772a1bdf7e2187466d01874e1329e04"
+      "size_bytes": 1824,
+      "sha256": "4c347930fdff74a1654a5ce9d2d53380780bcd58154a993e01a18e8dc7470c0c"
     },
     {
       "path": "검증기록/이전-인용게이트실패/citation-only-release-validation.json",
-      "size_bytes": 1306,
-      "sha256": "c2e337226434266c45f757c75058fb44855c7e1cbc5ec594510ce95d8a1e6365"
+      "size_bytes": 1276,
+      "sha256": "be4bb704a7fc4e1ce8320b116ece9716850943a9709f2108c279cc5e9f8ce9e1"
     },
     {
       "path": "검증기록/이전-인용게이트실패/release-gate-validation.json",
-      "size_bytes": 1691,
-      "sha256": "c561a9142a0aec185dea7f0bd2c84807c872dc59e76995404bdc1e7ae3505d17"
+      "size_bytes": 1660,
+      "sha256": "5684ac589d5d096edc1b29a494c3a59533f97ef67b681f007f331be7f2f78326"
     },
     {
       "path": "검증기록/이전-인용게이트실패/request-prepared-no-send/pre-send-audit.json",
-      "size_bytes": 1947,
-      "sha256": "4883f019b8ed2bcbb90e78ea83cf2b20ee6f0aecf9c149bc7bdd294576696911"
+      "size_bytes": 1911,
+      "sha256": "1ac51551b3faade45dd3bd46ebd018fdafab61a6a5b98b3e86717278e6afbb92"
     },
     {
       "path": "검증기록/이전-인용게이트실패/request-prepared-no-send/section-2.1-evidence.md",
-      "size_bytes": 2339,
-      "sha256": "e9a9478eed7f13698fccb75c45d332740520f5e4a8389fd919b9d64a2498ba7c"
+      "size_bytes": 2325,
+      "sha256": "1f5730289e73d6131a9c2179382dda2d304f96fc806ee89e8f6627e23e520dd6"
     },
     {
       "path": "검증기록/이전-인용게이트실패/request-prepared-no-send/section-8-evidence.md",
-      "size_bytes": 2242,
-      "sha256": "80eefb3e34d01e802c4820e03a596e831d034e7d6d9e30b107a608353f384dc4"
+      "size_bytes": 2230,
+      "sha256": "104e6160941ac3556f406a1f09bddc4a680f2fb3a3e69be87771a39ae49c60d0"
     },
     {
       "path": "검증기록/이전-인용게이트실패/request-prepared-no-send/solar-request-prepared.json",
@@ -4985,8 +4990,8 @@
     },
     {
       "path": "검증기록/이전-인용게이트실패/request-prepared-no-send/targeted-revision-rules.md",
-      "size_bytes": 1107,
-      "sha256": "c39a1c9391cb7456d386f1184cdaf4f354cf24258a2ad3c42072d6c7bb0dcca2"
+      "size_bytes": 1096,
+      "sha256": "f4575d9f653cacdbb09740fb14fa33e0229f7b1bc56a5db750fdbcc38f9aa88c"
     },
     {
       "path": "검증기록/이전-인용게이트실패/solar-call/solar-request.redacted.json",
@@ -5000,13 +5005,13 @@
     },
     {
       "path": "검증기록/이전-인용게이트실패/solar-call/solar-status.json",
-      "size_bytes": 1452,
-      "sha256": "723a88756616c5230b2b175e34a8494a6939e7c41692556c7cd9bb364dde4464"
+      "size_bytes": 1409,
+      "sha256": "624b2733668fe4b2d188af34ca6b66b55c60613a05ad48c45163ea70a9d544d0"
     },
     {
       "path": "검증기록/이전-인용게이트실패/solar-response-validation.json",
-      "size_bytes": 2653,
-      "sha256": "30c84b93627267e3bb8fb997a42d6fd1a40135533a3209b2769a4a84c985e932"
+      "size_bytes": 2604,
+      "sha256": "f041928f59fd451ffa849096766e8501f7ceced4d0fb0848941657bad1ff7340"
     },
     {
       "path": "경로대응표.md",

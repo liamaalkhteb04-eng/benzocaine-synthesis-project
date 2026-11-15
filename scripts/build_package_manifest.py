@@ -54,7 +54,8 @@ def main():
     encoded = json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8") + b"\n"
     manifest.write_bytes(encoded)
     sidecar = hashlib.sha256(encoded).hexdigest() + "  PACKAGE-MANIFEST.json\n"
-    (root / "PACKAGE-MANIFEST.sha256").write_text(sidecar, encoding="ascii")
+    # Keep the sidecar byte-for-byte stable on Windows as well as POSIX.
+    (root / "PACKAGE-MANIFEST.sha256").write_bytes(sidecar.encode("ascii"))
     print(json.dumps({"status": data["status"], "file_count": len(files),
                       "manifest_sha256": hashlib.sha256(encoded).hexdigest(),
                       "package": str(root)}, ensure_ascii=False))
