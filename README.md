@@ -2,11 +2,22 @@
 
 This package includes target-neutral route, condition and yield adapters; report-writing skill; benzocaine example inputs and evidence; and the current verified report. Saved benzocaine predictions are examples only and are never reused for a different target.
 
-## Unified report skill
+## Two skills, two roles
 
-[`skill/SKILL.md`](skill/SKILL.md) is the single current entrypoint for Solar Pro 4 report writing and the pipeline workflow. New report requests default to a complete report from the selected target and verified evidence. Section- or sentence-only edits apply only when the user explicitly requests a narrow revision. Historical prompts and exact skill files used in prior calls are preserved with hashes and run IDs in [`provenance/skills/PATH-MAP.md`](provenance/skills/PATH-MAP.md); they are not injected into new full-report requests.
+- [`skill/SKILL.md`](skill/SKILL.md) is the **whole-pipeline skill**: enter a target, verify its structure, preflight and run route/condition/yield adapters, collect actual result and analysis evidence, then route report authoring to the report-writing skill.
+- [`skill/report-writing/SKILL.md`](skill/report-writing/SKILL.md) is the **Solar report-authoring skill**. The report request builders read this file into the Solar system message. It defines required evidence, scientific/citation rules, missing-data behavior, Markdown output, and DOCX/PDF checks.
 
-The standard flow is: create `inputs/<target_id>.json` from `inputs/input-template.json`, validate and preflight it, execute `scripts/run_pipeline.py` with a new run ID, review raw outputs and additional analyses, prepare or execute the explicitly authorized Solar Pro 4 request through `scripts/generate_report.py`, then export and validate DOCX/PDF. Saved-response document rebuilds use the archived response and do not make a new model request. See `skill/SKILL.md` for the full evidence and page-limit rules.
+The default is a full report. Targeted section/sentence edits require an explicit request and are not included in ordinary full-report requests. Historical prompt files and run IDs are preserved in [`provenance/skills/PATH-MAP.md`](provenance/skills/PATH-MAP.md); they are not treated as current instructions. Old report files were not authored with the new two-skill layout.
+
+### Copying and using the package
+
+Copy or clone the **entire repository**, not only either skill file. The skills explain and route work; executable adapters, Python dependencies, configs, target JSON, raw/normalized results, figure files, validation records, model runtimes/checkpoints/stock buckets, a local Solar API key, and a DOCX/PDF converter are separate requirements. Large/private weights and API secrets are intentionally not included.
+
+**Full pipeline:** create `inputs/<target_id>.json` from `inputs/input-template.json`; run structure identity and model preflight; run `scripts/run_pipeline.py` with a fresh run ID; inspect raw results and additional analyses; then prepare a Solar report request from the prepared run. The full instructions and actual model/weight preparation are in [`skill/SKILL.md`](skill/SKILL.md) and the model setup sections below.
+
+**Report only from prepared results:** point `scripts/generate_report.py` at an existing `results/<run_id>/` directory. This does not rerun chemistry models. The request builder places `skill/report-writing/SKILL.md` in the Solar system message and passes that run's `report-evidence.json` and manifest. `--prepare-only` constructs the request locally and makes no API call. It verifies source hashes first and refuses changed or mismatched evidence rather than silently repairing it. In the packaged `benzocaine-live-20261031-04` example, four source hashes are already mismatched; see `validation/skill-unification-offline-check.json`. The current request-construction check used a separate read-only copy of that run whose recorded hashes matched. Solar authoring is a separate, potentially billable action; this package's two authorization flags are disabled by default. After an authorized response, use `scripts/export_report_docx.py` and the configured PDF converter. For the curated release, the README's saved-response rebuild procedure converts archived Solar Markdown without a new Solar call.
+
+The report request builders and configured skill paths are `configs/report-plan.json`, `scripts/generate_report.py`, and `scripts/generate_solar_report_from_bundle.py`. Model outputs are not verified merely because a request or document was generated. Exact Solar skill inclusion, actual evidence blocks, and isolation from historical task instructions are covered by [`validation/report-writing-skill-request-offline-check-final-03.json`](validation/report-writing-skill-request-offline-check-final-03.json) and [`validation/skill-role-separation-check.json`](validation/skill-role-separation-check.json); they do not evaluate Solar response quality.
 
 
 ## Current verified Benzocaine release (2026-11-15)
@@ -158,20 +169,36 @@ py -3.13 -B -X utf8 scripts/run_pipeline.py `
 
 The command creates `results/<run-id>/` and records raw outputs, logs, images, status and checksums. A model without a configured environment/checkpoint remains `not_implemented` or fails with a recorded reason; no mock fallback is used. Verify actual model statuses and inspect `results/<run-id>/report-evidence.json` before preparing a report.
 
-The fresh Solar call is a separate, potentially billable action. `configs/report-plan.json` pins model snapshot `solar-pro4-260806`, temperature 0 and a 10,000-token response ceiling; it has both paid-call gates disabled. Keep them disabled unless a budget has been explicitly approved. For a fresh Solar-authored report, use a new attempt ID and run:
+Report authoring is separate from chemical inference and may be billable. `configs/report-plan.json` pins model snapshot `solar-pro4-260806`, temperature 0 and a 10,000-token response ceiling; both Solar authorization flags are disabled. A report-only request uses the already prepared run and the specialized Solar skill `skill/report-writing/SKILL.md`:
 
 ```powershell
-# Only after setting both report-plan authorization flags under explicit approval
-# and providing UPSTAGE_API_KEY through a local secret manager/session (never commit it):
-$attemptId = "$runId-solar-01"
-py -3.13 -B -X utf8 scripts/build_submission_report.py `
+$attemptId = "$runId-report-01"
+py -3.13 -B -X utf8 scripts/generate_report.py `
   --run-dir "results/$runId" `
-  --output-dir "reports/$runId-report" `
   --attempt-id $attemptId `
-  --execute-solar
+  --prepare-only
 ```
 
-The script calls `generate_report.py`, validates Solar's response against the run evidence, exports DOCX, asks Word to generate PDF, and checks the result. Fresh model predictions and fresh Solar authorship are separate from conversion of any saved response.
+This creates `results/<run-id>/solar-attempts/<attempt-id>/solar-request.json` and `solar-prepare-status.json` without contacting Solar. Inspect the prepared messages, evidence hashes, skill path and model settings. To send that exact prepared request, first obtain explicit authorization, configure both plan flags and `UPSTAGE_API_KEY` in a local environment, then run the same command with `--execute-solar`. The execution mode requires the prepared attempt, blocks reuse after a response/status exists, and does not automatically retry. The returned Markdown is saved under `reports/<run-id>-<attempt-id>/report.md`.
+
+To create the documents from that Solar-authored Markdown, use the existing run assets and recorded status:
+
+```powershell
+$reportDir = "reports/$runId-$attemptId"
+$markdown = "$reportDir/report.md"
+$solarStatus = "results/$runId/solar-attempts/$attemptId/solar-status.json"
+py -3.13 -B -X utf8 scripts/export_report_docx.py `
+  --markdown $markdown `
+  --run-dir "results/$runId" `
+  --solar-status $solarStatus `
+  --compact-layout
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/convert_docx_to_pdf.ps1 `
+  -DocxPath "$reportDir/report.docx" `
+  -PdfPath "$reportDir/report.pdf" `
+  -MetadataPath "$reportDir/word-export.json"
+```
+
+The report-only path does not rerun AiZynthFinder, Parrot or Yield-BERT. A model prediction request, Solar report-authoring call, and conversion of an already saved response are separate operations. Do not call the prior benzocaine run a prediction for a different target.
 
 ## 5. Rebuild the current report from its saved Solar response (no API request)
 

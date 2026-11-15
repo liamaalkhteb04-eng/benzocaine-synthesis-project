@@ -1,6 +1,13 @@
 # Skill provenance and path mapping
 
-The current default is `skill/SKILL.md`. The former skill files are preserved byte-for-byte under `provenance/skills/`. This unified file was created after the runs listed here; it was not used to write historical reports. Past request, response, and execution records remain unchanged.
+The current whole-pipeline entrypoint is `skill/SKILL.md`; the Solar report-authoring system prompt is `skill/report-writing/SKILL.md`. Both current skills were created after the historical runs listed here and were not used to author the existing reports. Former source files are preserved byte-for-byte under `provenance/skills/`; past request, response, and execution records remain unchanged.
+
+| Current role | Path | Caller |
+|---|---|---|
+| Whole pipeline: input, identity, predictions, analysis evidence and report-skill routing | `skill/SKILL.md` | README and workflow guidance; recorded as `execution_skill_path` in `configs/report-plan.json` |
+| Solar report writing: evidence interpretation, Korean manuscript, citation and document requirements | `skill/report-writing/SKILL.md` | Solar request builders; recorded as `report_writing_skill_path` in `configs/report-plan.json` |
+
+The `synthesis_report_skill-report-v1.md` preserved below is a historical source copy, not the new report-writing file and not the pipeline entrypoint. The two new files separate these roles without retroactively attributing the current prompt to old reports.
 
 | Historical source path | Preserved original | SHA-256 | Use and run association |
 |---|---|---|---|
@@ -10,4 +17,4 @@ The current default is `skill/SKILL.md`. The former skill files are preserved by
 | `skill/targeted-report-sentence-cleanup-v1.md` | same basename | `a791638e22b0f5154afdf54d70646ff1ce96ffdde76dcfff0904f2f26b33b39a` | Exact system message for Solar run `benzocaine-documentation-cleanup-20261115-01`; request provenance is in that report folder. |
 | `skill/SKILL.md` (previous short launcher) | `SKILL-launcher-before-unification.md` | `2ef980a5bca4e4f4423c2e46dbeea8dfd8b6c6a7c63a4132a0495f9c19ba0990` | Previous local entrypoint only. No separate Solar request using this launcher text as its system message was identified; it is preserved to map the old entrypoint. |
 
-Current code/config/README point to `skill/SKILL.md`. Historical files and request payloads keep their old paths and bytes; use this table to trace those references. The archived targeted skills and old A/B instructions are provenance, not content imported into a new full-report request.
+Current code/config/README use the two role-specific paths above. Historical files and request payloads keep their old paths and bytes; use this table to trace those references. The archived targeted skills and old A/B instructions are provenance, not content imported into a new full-report request.

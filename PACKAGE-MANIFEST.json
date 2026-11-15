@@ -26,7 +26,7 @@
     "temporary page renderings"
   ],
   "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
-  "file_count": 998,
+  "file_count": 1005,
   "files": [
     {
       "path": ".env.example",
@@ -50,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 21665,
-      "sha256": "d4fef63b5e30c86fde3284abfdc82d4b93afbc88a72975de3452c49094063e73"
+      "size_bytes": 25250,
+      "sha256": "fc1c66e6a6eef41804971b793c63011d465938dea5fe74d48a65394ef25e9482"
     },
     {
       "path": "REPRODUCIBILITY-REVIEW.md",
@@ -2275,8 +2275,8 @@
     },
     {
       "path": "configs/report-plan.json",
-      "size_bytes": 761,
-      "sha256": "e6749a337ad4edc686443e2f18f2c9ff2dab4ae73c1cff8b3b98c4c0990891f7"
+      "size_bytes": 833,
+      "sha256": "32c7f9eea7f05b843af7cbd5965cded3b56b974ade9b412abb387a8b6eb06ff2"
     },
     {
       "path": "configs/runtime.json",
@@ -2300,8 +2300,8 @@
     },
     {
       "path": "provenance/skills/PATH-MAP.md",
-      "size_bytes": 2955,
-      "sha256": "758fb5f6bade908e2bbc587281e43e86bf4afb683d71798c8223dc0eb428d125"
+      "size_bytes": 3830,
+      "sha256": "662bc8da2b1f771c8c4e4d0b740a10716824af7bd17dfc52205029e9f853ed2e"
     },
     {
       "path": "provenance/skills/SKILL-launcher-before-unification.md",
@@ -4660,8 +4660,8 @@
     },
     {
       "path": "scripts/build_harness_comparison_payload.py",
-      "size_bytes": 3881,
-      "sha256": "ab202579fd3233dcd4b34ce9f7ef1d02be633533b63ee54e57a35feebb8b57d6"
+      "size_bytes": 4757,
+      "sha256": "4debb0f49c20ecbfb6e096a24a8d72ff44b52b08fb83a5d97a7434d9e01aa237"
     },
     {
       "path": "scripts/build_package_manifest.py",
@@ -4670,8 +4670,8 @@
     },
     {
       "path": "scripts/build_submission_report.py",
-      "size_bytes": 2321,
-      "sha256": "a2452e9015885dd9668932d1d00c3a392ca05a3a98b85bd9ff20ff889d3bb172"
+      "size_bytes": 2460,
+      "sha256": "8534f547e64edd755b3d6c1801c606bd1be090b650de46e2a74d421b94c39f4a"
     },
     {
       "path": "scripts/compare_reproduction_assets.py",
@@ -4710,13 +4710,13 @@
     },
     {
       "path": "scripts/generate_report.py",
-      "size_bytes": 3309,
-      "sha256": "ae956cdf71e2e54e6aafad444c32fae7f56899dcf268cb945ab12b854b113451"
+      "size_bytes": 5079,
+      "sha256": "7651ac62de2cca748c9d53b2b278e352fa3f0abe4d336ed044f422cc539df650"
     },
     {
       "path": "scripts/generate_solar_report_from_bundle.py",
-      "size_bytes": 17593,
-      "sha256": "40e4d4b55425465f178875df9bae0a44210486b7486404a96d81f97e145eff8f"
+      "size_bytes": 17748,
+      "sha256": "b1419c95131761351eaf1a607089248975097406e3f3c5a76974882625385455"
     },
     {
       "path": "scripts/generate_targeted_revision_once.py",
@@ -4760,8 +4760,8 @@
     },
     {
       "path": "scripts/prepare_additional_analyses.py",
-      "size_bytes": 6458,
-      "sha256": "097c888006ebb3a9c822c6603e647e10d570ff0173d0770b4a55e03b609c80fa"
+      "size_bytes": 6598,
+      "sha256": "a49b289e9850f2d41cd866ee3180dcb291af3445736542fd8db916dff93b10e9"
     },
     {
       "path": "scripts/prepare_additional_structures.py",
@@ -4865,13 +4865,18 @@
     },
     {
       "path": "scripts/verify_harnesses_local_mock.py",
-      "size_bytes": 11853,
-      "sha256": "f94e6491f064b33df6fcd3e9cd1fefb4a731788ac939e89167efbf263f3757a0"
+      "size_bytes": 12008,
+      "sha256": "be096713ea233f1da5e1c9464a07d5fc7dd38f726b8bddab177997af8d07b74b"
     },
     {
       "path": "scripts/verify_preservation.py",
       "size_bytes": 1812,
       "sha256": "4adabd8ed4d4093c837aa1aa018849185ef8382127746cb5c49e6066b3b1f357"
+    },
+    {
+      "path": "scripts/verify_report_skill_request.py",
+      "size_bytes": 6936,
+      "sha256": "a550e2842ba91993f906e1020200e4f642fd6038c6c9c353e8b93d9103f49e31"
     },
     {
       "path": "scripts/verify_run.py",
@@ -4880,8 +4885,13 @@
     },
     {
       "path": "skill/SKILL.md",
-      "size_bytes": 13842,
-      "sha256": "bdf50f2f0dfbcde3f3240e3c13db816e27e59cc298a978fcdcf2951be038d310"
+      "size_bytes": 9297,
+      "sha256": "2bba3fa202410c59b80fbdd870fc935eaa857bc4ae1e4e04437c49a9f05b0417"
+    },
+    {
+      "path": "skill/report-writing/SKILL.md",
+      "size_bytes": 14506,
+      "sha256": "c861bf1130bf400fd89cde0df662f4d0ab27a1fff2612f4541fd477226a49b0b"
     },
     {
       "path": "tests/test_harness_request_guard.py",
@@ -4921,7 +4931,7 @@
     {
       "path": "validation/package-secret-audit-content.json",
       "size_bytes": 308,
-      "sha256": "8da2f804c2cb12afeef4e14098155083682ee8e40fe1aa9d8f18619921f5a888"
+      "sha256": "6be02c9fe0cd15ffb7349ab8ce908d06fae4c66e72768b37f44b9350493e4403"
     },
     {
       "path": "validation/privacy-redaction-log.json",
@@ -4934,6 +4944,26 @@
       "sha256": "b5ce920aaae61cd4f5be64359f5eec211047f8474561155d717a5e010d5c1ea1"
     },
     {
+      "path": "validation/report-writing-skill-request-offline-check-final-02.json",
+      "size_bytes": 1570,
+      "sha256": "95dcab0f0f49ef7a066589762e812ed83dd68213e111f8853cebddbd336a558e"
+    },
+    {
+      "path": "validation/report-writing-skill-request-offline-check-final-03.json",
+      "size_bytes": 1579,
+      "sha256": "cf37b053436581a1ca4507055f03cc854d3ae017d3efc30bd495ba4ceee0228c"
+    },
+    {
+      "path": "validation/report-writing-skill-request-offline-check-final.json",
+      "size_bytes": 1570,
+      "sha256": "0126d402e85de238cf814c38bf31af076b327af362b481c7a976854f3fdc26ff"
+    },
+    {
+      "path": "validation/report-writing-skill-request-offline-check.json",
+      "size_bytes": 1492,
+      "sha256": "713919bbc8fdb7e48fa563630e5a09bd3669d88dac54ff65e8f20ed170087e92"
+    },
+    {
       "path": "validation/reproducibility-preflight/benzocaine-identity.json",
       "size_bytes": 488,
       "sha256": "4aa044436f2af431f51fc389ff309b4c0f5f00dedb2cc631103a62a56b873f17"
@@ -4942,6 +4972,11 @@
       "path": "validation/reproducibility-preflight/pubchem.raw.json",
       "size_bytes": 238,
       "sha256": "b5ce920aaae61cd4f5be64359f5eec211047f8474561155d717a5e010d5c1ea1"
+    },
+    {
+      "path": "validation/skill-role-separation-check.json",
+      "size_bytes": 1708,
+      "sha256": "90251f05de009fa08be256b01112b275480d2bd6e0a1934a39d3228013b05ca6"
     },
     {
       "path": "validation/skill-unification-offline-check.json",

@@ -16,6 +16,8 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+# This validator is pinned to the preserved pre-role-split harness payload.
+# Its legacy skill path is historical test data, not a current report default.
 PAYLOAD = ROOT / "analyses" / "harness-comparison" / "comparison-input-payload.md"
 SYSTEM_PROMPT = ROOT / "analyses" / "harness-comparison" / "comparison-system-prompt.txt"
 MODEL = "solar-pro4-260806"

@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FILES = [
     "analyses/harness-comparison/comparison-system-prompt.txt",
-    "skill/SKILL.md",
+    "skill/report-writing/SKILL.md",
     "results/benzocaine-live-20261031-04/report-evidence.json",
     "results/benzocaine-live-20261031-04/validation_notes.json",
     "analyses/mopac/results-interpretation.md",
@@ -22,8 +22,8 @@ FILES = [
     "results/benzocaine-live-20261031-04/additional-analysis-status.json",
 ]
 TASK = "analyses/harness-comparison/comparison-task.md"
-OUT = "analyses/harness-comparison/comparison-input-payload.md"
-MANIFEST = "analyses/harness-comparison/comparison-input-payload-manifest.json"
+OUT = "analyses/harness-comparison/comparison-input-payload-report-writing-v1.md"
+MANIFEST = "analyses/harness-comparison/comparison-input-payload-report-writing-v1-manifest.json"
 
 
 def sha256(data: bytes) -> str:
@@ -48,6 +48,10 @@ def main() -> int:
     for relative in source_paths:
         raw = contents[relative]
         text = raw.decode("utf-8-sig").rstrip()
+        if relative == TASK:
+            # The source task is a preserved historical artifact; new payloads
+            # route its skill reference to the report-only Solar prompt.
+            text = text.replace("skill/synthesis_report_skill.md", "skill/report-writing/SKILL.md")
         chunks.extend([
             f"\n\n--- BEGIN SOURCE: {relative} ---\n".encode("utf-8"),
             text.encode("utf-8"),
@@ -64,7 +68,14 @@ def main() -> int:
     entries = []
     for relative in source_paths:
         data = contents[relative]
-        entries.append({"path": relative, "sha256": sha256(data), "bytes": len(data)})
+        rendered = data.decode("utf-8-sig").rstrip()
+        if relative == TASK:
+            rendered = rendered.replace("skill/synthesis_report_skill.md", "skill/report-writing/SKILL.md")
+        entry = {"path": relative, "sha256": sha256(data), "bytes": len(data),
+                 "rendered_payload_text_sha256": sha256(rendered.encode("utf-8"))}
+        if relative == TASK and rendered.encode("utf-8") != data.decode("utf-8-sig").rstrip().encode("utf-8"):
+            entry["payload_transform"] = "redirect historical skill path to skill/report-writing/SKILL.md; source task remains unchanged"
+        entries.append(entry)
     manifest = {
         "created_utc": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "payload_path": OUT,

@@ -15,6 +15,7 @@ def main():
     def invoke(cmd):subprocess.run(list(map(str,cmd)),cwd=ROOT,check=True)
     if a.attempt_id:
         if not a.execute_solar:p.error('Fresh authoring requires --execute-solar')
+        invoke([sys.executable,'-B',ROOT/'scripts/generate_report.py','--run-dir',a.run_dir,'--attempt-id',a.attempt_id,'--prepare-only'])
         invoke([sys.executable,'-B',ROOT/'scripts/generate_report.py','--run-dir',a.run_dir,'--attempt-id',a.attempt_id,'--execute-solar']);attempt=a.run_dir/'solar-attempts'/a.attempt_id
     else:attempt=a.reuse_attempt_dir
     status=load(attempt/'solar-status.json');raw=load(attempt/'solar-response.raw.json')

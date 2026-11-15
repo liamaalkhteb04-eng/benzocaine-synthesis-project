@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "scope": "Offline-only role/path/request/document hash verification; no Solar calls, chemical inference, installation, or report generation.",
+  "execution_skill_path": "skill/SKILL.md",
+  "execution_skill_sha256": "2bba3fa202410c59b80fbdd870fc935eaa857bc4ae1e4e04437c49a9f05b0417",
+  "report_writing_skill_path": "skill/report-writing/SKILL.md",
+  "report_writing_skill_sha256": "c861bf1130bf400fd89cde0df662f4d0ab27a1fff2612f4541fd477226a49b0b",
+  "default_report_mode": "full_report",
+  "targeted_revision_requires_explicit_request": true,
+  "solar_system_message_match_and_evidence_request_check": "validation/report-writing-skill-request-offline-check-final-03.json",
+  "historical_instructions_mixed_into_default_request": false,
+  "preserved_source_skill_hashes": {
+    "synthesis_report_skill-report-v1.md": true,
+    "targeted-benzocaine-section-revision-v1.md": true,
+    "synthesis_report_skill-harness-v1.md": true,
+    "targeted-report-sentence-cleanup-v1.md": true,
+    "SKILL-launcher-before-unification.md": true
+  },
+  "final_report_hashes_unchanged": {
+    "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx": "ee183773821f40e0b96a35086583e11b53189deb58ea8fbeaaf67c5465678e13",
+    "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.pdf": "2a6dde37ffd9a43d267b7825f11cc0a15686934af9c1ed98471e1e0dd8ae2b33"
+  },
+  "package_sample_20261031_04_source_mismatch_count": 4,
+  "sample_mismatch_status": "pre-existing; generic request preparation fails closed; no run files modified",
+  "solar_calls": 0,
+  "chemical_model_calls": 0,
+  "errors": []
+}

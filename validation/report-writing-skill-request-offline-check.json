@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Offline request construction only; no network request, Solar call, or chemical inference.",
+  "execution_skill_path": "skill\\SKILL.md",
+  "execution_skill_sha256": "7d67d827a837368e4647dd1fbb28af4c565bf3358656851b537eecf50a099ed9",
+  "report_writing_skill_path": "skill\\report-writing\\SKILL.md",
+  "report_writing_skill_sha256": "692971279a1e28dcddc3cd6844c4882d047ccc5f6fe1c1c0ed19ae127d2ab4fd",
+  "run_id": "benzocaine-live-20261031-04",
+  "source_hash_mismatch_count": 0,
+  "modes": {
+    "general_run": {
+      "prepared_request": true,
+      "system_message_exactly_matches_report_skill": true,
+      "target_evidence_in_user_message": true,
+      "source_hashes_validated_before_request": true,
+      "external_requests": 0
+    },
+    "evidence_bundle": {
+      "request_built_without_send": true,
+      "system_message_exactly_matches_report_skill": true,
+      "verified_evidence_blocks": [
+        "CURRENT_STATUS",
+        "EPI_RESULTS",
+        "EVIDENCE_CONFLICT_RESOLUTION",
+        "EVIDENCE_RUN_REPORT_EVIDENCE_JSON",
+        "HARNESS_BUDGET",
+        "HARNESS_COMPARISON_EVALUATION",
+        "HARNESS_TRIAL_STATUS",
+        "MOPAC_RESULTS",
+        "REPRODUCIBILITY_MANIFEST",
+        "VALIDATION_NOTES",
+        "VISUALIZER_ATOM_AND_SCREEN_INDEX",
+        "VISUALIZER_MEASUREMENTS",
+        "VISUALIZER_OBSERVATIONS"
+      ],
+      "historical_ab_or_targeted_task_instruction_in_system": false,
+      "external_requests": 0
+    }
+  }
+}

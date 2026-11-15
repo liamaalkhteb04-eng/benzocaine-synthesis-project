@@ -77,7 +77,8 @@ def build_user_content(report_dir: Path, evidence: dict, full_report_brief: Path
 
 def make_request(report_dir: Path, attempt: Path, full_report_brief: Path | None = None) -> tuple[dict, list[dict]]:
     evidence=load(report_dir/'evidence-run'/'report-evidence.json')
-    skill_path=ROOT/load(ROOT/'configs/report-plan.json').get('skill_path','skill/SKILL.md')
+    skill_path=ROOT/load(ROOT/'configs/report-plan.json').get('report_writing_skill_path','skill/report-writing/SKILL.md')
+    if not skill_path.is_file(): raise FileNotFoundError(f'Report-writing skill is missing: {skill_path.relative_to(ROOT)}')
     skill=skill_path.read_text(encoding='utf-8')
     user, sources=build_user_content(report_dir,evidence,full_report_brief)
     request={"model":MODEL_ID,"messages":[{"role":"system","content":skill},{"role":"user","content":user}],"temperature":0,"reasoning_effort":"none","max_tokens":REPORT_MAX_OUTPUT_TOKENS,"n":1,"stream":False}
