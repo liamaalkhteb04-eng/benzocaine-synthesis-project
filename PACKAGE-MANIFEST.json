@@ -11,7 +11,7 @@
   "latest_solar_actual_cost_including_vat_usd": 0.00040722,
   "cumulative_solar_actual_cost_usd": 0.96937284,
   "new_chemical_model_inference": false,
-  "package_secret_scan_status": "passed; package tree/index scan summary: validation/package-secret-audit-content.json; final post-manifest scan is recorded in the local submission validation folder",
+  "package_secret_scan_status": "passed; package tree/index scan summary: validation/acetaminophen-generalization-20261115.json; final post-manifest scan is recorded in the local submission validation folder",
   "excluded_from_package": [
     ".env",
     "API keys",
@@ -26,7 +26,7 @@
     "temporary page renderings"
   ],
   "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
-  "file_count": 1110,
+  "file_count": 1113,
   "files": [
     {
       "path": ".env.example",
@@ -50,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 28282,
-      "sha256": "c81ca15872e5b2267f3f3b8e213826f5e838bc5779a0fb3093f869849f579b2a"
+      "size_bytes": 30766,
+      "sha256": "aa8dc873178fe6ce6560494342270f250c34027b5564a9d7bfc90432c34edd9e"
     },
     {
       "path": "REPRODUCIBILITY-REVIEW.md",
@@ -5104,6 +5104,16 @@
       "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
+      "path": "scripts/__pycache__/_runtime.cpython-312.pyc",
+      "size_bytes": 10904,
+      "sha256": "41d824f0a54ad5693501179415d3476a111d7c87de73286105d5a5d1a77252a6"
+    },
+    {
+      "path": "scripts/__pycache__/audit_parrot_slots.cpython-312.pyc",
+      "size_bytes": 12231,
+      "sha256": "f50df8a9340e1608f7bcef8f45efc2b67dde93276a6e56e77fd2b2ce704fafc3"
+    },
+    {
       "path": "scripts/_parrot_worker.py",
       "size_bytes": 4534,
       "sha256": "27a059faba1154712a5f16b33fa90cf98506bd143b2e1485d72e6128c61653ed"
@@ -5135,8 +5145,8 @@
     },
     {
       "path": "scripts/audit_parrot_slots.py",
-      "size_bytes": 7444,
-      "sha256": "a870072e3f4ab1b8647d2a968df909171ac220cccb72801629d04e383ae7a252"
+      "size_bytes": 7895,
+      "sha256": "402e9a2edb408bf835153493db48ee683d5309f7a5137b891a69f7e2d1a8cc57"
     },
     {
       "path": "scripts/audit_secrets.py",
@@ -5285,8 +5295,8 @@
     },
     {
       "path": "scripts/prepare_target.py",
-      "size_bytes": 1828,
-      "sha256": "0d16a3ea3d829e77ed5327861270a1f59963d59d91074101c0bc34e7e1035ecf"
+      "size_bytes": 1877,
+      "sha256": "607309b9255485c08b8771afbf9e00178d8ff29bf7de727bfe3c27844a0d167f"
     },
     {
       "path": "scripts/prepare_targeted_solar_request.py",
@@ -5407,6 +5417,11 @@
       "path": "tests/test_step_graph.py",
       "size_bytes": 2202,
       "sha256": "524a13af4f37e5ddb333fbed0a146d65d247daff92120c1c91faae59911997c7"
+    },
+    {
+      "path": "validation/acetaminophen-generalization-20261115.json",
+      "size_bytes": 8016,
+      "sha256": "d1be075eec68a5a99091ba53844e64d55efd8ec994c55b253af8f1251de9bc97"
     },
     {
       "path": "validation/adapter-runtime-comparison-20261105.json",

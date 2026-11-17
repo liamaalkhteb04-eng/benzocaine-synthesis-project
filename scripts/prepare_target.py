@@ -17,7 +17,8 @@ def main():
     try:
         import json
         with urllib.request.urlopen(url,timeout=30) as r:raw=json.loads(r.read())
-        save(a.output.with_name('pubchem.raw.json'),raw)
+        raw_output = a.output.with_name(a.output.stem + '-pubchem.raw.json')
+        save(raw_output,raw)
         record=raw['PropertyTable']['Properties'][0];smi=record.get('ConnectivitySMILES',record.get('CanonicalSMILES',record.get('SMILES')))
         assert record['CID']==target['pubchem_cid'] and record['MolecularFormula']==formula
         assert Chem.MolToSmiles(Chem.MolFromSmiles(smi))==Chem.MolToSmiles(mol)

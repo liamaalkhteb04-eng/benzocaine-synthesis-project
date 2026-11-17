@@ -41,7 +41,7 @@ def verify_adapter_contract(adapter_path, parrot_source=None):
     return details, errors
 
 
-def verify_run(run_dir, adapter_path=None, parrot_source=None):
+def verify_run(run_dir, adapter_path=None, parrot_source=None, audit_benzocaine_route05=False):
     root = Path(run_dir)
     raw_path = root / "conditions-parrot.raw.json"
     norm_path = root / "conditions-parrot.json"
@@ -69,28 +69,30 @@ def verify_run(run_dir, adapter_path=None, parrot_source=None):
             for field in ("rank", *SLOTS, "sequence_score"):
                 if a.get(field) != b.get(field):
                     errors.append(f"{field} differs between raw and normalized for {key}, rank {a.get('rank')}")
-    target_reaction = "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1"
-    target_mapping = ("route-05", "step-02")
-    target = [row for row in raw_rows if row.get("reaction_smiles") == target_reaction
-              and target_mapping in [(x.get("route_id"), x.get("step_id")) for x in row.get("steps", [])]]
     resolved = None
-    if len(target) != 1:
-        errors.append(f"expected one route-05/step-02 exact reaction row, found {len(target)}")
-    else:
-        top = next((x for x in target[0].get("candidates", []) if x.get("rank") == 1), None)
-        expected = {"catalyst1": "", "solvent1": "CCO", "solvent2": "", "reagent1": "CCOCC", "reagent2": "FB(F)F"}
-        if top is None:
-            errors.append("route-05/step-02 rank-1 candidate missing")
+    if audit_benzocaine_route05:
+        target_reaction = "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1"
+        target_mapping = ("route-05", "step-02")
+        target = [row for row in raw_rows if row.get("reaction_smiles") == target_reaction
+                  and target_mapping in [(x.get("route_id"), x.get("step_id")) for x in row.get("steps", [])]]
+        if len(target) != 1:
+            errors.append(f"expected one route-05/step-02 exact reaction row, found {len(target)}")
         else:
-            resolved = {"reaction_smiles": target_reaction, "steps": target[0].get("steps"),
-                        "rank": top.get("rank"), "sequence_score": top.get("sequence_score"),
-                        **{slot: top.get(slot) for slot in SLOTS}}
-            for field, value in expected.items():
-                if top.get(field) != value:
-                    errors.append(f"rank-1 {field} expected {value!r}, got {top.get(field)!r}")
+            top = next((x for x in target[0].get("candidates", []) if x.get("rank") == 1), None)
+            expected = {"catalyst1": "", "solvent1": "CCO", "solvent2": "", "reagent1": "CCOCC", "reagent2": "FB(F)F"}
+            if top is None:
+                errors.append("route-05/step-02 rank-1 candidate missing")
+            else:
+                resolved = {"reaction_smiles": target_reaction, "steps": target[0].get("steps"),
+                            "rank": top.get("rank"), "sequence_score": top.get("sequence_score"),
+                            **{slot: top.get(slot) for slot in SLOTS}}
+                for field, value in expected.items():
+                    if top.get(field) != value:
+                        errors.append(f"rank-1 {field} expected {value!r}, got {top.get(field)!r}")
     contract, contract_errors = verify_adapter_contract(adapter_path or Path(__file__).with_name("_parrot_worker.py"), parrot_source)
     errors.extend(contract_errors)
     return {"status": "passed" if not errors else "failed", "errors": errors, "slot_contract": contract,
+            "target_specific_check": "benzocaine_route05" if audit_benzocaine_route05 else None,
             "raw_sha256": __import__("hashlib").sha256(raw_path.read_bytes()).hexdigest(),
             "normalized_sha256": __import__("hashlib").sha256(norm_path.read_bytes()).hexdigest(),
             "route05_step02_rank1": resolved, "compared_candidate_count": sum(len(r.get("candidates", [])) for r in raw_rows)}
@@ -124,9 +126,11 @@ def main():
     parser.add_argument("--parrot-source", type=Path)
     parser.add_argument("--adapter", type=Path)
     parser.add_argument("--report", type=Path)
+    parser.add_argument("--audit-benzocaine-route05", action="store_true",
+                        help="also require the historical benzocaine route-05/step-02 rank-1 slot assignment")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
-    result = verify_run(args.run_dir, args.adapter, args.parrot_source)
+    result = verify_run(args.run_dir, args.adapter, args.parrot_source, args.audit_benzocaine_route05)
     if args.report:
         text = args.report.read_text(encoding="utf-8")
         report_errors = audit_report_slots(text)

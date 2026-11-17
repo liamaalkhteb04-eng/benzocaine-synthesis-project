@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "validation_type": "saved results from a different-molecule run on the existing PC; not a new-PC reproduction test",
+  "source_github_commit": "cb6b6039cde81471f959bddbf7796bae3c6faf9e",
+  "run_id": "acetaminophen-live-20261115-01",
+  "target": {
+    "target_id": "acetaminophen",
+    "name": "Acetaminophen",
+    "name_ko": "아세트아미노펜",
+    "smiles": "CC(=O)Nc1ccc(O)cc1",
+    "canonical_smiles": "CC(=O)Nc1ccc(O)cc1",
+    "formula": "C8H9NO2",
+    "formal_charge": 0,
+    "pubchem_cid": 1983,
+    "identity_status": "matched"
+  },
+  "actual_model_results": {
+    "aizynthfinder": {
+      "status": "success",
+      "inference_executed": true,
+      "route_count": 12,
+      "step_count": 16,
+      "raw_output": "routes.raw.json",
+      "normalized_output": "routes.json"
+    },
+    "parrot": {
+      "status": "success",
+      "inference_executed": true,
+      "unique_reaction_rows": 14,
+      "route_step_mappings": 16,
+      "raw_output": "conditions-parrot.raw.json",
+      "normalized_output": "conditions-parrot.json"
+    },
+    "yield_bert_rxn_yields": {
+      "status": "success",
+      "inference_executed": true,
+      "step_predictions": 16,
+      "predicted_range_percent": [
+        64.83,
+        83.47
+      ],
+      "reaction_conditions_in_model_input": false,
+      "raw_output": "yields-rxn_yields.raw.json",
+      "normalized_output": "yields-rxn_yields.json"
+    }
+  },
+  "structure_and_route_figures": {
+    "status": "passed",
+    "route_step_figures": 16,
+    "step_condition_yield_join_validation": "passed",
+    "output_integrity_validation": "passed",
+    "scope": "structural and provenance checks only; not chemical feasibility or experimental accuracy"
+  },
+  "preflight": {
+    "status": "passed",
+    "model_calls": 0,
+    "asset_lock_sha256": "072e741822c8360ed6c0b288c98100aba2080ce182ec456eed2d51032c1cd458"
+  },
+  "parrot_audits": {
+    "acetaminophen": {
+      "status": "passed",
+      "target_specific_check": null,
+      "candidate_records_compared": 210,
+      "raw_sha256": "92893134605465760455e2e6c391ea29cbbfd0f9005a28b2c3b181cac531fb36",
+      "normalized_sha256": "bc5e95e404cdadbeb61edf1aad0b36227deb7e7f6740f9fda192f744353809a7"
+    },
+    "benzocaine": {
+      "status": "passed",
+      "target_specific_check": "benzocaine_route05",
+      "candidate_records_compared": 210,
+      "raw_sha256": "6ad0fbf86b3e9dbbd71700e8e3e8ab2785c9494c1d49177a78f01e760c5397a6",
+      "normalized_sha256": "daf7e2cfb1cac0f33b9884ba3995cdc093c6f6bae0b426fc3ee993b2cb3c4fd8",
+      "route05_step02_rank1": {
+        "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+        "steps": [
+          {
+            "route_id": "route-05",
+            "step_id": "step-02"
+          },
+          {
+            "route_id": "route-06",
+            "step_id": "step-02"
+          },
+          {
+            "route_id": "route-07",
+            "step_id": "step-02"
+          },
+          {
+            "route_id": "route-08",
+            "step_id": "step-02"
+          },
+          {
+            "route_id": "route-09",
+            "step_id": "step-02"
+          }
+        ],
+        "rank": 1,
+        "sequence_score": -2.1754837036132812,
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F"
+      }
+    }
+  },
+  "code_fixes_in_this_commit": {
+    "scripts/prepare_target.py": {
+      "source_sha256": "607309b9255485c08b8771afbf9e00178d8ff29bf7de727bfe3c27844a0d167f",
+      "change": "PubChem raw response filename now includes the output stem, avoiding collisions between target identity checks."
+    },
+    "scripts/audit_parrot_slots.py": {
+      "source_sha256": "402e9a2edb408bf835153493db48ee683d5309f7a5137b891a69f7e2d1a8cc57",
+      "change": "Generic raw/normalized slot integrity runs by default; the Benzocaine route-05/step-02 rank-1 assertion is opt-in via --audit-benzocaine-route05."
+    }
+  },
+  "raw_artifact_sha256": {
+    "routes.raw.json": "cc8c686b485f7429f94982d4c39d70b193f9d3f6756165145988d1f324599f27",
+    "conditions-parrot.raw.json": "92893134605465760455e2e6c391ea29cbbfd0f9005a28b2c3b181cac531fb36",
+    "yields-rxn_yields.raw.json": "ca679ff1f71ee459d42c6de302edb9716cb8a42be669408094c9361876d7eb19",
+    "routes.json": "c1feacdf8866b200b04678692e7fd44b77680763177c5a858bee08741accbb0b",
+    "conditions-parrot.json": "bc5e95e404cdadbeb61edf1aad0b36227deb7e7f6740f9fda192f744353809a7",
+    "yields-rxn_yields.json": "e87541663aea62e4d76e843b9d216182d31cd58673f41189afd7c6a280371f14",
+    "report-evidence.json": "49585bcf3c0006f71ec22238309bc72bf64347c1a807bc232b32b6558a63c7a3",
+    "manifest.json": "25e70300a06b76c907d12500b4be20397ad8b2f7e75b5e737d4a87ba1f0f63f1",
+    "step-validation.json": "9ca3297e5f095904f739465abd39b5200df6991b7af6f49bf21d1098ddfc6e01",
+    "verification.json": "71b5a15e3e77dc78ada705f1869406606648ffdd77a4a1f79390888ca4fd3b6f",
+    "figures/manifest.json": "94afc554ba044ce427d29a514e915214fcb8cc11704875aa09aa977df9947f4f"
+  },
+  "raw_outputs_in_this_repository": false,
+  "raw_output_note": "Raw prediction payloads and full local logs remain in the separate validation workspace. Only these file names and hashes are published because the run logs contain machine-specific runtime paths.",
+  "solar_report_preparation": {
+    "status": "prepared_not_executed",
+    "attempt_id": "acetaminophen-report-prepare-20261115-03",
+    "model": "solar-pro4-260806",
+    "report_skill_sha256": "c861bf1130bf400fd89cde0df662f4d0ab27a1fff2612f4541fd477226a49b0b",
+    "request_sha256": "0d8112c9bd620e140a2a791733fd77c18e29d310e2b26539b26ba44afaa5b499",
+    "api_call_executed": false,
+    "report_created": false
+  },
+  "additional_analyses": {
+    "mopac": "not_implemented",
+    "epi_suite": "not_implemented",
+    "discovery_studio_visualizer": "not_implemented",
+    "harness_comparison": "not_implemented"
+  },
+  "initial_failures_and_corrections": [
+    {
+      "issue": "First identity check hit FileExistsError because pubchem.raw.json was shared across targets.",
+      "result": "Failure preserved locally; target-specific output name fix verified by the successful identity check."
+    },
+    {
+      "issue": "Generic Parrot auditor required a Benzocaine-only reaction.",
+      "result": "Generic validation and the separately enabled Benzocaine regression both pass."
+    },
+    {
+      "issue": "An intermediate request file was malformed during local editing.",
+      "result": "Source script restored from the source commit; README preparation produced a correct request. No Solar API call occurred. This was not an upstream source defect."
+    }
+  ],
+  "local_paths_or_secrets_in_this_public_record": "none; checked before commit",
+  "new_inference_during_current_package_update": false,
+  "public_package_review": {
+    "secret_scanner_status": "passed; 0 detected findings in package tree and current Git index",
+    "scan_counts": {
+      "package_tree_files": 1115,
+      "package_tree_bytes": 35426139,
+      "git_index_files": 1112,
+      "git_index_bytes": 35393031
+    },
+    "known_secret_value_exact_match": "not run because no local .env or credential value was supplied to the scanner; values were not printed",
+    "new_material_absolute_user_path_scan": "passed; no user-specific absolute path or credential pattern in the new README section, code patches, or this record",
+    "preexisting_historical_path_markers": {
+      "tracked_files_with_user_path_markers": 72,
+      "modified_by_this_change": false,
+      "note": "These are pre-existing Benzocaine/runtime provenance files. The raw results and report were preserved; no new raw model payload with machine paths was added."
+    },
+    "history_scan": "not performed by audit_secrets.py; current index and worktree only"
+  }
+}

@@ -22,6 +22,16 @@ The historical `benzocaine-live-20261031-04` run and its original execution mani
 The report request builders and configured skill paths are `configs/report-plan.json`, `scripts/generate_report.py`, and `scripts/generate_solar_report_from_bundle.py`. Model outputs are not verified merely because a request or document was generated. Exact Solar skill inclusion, actual evidence blocks, and isolation from historical task instructions are covered by [`validation/report-writing-skill-request-offline-check-final-03.json`](validation/report-writing-skill-request-offline-check-final-03.json), [`validation/public-curated-request-offline-20261115.json`](validation/public-curated-request-offline-20261115.json), and [`validation/skill-role-separation-check.json`](validation/skill-role-separation-check.json); they do not evaluate Solar response quality.
 
 
+## Independent target validation: acetaminophen (2026-11-15)
+
+The submission entry point was exercised with a separate acetaminophen input on the existing PC, using the existing model runtimes and weights. This is a different-molecule run on that computer; it is not a clean-PC installation/reproduction test. The target identity was checked against PubChem and RDKit (SMILES `CC(=O)Nc1ccc(O)cc1`, formula `C8H9NO2`, CID 1983).
+
+AiZynthFinder completed and returned 12 route predictions (16 steps). Parrot completed 14 unique reaction rows mapped to 16 route steps. Yield-BERT completed 16 step predictions; its model input did not include reaction conditions. The structural, route/step join, and artifact-integrity checks passed. These outputs do not establish chemical feasibility or experimental accuracy. Per-target MOPAC, EPI Suite, Discovery Studio Visualizer, and harness comparison remain `not_implemented`.
+
+The redacted public verification summary, run ID, model statuses, output checksums, and test scope are in [`validation/acetaminophen-generalization-20261115.json`](validation/acetaminophen-generalization-20261115.json). Raw prediction payloads and machine-specific logs are not bundled; they remain in the separate local validation workspace. The source run used existing runtime/model assets whose local paths point into the separate Aspirin test installation; no Aspirin or Benzocaine prediction results were used for this target. The Parrot general slot check passed, and the Benzocaine route-05/step-02 regression passed only when explicitly enabled. The generalization corrections are in `scripts/prepare_target.py` and `scripts/audit_parrot_slots.py`.
+
+The Solar report request was prepared with the report-writing skill and recorded as `prepared_not_executed`; no Solar call or DOCX/PDF generation occurred for acetaminophen. The report-writing configuration remains disabled by default. The prior Benzocaine report and raw results are unchanged.
+
 ## Current verified Benzocaine release (2026-11-15)
 
 The current report is [PDF](reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.pdf) and [DOCX](reports/benzocaine-page-layout-and-instruction-cleanup-20261115/벤조카인_AI유기합성_최종보고서.docx). Each is 19 pages. Microsoft Word 16.0 generated the PDF from the DOCX. The final copy preserves the prior scientific content, figures, analyses and conclusions; only two Solar-authored sentence replacements, the D10 evidence-path correction, table layout, and display rounding of four yield cells were applied. In this curated public copy, references to excluded course/literature PDFs point to source-acquisition notes; no scientific content was changed. Raw model outputs and unrounded values remain in the evidence bundle.
@@ -84,6 +94,8 @@ py -3.13 -B -X utf8 scripts/prepare_target.py `
   --input "inputs/$targetId.json" `
   --output "validation/$targetId-identity.json"
 ```
+
+The PubChem raw response is stored beside the identity record using its output stem (for example, `my-compound-identity-pubchem.raw.json`), so validating multiple targets does not overwrite a shared `pubchem.raw.json`.
 
 `prepare_target.py` validates SMILES/formula with RDKit and makes a PubChem PUG REST identity request. This is an identity check, not synthesis inference.
 
