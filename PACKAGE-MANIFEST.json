@@ -26,7 +26,7 @@
     "temporary page renderings"
   ],
   "manifest_scope": "All packaged regular files except this manifest and its SHA-256 sidecar are listed and hashed.",
-  "file_count": 1113,
+  "file_count": 1111,
   "files": [
     {
       "path": ".env.example",
@@ -50,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 30766,
-      "sha256": "aa8dc873178fe6ce6560494342270f250c34027b5564a9d7bfc90432c34edd9e"
+      "size_bytes": 30475,
+      "sha256": "73666ad8b4d7129fb7f15ee1b336cab49c950e4078407e12176b6bbbbd723cad"
     },
     {
       "path": "REPRODUCIBILITY-REVIEW.md",
@@ -5104,16 +5104,6 @@
       "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
     },
     {
-      "path": "scripts/__pycache__/_runtime.cpython-312.pyc",
-      "size_bytes": 10904,
-      "sha256": "41d824f0a54ad5693501179415d3476a111d7c87de73286105d5a5d1a77252a6"
-    },
-    {
-      "path": "scripts/__pycache__/audit_parrot_slots.cpython-312.pyc",
-      "size_bytes": 12231,
-      "sha256": "f50df8a9340e1608f7bcef8f45efc2b67dde93276a6e56e77fd2b2ce704fafc3"
-    },
-    {
       "path": "scripts/_parrot_worker.py",
       "size_bytes": 4534,
       "sha256": "27a059faba1154712a5f16b33fa90cf98506bd143b2e1485d72e6128c61653ed"
@@ -5420,8 +5410,8 @@
     },
     {
       "path": "validation/acetaminophen-generalization-20261115.json",
-      "size_bytes": 8016,
-      "sha256": "d1be075eec68a5a99091ba53844e64d55efd8ec994c55b253af8f1251de9bc97"
+      "size_bytes": 7836,
+      "sha256": "6b32a4d1cf7756a910e08d0ed465257b6b683471b58b43cba607d3e76261e5f8"
     },
     {
       "path": "validation/adapter-runtime-comparison-20261105.json",
