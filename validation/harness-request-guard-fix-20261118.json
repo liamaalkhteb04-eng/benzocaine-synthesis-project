@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "date": "2026-11-18",
+  "change": {
+    "file": "scripts/harness_request_guard.py",
+    "scope": "Handler metadata now reads reserved_max_cost_usd_including_vat from its configured UsageLedger.",
+    "request_limit_rules_changed": false,
+    "retry_policy_changed": false,
+    "budget_policy_changed": false
+  },
+  "tests": {
+    "harness_request_guard": {
+      "status": "passed",
+      "passed": 5,
+      "total": 5,
+      "environment": "existing system Python 3.13.7",
+      "execution": "loopback-only mock upstream; dummy test credential never sent to external service",
+      "assertions": [
+        "normal success response",
+        "oversized request rejected without consuming a slot",
+        "output over cap rejected",
+        "missing key rejected without reservation",
+        "two total posts and retry/restart blocked",
+        "reserved cost recorded in response metadata as USD 0.132 including VAT"
+      ]
+    },
+    "step_graph": {
+      "status": "passed",
+      "passed": 4,
+      "total": 4,
+      "environment": "existing system Python 3.13.7 with RDKit 2026.03.2"
+    },
+    "report_renderer": {
+      "status": "passed",
+      "passed": 4,
+      "total": 4,
+      "environment": "existing report-validation virtual environment"
+    }
+  },
+  "external_calls": {
+    "solar_api": 0,
+    "chemistry_models": 0,
+    "network": 0
+  },
+  "environment_note": "A full unittest discovery run in one interpreter is not claimed because the existing report environment lacks RDKit and the existing system interpreter lacks markdown_it. Relevant test groups were run separately in available existing environments; no installation or environment change was made.",
+  "preservation": {
+    "final_benzocaine_pdf_docx_modified": false,
+    "historical_skill_or_execution_records_modified": false
+  }
+}

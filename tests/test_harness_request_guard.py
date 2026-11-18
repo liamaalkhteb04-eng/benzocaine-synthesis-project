@@ -126,6 +126,7 @@ class RequestGuardMockTests(unittest.TestCase):
         meta_files = list((self.root / "runs").rglob("metadata.json"))
         for meta_file in meta_files:
             meta = json.loads(meta_file.read_text(encoding="utf-8"))
+            self.assertEqual(meta["reserved_max_cost_usd_including_vat"], 0.132)
             removed = meta["request_controls"]["removed_unsupported_request_fields"]
             self.assertIn("store", removed)
             self.assertIn("unrecognized_vendor_field", removed)
@@ -186,6 +187,9 @@ class RequestGuardMockTests(unittest.TestCase):
         status, _ = post_json(url, request_body())
         self.assertEqual(status, 200)
         self.assertEqual(len(self.mock.received), 1)
+        metadata = next((self.root / "runs").rglob("metadata.json"))
+        meta = json.loads(metadata.read_text(encoding="utf-8"))
+        self.assertEqual(meta["reserved_max_cost_usd_including_vat"], 0.132)
 
     def test_output_over_cap_rejected_without_upstream(self):
         url = self.start_guard("pi")

@@ -365,7 +365,9 @@ class GuardHandler(BaseHTTPRequestHandler):
             "input_utf8_bytes": content_bytes,
             "serialized_request_bytes": len(request_bytes),
             "request_controls": {"upstream_posts_total_max": self.config["max_total_posts"], "upstream_posts_this_harness_max": self.config["max_per_harness"], "cumulative_budget_usd": self.config["cumulative_budget_usd"], "max_input_tokens_estimate": MAX_INPUT_TOKENS, "max_output_tokens": MAX_OUTPUT_TOKENS, "temperature": 0, "reasoning_effort": "none", "tools": "disabled", "retries_to_upstream": 0, "removed_unsupported_request_fields": removed_fields},
-            "reserved_max_cost_usd_including_vat": round(self.reserved_max_cost_usd_including_vat, 8),
+            "reserved_max_cost_usd_including_vat": round(
+                self.config["ledger"].reserved_max_cost_usd_including_vat, 8
+            ),
             "transport_error_type": error,
             "api_key_logged": False,
             "auto_retry": False,
