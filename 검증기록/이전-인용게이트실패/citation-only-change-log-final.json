@@ -1,11 +1,11 @@
 {
   "status": "citation_only_edit",
   "solar_response_preserved": true,
-  "solar_response_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\solar-call\\solar-response.raw.json",
+  "solar_response_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\solar-call\\solar-response.raw.json",
   "solar_response_sha256": "9fe906589a8550cc73e5ec7949703aa31528e9b3934f3924e8712a7d781ac348",
-  "source_candidate": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\solar-merged-recomputed.md",
+  "source_candidate": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\solar-merged-recomputed.md",
   "source_candidate_sha256": "c1b21525c8a8073484ec9fca6dc8d54490915eae2fcacb88f48f34f067fb42a2",
-  "edited_report": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\report.md",
+  "edited_report": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-citation-corrected-final-20261115\\report.md",
   "edited_report_sha256": "600887eb427406c7f33e925898eea79a040ee8f6647d2906177213d244438dff",
   "changes": [
     {

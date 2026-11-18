@@ -10,7 +10,7 @@ KOREAN_PREDICTION='\uC608\uCE21'
 KOREAN_EXPERIMENT='\uC2E4\uD5D8'
 KOREAN_EVIDENCE='\uC99D\uAC70 \uC790\uB8CC'
 
-def check_content(text, evidence):
+def check_content(text, evidence, citation_source_map_path=None):
     tokens=MarkdownIt('commonmark').enable('table').parse(text)
     images=[]; tables=[]; i=0
     while i<len(tokens):
@@ -57,7 +57,12 @@ def check_content(text, evidence):
     if '[D1]' not in text or '[D7]' not in text or '[D8]' not in text or 'reproducibility-manifest.json' not in text or 'Project evidence files' not in text and KOREAN_EVIDENCE not in text and '\uD504\uB85C\uC81D\uD2B8 \uC99D\uAC70 \uD30C\uC77C' not in text:
         errors.append('Project evidence citations and evidence-file list are incomplete')
     if any(word in text.lower() for word in ['[insert ', 'todo:', 'write the complete final project report']) or re.search(r'\?{2,}',text): errors.append('Drafting instruction or placeholder exposed')
-    source_map_path=Path(__file__).resolve().parent.parent/'configs'/'citation-source-map.json'
+    # Citation numbering can differ between report revisions. Prefer the map
+    # shipped with the report/run being validated; use the project default
+    # only when no report-specific map is available.
+    source_map_path = Path(citation_source_map_path) if citation_source_map_path else None
+    if source_map_path is None or not source_map_path.is_file():
+        source_map_path=Path(__file__).resolve().parent.parent/'configs'/'citation-source-map.json'
     citation_result=audit_citations(text,None,json.loads(source_map_path.read_text(encoding='utf-8')))
     errors.extend('Citation audit: '+item for item in citation_result['errors'])
     return {'status':'passed' if not errors else 'failed','errors':errors,'image_count':len(images),'required_image_count':len(required),'table_count':len(tables),'yield_table_count':len(yield_tables),'citation_audit':citation_result}

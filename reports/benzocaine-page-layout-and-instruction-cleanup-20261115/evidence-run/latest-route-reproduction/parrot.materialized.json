@@ -9,7 +9,7 @@
     "num_train_epochs": 100,
     "pretrained_path": "./outputs/Parrot_train_in_USPTO_Condition",
     "output_dir": "./out/Parrot_train_in_USPTO_Condition_enhance",
-    "best_model_dir": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance",
+    "best_model_dir": "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance",
     "overwrite_output_dir": true,
     "regression": false,
     "thread_count": 8,

@@ -26,7 +26,7 @@
                                                                     "HKCU":  "no_matching_entry"
                                                                 },
                                          "process_check":  "no_Discovery_Studio_or_Visualizer_process_running",
-                                         "installer_file":  "C:\\Users\\Abdo\\Downloads\\BIOVIA_DS2025Client.exe",
+                                         "installer_file":  "${PROJECT_ROOT}\\Downloads\\BIOVIA_DS2025Client.exe",
                                          "installer_verification":  "analyses/visualizer/installer-verification.json; official Windows DS Visualizer Client URL, product metadata, and Authenticode checked",
                                          "expected_install_directory_check":  "no_matching_BIOVIA_Discovery_Visualizer_directory_found_under_checked_Program_Files_and_user_program_roots",
                                          "gui_access":  "unavailable_in_this_session",

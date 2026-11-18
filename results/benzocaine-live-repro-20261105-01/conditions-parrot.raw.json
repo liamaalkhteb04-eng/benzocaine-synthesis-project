@@ -2139,7 +2139,7 @@
       "yield_percent": null
     }
   ],
-  "checkpoint": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance",
+  "checkpoint": "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance",
   "checkpoint_sha256": "f226fcea2f9bbb510e9a2053991f50374fd3a2427391bdc0b4c7e0b59974f816",
   "label_mapping_source": "trained checkpoint config.json; no synthesized labels",
   "label_mapping_config_sha256": "8c5bf2b88086ae435cfb6fe276eaf1802bdd46fe97da18310abcd85f94101091",

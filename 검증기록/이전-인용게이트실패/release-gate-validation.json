@@ -22,7 +22,7 @@
     "baseline_source_citation_audit_sha256": "51b527c9906a3065299a8392bc5457774ed4c4b6d2848045bac944f012cb6f59"
   },
   "existing_report_unchanged": true,
-  "candidate_retained_unaccepted": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\unvalidated-candidate-report.md",
+  "candidate_retained_unaccepted": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\unvalidated-candidate-report.md",
   "candidate_sha256": "c1b21525c8a8073484ec9fca6dc8d54490915eae2fcacb88f48f34f067fb42a2",
   "docx_created": false,
   "pdf_created": false,

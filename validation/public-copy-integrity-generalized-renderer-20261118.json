@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "date_utc": "2026-11-18",
+  "personal_workstation_root_scan": {
+    "status": "passed",
+    "matched_files": [],
+    "matched_occurrences": 0,
+    "method": "Recursive text scan for the local workstation user-profile root in raw and JSON-escaped forms (up to 32 escape levels); UTF-8 and UTF-16 text."
+  },
+  "secret_scan": "validation/package-secret-audit-generalized-renderer-final2-20261118.json",
+  "public_copy_redaction_provenance": "validation/privacy-redaction-log-20261118.json",
+  "historical_execution_hashes": "Original execution-time hashes are retained in their source records; public sanitized derivatives are mapped by prior Git blob SHA-256 and public-copy SHA-256 in the redaction log. No scientific result or report body was redacted.",
+  "final_benzocaine_report_sha256": {
+    "벤조카인_AI유기합성_최종보고서.docx": "ee183773821f40e0b96a35086583e11b53189deb58ea8fbeaaf67c5465678e13",
+    "벤조카인_AI유기합성_최종보고서.pdf": "2a6dde37ffd9a43d267b7825f11cc0a15686934af9c1ed98471e1e0dd8ae2b33"
+  },
+  "note": "Benzocaine final DOCX/PDF were read-only inputs to regression validation and remain byte-identical to the previously recorded release."
+}

@@ -1,0 +1,536 @@
+{
+  "date_utc": "2026-11-18",
+  "source_commit": "HEAD immediately before this public-copy change",
+  "operation": "public-copy-only workstation-path anonymization",
+  "replacement": "workstation root replaced with ${PROJECT_ROOT}, including nested JSON-escaped forms",
+  "changed_file_count": 75,
+  "personal_root_occurrences_replaced": 712,
+  "files": [
+    {
+      "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_runs/local-opencode-mock-01/request.redacted.json",
+      "prior_git_head_sha256": "b41eae5b148d51468b70e6dca29f823290ed9fe6a661a9587085bb1aa9bd1543",
+      "public_copy_sha256": "12d15a4e3821df1117f75e020198cac987ca6d5f9259d7dcf1ba52d7b8516075",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "analyses/harness-comparison/local-harness-verification-02/temporary_guard_runs/local-pi-mock-01/request.redacted.json",
+      "prior_git_head_sha256": "933ddaaec4b606906443a695c462aef96927b285731c9b3833b8098e775ba215",
+      "public_copy_sha256": "addb5c63c54cc5eb79a612637d95617f75498ee5e1e542f18aa1f00e7534f19f",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "analyses/harness-comparison/local-harness-verification/opencode.request.json",
+      "prior_git_head_sha256": "95fa0e09a20ad044c88fa88cb88c2f71fc7f195514644292e7f4b6cfab141ced",
+      "public_copy_sha256": "bb59e3afd05149cd1e8391eb26b907ecdb5b717e1bd9142f21bf341559087db7",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "analyses/harness-comparison/local-harness-verification/pi.request.json",
+      "prior_git_head_sha256": "c2adae4eebdda3cf9599895762e8a7ef342ea6ebf1b2ceb3e16d2a8633acab37",
+      "public_copy_sha256": "d8688ae7ef42791ee2ecf6045d1373a6468452e87baa23de21d0d37eebd05f92",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "analyses/visualizer/installation-status.json",
+      "prior_git_head_sha256": "ff2827ab9773205abf31afc6df15b681198f45e1a758088572ecb8ff5ff95819",
+      "public_copy_sha256": "b0d9d2eee9a05e5130c54b851cc91ceb4603956702357bbe26b29425813feecc",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "analyses/visualizer/installer-verification.json",
+      "prior_git_head_sha256": "8805378b2d50f1597899b2ab002a3a391278e18068a4c4aebdea271df7fa8fb8",
+      "public_copy_sha256": "2aa1d03d8a175a080d6dbd9fe329ee434e01c315a94b828eef85b1f52c69112a",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/docx-export.json",
+      "prior_git_head_sha256": "a84b5ba83f6a6d18a0a8476671ce8228d2659e0ca442e27884683f3f6ef206dc",
+      "public_copy_sha256": "94077b006c606f933af179af90adec376f2cd49dfcaaca44ee4407fa32fe7e69",
+      "personal_root_occurrences_replaced": 10,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/aizynthfinder.materialized.json",
+      "prior_git_head_sha256": "c9299bde08b4797523f1a9dbe5f33d9b345e29d1a995639de1e040a274053a25",
+      "public_copy_sha256": "4e363493c50f13a3ca91ba35e695baec1c28dcda115975d1102a444831bfa644",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/conditions-parrot.json",
+      "prior_git_head_sha256": "5e66fb49be11cbe60128ab1b656c90346b21db3fe94a40484ec9d5f98ee4b2db",
+      "public_copy_sha256": "c99bd39b29d222732ee39b37088705fb2f1da81d08db98fef4f175842196ab3c",
+      "personal_root_occurrences_replaced": 12,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/conditions-parrot.log",
+      "prior_git_head_sha256": "756a1821c71787ed33c9ac6813287b8a74110e7897c3c77da4f227af0f5bb382",
+      "public_copy_sha256": "f02435c3b260bf4f8112bdf2e87d6ab99a2104fd9663f9a57f784dad978e305b",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/conditions-parrot.raw.json",
+      "prior_git_head_sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc",
+      "public_copy_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/figures/manifest.json",
+      "prior_git_head_sha256": "482278fed77c877c0dc7278530266a1cf0ee08f044e2622d835083ff94c40210",
+      "public_copy_sha256": "8042ab2b6c1e2ddfa81e71b1f59c056773489a88635d9af056467b473b0aa270",
+      "personal_root_occurrences_replaced": 20,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/manifest.json",
+      "prior_git_head_sha256": "f683217c56b18a3e33b25d4af48a76ac822ec4effb946cf27e74e3704657ccc4",
+      "public_copy_sha256": "ccc3253f398e2796ac4b4c92bbc108d3cbf1803258531b7f80a6568ad9f71426",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/parrot.materialized.json",
+      "prior_git_head_sha256": "23137409f5576a8ebac5b1be9be06446e3df6e1904acec86aa8847f8a3d47347",
+      "public_copy_sha256": "f788b531a477d85e644260392537db41b904db11bf0aecba46eaa66f7b36c486",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/pipeline.log",
+      "prior_git_head_sha256": "894631295287486375570622fca2ccb8f442fbe5b64295b76b43854a0c99d2da",
+      "public_copy_sha256": "d53d79e2df91410a63c4de80e03091c97da2576caeae4e13aa5627e6d1a8eac4",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/report-evidence.json",
+      "prior_git_head_sha256": "4ff171a984a82a58e9beef6f7de18760fc2f4945be2bfaf1f8411aa9b2cd0cd7",
+      "public_copy_sha256": "d3b8bda12ad5bf26516bdf66394df6b024a464a36d7e0ffea72e553c09e0ee3c",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.json",
+      "prior_git_head_sha256": "d35ea3dd88a9a4e0df397f3db90826e1aa5d5eb30e5fef77cebfb0dc28cce379",
+      "public_copy_sha256": "2e8b962bbab67f6d74f3b6f326a71f03834c189e032df78df929013e8ede2e7e",
+      "personal_root_occurrences_replaced": 16,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/routes.log",
+      "prior_git_head_sha256": "99ac511f20358499b1954ed8225b935400c7972cfb6a01aca7ed3cb212fafc81",
+      "public_copy_sha256": "e9f23fcb144df01bb8d8ddb526592ab784b1ab49c6639465f7cc379ad9e3aa16",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/rxn_yields.runtime.materialized.json",
+      "prior_git_head_sha256": "fd6ad466e85b47be33c8bb3e7bd1c617f519689bdb0073191ddd39e96cddb66c",
+      "public_copy_sha256": "0837d99c8e26a349369e252dfd179d9fcdd2ea080c378595213d39bf97ca4b08",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/yields-rxn_yields.json",
+      "prior_git_head_sha256": "a650c57b34a3d336b172fe38d0b729c028fabe91782663e8d565909c0171b51e",
+      "public_copy_sha256": "6fd9924ad811f15f49dec91f6d86c682fdd98bc42a9a9cf6392e1f1c7dba5f70",
+      "personal_root_occurrences_replaced": 9,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/yields-rxn_yields.log",
+      "prior_git_head_sha256": "1eb488c9f7411a9264cb556db9e51bbf0332c292606204b77bd0a195c4bedc29",
+      "public_copy_sha256": "d3bab8e20d1ff935a20cb13a5a15bdbea5783002df182801be59fe7ebf3360a0",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/conditions-parrot.raw.json",
+      "prior_git_head_sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc",
+      "public_copy_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/manifest.json",
+      "prior_git_head_sha256": "4f4929d687f9b47a26a60ebf197c2e6b3107c8ca2f60fba674372c42da812043",
+      "public_copy_sha256": "1e2f92c7edfcd9d7009d19992dc4c5f505845d3eb5987ddcb7d3460c8ceacfaa",
+      "personal_root_occurrences_replaced": 17,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/report-evidence.json",
+      "prior_git_head_sha256": "ef44cc4d39a42dc313e5057d1188a911149a70bc196e099ca51c75707f5bdb28",
+      "public_copy_sha256": "d9772566f55ff0949f1dde3a858ffbdf2a8dea2e0f3d09eaf4862965693f2d7a",
+      "personal_root_occurrences_replaced": 11,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/reproducibility-manifest.json",
+      "prior_git_head_sha256": "12fd1e53295862d3d1418e5e18906eb9eb02398c9f5185b36ebadd5e55da111a",
+      "public_copy_sha256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69",
+      "personal_root_occurrences_replaced": 28,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/aizynthfinder.materialized.json",
+      "prior_git_head_sha256": "c9299bde08b4797523f1a9dbe5f33d9b345e29d1a995639de1e040a274053a25",
+      "public_copy_sha256": "4e363493c50f13a3ca91ba35e695baec1c28dcda115975d1102a444831bfa644",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/conditions-parrot.json",
+      "prior_git_head_sha256": "5e66fb49be11cbe60128ab1b656c90346b21db3fe94a40484ec9d5f98ee4b2db",
+      "public_copy_sha256": "c99bd39b29d222732ee39b37088705fb2f1da81d08db98fef4f175842196ab3c",
+      "personal_root_occurrences_replaced": 12,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/conditions-parrot.log",
+      "prior_git_head_sha256": "756a1821c71787ed33c9ac6813287b8a74110e7897c3c77da4f227af0f5bb382",
+      "public_copy_sha256": "f02435c3b260bf4f8112bdf2e87d6ab99a2104fd9663f9a57f784dad978e305b",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/conditions-parrot.raw.json",
+      "prior_git_head_sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc",
+      "public_copy_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/figures/manifest.json",
+      "prior_git_head_sha256": "482278fed77c877c0dc7278530266a1cf0ee08f044e2622d835083ff94c40210",
+      "public_copy_sha256": "8042ab2b6c1e2ddfa81e71b1f59c056773489a88635d9af056467b473b0aa270",
+      "personal_root_occurrences_replaced": 20,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/manifest.json",
+      "prior_git_head_sha256": "f683217c56b18a3e33b25d4af48a76ac822ec4effb946cf27e74e3704657ccc4",
+      "public_copy_sha256": "ccc3253f398e2796ac4b4c92bbc108d3cbf1803258531b7f80a6568ad9f71426",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/parrot.materialized.json",
+      "prior_git_head_sha256": "23137409f5576a8ebac5b1be9be06446e3df6e1904acec86aa8847f8a3d47347",
+      "public_copy_sha256": "f788b531a477d85e644260392537db41b904db11bf0aecba46eaa66f7b36c486",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/pipeline.log",
+      "prior_git_head_sha256": "894631295287486375570622fca2ccb8f442fbe5b64295b76b43854a0c99d2da",
+      "public_copy_sha256": "d53d79e2df91410a63c4de80e03091c97da2576caeae4e13aa5627e6d1a8eac4",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/report-evidence.json",
+      "prior_git_head_sha256": "4ff171a984a82a58e9beef6f7de18760fc2f4945be2bfaf1f8411aa9b2cd0cd7",
+      "public_copy_sha256": "d3b8bda12ad5bf26516bdf66394df6b024a464a36d7e0ffea72e553c09e0ee3c",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+      "prior_git_head_sha256": "723f3ab6dd75a6295494e68c8682e3c1252c1dbe79088234251a906977cbe918",
+      "public_copy_sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "personal_root_occurrences_replaced": 8,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation.json",
+      "prior_git_head_sha256": "723f3ab6dd75a6295494e68c8682e3c1252c1dbe79088234251a906977cbe918",
+      "public_copy_sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "personal_root_occurrences_replaced": 8,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.json",
+      "prior_git_head_sha256": "d35ea3dd88a9a4e0df397f3db90826e1aa5d5eb30e5fef77cebfb0dc28cce379",
+      "public_copy_sha256": "2e8b962bbab67f6d74f3b6f326a71f03834c189e032df78df929013e8ede2e7e",
+      "personal_root_occurrences_replaced": 16,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/routes.log",
+      "prior_git_head_sha256": "99ac511f20358499b1954ed8225b935400c7972cfb6a01aca7ed3cb212fafc81",
+      "public_copy_sha256": "e9f23fcb144df01bb8d8ddb526592ab784b1ab49c6639465f7cc379ad9e3aa16",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/rxn_yields.runtime.materialized.json",
+      "prior_git_head_sha256": "fd6ad466e85b47be33c8bb3e7bd1c617f519689bdb0073191ddd39e96cddb66c",
+      "public_copy_sha256": "0837d99c8e26a349369e252dfd179d9fcdd2ea080c378595213d39bf97ca4b08",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/yields-rxn_yields.json",
+      "prior_git_head_sha256": "a650c57b34a3d336b172fe38d0b729c028fabe91782663e8d565909c0171b51e",
+      "public_copy_sha256": "6fd9924ad811f15f49dec91f6d86c682fdd98bc42a9a9cf6392e1f1c7dba5f70",
+      "personal_root_occurrences_replaced": 9,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/rerun/benzocaine-live-repro-20261105-01/yields-rxn_yields.log",
+      "prior_git_head_sha256": "1eb488c9f7411a9264cb556db9e51bbf0332c292606204b77bd0a195c4bedc29",
+      "public_copy_sha256": "d3bab8e20d1ff935a20cb13a5a15bdbea5783002df182801be59fe7ebf3360a0",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/prior-ledger-for-call.json",
+      "prior_git_head_sha256": "8cb8ad2992899af5fb8e8d4de90e66a610d749c496a90200416573dc1792329b",
+      "public_copy_sha256": "ddace85c916b96e4d99c80a2f9e00904b416d56f0dc60022669049a78b10b47a",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/request-provenance.json",
+      "prior_git_head_sha256": "70af0388046db3316379f39c5f53577b250d476b7d219130555f18b73d4a917d",
+      "public_copy_sha256": "3e19a88815c18a83f7689c7004006345a3ab224fe71236bb65ac4eebd0c69259",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/conditions-parrot.log",
+      "prior_git_head_sha256": "16a997434aeac7e60ae466a07582bb9912187a27924867cda2205599ff1dfd9e",
+      "public_copy_sha256": "dd1d94198458d824ef20a3ae92d165184602c33c5c71c097ee78c1c6fa81e381",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/pipeline.log",
+      "prior_git_head_sha256": "2397f1e7fab5b4db2944ef3c9d4070a10d09a83328133d19e063fb891163a4e5",
+      "public_copy_sha256": "599e2aaf95f5c1d9480ae87bc792b959e7b45cd089cf9ee6967a38f771768458",
+      "personal_root_occurrences_replaced": 15,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/routes.log",
+      "prior_git_head_sha256": "0cb76394568230df1821a18ed837a20d802c969881eff7c02aadcf78f4023c77",
+      "public_copy_sha256": "cb63132b1fc75d6f37b4844abee5221962e26075d01e08b5000fbd6c02e0b9e9",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04-public-curated/yields-rxn_yields.log",
+      "prior_git_head_sha256": "80fe7614cd34b464bfda6c1d8bbc63512c73556d9ef573736c9362b1547bda42",
+      "public_copy_sha256": "4fae25caad86f6b526d68f44e217610677da1fa253185e916788482261281334",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/conditions-parrot.log",
+      "prior_git_head_sha256": "16a997434aeac7e60ae466a07582bb9912187a27924867cda2205599ff1dfd9e",
+      "public_copy_sha256": "dd1d94198458d824ef20a3ae92d165184602c33c5c71c097ee78c1c6fa81e381",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/manifest.json",
+      "prior_git_head_sha256": "4f4929d687f9b47a26a60ebf197c2e6b3107c8ca2f60fba674372c42da812043",
+      "public_copy_sha256": "93b07827b8ebff8958d4cb7df42bacf63cad53f104f1817488e667485809dad1",
+      "personal_root_occurrences_replaced": 17,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/pipeline.log",
+      "prior_git_head_sha256": "2397f1e7fab5b4db2944ef3c9d4070a10d09a83328133d19e063fb891163a4e5",
+      "public_copy_sha256": "599e2aaf95f5c1d9480ae87bc792b959e7b45cd089cf9ee6967a38f771768458",
+      "personal_root_occurrences_replaced": 15,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/routes.log",
+      "prior_git_head_sha256": "0cb76394568230df1821a18ed837a20d802c969881eff7c02aadcf78f4023c77",
+      "public_copy_sha256": "cb63132b1fc75d6f37b4844abee5221962e26075d01e08b5000fbd6c02e0b9e9",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/solar-attempts/preparation-only-01/solar-request.json",
+      "prior_git_head_sha256": "586da553ddec3f5de3483cdb67c6bb474344499b01cfbacf5ab7753408fce213",
+      "public_copy_sha256": "367a066e34dcf8929fc96a8339b3a4d7f4542baad0e894f9ed1c30eea9c3fcfa",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/yields-rxn_yields.log",
+      "prior_git_head_sha256": "80fe7614cd34b464bfda6c1d8bbc63512c73556d9ef573736c9362b1547bda42",
+      "public_copy_sha256": "4fae25caad86f6b526d68f44e217610677da1fa253185e916788482261281334",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/aizynthfinder.materialized.json",
+      "prior_git_head_sha256": "c9299bde08b4797523f1a9dbe5f33d9b345e29d1a995639de1e040a274053a25",
+      "public_copy_sha256": "4e363493c50f13a3ca91ba35e695baec1c28dcda115975d1102a444831bfa644",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/conditions-parrot.json",
+      "prior_git_head_sha256": "5e66fb49be11cbe60128ab1b656c90346b21db3fe94a40484ec9d5f98ee4b2db",
+      "public_copy_sha256": "c99bd39b29d222732ee39b37088705fb2f1da81d08db98fef4f175842196ab3c",
+      "personal_root_occurrences_replaced": 12,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/conditions-parrot.log",
+      "prior_git_head_sha256": "756a1821c71787ed33c9ac6813287b8a74110e7897c3c77da4f227af0f5bb382",
+      "public_copy_sha256": "f02435c3b260bf4f8112bdf2e87d6ab99a2104fd9663f9a57f784dad978e305b",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/conditions-parrot.raw.json",
+      "prior_git_head_sha256": "ad45aae5b59806ec754099897574273541a8fdffab672e6a13cfcde417cb83cc",
+      "public_copy_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/figures/manifest.json",
+      "prior_git_head_sha256": "482278fed77c877c0dc7278530266a1cf0ee08f044e2622d835083ff94c40210",
+      "public_copy_sha256": "8042ab2b6c1e2ddfa81e71b1f59c056773489a88635d9af056467b473b0aa270",
+      "personal_root_occurrences_replaced": 20,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/manifest.json",
+      "prior_git_head_sha256": "f683217c56b18a3e33b25d4af48a76ac822ec4effb946cf27e74e3704657ccc4",
+      "public_copy_sha256": "ccc3253f398e2796ac4b4c92bbc108d3cbf1803258531b7f80a6568ad9f71426",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/parrot.materialized.json",
+      "prior_git_head_sha256": "23137409f5576a8ebac5b1be9be06446e3df6e1904acec86aa8847f8a3d47347",
+      "public_copy_sha256": "f788b531a477d85e644260392537db41b904db11bf0aecba46eaa66f7b36c486",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/pipeline.log",
+      "prior_git_head_sha256": "894631295287486375570622fca2ccb8f442fbe5b64295b76b43854a0c99d2da",
+      "public_copy_sha256": "d53d79e2df91410a63c4de80e03091c97da2576caeae4e13aa5627e6d1a8eac4",
+      "personal_root_occurrences_replaced": 23,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/report-evidence.json",
+      "prior_git_head_sha256": "4ff171a984a82a58e9beef6f7de18760fc2f4945be2bfaf1f8411aa9b2cd0cd7",
+      "public_copy_sha256": "d3b8bda12ad5bf26516bdf66394df6b024a464a36d7e0ffea72e553c09e0ee3c",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/routes.json",
+      "prior_git_head_sha256": "d35ea3dd88a9a4e0df397f3db90826e1aa5d5eb30e5fef77cebfb0dc28cce379",
+      "public_copy_sha256": "2e8b962bbab67f6d74f3b6f326a71f03834c189e032df78df929013e8ede2e7e",
+      "personal_root_occurrences_replaced": 16,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/routes.log",
+      "prior_git_head_sha256": "99ac511f20358499b1954ed8225b935400c7972cfb6a01aca7ed3cb212fafc81",
+      "public_copy_sha256": "e9f23fcb144df01bb8d8ddb526592ab784b1ab49c6639465f7cc379ad9e3aa16",
+      "personal_root_occurrences_replaced": 7,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/rxn_yields.runtime.materialized.json",
+      "prior_git_head_sha256": "fd6ad466e85b47be33c8bb3e7bd1c617f519689bdb0073191ddd39e96cddb66c",
+      "public_copy_sha256": "0837d99c8e26a349369e252dfd179d9fcdd2ea080c378595213d39bf97ca4b08",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/yields-rxn_yields.json",
+      "prior_git_head_sha256": "a650c57b34a3d336b172fe38d0b729c028fabe91782663e8d565909c0171b51e",
+      "public_copy_sha256": "6fd9924ad811f15f49dec91f6d86c682fdd98bc42a9a9cf6392e1f1c7dba5f70",
+      "personal_root_occurrences_replaced": 9,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "results/benzocaine-live-repro-20261105-01/yields-rxn_yields.log",
+      "prior_git_head_sha256": "1eb488c9f7411a9264cb556db9e51bbf0332c292606204b77bd0a195c4bedc29",
+      "public_copy_sha256": "d3bab8e20d1ff935a20cb13a5a15bdbea5783002df182801be59fe7ebf3360a0",
+      "personal_root_occurrences_replaced": 6,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "validation/adapter-runtime-comparison-20261105.json",
+      "prior_git_head_sha256": "190cfa98b3119691061dc48d404114c8d9d59bda131cb22ace3953fc572666cc",
+      "public_copy_sha256": "60dc1de5d96aadb79e611c30a71b9fddc584eb0a816fee8e8e37c6099cba452f",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "validation/model-asset-reuse-audit-20261105.json",
+      "prior_git_head_sha256": "b402a689fb27a03107348b4b2dfeb650c8d4afb6901c4d854f906b6541fb16a7",
+      "public_copy_sha256": "0d42d1f31b9cdb86a1bc7bc39d1b9f6c5d83f9961c4fd37914abb3f7d84e0770",
+      "personal_root_occurrences_replaced": 15,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "validation/model-preflight-20261105.json",
+      "prior_git_head_sha256": "43d7b41e3be1ca420fba74c00bde04889daa8efb64ec3c2862037bb61043a7bb",
+      "public_copy_sha256": "8b082b8746b9c94b6732d5761ed696cd9ba3eaabd32c2a8e3c55382199544929",
+      "personal_root_occurrences_replaced": 22,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "validation/model-preflight-repro-20261105-01.json",
+      "prior_git_head_sha256": "43d7b41e3be1ca420fba74c00bde04889daa8efb64ec3c2862037bb61043a7bb",
+      "public_copy_sha256": "8b082b8746b9c94b6732d5761ed696cd9ba3eaabd32c2a8e3c55382199544929",
+      "personal_root_occurrences_replaced": 22,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "검증기록/이전-인용게이트실패/citation-only-change-log-final.json",
+      "prior_git_head_sha256": "4c347930fdff74a1654a5ce9d2d53380780bcd58154a993e01a18e8dc7470c0c",
+      "public_copy_sha256": "67c29b4fe659ce9ea70f4eec876b2543fcb339a13d241898865fd4364ccf5b9e",
+      "personal_root_occurrences_replaced": 3,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "검증기록/이전-인용게이트실패/release-gate-validation.json",
+      "prior_git_head_sha256": "5684ac589d5d096edc1b29a494c3a59533f97ef67b681f007f331be7f2f78326",
+      "public_copy_sha256": "e7847b101700e36496bb10a4a8ec97775ed61bcaeb048d01eae28ee292a3230e",
+      "personal_root_occurrences_replaced": 1,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "검증기록/이전-인용게이트실패/request-prepared-no-send/pre-send-audit.json",
+      "prior_git_head_sha256": "1ac51551b3faade45dd3bd46ebd018fdafab61a6a5b98b3e86717278e6afbb92",
+      "public_copy_sha256": "e5f10d48a9bbd0e9f93470353f47bdace2b93ce3a9f30faec90fe1b981d37beb",
+      "personal_root_occurrences_replaced": 4,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    },
+    {
+      "path": "검증기록/이전-인용게이트실패/solar-response-validation.json",
+      "prior_git_head_sha256": "f041928f59fd451ffa849096766e8501f7ceced4d0fb0848941657bad1ff7340",
+      "public_copy_sha256": "94546597e322270efbd448689266dc0ad3fb2729d00f8d0a9d3e0aa30c169baa",
+      "personal_root_occurrences_replaced": 4,
+      "change_scope": "public-copy path anonymization; dependent source-manifest files retain original source hashes"
+    }
+  ],
+  "interpretation": "The prior Git blobs preserve the pre-redaction bytes and hashes. This log binds each affected prior blob to its sanitized public-copy blob. Source/output hashes inside historical run records continue to identify the original execution-time bytes; they are not replaced by the public derivative hash."
+}

@@ -90,6 +90,23 @@ DRFP만으로 수율을 예측했다고 쓰지 않는다. 해당 수율 모델·
 
 Solar의 기본 출력은 근거 인용과 figure marker를 포함한 한국어 Markdown 원고다. 실제 이미지 바이너리가 Solar 요청에 첨부되지 않은 경우, 이미지를 직접 봤다고 쓰지 않는다. 제공된 그림 목록의 이름·캡션·구조 근거만 사용하며, 문서 코드가 확인된 로컬 파일을 DOCX에 삽입한다. 이미지 파일이 없으면 자리표시 그림을 만들지 말고 누락으로 보고한다.
 
+### Solar 원고와 문서 렌더러의 역할
+
+Solar Pro 4는 과학적 본문·해석·결론·인용을 작성한다. 본문에서 제공된 각 figure asset을 넣을 자리에 `[figure: <figure_id>]`를 정확한 `report_figure_assets.figure_id`로 표시한다. 같은 그림을 임의의 파일명이나 유사 경로로 추정하지 않고, 그림 목록의 중복 마커를 만들지 않는다. 기존 Solar 원고의 Markdown 이미지 링크는 figure manifest와 정확히 대조할 수 있을 때만 유지한다.
+
+Solar는 통합 단계별 조건·수율 표를 작성하지 않는다. `scripts/render_report_evidence.py`가 `report-evidence.json`과 해시 검증된 `routes.json`, `conditions-parrot.json`, `yields-rxn_yields.json`을 route ID, step ID, 반응 SMILES로 대조해 표를 만든다. 표는 반응 SMILES(반응물 >> 생성물), Parrot 상위 3개 후보의 rank·원래 슬롯·sequence score, 온도·시간·당량·압력, 수율 예측값과 상태를 담는다. 수율은 표시용 소수점 둘째 자리로 나타내며 원시값은 결과 파일에 보존한다. 미제공 조건은 `미제공`, 슬롯 공란은 원래 빈 값 `""`로 표시한다. 이 표는 값의 조판이며 새 과학적 해석을 덧붙이지 않는다.
+
+그림 마커가 figure ID 하나와 정확히 연결되지 않거나 파일 경로·SHA-256이 맞지 않거나 모델 결과의 route/step join 검증이 통과하지 않으면 렌더러는 중단한다. 이미 Solar가 통합 조건·수율 표를 썼다면 그 표에는 과학적 설명이 들어 있을 수 있으므로 코드가 덮어쓰지 않는다. 이 경우 원문을 보존하고 Solar 요청을 표 미작성 규칙에 맞춰 다시 준비한다. 원시 Solar 응답은 수정하지 않으며 렌더된 Markdown은 별도 출력 디렉터리에 둔다.
+
+인용 번호는 보고서 버전에 따라 달라질 수 있다. 인용 검증은 보고서와 함께 제공된 `citation-source-map.json`을 우선 사용하고, 해당 매핑이 없을 때만 프로젝트 기본 매핑을 사용한다. 서로 다른 보고서 버전의 매핑을 섞지 않는다.
+
+표준 변환 순서는 다음과 같다.
+
+1. 저장된 원고·응답·상태·실행 증거의 해시를 확인한다.
+2. `scripts/render_report_evidence.py`로 그림 마커와 표를 별도 렌더 디렉터리에 만든다. 승인된 Solar 수정 원고라면 검증된 `--source-validation` 기록도 제공한다.
+3. `scripts/export_report_docx.py`에 `--layout-validation`을 전달해 렌더링 provenance를 확인한 후 DOCX를 만든다.
+4. 검증된 변환기로 PDF를 만들고 `scripts/validate_rendered_report.py`로 페이지·그림·표·인용·잘림을 확인한다.
+
 통상적인 전체 보고서 저장 위치:
 
 - `scripts/generate_report.py`: Solar 원고 `reports/<run_id>-<attempt_id>/report.md`, 요청·응답·상태 `results/<run_id>/solar-attempts/<attempt_id>/`
@@ -97,7 +114,7 @@ Solar의 기본 출력은 근거 인용과 figure marker를 포함한 한국어 
 - DOCX: `scripts/export_report_docx.py`가 Markdown과 run/evidence 자료에서 생성
 - PDF: `scripts/convert_docx_to_pdf.ps1` 또는 README의 검증된 변환 경로
 
-출력에는 Markdown, report run/step 표, figure marker, 인용·출처, 실패·미완료 및 재현 안내가 있어야 한다. 생성 코드는 Solar 응답·원본 근거를 저장하고 완료 모델·attempt ID를 연결한다.
+Solar 원고에는 근거 인용, figure marker, 과학적 본문, 실패·미완료 및 재현 안내가 있어야 한다. 통합 단계별 조건·수율 표와 실제 그림 삽입은 문서 렌더러의 역할이다. 생성 코드는 Solar 응답·원본 근거를 보존하고 완료 모델·attempt ID를 연결한다.
 
 ## DOCX/PDF 생성과 제출 전 점검
 

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "mode": "preflight_only_no_model_inference",
-  "input": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\inputs\\benzocaine.json",
-  "asset_lock": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\model-assets.lock.json",
+  "input": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\inputs\\benzocaine.json",
+  "asset_lock": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\model-assets.lock.json",
   "asset_lock_sha256": "fe20a837c76c5a9d0e3345256ca25b8ce40952f13747e3838ef7540bd4e25140",
   "checks": {
     "input_structure": {
@@ -12,13 +12,13 @@
     },
     "aizynth_assets": {
       "model_assets": {
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\uspto_model.onnx": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder\\uspto_model.onnx": {
           "exists": true,
           "sha256": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
           "expected_sha256": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\uspto_templates.csv.gz": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder\\uspto_templates.csv.gz": {
           "exists": true,
           "sha256": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe",
           "expected_sha256": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe",
@@ -26,12 +26,12 @@
         }
       },
       "stock": {
-        "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\assets\\stock-buckets",
+        "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\assets\\stock-buckets",
         "exists": true,
         "status": "validated",
         "manifest_sha256": "6ae546040c7985f39035f7d5a7b1fe12b49e8d603b9270b2c36ed75f30d63af9",
         "manifest_source_path_is_machine_specific": true,
-        "source_path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\zinc_stock.hdf5",
+        "source_path": "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder\\zinc_stock.hdf5",
         "source_rows": 17422831,
         "extracted_rows": 17422831,
         "record_bytes": 28,
@@ -51,37 +51,37 @@
       "stderr_tail": null
     },
     "parrot_assets": {
-      "repository": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot",
+      "repository": "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot",
       "repository_commit": "0fb2325567e21011589641544e32427c8244e2a9",
       "repository_worktree_clean": true,
-      "checkpoint": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance",
+      "checkpoint": "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance",
       "files": {
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\pytorch_model.bin": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\pytorch_model.bin": {
           "exists": true,
           "sha256": "f226fcea2f9bbb510e9a2053991f50374fd3a2427391bdc0b4c7e0b59974f816",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\config.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\config.json": {
           "exists": true,
           "sha256": "8c5bf2b88086ae435cfb6fe276eaf1802bdd46fe97da18310abcd85f94101091",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\model_args.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\model_args.json": {
           "exists": true,
           "sha256": "274677187cb6646af7ab980d68c09312525d1162b06d4bd5ac52e8818a7a7ef0",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\tokenizer_config.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\tokenizer_config.json": {
           "exists": true,
           "sha256": "bf72b6c92f7c94460222457a6b71d9ac3fff17b12c7675745ba1db1785e369f1",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\special_tokens_map.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\special_tokens_map.json": {
           "exists": true,
           "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\vocab.txt": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\vocab.txt": {
           "exists": true,
           "sha256": "376446c56a4b09c80fd716aacd3e191320e405e3b463863ab7e28af9bf252b45",
           "matches_asset_lock": true
@@ -95,40 +95,40 @@
       "stderr_tail": null
     },
     "yield_assets": {
-      "checkpoint": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint",
+      "checkpoint": "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint",
       "files": {
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\pytorch_model.bin": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\pytorch_model.bin": {
           "exists": true,
           "sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\config.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\config.json": {
           "exists": true,
           "sha256": "a39c2cdc0398aa52fef05bc23fec1054ab0eb80fd1df79801428035c7f3aa3d4",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\model_args.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\model_args.json": {
           "exists": true,
           "sha256": "e77bd27ad705db019a31e5f259c086a7741848024cc527bb559b6b7d04dfefbf",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\tokenizer_config.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\tokenizer_config.json": {
           "exists": true,
           "sha256": "b5b2e89ec50e3dd87bb0d0193ebfc353fa2788c54cca663b7f2d3e6c6ff647f6",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\special_tokens_map.json": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\special_tokens_map.json": {
           "exists": true,
           "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
           "matches_asset_lock": true
         },
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\vocab.txt": {
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\rxn_yields\\checkpoint\\vocab.txt": {
           "exists": true,
           "sha256": "399868a653e85549ce150af4a1f6cd2776240c6a3d951ced2120565f00f027fd",
           "matches_asset_lock": true
         }
       },
-      "metadata_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\yield-normalization.json",
+      "metadata_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\yield-normalization.json",
       "metadata_sha256": "a3994ee55c764ec9be4f686b16ab06243d16c330f355bd799db8a831e24fee61",
       "checkpoint_metadata_hash_matches": true,
       "normalization_scale": "standardized_fraction",

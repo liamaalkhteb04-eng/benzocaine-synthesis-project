@@ -1,6 +1,6 @@
 {
   "conservative_cumulative_after_usd": 0.96896562,
-  "source_ledger": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\cost-ledger.json",
+  "source_ledger": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\cost-ledger.json",
   "source_ledger_sha256": "937f087603c8aafa2c0931502d2d34ad34875dfd21e8d1023392d1c6cfe44476",
   "latest_completed_run_id": "benzocaine-hash-correction-final-20261115-01",
   "new_call_reserved_usd": 0.01,

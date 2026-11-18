@@ -20,6 +20,8 @@ def main():
     p.add_argument("--report-dir", type=Path, required=True)
     p.add_argument("--run-dir", type=Path, required=True)
     p.add_argument("--citation-validation", type=Path, required=True)
+    p.add_argument("--citation-source-map", type=Path,
+                   help="Report-specific citation-number mapping; defaults to report-dir/citation-source-map.json, then project config")
     a = p.parse_args()
     folder = a.report_dir
     md = folder / "report.md"
@@ -29,7 +31,8 @@ def main():
     evidence = json.loads((a.run_dir / "report-evidence.json").read_text(encoding="utf-8"))
     citation_gate = json.loads(a.citation_validation.read_text(encoding="utf-8"))
     report_text = md.read_text(encoding="utf-8")
-    content_check = check_content(report, evidence)
+    source_map = a.citation_source_map or (folder / "citation-source-map.json")
+    content_check = check_content(report, evidence, source_map)
     doc = Document(docx_path)
     doc_text = "\n".join([p.text for p in doc.paragraphs] + [c.text for t in doc.tables for row in t.rows for c in row.cells])
     with zipfile.ZipFile(docx_path) as z:

@@ -12,35 +12,35 @@
   },
   "source_files": {
     "historical_routes_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03\\routes.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03\\routes.json",
       "sha256": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63"
     },
     "representative_routes_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
       "sha256": "a5256cab92771f695bff3b594e7a29ff0193f343923a51090e9df6da7dab6e63"
     },
     "rerun_routes_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
       "sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb"
     },
     "prior_validation_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\reproduction-validation.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\reproduction-validation.json",
       "sha256": "63ab33c238fda07120f87ff9e4024195b12bb68cc689565539f83112dd7db7a8"
     },
     "representative_conditions_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json",
       "sha256": "c1ec5ed4493b25c25a8d38c0c10372cf2592078e0b2d322fd1fe32f170bc0747"
     },
     "rerun_conditions_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.json",
       "sha256": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79"
     },
     "representative_yields_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\yields-rxn_yields.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\yields-rxn_yields.json",
       "sha256": "18fd9a6f0cd303e15b690b8936d3519eebefddb9899ea2cc1cfb2e5d3935a63a"
     },
     "rerun_yields_json": {
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.json",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.json",
       "sha256": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a"
     }
   },

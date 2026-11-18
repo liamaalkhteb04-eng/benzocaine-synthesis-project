@@ -18,7 +18,7 @@
       "solved_routes": 54,
       "model_sha256": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
       "templates_sha256": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe",
-      "stock_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\assets\\stock-buckets",
+      "stock_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\assets\\stock-buckets",
       "stock_rows": 17422831,
       "search_config": {
         "time_limit": 120,

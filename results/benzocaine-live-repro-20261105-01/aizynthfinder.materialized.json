@@ -1,14 +1,14 @@
 {
   "expansion": {
     "uspto": [
-      "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_model.onnx",
-      "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_templates.csv.gz"
+      "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_model.onnx",
+      "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_templates.csv.gz"
     ]
   },
   "stock": {
     "zinc": {
       "type": "disk_stock.DiskInchiStock",
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\assets\\stock-buckets"
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\assets\\stock-buckets"
     }
   },
   "search": {

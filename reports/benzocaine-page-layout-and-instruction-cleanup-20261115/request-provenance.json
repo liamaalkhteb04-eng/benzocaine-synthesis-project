@@ -1,10 +1,10 @@
 {
-  "skill_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\skill\\targeted-report-sentence-cleanup-v1.md",
+  "skill_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\skill\\targeted-report-sentence-cleanup-v1.md",
   "skill_sha256": "a791638e22b0f5154afdf54d70646ff1ce96ffdde76dcfff0904f2f26b33b39a",
-  "general_skill_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\skill\\synthesis_report_skill.md",
+  "general_skill_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\skill\\synthesis_report_skill.md",
   "general_skill_sha256": "cc78e000280a5dc968772226650c2d5a6888a767ef9731dbe72e9542e5ee46d8",
   "relationship": "Targeted child instruction for only two sentence replacements; full-report skill remains authoritative for other tasks.",
-  "request_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\solar-call\\solar-request.redacted.json",
+  "request_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\solar-call\\solar-request.redacted.json",
   "request_sha256": "7bffcce5f599a1341865383a61c9a441e335db2b1673a044a600dbb744f163ad",
   "messages": [
     {
@@ -19,10 +19,10 @@
     }
   ],
   "evidence_files": {
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\section-A-evidence.md": "0e6e9de09624f91a96e69ec1853cac9445638bd4379e50ae237b9527e7986882",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\section-B-evidence.md": "8ae13fad88f849538452b5507ec3514bdfbf7da10a7a98d6cfe0984a81c3d577",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\evidence-run\\report-evidence.json": "d29bf037e5c3c3dbe82801d8a900cef53d1374c214c7b2ffb383ef0973164905",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\evidence-run\\additional-analysis-status-current.json": "3e48ee8a927c39d5ed92fc07637a3f1555fd1bbd164b636f4cdc196c328bca13"
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\section-A-evidence.md": "0e6e9de09624f91a96e69ec1853cac9445638bd4379e50ae237b9527e7986882",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\section-B-evidence.md": "8ae13fad88f849538452b5507ec3514bdfbf7da10a7a98d6cfe0984a81c3d577",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\evidence-run\\report-evidence.json": "d29bf037e5c3c3dbe82801d8a900cef53d1374c214c7b2ffb383ef0973164905",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-page-layout-and-instruction-cleanup-20261115\\evidence-run\\additional-analysis-status-current.json": "3e48ee8a927c39d5ed92fc07637a3f1555fd1bbd164b636f4cdc196c328bca13"
   },
   "scope": "two sentence replacements only; no full-report rewrite; no harness/A-B instructions"
 }

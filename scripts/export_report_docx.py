@@ -55,6 +55,8 @@ def main():
     parser.add_argument("--solar-status", required=True, type=Path)
     parser.add_argument("--citation-edit-validation", type=Path,
                         help="Verified provenance for a narrowly scoped citation-only edit after a targeted Solar merge")
+    parser.add_argument("--layout-validation", type=Path,
+                        help="Provenance for exact manifest figure mapping and normalized-result table rendering")
     parser.add_argument("--verified-edits-validation", type=Path,
                         help="Validation record for Solar-approved sentence edits plus explicitly authorized local table/citation formatting edits")
     parser.add_argument("--compact-layout", action="store_true",
@@ -69,7 +71,20 @@ def main():
     original = response["choices"][0]["message"]["content"]
     text = args.markdown.read_text(encoding="utf-8")
     evidence = load(args.run_dir / "report-evidence.json")
-    if args.verified_edits_validation:
+    selected_provenance = sum(bool(x) for x in (args.layout_validation, args.verified_edits_validation, args.citation_edit_validation))
+    if selected_provenance > 1:
+        raise ValueError("Choose only one report transformation provenance record")
+    if args.layout_validation:
+        layout = load(args.layout_validation)
+        allowed = {"exact_manifest_figure_mapping", "normalized_route_step_table"}
+        if (layout.get("status") != "passed"
+                or layout.get("rendered_markdown_sha256") != digest(args.markdown)
+                or layout.get("solar_raw_response_sha256") != digest(response_path)
+                or layout.get("report_evidence_sha256") != digest(args.run_dir / "report-evidence.json")
+                or set(layout.get("transformations", [])) != allowed
+                or layout.get("scientific_prose_modified") is not False):
+            raise ValueError("Evidence-rendered Markdown does not match its verified layout provenance")
+    elif args.verified_edits_validation:
         validation = load(args.verified_edits_validation)
         if (validation.get("status") != "passed"
                 or validation.get("final_report_sha256") != digest(args.markdown)
@@ -263,7 +278,9 @@ def main():
                                     cell_text(condition_text), row[8], row[9]])
                 rows = compact
             columns = len(rows[0])
-            landscape = columns > 5
+            header_text = " ".join(cell.content for cell in rows[0]).lower()
+            normalized_route_table = ("parrot top candidates" in header_text and "rxn_yields predicted yield" in header_text)
+            landscape = columns > 5 or normalized_route_table
             if not landscape and doc.paragraphs:
                 doc.paragraphs[-1].paragraph_format.keep_with_next = True
             if landscape:
@@ -289,7 +306,9 @@ def main():
                     inline(title, deferred_integrated_heading.children)
                     deferred_integrated_heading = None
                 usable_width = 27.3
-                if columns == 6:
+                if columns == 5 and normalized_route_table:
+                    weights = [1.4, 5.0, 10.0, 5.0, 2.4]
+                elif columns == 6:
                     first_header = rows[0][0].content.strip().lower()
                     weights = ([1.0,2.3,3.2,3.0,1.5,2.2] if first_header.startswith("route / step")
                                else [1.6,1.8,1.8,2.4,1.6,2.0])

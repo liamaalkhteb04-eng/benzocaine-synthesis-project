@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-18",
+  "scope": "Offline source compilation and target-neutral renderer unit tests; no network or model calls.",
+  "focused_renderer_tests": {
+    "status": "passed",
+    "passed": 4,
+    "total": 4,
+    "coverage": [
+      "Exact figure ID lookup rejects unknown markers",
+      "Normalized table preserves route/step, original Parrot slots, missing values, pressure, and display rounding",
+      "One table is inserted before the bibliography",
+      "Existing Solar-authored integrated table is not overwritten"
+    ]
+  },
+  "python_syntax_check": {
+    "status": "passed",
+    "method": "Python bytecode compilation for the renderer/exporter/validators/request builder; AST parse for all listed files including the manifest builder.",
+    "files": [
+      "scripts/render_report_evidence.py",
+      "scripts/export_report_docx.py",
+      "scripts/validate_rendered_report.py",
+      "scripts/validate_report_content.py",
+      "scripts/validate_citation_corrected_documents.py",
+      "scripts/generate_solar_report_from_bundle.py",
+      "scripts/build_package_manifest.py"
+    ]
+  },
+  "manifest_canonical_checksum_test": {
+    "status": "passed",
+    "checked_samples": 4,
+    "method": "SHA-256 and byte count from the manifest builder matched the staged Git blobs for LF/CRLF text files and a binary PDF."
+  },
+  "broader_existing_test_suite": {
+    "status": "not_passed",
+    "tests_run": 13,
+    "errors": 6,
+    "confirmed_error_classes": [
+      "Two harness request-guard mock tests encounter an existing mock-handler missing reserved_max_cost_usd_including_vat attribute.",
+      "Four step-graph tests cannot import RDKit in the existing report-validation virtual environment."
+    ],
+    "action": "No unrelated code was changed and no dependency was installed. The focused renderer tests and actual saved-response document regressions were run separately."
+  }
+}

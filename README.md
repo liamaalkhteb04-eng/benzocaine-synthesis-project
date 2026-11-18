@@ -15,7 +15,7 @@ Copy or clone the **entire repository**, not only either skill file. The skills 
 
 **Full pipeline:** create `inputs/<target_id>.json` from `inputs/input-template.json`; run structure identity and model preflight; run `scripts/run_pipeline.py` with a fresh run ID; inspect raw results and additional analyses; then prepare a Solar report request from the prepared run. The full instructions and actual model/weight preparation are in [`skill/SKILL.md`](skill/SKILL.md) and the model setup sections below.
 
-**Report only from prepared results:** point `scripts/generate_report.py` at an existing `results/<run_id>/` directory. This does not rerun chemistry models. The request builder places `skill/report-writing/SKILL.md` in the Solar system message and passes that run's `report-evidence.json` and manifest. `--prepare-only` constructs the request locally and makes no API call. It verifies source hashes first and refuses changed or mismatched evidence rather than silently repairing it. For the portable Benzocaine example, use `results/benzocaine-live-20261031-04-public-curated/`, not the older path-anonymized archival copies. Solar authoring is separate and may be billable; this package's two authorization flags are disabled by default. After an authorized response, use `scripts/export_report_docx.py` and the configured PDF converter. For the curated release, the README's saved-response rebuild procedure converts archived Solar Markdown without a new Solar call.
+**Report only from prepared results:** point `scripts/generate_report.py` at an existing `results/<run_id>/` directory. This does not rerun chemistry models. The request builder places `skill/report-writing/SKILL.md` in the Solar system message and passes that run's `report-evidence.json` and manifest. `--prepare-only` constructs the request locally and makes no API call. It verifies source hashes first and refuses changed or mismatched evidence rather than silently repairing it. For the portable Benzocaine example, use `results/benzocaine-live-20261031-04-public-curated/`, not the older path-anonymized archival copies. Solar authoring is separate and may be billable; this package's two authorization flags are disabled by default. For a new target, after an authorized Solar response use the generalized renderer procedure below before DOCX/PDF conversion. The saved Benzocaine release predates that rendering contract and follows the separate archived-response rebuild procedure, with no new Solar call.
 
 The historical `benzocaine-live-20261031-04` run and its original execution manifest are preserved. During creation of the public copy, absolute local paths and checkpoint locations were anonymized in four JSON artifacts; their old source hashes therefore no longer matched the public bytes. [The hash audit](validation/public-evidence-hash-repair-20261115.json) records each expected and actual hash and where the expected value was recorded. The separate `benzocaine-live-20261031-04-public-curated` bundle has new derivative hashes, a provenance map back to the historical execution, and a freshly joined report-evidence file. Its derivation check found path/command/checkpoint/image-path changes only and zero changed scientific values. The new `manifest.json` is explicitly a derivative-artifact manifest, not an execution record. Do not rewrite the old run's manifest or model-input hashes to make the archival copy pass.
 
@@ -30,7 +30,7 @@ AiZynthFinder completed and returned 12 route predictions (16 steps). Parrot com
 
 The redacted public verification summary, run ID, model statuses, output checksums, and test scope are in [`validation/acetaminophen-generalization-20261115.json`](validation/acetaminophen-generalization-20261115.json). Raw prediction payloads and machine-specific logs are not bundled; they remain in the separate local validation workspace. The source run used existing runtime/model assets whose local paths point into the separate Aspirin test installation; no Aspirin or Benzocaine prediction results were used for this target. The Parrot general slot check passed, and the Benzocaine route-05/step-02 regression passed only when explicitly enabled. The generalization corrections are in `scripts/prepare_target.py` and `scripts/audit_parrot_slots.py`.
 
-The Solar report request was prepared with the report-writing skill and recorded as `prepared_not_executed`; no Solar call or DOCX/PDF generation occurred for acetaminophen. The report-writing configuration remains disabled by default. The prior Benzocaine report and raw results are unchanged.
+At the earlier pipeline-validation checkpoint, the Solar request was recorded as `prepared_not_executed`. A later, separately authorized Solar response (`acetaminophen-report-live-20261117-02`) was reused for document-generation validation; the renderer itself made no Solar call. DOCX/PDF regeneration from that saved response is documented below. The report-writing configuration remains disabled by default. The prior Benzocaine report and raw results are unchanged.
 
 ## Current verified Benzocaine release (2026-11-15)
 
@@ -238,6 +238,42 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/convert_docx_to_
 
 The report-only path does not rerun AiZynthFinder, Parrot or Yield-BERT. A model prediction request, Solar report-authoring call, and conversion of an already saved response are separate operations. Do not call the prior benzocaine run a prediction for a different target.
 
+### General saved-response rendering for a target with validated results
+
+For a new target, Solar writes scientific prose and places one exact `[figure: <figure_id>]` marker for each supplied report asset. The renderer then verifies the marker against `report-evidence.json`, checks the asset path and SHA-256, joins selected route/step/reaction records to Parrot and yield results, inserts a single conditions/yield table, and converts the markers to local image links. It does not call Solar or rerun a chemistry model. Do not use this path if the response already contains an integrated route/step conditions-yield table: the renderer refuses to replace authored table content.
+
+```powershell
+$runId = 'your-validated-run-id'
+$attemptId = 'your-successful-solar-attempt-id'
+$runDir = "results/$runId"
+$attemptDir = "$runDir/solar-attempts/$attemptId"
+$sourceMarkdown = "reports/$runId-$attemptId/report.md"
+$renderDir = "reports/$runId-$attemptId-rendered"
+
+py -3.13 -B -X utf8 scripts/render_report_evidence.py `
+  --run-dir $runDir `
+  --attempt-dir $attemptDir `
+  --source-markdown $sourceMarkdown `
+  --solar-status "$attemptDir/solar-status.json" `
+  --output-dir $renderDir
+py -3.13 -B -X utf8 scripts/export_report_docx.py `
+  --markdown "$renderDir/report.md" `
+  --run-dir $runDir `
+  --solar-status "$attemptDir/solar-status.json" `
+  --layout-validation "$renderDir/layout-validation.json" `
+  --compact-layout
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/convert_docx_to_pdf.ps1 `
+  -DocxPath "$renderDir/report.docx" `
+  -PdfPath "$renderDir/report.pdf" `
+  -MetadataPath "$renderDir/word-export.json"
+py -3.13 -B -X utf8 scripts/validate_rendered_report.py `
+  --run-dir $runDir `
+  --attempt-dir $attemptDir `
+  --report-dir $renderDir
+```
+
+If `report.md` contains an approved Solar-authored edit rather than the exact saved response text, pass its verified provenance using `--source-validation <passed-validation.json>` to the renderer. Keep each output directory new and empty; the scripts refuse to overwrite earlier attempts. This code-rendered path was verified with stored acetaminophen results on the existing PC; it is not a clean-PC or all-target guarantee.
+
 ## 5. Rebuild the current report from its saved Solar response (no API request)
 
 This procedure rebuilds the current 19-page report from the saved Solar-authored Markdown and evidence. It does not call Solar or run synthesis models. Microsoft Word desktop is used for DOCX-to-PDF conversion. Start with a new empty work folder; never overwrite the release folder.
@@ -282,6 +318,18 @@ Official model repositories, versions, checkpoint requirements and setup instruc
 The report is based on the saved Benzocaine evidence; its displayed values remain tied to the listed run IDs. A fresh local rerun with the submission entrypoint succeeded on this same PC for the same Benzocaine input at `results/benzocaine-live-repro-20261105-01/`. The route/condition/yield integrity and reuse comparison records are included there and under `validation/`. This does not verify another molecule or a clean computer. For a new molecule, prepare its own JSON, install isolated runtimes, obtain matching model assets and full AiZynthFinder stock buckets, run preflight, and then use `scripts/run_pipeline.py` as described above. Never reuse Benzocaine predictions for a different target.
 
 Saved-response DOCX/PDF rebuilding is distinct from fresh model inference and a new Solar-authored report. The saved-response build was verified locally with the existing external report environment and Word 16.0; no new installation, inference, Solar request, GitHub push, or school submission was part of this curation.
+
+## 2026-11-18 document-rendering regression scope
+
+The existing-PC acetaminophen pipeline had already produced real AiZynthFinder, Parrot, and Yield-BERT outputs (12 route predictions/16 steps; 14 unique Parrot reaction rows mapped to 16 route steps; 16 yield predictions). A saved Solar Pro 4 response from attempt `acetaminophen-report-live-20261117-02` was reused; this rendering did not make another Solar call or chemistry-model inference. The generalized renderer matched five figure markers to five exact manifest assets, joined four selected route steps to their conditions and predicted yields, created the single normalized table, and generated DOCX/PDF. The final current-code build passed at 10 PDF pages with five PDF figures, four route/step rows, and no detected clipping. Redacted hashes and preserved prior failure summaries are in [`validation/acetaminophen-document-render-regression-20261118.json`](validation/acetaminophen-document-render-regression-20261118.json).
+
+The benzocaine document-generation regression used the stored report and its report-specific citation map. DOCX/PDF generation and the full document checks passed (19 pages, 10 figures, 4 tables). The existing final Benzocaine DOCX/PDF were not overwritten and their hashes still match the prior release validation. An initial validator run with the package-wide citation map was preserved as a failed attempt; that map assigns `[17]` to the rxn_yields notebook, while this report's own map correctly assigns `[17]` to the course material. The validator now prefers the report-specific map and the corrected run passes. The anonymized summary is [`validation/benzocaine-document-render-regression-20261118.json`](validation/benzocaine-document-render-regression-20261118.json).
+
+Scope: both target workflows were exercised using existing assets on this PC. Acetaminophen had actual model predictions and a saved Solar-authored body; Benzocaine regression used its existing saved report. This does not establish clean-PC setup/reproduction or success for every input molecule. The final project submission target remains Benzocaine; the acetaminophen run is a validation example only.
+
+The renderer's focused offline tests passed (4/4), and syntax checks passed for the modified Python files. A broader legacy test discovery run was not fully green: two harness mock tests hit a missing fixture attribute, and four step-graph tests could not import RDKit in the existing report-validation environment. Those unrelated failures were not hidden or patched in this document-rendering change; see [`validation/report-render-code-tests-20261118.json`](validation/report-render-code-tests-20261118.json).
+
+`PACKAGE-MANIFEST.json` records SHA-256 over Git clean-filtered blob bytes, so text-file checksums correspond to the bytes stored by GitHub even when a Windows working copy uses different line endings. Its sidecar hashes the manifest itself. Virtual environments, `.git`, runtime caches, `__pycache__`, and `.pyc` files are excluded.
 ## 6. Sources, limitations and reproducibility
 
 Official model repositories, versions, checkpoint requirements and setup instructions are listed above and in `skill/SKILL.md`. Model weights, local environments, private API keys, and large derived stock buckets are excluded. The package retains the asset lock/checksum metadata and stock generation instructions.
@@ -289,3 +337,8 @@ Official model repositories, versions, checkpoint requirements and setup instruc
 The report is based on the saved Benzocaine evidence; its displayed values remain tied to the listed run IDs. A fresh local rerun with the submission entrypoint succeeded on this same PC for the same Benzocaine input at `results/benzocaine-live-repro-20261105-01/`. The route/condition/yield integrity and reuse comparison records are included there and under `validation/`. This does not verify another molecule or a clean computer. For a new molecule, prepare its own JSON, install isolated runtimes, obtain matching model assets and full AiZynthFinder stock buckets, run preflight, and then use `scripts/run_pipeline.py` as described above. Never reuse Benzocaine predictions for a different target.
 
 Saved-response DOCX/PDF rebuilding is distinct from fresh model inference and a new Solar-authored report. The saved-response build was verified locally with the existing external report environment and Word 16.0; no new installation, inference, Solar request, GitHub push, or school submission was part of this curation.
+
+
+## Public-copy privacy and hashes
+
+The public upload tree was scanned for workstation-root strings and credential patterns. No workstation-root matches remained and the secret scanner found no credential matches. Earlier execution logs and results were anonymized only in this public copy; `validation/privacy-redaction-log-20261118.json` maps each changed Git blob SHA-256 to its sanitized-copy SHA-256. Original project files and the final Benzocaine PDF/DOCX were preserved. The package manifest covers the bytes intended for GitHub. Historical run-internal hashes continue to describe execution-time originals and are not silently relabeled as hashes of the sanitized derivatives; consult the redaction log when checking a public copy. See [`validation/public-copy-integrity-generalized-renderer-20261118.json`](validation/public-copy-integrity-generalized-renderer-20261118.json) and [`validation/package-secret-audit-generalized-renderer-20261118.json`](validation/package-secret-audit-generalized-renderer-20261118.json).

@@ -3,7 +3,7 @@
   "premerge_only": true,
   "report_merged": false,
   "docx_pdf_generated": false,
-  "response_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\solar-call\\solar-response.raw.json",
+  "response_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-hash-correction-submission-20261115\\solar-call\\solar-response.raw.json",
   "response_sha256": "9fe906589a8550cc73e5ec7949703aa31528e9b3934f3924e8712a7d781ac348",
   "run_id": "benzocaine-hash-correction-final-20261115-01",
   "blocks": {
@@ -37,11 +37,11 @@
   },
   "failed_checks": [],
   "evidence": {
-    "conditions_raw_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.raw.json",
+    "conditions_raw_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.raw.json",
     "conditions_raw_sha256": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6",
-    "literature_comparison_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\reports\\benzocaine-literature-validated-20261114\\literature-validation\\comparison.json",
+    "literature_comparison_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\reports\\benzocaine-literature-validated-20261114\\literature-validation\\comparison.json",
     "literature_comparison_sha256": "42c64e53e642ec50c3db569f2d25fb765793df0176505b3a6871ed3b8c80c7aa",
-    "corrected_validation_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\analyses\\route-replay-hash-audit-20261114\\reproduction-validation-corrected.json",
+    "corrected_validation_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\analyses\\route-replay-hash-audit-20261114\\reproduction-validation-corrected.json",
     "corrected_validation_sha256": "7087c15ddeabf85006934214fb148f3b3a6bbc173b69502b011a9b3517cef287",
     "D10_source_line": "- [D10] `evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation.json`, `verification.json`, `manifest.json`"
   },

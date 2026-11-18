@@ -3,7 +3,10 @@
   "github_public_copy_personal_data_review": {
     "status": "completed",
     "details_path": "validation/privacy-redaction-log.json",
-    "changed_scope": "run logs and hash audit only; absolute workstation paths replaced with package-relative results paths or <AIZYNTH_MODEL_DIR> placeholder; report body/source untouched; public DOCX author metadata neutralized"
+    "changed_scope": "run logs and hash audit only; absolute workstation paths replaced with package-relative results paths or <AIZYNTH_MODEL_DIR> placeholder; report body/source untouched; public DOCX author metadata neutralized",
+    "additional_redaction_log": "validation/privacy-redaction-log-20261118.json",
+    "additional_redaction_date_utc": "2026-11-18",
+    "additional_redaction_scope": "Nested and direct workstation-root strings were replaced in public text copies only. Prior Git blob and sanitized public-copy SHA-256 values are recorded per changed file; historical execution-time source hashes remain labeled as original."
   },
   "excluded_transient_files": {
     "paths": [

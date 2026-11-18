@@ -2,7 +2,7 @@
   "status": "official_source_and_authenticode_signature_verified_not_installed",
   "checked_date": "2026-11-01",
   "file": {
-    "path": "C:\\Users\\Abdo\\Downloads\\BIOVIA_DS2025Client.exe",
+    "path": "${PROJECT_ROOT}\\Downloads\\BIOVIA_DS2025Client.exe",
     "size_bytes": 477404000,
     "sha256": "09A95A14A67D3D808EAAA0A6EB77238F3DED2327085CE5D750D5F82096013053",
     "product_name": "BIOVIA Discovery Studio 2025 Client",

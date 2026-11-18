@@ -5,7 +5,7 @@
   "created_at": "2026-11-05T13:36:46.607958+00:00",
   "status": "success",
   "inference_executed": true,
-  "input_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
+  "input_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
   "input_sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb",
   "adapter_sha256": "7cd66f8e4d147261e4427c1697c6665434c0e2cc8369d3d9feec341d4b18a31e",
   "predictions": [
@@ -2150,22 +2150,22 @@
   ],
   "reason": null,
   "command": [
-    "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
+    "${PROJECT_ROOT}\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
     "-X",
     "utf8",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\scripts\\_parrot_worker.py",
-    "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\parrot.materialized.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.raw.json"
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\scripts\\_parrot_worker.py",
+    "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\parrot.materialized.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.raw.json"
   ],
   "checkpoint_sha256": "f226fcea2f9bbb510e9a2053991f50374fd3a2427391bdc0b4c7e0b59974f816",
-  "checkpoint": "C:\\Users\\Abdo\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\pytorch_model.bin",
+  "checkpoint": "${PROJECT_ROOT}\\aspirin-synthesis-project\\external\\Parrot\\outputs\\Parrot_train_in_USPTO_Condition_enhance\\pytorch_model.bin",
   "label_mapping_source": "trained checkpoint config.json; no synthesized labels",
   "label_mapping_config_sha256": "8c5bf2b88086ae435cfb6fe276eaf1802bdd46fe97da18310abcd85f94101091",
   "execution_mode": "sequential CPU; upstream model API; no pandarallel",
   "use_temperature": false,
-  "raw_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.raw.json",
+  "raw_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.raw.json",
   "input_step_mapping": [
     {
       "step_id": "step-01",
@@ -2706,10 +2706,10 @@
   ],
   "configuration_sha256": "e131f2e70c65bad5831c000709abf3bdc174c4d5c6c5ae099710394ea3022a30",
   "source_repository": "https://github.com/wangxr0526/Parrot",
-  "configuration_template": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\parrot.json",
+  "configuration_template": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\parrot.json",
   "configuration_template_sha256": "902cfd7ef5da7b975853ab96d5c04f64dcf9930e763d3502e0ce758c87d29465",
-  "materialized_configuration": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\parrot.materialized.json",
+  "materialized_configuration": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\parrot.materialized.json",
   "note": "Sequence scores are rankings, not experimental success probabilities.",
   "completed_at": "2026-11-05T13:38:28.659513+00:00",
-  "log_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.log"
+  "log_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.log"
 }

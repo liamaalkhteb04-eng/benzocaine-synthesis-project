@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "date": "2026-11-18",
+  "scope": "Saved-response rendering and document verification on the existing PC; no Solar request, chemistry-model inference, or installation in this rendering run.",
+  "target": {
+    "name": "acetaminophen",
+    "chemistry_run_id": "acetaminophen-live-20261115-01",
+    "solar_attempt_id": "acetaminophen-report-live-20261117-02",
+    "prior_model_execution_scope": {
+      "aizynthfinder": {"status": "success", "routes": 12, "steps": 16},
+      "parrot": {"status": "success", "unique_reaction_rows": 14, "route_step_mappings": 16},
+      "yield_bert": {"status": "success", "step_predictions": 16, "conditions_in_model_input": false}
+    }
+  },
+  "saved_solar_response": {
+    "status": "success",
+    "model": "solar-pro4-260806",
+    "raw_response_sha256": "2a4cd7a5b50ac4136c0ce6818044dd54780c4fa567170999607cb20b2ecf5f25",
+    "source_markdown_sha256": "3a5b2d1b898a40c128b30f40ce1b423f05343fe8e225e047824525e70f18027a",
+    "response_reused_without_edit": true
+  },
+  "renderer": {
+    "script": "scripts/render_report_evidence.py",
+    "layout_validation_sha256": "c5e81c1c285f54a4175a4e3dc054c1c793b123f0d36c32db6a39ad894a8674c0",
+    "report_evidence_sha256": "49585bcf3c0006f71ec22238309bc72bf64347c1a807bc232b32b6558a63c7a3",
+    "rendered_markdown_sha256": "c35ec67458e8036ad914ce5c8bec67b6cc37d1d8a70016268cec29d354739bcf",
+    "figure_ids_matched_exactly": [
+      "target",
+      "route-01/step-01",
+      "route-02/step-01",
+      "route-19/step-01",
+      "route-19/step-02"
+    ],
+    "figure_count": 5,
+    "route_step_condition_yield_joins": 4,
+    "normalized_table_rows": 4,
+    "columns_include_original_parrot_slots_and_temperature_time_equivalents_pressure": true,
+    "display_yields_rounded_to_two_decimals_raw_values_preserved": true,
+    "scientific_prose_modified": false
+  },
+  "documents": {
+    "docx_sha256": "a566b4338a5d8e82b45926a156905574eda51a359332fb8d38750bb7b6abff30",
+    "pdf_sha256": "53753a6175089bb86e6a3846f940f38ee46eda97cafc9289e311ad4156a99b63",
+    "validation_record_sha256": "497981871688efbea3fe7a73cccda16b4990a5d67b72bcc7842e74fee2990ee6",
+    "validation_status": "passed",
+    "pdf_pages": 10,
+    "pdf_figure_instances": 5,
+    "clipped_items": [],
+    "full_page_render_check": "passed"
+  },
+  "preserved_prior_failures": [
+    {
+      "artifact": "results/acetaminophen-live-20261115-01/solar-attempts/acetaminophen-report-live-20261117-02/response-validation-failed.json",
+      "sha256": "05a53fc0133d874ec5e79b66c2577d35930eed3dada9c0bd7556413604b2712b",
+      "status": "failed_response_content_requirements",
+      "recorded_reason": "The earlier document gate required embedded Markdown image links and a Solar-authored integrated table; the saved response instead had figure placeholders and narrative route data. The later renderer consumes exact placeholders and creates the table from validated normalized results. The original failure record remains unchanged in the local validation workspace."
+    },
+    {
+      "artifact": "reports/acetaminophen-github-renderer-regression-20261118-03/document-validation.json",
+      "sha256": "95cb3cf498149b60847f5f5038a6a0b1a13c16a4010b6cc68767129766cd161d",
+      "status": "failed",
+      "recorded_reason": "The earlier verbose table layout produced text outside the page boundary on page 11. This run was retained; the current compact landscape table passed clipping checks."
+    }
+  ],
+  "limits": [
+    "This verifies saved acetaminophen outputs on the existing PC, not a new chemistry inference or a new Solar call.",
+    "This does not guarantee success for every target molecule or on a clean PC.",
+    "No per-target MOPAC, EPI Suite, Discovery Studio Visualizer, or harness comparison was executed for acetaminophen."
+  ]
+}

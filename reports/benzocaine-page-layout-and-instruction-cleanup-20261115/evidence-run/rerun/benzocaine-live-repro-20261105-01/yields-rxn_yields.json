@@ -5,7 +5,7 @@
   "created_at": "2026-11-05T13:38:29.509121+00:00",
   "status": "success",
   "inference_executed": true,
-  "input_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
+  "input_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
   "input_sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb",
   "adapter_sha256": "754ca8a4b6f5b0680b61e3443c4128056811895d7530d46b6ba4ad1339b6783d",
   "predictions": [
@@ -850,15 +850,15 @@
     }
   ],
   "command": [
-    "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
+    "${PROJECT_ROOT}\\aspirin-synthesis-project\\.venv-parrot\\Scripts\\python.exe",
     "-X",
     "utf8",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\scripts\\predict_yields.py",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\scripts\\predict_yields.py",
     "--worker",
     "rxn_yields",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\rxn_yields.runtime.materialized.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.raw.json"
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\rxn_yields.runtime.materialized.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.raw.json"
   ],
   "checkpoint_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
   "checkpoint_metadata": {
@@ -890,10 +890,10 @@
       "pandas_version": "3.0.1"
     }
   },
-  "materialized_runtime_configuration": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\rxn_yields.runtime.materialized.json",
+  "materialized_runtime_configuration": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\rxn_yields.runtime.materialized.json",
   "runtime_configuration_sha256": "b087ed4c0041f1d081647f587d08fc2ccb4fbc07998181a1acd1228c47334bd5",
-  "raw_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.raw.json",
+  "raw_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.raw.json",
   "applicability": "not_assessed; numeric inference does not establish target-specific validity",
   "completed_at": "2026-11-05T13:39:08.148340+00:00",
-  "log_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.log"
+  "log_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\yields-rxn_yields.log"
 }

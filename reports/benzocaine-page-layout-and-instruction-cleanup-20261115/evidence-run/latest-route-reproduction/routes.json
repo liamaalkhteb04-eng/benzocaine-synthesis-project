@@ -5,7 +5,7 @@
   "created_at": "2026-11-05T13:35:52.774435+00:00",
   "status": "success",
   "inference_executed": true,
-  "input_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\input.json",
+  "input_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\input.json",
   "input_sha256": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
   "adapter_sha256": "bb9e9fd1261964b8749740b4cfea79bdc80f386035d06582ec4f58d75d3deaf0",
   "predictions": [
@@ -720,27 +720,27 @@
   ],
   "reason": "search_completed",
   "command": [
-    "C:\\Users\\Abdo\\aspirin-synthesis-project\\.venv-aizynth\\Scripts\\python.exe",
+    "${PROJECT_ROOT}\\aspirin-synthesis-project\\.venv-aizynth\\Scripts\\python.exe",
     "-X",
     "utf8",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\scripts\\predict_routes.py",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\scripts\\predict_routes.py",
     "--worker",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\input.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\aizynthfinder.materialized.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.raw.json",
-    "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.metadata.json"
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\input.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\aizynthfinder.materialized.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.raw.json",
+    "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.metadata.json"
   ],
   "configuration": {
     "expansion": {
       "uspto": [
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_model.onnx",
-        "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_templates.csv.gz"
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_model.onnx",
+        "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_templates.csv.gz"
       ]
     },
     "stock": {
       "zinc": {
         "type": "disk_stock.DiskInchiStock",
-        "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\assets\\stock-buckets"
+        "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\assets\\stock-buckets"
       }
     },
     "search": {
@@ -753,16 +753,16 @@
       "all_routes": true
     }
   },
-  "configuration_template": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\aizynthfinder.json",
+  "configuration_template": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\configs\\aizynthfinder.json",
   "configuration_template_sha256": "ef767652d07af2f4b144f3ddfcd6f1ce950d63c82da4f8686451208b4101ebdc",
   "configuration_sha256": "9cf3ea6f9da7d0e1c5bfd942c74fa551a87eb70ea36bc7b48662a9e4d31d2563",
   "asset_sha256": {
-    "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_model.onnx": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
-    "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_templates.csv.gz": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe"
+    "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_model.onnx": "bd0a3cb74cd7068de474c8fb789a00a66bc42c75636d66510ccac585ebe928f8",
+    "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder/uspto_templates.csv.gz": "a4f1945e90cfa195538320833d68aed38f14e2fcc2f8afb5d958bc920edcafbe"
   },
   "derived_stock_provenance": {
     "status": "validated",
-    "source_path": "C:\\Users\\Abdo\\aspirin-synthesis-project\\models\\aizynthfinder\\zinc_stock.hdf5",
+    "source_path": "${PROJECT_ROOT}\\aspirin-synthesis-project\\models\\aizynthfinder\\zinc_stock.hdf5",
     "source_sha256": "99d39a6f807c3e815487500bafc2b4a9dc66a31af189e3b1776874fb0d4a188d",
     "source_rows": 17422831,
     "extracted_rows": 17422831,
@@ -1061,7 +1061,7 @@
     "BrP(Br)Br": []
   },
   "exclude_target_from_stock": true,
-  "raw_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.raw.json",
+  "raw_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.raw.json",
   "total_raw_routes": 54,
   "selection_policy": {
     "limit": 12,
@@ -1069,5 +1069,5 @@
     "note": "Computational budget: initial score-order candidates plus multi-step diversity. Raw routes retained in full; no claim of feasibility."
   },
   "completed_at": "2026-11-05T13:36:39.460910+00:00",
-  "log_path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.log"
+  "log_path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\routes.log"
 }

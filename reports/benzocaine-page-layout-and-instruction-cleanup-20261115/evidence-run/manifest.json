@@ -8,67 +8,67 @@
   "commands": [
     {
       "command": [
-        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "${PROJECT_ROOT}\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
         "-B",
         "-X",
         "utf8",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\draw_structures.py",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\scripts\\draw_structures.py",
         "--input",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\input.json",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\input.json",
         "--output-dir",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\target"
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\target"
       ],
       "exit_code": 0
     },
     {
       "action": "reuse_actual_successful_evidence",
       "stem": "routes",
-      "source_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03"
+      "source_run": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03"
     },
     {
       "command": [
-        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "${PROJECT_ROOT}\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
         "-B",
         "-X",
         "utf8",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\predict_conditions.py",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\scripts\\predict_conditions.py",
         "--model",
         "parrot",
         "--input",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
         "--output",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json"
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\conditions-parrot.json"
       ],
       "exit_code": 0
     },
     {
       "action": "reuse_actual_successful_evidence",
       "stem": "yields-rxn_yields",
-      "source_run": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03"
+      "source_run": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-03"
     },
     {
       "command": [
-        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "${PROJECT_ROOT}\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
         "-B",
         "-X",
         "utf8",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\draw_routes.py",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\scripts\\draw_routes.py",
         "--input",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\routes.json",
         "--output-dir",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\figures"
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04\\figures"
       ],
       "exit_code": 0
     },
     {
       "command": [
-        "C:\\Users\\Abdo\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "${PROJECT_ROOT}\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
         "-B",
         "-X",
         "utf8",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\scripts\\build_evidence.py",
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\scripts\\build_evidence.py",
         "--run-dir",
-        "C:\\Users\\Abdo\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04"
+        "${PROJECT_ROOT}\\benzocaine-synthesis-project\\results\\benzocaine-live-20261031-04"
       ],
       "exit_code": 0
     }

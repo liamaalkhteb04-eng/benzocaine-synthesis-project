@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "date": "2026-11-18",
+  "scope": "Rebuilt a separate copy of the existing Benzocaine report on the existing PC. No chemistry inference or Solar request was made. The released Benzocaine PDF/DOCX were not written.",
+  "source": {
+    "report_revision": "benzocaine-page-layout-and-instruction-cleanup-20261115",
+    "report_markdown_sha256": "1c0b116b8a806c01efd8b0b81dc2986d866e7379cdf9e7332f4c04f1aaa38752",
+    "saved_solar_response_sha256": "3a5111656eb9fbd20aa67649bff04a8b4910d1b8fbf0a0069ca3d9ac92421298",
+    "verified_edit_record": "merge-validation.json"
+  },
+  "document_generation": {
+    "status": "success",
+    "docx_sha256": "8ae271f62d4ee05dc72e6086b3dd04dff76259cf3b30f44ceb19fe963e9d0a7c",
+    "pdf_sha256": "675f46a0a76a2399c555b3dca411c63b17b48855c75a2fc7980087d0944554db",
+    "pages": 19,
+    "embedded_figures": 10,
+    "tables": 4,
+    "converter": "Microsoft Word 16.0"
+  },
+  "verification": {
+    "status": "passed",
+    "validation_record_sha256": "ebbc24a0dadcbe94f95405bfd1b92061e2990e30663854c3aa0ba25282710db0",
+    "report_specific_citation_map_sha256": "3043a8f03c168b17af3ab3e691a4677236219f1874452886239e141e4254a99c",
+    "citation_map_used": "report-specific citation-source-map.json; [17] maps to course material",
+    "text_and_image_bounds": "passed",
+    "report_content_and_citations": "passed"
+  },
+  "public_release_copy_verification": {
+    "status": "passed",
+    "report_specific_citation_map_sha256": "b8ad56c1e8db58e27fb27cc5f5751f77a6202c6cd5ddb252457bc86dec227660",
+    "citation_mapping": "[17] points to the public course-material acquisition note; [18] and [19] retain their literature/patent assignments.",
+    "public_docx_sha256": "ee183773821f40e0b96a35086583e11b53189deb58ea8fbeaaf67c5465678e13",
+    "public_pdf_sha256": "2a6dde37ffd9a43d267b7825f11cc0a15686934af9c1ed98471e1e0dd8ae2b33",
+    "validation_record_sha256": "0ebc09d77f0fcad2f9e9c03d5b81c19f8b1c028ca93146cdc534054c5689fce1",
+    "pages": 19,
+    "embedded_figures": 10,
+    "tables": 4,
+    "method": "Read-only validation of copied release files using the package report, report-evidence bundle, citation audit, and report-specific citation map."
+  },
+  "preserved_release_files": {
+    "existing_release_document_validation_sha256": {
+      "report.docx": "f1b553c3079078b6aa27d07c2504545e6b45360d2dca307a913dffd9f263fb00",
+      "report.pdf": "62c7112b80e99cc25e7ade75d0dc02973c76c699eb1f650c6e3a84f0e3903a46"
+    },
+    "current_release_files_match_recorded_hashes": true
+  },
+  "preserved_initial_validator_failure": {
+    "validation_record_sha256": "47cc418bd27e4169992e9216497de421cc1e83e794e0b68d325c02d4f78e85a3",
+    "status": "failed",
+    "recorded_error": "Citation audit: Bibliography entry [17] points to a different source",
+    "confirmed_cause": "That first check implicitly used the package-wide citation map, which maps [17] to the rxn_yields notebook. The report revision has its own validated citation map, which maps [17] to the course material. The document validator was updated to prefer a report-specific citation map; the same generated DOCX/PDF then passed without changing report text or citation numbering."
+  },
+  "source_map_pairing_diagnostic": {
+    "status": "expected_failure_for_mismatched_source_pair",
+    "failed_validation_record_sha256": "47cc418bd27e4169992e9216497de421cc1e83e794e0b68d325c02d4f78e85a3",
+    "pre_anonymization_report_sha256": "1c0b116b8a806c01efd8b0b81dc2986d866e7379cdf9e7332f4c04f1aaa38752",
+    "public_derivative_map_sha256": "b8ad56c1e8db58e27fb27cc5f5751f77a6202c6cd5ddb252457bc86dec227660",
+    "detail": "Applying the public derivative's citation map to the pre-anonymization local report fails because the local bibliography points to the original course PDF while the public derivative points to the acquisition note. Each report passes with its matching map; this pairing failure was preserved and not treated as a report-content correction."
+  },
+  "limits": [
+    "This is a saved-report document rebuild, not a fresh Benzocaine model run or Solar authoring call.",
+    "It confirms this report and current PC environment only; it does not prove clean-PC or all-target reproducibility."
+  ]
+}

@@ -4666,31 +4666,31 @@
   "report_figure_assets": [
     {
       "figure_id": "target",
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\target\\target.png",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\target\\target.png",
       "caption": "Benzocaine structure",
       "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa"
     },
     {
       "figure_id": "route-01/step-01",
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-01-step-01.png",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-01-step-01.png",
       "caption": "route-01 step-01 predicted reaction",
       "sha256": "42f47032880a4b4e5936e5cf8572e3ec44232953f592b7132bb230ef21dda3d7"
     },
     {
       "figure_id": "route-02/step-01",
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-02-step-01.png",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-02-step-01.png",
       "caption": "route-02 step-01 predicted reaction",
       "sha256": "cf09de3b47f8354e1bb9bcff219bb8ded618309f2ae77477fbbe052d5b8075c2"
     },
     {
       "figure_id": "route-05/step-01",
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-05-step-01.png",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-05-step-01.png",
       "caption": "route-05 step-01 predicted reaction",
       "sha256": "eb2995a7f1ff8bdd381efa7d5485033b7bab9d1938a44439ff5d00e094ce6c1d"
     },
     {
       "figure_id": "route-05/step-02",
-      "path": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-05-step-02.png",
+      "path": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\figures\\route-05-step-02.png",
       "caption": "route-05 step-02 predicted reaction",
       "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb"
     }
@@ -4805,7 +4805,7 @@
     "paid_calls_authorized": false,
     "report_generation_authorized": false
   },
-  "condition_results_file": "C:\\Users\\Abdo\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.json",
+  "condition_results_file": "${PROJECT_ROOT}\\benzocaine-synthesis-project\\submission\\github-ready-20261104\\results\\benzocaine-live-repro-20261105-01\\conditions-parrot.json",
   "normalization": {
     "checkpoint_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
     "training_data_reference": "https://ibm.ent.box.com/v/uspto-yields-data",
