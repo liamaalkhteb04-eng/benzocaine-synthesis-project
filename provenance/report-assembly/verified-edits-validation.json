@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "final_report_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+  "solar_response_sha256": "66c349bbdbea64ff6eecdb7e6bbbc258223514e6563c75f784332e6463fb02dc",
+  "solar_targeted_blocks_verified": true,
+  "approved_local_edits_verified": true,
+  "base_report_sha256": "156a1506b35f7fb925c2aea04f0a8f7d864691adc286a7299e6496f220d3a8e8",
+  "prior_verified_solar_block_sha256": "8bdfc346f6cc8124b022cad263a955fd4f0a9f86d3baaaefc08e5465398f3010",
+  "merge_validation_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\route01-co-merge-validation.json",
+  "merge_validation_sha256": "6d36fe526e7754b50e5a046dcc95912a591e513b19e27def139571835419423e",
+  "scientific_prose_authored_by_codex": false,
+  "solar_response_reused_without_call": true,
+  "solar_response_provenance": "66c349bbdbea64ff6eecdb7e6bbbc258223514e6563c75f784332e6463fb02dc",
+  "change_summary": "Only the stale `CCO`/`CO` identity sentence was removed; the previously verified Solar `solvent1=CO` methanol block remains once and unchanged."
+}

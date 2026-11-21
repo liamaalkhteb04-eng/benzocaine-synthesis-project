@@ -84,7 +84,7 @@ def build(run):
     for step in steps:
         prediction=step['yield_prediction']
         if prediction and (prediction.get('input_truncated') or prediction.get('within_physical_bounds') is False):limitations.append({'kind':'yield_quality_warning','route_id':step['route_id'],'step_id':step['step_id'],'truncated':prediction.get('input_truncated'),'within_physical_bounds':prediction.get('within_physical_bounds')})
-    evidence={'schema_version':'1.0','target':target,'model_status':{'routes':routes['status'],'conditions':conditions['status'],'yields':yields['status']},'route_summary':route_info,'steps':steps,'selected_route_ids':selected,'report_steps':[s for s in steps if s['route_id'] in selected], 'report_figure_assets':figures,'required_references':refs,'limitations':limitations,'additional_analyses':additional,'report_plan':plan,'condition_results_file':str((run/'conditions-parrot.json').resolve()),'normalization':meta,'source_hashes':{n:digest(run/n) for n in ['input.json','routes.json','conditions-parrot.json','yields-rxn_yields.json','figures/manifest.json']}}
+    evidence={'schema_version':'1.0','target':target,'model_status':{'routes':routes['status'],'conditions':conditions['status'],'yields':yields['status']},'route_summary':route_info,'steps':steps,'selected_route_ids':selected,'report_steps':[s for s in steps if s['route_id'] in selected], 'report_figure_assets':figures,'required_references':refs,'limitations':limitations,'additional_analyses':additional,'report_plan':plan,'condition_results_file':'conditions-parrot.json','normalization':meta,'source_hashes':{n:digest(run/n) for n in ['input.json','routes.json','conditions-parrot.json','yields-rxn_yields.json','figures/manifest.json']}}
     return evidence
 
 def main():

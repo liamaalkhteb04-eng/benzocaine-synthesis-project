@@ -11,7 +11,8 @@
  "targeted_revision_requires_explicit_request":true,
  "model":"solar-pro4-260806",
  "temperature":0.0,
- "max_tokens":10000,
+ "max_tokens":35000,
  "paid_calls_authorized":false,
- "report_generation_authorized":false
+ "report_generation_authorized":false,
+ "live_budget_snapshot": null
 }

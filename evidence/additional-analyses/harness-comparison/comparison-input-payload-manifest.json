@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-11-03T12:27:46Z",
+  "payload_path": "analyses/harness-comparison/comparison-input-payload.md",
+  "payload_sha256": "636BE4F7EE73A4BD08682629B95F906EC246A986E07C17348BB4EA93F72A973E",
+  "payload_bytes": 199634,
+  "inputs": [
+    {
+      "path": "analyses/harness-comparison/comparison-task.md",
+      "sha256": "CFA88F3D87E24EFE0A79BEFCE311CB15FEA13A3FC1FFD5F29248B49EC9FABC97",
+      "bytes": 2681
+    },
+    {
+      "path": "analyses/harness-comparison/comparison-system-prompt.txt",
+      "sha256": "EC78AE4478EC843EE3C960D9E9574F4734406664F7DB11CE5BC69E8C6D36E786",
+      "bytes": 558
+    },
+    {
+      "path": "skill/synthesis_report_skill.md",
+      "sha256": "7DA4B5B48EBC4E2D954FE9331AE0B27C89FCD2AA6C25617513D72E2CBE8E4714",
+      "bytes": 7381
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/report-evidence.json",
+      "sha256": "44885F4E8A4AC7F3A07ED463202B11AAA4EBF1DD28CC7DFC43E373BC0483BD2A",
+      "bytes": 161083
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/validation_notes.json",
+      "sha256": "29C18A141BFF3D76ECAC8D0A3BE0D591D45CAE4BD26EF336EA41414FD4521057",
+      "bytes": 1374
+    },
+    {
+      "path": "analyses/mopac/results-interpretation.md",
+      "sha256": "08EA5EF42FC93AFF4B392F84FC6A2508825C42FE3DA2CF079578D1B29D133785",
+      "bytes": 4824
+    },
+    {
+      "path": "analyses/epi-suite/analysis.md",
+      "sha256": "EEE96F0927788CD54CE6D3CAE85FAC54A596794AFA588C7599A64C19D61B35B0",
+      "bytes": 6343
+    },
+    {
+      "path": "analyses/visualizer/visualizer-measurement-interpretation.md",
+      "sha256": "954E0398296AE85AF6DBB03DF313B120AB745F4704DB78AB6FD5F3E17168D9B0",
+      "bytes": 3780
+    },
+    {
+      "path": "analyses/visualizer/visualizer-measurements.csv",
+      "sha256": "10070F8701DCE692D695ED08E3B7184C6A52A4978F44C6C8AB2B1721C1BB7CE0",
+      "bytes": 1833
+    },
+    {
+      "path": "analyses/visualizer/route-selection.json",
+      "sha256": "DCD838278A3A091EDBDF323AEC577BC6259A481E1132634EB7CCB8DD8ECF70A3",
+      "bytes": 2337
+    },
+    {
+      "path": "analyses/visualizer/visualizer-session-status.json",
+      "sha256": "74EC1F4A013DC52463360CEA0484BF6541D871B88A1B4E86571D0395899AEAED",
+      "bytes": 4475
+    },
+    {
+      "path": "results/benzocaine-live-20261031-04/additional-analysis-status.json",
+      "sha256": "9A82CD099E4482CF6F74CF73C0DBBC40AC978B4C7582BB8C9A61347BE7D0E14E",
+      "bytes": 797
+    }
+  ],
+  "same_byte_payload_for_both_harnesses": true,
+  "model_calls": 0,
+  "images_embedded": false,
+  "visualizer_measurement_text_and_capture_references_included": true
+}

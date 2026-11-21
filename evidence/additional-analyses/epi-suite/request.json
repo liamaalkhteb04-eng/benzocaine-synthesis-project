@@ -1,0 +1,61 @@
+{
+  "source_csv": "analyses\\preparation\\epi-suite-inputs.csv",
+  "source_csv_sha256": "2ab35bc121f476580152af6cd572f72abd4814ea6484c1cc21a40e2150271525",
+  "api_url": "https://episuite.dev/api/submit/batch",
+  "http_method": "POST",
+  "modules": [
+    "physicalProperties"
+  ],
+  "requests": [
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+      "chemicalName": "Ethyl 4-nitrobenzoate"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "CCOC(=O)c1ccc(N)cc1",
+      "chemicalName": "Benzocaine"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "chemicalName": "4-Aminobenzoic acid"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "CCO",
+      "chemicalName": "Ethanol"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "CC(=O)O",
+      "chemicalName": "Acetic acid"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "C1CCOC1",
+      "chemicalName": "Tetrahydrofuran"
+    },
+    {
+      "modules": [
+        "physicalProperties"
+      ],
+      "smiles": "CCOCC",
+      "chemicalName": "Diethyl ether"
+    }
+  ],
+  "note": "Neutral organic compounds only. CAS included only when EPI search's exact canonical structure matched and PubChem synonyms independently validated the CAS."
+}

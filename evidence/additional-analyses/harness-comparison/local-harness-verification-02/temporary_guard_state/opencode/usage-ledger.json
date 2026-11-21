@@ -1,0 +1,22 @@
+{
+  "max_external_posts": 1,
+  "calls": [
+    {
+      "harness": "opencode",
+      "run_id": "local-opencode-mock-01",
+      "reserved_at_utc": "2026-11-03T12:26:11Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:26:11Z",
+      "http_status": 200,
+      "latency_ms": 102.8,
+      "input_tokens": 17,
+      "output_tokens": 8,
+      "actual_cost_usd_ex_vat": 1.47e-05,
+      "transport_error_type": null
+    }
+  ],
+  "baseline_usage_usd": 0.0,
+  "max_per_harness": 1,
+  "cumulative_budget_usd": 1.0
+}

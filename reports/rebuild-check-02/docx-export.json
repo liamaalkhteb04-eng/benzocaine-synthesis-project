@@ -1,0 +1,94 @@
+{
+  "status": "success",
+  "solar_returned_model": "solar-pro4-260806",
+  "markdown_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+  "solar_response_sha256": "66c349bbdbea64ff6eecdb7e6bbbc258223514e6563c75f784332e6463fb02dc",
+  "docx_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\rebuild-check-02\\report.docx",
+  "docx_sha256_before_word": "b5061527cd62ccf4be52f7cf916477730c1e5f3ad6fdcef6f8eb291679b1b94c",
+  "images": [
+    {
+      "requested": "assets/target.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\target\\target.png",
+      "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+      "caption": "벤조카인(C9H11NO2) 구조: 파라 아미노기와 에틸 에스터"
+    },
+    {
+      "requested": "assets/route-01-step-01.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\route-01-step-01.png",
+      "sha256": "c427ced18853ff281255c83a4a515e05959ab871246a2990785a4aa92031d9f5",
+      "caption": "route-01/step-01: 에틸 4-니트로벤조에이트에서 벤조카인으로; 방향족 니트로기(–NO₂)가 아미노기(–NH₂)로 바뀌고 에틸 에스터는 유지됨"
+    },
+    {
+      "requested": "assets/route-02-step-01.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\route-02-step-01.png",
+      "sha256": "f0066e7df6c7cb75353766d20c38f2f4031dda172043095c13ba79f6b0dbe0fd",
+      "caption": "route-02/step-01: 에틸 4-아세트아미도벤조에이트에서 벤조카인으로; N-아세틸기가 제거되어 아미노기가 드러나며 에틸 에스터는 유지됨"
+    },
+    {
+      "requested": "assets/route-05-step-01.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\route-05-step-01.png",
+      "sha256": "cdc84699e8182e0b5b0344d4aa04d4aebee5690a88f649947af42c68a785b836",
+      "caption": "route-05/step-01: 아세트산에서 에탄올로; 검색 모델의 경로 간선이며 실제 순차 합성으로 검증되지 않음"
+    },
+    {
+      "requested": "assets/route-05-step-02.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\route-05-step-02.png",
+      "sha256": "da589f87a6d9497c2b70ec0c24d2b2ba03fa26a47232dd94251bd4950949db18",
+      "caption": "route-05/step-02: 4-아미노벤조산과 에탄올에서 벤조카인으로; 카복실산이 에틸 에스터로 표현되고 아미노기는 유지됨"
+    },
+    {
+      "requested": "assets/visualizer-route01-conf1-angle.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\visualizer-route01-conf1-angle.png",
+      "sha256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1",
+      "caption": "Discovery Studio Visualizer 실제 화면: 같은 배좌, 분자 내부 C8–C9–N10 각도 119.102°"
+    },
+    {
+      "requested": "assets/visualizer-route01-conf1-distance.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\visualizer-route01-conf1-distance.png",
+      "sha256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f",
+      "caption": "Discovery Studio Visualizer 실제 화면: 에틸 4-니트로벤조에이트, PM7 배좌 1, 분자 내부 N10–H21 거리 2.684 Å"
+    },
+    {
+      "requested": "assets/visualizer-route05-ethanol-conf2.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\visualizer-route05-ethanol-conf2.png",
+      "sha256": "f7ec98aeb179b5c85db0b98efd741ab47f8db0619a3844952a5fa18195a11b95",
+      "caption": "Discovery Studio Visualizer 실제 화면: 고립 에탄올 PM7 배좌 2; 4-아미노벤조산과 함께 배치하지 않음"
+    },
+    {
+      "requested": "assets/visualizer-route05-paba-conf4.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\visualizer-route05-paba-conf4.png",
+      "sha256": "dac8b2f4ed83dc8600d3117d43cc1e13a929d6ece1b262e2ae113d803003694f",
+      "caption": "Discovery Studio Visualizer 실제 화면: 4-아미노벤조산, PM7 배좌 4, 고립 분자; 카복실기 원자 C6/O7/O8"
+    },
+    {
+      "requested": "assets/visualizer-route05-paba-edge.png",
+      "source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\evidence-run\\figures\\visualizer-route05-paba-edge.png",
+      "sha256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b",
+      "caption": "4-아미노벤조산 PM7 배좌 4의 다른 방향 화면; 강체 회전한 표시 사본이며 새 배좌가 아님"
+    }
+  ],
+  "table_count": 4,
+  "external_links": [
+    "https://doi.org/10.15227/orgsyn.008.0066",
+    "https://episuite.dev/EpiWebSuite/#/",
+    "https://github.com/MolecularAI/aizynthfinder",
+    "https://github.com/reymond-group/drfp",
+    "https://github.com/rxn4chemistry/rxn_yields",
+    "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb",
+    "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+    "https://github.com/schwallergroup/synthex",
+    "https://github.com/wangxr0526/Parrot",
+    "https://gitlab.com/mlpds_mit/askcosv2/context_recommender",
+    "https://ibm.ent.box.com/v/uspto-yields-data",
+    "https://openmopac.net/Manual/pm7.html",
+    "https://openmopac.net/Manual/precision.html",
+    "https://patents.google.com/patent/US3037046A/en",
+    "https://pubchem.ncbi.nlm.nih.gov/compound/2337",
+    "https://www.dcceew.gov.au/environment/protection/npi/substances/acetic-acid-ethanoic-acid",
+    "https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface"
+  ],
+  "authoring_note": "Solar-authored targeted sentences verified; approved local evidence-path and table-format edits applied; Markdown-to-DOCX formatting applied.",
+  "citation_edit_validation": null,
+  "verified_edits_validation": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\reports\\benzocaine-final\\verified-edits-validation.json",
+  "layout_preset": "compact"
+}

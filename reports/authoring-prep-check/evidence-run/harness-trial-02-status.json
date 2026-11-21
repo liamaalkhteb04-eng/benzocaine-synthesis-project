@@ -1,0 +1,29 @@
+{
+  "trial_id": "harness-comparison-trial-02",
+  "status": "completed_two_independent_harness_calls",
+  "local_mock_verification": "passed; separate from Solar calls; one mock upstream POST per harness; no Solar request",
+  "solar_calls": [
+    {
+      "harness": "OpenCode",
+      "run_id": "opencode-trial-02",
+      "status": "success_http_200",
+      "draft": "results/harness-comparison/opencode-trial-02-draft.md",
+      "raw": "results/harness-comparison/runs/opencode-trial-02/"
+    },
+    {
+      "harness": "Pi Coding Agent",
+      "run_id": "pi-trial-02",
+      "status": "success_http_200",
+      "draft": "results/harness-comparison/pi-trial-02-draft.md",
+      "raw": "results/harness-comparison/runs/pi-trial-02/"
+    }
+  ],
+  "retries": 0,
+  "final_report_generated": false,
+  "github_push": false,
+  "limitations": [
+    "one run per harness is a case comparison, not evidence of general harness superiority",
+    "Console account debit after these two calls was not independently inspected",
+    "estimated cost derives from API token usage; credit allocation source is not itemized"
+  ]
+}

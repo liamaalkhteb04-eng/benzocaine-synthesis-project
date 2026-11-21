@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "bundle_id": "benzocaine-reproduction-validation-20261119-07",
+  "source_report_bundle": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run",
+  "report_is_not_included_as_authoring_input": true,
+  "course_original_pdf_included": false,
+  "sources": [
+    {
+      "path": "input.json",
+      "source_path": "input.json",
+      "sha256": "71ee5a5a194c89ed402b66f54f0812a0f71838bdc6366d7ebeb3028a74f3998b",
+      "bytes": 387
+    },
+    {
+      "path": "manifest.json",
+      "source_path": "manifest.json",
+      "sha256": "1e2f92c7edfcd9d7009d19992dc4c5f505845d3eb5987ddcb7d3460c8ceacfaa",
+      "bytes": 12417
+    },
+    {
+      "path": "validation_notes.json",
+      "source_path": "validation_notes.json",
+      "sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd",
+      "bytes": 1344
+    },
+    {
+      "path": "course-material-acquisition.md",
+      "source_path": "course-material-acquisition.md",
+      "sha256": "ba26e39ce5a285946c8e89175676cee2bd125f291a45a283782bc02100839a41",
+      "bytes": 563
+    },
+    {
+      "path": "additional-analysis-status-current.json",
+      "source_path": "additional-analysis-status-current.json",
+      "sha256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0",
+      "bytes": 1276
+    },
+    {
+      "path": "evidence-conflict-resolution.md",
+      "source_path": "evidence-conflict-resolution.md",
+      "sha256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8",
+      "bytes": 2962
+    },
+    {
+      "path": "mopac-results-interpretation.md",
+      "source_path": "mopac-results-interpretation.md",
+      "sha256": "08ea5ef42fc93aff4b392f84fc6a2508825c42fe3da2cf079578d1b29d133785",
+      "bytes": 4824
+    },
+    {
+      "path": "epi-analysis.md",
+      "source_path": "epi-analysis.md",
+      "sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84",
+      "bytes": 6297
+    },
+    {
+      "path": "visualizer-observation-index.csv",
+      "source_path": "visualizer-observation-index.csv",
+      "sha256": "0580deee959fdda8e2007e7497204dddda3c0b391cabe93372826518fbb9663c",
+      "bytes": 3027
+    },
+    {
+      "path": "visualizer-measurements.csv",
+      "source_path": "visualizer-measurements.csv",
+      "sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33",
+      "bytes": 1832
+    },
+    {
+      "path": "reproducibility-manifest.json",
+      "source_path": "reproducibility-manifest.json",
+      "sha256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69",
+      "bytes": 6928
+    },
+    {
+      "path": "harness-trial-02-comparison-evaluation.md",
+      "source_path": "harness-trial-02-comparison-evaluation.md",
+      "sha256": "9ed7562e32255963608a61fb84c19de44bd210735a3e399f4f0d28a9d7232584",
+      "bytes": 7182
+    },
+    {
+      "path": "harness-trial-02-status.json",
+      "source_path": "harness-trial-02-status.json",
+      "sha256": "d820f6b2d8ba99041d6447d2d180208cbff2384f83a4c5fb99668b8750338c90",
+      "bytes": 1108
+    },
+    {
+      "path": "harness-trial-02-budget.json",
+      "source_path": "harness-trial-02-budget.json",
+      "sha256": "6ceb905cb8be6695ab8e4cb4d489cc047f927262e83c9fe232bb287cbc92b955",
+      "bytes": 605
+    },
+    {
+      "path": "route05-step02-parrot-rank1-audit.json",
+      "source_path": "route05-step02-parrot-rank1-audit.json",
+      "sha256": "dfbca4b386d1d5c1f845819e97201b8ef0dd2ec4b760b60819a8d35fff297489",
+      "bytes": 380
+    },
+    {
+      "path": "figures/figure-index.json",
+      "source_path": "figures/figure-index.json",
+      "sha256": "87b96332bbbd6130ffc291115b8d1ab63a01c1ca9cdb31f1beca7caf1f7fc914",
+      "bytes": 2453
+    },
+    {
+      "path": "target/target.png",
+      "source_path": "target/target.png",
+      "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+      "bytes": 27429
+    },
+    {
+      "path": "figures/route-01-step-01.png",
+      "source_path": "figures/route-01-step-01.png",
+      "sha256": "c427ced18853ff281255c83a4a515e05959ab871246a2990785a4aa92031d9f5",
+      "bytes": 42508
+    },
+    {
+      "path": "figures/route-02-step-01.png",
+      "source_path": "figures/route-02-step-01.png",
+      "sha256": "f0066e7df6c7cb75353766d20c38f2f4031dda172043095c13ba79f6b0dbe0fd",
+      "bytes": 42321
+    },
+    {
+      "path": "figures/route-05-step-01.png",
+      "source_path": "figures/route-05-step-01.png",
+      "sha256": "cdc84699e8182e0b5b0344d4aa04d4aebee5690a88f649947af42c68a785b836",
+      "bytes": 39503
+    },
+    {
+      "path": "figures/route-05-step-02.png",
+      "source_path": "figures/route-05-step-02.png",
+      "sha256": "da589f87a6d9497c2b70ec0c24d2b2ba03fa26a47232dd94251bd4950949db18",
+      "bytes": 57038
+    },
+    {
+      "path": "figures/visualizer-route01-conf1-angle.png",
+      "source_path": "figures/visualizer-route01-conf1-angle.png",
+      "sha256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1",
+      "bytes": 208780
+    },
+    {
+      "path": "figures/visualizer-route01-conf1-distance.png",
+      "source_path": "figures/visualizer-route01-conf1-distance.png",
+      "sha256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f",
+      "bytes": 212876
+    },
+    {
+      "path": "figures/visualizer-route05-ethanol-conf2.png",
+      "source_path": "figures/visualizer-route05-ethanol-conf2.png",
+      "sha256": "f7ec98aeb179b5c85db0b98efd741ab47f8db0619a3844952a5fa18195a11b95",
+      "bytes": 44854
+    },
+    {
+      "path": "figures/visualizer-route05-paba-conf4.png",
+      "source_path": "figures/visualizer-route05-paba-conf4.png",
+      "sha256": "dac8b2f4ed83dc8600d3117d43cc1e13a929d6ece1b262e2ae113d803003694f",
+      "bytes": 71095
+    },
+    {
+      "path": "figures/visualizer-route05-paba-edge.png",
+      "source_path": "figures/visualizer-route05-paba-edge.png",
+      "sha256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b",
+      "bytes": 55849
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
+      "sha256": "a9dc70b1543a9884d5236b03287544b4574303f2f7ceeeabbc210a78d221ccd1",
+      "bytes": 8954
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/comparison.json",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/comparison.json",
+      "sha256": "24c8855e212336c2bd019030dec74ff5394d2f8fdae49e4f6ada18c488271262",
+      "bytes": 5536
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/validation.json",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/validation.json",
+      "sha256": "9df7d6cf95236a8c094df4397930589f90a786d083172ab048c957277bacf53f",
+      "bytes": 610
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/source-integrity.json",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/source-integrity.json",
+      "sha256": "64bbe6c43a4e79cc7e18cab04de9651388ef65aa1b20ec499e0641317fb388f1",
+      "bytes": 712
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/source-acquisition.md",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/source-acquisition.md",
+      "sha256": "99110c042694ae6c52fd877e7e1d8eee5c31b970345fdfe1b540f0624c8bcb09",
+      "bytes": 2038
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/evidence/routes.raw.json",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/evidence/routes.raw.json",
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80",
+      "bytes": 233081
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/evidence/conditions-parrot.raw.json",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/evidence/conditions-parrot.raw.json",
+      "sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "bytes": 57530
+    },
+    {
+      "path": "literature-validation/route-01-primary-comparison-20261114/evidence/yields-rxn_yields.raw.json",
+      "source_path": "literature-validation/route-01-primary-comparison-20261114/evidence/yields-rxn_yields.raw.json",
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79",
+      "bytes": 9987
+    },
+    {
+      "path": "figures/target.png",
+      "source_path": "target/target.png",
+      "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+      "bytes": 27429
+    },
+    {
+      "path": "visualizer-measurement-interpretation.md",
+      "source_path": "local project analyses/visualizer/visualizer-measurement-interpretation.md (read-only copy)",
+      "sha256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0",
+      "bytes": 3780
+    },
+    {
+      "path": "latest-route-reproduction/routes.raw.json",
+      "source_path": "latest-route-reproduction/routes.raw.json",
+      "sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80",
+      "bytes": 233081
+    },
+    {
+      "path": "latest-route-reproduction/routes.json",
+      "source_path": "latest-route-reproduction/routes.json",
+      "sha256": "2e8b962bbab67f6d74f3b6f326a71f03834c189e032df78df929013e8ede2e7e",
+      "bytes": 40417
+    },
+    {
+      "path": "latest-route-reproduction/conditions-parrot.raw.json",
+      "source_path": "latest-route-reproduction/conditions-parrot.raw.json",
+      "sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "bytes": 57530
+    },
+    {
+      "path": "latest-route-reproduction/conditions-parrot.json",
+      "source_path": "latest-route-reproduction/conditions-parrot.json",
+      "sha256": "c99bd39b29d222732ee39b37088705fb2f1da81d08db98fef4f175842196ab3c",
+      "bytes": 83124
+    },
+    {
+      "path": "latest-route-reproduction/yields-rxn_yields.raw.json",
+      "source_path": "latest-route-reproduction/yields-rxn_yields.raw.json",
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79",
+      "bytes": 9987
+    },
+    {
+      "path": "latest-route-reproduction/yields-rxn_yields.json",
+      "source_path": "latest-route-reproduction/yields-rxn_yields.json",
+      "sha256": "6fd9924ad811f15f49dec91f6d86c682fdd98bc42a9a9cf6392e1f1c7dba5f70",
+      "bytes": 38127
+    },
+    {
+      "path": "latest-route-reproduction/manifest.json",
+      "source_path": "latest-route-reproduction/manifest.json",
+      "sha256": "ccc3253f398e2796ac4b4c92bbc108d3cbf1803258531b7f80a6568ad9f71426",
+      "bytes": 14253
+    },
+    {
+      "path": "latest-route-reproduction/reproduction-validation.json",
+      "source_path": "latest-route-reproduction/reproduction-validation.json",
+      "sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2",
+      "bytes": 3777
+    },
+    {
+      "path": "latest-route-reproduction/step-validation.json",
+      "source_path": "latest-route-reproduction/step-validation.json",
+      "sha256": "dfc26d06666cc354ae99291882ca5588f777473352107cbe91666884a141188c",
+      "bytes": 264
+    },
+    {
+      "path": "latest-route-reproduction/pipeline.log",
+      "source_path": "latest-route-reproduction/pipeline.log",
+      "sha256": "d53d79e2df91410a63c4de80e03091c97da2576caeae4e13aa5627e6d1a8eac4",
+      "bytes": 3485
+    },
+    {
+      "path": "latest-route-reproduction/routes-selected-raw.json",
+      "source_path": "latest-route-reproduction/routes.raw.json",
+      "source_sha256": "2e2123f9561ff2b73855dd2ed402cadf9b3ce843f3e3d6611de3713162e50e80",
+      "sha256": "d53d809da2cbe720bce717f138bc9cf92aa8aff8c99435ab084b4bb3fc486f29",
+      "bytes": 6755,
+      "derivative": "selected complete raw route trees; indices preserved"
+    },
+    {
+      "path": "report-evidence.json",
+      "source_path": "evidence-run/report-evidence.json with figure paths rebound to exact copied assets and redundant unselected step detail omitted",
+      "source_sha256": "d9772566f55ff0949f1dde3a858ffbdf2a8dea2e0f3d09eaf4862965693f2d7a",
+      "sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+      "bytes": 41706,
+      "derivative": true
+    },
+    {
+      "path": "citation-source-map.json",
+      "source_path": "../citation-source-map.json",
+      "sha256": "3f5c6e9a356d6338df6ff82a648fc6c41eb8841857f95d958640279f627d236f",
+      "bytes": 7755
+    },
+    {
+      "path": "report-context.json",
+      "source_path": "current task user instruction and inputs/benzocaine.json",
+      "sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "bytes": 695
+    },
+    {
+      "path": "course-evidence-summary.md",
+      "source_path": "user-provided course PDF, pages 80-81, 83-84, 90-95; derived summary",
+      "sha256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a",
+      "bytes": 1481
+    },
+    {
+      "path": "rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+      "source_path": "rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+      "sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "bytes": 6782
+    },
+    {
+      "path": "rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+      "source_path": "rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+      "sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2",
+      "bytes": 3777
+    },
+    {
+      "path": "rerun/benzocaine-live-repro-20261105-01/verification.json",
+      "source_path": "rerun/benzocaine-live-repro-20261105-01/verification.json",
+      "sha256": "02f7768aa9e369f13c5fc36eef4b185610442942df7edb18e91918e047b97acc",
+      "bytes": 364
+    },
+    {
+      "path": "rerun/benzocaine-live-repro-20261105-01/manifest.json",
+      "source_path": "rerun/benzocaine-live-repro-20261105-01/manifest.json",
+      "sha256": "ccc3253f398e2796ac4b4c92bbc108d3cbf1803258531b7f80a6568ad9f71426",
+      "bytes": 14253
+    },
+    {
+      "path": "rerun/benzocaine-live-repro-20261105-01/reproduction-validation.json",
+      "source_path": "rerun/benzocaine-live-repro-20261105-01/reproduction-validation.json",
+      "sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "bytes": 6782
+    },
+    {
+      "path": "figures/figure-index-verified.json",
+      "source_path": "derived from copied figure-index.json and exact asset bytes",
+      "sha256": "f2f1e36f10eaac9020b923cb26b9659287e10bffe00f2f79c773a2d84b8c3d45",
+      "bytes": 3625
+    },
+    {
+      "path": "latest-route-reproduction/verification.json",
+      "source_path": "reports/benzocaine-page-layout-and-instruction-cleanup-20261115/evidence-run/latest-route-reproduction/verification.json",
+      "sha256": "50b4a24030af73b8025f356083f91e9113ec11d119142d40e08170f7d4c6f4e9",
+      "bytes": 377
+    },
+    {
+      "path": "figures/manifest.json",
+      "source_path": "results/.../figures/manifest.json (absolute image paths redacted)",
+      "sha256": "f591a2dfc30df214a089bb1a6755dec6661c9d256da527f4ff1d166fcce1a756",
+      "bytes": 6574
+    },
+    {
+      "path": "figures/manifest-redaction-validation.json",
+      "source_path": "derived validation for path-only figure-manifest redaction",
+      "sha256": "3ffdbf68b83126c152b9e64d3f2e6506d316822259440f54d96b0bfa5e4267c6",
+      "bytes": 461
+    }
+  ]
+}

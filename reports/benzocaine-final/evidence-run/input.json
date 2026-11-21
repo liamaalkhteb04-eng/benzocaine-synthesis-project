@@ -1,0 +1,11 @@
+{
+  "target_id":"benzocaine",
+  "name":"Benzocaine",
+  "name_ko":"벤조카인",
+  "smiles":"CCOC(=O)c1ccc(N)cc1",
+  "expected_formula":"C9H11NO2",
+  "pubchem_cid":2337,
+  "identity_reference":"https://pubchem.ncbi.nlm.nih.gov/compound/2337",
+  "chemical_form":"neutral free base",
+  "purpose":"Final course target; actual synthesis predictions and evidence-based additional analyses"
+}

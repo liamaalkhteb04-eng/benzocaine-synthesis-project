@@ -1,0 +1,15 @@
+{
+    "model":  "solar-pro4-260806",
+    "reasoning_effort":  "none",
+    "max_tokens":  2000,
+    "messages":  [
+                     {
+                         "content":  "당신은 한국어 학술 보고서의 부분 교정 작성자다. 지정된 기존 문장 하나만 대체할 독자용 문장 하나를 쓴다. 요청에 제공된 사실과 근거만 사용한다. 다른 문장, 문단, 이름, 슬롯, 역할 설명, 해설은 다시 쓰지 않는다. 출력에는 지정한 시작·끝 마커와 그 사이의 문장 하나만 포함한다.",
+                         "role":  "system"
+                     },
+                     {
+                         "content":  "교체 대상 문장은 다음과 같다.\n“route-05/step-02에서 반응 `CCO.Nc1ccc(C(=O)O)cc1\u003e\u003eCCOC(=O)c1ccc(N)cc1`에 대해 Parrot이 제시한 원시 후보는 세 개이며, 각각 별도의 슬롯 구성으로 제시된다 [D1].”\n\n이 문장은 전체 후보 수를 세 개라고 잘못 단정하므로 교체 대상이며 보존하지 않는다. 바로 뒤 문맥은 후보 rank 1, rank 2, rank 3만 설명한다.\n\n검증된 실행 근거: `results/benzocaine-live-20261031-04/conditions-parrot.raw.json`의 동일 반응 레코드에는 원시 후보가 총 15개 있고, 그 레코드의 step 연결에는 route-05/step-02가 포함된다. 보고서 증거 ID [D1]은 해당 실행의 route·condition 결과를 가리킨다.\n\n위 기존 문장 하나를 대체할 최종 독자용 한국어 문장 하나만 작성하라. 전체 후보가 15개라는 사실과 해당 설명 문단이 rank 1~3만 다룬다는 범위를 정확히 표현하고 [D1]을 인용하라. 검증된 물질명·슬롯·실험 역할 구분이나 다른 문장은 다시 작성하지 않는다.\n\n출력 형식:\nBEGIN_ROUTE05_COUNT_SENTENCE\n(대체할 문장 하나)\nEND_ROUTE05_COUNT_SENTENCE",
+                         "role":  "user"
+                     }
+                 ]
+}

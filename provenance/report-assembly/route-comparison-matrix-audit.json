@@ -1,0 +1,563 @@
+{
+  "status": "passed",
+  "generator": "scripts/build_route_comparison_matrix.py",
+  "scope": "data join and formatting only; no new scientific interpretation",
+  "row_count": 13,
+  "unique_route_step_count": 4,
+  "summary_rows": [
+    {
+      "route_id": "route-01",
+      "step_id": "step-01",
+      "route_step_count": 1,
+      "transformation_label": "3.1 route-01: 에틸 4-니트로벤조에이트 → 벤조카인",
+      "evidence_scope": "[D9][D1] 동일 변환의 직접 문헌 사례. Org. Synth. 분리·재결정 후 질량 수율 91–100%; 특허 약 100% 이론량(측정법 별도 정의 없음). 세부 조건은 §6.1.",
+      "checks": "Parrot 온도·시간 미제공; 출력에 당량·압력 필드 없음; 수율 모델 입력에 조건 없음."
+    },
+    {
+      "route_id": "route-02",
+      "step_id": "step-01",
+      "route_step_count": 1,
+      "transformation_label": "3.2 route-02: 에틸 4-아세트아미도벤조에이트 → 벤조카인",
+      "evidence_scope": "[D1] 이 증거 묶음에는 동일 단계의 문헌·강의 사례가 매핑되지 않음.",
+      "checks": "Parrot 온도·시간 미제공; 출력에 당량·압력 필드 없음; 수율 모델 입력에 조건 없음."
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-01",
+      "route_step_count": 2,
+      "transformation_label": "3.3.1 route-05/step-01: 아세트산 → 에탄올",
+      "evidence_scope": "[D1] 이 증거 묶음에는 동일 단계의 문헌·강의 사례가 매핑되지 않음.",
+      "checks": "Parrot 온도·시간 미제공; 출력에 당량·압력 필드 없음; 수율 모델 입력에 조건 없음."
+    },
+    {
+      "route_id": "route-05",
+      "step_id": "step-02",
+      "route_step_count": 2,
+      "transformation_label": "3.3.2 route-05/step-02: 4-아미노벤조산 + 에탄올 → 벤조카인",
+      "evidence_scope": "[17, PDF pp. 80–81][D1] 벤조카인 교육 예시; [17, PDF pp. 90–95] 일반 메커니즘 교육자료. 실험 수율 근거 아님.",
+      "checks": "Parrot 온도·시간 미제공; 출력에 당량·압력 필드 없음; 수율 모델 입력에 조건 없음."
+    }
+  ],
+  "selected_route_step_counts": {
+    "route-01": 1,
+    "route-02": 1,
+    "route-05": 2
+  },
+  "rows": [
+    {
+      "route_id": "route-01",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.1 route-01: 에틸 4-니트로벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 1,
+      "parrot_sequence_score": -1.700762152671814,
+      "parrot_original_slots": {
+        "catalyst1": "[Pd]",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 82.95371431744555,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [
+        {
+          "key": "OrgSyn-1928-8-66",
+          "location": "Procedure 1, Note 1; source PDF page 2 (printed Vol. 8 p.66; Collective Vol. 1 p.240)",
+          "source_yield_cell": "15–16.5 g, 이론량의 91–100%. 여과·에탄올 증류 후 에터 재결정한 생성물의 질량 수율이므로 분리/재결정 후 수율. 전환율·분석 수율은 별도 보고 안 됨. 생성물 mp 89–90 °C."
+        },
+        {
+          "key": "US3037046A-Example-IV",
+          "location": "Example IV, printed patent page 3; source scan PDF page 2; cross-reference to Example I workup",
+          "source_yield_cell": "약 100% of theory; product mp 86–87 °C, 순도 99.9%라고 보고. Example IV는 수율법을 별도 정의하지 않는다. Example I 방식의 냉각·석출·여과 work-up을 따르므로 분리 생성물 수율로 읽을 근거는 있으나, Example IV에서 분리 질량/수율 측정법은 별도 기재되지 않음. 분석 수율 또는 전환율로 표기되지 않음."
+        }
+      ],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1",
+        "D9"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-01",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.1 route-01: 에틸 4-니트로벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 2,
+      "parrot_sequence_score": -2.0481550693511963,
+      "parrot_original_slots": {
+        "catalyst1": "[Pd]",
+        "solvent1": "CO",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 82.95371431744555,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [
+        {
+          "key": "OrgSyn-1928-8-66",
+          "location": "Procedure 1, Note 1; source PDF page 2 (printed Vol. 8 p.66; Collective Vol. 1 p.240)",
+          "source_yield_cell": "15–16.5 g, 이론량의 91–100%. 여과·에탄올 증류 후 에터 재결정한 생성물의 질량 수율이므로 분리/재결정 후 수율. 전환율·분석 수율은 별도 보고 안 됨. 생성물 mp 89–90 °C."
+        },
+        {
+          "key": "US3037046A-Example-IV",
+          "location": "Example IV, printed patent page 3; source scan PDF page 2; cross-reference to Example I workup",
+          "source_yield_cell": "약 100% of theory; product mp 86–87 °C, 순도 99.9%라고 보고. Example IV는 수율법을 별도 정의하지 않는다. Example I 방식의 냉각·석출·여과 work-up을 따르므로 분리 생성물 수율로 읽을 근거는 있으나, Example IV에서 분리 질량/수율 측정법은 별도 기재되지 않음. 분석 수율 또는 전환율로 표기되지 않음."
+        }
+      ],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1",
+        "D9"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-01",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.1 route-01: 에틸 4-니트로벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 3,
+      "parrot_sequence_score": -2.7931230068206787,
+      "parrot_original_slots": {
+        "catalyst1": "[Pd]",
+        "solvent1": "CCOC(C)=O",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 82.95371431744555,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [
+        {
+          "key": "OrgSyn-1928-8-66",
+          "location": "Procedure 1, Note 1; source PDF page 2 (printed Vol. 8 p.66; Collective Vol. 1 p.240)",
+          "source_yield_cell": "15–16.5 g, 이론량의 91–100%. 여과·에탄올 증류 후 에터 재결정한 생성물의 질량 수율이므로 분리/재결정 후 수율. 전환율·분석 수율은 별도 보고 안 됨. 생성물 mp 89–90 °C."
+        },
+        {
+          "key": "US3037046A-Example-IV",
+          "location": "Example IV, printed patent page 3; source scan PDF page 2; cross-reference to Example I workup",
+          "source_yield_cell": "약 100% of theory; product mp 86–87 °C, 순도 99.9%라고 보고. Example IV는 수율법을 별도 정의하지 않는다. Example I 방식의 냉각·석출·여과 work-up을 따르므로 분리 생성물 수율로 읽을 근거는 있으나, Example IV에서 분리 질량/수율 측정법은 별도 기재되지 않음. 분석 수율 또는 전환율로 표기되지 않음."
+        }
+      ],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1",
+        "D9"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-01",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.1 route-01: 에틸 4-니트로벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 4,
+      "parrot_sequence_score": -2.878655195236206,
+      "parrot_original_slots": {
+        "catalyst1": "[Pd]",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "[H][H]",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 82.95371431744555,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [
+        {
+          "key": "OrgSyn-1928-8-66",
+          "location": "Procedure 1, Note 1; source PDF page 2 (printed Vol. 8 p.66; Collective Vol. 1 p.240)",
+          "source_yield_cell": "15–16.5 g, 이론량의 91–100%. 여과·에탄올 증류 후 에터 재결정한 생성물의 질량 수율이므로 분리/재결정 후 수율. 전환율·분석 수율은 별도 보고 안 됨. 생성물 mp 89–90 °C."
+        },
+        {
+          "key": "US3037046A-Example-IV",
+          "location": "Example IV, printed patent page 3; source scan PDF page 2; cross-reference to Example I workup",
+          "source_yield_cell": "약 100% of theory; product mp 86–87 °C, 순도 99.9%라고 보고. Example IV는 수율법을 별도 정의하지 않는다. Example I 방식의 냉각·석출·여과 work-up을 따르므로 분리 생성물 수율로 읽을 근거는 있으나, Example IV에서 분리 질량/수율 측정법은 별도 기재되지 않음. 분석 수율 또는 전환율로 표기되지 않음."
+        }
+      ],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1",
+        "D9"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-02",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.2 route-02: 에틸 4-아세트아미도벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 1,
+      "parrot_sequence_score": -1.3239554166793823,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "Cl",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 77.69549187778327,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-02",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.2 route-02: 에틸 4-아세트아미도벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 2,
+      "parrot_sequence_score": -2.660543441772461,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "Cl",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 77.69549187778327,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-02",
+      "route_step_count": 1,
+      "step_id": "step-01",
+      "existing_report_heading": "3.2 route-02: 에틸 4-아세트아미도벤조에이트 → 벤조카인",
+      "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 3,
+      "parrot_sequence_score": -3.2928555011749268,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "[Na+].[OH-]",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 77.69549187778327,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-05",
+      "route_step_count": 2,
+      "step_id": "step-01",
+      "existing_report_heading": "3.3 route-05: 아세트산 → 에탄올 → 벤조카인",
+      "reaction_smiles": "CC(=O)O>>CCO",
+      "parrot_rank": 1,
+      "parrot_sequence_score": -1.8564977645874023,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "[Al+3].[H-].[H-].[H-].[H-].[Li+]",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 77.58890327412914,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-05",
+      "route_step_count": 2,
+      "step_id": "step-01",
+      "existing_report_heading": "3.3 route-05: 아세트산 → 에탄올 → 벤조카인",
+      "reaction_smiles": "CC(=O)O>>CCO",
+      "parrot_rank": 2,
+      "parrot_sequence_score": -2.797421455383301,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "O",
+        "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]"
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 77.58890327412914,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-05",
+      "route_step_count": 2,
+      "step_id": "step-01",
+      "existing_report_heading": "3.3 route-05: 아세트산 → 에탄올 → 벤조카인",
+      "reaction_smiles": "CC(=O)O>>CCO",
+      "parrot_rank": 3,
+      "parrot_sequence_score": -2.994331121444702,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "C1CCOC1",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 77.58890327412914,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "No matching experimental literature/course comparison mapped in this evidence packet",
+      "evidence_ids": [
+        "D1"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-05",
+      "route_step_count": 2,
+      "step_id": "step-02",
+      "existing_report_heading": "3.3 route-05: 아세트산 → 에탄올 → 벤조카인",
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 1,
+      "parrot_sequence_score": -2.1754837036132812,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CCOCC",
+        "reagent2": "FB(F)F"
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 79.79832496878097,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "PDF 80–81: benzocaine disconnection and sulfuric-acid Fischer example; PDF 90–95: general methanol/acetic-acid Fischer mechanism (teaching example, not route-specific experiment)",
+      "evidence_ids": [
+        "D1",
+        "17"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-05",
+      "route_step_count": 2,
+      "step_id": "step-02",
+      "existing_report_heading": "3.3 route-05: 아세트산 → 에탄올 → 벤조카인",
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 2,
+      "parrot_sequence_score": -2.3472180366516113,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "CCO",
+        "solvent2": "",
+        "reagent1": "CC(=O)Cl",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 79.79832496878097,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "PDF 80–81: benzocaine disconnection and sulfuric-acid Fischer example; PDF 90–95: general methanol/acetic-acid Fischer mechanism (teaching example, not route-specific experiment)",
+      "evidence_ids": [
+        "D1",
+        "17"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    },
+    {
+      "route_id": "route-05",
+      "route_step_count": 2,
+      "step_id": "step-02",
+      "existing_report_heading": "3.3 route-05: 아세트산 → 에탄올 → 벤조카인",
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+      "parrot_rank": 3,
+      "parrot_sequence_score": -2.6159138679504395,
+      "parrot_original_slots": {
+        "catalyst1": "",
+        "solvent1": "O=S(=O)(O)O",
+        "solvent2": "",
+        "reagent1": "",
+        "reagent2": ""
+      },
+      "temperature": null,
+      "temperature_status": "not_provided_by_checkpoint",
+      "time": null,
+      "yield_percent": 79.79832496878097,
+      "yield_status": "predicted_not_validated",
+      "conditions_in_yield_input": false,
+      "literature_evidence": [],
+      "course_evidence_scope": "PDF 80–81: benzocaine disconnection and sulfuric-acid Fischer example; PDF 90–95: general methanol/acetic-acid Fischer mechanism (teaching example, not route-specific experiment)",
+      "evidence_ids": [
+        "D1",
+        "17"
+      ],
+      "checks_recorded_in_sources": [
+        "temperature/time are not provided by Parrot",
+        "yield model input excludes conditions",
+        "equivalents/pressure are not included in the saved Parrot output"
+      ]
+    }
+  ],
+  "input_files": {
+    "report_evidence": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\report-evidence.json",
+      "sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b"
+    },
+    "parrot_raw": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\latest-route-reproduction\\conditions-parrot.raw.json",
+      "sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6"
+    },
+    "yield_raw_normalized_records": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\latest-route-reproduction\\yields-rxn_yields.raw.json",
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79"
+    },
+    "route01_literature_comparison": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\literature-validation\\route-01-primary-comparison-20261114\\comparison.json",
+      "sha256": "24c8855e212336c2bd019030dec74ff5394d2f8fdae49e4f6ada18c488271262"
+    },
+    "route01_literature_comparison_text": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\literature-validation\\route-01-primary-comparison-20261114\\literature-comparison.md",
+      "sha256": "a9dc70b1543a9884d5236b03287544b4574303f2f7ceeeabbc210a78d221ccd1"
+    },
+    "course_evidence_summary": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\course-evidence-summary.md",
+      "sha256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a"
+    },
+    "citation_source_map": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\evidence-run\\citation-source-map.json",
+      "sha256": "55e234b7f2e4173bab304902b263a223cdf75c11a50b6abd1d9dc4df7f36c168"
+    },
+    "base_report_headings_source": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261119-08\\base\\report-cited-claims-cited.md",
+      "sha256": "ad4a2b0fe9179c3d58f0c9c1e90a49b781c58de3b3e4e69cdfdfc2bd58b32bf8"
+    }
+  },
+  "outputs": {
+    "markdown": "route-comparison-matrix.md",
+    "markdown_sha256": "aa9d3fb4fa6b860d812ea5be76966e7e3ccfa3b723bfa15ef3ffce39d318f74d",
+    "audit_json_sha256_excluding_self_hash": "not_applicable"
+  },
+  "assertions": {
+    "yield_join_exact_by_route_step_and_reaction": true,
+    "parrot_slots_equal_raw_and_normalized": true,
+    "route01_rank1_and_rank4_separate_rows": true,
+    "candidate_rows_separate_not_combined": true,
+    "literature_only_on_matching_route01_reaction": true,
+    "no_route_total_yield_calculated": true,
+    "course_evidence_not_treated_as_experimental_yield": true
+  }
+}

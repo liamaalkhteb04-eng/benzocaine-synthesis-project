@@ -1,0 +1,3 @@
+usage: generate_report.py [-h] --run-dir RUN_DIR --attempt-id ATTEMPT_ID
+                          (--prepare-only | --execute-solar)
+generate_report.py: error: Paid calls and report generation are not currently authorized; no API request was sent

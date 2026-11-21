@@ -1,0 +1,33 @@
+{
+  "status": "selected_for_manual_visualizer_review_not_yet_observed",
+  "source_run": "benzocaine-live-20261031-04",
+  "source_routes": "results/benzocaine-live-20261031-04/routes.json",
+  "representative": {
+    "route_id": "route-01",
+    "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+    "reason": "One-step predicted reduction of the para nitro group to the benzocaine amino group; both the predicted precursor and product have PM7 optimized structures and atom numbering. It is the highest state-score route among the returned routes (0.99763). This is a route-selection rationale, not evidence that the step is feasible or successful.",
+    "reactive_region": "nitro nitrogen on ethyl 4-nitrobenzoate",
+    "substrate_atom_map_numbers": {"nitro_N": 10, "aryl_ipso_C": 9, "aryl_ortho_C": [8, 13], "ortho_H_sdf_serials": [21, 22]},
+    "structures": [
+      "analyses/visualizer/inputs/ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+      "analyses/visualizer/inputs/benzocaine-mopac-pm7-conformers.sdf"
+    ]
+  },
+  "comparison": {
+    "route_id": "route-05",
+    "reaction_steps": [
+      "CC(=O)O>>CCO",
+      "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1"
+    ],
+    "reason": "A two-step esterification-style route using 4-aminobenzoic acid and ethanol. Both second-step input structures and the product have PM7 optimized geometries; unlike route-01 it brings two independent molecules together at a proposed acyl-substitution site. Its route state score is 0.99404. The predicted reaction is not validated.",
+    "reactive_region": "4-aminobenzoic acid carboxyl carbon and ethanol oxygen",
+    "p_aminobenzoic_acid_atom_map_numbers": {"carboxyl_C": 6, "carbonyl_O": 7, "hydroxyl_O": 8, "aryl_ipso_C": 5, "aryl_ortho_C": [4, 9], "ortho_H_sdf_serials": [14, 16], "hydroxyl_H_sdf_serial": 15},
+    "ethanol_atom_map_numbers": {"ethyl_C": 2, "O": 3, "hydroxyl_H_sdf_serial": 9},
+    "structures": [
+      "analyses/visualizer/inputs/p-aminobenzoic-acid-mopac-pm7-conformers.sdf",
+      "analyses/visualizer/inputs/ethanol-mopac-pm7-conformers.sdf",
+      "analyses/visualizer/inputs/benzocaine-mopac-pm7-conformers.sdf"
+    ],
+    "caveat": "Any hand-positioned PABA/ethanol pair is illustrative only, not a calculated or optimized reaction complex. No transition state or solvent is present."
+  }
+}

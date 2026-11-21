@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "scope": "repository-root overlay preflight; no Solar request, model inference, installation, school submission, or push",
+  "remote_base_commit": "302e8e18edf00ff2538b93ae73d54d5912eada65",
+  "changed_existing_paths": 15,
+  "new_paths": 854,
+  "removed_existing_paths": 0,
+  "preserved_remote_files_count": 1042,
+  "report": {
+    "pdf_path": "reports/benzocaine-final/report.pdf",
+    "pdf_sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445",
+    "docx_path": "reports/benzocaine-final/report.docx",
+    "docx_sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926"
+  },
+  "checks": {
+    "base_remote_commit_pinned": true,
+    "candidate_report_pdf_hash_preserved": true,
+    "candidate_report_docx_hash_preserved": true,
+    "readme_relative_links_resolve": true,
+    "professor_A_B_C_paths_present": true,
+    "no_deletions": true,
+    "old_remote_file_inventory_present": true,
+    "sensitive_scan_clear": true,
+    "manifest_generator_completed": true,
+    "local_package_manifest_sha256_matches_sidecar": true,
+    "repository_root_manifest_covers_all_files": true
+  },
+  "broken_readme_relative_links": [],
+  "limitations": [
+    "The latest report-writing skill has not been quality-tested with a live Solar call.",
+    "No clean-PC run has been performed.",
+    "This audit does not claim new chemical inference or new-target success."
+  ],
+  "manifest_note": "The root manifest is regenerated after this audit file and records Git-canonical text bytes; its own SHA-256 is in PACKAGE-MANIFEST.sha256."
+}

@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "validation_scope": "offline local package only; no Solar call, model inference, installation, push, or submission",
+  "checks": {
+    "candidate_pdf_hash_pinned_and_copy_equal": true,
+    "candidate_docx_hash_pinned_and_copy_equal": true,
+    "generic_and_report_skills_exist": true,
+    "historical_skill_sources_and_path_map_exist": true,
+    "current_skills_have_no_aspirin_fixed_values": true,
+    "offline_report_request_audit_passed": true,
+    "report_skill_hash_in_actual_request_matches": true,
+    "offline_request_was_not_sent": true,
+    "saved_response_docx_pdf_rebuild_passed": true,
+    "new_target_report_request_prepare_and_disabled_live_gate_passed": true,
+    "report_budget_guard_unit_tests_passed": true,
+    "new_target_figure_manifest_markers_prepared": true,
+    "target_neutral_report_wrapper_matches_source": true,
+    "saved_response_pdf_page_count_20": true,
+    "saved_response_images_tables_and_previews": true,
+    "initial_failed_document_validation_preserved": true,
+    "readme_relative_links_resolve": true,
+    "core_requirements_assets_lock_and_input_template_exist": true,
+    "no_env_weights_or_files_over_50mib": true,
+    "no_venv_git_or_cache_dirs": true,
+    "no_personal_windows_paths_in_text": true,
+    "no_email_addresses_in_text": true,
+    "no_nonplaceholder_api_key_assignment": true,
+    "source_map_covers_all_nonself_files": true,
+    "source_map_hashes_match_current_package": true
+  },
+  "failed_relative_links": [],
+  "forbidden_files": [],
+  "forbidden_directories": [],
+  "privacy_scan_relative_file_hits": {
+    "windows_paths": [],
+    "emails": [],
+    "nonplaceholder_api_key_assignments": []
+  },
+  "report": {
+    "pdf_sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445",
+    "docx_sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926",
+    "pdf_pages": 20,
+    "source_pdf_sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445",
+    "source_docx_sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926"
+  },
+  "saved_response_rebuild": {
+    "pdf_sha256": "2000581fdd97f4fa1ba264ad23bc4e5c5bc4b49d7b9371ac8b7f8fd394ba90f6",
+    "docx_sha256": "4e1e02f397a9cc6ccc962b57329e73c18c882bed1c758e65d71d860256b6604d",
+    "pages": 20,
+    "figure_count": 10,
+    "table_count": 4
+  },
+  "package_files_before_manifest": 923,
+  "package_bytes_before_manifest": 40124303,
+  "limitations": [
+    "Current skill response quality was not tested by a live Solar call.",
+    "No clean-PC or other-target run was performed.",
+    "Model weights and complete stock data are intentionally not bundled.",
+    "GitHub push and school submission remain pending user review."
+  ]
+}

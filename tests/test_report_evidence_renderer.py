@@ -5,7 +5,7 @@ import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from render_report_evidence import build_table, figure_marker_id, render_table
+from render_report_evidence import build_step_summary_table, build_table, figure_marker_id, render_table
 
 
 class ReportEvidenceRendererTests(unittest.TestCase):
@@ -20,7 +20,7 @@ class ReportEvidenceRendererTests(unittest.TestCase):
                     }],
                     "temperature": None, "time": None, "equivalents": None, "pressure": None
                 },
-                "yield_prediction": {"yield_percent": 12.345, "yield_status": "predicted_not_validated"}
+                "yield_prediction": {"yield_percent": 12.345, "yield_status": "predicted_not_validated", "conditions_in_input": False}
             }]
         }
 
@@ -33,6 +33,18 @@ class ReportEvidenceRendererTests(unittest.TestCase):
         self.assertIn("pressure=미제공", rows[0][3])
         self.assertEqual(rows[0][4], "12.35% / predicted_not_validated")
         self.assertEqual(len(headers), len(rows[0]))
+
+    def test_step_summary_is_one_rank1_row_and_distinguishes_absent_output_fields(self):
+        headers, rows = build_step_summary_table(self.evidence)
+        self.assertEqual(headers[0], "route_id / step_id")
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0][0], "route-x / step-01 [D1]")
+        self.assertIn("catalyst1=`\"\"`", rows[0][2])
+        self.assertIn("reagent1=`\"미제공\"`", rows[0][2])
+        self.assertIn("solvent1=`O`", rows[0][2])
+        self.assertIn("temperature=미제공", rows[0][3])
+        self.assertIn("equivalents=출력 필드 없음", rows[0][3])
+        self.assertEqual(rows[0][4], "12.35% / predicted_not_validated (conditions_in_input=False)")
 
     def test_figure_reference_requires_exact_manifest_identity(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -1,0 +1,13 @@
+{
+  "sha256": {
+    "evidence/conditions-parrot.raw.json": "4e3c9c40668baff2ddf4304ff4008746dba4a06fbcbbf2ccdb20c02465a0dcc6",
+    "evidence/routes.raw.json": "7a1e92a4018bf42acc78072d39e5c2ab4400a474c4458eda7945957b01de30b8",
+    "evidence/yields-rxn_yields.raw.json": "b0c5f94eb8bf21a6160d4a4ea1e9ec470f572fc4df0e876cb3314828d3cc6998",
+    "sources/orgsyn-1928-8-66.pdf": "a7406ae755631c3c47e39a51fb83b7bd83b2910d10aeffe99305ff1d83838a9d",
+    "sources/US3037046.pdf": "af1376753ea61c3fbc448ed2b3555e7e145611563170fcca8e0d8a553321b913"
+  },
+  "web_source_pages_and_examples": {
+    "OrgSyn": "Procedure 1, Note 1; source PDF page 2",
+    "US3037046": "Example IV, printed patent page 3; scan PDF page 2"
+  }
+}

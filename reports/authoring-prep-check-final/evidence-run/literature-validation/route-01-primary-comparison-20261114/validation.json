@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": {
+    "reaction_exact_match_parrot": true,
+    "rank1_fields_match": true,
+    "rank4_fields_match": true,
+    "yield_reaction_exact_match": true,
+    "yield_is_unconditioned": true,
+    "yield_pp_arithmetic": true,
+    "orgsyn_pdf_page2_contains_exact_substrate_and_yield": true,
+    "patent_pdf_page2_contains_exampleIV_conditions": true,
+    "all_saved_hashes_match": true,
+    "no_report_or_aspirin_changes_requested": true
+  },
+  "checked_at": "2026-11-14",
+  "scope": "source transcription and stored model-evidence comparison only; no new model run or report edit"
+}

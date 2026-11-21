@@ -1,0 +1,12 @@
+route_id,structure_file,conformer_scope,measurement,atom_serials_1based,atom_map_numbers,unit,interpretation_limit
+route-01,inputs/ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf,PM7 conformers 1-5,N10···ortho-H distance,10;21,10;H serial 21,angstrom,Intramolecular local geometry only; not a reagent approach distance
+route-01,inputs/ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf,PM7 conformers 1-5,N10···other ortho-H distance,10;22,10;H serial 22,angstrom,Intramolecular local geometry only; not a reagent approach distance
+route-01,inputs/ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C8-C9-N10 angle,8;9;10,8;9;10,degrees,Local nitro-group geometry; does not quantify a transition state
+route-01,inputs/ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C13-C9-N10 angle,13;9;10,13;9;10,degrees,Local nitro-group geometry; does not quantify a transition state
+route-05,inputs/p-aminobenzoic-acid-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C6-O7 distance,6;7,6;7,angstrom,Intramolecular bond geometry
+route-05,inputs/p-aminobenzoic-acid-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C6-O8 distance,6;8,6;8,angstrom,Intramolecular bond geometry
+route-05,inputs/p-aminobenzoic-acid-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C5-C6-O8 angle,5;6;8,5;6;8,degrees,Local carboxyl geometry; not an approach angle
+route-05,inputs/p-aminobenzoic-acid-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C5-C6-O8-H15 torsion,5;6;8;15,5;6;8;H serial 15,degrees,Hydroxyl orientation across isolated-molecule conformers only
+route-05,inputs/ethanol-mopac-pm7-conformers.sdf,PM7 conformers 1-5,C2-O3-H9 angle,2;3;9,2;3;H serial 9,degrees,Isolated ethanol geometry only
+route-05,illustrative_pair_only_not_a_calculated_complex,manual placement only,C6···O3 distance,6;3,PABA map 6; ethanol map 3,angstrom,If molecules are manually placed, label the arrangement illustrative and do not interpret as a bound complex
+route-05,illustrative_pair_only_not_a_calculated_complex,manual placement only,C5-C6···O3 angle,5;6;3,PABA maps 5;6; ethanol map 3,degrees,Only a drawing/layout descriptor; no mechanistic or kinetic inference

@@ -1,0 +1,62 @@
+[
+  {
+    "basename": "target.png",
+    "source": "results/benzocaine-live-20261031-04/target/target.png",
+    "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+    "bytes": 27429
+  },
+  {
+    "basename": "route-01-step-01.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-01-step-01.png",
+    "sha256": "42f47032880a4b4e5936e5cf8572e3ec44232953f592b7132bb230ef21dda3d7",
+    "bytes": 30016
+  },
+  {
+    "basename": "route-02-step-01.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-02-step-01.png",
+    "sha256": "cf09de3b47f8354e1bb9bcff219bb8ded618309f2ae77477fbbe052d5b8075c2",
+    "bytes": 28624
+  },
+  {
+    "basename": "route-05-step-01.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-05-step-01.png",
+    "sha256": "eb2995a7f1ff8bdd381efa7d5485033b7bab9d1938a44439ff5d00e094ce6c1d",
+    "bytes": 19623
+  },
+  {
+    "basename": "route-05-step-02.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-05-step-02.png",
+    "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb",
+    "bytes": 36407
+  },
+  {
+    "basename": "visualizer-route01-conf1-distance.png",
+    "source": "analyses/visualizer/screenshots/route01-distance-monitor-table.png",
+    "sha256": "08cc8d0fd4606dd2bcda49862e11fa43d18a85e0a43ca93d051f849e11eb7ab1",
+    "bytes": 111866
+  },
+  {
+    "basename": "visualizer-route01-conf1-angle.png",
+    "source": "analyses/visualizer/screenshots/route01-angle-monitor-table.png",
+    "sha256": "61bec9038a65f881eadcfab944f21f8d38e312297225d5f90c30421c96db92bc",
+    "bytes": 112160
+  },
+  {
+    "basename": "visualizer-route05-paba-conf4.png",
+    "source": "analyses/visualizer/accessibility-review/screenshots/route05-paba-conf4-visualizer-open.png",
+    "sha256": "c95a2698b0d5d0f1eff09984411ea1e4449ee2f2b9fc0b03af59f5c749d21bae",
+    "bytes": 103302
+  },
+  {
+    "basename": "visualizer-route05-paba-edge.png",
+    "source": "analyses/visualizer/accessibility-review/screenshots/route05-p-aminobenzoic-acid-conf4-rot-y90.png",
+    "sha256": "08cec03f71a992d7104d3381df0cc22e7b01d4c11867db7ada820c61561c6d76",
+    "bytes": 94800
+  },
+  {
+    "basename": "visualizer-route05-ethanol-conf2.png",
+    "source": "analyses/visualizer/accessibility-review/screenshots/route05-ethanol-conf2.png",
+    "sha256": "dfeb972f8ddad678283a02bb35cffc32fec37019056d24cc48ccf55729d89751",
+    "bytes": 97366
+  }
+]

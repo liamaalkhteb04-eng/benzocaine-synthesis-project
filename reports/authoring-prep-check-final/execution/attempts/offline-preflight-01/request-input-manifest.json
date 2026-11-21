@@ -1,0 +1,150 @@
+{
+  "source_files": [
+    {
+      "label": "EVIDENCE_RUN_REPORT_EVIDENCE_JSON",
+      "sha256": "88bcb1047eacad59e16580fa9f22076da25e73cca108da455321fae4017026ac",
+      "bytes": 40534
+    },
+    {
+      "label": "CURRENT_STATUS",
+      "path": "evidence-run/additional-analysis-status-current.json",
+      "sha256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0",
+      "bytes": 1276
+    },
+    {
+      "label": "EVIDENCE_CONFLICT_RESOLUTION",
+      "path": "evidence-run/evidence-conflict-resolution.md",
+      "sha256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8",
+      "bytes": 2962
+    },
+    {
+      "label": "VALIDATION_NOTES",
+      "path": "evidence-run/validation_notes.json",
+      "sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd",
+      "bytes": 1344
+    },
+    {
+      "label": "MOPAC_RESULTS",
+      "path": "evidence-run/mopac-results-interpretation.md",
+      "sha256": "08ea5ef42fc93aff4b392f84fc6a2508825c42fe3da2cf079578d1b29d133785",
+      "bytes": 4824
+    },
+    {
+      "label": "EPI_RESULTS",
+      "path": "evidence-run/epi-analysis.md",
+      "sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84",
+      "bytes": 6297
+    },
+    {
+      "label": "VISUALIZER_MEASUREMENT_INTERPRETATION",
+      "path": "evidence-run/visualizer-measurement-interpretation.md",
+      "sha256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0",
+      "bytes": 3780
+    },
+    {
+      "label": "VISUALIZER_ATOM_AND_SCREEN_INDEX",
+      "path": "evidence-run/visualizer-observation-index.csv",
+      "sha256": "0580deee959fdda8e2007e7497204dddda3c0b391cabe93372826518fbb9663c",
+      "bytes": 3027
+    },
+    {
+      "label": "VISUALIZER_MEASUREMENTS",
+      "path": "evidence-run/visualizer-measurements.csv",
+      "sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33",
+      "bytes": 1832
+    },
+    {
+      "label": "REPRODUCIBILITY_MANIFEST",
+      "path": "evidence-run/reproducibility-manifest.json",
+      "sha256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69",
+      "bytes": 6928
+    },
+    {
+      "label": "HARNESS_COMPARISON_EVALUATION",
+      "path": "evidence-run/harness-trial-02-comparison-evaluation.md",
+      "sha256": "9ed7562e32255963608a61fb84c19de44bd210735a3e399f4f0d28a9d7232584",
+      "bytes": 7182
+    },
+    {
+      "label": "HARNESS_TRIAL_STATUS",
+      "path": "evidence-run/harness-trial-02-status.json",
+      "sha256": "d820f6b2d8ba99041d6447d2d180208cbff2384f83a4c5fb99668b8750338c90",
+      "bytes": 1108
+    },
+    {
+      "label": "HARNESS_BUDGET",
+      "path": "evidence-run/harness-trial-02-budget.json",
+      "sha256": "6ceb905cb8be6695ab8e4cb4d489cc047f927262e83c9fe232bb287cbc92b955",
+      "bytes": 605
+    },
+    {
+      "label": "PARROT_RAW_OUTPUT",
+      "path": "evidence-run/latest-route-reproduction/conditions-parrot.raw.json",
+      "sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "bytes": 57530
+    },
+    {
+      "label": "YIELD_RAW_OUTPUT",
+      "path": "evidence-run/latest-route-reproduction/yields-rxn_yields.raw.json",
+      "sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79",
+      "bytes": 9987
+    },
+    {
+      "label": "SELECTED_COMPLETE_RAW_AIZYNTHFINDER_ROUTE_TREES",
+      "path": "evidence-run/latest-route-reproduction/routes-selected-raw.json",
+      "sha256": "d53d809da2cbe720bce717f138bc9cf92aa8aff8c99435ab084b4bb3fc486f29",
+      "bytes": 6755
+    },
+    {
+      "label": "COURSE_FACT_SUMMARY",
+      "path": "evidence-run/course-evidence-summary.md",
+      "sha256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a",
+      "bytes": 1481
+    },
+    {
+      "label": "REPORT_CITATION_SOURCE_MAP",
+      "path": "evidence-run/citation-source-map.json",
+      "sha256": "106dc01356c9e20c8459eb678ada7594395811aacff0970f363ff528da2f9c1e",
+      "bytes": 8259
+    },
+    {
+      "label": "REPORT_CONTEXT_AND_SELECTION_PROVENANCE",
+      "path": "evidence-run/report-context.json",
+      "sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "bytes": 695
+    },
+    {
+      "label": "ROUTE01_PRIMARY_LITERATURE_COMPARISON",
+      "path": "evidence-run/literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
+      "sha256": "a9dc70b1543a9884d5236b03287544b4574303f2f7ceeeabbc210a78d221ccd1",
+      "bytes": 8954
+    },
+    {
+      "label": "CORRECTED_REPRODUCTION_VALIDATION",
+      "path": "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+      "sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "bytes": 6782
+    },
+    {
+      "label": "ORIGINAL_CONFLICTING_REPRODUCTION_RECORD",
+      "path": "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+      "sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2",
+      "bytes": 3777
+    }
+  ],
+  "request_sha256": "d19ac6b33cfeca80c0e25b73cf7ccb02e3d6610e9e4c7f439620b5526f46b354",
+  "content_utf8_bytes": 216736,
+  "serialized_request_bytes": 233731,
+  "conservative_input_token_upper_bound": 246736,
+  "input_token_limit_for_budget": 380000,
+  "model": "solar-pro4-260806",
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "max_tokens": 35000,
+  "n": 1,
+  "stream": false,
+  "tools": false,
+  "automated_retries": 0,
+  "image_payloads_sent": 0,
+  "note": "The prompt content is bounded by one token per UTF-8 byte plus 30,000 chat/template tokens; this is a conservative ceiling, not a token estimate. Local image assets are embedded by the renderer after Solar authoring."
+}

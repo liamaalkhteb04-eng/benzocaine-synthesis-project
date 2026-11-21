@@ -1,0 +1,240 @@
+{
+  "status": "updated",
+  "note": "Source originals were preserved. This map records source and package-copy hashes for anonymized derivatives; PACKAGE-MANIFEST hashes the final copied bytes.",
+  "redactions": [
+    {
+      "package_path": "scripts/prepare_benzocaine_reproduction_bundle.py",
+      "source_sha256": "33d6072d2c3a0ea9e7761519434038c72eb8fe901af4c92041fddac1c302f9d4",
+      "package_sha256": "c6f4a631eae862000051156e46e9e0ac0c9c2e6bec3d349aac8abec0f5820581",
+      "redactions": [
+        "absolute workstation/project path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "evidence/additional-analyses/visualizer/installation-guide.md",
+      "source_sha256": "2c88ac4a3be4c4c2ef7a7bd74e947b4d1bfbd4daf7beaa3f635f4d77226c8b49",
+      "pre_redaction_package_sha256": "2c88ac4a3be4c4c2ef7a7bd74e947b4d1bfbd4daf7beaa3f635f4d77226c8b49",
+      "package_sha256": "323776f29784672dc2d4319bfe71f63d27e682502f8a39ab8135f2884b4197d6",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/composition-v3-validation.json",
+      "source_sha256": "332a07e8175dd9a336af8ac7a284c18781fd25d8cfee4126574ced0da65be5c3",
+      "pre_redaction_package_sha256": "332a07e8175dd9a336af8ac7a284c18781fd25d8cfee4126574ced0da65be5c3",
+      "package_sha256": "79a20f3563165c59eaf589a811e7f8925b3c9a724475e0c58959ab2b588da133",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/route-comparison-matrix-audit.json",
+      "source_sha256": "83df175f243f5a3e451f61c5616dc10d6de910d64eda4d6dbcf54d5f3748ed6b",
+      "pre_redaction_package_sha256": "83df175f243f5a3e451f61c5616dc10d6de910d64eda4d6dbcf54d5f3748ed6b",
+      "package_sha256": "17bb12495e20f2f1aa4a0d37ae21668af90d972cbe4df432f0d5e49783b4051b",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/route01-co-cleanup-completion.json",
+      "source_sha256": "014f674561097fd652c555984503762eee94b49938bf2ca0ba6648feeb36e49a",
+      "pre_redaction_package_sha256": "014f674561097fd652c555984503762eee94b49938bf2ca0ba6648feeb36e49a",
+      "package_sha256": "3e0d8c89115e85ec4624d274ab3799ae589c1c2c79f0b231a1956a9958e1cf68",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/route01-co-merge-validation.json",
+      "source_sha256": "6d36fe526e7754b50e5a046dcc95912a591e513b19e27def139571835419423e",
+      "pre_redaction_package_sha256": "6d36fe526e7754b50e5a046dcc95912a591e513b19e27def139571835419423e",
+      "package_sha256": "8bf405a1fb968795651fa9255234ea712b8d2c2dd908d4bf2ce41e194a04a0bc",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/route05-count-merge-provenance.json",
+      "source_sha256": "aae1548aec14363bb057a00ab9b0822d3e7b0df8622e270d28cb0bd3658b6e44",
+      "pre_redaction_package_sha256": "aae1548aec14363bb057a00ab9b0822d3e7b0df8622e270d28cb0bd3658b6e44",
+      "package_sha256": "7e92b171d8abbb0c0d1e51ae7fe234e437aa055798fd210a263bab6c8a98594b",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/solar-correction-v3-02-validation.json",
+      "source_sha256": "d01bcd9124e7052aba824604a497f5bfb28791258e46c9f81b7fc40d07d9f9b8",
+      "pre_redaction_package_sha256": "d01bcd9124e7052aba824604a497f5bfb28791258e46c9f81b7fc40d07d9f9b8",
+      "package_sha256": "176392ff5c3cf88eba54005fc4a52ce5b6856a6882690d12aceec96a7922c9f6",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/solar-correction-v3-03-validation.json",
+      "source_sha256": "d4a3cfcc314eafdae8d39635fcdc957a646f2b5e1a21419a108abf1cc1fe49b0",
+      "pre_redaction_package_sha256": "d4a3cfcc314eafdae8d39635fcdc957a646f2b5e1a21419a108abf1cc1fe49b0",
+      "package_sha256": "576d8fe81a91f3dac508d11ecc310b1047e709507f71dd81cd7d1ad8cd829cc1",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "provenance/report-assembly/verified-edits-validation.json",
+      "source_sha256": "3d781fa2893df7c7dcd9e33ab21e89c2393319671ac646107a844416d6096131",
+      "pre_redaction_package_sha256": "3d781fa2893df7c7dcd9e33ab21e89c2393319671ac646107a844416d6096131",
+      "package_sha256": "5d35e4a490e0cafc788bdeb0682735f90aea3763ce2362a80de48acddbeac5ac",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/benzocaine-final/completion-record.json",
+      "source_sha256": "014f674561097fd652c555984503762eee94b49938bf2ca0ba6648feeb36e49a",
+      "pre_redaction_package_sha256": "014f674561097fd652c555984503762eee94b49938bf2ca0ba6648feeb36e49a",
+      "package_sha256": "3e0d8c89115e85ec4624d274ab3799ae589c1c2c79f0b231a1956a9958e1cf68",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/benzocaine-final/docx-export.json",
+      "source_sha256": "5ff7a2d3cc4a6b1fbf1e11aa9713c70ce0e4d7e2d4e6aacde911b8d851c38e14",
+      "pre_redaction_package_sha256": "5ff7a2d3cc4a6b1fbf1e11aa9713c70ce0e4d7e2d4e6aacde911b8d851c38e14",
+      "package_sha256": "349d6b69f5bc07ead999863b499e324da7d438ac64324829333054968307843f",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/benzocaine-final/final-document-validation.json",
+      "source_sha256": "a3f33602b48ae60c8509ab7ec0c4bcbc44a8b8914908af97175a64dd47a09649",
+      "pre_redaction_package_sha256": "a3f33602b48ae60c8509ab7ec0c4bcbc44a8b8914908af97175a64dd47a09649",
+      "package_sha256": "a22285f78b9ad078ac5c4275dcd129e9f38ab35c81daa949a07fea5ac4934494",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/benzocaine-final/route01-co-merge-validation.json",
+      "source_sha256": "6d36fe526e7754b50e5a046dcc95912a591e513b19e27def139571835419423e",
+      "pre_redaction_package_sha256": "6d36fe526e7754b50e5a046dcc95912a591e513b19e27def139571835419423e",
+      "package_sha256": "8bf405a1fb968795651fa9255234ea712b8d2c2dd908d4bf2ce41e194a04a0bc",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/benzocaine-final/verified-edits-validation.json",
+      "source_sha256": "3d781fa2893df7c7dcd9e33ab21e89c2393319671ac646107a844416d6096131",
+      "pre_redaction_package_sha256": "3d781fa2893df7c7dcd9e33ab21e89c2393319671ac646107a844416d6096131",
+      "package_sha256": "5d35e4a490e0cafc788bdeb0682735f90aea3763ce2362a80de48acddbeac5ac",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/benzocaine-final/word-export.json",
+      "source_sha256": "081528c2aa43a6452d78e14fd0212af96a18d631700d0fde2a6addd52f284097",
+      "pre_redaction_package_sha256": "081528c2aa43a6452d78e14fd0212af96a18d631700d0fde2a6addd52f284097",
+      "package_sha256": "838e6dd1ec92c0574e9ecf03c12da08238f5fa677f01fc069bcc10b997bc626e",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "reports/rebuild-check-01/route01-co-merge-validation.json",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "99db6f32816cde357e793719db0dc251c078d93ad8e67e651ca1f741d3ff7235",
+      "package_sha256": "eba048b1f4936650b17ee709d6fde951f03a2f3df780dd845a6efd2b448775e4",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true,
+      "source_sha256_basis": "package-generated file; see pre_redaction_package_sha256"
+    },
+    {
+      "package_path": "reports/rebuild-check-02/docx-export.json",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "fe9be36f5a4e6d096ef984861e5e4bb80412dcf529035c701be1c8a5e5f20343",
+      "package_sha256": "c9b0277978ed8c99693fabadb55f0de1c4e23d2af5fb6ff375ec58532e721cd3",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true,
+      "source_sha256_basis": "package-generated file; see pre_redaction_package_sha256"
+    },
+    {
+      "package_path": "reports/rebuild-check-02/word-export.json",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "1fe27ce595adb6c1c8af7669c05f9ed4782f0531c792da4b03280a6f1d451d1e",
+      "package_sha256": "77830794b3db4f6b31c40776879a17c3d92656e701e40a9e5edff79775b967cd",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true,
+      "source_sha256_basis": "package-generated file; see pre_redaction_package_sha256"
+    },
+    {
+      "package_path": "validation/report-wrapper-budget-smoke-03/run-evidence/report-evidence.json",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "289d1a05760835b62bb4c063bf046d58fa6a8300f9120f04f5093ce89ff27009",
+      "package_sha256": "be3c78172c3c87ba2bf32018493b66f3151331b986611309dd914f657460cd64",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "validation/report-wrapper-budget-smoke-03/run-evidence/solar-attempts/offline-smoke-03/solar-request.json",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "1818d36680d99619a36880107d47d3901af83ef2ca871bf9f926f6440831d83b",
+      "package_sha256": "627430caa0bc04da536e05c4bc4ca6b6e834dddc0a3fe650eb1cb008e1e3017f",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    },
+    {
+      "package_path": "tests/test_generate_report_budget_gate.py",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "8eb4abf1d6aa0d78b66bd206c6db27cdaa7143578be170d28ac17ac622daf880",
+      "package_sha256": "0ff78f1226e380683bb73b7a6e6777f385ec27388eaab5bd278b20ae60b57276",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true,
+      "post_redaction_test_fixture_repair_sha256": "55b521fc2fff488e70cc0509f268b4af689cc0681f273a7fa473c682449bc7dd",
+      "repair_note": "The synthetic path fixture was changed to assemble its test path at runtime, so no profile path literal is stored. Original source and this derivative are separately hashed."
+    },
+    {
+      "package_path": "provenance/package-publication-repair-20261121.md",
+      "source_sha256": null,
+      "pre_redaction_package_sha256": "7a119231549376dc3dc796f3447f6ad45e3f5f12e7ec9b66ea1348a53b82af78",
+      "package_sha256": "48a909b74b1c517d516b8879e4bb71a31d0b4f2d06cc08fed95cf1f2ce8769a3",
+      "redactions": [
+        "Windows user-profile path anonymized"
+      ],
+      "source_file_preserved": true
+    }
+  ]
+}

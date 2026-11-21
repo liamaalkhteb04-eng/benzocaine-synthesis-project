@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "output_folder": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121",
+  "source_report": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route05-count-correction-20261121\\report.md",
+  "source_report_sha256": "156a1506b35f7fb925c2aea04f0a8f7d864691adc286a7299e6496f220d3a8e8",
+  "final_report_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+  "merge_script": "<USER_HOME>\\benzocaine-repro-validation-20261119\\scripts\\merge_route01_co_identity.py",
+  "merge_script_sha256": "715326c0cd13ebfc632e4127d7b6a1566410875628ba61c135d04de7f4957e72",
+  "merge_validation_sha256": "6d36fe526e7754b50e5a046dcc95912a591e513b19e27def139571835419423e",
+  "solar_source_response_sha256": "5eba76f87a081d19a1250d09dd5bb4933ae3b79113a7427def3439043d1e2231",
+  "solar_call_for_this_cleanup": false,
+  "text_search": {
+    "stale_sentence_markdown_count": 0,
+    "stale_sentence_extracted_pdf_count": 0,
+    "verified_solar_identity_block_count": 1
+  },
+  "render_validation": {
+    "pdf_pages": 20,
+    "page5_visual_review": "passed; CO identity states methanol and no stale carbon-monoxide sentence",
+    "all_pages_rendered": true,
+    "clipped_items": 0,
+    "tables": 4,
+    "figures": 10,
+    "content_audit": "passed",
+    "citation_audit": "passed"
+  },
+  "files": {
+    "pdf": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\report.pdf",
+      "sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445"
+    },
+    "docx": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\report.docx",
+      "sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926"
+    },
+    "page5_preview": {
+      "path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\validation-previews\\page-05.png",
+      "sha256": "87b2509799f5c06b463b872d612ddc4e55f747d1778a81766b4a1edb4354d959"
+    },
+    "all_pages_contact_sheet": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\all-pages-contact-sheet.png"
+  },
+  "previous_report_set_preserved": {
+    "report.md": true,
+    "report.docx": true,
+    "report.pdf": true
+  },
+  "github_push": false,
+  "new_solar_call": false
+}

@@ -1,5 +1,6 @@
 """Deterministic report checks tied to the current evidence bundle."""
 import re
+import argparse
 from pathlib import Path
 from markdown_it import MarkdownIt
 import json
@@ -32,13 +33,13 @@ def check_content(text, evidence, citation_source_map_path=None):
     if set(present)!=required or len(present)!=len(required): errors.append('Required evidence figures missing, duplicated, or unrecognized')
     names=[evidence['target'].get('name',''),evidence['target'].get('name_ko','')]
     if not any(name and name in text for name in names): errors.append('Target identity missing')
-    # A route overview may legitimately repeat predicted step yields. Only the
-    # integrated route/step conditions table is required to be unique; identify
-    # it by both route and step columns instead of counting every table that
-    # happens to include a yield column.
+    # Keep the one-row-per-step conditions/yield summary distinct from the
+    # candidate-level matrix. The latter has a display header "Route / step"
+    # and multiple rows per step; it is audited separately against its matrix
+    # provenance. This summary uses the stable route_id / step_id key header.
     yield_tables=[table for table in tables if table and table[0]
                   and any(KOREAN_YIELD in cell.lower() or 'yield' in cell.lower() for cell in table[0])
-                  and re.search(r'route\s*/\s*step|route_id.*step_id', ' '.join(table[0]).lower())]
+                  and any(cell.strip().lower() == 'route_id / step_id' for cell in table[0])]
     predicted=[step for step in evidence['report_steps'] if step.get('yield_prediction') and step['yield_prediction'].get('yield_percent') is not None]
     if predicted and len(yield_tables)!=1: errors.append('Exactly one step-resolved conditions/yield table is required')
     for step in evidence['report_steps']:
@@ -66,3 +67,20 @@ def check_content(text, evidence, citation_source_map_path=None):
     citation_result=audit_citations(text,None,json.loads(source_map_path.read_text(encoding='utf-8')))
     errors.extend('Citation audit: '+item for item in citation_result['errors'])
     return {'status':'passed' if not errors else 'failed','errors':errors,'image_count':len(images),'required_image_count':len(required),'table_count':len(tables),'yield_table_count':len(yield_tables),'citation_audit':citation_result}
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--markdown',type=Path,required=True)
+    parser.add_argument('--evidence',type=Path,required=True)
+    parser.add_argument('--source-map',type=Path,required=True)
+    parser.add_argument('--output',type=Path,required=True)
+    args=parser.parse_args()
+    evidence=json.loads(args.evidence.read_text(encoding='utf-8-sig'))
+    result=check_content(args.markdown.read_text(encoding='utf-8'),evidence,args.source_map)
+    args.output.parent.mkdir(parents=True,exist_ok=True)
+    with args.output.open('x',encoding='utf-8',newline='\n') as stream:
+        json.dump(result,stream,ensure_ascii=False,indent=2); stream.write('\n')
+    print(json.dumps({k:result[k] for k in ('status','errors','image_count','table_count','yield_table_count')},ensure_ascii=False))
+    return 0 if result['status']=='passed' else 2
+
+if __name__=='__main__': raise SystemExit(main())

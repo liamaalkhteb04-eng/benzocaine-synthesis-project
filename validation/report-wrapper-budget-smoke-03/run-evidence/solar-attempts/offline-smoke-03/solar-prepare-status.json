@@ -1,0 +1,13 @@
+{
+  "status": "prepared_not_executed",
+  "external_requests": 0,
+  "inference_executed": false,
+  "model": "solar-pro4-260806",
+  "report_writing_skill_path": "skill/report-writing/SKILL.md",
+  "skill_sha256": "4d623c1a50d070ea83b0d9fe3ee8c19414fb1febe6f6c1f70030ed421dfd23ed",
+  "request_sha256": "00d4cced415ce2e75e5048862100710ac62c1b7f86e5dd693bfa1c1a8216bd8c",
+  "request_body_bytes": 155460,
+  "content_utf8_bytes": 141829,
+  "local_path_redactions": 5,
+  "reserved_max_cost_usd_including_vat": 0.1716
+}

@@ -1,0 +1,220 @@
+ethanol | MOPAC PM7 conformer 1
+     MOPAC PM7      3D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+   -0.9872    0.1313    0.1887 C   0  0  0  0  0  0  0  0  0  1  0  0
+    0.4357   -0.3624   -0.0415 C   0  0  0  0  0  0  0  0  0  2  0  0
+    1.1819    0.8064   -0.3577 O   0  0  0  0  0  0  0  0  0  3  0  0
+   -1.6607   -0.6879    0.4553 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3789    0.6244   -0.7111 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0166    0.8791    0.9928 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8685   -0.8252    0.8632 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5002   -1.0655   -0.8906 H   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1127    0.5785   -0.5328 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  1  4  1  0
+  1  5  1  0
+  1  6  1  0
+  2  7  1  0
+  2  8  1  0
+  3  9  1  0
+M  END
+>  <species_id>
+ethanol
+
+>  <geometry_source>
+MOPAC PM7 optimized .arc final geometry
+
+>  <mopac_version>
+MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b
+
+>  <method>
+PM7 gas-phase isolated-molecule geometry optimization
+
+>  <conformer_index>
+1
+
+>  <heat_of_formation_kcal_mol>
+-55.87034
+
+>  <selected_pm7_geometry>
+false
+
+$$$$
+ethanol | MOPAC PM7 conformer 2
+     MOPAC PM7      3D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+    0.9009    0.1624    0.0123 C   0  0  0  0  0  0  0  0  0  1  0  0
+   -0.4692   -0.5050    0.0036 C   0  0  0  0  0  0  0  0  0  2  0  0
+   -1.4713    0.3877   -0.4421 O   0  0  0  0  0  0  0  0  0  3  0  0
+    1.1201    0.6123   -0.9653 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6968   -0.5584    0.2298 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9622    0.9595    0.7608 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7569   -0.8847    1.0004 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5317   -1.3253   -0.7368 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4361    1.2263    0.0550 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  1  4  1  0
+  1  5  1  0
+  1  6  1  0
+  2  7  1  0
+  2  8  1  0
+  3  9  1  0
+M  END
+>  <species_id>
+ethanol
+
+>  <geometry_source>
+MOPAC PM7 optimized .arc final geometry
+
+>  <mopac_version>
+MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b
+
+>  <method>
+PM7 gas-phase isolated-molecule geometry optimization
+
+>  <conformer_index>
+2
+
+>  <heat_of_formation_kcal_mol>
+-57.85665
+
+>  <selected_pm7_geometry>
+true
+
+$$$$
+ethanol | MOPAC PM7 conformer 3
+     MOPAC PM7      3D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+   -0.8580    0.2654   -0.1478 C   0  0  0  0  0  0  0  0  0  1  0  0
+    0.3788   -0.5374    0.2369 C   0  0  0  0  0  0  0  0  0  2  0  0
+    1.4714    0.3118    0.5282 O   0  0  0  0  0  0  0  0  0  3  0  0
+   -1.7359   -0.3807   -0.2597 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0922    1.0125    0.6224 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7182    0.8024   -1.0922 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6846   -1.2422   -0.5569 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2426   -1.0883    1.1873 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6163    0.9537   -0.1917 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  1  4  1  0
+  1  5  1  0
+  1  6  1  0
+  2  7  1  0
+  2  8  1  0
+  3  9  1  0
+M  END
+>  <species_id>
+ethanol
+
+>  <geometry_source>
+MOPAC PM7 optimized .arc final geometry
+
+>  <mopac_version>
+MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b
+
+>  <method>
+PM7 gas-phase isolated-molecule geometry optimization
+
+>  <conformer_index>
+3
+
+>  <heat_of_formation_kcal_mol>
+-57.85516
+
+>  <selected_pm7_geometry>
+false
+
+$$$$
+ethanol | MOPAC PM7 conformer 4
+     MOPAC PM7      3D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+   -0.9003   -0.1338   -0.1002 C   0  0  0  0  0  0  0  0  0  1  0  0
+    0.4729    0.4788    0.1483 C   0  0  0  0  0  0  0  0  0  2  0  0
+    1.4402   -0.5190    0.4083 O   0  0  0  0  0  0  0  0  0  3  0  0
+   -1.1842   -0.8001    0.7252 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6736    0.6376   -0.1821 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9229   -0.7248   -1.0217 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8202    1.0895   -0.7041 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4993    1.0859    1.0735 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4286   -1.2044   -0.2853 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  1  4  1  0
+  1  5  1  0
+  1  6  1  0
+  2  7  1  0
+  2  8  1  0
+  3  9  1  0
+M  END
+>  <species_id>
+ethanol
+
+>  <geometry_source>
+MOPAC PM7 optimized .arc final geometry
+
+>  <mopac_version>
+MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b
+
+>  <method>
+PM7 gas-phase isolated-molecule geometry optimization
+
+>  <conformer_index>
+4
+
+>  <heat_of_formation_kcal_mol>
+-57.85594
+
+>  <selected_pm7_geometry>
+false
+
+$$$$
+ethanol | MOPAC PM7 conformer 5
+     MOPAC PM7      3D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+   -0.9920   -0.1508    0.1443 C   0  0  0  0  0  0  0  0  0  1  0  0
+    0.4911   -0.2028   -0.2012 C   0  0  0  0  0  0  0  0  0  2  0  0
+    1.0171    1.0383    0.2527 O   0  0  0  0  0  0  0  0  0  3  0  0
+   -1.1363   -0.0038    1.2231 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4799    0.6970   -0.3550 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5075   -1.0691   -0.1511 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0120   -1.0243    0.3217 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6617   -0.2816   -1.2895 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9784    1.0770    0.0988 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  1  4  1  0
+  1  5  1  0
+  1  6  1  0
+  2  7  1  0
+  2  8  1  0
+  3  9  1  0
+M  END
+>  <species_id>
+ethanol
+
+>  <geometry_source>
+MOPAC PM7 optimized .arc final geometry
+
+>  <mopac_version>
+MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b
+
+>  <method>
+PM7 gas-phase isolated-molecule geometry optimization
+
+>  <conformer_index>
+5
+
+>  <heat_of_formation_kcal_mol>
+-55.86947
+
+>  <selected_pm7_geometry>
+false
+
+$$$$

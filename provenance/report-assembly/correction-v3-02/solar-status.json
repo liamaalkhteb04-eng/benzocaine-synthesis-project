@@ -1,0 +1,39 @@
+{
+  "status": "content_returned_single_request",
+  "run_id": "benzocaine-correction-v3-20261120-02",
+  "attempt_id": "solar-correction-v3-02",
+  "http_status": 200,
+  "returned_model": "solar-pro4-260806",
+  "finish_reason": "stop",
+  "latency_ms": 12992.3,
+  "usage": {
+    "prompt_tokens": 9072,
+    "completion_tokens": 1403,
+    "total_tokens": 10475,
+    "prompt_tokens_details": {
+      "cached_tokens": 8704,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "actual_cost_ex_vat_usd": 0.00231624,
+  "actual_cost_including_vat_usd": 0.00254786,
+  "ledger_charge_usd": 0.00254786,
+  "ledger_charge_basis": "actual token usage",
+  "prior_cumulative_usd": 1.0782108,
+  "cumulative_after_usd": 1.08075866,
+  "remaining_under_1_25_usd": 0.16924134,
+  "local_reservation_usd": 0.02,
+  "api_enforced_billing_cap": false,
+  "known_prompt_token_cost_bound_including_vat_usd": 0.01355343,
+  "retry_count": 0,
+  "api_key_value_logged": false,
+  "transport_error_type": null,
+  "request_sha256": "d5e7af892d4135ccffa7c569da49d24171bfcf5bf4cb4f385420ed20560fcff9",
+  "response_sha256": "5eba76f87a081d19a1250d09dd5bb4933ae3b79113a7427def3439043d1e2231"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "failed_required_content_missing",
+  "attempt_id": "solar-course-insert-01",
+  "request_sha256": "b0823b2d11b11dc920bc126ae2d6b764975a1e44a80e7fe852360fa436c4a9ae",
+  "response_sha256": "66c349bbdbea64ff6eecdb7e6bbbc258223514e6563c75f784332e6463fb02dc",
+  "response_content_sha256": "1a0c466d66745a5d23eafbda41381fc402e8d2110f3fa7d211668479cc421b2d",
+  "base_report_path": "reports/benzocaine-reproduction-validation-20261119-07/report-cited-claims-cited.md",
+  "base_report_sha256": "ad4a2b0fe9179c3d58f0c9c1e90a49b781c58de3b3e4e69cdfdfc2bd58b32bf8",
+  "checks": {
+    "one_complete_output_marker_pair": true,
+    "route_step_reaction_smiles_exact": true,
+    "Parrot_rank1_slots_exact_and_unmerged": true,
+    "yield_value_and_predicted_status_correct": true,
+    "course_pages_present": true,
+    "citations_resolve_and_claim_source_matches_after_citation_only_correction": true,
+    "experimental_claims_not_made": true,
+    "ethanol_oxygen_lone_pair_explicitly_linked_to_target_ester_bond": false,
+    "route_comparison_matrix_with_step_count_transform_conditions_yield_literature_and_checks": false
+  },
+  "citation_only_correction": {
+    "status": "passed",
+    "change_from": "[12][D6]",
+    "change_to": "[D1]",
+    "reason": "D1 is project route/condition output evidence; [12] and [D6] concern EPI Suite.",
+    "noncitation_text_unchanged": true,
+    "external_calls": 0,
+    "citation_corrected_derivative_sha256": "8a5097e4623caee81692519a92531421557926b80cff4b96c23896eaf0358d8b"
+  },
+  "failed_items": [
+    {
+      "item": "ethanol oxygen electron-pair link",
+      "reason": "The mechanism sentence is a correct general alcohol-oxygen description but does not explicitly name ethanol oxygen in the mechanism explanation, as requested. The course drawing is separately and correctly scoped as a methanol/acetic-acid teaching example."
+    },
+    {
+      "item": "route comparison matrix",
+      "reason": "No route-level comparison table was generated with step count, transformations, conditions, step yields, literature basis and pre-experiment checks."
+    }
+  ],
+  "document_generation": "not_run_due_to_required_content_gate_failure",
+  "existing_report_modified": false,
+  "github_push": false,
+  "additional_solar_calls": 0,
+  "chemistry_inference": false,
+  "installation": false
+}

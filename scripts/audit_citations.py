@@ -5,8 +5,8 @@ import re
 from pathlib import Path
 
 CITATION = re.compile(r"\[(D\d+|\d+)(?:,\s*PDF\s+pp\.[^\]]+)?\]")
-BIBLIOGRAPHY = re.compile(r"^\s*(\d+)\.\s+.*?\u2014\s+(.+)$", re.M)
-EVIDENCE_LIST = re.compile(r"^\s*-\s+\[(D\d+)\]\s+(.+)$", re.M)
+BIBLIOGRAPHY = re.compile(r"^\s*(\d+)\.\s+(.+)$", re.M)
+EVIDENCE_LIST = re.compile(r"^\s*-\s+(?:\[(D\d+)\]|(D\d+):)\s*(.+)$", re.M)
 
 
 def source_requirements(paragraph):
@@ -55,18 +55,23 @@ def source_requirements(paragraph):
 
 def audit(text, evidence_dir, source_map):
     errors, rows = [], []
-    if "## 9." not in text:
-        return {"status":"failed","errors":["References section not found"],"claim_rows":[]}
-    body, tail = text.split("## 9.", 1)
-    if "### 9.1" not in tail or "### 9.2" not in tail:
-        errors.append("Numbered bibliography or project evidence list heading is missing")
-        bibliography_text, evidence_text = tail, ""
+    headings=[(i,line) for i,line in enumerate(text.splitlines()) if line.startswith("#")]
+    bibliography_heading=next(((i,line) for i,line in headings if re.search(r"references|bibliography|참고문헌|출처 목록",line,re.I)),None)
+    evidence_heading=next(((i,line) for i,line in headings if re.search(r"project evidence|프로젝트 증거 파일",line,re.I)),None)
+    if bibliography_heading is None:
+        return {"status":"failed","errors":["Bibliography/source-list heading not found"],"claim_rows":[]}
+    lines=text.splitlines(); bib_line,bib_title=bibliography_heading
+    body="\n".join(lines[:bib_line])
+    evidence_line=evidence_heading[0] if evidence_heading else None
+    if evidence_line is None or evidence_line <= bib_line:
+        errors.append("Project evidence-list heading is missing or precedes bibliography")
+        bibliography_text="\n".join(lines[bib_line+1:]); evidence_text=""
     else:
-        bibliography_text = tail.split("### 9.1",1)[1].split("### 9.2",1)[0]
-        evidence_text = tail.split("### 9.2",1)[1]
+        bibliography_text="\n".join(lines[bib_line+1:evidence_line])
+        evidence_text="\n".join(lines[evidence_line+1:])
     bibliography = {m.group(1):m.group(2).strip() for m in BIBLIOGRAPHY.finditer(bibliography_text)}
     cited_in_body = set()
-    evidence_entries = {m.group(1):m.group(2).strip() for m in EVIDENCE_LIST.finditer(evidence_text)}
+    evidence_entries = {(m.group(1) or m.group(2)):m.group(3).strip() for m in EVIDENCE_LIST.finditer(evidence_text)}
     for key, meta in source_map.get("sources",{}).items():
         if meta.get("type") in {"external","course"} and key.isdigit():
             if key not in bibliography: errors.append(f"Bibliography entry [{key}] missing")
@@ -78,9 +83,10 @@ def audit(text, evidence_dir, source_map):
             for item in paths:
                 if evidence_dir is not None and not (evidence_dir / item.replace("evidence-run/", "", 1)).exists():
                     errors.append(f"Evidence source [{key}] missing file: {item}")
-    for paragraph_number, paragraph in enumerate(body.split("\n\n"),1):
+    claim_blocks=re.split(r"\n(?=-\s)|\n{2,}",body)
+    for paragraph_number, paragraph in enumerate(claim_blocks,1):
         stripped=paragraph.strip()
-        if not stripped or stripped.startswith("#") or stripped.startswith("!") or stripped.startswith("|") or stripped.startswith("---"):
+        if not stripped or stripped.startswith("#") or stripped.startswith("!") or stripped.startswith("|") or stripped.startswith("---") or re.fullmatch(r"\[figure:\s*[^\]]+\]",stripped):
             continue
         cites=set(CITATION.findall(stripped)); cited_in_body.update(cites)
         req_ext,req_ev=source_requirements(stripped)
@@ -103,7 +109,7 @@ def audit(text, evidence_dir, source_map):
     for cite in sorted((x for x in cited_in_body if x.startswith("D")),key=lambda x:int(x[1:])):
         if cite not in evidence_entries: errors.append(f"In-text evidence citation [{cite}] has no project evidence-list entry")
     # Course mechanism citation must name its actual lecture pages, and run-specific facts may not cite it as a substitute.
-    for paragraph_number, paragraph in enumerate(body.split("\n\n"),1):
+    for paragraph_number, paragraph in enumerate(claim_blocks,1):
         if "fischer" in paragraph.lower() and not re.search(r"\[17,\s*PDF\s+pp\.\s*90\s*[^0-9A-Za-z\s]\s*95\]",paragraph):
             errors.append(f"Paragraph {paragraph_number}: Fischer mechanism must cite the relevant lecture pages 90-95")
     unused=sorted(set(bibliography)-cited_in_body,key=int)

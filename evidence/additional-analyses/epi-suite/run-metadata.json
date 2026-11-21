@@ -1,0 +1,46 @@
+{
+  "captured_at_utc": "2026-11-01T10:30:27.426412+00:00",
+  "official_epa_parent_page": "https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface",
+  "officially_recommended_web_beta": "https://episuite.dev/EpiWebSuite/#/",
+  "engine_api": "https://episuite.dev/api",
+  "service_info": {
+    "title": "EPI Suite CLI API",
+    "description": "HTTP API for chemical search, EPI Suite estimation, typed ECOSAR calculations, and synchronous batch estimation. The built-in server has no authentication. Query names and response paths are canonical; legacy client aliases are not accepted. Single-submit values are carried in URLs and batch values in JSON request bodies, so deployments must keep request logs private and users must not submit confidential business information.",
+    "version": "1.1.0",
+    "contact": {
+      "name": "SRC, Inc."
+    }
+  },
+  "runtime_status": "degraded",
+  "runtime_health": {
+    "experimentalData": {
+      "available": true,
+      "source": "embedded:/webroot/data.parquet",
+      "bytes": 1651336.0,
+      "sha256": "c3a06b0892cbfcce4afef6d983366a1d84632142ffb02166c8202cbfeffef55c",
+      "rows": 58115.0,
+      "rowGroups": 39,
+      "searchCatalogAvailable": true,
+      "searchBytes": 5737515.0,
+      "searchSha256": "c248acdfd382e4ad799e95b2476c88b663e71bf83a8c8fc1cf53e622b6f61c94",
+      "searchIndexCandidates": 115594,
+      "searchIndexBuildMillis": 4133.0
+    },
+    "requestHandling": {
+      "healthy": false,
+      "unexpectedFailureCount": 6,
+      "estimationAvailable": true,
+      "estimateActive": false,
+      "lastFailurePath": "/help.zip"
+    }
+  },
+  "api_spec_sha256": "860c944bdb96a7f6831850c2e739f07701e9d48402fcaacc0f0da195713677eb",
+  "request_http_status": 200,
+  "response_content_type": "application/json; charset=utf-8",
+  "request_body_sha256": "65e92b37ace188016657c76ecfd52b597291b42c984fde96cdd11ae4d1832054",
+  "response_sha256": "934566fc17bc76e91ec016956f69c010551cb8a2de5171503ae2cd35e947aa0d",
+  "submitted_count": 7,
+  "experimental_values_available": 0,
+  "estimated_values_returned": 7,
+  "interpretation": "EPA describes MPBPWIN as screening-level estimation. This web API returned estimated values. Experimental result arrays are preserved separately; no results are labeled as measured unless present there."
+}

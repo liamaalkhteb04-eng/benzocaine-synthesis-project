@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "base_report_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261120-01\\rendered-rebuild-02\\report.md",
+  "base_report_sha256": "efec7bad85b6c0a47e02428541de0ef97a501a202cb3486113da7a0099994c43",
+  "base_prior_validation_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261120-01\\rendered-rebuild-02\\document-validation.json",
+  "base_prior_validation_sha256": "4719c635cd1b721de044081a416c56289e8d0a9698244e266c6db2c4425b27b6",
+  "new_solar_run_id": "benzocaine-route05-count-correction-20261121-01",
+  "new_solar_request_sha256": "f9c30fbe951f17c106052e6dd52f91f58f370f774726d0510830b0758e7d5dae",
+  "new_solar_captured_response_sha256": "a69e454cb516dd0b517f152679334ae38c5248e9a169c11f096707c4f29ab802",
+  "new_solar_recovered_text_sha256": "a02df3bad1b9ebf7a9b9a6033b0accb6dbac69b361431fc98513866094ed1fa6",
+  "five_preserved_blocks_source_sha256": "5eba76f87a081d19a1250d09dd5bb4933ae3b79113a7427def3439043d1e2231",
+  "mechanical_edits": {
+    "section44_marker": "BEGIN_SECTION_4_4_READER_SENTURE -> BEGIN_SECTION_4_4_READER_SENTENCE",
+    "section44_citation": "[D1, 6] -> [D1][6]",
+    "section44_prose_unchanged": true,
+    "additional_citation_to_route05_scope_sentence": "[D12] -> [D12][12]",
+    "citation_basis": "D12 supports structure identity; source 12 supports MPBPWIN scope"
+  },
+  "solar_authored_blocks_merged": [
+    "INTRO_SUMMARY",
+    "ROUTE01_CANDIDATE_SENTENCE",
+    "ROUTE01_CO_IDENTITY_SENTENCE",
+    "ROUTE05_FB3_SENTENCE",
+    "CONCLUSION_REPLACEMENT",
+    "v3-03 route05 block with only false total-count sentence replaced by new Solar sentence",
+    "v3-03 ?4.4 sentence with marker/citation-only normalization"
+  ],
+  "raw_records_modified": false,
+  "base_report_modified": false,
+  "scientific_prose_authored_by_codex": false,
+  "github_push": false,
+  "merged_report_sha256": "156a1506b35f7fb925c2aea04f0a8f7d864691adc286a7299e6496f220d3a8e8",
+  "final_document_validation_sha256": "4e216376f28f6c111e9df67d50dd546482c3d0c0da0740d49e3d430c2528b28a"
+}

@@ -1,0 +1,208 @@
+{
+  "status": "passed",
+  "validation_type": "offline request preparation and source-integrity audit; no API call",
+  "request_path": "reports/authoring-prep-check-final/execution/attempts/offline-preflight-01/solar-request.redacted.json",
+  "request_sha256": "d19ac6b33cfeca80c0e25b73cf7ccb02e3d6610e9e4c7f439620b5526f46b354",
+  "request_input_manifest_sha256": "823daee96c0a7f1f5471639b8b67dc0454bc5bf3e4709dd68b2ebb3756096e55",
+  "report_skill_path": "skill/report-writing/SKILL.md",
+  "report_skill_sha256": "4d623c1a50d070ea83b0d9fe3ee8c19414fb1febe6f6c1f70030ed421dfd23ed",
+  "model_snapshot": "solar-pro4-260806",
+  "request_bytes": 233731,
+  "source_count": 22,
+  "source_file_checks": [
+    {
+      "label": "EVIDENCE_RUN_REPORT_EVIDENCE_JSON",
+      "path": "evidence-run/report-evidence.json",
+      "hash_method": "canonical_prompt_json_bytes",
+      "expected_sha256": "88bcb1047eacad59e16580fa9f22076da25e73cca108da455321fae4017026ac",
+      "actual_sha256": "88bcb1047eacad59e16580fa9f22076da25e73cca108da455321fae4017026ac",
+      "matches": true
+    },
+    {
+      "label": "CURRENT_STATUS",
+      "path": "evidence-run/additional-analysis-status-current.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0",
+      "actual_sha256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0",
+      "matches": true
+    },
+    {
+      "label": "EVIDENCE_CONFLICT_RESOLUTION",
+      "path": "evidence-run/evidence-conflict-resolution.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8",
+      "actual_sha256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8",
+      "matches": true
+    },
+    {
+      "label": "VALIDATION_NOTES",
+      "path": "evidence-run/validation_notes.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd",
+      "actual_sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd",
+      "matches": true
+    },
+    {
+      "label": "MOPAC_RESULTS",
+      "path": "evidence-run/mopac-results-interpretation.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "08ea5ef42fc93aff4b392f84fc6a2508825c42fe3da2cf079578d1b29d133785",
+      "actual_sha256": "08ea5ef42fc93aff4b392f84fc6a2508825c42fe3da2cf079578d1b29d133785",
+      "matches": true
+    },
+    {
+      "label": "EPI_RESULTS",
+      "path": "evidence-run/epi-analysis.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84",
+      "actual_sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84",
+      "matches": true
+    },
+    {
+      "label": "VISUALIZER_MEASUREMENT_INTERPRETATION",
+      "path": "evidence-run/visualizer-measurement-interpretation.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0",
+      "actual_sha256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0",
+      "matches": true
+    },
+    {
+      "label": "VISUALIZER_ATOM_AND_SCREEN_INDEX",
+      "path": "evidence-run/visualizer-observation-index.csv",
+      "hash_method": "file_bytes",
+      "expected_sha256": "0580deee959fdda8e2007e7497204dddda3c0b391cabe93372826518fbb9663c",
+      "actual_sha256": "0580deee959fdda8e2007e7497204dddda3c0b391cabe93372826518fbb9663c",
+      "matches": true
+    },
+    {
+      "label": "VISUALIZER_MEASUREMENTS",
+      "path": "evidence-run/visualizer-measurements.csv",
+      "hash_method": "file_bytes",
+      "expected_sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33",
+      "actual_sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33",
+      "matches": true
+    },
+    {
+      "label": "REPRODUCIBILITY_MANIFEST",
+      "path": "evidence-run/reproducibility-manifest.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69",
+      "actual_sha256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69",
+      "matches": true
+    },
+    {
+      "label": "HARNESS_COMPARISON_EVALUATION",
+      "path": "evidence-run/harness-trial-02-comparison-evaluation.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "9ed7562e32255963608a61fb84c19de44bd210735a3e399f4f0d28a9d7232584",
+      "actual_sha256": "9ed7562e32255963608a61fb84c19de44bd210735a3e399f4f0d28a9d7232584",
+      "matches": true
+    },
+    {
+      "label": "HARNESS_TRIAL_STATUS",
+      "path": "evidence-run/harness-trial-02-status.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "d820f6b2d8ba99041d6447d2d180208cbff2384f83a4c5fb99668b8750338c90",
+      "actual_sha256": "d820f6b2d8ba99041d6447d2d180208cbff2384f83a4c5fb99668b8750338c90",
+      "matches": true
+    },
+    {
+      "label": "HARNESS_BUDGET",
+      "path": "evidence-run/harness-trial-02-budget.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "6ceb905cb8be6695ab8e4cb4d489cc047f927262e83c9fe232bb287cbc92b955",
+      "actual_sha256": "6ceb905cb8be6695ab8e4cb4d489cc047f927262e83c9fe232bb287cbc92b955",
+      "matches": true
+    },
+    {
+      "label": "PARROT_RAW_OUTPUT",
+      "path": "evidence-run/latest-route-reproduction/conditions-parrot.raw.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "actual_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+      "matches": true
+    },
+    {
+      "label": "YIELD_RAW_OUTPUT",
+      "path": "evidence-run/latest-route-reproduction/yields-rxn_yields.raw.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79",
+      "actual_sha256": "8c1a1b890eb18698c198196ce00112d06df8a48730400504a558036fe78b5c79",
+      "matches": true
+    },
+    {
+      "label": "SELECTED_COMPLETE_RAW_AIZYNTHFINDER_ROUTE_TREES",
+      "path": "evidence-run/latest-route-reproduction/routes-selected-raw.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "d53d809da2cbe720bce717f138bc9cf92aa8aff8c99435ab084b4bb3fc486f29",
+      "actual_sha256": "d53d809da2cbe720bce717f138bc9cf92aa8aff8c99435ab084b4bb3fc486f29",
+      "matches": true
+    },
+    {
+      "label": "COURSE_FACT_SUMMARY",
+      "path": "evidence-run/course-evidence-summary.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a",
+      "actual_sha256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a",
+      "matches": true
+    },
+    {
+      "label": "REPORT_CITATION_SOURCE_MAP",
+      "path": "evidence-run/citation-source-map.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "106dc01356c9e20c8459eb678ada7594395811aacff0970f363ff528da2f9c1e",
+      "actual_sha256": "106dc01356c9e20c8459eb678ada7594395811aacff0970f363ff528da2f9c1e",
+      "matches": true
+    },
+    {
+      "label": "REPORT_CONTEXT_AND_SELECTION_PROVENANCE",
+      "path": "evidence-run/report-context.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "actual_sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "matches": true
+    },
+    {
+      "label": "ROUTE01_PRIMARY_LITERATURE_COMPARISON",
+      "path": "evidence-run/literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
+      "hash_method": "file_bytes",
+      "expected_sha256": "a9dc70b1543a9884d5236b03287544b4574303f2f7ceeeabbc210a78d221ccd1",
+      "actual_sha256": "a9dc70b1543a9884d5236b03287544b4574303f2f7ceeeabbc210a78d221ccd1",
+      "matches": true
+    },
+    {
+      "label": "CORRECTED_REPRODUCTION_VALIDATION",
+      "path": "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "actual_sha256": "78fb16b93221092856863a16caed4136f0917c17d0477b20e56cb97eadcf467c",
+      "matches": true
+    },
+    {
+      "label": "ORIGINAL_CONFLICTING_REPRODUCTION_RECORD",
+      "path": "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+      "hash_method": "file_bytes",
+      "expected_sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2",
+      "actual_sha256": "029d1c6b6db1a53938642e8c8e44fd424f57724b27d66b7a6bb2059fef5cc6d2",
+      "matches": true
+    }
+  ],
+  "checks": {
+    "current_report_skill_sent_verbatim": true,
+    "message_roles_are_system_then_user": true,
+    "benzocaine_user_selection_and_identity_in_evidence": true,
+    "route_condition_yield_join_keys_included": true,
+    "literature_course_analyses_citation_map_included": true,
+    "figure_manifest_and_marker_included": true,
+    "old_report_not_used_as_template": true,
+    "historical_ab_comparison_not_requested": true,
+    "all_22_manifest_inputs_match": true,
+    "prepare_only_log_confirms_zero_external_requests": true,
+    "no_response_or_solar_status_file_created": true,
+    "one_response_no_tools_no_retries": true
+  },
+  "notes": [
+    "The report-evidence manifest entry is SHA-256 of the pretty-printed JSON block sent to Solar, not the file-byte hash; validation uses that exact serialization.",
+    "The prepared request is from the reorganized current skills and evidence; no response-quality claim is made because no Solar call was sent."
+  ]
+}

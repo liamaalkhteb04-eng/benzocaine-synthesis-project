@@ -1,0 +1,12 @@
+test_current_credit_only_snapshot_accepted_when_reservation_fits (test_generate_report_budget_gate.ReportBudgetGateTests.test_current_credit_only_snapshot_accepted_when_reservation_fits) ... ok
+test_local_profile_paths_are_redacted_before_prompt (test_generate_report_budget_gate.ReportBudgetGateTests.test_local_profile_paths_are_redacted_before_prompt) ... ok
+test_missing_snapshot_rejected (test_generate_report_budget_gate.ReportBudgetGateTests.test_missing_snapshot_rejected) ... ok
+test_stale_snapshot_rejected (test_generate_report_budget_gate.ReportBudgetGateTests.test_stale_snapshot_rejected) ... ok
+test_token_and_single_call_guards (test_generate_report_budget_gate.ReportBudgetGateTests.test_token_and_single_call_guards) ... ok
+test_unverified_or_paid_credit_snapshot_rejected (test_generate_report_budget_gate.ReportBudgetGateTests.test_unverified_or_paid_credit_snapshot_rejected) ... ok
+test_worst_case_reservation_over_cap_rejected (test_generate_report_budget_gate.ReportBudgetGateTests.test_worst_case_reservation_over_cap_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

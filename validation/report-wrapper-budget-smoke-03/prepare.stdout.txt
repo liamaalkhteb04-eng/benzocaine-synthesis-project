@@ -1,0 +1,1 @@
+{"status": "prepared_not_executed", "external_requests": 0, "request_body_bytes": 155460, "content_utf8_bytes": 141829, "local_path_redactions": 5, "worst_case_reservation_usd_including_vat": 0.1716, "key_value_printed": false}

@@ -1,0 +1,35 @@
+{
+  "status": "official_source_and_authenticode_signature_verified_not_installed",
+  "checked_date": "2026-11-01",
+  "file": {
+    "path": "${PROJECT_ROOT}\\Downloads\\BIOVIA_DS2025Client.exe",
+    "size_bytes": 477404000,
+    "sha256": "09A95A14A67D3D808EAAA0A6EB77238F3DED2327085CE5D750D5F82096013053",
+    "product_name": "BIOVIA Discovery Studio 2025 Client",
+    "company_name": "Dassault Systèmes",
+    "file_description": "Setup Launcher Unicode",
+    "file_version": "25.1.0",
+    "product_version": "25.1.0",
+    "original_filename": "InstallShield Setup.exe"
+  },
+  "download_provenance": {
+    "zone_id": 3,
+    "referrer_url": "https://discover.3ds.com/",
+    "host_url": "https://3ds-download-eu-west-1.s3.eu-west-1.amazonaws.com/public/BIOVIA/BIOVIA_DS2025Client.exe",
+    "official_landing_page": "https://discover.3ds.com/discovery-studio-visualizer-download-thank-you",
+    "official_landing_page_label": "DS Visualizer Client (Windows 64 bit)",
+    "official_page_link_matches_host_url": true
+  },
+  "authenticode": {
+    "status": "Valid",
+    "status_message": "Signature verified.",
+    "signer_subject": "CN=DASSAULT SYSTEMES SE, O=DASSAULT SYSTEMES SE, L=Vélizy-Villacoublay, C=FR",
+    "issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US",
+    "thumbprint": "A5F68EC56A1BD9A8A242DFD09E32280A11C4D255",
+    "certificate_validity_reported": "2023-05-15 through 2026-05-15",
+    "timestamp_authority_subject": "CN=DigiCert Timestamp 2024, O=DigiCert, C=US",
+    "verification_note": "Windows Get-AuthenticodeSignature reported Valid on 2026-11-01 and returned a DigiCert Timestamp certificate. No separate vendor-published SHA-256 checksum was found for comparison; file hash is recorded for later integrity checks."
+  },
+  "decision": "The filename, host/referrer, exact URL listed on the official Visualizer download thank-you page, product metadata, company metadata, and valid Authenticode status are consistent with the official Windows DS Visualizer Client installer. It has not been executed or installed.",
+  "next_step": "User manually launches this verified installer and reports the first installer screen; GUI controls are unavailable to this assistant session."
+}

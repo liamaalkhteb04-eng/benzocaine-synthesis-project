@@ -1,0 +1,104 @@
+{
+  "purpose": "Structure-only identity checks for model condition tokens; these facts do not establish experimental roles.",
+  "parser": {
+    "name": "RDKit",
+    "version": "2026.03.2",
+    "operation": "MolFromSmiles + CalcMolFormula; no reaction prediction or chemistry model inference"
+  },
+  "tokens": [
+    {
+      "smiles": "CO",
+      "rdkit_formula": "CH4O",
+      "identity": "methanol",
+      "pubchem_cid": 887,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/Methanol",
+      "pubchem_smiles": "CO",
+      "correction": "not carbon monoxide"
+    },
+    {
+      "smiles": "CCOCC",
+      "rdkit_formula": "C4H10O",
+      "identity": "diethyl ether (ethoxyethane)",
+      "pubchem_cid": 3283,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3283",
+      "pubchem_smiles": "CCOCC",
+      "correction": "not ethyl acetate"
+    },
+    {
+      "smiles": "CCOC(=O)C",
+      "rdkit_formula": "C4H8O2",
+      "identity": "ethyl acetate",
+      "pubchem_cid": 8857,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8857",
+      "pubchem_smiles": "CCOC(=O)C",
+      "purpose": "counterexample demonstrating that CCOCC is not the ethyl acetate structure"
+    },
+    {
+      "smiles": "FB(F)F",
+      "rdkit_formula": "BF3",
+      "identity": "boron trifluoride (trifluoroborane; Korean: 삼불화붕소)",
+      "pubchem_cid": 6356,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6356",
+      "pubchem_smiles": "B(F)(F)F",
+      "correction": "do not call it 과불화 붕소; no reagent formulation or experimental role is inferred"
+    },
+    {
+      "smiles": "Cl",
+      "rdkit_formula": "HCl",
+      "identity": "hydrogen chloride / hydrochloric acid structure record",
+      "pubchem_cid": 313,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/313",
+      "pubchem_smiles": "Cl",
+      "qualification": "identifies the bare SMILES under the referenced parser/record; does not prove role, concentration, aqueous state, or experimental use"
+    },
+    {
+      "smiles": "CCO",
+      "rdkit_formula": "C2H6O",
+      "identity": "ethanol",
+      "pubchem_cid": 702,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/702",
+      "pubchem_smiles": "CCO"
+    },
+    {
+      "smiles": "CCOC(C)=O",
+      "rdkit_formula": "C4H8O2",
+      "identity": "ethyl acetate",
+      "pubchem_cid": 8857,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8857",
+      "equivalent_pubchem_smiles": "CCOC(=O)C"
+    },
+    {
+      "smiles": "[H][H]",
+      "rdkit_formula": "H2",
+      "identity": "hydrogen molecule",
+      "pubchem_cid": 783,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/783"
+    },
+    {
+      "smiles": "C1CCOC1",
+      "rdkit_formula": "C4H8O",
+      "identity": "tetrahydrofuran (THF)",
+      "pubchem_cid": 8028,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8028"
+    },
+    {
+      "smiles": "CC(=O)Cl",
+      "rdkit_formula": "C2H3ClO",
+      "identity": "acetyl chloride",
+      "pubchem_cid": 6367,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6367"
+    },
+    {
+      "smiles": "O",
+      "rdkit_formula": "H2O",
+      "identity": "water",
+      "pubchem_cid": 962,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+    }
+  ],
+  "source_run": {
+    "raw_conditions_path": "reports/benzocaine-reproduction-validation-20261119-08/evidence-run/latest-route-reproduction/conditions-parrot.raw.json",
+    "raw_conditions_sha256": "af2272ad2b63df7c1d96b0ee66e26f12599e884bd78f9c8acc97ddf2de20eca6",
+    "normalized_conditions_path": "reports/benzocaine-reproduction-validation-20261119-08/evidence-run/latest-route-reproduction/conditions-parrot.json"
+  }
+}

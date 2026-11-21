@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "change": "removed stale CO=carbon monoxide sentence because the same paragraph already contains the verified Solar CO=methanol block",
+  "source_report_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\provenance\\report-assembly\\base-report-before-route01-cleanup.md",
+  "source_report_sha256": "156a1506b35f7fb925c2aea04f0a8f7d864691adc286a7299e6496f220d3a8e8",
+  "solar_response_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\provenance\\report-assembly\\correction-v3-02\\solar-response.raw.json",
+  "solar_response_sha256": "5eba76f87a081d19a1250d09dd5bb4933ae3b79113a7427def3439043d1e2231",
+  "preserved_blocks_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\submission\\benzocaine-professor-reproduction-package-20261121\\provenance\\report-assembly\\accepted-blocks-v3-02.json",
+  "preserved_block_id": "ROUTE01_CO_IDENTITY_SENTENCE",
+  "preserved_block_sha256": "8bdfc346f6cc8124b022cad263a955fd4f0a9f86d3baaaefc08e5465398f3010",
+  "old_sentence_count_before": 1,
+  "old_sentence_count_after": 0,
+  "correct_solar_block_count_before": 1,
+  "correct_solar_block_count_after": 1,
+  "changed_paragraphs": 1,
+  "all_other_markdown_text_unchanged": true,
+  "solar_text_rewritten": false,
+  "new_scientific_text_authored": false,
+  "merged_report_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133"
+}

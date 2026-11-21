@@ -1,0 +1,29 @@
+{
+  "$schema": "https://pi.dev/schemas/models.schema.json",
+  "providers": {
+    "upstage": {
+      "name": "Loopback guard",
+      "baseUrl": "http://127.0.0.1:52929/v1",
+      "api": "openai-completions",
+      "apiKey": "LOCAL_GUARD_PLACEHOLDER",
+      "compat": {
+        "supportsStore": false,
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": true,
+        "supportsUsageInStreaming": false,
+        "maxTokensField": "max_tokens"
+      },
+      "models": [
+        {
+          "id": "solar-pro4-260806",
+          "name": "Solar Pro 4 pinned",
+          "reasoning": false,
+          "maxTokens": 10000,
+          "samplingParams": {
+            "temperature": 0
+          }
+        }
+      ]
+    }
+  }
+}

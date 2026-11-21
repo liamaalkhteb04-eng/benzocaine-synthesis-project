@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "validation_type": "saved-response-derived report-source DOCX/PDF rebuild; no Solar or chemistry calls",
+  "checks": {
+    "report_source_sha256_matches_locked_candidate": true,
+    "pages_equal_and_within_20": true,
+    "pdf_text_preserved": true,
+    "docx_text_and_tables_preserved": true,
+    "figure_count_10": true,
+    "docx_embedded_media_10": true,
+    "table_count_4": true,
+    "no_clipped_items": true,
+    "stale_CO_sentence_absent": true,
+    "correct_CO_identity_present": false,
+    "references_and_appendix_present": false
+  },
+  "source_report_pdf_sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445",
+  "source_report_docx_sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926",
+  "rebuilt_pdf_sha256": "2000581fdd97f4fa1ba264ad23bc4e5c5bc4b49d7b9371ac8b7f8fd394ba90f6",
+  "rebuilt_docx_sha256": "4e1e02f397a9cc6ccc962b57329e73c18c882bed1c758e65d71d860256b6604d",
+  "page_count": 20,
+  "rendered_preview_count": 20,
+  "embedded_pdf_image_count": 10,
+  "clipped_items": [],
+  "contact_sheet": "all-pages-contact-sheet.png"
+}

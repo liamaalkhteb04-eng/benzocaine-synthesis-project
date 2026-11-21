@@ -1,0 +1,14 @@
+{"status": "listening_loopback", "harness": "opencode", "port": 18710, "secret_value_printed": false, "forwarding_enabled": true}
+opencode local GET /v1/models 200
+opencode reserved its single upstream request; input_bytes=201667; request_body_bytes=225032
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 200
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409
+opencode local POST /v1/chat/completions 409

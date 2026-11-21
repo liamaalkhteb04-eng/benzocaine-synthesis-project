@@ -1,0 +1,539 @@
+[
+  {
+    "species_id": "ethyl-4-nitrobenzoate",
+    "name": "Ethyl 4-nitrobenzoate",
+    "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1",
+    "formula": "C9H9NO4",
+    "formal_charge": 0,
+    "cas": null,
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": 80.65613555908203,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [],
+        "selected_value": null
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 297.2542419433594,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [],
+        "selected_value": null
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\ethyl-4-nitrobenzoate.json",
+    "raw_cas_response": null,
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  },
+  {
+    "species_id": "benzocaine",
+    "name": "Benzocaine",
+    "smiles": "CCOC(=O)c1ccc(N)cc1",
+    "formula": "C9H11NO2",
+    "formal_charge": 0,
+    "cas": null,
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": 66.16531372070312,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [],
+        "selected_value": null
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 279.8981018066406,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [],
+        "selected_value": null
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\benzocaine.json",
+    "raw_cas_response": null,
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  },
+  {
+    "species_id": "p-aminobenzoic-acid",
+    "name": "4-Aminobenzoic acid",
+    "smiles": "Nc1ccc(C(=O)O)cc1",
+    "formula": "C7H7NO2",
+    "formal_charge": 0,
+    "cas": "150-13-0",
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": 94.07730865478516,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": "Aromatic acid slope analogy",
+            "year": 0,
+            "order": 1,
+            "value": 188.5,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "MeltingPoints",
+            "sourceId": 1726,
+            "referenceId": 1086,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "derived_or_analogue_database_entry_not_direct_measurement",
+            "reason": "EPI record author/method label is 'Aromatic acid slope analogy'."
+          }
+        ],
+        "selected_value": {
+          "value": 188.5,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 307.7038879394531,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [],
+        "selected_value": {
+          "value": 307.7038879394531,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        }
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\p-aminobenzoic-acid.json",
+    "raw_cas_response": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\p-aminobenzoic-acid.json",
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  },
+  {
+    "species_id": "ethanol",
+    "name": "Ethanol",
+    "smiles": "CCO",
+    "formula": "C2H6O",
+    "formal_charge": 0,
+    "cas": "64-17-5",
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": -87.84295654296875,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": "Physprop calculated - based upon VP / Water Sol data",
+            "year": 0,
+            "order": 1,
+            "value": -114.1,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "MeltingPoints",
+            "sourceId": 1660,
+            "referenceId": 148,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "derived_or_analogue_database_entry_not_direct_measurement",
+            "reason": "EPI record author/method label is 'Physprop calculated - based upon VP / Water Sol data'."
+          }
+        ],
+        "selected_value": {
+          "value": -114.1,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 65.10699462890625,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": null,
+            "year": 0,
+            "order": 1,
+            "value": 78.2,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:BoilingPoints",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "BoilingPoints",
+            "sourceId": 1228,
+            "referenceId": null,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "epi_database_evidence_provenance_insufficient_to_claim_direct_experiment",
+            "reason": "The API labels this EpiUnified evidence, but author, year, pressure, and underlying experimental protocol are absent."
+          }
+        ],
+        "selected_value": {
+          "value": 78.2,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:BoilingPoints",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\ethanol.json",
+    "raw_cas_response": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\ethanol.json",
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  },
+  {
+    "species_id": "acetic-acid",
+    "name": "Acetic acid",
+    "smiles": "CC(=O)O",
+    "formula": "C2H4O2",
+    "formal_charge": 0,
+    "cas": "64-19-7",
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": -21.25537109375,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": "KHAN,I & BRIMBLECOMBE,P",
+            "year": 1992,
+            "order": 1,
+            "value": 16.635,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:MeltingPoints:KHAN,I & BRIMBLECOMBE,P:1992",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "MeltingPoints",
+            "sourceId": 1215,
+            "referenceId": 536,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "literature_cited_epi_evidence_not_independently_verified_as_measurement",
+            "reason": "The record carries a literature author/year (KHAN,I & BRIMBLECOMBE,P, 1992) but does not expose the underlying paper or measurement method here."
+          }
+        ],
+        "selected_value": {
+          "value": 16.635,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:MeltingPoints:KHAN,I & BRIMBLECOMBE,P:1992",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 122.30035400390625,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": null,
+            "year": 0,
+            "order": 1,
+            "value": 117.9,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:BoilingPoints",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "BoilingPoints",
+            "sourceId": 845,
+            "referenceId": null,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "epi_database_evidence_provenance_insufficient_to_claim_direct_experiment",
+            "reason": "The API labels this EpiUnified evidence, but author, year, pressure, and underlying experimental protocol are absent."
+          }
+        ],
+        "selected_value": {
+          "value": 117.9,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:BoilingPoints",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\acetic-acid.json",
+    "raw_cas_response": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\acetic-acid.json",
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  },
+  {
+    "species_id": "tetrahydrofuran-condition-slot",
+    "name": "Tetrahydrofuran",
+    "smiles": "C1CCOC1",
+    "formula": "C4H8O",
+    "formal_charge": 0,
+    "cas": "109-99-9",
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": -84.88720703125,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": "Ether slope analogy",
+            "year": 0,
+            "order": 1,
+            "value": -108.44,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "MeltingPoints",
+            "sourceId": 1381,
+            "referenceId": 128,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "derived_or_analogue_database_entry_not_direct_measurement",
+            "reason": "EPI record author/method label is 'Ether slope analogy'."
+          }
+        ],
+        "selected_value": {
+          "value": -108.44,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 69.35687255859375,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": null,
+            "year": 0,
+            "order": 1,
+            "value": 65.0,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:BoilingPoints",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "BoilingPoints",
+            "sourceId": 1002,
+            "referenceId": null,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "epi_database_evidence_provenance_insufficient_to_claim_direct_experiment",
+            "reason": "The API labels this EpiUnified evidence, but author, year, pressure, and underlying experimental protocol are absent."
+          }
+        ],
+        "selected_value": {
+          "value": 65.0,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:BoilingPoints",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\tetrahydrofuran-condition-slot.json",
+    "raw_cas_response": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\tetrahydrofuran-condition-slot.json",
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  },
+  {
+    "species_id": "diethyl-ether-condition-slot",
+    "name": "Diethyl ether",
+    "smiles": "CCOCC",
+    "formula": "C4H10O",
+    "formal_charge": 0,
+    "cas": "60-29-7",
+    "properties": {
+      "melting_point": {
+        "model_estimate": {
+          "value": -101.14971923828125,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": "Physprop calculated - based upon VP / Water Sol data",
+            "year": 0,
+            "order": 1,
+            "value": -116.3,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "MeltingPoints",
+            "sourceId": 260,
+            "referenceId": 148,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "derived_or_analogue_database_entry_not_direct_measurement",
+            "reason": "EPI record author/method label is 'Physprop calculated - based upon VP / Water Sol data'."
+          }
+        ],
+        "selected_value": {
+          "value": -116.3,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      },
+      "boiling_point": {
+        "model_estimate": {
+          "value": 47.015655517578125,
+          "units": "celsius",
+          "source": "module:mpbpvp",
+          "valueType": "ESTIMATED"
+        },
+        "model_estimate_type": "MPBPWIN v1.44 estimated; EPI API valueType ESTIMATED",
+        "epi_unified_records": [
+          {
+            "author": null,
+            "year": 0,
+            "order": 1,
+            "value": 34.6,
+            "units": "celsius",
+            "source": "experimental:EpiUnified:BoilingPoints",
+            "valueType": "EVIDENCE",
+            "method": null,
+            "evidenceType": "UNSPECIFIED",
+            "sourceDatabase": "EpiUnified",
+            "sourceTable": "BoilingPoints",
+            "sourceId": 200,
+            "referenceId": null,
+            "temperatureC": null,
+            "pressureMmHg": null,
+            "notes": null,
+            "classification": "epi_database_evidence_provenance_insufficient_to_claim_direct_experiment",
+            "reason": "The API labels this EpiUnified evidence, but author, year, pressure, and underlying experimental protocol are absent."
+          }
+        ],
+        "selected_value": {
+          "value": 34.6,
+          "units": "celsius",
+          "source": "experimental:EpiUnified:BoilingPoints",
+          "valueType": "EVIDENCE",
+          "method": null,
+          "evidenceType": "UNSPECIFIED"
+        }
+      }
+    },
+    "raw_smiles_only_response": "analyses\\epi-suite\\raw\\items\\diethyl-ether-condition-slot.json",
+    "raw_cas_response": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\diethyl-ether-condition-slot.json",
+    "epiunified_provenance": {
+      "source_database": "EpiUnified",
+      "measurement_conditions_returned": false,
+      "pressure_mmHg": null,
+      "temperature_c": null
+    }
+  }
+]

@@ -63,7 +63,7 @@ def main():
                         help="Tighter typography and spacing for a page-limit export; report wording remains unchanged")
     args = parser.parse_args()
     status = load(args.solar_status)
-    returned_model = status.get("returned_model") or status.get("upstream_model") or ""
+    returned_model = status.get("returned_model") or status.get("upstream_model") or status.get("model") or ""
     if status.get("status") != "success" or not returned_model.startswith("solar-pro4"):
         raise ValueError("A verified Solar Pro 4 report is required")
     response_path = args.solar_status.parent / "solar-response.raw.json"
@@ -76,7 +76,9 @@ def main():
         raise ValueError("Choose only one report transformation provenance record")
     if args.layout_validation:
         layout = load(args.layout_validation)
-        allowed = {"exact_manifest_figure_mapping", "normalized_route_step_table"}
+        allowed = ({"exact_manifest_figure_mapping", "manifest_visualizer_figure_completion", "verified_route_comparison_matrix", "normalized_route_step_table"}
+                   if layout.get("table", {}).get("action") in {"inserted_verified_route_comparison_matrix", "inserted_verified_route_comparison_matrix_and_step_summary"}
+                   else {"exact_manifest_figure_mapping", "normalized_route_step_table", "manifest_visualizer_figure_completion"})
         if (layout.get("status") != "passed"
                 or layout.get("rendered_markdown_sha256") != digest(args.markdown)
                 or layout.get("solar_raw_response_sha256") != digest(response_path)
@@ -209,7 +211,7 @@ def main():
     prefix = None
     table_count = 0
     deferred_table_intro = None
-    deferred_integrated_heading = None
+    deferred_table_heading = None
     while index < len(tokens):
         token = tokens[index]
         if token.type in {"bullet_list_open","ordered_list_open"}:
@@ -225,7 +227,13 @@ def main():
             if (token.type == "heading_open" and content.type == "inline"
                     and content.content.startswith("4. ")
                     and "\uD1B5\uD569" in content.content):
-                deferred_integrated_heading = content
+                deferred_table_heading = (content, int(token.tag[1:]))
+                index += 2
+                continue
+            if (token.type == "heading_open" and content.type == "inline"
+                    and index + 3 < len(tokens) and tokens[index+2].type == "heading_close"
+                    and tokens[index+3].type == "table_open"):
+                deferred_table_heading = (content, int(token.tag[1:]))
                 index += 2
                 continue
             if (token.type == "paragraph_open" and content.type == "inline"
@@ -280,34 +288,35 @@ def main():
             columns = len(rows[0])
             header_text = " ".join(cell.content for cell in rows[0]).lower()
             normalized_route_table = ("parrot top candidates" in header_text and "rxn_yields predicted yield" in header_text)
-            landscape = columns > 5 or normalized_route_table
+            comparison_candidate_table = ("parrot rank" in header_text and "parrot original slots" in header_text)
+            step_conditions_summary = ("parrot rank 1" in header_text and "original slots" in header_text and "yield-bert" in header_text)
+            landscape = columns > 5 or normalized_route_table or comparison_candidate_table or step_conditions_summary
             if not landscape and doc.paragraphs:
                 doc.paragraphs[-1].paragraph_format.keep_with_next = True
             if landscape:
-                section = doc.add_section(WD_SECTION.CONTINUOUS)
+                # Orientation changes need explicit page boundaries in Word.
+                # Continuous section breaks can leave a blank page between a
+                # landscape data table and the following portrait section.
+                section = doc.add_section(WD_SECTION.NEW_PAGE)
                 section.orientation = WD_ORIENT.LANDSCAPE
                 section.page_width, section.page_height = Cm(29.7), Cm(21)
                 section.top_margin = section.bottom_margin = Cm(0.9 if args.compact_layout else 1.2)
                 section.left_margin = section.right_margin = Cm(0.9 if args.compact_layout else 1.2)
                 if deferred_table_intro is not None:
-                    if deferred_integrated_heading is not None:
-                        title = doc.add_paragraph(style="Heading 1")
-                        title.paragraph_format.keep_with_next = True
-                        inline(title, deferred_integrated_heading.children)
-                        deferred_integrated_heading = None
                     intro = doc.add_paragraph()
                     intro.paragraph_format.space_after = Pt(4)
                     intro.paragraph_format.keep_with_next = True
                     inline(intro, deferred_table_intro.children)
                     deferred_table_intro = None
-                elif deferred_integrated_heading is not None:
-                    title = doc.add_paragraph(style="Heading 1")
-                    title.paragraph_format.keep_with_next = True
-                    inline(title, deferred_integrated_heading.children)
-                    deferred_integrated_heading = None
                 usable_width = 27.3
                 if columns == 5 and normalized_route_table:
                     weights = [1.4, 5.0, 10.0, 5.0, 2.4]
+                elif columns == 5 and comparison_candidate_table:
+                    weights = [2.8, 1.2, 2.5, 14.8, 4.0]
+                elif columns == 5 and step_conditions_summary:
+                    weights = [2.0, 6.0, 8.0, 6.0, 3.0]
+                elif columns == 6 and comparison_candidate_table:
+                    weights = [2.4, 5.5, 1.2, 2.4, 9.0, 3.0]
                 elif columns == 6:
                     first_header = rows[0][0].content.strip().lower()
                     weights = ([1.0,2.3,3.2,3.0,1.5,2.2] if first_header.startswith("route / step")
@@ -327,6 +336,12 @@ def main():
                 if len(weights) != columns: weights = [1.0]*columns
                 total_weight = sum(weights)
                 widths = [usable_width*w/total_weight for w in weights]
+            if deferred_table_heading is not None:
+                heading_content, heading_level = deferred_table_heading
+                title = doc.add_paragraph(style="Heading 1" if heading_level <= 2 else "Heading 3")
+                title.paragraph_format.keep_with_next = True
+                inline(title, heading_content.children)
+                deferred_table_heading = None
             table = doc.add_table(rows=0, cols=columns); table.style="Table Grid"; table.autofit=False
             for column, width in zip(table.columns,widths): column.width=Cm(width)
             for row_index, cells in enumerate(rows):
@@ -345,9 +360,12 @@ def main():
                 trpr=table.rows[-1]._tr.get_or_add_trPr();trpr.append(OxmlElement("w:cantSplit"))
                 if row_index==0:trpr.append(OxmlElement("w:tblHeader"))
             table_count += 1
-            doc.add_paragraph().paragraph_format.space_after=Pt(2)
+            # A blank portrait paragraph between a full landscape table page
+            # and the following section can consume an otherwise empty page.
+            if not landscape:
+                doc.add_paragraph().paragraph_format.space_after=Pt(2)
             if landscape:
-                portrait = doc.add_section(WD_SECTION.CONTINUOUS)
+                portrait = doc.add_section(WD_SECTION.NEW_PAGE)
                 portrait.orientation = WD_ORIENT.PORTRAIT
                 portrait.page_width, portrait.page_height = Cm(21), Cm(29.7)
                 portrait.top_margin, portrait.bottom_margin = ((Cm(1.35), Cm(1.3)) if args.compact_layout else (Cm(2), Cm(1.8)))

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "errors": [],
+  "pdf_pages": 20,
+  "docx_tables": 4,
+  "docx_figures": 10,
+  "docx_embedded_media": 10,
+  "pdf_images": 10,
+  "clipped_items": [],
+  "all_pages_rendered": true,
+  "page5_text_has_CO_methanol_correction": true,
+  "page5_stale_CO_sentence_absent": true,
+  "markdown_stale_sentence_occurrences": 0,
+  "pdf_stale_sentence_occurrences": 0,
+  "corrected_solar_block_occurrences": 1,
+  "preview_dir": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\validation-previews",
+  "source_report_sha256": "156a1506b35f7fb925c2aea04f0a8f7d864691adc286a7299e6496f220d3a8e8",
+  "final_report_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+  "docx_sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926",
+  "pdf_sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445",
+  "all_pages_contact_sheet": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-route01-co-cleanup-20261121\\all-pages-contact-sheet.png",
+  "all_pages_contact_sheet_sha256": "8e68bc5c19b2d1f829d7829f84b6b4f189fbbe77663cb0daa66cb4988f29333e",
+  "previous_report_set_unchanged": {
+    "report.md": true,
+    "report.docx": true,
+    "report.pdf": true
+  }
+}

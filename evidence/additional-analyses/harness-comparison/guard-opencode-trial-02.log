@@ -1,0 +1,4 @@
+{"status": "listening_loopback", "harness": "opencode", "run_id": "opencode-trial-02", "port": 18710, "secret_value_printed": false, "forwarding_enabled": true}
+opencode local GET /v1/models 200
+opencode reserved its single upstream request; input_bytes=201862; request_body_bytes=225248
+opencode local POST /v1/chat/completions 200

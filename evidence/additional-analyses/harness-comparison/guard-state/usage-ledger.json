@@ -1,0 +1,33 @@
+{
+  "max_external_posts": 2,
+  "calls": [
+    {
+      "harness": "opencode",
+      "run_id": "opencode-trial-01",
+      "reserved_at_utc": "2026-11-03T12:04:34Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:04:37Z",
+      "http_status": 200,
+      "latency_ms": 3773.2,
+      "input_tokens": 65736,
+      "output_tokens": 9,
+      "actual_cost_usd_ex_vat": 0.0197316,
+      "transport_error_type": null
+    },
+    {
+      "harness": "pi",
+      "run_id": "pi-trial-01",
+      "reserved_at_utc": "2026-11-03T12:06:02Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:06:03Z",
+      "http_status": 400,
+      "latency_ms": 307.5,
+      "input_tokens": null,
+      "output_tokens": null,
+      "actual_cost_usd_ex_vat": null,
+      "transport_error_type": null
+    }
+  ]
+}

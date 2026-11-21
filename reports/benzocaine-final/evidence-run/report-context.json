@@ -1,0 +1,16 @@
+{
+  "target_id": "benzocaine",
+  "selection_provenance": {
+    "selected_by": "user",
+    "basis": "The user explicitly selected Benzocaine as the final project target in the conversation; this fact is task provenance, not a model inference."
+  },
+  "identity": {
+    "name": "Benzocaine",
+    "name_ko": "벤조카인",
+    "smiles": "CCOC(=O)c1ccc(N)cc1",
+    "formula": "C9H11NO2",
+    "pubchem_cid": 2337,
+    "identity_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2337"
+  },
+  "no_reuse_rule": "This additional analysis evidence applies only to the recorded Benzocaine structures and runs. Do not attach it to another target or a new run unless separately performed."
+}

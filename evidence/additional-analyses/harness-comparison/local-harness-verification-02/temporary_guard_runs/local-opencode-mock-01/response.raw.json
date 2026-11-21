@@ -1,0 +1,1 @@
+{"id": "local-mock-chat-completion", "object": "chat.completion", "created": 1793700000, "model": "solar-pro4-260806", "choices": [{"index": 0, "message": {"role": "assistant", "content": "LOCAL_MOCK_ONLY: SYNTHETIC_RESPONSE_NOT_A_REPORT_RESULT"}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 17, "completion_tokens": 8, "total_tokens": 25}}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "source_sha256": "222a4856af4d267cc8a22bc02f9109d6842080c50d9258b48692053b802e31c4",
+  "public_sha256": "f591a2dfc30df214a089bb1a6755dec6661c9d256da527f4ff1d166fcce1a756",
+  "method": "Copied the actual run figure manifest and replaced only absolute image_path values with repository-relative figures/<basename>; route_id, step_id, reaction_smiles, status, image hashes are retained.",
+  "private_path_values_included": false
+}

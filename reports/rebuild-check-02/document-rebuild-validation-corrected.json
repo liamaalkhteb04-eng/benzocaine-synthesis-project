@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "validation_type": "saved-response-derived document rebuild; no Solar or chemistry calls",
+  "source_report_pdf_sha256": "4d5521f3594706453ee413f0c7cfc1edf952ca4ae44b66eb9f1ddb6e27cf7445",
+  "source_report_docx_sha256": "b8b408829f833848bfcd422697f7ca0035f9be11d299fc30fe4c757a43dee926",
+  "rebuilt_pdf_sha256": "2000581fdd97f4fa1ba264ad23bc4e5c5bc4b49d7b9371ac8b7f8fd394ba90f6",
+  "rebuilt_docx_sha256": "4e1e02f397a9cc6ccc962b57329e73c18c882bed1c758e65d71d860256b6604d",
+  "source_markdown_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+  "rebuilt_markdown_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+  "source_pdf_pages": 20,
+  "rebuilt_pdf_pages": 20,
+  "figure_count": 10,
+  "docx_embedded_media_count": 10,
+  "table_count": 4,
+  "checks": {
+    "frozen_source_markdown_hash_matches": true,
+    "pdf_pages_same_and_at_most_20": true,
+    "normalized_pdf_text_identical": true,
+    "normalized_docx_paragraph_and_table_text_identical": true,
+    "docx_contains_correct_methanol_identity": true,
+    "docx_contains_references": true,
+    "docx_contains_appendix": true,
+    "stale_co_misidentification_absent": true,
+    "embedded_figure_count_10": true,
+    "table_count_4": true,
+    "rendered_page_previews_20": true,
+    "contact_sheet_present": true
+  },
+  "interpretation": [
+    "The initial validation record is preserved unchanged as document-rebuild-validation-initial-failed.json.",
+    "Its two false negatives came from looking for Korean text in PDF text extraction. The same renderer output is validated using DOCX text, while normalized PDF text is compared directly with the frozen source PDF.",
+    "A page contact sheet and all 20 rendered page images are retained. Visual inspection covered the whole contact sheet and page 5 at full size; no clipping was observed.",
+    "This validates rebuilding documents from saved report-source Markdown and existing evidence. It does not validate the quality of a new Solar-authored report."
+  ],
+  "visual_review": {
+    "contact_sheet_reviewed": true,
+    "page_5_full_size_reviewed": true,
+    "clipped_items_observed": []
+  },
+  "no_external_calls": true
+}

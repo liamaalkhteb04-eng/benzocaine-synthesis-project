@@ -1,0 +1,1469 @@
+{
+  "status": "passed",
+  "errors": [],
+  "bibliography_entries": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "unused_bibliography_entries": [
+    "3",
+    "4",
+    "7",
+    "15"
+  ],
+  "body_citations": [
+    "D1",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10",
+    "D11",
+    "D12",
+    "1",
+    "2",
+    "5",
+    "6",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "evidence_list_entries": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10",
+    "D11",
+    "D12"
+  ],
+  "claim_rows": [
+    {
+      "paragraph": 2,
+      "claim_excerpt": "\ubca4\uc870\uce74\uc778(Benzocaine)\uc740 \uc911\uc131 \uc720\ub9ac \uc5fc\uae30 \ud615\ud0dc\uc758 C\u2089H\u2081\u2081NO\u2082 \ud654\ud569\ubb3c\uc774\uba70, PubChem CID 2337\ub85c \uc2dd\ubcc4\ub41c\ub2e4[1]. \uc774\ubc88 \uac80\ud1a0\ub294 \uc0ac\uc6a9\uc790\uac00 \ubca4\uc870\uce74\uc778\uc744 \ucd5c\uc885 \uacfc\uc815 \ubaa9\ud45c\ub85c \uc9c0\uc815\ud55c \uc0ac\uc2e4\uc5d0 \uadfc\uac70\ud558\uc5ec \uc218\ud589\ub418\uc5c8\uc73c\uba70, \uc774 \uc0ac\uc2e4\uc740 \ubaa8\ub378 \ucd94\ub860\uc774 \uc544\ub2c8\ub77c \uacfc\uc81c \ucd9c\ucc98 \uc815\ubcf4\uc774\ub2e4[D11]. AiZynthFinder \ud0d0\uc0c9\uc740 route-01, route-02, route-05\ub97c \ud3ec\ud568\ud55c 12\uac1c \uacbd\ub85c\ub97c \uc0dd\uc131\ud588\uace0, \uac01 \ubaa8\ub378\uc758 \ucd9c\ub825\uc740 \uc815\uc0c1 \uc0dd\uc131\u00b7\uc815\uaddc\ud654\ub418\uc5c8\ub2e4[D1]. \uc544\ub798\uc5d0\uc11c\ub294 \uac01 \uacbd",
+      "citations": [
+        "1",
+        "D1",
+        "D11"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 4,
+      "claim_excerpt": "\ubca4\uc870\uce74\uc778(Benzocaine, \ubca4\uc870\uce74\uc778)\uc740 \ubd84\uc790\uc2dd C\u2089H\u2081\u2081NO\u2082\uc758 \uc911\uc131 \uc720\ub9ac \uc5fc\uae30(neutral free base) \ud615\ud0dc\ub85c, PubChem CID 2337\ub85c \uc2dd\ubcc4\ub41c\ub2e4[1]. \uad6c\uc870\ub294 \ud30c\ub77c-\uc544\ubbf8\ub178\ubca4\uc870\uc5d0\uc774\ud2b8 \uace8\uaca9\uc5d0 \uc5d0\ud2f8 \uc5d0\uc2a4\ud130\uac00 \uacb0\ud569\ub41c \ud615\ud0dc\uc774\uba70, SMILES\ub294 `CCOC(=O)c1ccc(N)cc1`\uc774\ub2e4[1]. \uc989 \ubc29\ud5a5\uc871 \uace0\ub9ac\uc758 \ud30c\ub77c \uc704\uce58\uc5d0 \uc544\ubbf8\ub178\uae30(\u2013NH\u2082)\uac00, \ub098\uba38\uc9c0 \ud30c\ub77c \uc704\uce58\uc5d0 \uc5d0\ud2f8 \uc5d0\uc2a4\ud130(\u2013COOCH\u2082CH\u2083)\uac00 \uc874\uc7ac\ud55c\ub2e4. \uc774 \ub450 \uc791\uc6a9\uae30\ub294 \ud569\uc131 \uc124\uacc4\uc5d0\uc11c \uac01\uac01 \ub2e4",
+      "citations": [
+        "1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 5,
+      "claim_excerpt": "\ubcf8 \ubcf4\uace0\uc11c\uc5d0\uc11c \ubca4\uc870\uce74\uc778\uc744 \ub300\uc0c1 \ubb3c\uc9c8\ub85c \uc0bc\uc740 \uc774\uc720\ub294 \ubaa8\ub378 \ucd94\ub860\uc774\ub098 \ubb38\ud5cc \ube44\uad50\uc758 \uacb0\uacfc\uac00 \uc544\ub2c8\ub77c, \uc0ac\uc6a9\uc790\uac00 \uc774 \ubb3c\uc9c8\uc744 \ucd5c\uc885 \uacfc\uc81c \ub300\uc0c1\uc73c\ub85c \uba85\uc2dc\uc801\uc73c\ub85c \uc120\ud0dd\ud588\uae30 \ub54c\ubb38\uc774\ub2e4[D11]. \ub530\ub77c\uc11c \uc544\ub798 \ub0b4\uc6a9\uc740 \ubca4\uc870\uce74\uc778\uc758 \uad6c\uc870 \uc790\uccb4\ub97c \ud574\uc11d\ud55c \ub4a4, \uc2e4\uc81c \uc2e4\ud589\ub41c \uc608\uce21\u00b7\uac80\uc99d\u00b7\ucd94\uac00 \ubd84\uc11d \uc99d\uac70\ub97c \ubc14\ud0d5\uc73c\ub85c \uacbd\ub85c \ud6c4\ubcf4\ub97c \uc815\ub9ac\ud558\ub294 \uc21c\uc11c\ub85c \uc9c4\ud589\ud55c\ub2e4.",
+      "citations": [
+        "D11"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 9,
+      "claim_excerpt": "\uc774\ubc88 \uc2e4\ud589\uc740 AiZynthFinder[2]\ub97c \uc774\uc6a9\ud55c \uc5ed\ud569\uc131 \uacbd\ub85c \ud0d0\uc0c9, Parrot[5]\uc744 \uc774\uc6a9\ud55c \ubc18\uc751 \uc870\uac74 \ud6c4\ubcf4 \ucd94\ucc9c, rxn_yields[6] \uae30\ubc18 \uc218\uc728 \uc608\uce21\uc758 \uc138 \ub2e8\uacc4\ub85c \uad6c\uc131\ub418\uc5c8\ub2e4. \uc2e4\ud589 \uc694\uc57d\uc5d0\uc11c routes, conditions, yields\ub294 \ubaa8\ub450 success\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1]. \ub2e4\ub9cc \uc774 success\ub294 \uac01 \ud30c\uc774\ud504\ub77c\uc778\uc758 \ucd9c\ub825 \ud30c\uc77c\uc774 \uc815\uc0c1\uc801\uc73c\ub85c \uc0dd\uc131\u00b7\uc815\uaddc\ud654\ub418\uc5c8\ub2e4\ub294 \ub73b\uc774\uba70, \uc608\uce21\uac12\uc774 \uc2e4\ud5d8\uc801\uc73c\ub85c \uac80\uc99d\ub418\uc5c8\ub2e4\ub294 \ub73b\uc740 \uc544\ub2c8\ub2e4. \ubaa8\ub378\ubcc4 \uc785\ub825\u00b7\ucd9c\ub825\u00b7\uac80\uc99d \ubc94\uc704\ub294",
+      "citations": [
+        "2",
+        "5",
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 11,
+      "claim_excerpt": "AiZynthFinder \ud0d0\uc0c9 \uacb0\uacfc\uc5d0\ub294 \ucd1d 12\uac1c \uacbd\ub85c\uac00 \ud3ec\ud568\ub418\uc5c8\ub2e4[D1]. \uc774 \uc911 1\ub2e8\uacc4 \uacbd\ub85c\ub294 route-01, route-02, route-03, route-04\uc774\uba70, 2\ub2e8\uacc4 \uacbd\ub85c\ub294 route-05\ubd80\ud130 route-12\uae4c\uc9c0\uc774\ub2e4. \uac01 \uacbd\ub85c\uc758 \uc0c1\ud0dc \uc810\uc218(state score)\uc640 \ubc18\uc751 \uc218, \uc804\uad6c\uccb4 \uc218, \uc7ac\uace0 \ub0b4 \uc804\uad6c\uccb4 \uc218\ub294 \ubcf4\uace0\uc11c \uc99d\uac70\uc5d0 \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 12,
+      "claim_excerpt": "\uc774 \ubcf4\uace0\uc11c\ub294 \uadf8\uc911 route-01, route-02, route-05\ub97c \ub300\ud45c \uacbd\ub85c\ub85c \ub2e4\ub8ec\ub2e4. \uc120\uc815 \uc774\uc720\ub294 \ud654\ud559\uc801 \uc6b0\uc6d4\uc131\uc744 \uc8fc\uc7a5\ud558\uae30 \uc704\ud55c \uac83\uc774 \uc544\ub2c8\ub77c, \ucd08\uae30 \uc810\uc218 \uc21c\uc11c\uc0c1\uc758 shortlist\uc640 \uac80\ud1a0 \ubc94\uc704\ub97c \ubc18\uc601\ud55c \uac83\uc774\ub2e4[D1]. \uc989 \uc774 \uc120\uc815\uc740 \u201c\uc2e4\uc81c \ud569\uc131\uc774 \uac00\ub2a5\ud558\ub2e4\u201d\ub294 \uc99d\uba85\uc774 \uc544\ub2c8\ub77c, \uac80\ud1a0 \ub300\uc0c1 \uacbd\ub85c\ub97c \uc881\ud788\ub294 \uc808\ucc28\uc801 \uc120\ud0dd\uc774\ub2e4. \uacbd\ub85c \uc810\uc218\uc640 \uc7ac\uace0 \ud3ec\ud568 \uc5ec\ubd80\ub294 \uc2e4\uc6a9\uc801 \uc2e4\ud604\uc131\uc744 \uc9c1\uc811 \ubcf4\uc99d\ud558\uc9c0 \uc54a\uc73c\uba70, \uac80\uc0c9\uc740 \ub300\uc0c1 \ubb3c\uc9c8\uc744 \uc7ac\uace0\uc5d0\uc11c \uc81c\uc678\ud558\uace0 \uc218\ud589\ub418\uc5c8\uace0 \uc791\uc6a9\uc81c(agent)\ub098 ",
+      "citations": [
+        "D1",
+        "D4"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 14,
+      "claim_excerpt": "- **route-01**: 1\ub2e8\uacc4. \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8(ethyl 4-nitrobenzoate)\uc5d0\uc11c \ubca4\uc870\uce74\uc778\uc73c\ub85c\uc758 \uc9c1\uc811 \ubcc0\ud658\uc774\ub2e4. \uc804\uad6c\uccb4\ub294 1\uc885\uc774\uba70 \uc7ac\uace0 \ud3ec\ud568 \ud50c\ub798\uadf8\uac00 true\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 15,
+      "claim_excerpt": "- **route-02**: 1\ub2e8\uacc4. \uc5d0\ud2f8 4-\uc544\uc138\ud2b8\uc544\ubbf8\ub3c4\ubca4\uc870\uc5d0\uc774\ud2b8(ethyl 4-acetamidobenzoate)\uc5d0\uc11c \ubca4\uc870\uce74\uc778\uc73c\ub85c\uc758 \ubcc0\ud658\uc774\ub2e4. \uc804\uad6c\uccb4\ub294 1\uc885\uc774\uba70 \uc7ac\uace0 \ud3ec\ud568 \ud50c\ub798\uadf8\uac00 true\uc774\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 16,
+      "claim_excerpt": "- **route-05**: 2\ub2e8\uacc4. \uccab \ub2e8\uacc4\uc5d0\uc11c \uc544\uc138\ud2b8\uc0b0(acetic acid)\uc5d0\uc11c \uc5d0\ud0c4\uc62c(ethanol)\ub85c\uc758 \ubcc0\ud658\uc774 \uc81c\uc2dc\ub418\uace0, \ub458\uc9f8 \ub2e8\uacc4\uc5d0\uc11c 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0(4-aminobenzoic acid)\uacfc \uc5d0\ud0c4\uc62c\ub85c\ubd80\ud130 \ubca4\uc870\uce74\uc778\uc774 \uc0dd\uc131\ub41c\ub2e4. \uc804\uad6c\uccb4\ub294 2\uc885\uc774\uba70, \uccab\uc9f8 \ub2e8\uacc4 \uc804\uad6c\uccb4\uc758 \uc7ac\uace0 \ud3ec\ud568 \ud50c\ub798\uadf8\ub294 false, \ub458\uc9f8 \ub2e8\uacc4 \uc804\uad6c\uccb4\uc758 \uc7ac\uace0 \ud3ec\ud568 \ud50c\ub798\uadf8\ub294 true\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 17,
+      "claim_excerpt": "route-05\uc758 \uccab \ub2e8\uacc4\ub294 \uac80\uc0c9 \ubaa8\ub378\uc758 \uacbd\ub85c \uac04\uc120(pathway edge)\uc73c\ub85c \ub098\ud0c0\ub098\uba70, \uc2e4\uc81c \uc21c\ucc28 \ud569\uc131\uc73c\ub85c \uac80\uc99d\ub418\uc9c0\ub294 \uc54a\uc558\ub2e4[D1]. \uc774 \uc810\uc740 \ub4a4\uc5d0\uc11c \ub2e4\uc2dc \uad6c\ubd84\ud55c\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 23,
+      "claim_excerpt": "\uc774 \uc808\uc5d0\uc11c\ub294 \uac01 \ub300\ud45c \uacbd\ub85c\uc758 \ubc18\uc751 \uc804\ud6c4 \uad6c\uc870 \ubcc0\ud654\uc640 \uc791\uc6a9\uae30 \ubcc0\ud654\ub97c \uc9e7\uac8c \uc11c\uc220\ud558\uace0, \ub2e8\uacc4\ubcc4 \uc870\uac74 \ud6c4\ubcf4\uc640 \uc218\uc728 \uc608\uce21\uc744 \uc815\ub9ac\ud55c\ub2e4. \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc774 \uc81c\uacf5\ub418\uc9c0 \uc54a\uc740 \uac12\uc740 `NOT SUPPLIED`\ub85c \ud45c\uae30\ud55c\ub2e4. \uc870\uac74 \uc2ac\ub86f\uc740 Parrot\uc774 \ubc18\ud658\ud55c \ud544\ub4dc \uadf8\ub300\ub85c(catalyst1, solvent1, solvent2, reagent1, reagent2) \ub2e4\ub8e8\uba70, \uc11c\ub85c \ub2e4\ub978 rank \ud6c4\ubcf4\ub97c \ud558\ub098\ub85c \ud569\uce58\uc9c0 \uc54a\ub294\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 25,
+      "claim_excerpt": "**\uad6c\uc870 \ubcc0\ud654.** \uc774 \ub2e8\uacc4\ub294 \ubc29\ud5a5\uc871 \ub2c8\ud2b8\ub85c\uae30(\u2013NO\u2082)\uac00 \uc544\ubbf8\ub178\uae30(\u2013NH\u2082)\ub85c \ubc14\ub00c\ub294 \ud658\uc6d0 \ubcc0\ud658\uc774\uba70, \uc5d0\ud2f8 \uc5d0\uc2a4\ud130\ub294 \uc720\uc9c0\ub41c\ub2e4[D1]. \ubc18\uc751 SMILES\ub294 `CCOC(=O)c1ccc([N+](=O)[O-])cc1 >> CCOC(=O)c1ccc(N)cc1`\uc774\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 27,
+      "claim_excerpt": "**\ud15c\ud50c\ub9bf\u00b7\ubd84\ub958 \uc815\ubcf4.** \uc774 \ub2e8\uacc4\uc758 \ud15c\ud50c\ub9bf \ud574\uc2dc\ub294 `664f7756f7526ad6c07e82dd3b3c15f7aabccbc99837dd22105068a2cfc385b5`\uc774\uba70, \ubd84\ub958\ub294 \u201c0.0 Unrecognized\u201d\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1]. \ub77c\uc774\ube0c\ub7ec\ub9ac \ucd9c\ud604 \ud69f\uc218\ub294 33350, \uc815\ucc45 \ud655\ub960\uc740 0.4224, \uc815\ucc45 \uc774\ub984\uc740 uspto, \ud15c\ud50c\ub9bf \ucf54\ub4dc\ub294 17064\uc774\ub2e4[D1]. \ud15c\ud50c\ub9bf\uc740 \uc544\ubbf8\ub178\uae30 \uad00\ub828 \ubcc0\ud658\uc744 \uae30\uc220\ud558\ub294 \ud615\ud0dc\uc774\uba70, \uc774 \ubcf4\uace0\uc11c\uc5d0\uc11c\ub294 \ud15c\ud50c\ub9bf\uc774 \uc81c\uc2dc\ud55c \uc808\ub2e8(disco",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 28,
+      "claim_excerpt": "**\uc870\uac74 \ud6c4\ubcf4.** Parrot\uc740 \uc774 \ubc18\uc751\uc5d0 \ub300\ud574 15\uac1c \ud6c4\ubcf4\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \uc0c1\uc704 3\uac1c \ud6c4\ubcf4\uc758 \uc8fc\uc694 \uc2ac\ub86f\uc740 \ub2e4\uc74c\uacfc \uac19\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 29,
+      "claim_excerpt": "- rank 1: catalyst1 `[Pd]`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score \u22121.7008",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 30,
+      "claim_excerpt": "- rank 2: catalyst1 `[Pd]`, solvent1 `CO`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score \u22122.0482",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 31,
+      "claim_excerpt": "- rank 3: catalyst1 `[Pd]`, solvent1 `CCOC(C)=O`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score \u22122.7931",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 32,
+      "claim_excerpt": "\uc0c1\uc704 \ud6c4\ubcf4\ub4e4\uc740 catalyst1\uc5d0 Pd \uc6d0\uc790 \ud1a0\ud070\uc744, solvent1\uc5d0 \uc5d0\ud0c4\uc62c \uacc4\uc5f4 \ub610\ub294 \uba54\ud0c4\uc62c \uacc4\uc5f4 \ud1a0\ud070\uc744 \ubc30\uce58\ud558\ub294 \uacbd\ud5a5\uc744 \ubcf4\uc778\ub2e4[D1]. `solvent1=CO`\ub294 \ub2e8\uc77c \uad6c\uc870 \ud1a0\ud070\uc774\uba70, \uac80\uc99d\ub41c \uad6c\uc870 \ud574\uc11d\uc740 \uba54\ud0c4\uc62c(methanol, CH\u2084O, PubChem CID 887)\uc774\ub2e4[D12]. \uc774 \uc2ac\ub86f\uc740 \ud654\ud559\uc801 \uc5ed\ud560\uc744 \ud574\uc11d\ud560 \uc218\ub294 \uc788\uc9c0\ub9cc, \ubaa8\ub378\uc774 \ucd9c\ub825\ud55c \uac12 \uc790\uccb4\uac00 \uc2e4\ud5d8 \uc870\uac74\uc744 \uac80\uc99d\ud588\ub2e4\ub294 \ub73b\uc740 \uc544\ub2c8\ub2e4. \ub2e4\ub9cc `[Pd]`\ub294 \ub2e8\uc77c Pd \uc6d0\uc18c \ud1a0\ud070\uc774\uba70 \uc2e4\uc81c \ucd09\ub9e4 \uc81c\ud615\u00b7\ub2f4\uc9c0\uccb4",
+      "citations": [
+        "D1",
+        "D12"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 33,
+      "claim_excerpt": "\ub610\ud55c \uc774 \ub2e8\uacc4\uc758 temperature, time, yield_percent\ub294 \ubaa8\ub450 null\uc774\uba70, temperature_status\ub294 `not_provided_by_checkpoint`\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1]. \uc989 \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc740 \uc774\ubc88 \uc870\uac74 \uccb4\ud06c\ud3ec\uc778\ud2b8\uc5d0\uc11c \uc81c\uacf5\ub418\uc9c0 \uc54a\uc558\ub2e4. \ub530\ub77c\uc11c \uac01 \uc870\uac74 \uc2ac\ub86f\uc758 \uc218\uce58\uc801 \uc6b4\uc601 \uc870\uac74\uc740 `NOT SUPPLIED`\uc774\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 34,
+      "claim_excerpt": "**\uc218\uc728 \uc608\uce21.** rxn_yields\ub294 \uc774 \ubc18\uc751 SMILES\uc5d0 \ub300\ud574 raw_value 0.46616947650909424, \uc218\uc728 82.95371431744555%\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \ucd9c\ub825 \ucc99\ub3c4\ub294 standardized_fraction\uc774\uba70, \uc0c1\ud0dc\ub294 `predicted_not_validated`\uc774\ub2e4. \uc785\ub825 \ud1a0\ud070 \uc218\ub294 46, \ucd5c\ub300 \uc785\ub825 \ud1a0\ud070\uc740 300, \uc785\ub825 \uc808\ub2e8\uc740 false\uc774\uba70, conditions_in_input\uc740 false\uc774\ub2e4[D1]. \uc989 \uc774 \uc218\uc728 \uc608\uce21\uc740 \ubc18\uc751 ",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [
+        "6"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 36,
+      "claim_excerpt": "**\uad6c\uc870 \ubcc0\ud654.** \uc774 \ub2e8\uacc4\ub294 N-\uc544\uc138\ud2f8\uae30\uac00 \uc81c\uac70\ub418\uc5b4 \uc544\ubbf8\ub178\uae30\uac00 \ub4dc\ub7ec\ub098\uace0, \uc5d0\ud2f8 \uc5d0\uc2a4\ud130\ub294 \uc720\uc9c0\ub418\ub294 \ubcc0\ud658\uc774\ub2e4[D1]. \ubc18\uc751 SMILES\ub294 `CCOC(=O)c1ccc(NC(C)=O)cc1 >> CCOC(=O)c1ccc(N)cc1`\uc774\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 38,
+      "claim_excerpt": "**\ud15c\ud50c\ub9bf\u00b7\ubd84\ub958 \uc815\ubcf4.** \ud15c\ud50c\ub9bf \ud574\uc2dc\ub294 `8063032398e59c77d82569a4231c9d8f1dc9cd333085943b3f9ae7b5eafd5071`, \ubd84\ub958\ub294 \u201c0.0 Unrecognized\u201d, \ub77c\uc774\ube0c\ub7ec\ub9ac \ucd9c\ud604 \ud69f\uc218\ub294 1668, \uc815\ucc45 \ud655\ub960\uc740 0.0118, \uc815\ucc45 \uc774\ub984\uc740 uspto, \ud15c\ud50c\ub9bf \ucf54\ub4dc\ub294 21399\uc774\ub2e4[D1]. \uc774 \ud15c\ud50c\ub9bf\uc740 \uc544\ubbf8\ub178\uae30 \uad00\ub828 \uc808\ub2e8 \ubc29\ud5a5\uc744 \uae30\uc220\ud558\uba70, route-01\uacfc \ub9c8\ucc2c\uac00\uc9c0\ub85c \uc0dd\ub7b5\ub41c \uc791\uc6a9\uc81c\uac00 \uc7ac\uad6c\uc131\ub418\uc9c0 \uc54a\uc558\ub2e4\ub294 \ub2e8\uc11c\uac00 \ubd99\uc5b4 \uc788\ub2e4[D1",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 39,
+      "claim_excerpt": "**\uc870\uac74 \ud6c4\ubcf4.** Parrot\uc740 \uc774 \ubc18\uc751\uc5d0 \ub300\ud574\uc11c\ub3c4 15\uac1c \ud6c4\ubcf4\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \uc0c1\uc704 3\uac1c \ud6c4\ubcf4\uc758 \uc8fc\uc694 \uc2ac\ub86f\uc740 \ub2e4\uc74c\uacfc \uac19\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 40,
+      "claim_excerpt": "- rank 1: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `Cl`, reagent2 `\"\"`, sequence_score \u22121.3240",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 41,
+      "claim_excerpt": "- rank 2: catalyst1 `\"\"`, solvent1 `Cl`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score \u22122.6605",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 42,
+      "claim_excerpt": "- rank 3: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `[Na+].[OH-]`, reagent2 `\"\"`, sequence_score \u22123.2929",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 43,
+      "claim_excerpt": "\uc774 \ub2e8\uacc4\uc758 \uc0c1\uc704 \ud6c4\ubcf4\ub4e4\uc740 catalyst1\uc774 \ube44\uc5b4 \uc788\ub294 \uacbd\uc6b0\uac00 \ub9ce\uace0, solvent1\uacfc reagent1\uc5d0 \uc5fc\uc18c \uacc4\uc5f4, \uc5d0\ud0c4\uc62c \uacc4\uc5f4, \uc5fc\uae30 \uacc4\uc5f4 \ud1a0\ud070\uc774 \uc11e\uc5ec \ub098\ud0c0\ub09c\ub2e4[D1]. slot\uc774 \ube48 \uac12\uc778 \uacbd\uc6b0\ub294 \u201c\ubaa8\ub378 \ucd9c\ub825 \ubbf8\uc81c\uacf5\u201d\uc73c\ub85c \uc77d\uc73c\uba70, \uc2e4\ud5d8\uc5d0\uc11c \ud574\ub2f9 \uc131\ubd84\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\uc558\ub2e4\ub294 \ub73b\uc774 \uc544\ub2c8\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 44,
+      "claim_excerpt": "\uc774 \ub2e8\uacc4 \uc5ed\uc2dc temperature, time, yield_percent\ub294 null\uc774\uace0 temperature_status\ub294 `not_provided_by_checkpoint`\uc774\ub2e4[D1]. \ub530\ub77c\uc11c \uc6b4\uc601 \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc740 `NOT SUPPLIED`\uc774\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 45,
+      "claim_excerpt": "**\uc218\uc728 \uc608\uce21.** rxn_yields\ub294 \uc774 \ubc18\uc751 SMILES\uc5d0 \ub300\ud574 raw_value 0.21513395011425018, \uc218\uc728 77.69549187778327%\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \ucd9c\ub825 \ucc99\ub3c4\ub294 standardized_fraction, \uc0c1\ud0dc\ub294 `predicted_not_validated`, \uc785\ub825 \ud1a0\ud070 \uc218\ub294 47, conditions_in_input\uc740 false\uc774\ub2e4[D1]. \uc774 \uac12 \uc5ed\uc2dc \ubc18\uc751 \uad6c\uc870\ub9cc \uc785\ub825\ud55c \uc608\uce21\uc774\uba70, \ud2b9\uc815 \uc2e4\ud5d8 \uc870\uac74\uc5d0\uc11c\uc758 \uc2e4\ud5d8 \uc218\uc728\uc774 \uc544\ub2c8\ub2e4.[6",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [
+        "6"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 47,
+      "claim_excerpt": "route-05\ub294 2\ub2e8\uacc4 \uacbd\ub85c\uc774\ub2e4. \uccab\uc9f8 \ub2e8\uacc4\ub294 \uc544\uc138\ud2b8\uc0b0\uc5d0\uc11c \uc5d0\ud0c4\uc62c\ub85c\uc758 \ubcc0\ud658\uc774\uace0, \ub458\uc9f8 \ub2e8\uacc4\ub294 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uacfc \uc5d0\ud0c4\uc62c\ub85c\ubd80\ud130 \ubca4\uc870\uce74\uc778\uc744 \uc0dd\uc131\ud558\ub294 \ubcc0\ud658\uc774\ub2e4. \ub2e4\ub9cc \uccab\uc9f8 \ub2e8\uacc4\ub294 \uac80\uc0c9 \ubaa8\ub378\uc758 \uacbd\ub85c \uac04\uc120\uc73c\ub85c \uc81c\uc2dc\ub418\uc5c8\uc73c\uba70, \uc2e4\uc81c \uc21c\ucc28 \ud569\uc131\uc73c\ub85c \uac80\uc99d\ub418\uc9c0\ub294 \uc54a\uc558\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 49,
+      "claim_excerpt": "**\uad6c\uc870 \ubcc0\ud654.** \uc774 \ub2e8\uacc4\ub294 \uce74\ubcf5\uc2e4\uc0b0(\u2013COOH)\uc774 \uc54c\ucf54\uc62c(\u2013CH\u2082OH)\ub85c \ud45c\ud604\ub418\ub294 \ubcc0\ud658\uc774\uba70, \ubc18\uc751 SMILES\ub294 `CC(=O)O >> CCO`\uc774\ub2e4[D1]. \uc774 \ubcc0\ud658\uc740 route-05\uc758 \uacbd\ub85c \uac04\uc120\uc73c\ub85c\uc11c \ub4f1\uc7a5\ud558\uc9c0\ub9cc, \uc2e4\uc81c \uc21c\ucc28 \ud569\uc131\uc5d0\uc11c \uc774 \ub2e8\uacc4\uac00 \ub3c5\ub9bd\uc801\uc73c\ub85c \uac80\uc99d\ub418\uc5c8\ub2e4\ub294 \uc99d\uac70\ub294 \uc774 \uc790\ub8cc\uc5d0 \uc5c6\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 51,
+      "claim_excerpt": "**\ud15c\ud50c\ub9bf\u00b7\ubd84\ub958 \uc815\ubcf4.** \ud15c\ud50c\ub9bf \ud574\uc2dc\ub294 `c42f96a0658c03bc12dc20efce06e66daaeccc675d73631eea24ea610a7227b8`, \ubd84\ub958\ub294 \u201c0.0 Unrecognized\u201d, \ub77c\uc774\ube0c\ub7ec\ub9ac \ucd9c\ud604 \ud69f\uc218\ub294 3921, \uc815\ucc45 \ud655\ub960\uc740 0.0915, \uc815\ucc45 \uc774\ub984\uc740 uspto, \ud15c\ud50c\ub9bf \ucf54\ub4dc\ub294 32658\uc774\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 52,
+      "claim_excerpt": "**\uc870\uac74 \ud6c4\ubcf4.** Parrot\uc740 \uc774 \ubc18\uc751\uc5d0 \ub300\ud574 15\uac1c \ud6c4\ubcf4\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \uc0c1\uc704 3\uac1c \ud6c4\ubcf4\uc758 \uc8fc\uc694 \uc2ac\ub86f\uc740 \ub2e4\uc74c\uacfc \uac19\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 53,
+      "claim_excerpt": "- rank 1: catalyst1 `\"\"`, solvent1 `C1CCOC1`, solvent2 `\"\"`, reagent1 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`, reagent2 `\"\"`, sequence_score \u22121.8565",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 54,
+      "claim_excerpt": "- rank 2: catalyst1 `\"\"`, solvent1 `C1CCOC1`, solvent2 `\"\"`, reagent1 `O`, reagent2 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`, sequence_score \u22122.7974",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 55,
+      "claim_excerpt": "- rank 3: catalyst1 `\"\"`, solvent1 `C1CCOC1`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score \u22122.9943",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 56,
+      "claim_excerpt": "\uc774 \ub2e8\uacc4\uc758 \uc0c1\uc704 \ud6c4\ubcf4\uc5d0\ub294 \uc6a9\ub9e4\ub85c THF \uacc4\uc5f4 \ud1a0\ud070(`C1CCOC1`)\uc774 \uc790\uc8fc \ub4f1\uc7a5\ud558\uace0, \uc2dc\uc57d \uc2ac\ub86f\uc5d0 \ub9ac\ud2ac \uc54c\ub8e8\ubbf8\ub284 \uc218\uc18c\ud654\ubb3c \uacc4\uc5f4\ub85c \uc77d\ud790 \uc218 \uc788\ub294 \ubd84\ub9ac\ub41c \uc774\uc628 \ud45c\ud604(`[Al+3].[H-].[H-].[H-].[H-].[Li+]`)\uc774 \ub098\ud0c0\ub09c\ub2e4[D1]. \ub2e4\ub9cc \uc774 \ud45c\ud604\uc740 \uc815\uc758\ub41c \uc21c\uc218 \uc911\uc131 \uc720\uae30 \ud654\ud569\ubb3c\ub85c\uc11c\uc758 \ubb3c\uc9c8\uc774\ub77c\uae30\ubcf4\ub2e4 \ubd84\ub9ac\ub41c \uc774\uc628 \ud45c\ud604\uc774\uba70, \uc2e4\uc81c \uc2dc\uc57d \uc81c\ud615\u00b7\ub2f9\ub7c9\u00b7\uc6a9\ub9e4 \uc870\uc131\u00b7\uc791\uc5c5 \uc870\uac74\uc744 \ud655\uc778\ud574 \uc8fc\uc9c0 \uc54a\ub294\ub2e4. \uc774 \ub2e8\uacc4\ub3c4 temperature, time, yield_perc",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 57,
+      "claim_excerpt": "**\uc218\uc728 \uc608\uce21.** rxn_yields\ub294 \uc774 \ubc18\uc751 SMILES\uc5d0 \ub300\ud574 raw_value 0.2100452482700348, \uc218\uc728 77.58890327412914%\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \ucd9c\ub825 \ucc99\ub3c4\ub294 standardized_fraction, \uc0c1\ud0dc\ub294 `predicted_not_validated`, \uc785\ub825 \ud1a0\ud070 \uc218\ub294 13, conditions_in_input\uc740 false\uc774\ub2e4[D1].[6]",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [
+        "6"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 59,
+      "claim_excerpt": "**\uad6c\uc870 \ubcc0\ud654.** \uc774 \ub2e8\uacc4\ub294 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uc758 \uce74\ubcf5\uc2e4\uae30\uac00 \uc5d0\ud2f8 \uc5d0\uc2a4\ud130\ub85c \ubcc0\ud658\ub418\uace0 \uc544\ubbf8\ub178\uae30\ub294 \uc720\uc9c0\ub418\ub294 \ubc18\uc751\uc774\ub2e4[D1]. \ubc18\uc751 SMILES\ub294 `CCO.Nc1ccc(C(=O)O)cc1 >> CCOC(=O)c1ccc(N)cc1`\uc774\ub2e4[D1]. \uc989 \uc0dd\uc131\ubb3c\uc740 \ubca4\uc870\uce74\uc778\uc774\uba70, \ubc18\uc751\ubb3c \ucabd\uc5d0\ub294 \uc5d0\ud0c4\uc62c\uacfc 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uc774 \ud568\uaed8 \ud45c\uae30\ub418\uc5b4 \uc788\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 61,
+      "claim_excerpt": "**\ud15c\ud50c\ub9bf\u00b7\ubd84\ub958 \uc815\ubcf4.** \ud15c\ud50c\ub9bf \ud574\uc2dc\ub294 `bf6bd9047791f3252d0082f87523bda9bf230f930fe417ac7de9fa8c502cbf89`, \ubd84\ub958\ub294 \u201c0.0 Unrecognized\u201d, \ub77c\uc774\ube0c\ub7ec\ub9ac \ucd9c\ud604 \ud69f\uc218\ub294 6214, \uc815\ucc45 \ud655\ub960\uc740 0.1681, \uc815\ucc45 \uc774\ub984\uc740 uspto, \ud15c\ud50c\ub9bf \ucf54\ub4dc\ub294 31869\uc774\ub2e4[D1]. \uc774 \ud15c\ud50c\ub9bf\uc740 \uc5d0\uc2a4\ud130\ud654 \ubc29\ud5a5\uc758 \uc808\ub2e8 \ud615\ud0dc\ub97c \uae30\uc220\ud558\uba70, \uc0dd\ub7b5\ub41c \uc791\uc6a9\uc81c\uac00 \uc7ac\uad6c\uc131\ub418\uc9c0 \uc54a\uc558\ub2e4\ub294 \ub2e8\uc11c\uac00 \ubd99\uc5b4 \uc788\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 62,
+      "claim_excerpt": "**\uc870\uac74 \ud6c4\ubcf4.** Parrot\uc740 \uc774 \ubc18\uc751\uc5d0 \ub300\ud574 15\uac1c \ud6c4\ubcf4\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \uc0c1\uc704 3\uac1c \ud6c4\ubcf4\uc758 \uc8fc\uc694 \uc2ac\ub86f\uc740 \ub2e4\uc74c\uacfc \uac19\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 63,
+      "claim_excerpt": "- rank 1: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `CCOCC`, reagent2 `FB(F)F`, sequence_score \u22122.1755",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 64,
+      "claim_excerpt": "- rank 2: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `CC(=O)Cl`, reagent2 `\"\"`, sequence_score \u22122.3472",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 65,
+      "claim_excerpt": "- rank 3: catalyst1 `\"\"`, solvent1 `O=S(=O)(O)O`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score \u22122.6159",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 66,
+      "claim_excerpt": "route-05/step-02\uc758 \ubc18\uc751 `CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1`\uc5d0 \ub300\ud574 Parrot\uc774 \uc81c\uc2dc\ud55c \uc6d0\uc2dc \ud6c4\ubcf4\ub294 \ucd1d 15\uac1c\uc774\uba70 [D1], \uc774\uc5b4\uc9c0\ub294 \uc124\uba85 \ubb38\ub2e8\uc740 \uadf8\uc911 rank 1, rank 2, rank 3\ub9cc\uc744 \uac01\uac01 \ubcc4\ub3c4\uc758 \uc2ac\ub86f \uad6c\uc131\uc73c\ub85c \ub2e4\ub8ec\ub2e4. rank 1\uc740 catalyst1=``, solvent1=`CCO`, solvent2=``, reagent1=`CCOCC`, reagent2=`FB(F)F`\uc774\uace0, rank 2\ub294",
+      "citations": [
+        "D1",
+        "D12"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 67,
+      "claim_excerpt": "`FB(F)F`\ub294 \uc0bc\ubd88\ud654\ubd95\uc18c(boron trifluoride, BF\u2083)\ub85c \uc77d\ud790 \uc218 \uc788\uc73c\uba70, MPBPWIN\uc758 \uc720\uae30\ud654\ud569\ubb3c \ubc94\uc704\uc640\ub294 \ubcc4\ub3c4\ub85c \ucde8\uae09\ud574\uc57c \ud55c\ub2e4[D12][12][D6].\n**\uc218\uc728 \uc608\uce21.** rxn_yields\ub294 \uc774 \ubc18\uc751 SMILES\uc5d0 \ub300\ud574 raw_value 0.31552639603614807, \uc218\uc728 79.79832496878097%\ub97c \ubc18\ud658\ud588\ub2e4[D1]. \ucd9c\ub825 \ucc99\ub3c4\ub294 standardized_fraction, \uc0c1\ud0dc\ub294 `predicted_not_validated`,",
+      "citations": [
+        "12",
+        "6",
+        "D1",
+        "D12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "6",
+        "12"
+      ],
+      "required_project_evidence": [
+        "D1",
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 69,
+      "claim_excerpt": "\uc774 \uc808\uc740 \uac15\uc758 \uc790\ub8cc\uc758 \ubca4\uc870\uce74\uc778 \uc5ed\ud569\uc131 \uc608\uc2dc\uc640 \uc774\ubc88 \ud504\ub85c\uc81d\ud2b8\uc758 AI \uc608\uce21 \uacb0\uacfc\ub97c \ub098\ub780\ud788 \ub193\uace0, \ub450 \uc790\ub8cc\uac00 \uc5b4\ub514\uae4c\uc9c0 \uacb9\uce58\uace0 \uc5b4\ub514\uc11c \ubd84\ub9ac\ub418\ub294\uc9c0 \uc815\ub9ac\ud55c\ub2e4. \ub450 \uc790\ub8cc \ubaa8\ub450 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uacfc \uc5d0\ud0c4\uc62c\uc744 \ucd9c\ubc1c\uc810\uc73c\ub85c \ubca4\uc870\uce74\uc778(\uc5d0\ud2f8 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0 \uc5d0\uc2a4\ud130)\uc744 \uc5bb\ub294\ub2e4\ub294 \uc810\uc5d0\uc11c \ubc18\uc751\uc758 \uace8\uaca9\uc740 \uac19\ub2e4[17, PDF pp. 80\u201381][D1]. \ub2e4\ub9cc \uac15\uc758\ub294 \uad50\uc721\uc6a9 \uc5ed\ud569\uc131\u00b7\uba54\ucee4\ub2c8\uc998 \uc124\uba85\uc774\uace0, AI \uc608\uce21\uc740 \uad6c\uc870 \uae30\ubc18 \ud15c\ud50c\ub9bf\u00b7\uc870\uac74 \ud6c4\ubcf4\u00b7\uc218\uc728 \uc608\uce21\uc774\ubbc0\ub85c, \uac19\uc740 \uc0dd\uc131\ubb3c\uc744 \ud5a5\ud55c\ub2e4\ub294 \uc0ac\uc2e4 \uc774\uc0c1\uc73c\ub85c \uc870",
+      "citations": [
+        "17",
+        "D1"
+      ],
+      "required_method_sources": [
+        "17"
+      ],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 70,
+      "claim_excerpt": "\uac15\uc758 \uc790\ub8cc 80\u201381\ucabd\uc740 \ubca4\uc870\uce74\uc778\uc758 \uc5d0\ud2f8 \uc5d0\uc2a4\ud130 \uacb0\ud569\uc744 \ub04a\uc5b4 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uacfc \uc5d0\ud0c4\uc62c\uc744 \uc804\uad6c\uccb4\ub85c \uc81c\uc2dc\ud558\uace0, \uc815\ubc29\ud5a5 \ubcc0\ud658\uc73c\ub85c \ud669\uc0b0 \ucd09\ub9e4 \ud53c\uc154 \uc5d0\uc2a4\ud130\ud654\ub97c \uc608\uc2dc\ub85c \ub4e0\ub2e4[17, PDF pp. 80\u201381]. 83\u201384\ucabd\uc740 \uacfc\uc81c\uc5d0\uc11c \ub2e8\uacc4\ubcc4 \uc0c8 \uacb0\ud569\uacfc \uc791\uc6a9\uae30 \ubcc0\ud654, \uc804\uc790\uc30d\uc758 \ucd9c\ubc1c\u00b7\ub3c4\ucc29, \ud615\uc2dd\uc804\ud558, \uc2dc\uc57d\u00b7\ucd09\ub9e4\u00b7\uc6a9\ub9e4\uc758 \uc5ed\ud560\uc744 \uc124\uba85\ud558\ub3c4\ub85d \uc694\uad6c\ud55c\ub2e4[17, PDF pp. 83\u201384]. 90\u201395\ucabd\uc740 \ud53c\uc154 \uc5d0\uc2a4\ud130\ud654\uc758 \uc77c\ubc18\uc801\uc778 \uc804\uc790 \ud750\ub984\uc744 \uc81c\uc2dc\ud558\ub294\ub370, \uce74\ubcf4\ub2d0 \uc0b0\uc18c\uc758 \uc591\uc131\uc790\ud654, \uc54c\ucf54\uc62c \uc0b0",
+      "citations": [
+        "17",
+        "D1"
+      ],
+      "required_method_sources": [
+        "17"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 71,
+      "claim_excerpt": "Parrot\uc758 route-05/step-02 rank-1 \ud6c4\ubcf4\ub294 catalyst1\uc774 \ube44\uc5b4 \uc788\uace0, solvent1=`CCO`, solvent2\uac00 \ube44\uc5b4 \uc788\uc73c\uba70, reagent1=`CCOCC`, reagent2=`FB(F)F`\uc774\ub2e4[D1]. \uc774 \uc2ac\ub86f\uc744 \uadf8\ub300\ub85c \ub450\uba74 \uac15\uc758\uc758 \ud669\uc0b0 \ucd09\ub9e4 \ud53c\uc154 \uc5d0\uc2a4\ud130\ud654\uc640\ub294 \ucd09\ub9e4\u00b7\uc2dc\uc57d \uad6c\uc131\uc774 \ub2e4\ub974\ub2e4[17, PDF pp. 80\u201381]. \ud654\ud559\uc801\uc73c\ub85c `CCO`\ub294 \uc5d0\ud0c4\uc62c, `CCOCC`\ub294 \ub514\uc5d0\ud2f8 \uc5d0\ud130 \uacc4\uc5f4 \ud1a0\ud070, `FB(F)F`\ub294 BF\u2083 \uacc4\uc5f4 \ud1a0\ud070\uc73c\ub85c",
+      "citations": [
+        "17",
+        "D1"
+      ],
+      "required_method_sources": [
+        "17"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 72,
+      "claim_excerpt": "rxn_yields\ub294 \uc774 \ubc18\uc751 SMILES\uc5d0 \ub300\ud574 79.79832496878097%\ub97c \ubc18\ud658\ud588\uc73c\uba70, \ud45c\uc2dc\ub294 79.80%\ub85c \ud558\ub418 \uc0c1\ud0dc\ub294 `predicted_not_validated`\uc774\ub2e4[6][D1]. \uc774 \uac12\uc740 \uad6c\uc870\ub9cc \uc785\ub825\ud55c \ub2e8\uacc4 \uc608\uce21\uc774\uba70, Parrot \uc870\uac74\uc774\ub098 \uac15\uc758 \uc870\uac74\uc5d0\uc11c\uc758 \uc2e4\ud5d8 \uc218\uc728\uc774 \uc544\ub2c8\ub2e4[17, PDF pp. 80\u201381].",
+      "citations": [
+        "17",
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [
+        "6",
+        "17"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 74,
+      "claim_excerpt": "\uc694\uc57d\ud558\uba74, \uac15\uc758\uc640 AI \uc608\uce21\uc740 \uac19\uc740 \ubca4\uc870\uce74\uc778 \uace8\uaca9\uc744 \uacf5\uc720\ud558\uc9c0\ub9cc, \uac15\uc758\uc758 \ud669\uc0b0 \ucd09\ub9e4 \ud53c\uc154 \uc5d0\uc2a4\ud130\ud654 \uc608\uc2dc\uc640 Parrot rank-1\uc758 \uc6d0\ub798 \uc2ac\ub86f\uc740 \uc11c\ub85c \ub2e4\ub978 \uae30\uc220\uc774\uba70, 79.80%\ub294 \uad6c\uc870 \uae30\ubc18 \uc608\uce21 \uc218\uc728\uc5d0 \uadf8\uce5c\ub2e4. \ub530\ub77c\uc11c \uc774 \ube44\uad50\ub294 \ub450 \uc790\ub8cc\uc758 \ubc94\uc704\uc640 \ud55c\uacc4\ub97c \uad6c\ubd84\ud558\ub294 \ub370 \uc4f0\uc774\uace0, \uc5b4\ub290 \ud55c\ucabd\uc758 \uc870\uac74\uc774\ub098 \uba54\ucee4\ub2c8\uc998\uc744 \ub2e4\ub978 \ucabd\uc73c\ub85c \uac80\uc99d\ud55c \uac83\uc73c\ub85c \uc77d\uc9c0 \uc54a\ub294\ub2e4[6][17, PDF pp. 90\u201395][D1].",
+      "citations": [
+        "17",
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [
+        "6",
+        "17"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 77,
+      "claim_excerpt": "\ub610\ud55c \ub2e8\uacc4 \uc608\uce21 \uc218\uc728\uc744 \uacf1\ud574 \uc804\uccb4 \uacbd\ub85c \uc218\uc728\uc744 \uacc4\uc0b0\ud558\uc9c0 \uc54a\ub294\ub2e4. \ubd84\uae30 \uad6c\uc870\uc640 \ub3c5\ub9bd\uc801\uc73c\ub85c \uc608\uce21\ub41c \ub2e8\uacc4\ub97c \ub2e8\uc21c \uacf1\uc73c\ub85c \ud569\uce58\ub294 \uac83\uc740 \uc774\ubc88 \uc99d\uac70\uc5d0\uc11c \uc9c0\uc6d0\ub418\uc9c0 \uc54a\ub294\ub2e4[D1].[6]",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 80,
+      "claim_excerpt": "AiZynthFinder\ub294 \uc5ed\ud569\uc131 \uacbd\ub85c \ud0d0\uc0c9\uc5d0 \uc0ac\uc6a9\ub418\uc5c8\ub2e4[2][D1]. \uc774\ubc88 \uc2e4\ud589\uc5d0\uc11c routes\ub294 success\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\uc73c\uba70, 12\uac1c \uacbd\ub85c\uc640 20\uac1c \ub2e8\uacc4\uac00 \uc0dd\uc131\ub418\uc5c8\ub2e4[16]. \ub2e4\ub9cc \uc774\ub294 \ucd9c\ub825 \ubb34\uacb0\uc131 \ubc0f \uc870\uc778 \uac80\uc99d\uc5d0 \ub300\ud55c \uacb0\uacfc\uc774\uba70, \uac01 \uacbd\ub85c\uac00 \uc2e4\uc81c \uc2e4\ud5d8\uc801\uc73c\ub85c \uc2e4\ud604 \uac00\ub2a5\ud558\ub2e4\ub294 \uc99d\uba85\uc740 \uc544\ub2c8\ub2e4. \uac80\uc0c9\uc740 \ub300\uc0c1 \ubb3c\uc9c8\uc744 \uc7ac\uace0\uc5d0\uc11c \uc81c\uc678\ud55c \uc0c1\ud0dc\ub85c \uc218\ud589\ub418\uc5c8\uace0, \uc791\uc6a9\uc81c\ub098 \ubd80\uc0b0\ubb3c\uc774 \uc0dd\ub7b5\ub420 \uc218 \uc788\ub2e4[D4].",
+      "citations": [
+        "16",
+        "2",
+        "D1",
+        "D4"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 81,
+      "claim_excerpt": "\ud15c\ud50c\ub9bf \uae30\ubc18 \uc808\ub2e8 \uc815\ubcf4\ub294 \uac01 \ub2e8\uacc4\uc758 metadata\uc5d0 \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D1]. \uc608\ub97c \ub4e4\uc5b4 route-01/step-01\uc758 \ud15c\ud50c\ub9bf\uc740 \uc544\ubbf8\ub178\uae30 \uad00\ub828 \ud615\ud0dc\ub97c \uae30\uc220\ud558\uba70, route-02/step-01\uacfc route-05/step-02\ub3c4 \uac01\uac01 \ub2e4\ub978 \ud15c\ud50c\ub9bf \ucf54\ub4dc\ub97c \uac00\uc9c4\ub2e4. \uadf8\ub7ec\ub098 \ubd84\ub958\uac00 \u201c0.0 Unrecognized\u201d\ub85c \uae30\ub85d\ub41c \uc810\uc740, \uc774 \ud15c\ud50c\ub9bf\uc774 \ud2b9\uc815 \uba85\uba85\ub41c \ubc18\uc751 \uc720\ud615\uc73c\ub85c \uc989\uc2dc \ubd84\ub958\ub418\uc9c0 \uc54a\uc558\uc74c\uc744 \ubcf4\uc5ec \uc900\ub2e4[D1]. \uc774 \uc810\uc740 \ud15c\ud50c\ub9bf\uc774 \ud2c0\ub838\ub2e4\ub294 \ub73b\uc774 \uc544\ub2c8\ub77c, \uc774\ubc88 \ucd9c\ub825\uc5d0\uc11c \ubd84\ub958",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 83,
+      "claim_excerpt": "Parrot\uc740 \ubc18\uc751 \uc870\uac74 \ud6c4\ubcf4 \ucd94\ucc9c\uc5d0 \uc0ac\uc6a9\ub418\uc5c8\ub2e4[5][D1]. \uc774\ubc88 \uc2e4\ud589\uc5d0\uc11c conditions\ub294 success\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\uc73c\uba70, \uc120\ud0dd\ub41c \ubc18\uc751\ub4e4\uc5d0 \ub300\ud574 \uac01\uac01 15\uac1c \ud6c4\ubcf4\uac00 \ubc18\ud658\ub418\uc5c8\ub2e4[D1]. Parrot \ucd9c\ub825\uc740 catalyst1, solvent1, solvent2, reagent1, reagent2 \ud544\ub4dc\ub85c \uad6c\uc131\ub418\uba70, \uc774 \ubcf4\uace0\uc11c\ub294 \uadf8 \ud544\ub4dc\ub97c \uadf8\ub300\ub85c \uc0ac\uc6a9\ud55c\ub2e4. \ud6c4\ubcf4\ub97c \ubcd1\ud569\ud558\uac70\ub098 \uc11c\ub85c \ub2e4\ub978 rank\uc758 \uc2ac\ub86f\uc744 \uc11e\uc5b4 \ud558\ub098\uc758 \uc870\uac74\uc73c\ub85c \ub9cc\ub4e4\uc9c0 \uc54a\ub294\ub2e4.",
+      "citations": [
+        "5",
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 84,
+      "claim_excerpt": "Parrot\uc758 sequence_score\ub294 \ud6c4\ubcf4 \uc21c\uc704 \ud3c9\uac00\uc5d0 \uc0ac\uc6a9\ub418\uc9c0\ub9cc, \ubc18\uc751 \uc131\uacf5\ub960\uc774\ub098 \uc2e4\ud5d8 \uc218\uc728\uc744 \uc9c1\uc811 \ub73b\ud558\uc9c0\ub294 \uc54a\ub294\ub2e4[D1]. \ub610\ud55c Parrot \uc870\uac74\uc740 \uc218\uc728 \ubaa8\ub378\uc758 \uc785\ub825\uc774 \uc544\ub2c8\ub2e4[D1]. \uc989 \uc870\uac74 \ucd94\ucc9c\uacfc \uc218\uc728 \uc608\uce21\uc740 \uc11c\ub85c \ub2e4\ub978 \ubaa8\ub378\uc774\uba70, \uc870\uac74 \uc2ac\ub86f\uc774 \uc218\uc728 \uc608\uce21\uc5d0 \ubc18\uc601\ub418\uc5c8\ub2e4\ub294 \uc99d\uac70\ub294 \uc5c6\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 85,
+      "claim_excerpt": "\uc774\ubc88 \uc870\uac74 \uccb4\ud06c\ud3ec\uc778\ud2b8\ub294 temperature, time, yield_percent\ub97c \uc81c\uacf5\ud558\uc9c0 \uc54a\uc558\ub2e4[D1]. temperature_status\ub294 `not_provided_by_checkpoint`\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4. \ub530\ub77c\uc11c \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc740 `NOT SUPPLIED`\uc774\uba70, \uc774 \ub204\ub77d\uc740 \uc870\uac74 \ucd94\ucc9c \ubaa8\ub378\uc774 \ud574\ub2f9 \uac12\uc744 \ucd9c\ub825\ud558\uc9c0 \uc54a\uc558\ub2e4\ub294 \ub73b\uc774\ub2e4. \uc2e4\ud5d8\uc5d0\uc11c \ud574\ub2f9 \uc131\ubd84\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\uc558\ub2e4\ub294 \ub73b\uc774 \uc544\ub2c8\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 87,
+      "claim_excerpt": "rxn_yields[6]\ub294 \ubc18\uc751 SMILES \uae30\ubc18 \uc218\uc728 \uc608\uce21\uc5d0 \uc0ac\uc6a9\ub418\uc5c8\ub2e4[D1]. \uc774\ubc88 \uc2e4\ud589\uc5d0\uc11c yields\ub294 success\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\uc73c\uba70, \uc120\ud0dd\ub41c \ub2e8\uacc4\ub4e4\uc5d0 \ub300\ud574 \uac01\uac01 \uc608\uce21\uac12\uc774 \ubc18\ud658\ub418\uc5c8\ub2e4[D1]. \uc608\uce21\uac12\uc740 standardized_fraction \ucc99\ub3c4\uc5d0\uc11c recovered\ub41c \ud1b5\uacc4\ub7c9\uc73c\ub85c \ubc31\ubd84\uc728\ub85c \ubcc0\ud658\ub418\uc5c8\ub2e4[D1].",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 88,
+      "claim_excerpt": "\uc815\uaddc\ud654[8][9]\uc5d0\ub294 \ud6c8\ub828 \ub370\uc774\ud130\uc758 \ud3c9\uade0 0.7318926847478698, \ud45c\uc900\ud3b8\ucc28 0.20946128682168402\uac00 \uc0ac\uc6a9\ub418\uc5c8\uace0, \ud45c\uc900\ud3b8\ucc28\ub294 ddof=1\ub85c \uacc4\uc0b0\ub418\uc5c8\ub2e4[D1]. \ubcc0\ud658\uc2dd\uc740 `yield_percent = 100 * (raw_z * training_yield_std + training_yield_mean)`\uc774\ub2e4[D1]. \uc774 \ud1b5\uacc4\ub7c9\uc740 USPTO \uadf8\ub7a8 \uaddc\ubaa8 \ubb34\uc791\uc704 \ubd84\ud560(train rows)\uc5d0\uc11c recovered\ub41c \uac83\uc774\uba70, \uc804\uc5ed \ub370\uc774\ud130\uc14b \ub300\uccb4 \ud1b5\uacc4\ub7c9\uc774 ",
+      "citations": [
+        "8",
+        "9",
+        "D1",
+        "D4"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 89,
+      "claim_excerpt": "\uc608\uce21 \uc218\uc728\uc740 \ubaa8\ub450 `predicted_not_validated` \uc0c1\ud0dc\uc774\uba70, applicability\ub294 `not_assessed`\uc774\ub2e4[D1]. \uc989 \uc774 \uac12\ub4e4\uc740 \uc2e4\ud5d8\uc801\uc73c\ub85c \uac80\uc99d\ub418\uc9c0 \uc54a\uc558\uace0, \ub300\uc0c1 \ubb3c\uc9c8 \ud2b9\uc774\uc801 \uc815\ud655\ub3c4\ub098 \ub3c4\uba54\uc778 \ud3ec\ud568 \uc5ec\ubd80\ub3c4 \ud3c9\uac00\ub418\uc9c0 \uc54a\uc558\ub2e4. \ub610\ud55c \uc785\ub825\uc5d0\ub294 \uc870\uac74 \uc2ac\ub86f\uc774 \ud3ec\ud568\ub418\uc9c0 \uc54a\uc558\ub2e4(conditions_in_input=false)[D1]. \ub530\ub77c\uc11c \uc774 \uc218\uc728\uc740 \ud2b9\uc815 \uc2e4\ud5d8 \uc870\uac74\uc5d0\uc11c\uc758 \uc2e4\ud5d8 \uc218\uc728\uc774 \uc544\ub2c8\ub2e4.",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 91,
+      "claim_excerpt": "- AiZynthFinder\ub294 \uacbd\ub85c \uad6c\uc870\ub97c \uc81c\uacf5\ud55c\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 92,
+      "claim_excerpt": "- Parrot\uc740 \uac01 \ubc18\uc751\uc758 \uc870\uac74 \ud6c4\ubcf4\ub97c \uc81c\uacf5\ud55c\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 93,
+      "claim_excerpt": "- rxn_yields\ub294 \ubc18\uc751 SMILES\uc5d0 \ub300\ud55c \uc218\uc728 \uc608\uce21\uc744 \uc81c\uacf5\ud55c\ub2e4.[6]",
+      "citations": [
+        "6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 94,
+      "claim_excerpt": "- Parrot \uc870\uac74\uc740 \uc218\uc728 \uc608\uce21\uc758 \uc785\ub825\uc774 \uc544\ub2c8\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 95,
+      "claim_excerpt": "- \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc740 \uc870\uac74 \uccb4\ud06c\ud3ec\uc778\ud2b8\uc5d0\uc11c \uc81c\uacf5\ub418\uc9c0 \uc54a\uc558\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 96,
+      "claim_excerpt": "- \uc608\uce21 \uc218\uc728\uc740 \uc2e4\ud5d8 \uc218\uc728\uc774 \uc544\ub2c8\uba70, \uc801\uc6a9 \uac00\ub2a5\uc131\ub3c4 \ud3c9\uac00\ub418\uc9c0 \uc54a\uc558\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 97,
+      "claim_excerpt": "AiZynthFinder\ub294 \uacbd\ub85c \uad6c\uc870\ub97c \uc81c\uacf5\ud558\uace0, Parrot\uc740 \uac01 \ubc18\uc751\uc758 \uc870\uac74 \ud6c4\ubcf4\ub97c \uc81c\uacf5\ud558\uba70, rxn_yields\ub294 \ubc18\uc751 SMILES\uc5d0 \ub300\ud55c \uc218\uc728 \uc608\uce21\uc744 \uc81c\uacf5\ud558\uc9c0\ub9cc, Parrot \uc870\uac74\uc740 \uc218\uc728 \uc608\uce21\uc758 \uc785\ub825\uc774 \uc544\ub2c8\uba70 \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc740 \uc870\uac74 \uccb4\ud06c\ud3ec\uc778\ud2b8\uc5d0\uc11c \uc81c\uacf5\ub418\uc9c0 \uc54a\uc558\uace0, \uc608\uce21 \uc218\uc728\uc740 \uc2e4\ud5d8 \uc218\uc728\uc774 \uc544\ub2c8\uba70 \uc801\uc6a9 \uac00\ub2a5\uc131\ub3c4 \ud3c9\uac00\ub418\uc9c0 \uc54a\uc558\ub2e4 [D1][6].",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 99,
+      "claim_excerpt": "\uc774 \uc808\uc5d0\uc11c\ub294 \uc2e4\ud589\ub41c \ucd94\uac00 \ubd84\uc11d\uc744 \uc815\ub9ac\ud55c\ub2e4. \uac01 \ubd84\uc11d\uc740 \uc2e4\uc81c \uc218\ud589\ub41c \ubc94\uc704\uae4c\uc9c0\ub9cc \uc11c\uc220\ud558\uace0, \uc218\ud589\ub418\uc9c0 \uc54a\uc740 \ub0b4\uc6a9\uc744 \uc218\ud589\ud55c \uac83\ucc98\ub7fc \uc4f0\uc9c0 \uc54a\ub294\ub2e4. \ub610\ud55c \uace0\ub9bd \ubd84\uc790 \uacc4\uc0b0, \uc21c\uc218 \ubb3c\uc9c8 \ubb3c\uc131 \ucd94\uc815, \ub2e8\uc77c \ubd84\uc790 \ud654\uba74 \uad00\ucc30\uc740 \ubc18\uc751 \uc7a5\ubcbd\u00b7\uc18d\ub3c4\u00b7\uc218\uc728\u00b7\uc131\uacf5\uc758 \uc99d\uac70\uac00 \uc544\ub2c8\ub77c\ub294 \ud55c\uacc4\ub97c \ud568\uaed8 \ub454\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 101,
+      "claim_excerpt": "MOPAC 23.2.5\ub85c PM7[10] \uace0\ub9bd \ubd84\uc790 \uae30\ud558 \ucd5c\uc801\ud654\uac00 \uc218\ud589\ub418\uc5c8\ub2e4[D5]. \uc774\ubc88 \uc791\uc5c5\uc5d0\uc11c\ub294 \ub2e4\uc12f \uc911\uc131 \uc885\uc5d0 \ub300\ud574 \uac01\uac01 5\uac1c\uc758 RDKit ETKDGv3 conformer\ub97c MMFF94s\ub85c \uba3c\uc800 \ucd5c\uc18c\ud654\ud55c \ub4a4, \uac01\uac01\uc744 MOPAC\uc73c\ub85c \ub3c5\ub9bd \ucd5c\uc801\ud654\ud588\ub2e4[D5]. \uc785\ub825\uc740 `CHARGE=0 MS=0`\uc73c\ub85c \uc124\uc815\ub418\uc5b4 \uc911\uc131 \ub2e8\uc77c\ud56d \uc0c1\ud0dc\ub97c \uc9c0\uc815\ud588\uace0, MOPAC \ucd9c\ub825\uc740 \ud3d0\uc1c4\uaecd\uc9c8 RHF, SCF \uc644\ub8cc, \uc815\uc0c1 \uc885\ub8cc, \ucd5c\uc885 \uae30\uc6b8\uae30 \ub178\ub984\uc774 \uc694\uccad\ub41c `GNORM=0.5[11] kcal ",
+      "citations": [
+        "10",
+        "11",
+        "D5"
+      ],
+      "required_method_sources": [
+        "10",
+        "11"
+      ],
+      "required_project_evidence": [
+        "D5"
+      ]
+    },
+    {
+      "paragraph": 102,
+      "claim_excerpt": "\ucd5c\uc801\ud654\ub41c \uad6c\uc870 \uc911 \uc800\uc7a5\ub41c \uac83\uc740 \uac01 \ubd84\uc790\uc2dd\u00b7\uc804\ud558\u00b7\uc2a4\ud540\uc5d0 \ub300\ud574 \ub2e4\uc12f \uc2dc\uc791 \ubc30\uc88c \uc911 PM7 \uc0dd\uc131\uc5f4\uc774 \uac00\uc7a5 \ub0ae\uc740 \uc218\ub834 \uae30\ud558\uc774\ub2e4[D5]. \uc774\ub294 best-of-five \ud0d0\uc0c9\uc774\uba70, \uc804\uc5ed \ucd5c\uc18c\uc810\uc774\ub098 \uc9c4\ub3d9\uc218 \uac80\uc99d \ucd5c\uc18c\uc810\uc774\ub77c\uace0 \ub2e8\uc815\ud558\uc9c0 \uc54a\ub294\ub2e4. \ubaa8\ub4e0 \uacc4\uc0b0\uc740 \uae30\uccb4\uc0c1\uc774\uba70, \uc6a9\ub9e4\u00b7\ucd09\ub9e4\u00b7\uc218\uc18c\u00b7\ubc18\ub300\uc774\uc628\u00b7\ubc18\uc751 \ud30c\ud2b8\ub108\u00b7\uc804\uc774\uc0c1\ud0dc\ub294 \ud3ec\ud568\ub418\uc9c0 \uc54a\uc558\ub2e4[D5].[10]",
+      "citations": [
+        "10",
+        "D5"
+      ],
+      "required_method_sources": [
+        "10"
+      ],
+      "required_project_evidence": [
+        "D5"
+      ]
+    },
+    {
+      "paragraph": 103,
+      "claim_excerpt": "\uacc4\uc0b0\ub41c \uc0dd\uc131\uc5f4\uc740 \uc885\ubcc4\ub85c \uae30\ub85d\ub418\uc5c8\ub2e4[D5]. \uc608\ub97c \ub4e4\uc5b4 \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8\ub294 \u221272.22692 kcal/mol, \ubca4\uc870\uce74\uc778\uc740 \u221273.05519 kcal/mol, 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uc740 \u221270.47009 kcal/mol, \uc5d0\ud0c4\uc62c\uc740 \u221257.85665 kcal/mol, \uc544\uc138\ud2b8\uc0b0\uc740 \u2212102.19677 kcal/mol\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[D5]. \ub2e4\ub9cc \uc774 \uac12\ub4e4\uc740 \uc11c\ub85c \ub2e4\ub978 \ubd84\uc790\uc2dd \uac04 \uc9c1\uc811 \ube44\uad50\ub85c \ubc18\uc751\uc131\u00b7\uc548\uc815\uc131\uc744 \uc21c\uc704\ud654\ud558\ub294 \uadfc\uac70\uac00 \uc544\ub2c8\ub2e4. \uc870\uc131\u00b7\uc804\ud558\uac00 \ub2e4\ub978 \ubd84\uc790\uc758 \ucd1d\uc5d0\ub108\uc9c0\ub97c \uc9c1\uc811",
+      "citations": [
+        "D5"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 104,
+      "claim_excerpt": "\ub300\ud45c \uacb0\ud569 \uac70\ub9ac\uc640 \uc804\ud558\ub3c4 \uacc4\uc0b0\ub418\uc5c8\ub2e4[D5]. \uc608\ub97c \ub4e4\uc5b4 \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8\uc758 \uc5d0\uc2a4\ud130 C=O\ub294 1.2050 \u00c5, \uc5d0\uc2a4\ud130 C\u2013O\ub294 1.3528 \u00c5, \uc544\ub9b4 C\u2013\ub2c8\ud2b8\ub85c N\uc740 1.4603 \u00c5\uc774\uba70, \ub450 N\u2013O \uac70\ub9ac\ub294 1.2198 \u00c5\ub85c \uac19\ub2e4[D5]. \ubca4\uc870\uce74\uc778\uc758 \uc544\ub9b4 C\u2013NH\u2082 N\uc740 1.3772 \u00c5, \uc5d0\uc2a4\ud130 C=O\ub294 1.2080 \u00c5, \uc5d0\uc2a4\ud130 C\u2013O\ub294 1.3613 \u00c5\uc774\ub2e4[D5]. 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uc758 \uc544\ub9b4 C\u2013NH\u2082 N\uc740 1.3760 \u00c5, \uce74\ubcf5\uc2e4 C=O\ub294 1.2071 \u00c5, \uce74",
+      "citations": [
+        "D5"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 105,
+      "claim_excerpt": "\uc774 \uae30\ud558\uc640 \uc804\ud558 \ubd84\ud3ec\ub294 \uacc4\uc0b0\ub41c \uace0\ub9bd \ubd84\uc790\uc758 \ud2b9\uc131\uc744 \uae30\uc220\ud560 \ubfd0, \ubc18\uc751\ubb3c \uc811\uadfc\uc131, \ubc18\uc751 \uacbd\ub85c, \ud65c\uc131\ud654 \uc7a5\ubcbd, \uc2e4\ud5d8 \uc870\uac74, \uc218\uc728, \ud569\uc131 \uc131\uacf5\uc744 \uc785\uc99d\ud558\uc9c0 \uc54a\ub294\ub2e4[D5]. \ud2b9\ud788 \uc774 \uc791\uc5c5\uc740 Pd \ucd09\ub9e4\ub098 route-01 \uc0c1\uc704 Parrot \uc870\uac74 \uc2ac\ub86f\uc5d0\uc11c \ub204\ub77d\ub41c \ud658\uc6d0 \uc870\uac74\uc744 \ubaa8\ub378\ub9c1\ud558\uc9c0 \uc54a\uc558\ub2e4[D5].[D1]",
+      "citations": [
+        "D1",
+        "D5"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 107,
+      "claim_excerpt": "EPA\uc758 EPI Suite\ub294 \uc720\uae30\ud654\ud559\ubb3c\uc9c8\uc758 \ub179\ub294\uc810\u00b7\ub053\ub294\uc810\u00b7\uc99d\uae30\uc555 \ub4f1\uc744 \ucd94\uc815(screening-level)\ud558\ub294 \ub3c4\uad6c[12]\ub85c \uc124\uba85\ub41c\ub2e4[D6]. \uc774\ubc88 \uc791\uc5c5\uc5d0\uc11c\ub294 \ub2e4\uc6b4\ub85c\ub4dc \uac00\ub2a5\ud55c v4.11\uc758 \uc2e4\ud589 \uc5b4\ub824\uc6c0\uc774 \uc548\ub0b4\ub418\uc5b4 EPI Suite Web[13] \ubca0\ud0c0\ub97c \uc0ac\uc6a9\ud588\uace0, HTTP 200 \uc751\ub2f5\uc740 \ubc1b\uc558\uc73c\ub098 API \uac74\uac15 \uc0c1\ud0dc\ub294 `degraded`, `requestHandling.healthy=false`\ub85c \uae30\ub85d\ub418\uc5c8\ub2e4[D6]. \ub530\ub77c\uc11c \uacb0\uacfc\ub294 \uc11c\ube44\uc2a4 \uc81c\ud55c \ud558\uc5d0\uc11c \uc218\uc2e0\ub41c \uac83\uc73c\ub85c \ub2e4\ub8ec\ub2e4",
+      "citations": [
+        "12",
+        "13",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12",
+        "13"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 108,
+      "claim_excerpt": "MPBPWIN v1.44 \ubaa8\ub378 \ucd94\uc815\uce58\uc640 EPI Unified \ub370\uc774\ud130\ubca0\uc774\uc2a4 \uae30\ub85d\uc740 \uad6c\ubd84\ud574\uc57c \ud55c\ub2e4[D6]. `estimatedValue`\ub294 \ubaa8\ub378 \ucd94\uc815\uce58\uc774\uace0, `experimentalValues`/EpiUnified \uc99d\uac70\ub294 \ub370\uc774\ud130\ubca0\uc774\uc2a4 \uae30\ub85d\uc774\uba70, `selectedValue`\uac00 \ud56d\uc0c1 \uce21\uc815\uac12\uc744 \ub73b\ud558\ub294 \uac83\ub3c4 \uc544\ub2c8\ub2e4. \uc774\ubc88 \uacb0\uacfc\uc5d0\uc11c \ubaa8\ub378 \ucd94\uc815\uce58\ub294 7\uac1c \ubb3c\uc9c8\uc5d0 \ub300\ud574 \ubaa8\ub450 `ESTIMATED`\ub85c \ud45c\uc2dc\ub418\uc5c8\ub2e4[D6].[12]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 109,
+      "claim_excerpt": "\uc8fc\uc694 \ucd94\uc815\uac12\uacfc \ub370\uc774\ud130\ubca0\uc774\uc2a4 \uae30\ub85d\uc740 \ub2e4\uc74c\uacfc \uac19\uc774 \uc815\ub9ac\ub41c\ub2e4[D6].",
+      "citations": [
+        "D6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 110,
+      "claim_excerpt": "- \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8: MPBPWIN MP 80.66 \u00b0C, BP 297.25 \u00b0C. EPI Unified \uae30\ub85d\uc740 \ubc18\ud658\ub418\uc9c0 \uc54a\uc558\ub2e4.[12][D6]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 111,
+      "claim_excerpt": "- \ubca4\uc870\uce74\uc778: MPBPWIN MP 66.17 \u00b0C, BP 279.90 \u00b0C. EPI Unified \uae30\ub85d\uc740 \ubc18\ud658\ub418\uc9c0 \uc54a\uc558\ub2e4.[12][D6]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 112,
+      "claim_excerpt": "- 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0: MPBPWIN MP 94.08 \u00b0C, BP 307.70 \u00b0C. EPI Unified MP \uae30\ub85d\uc740 188.5 \u00b0C\uc774\uba70 \ubd84\ub958\ub294 `derived_or_analogue_database_entry_not_direct_measurement`\uc774\ub2e4.[12][D6]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 113,
+      "claim_excerpt": "- \uc5d0\ud0c4\uc62c: MPBPWIN MP \u221287.84 \u00b0C, BP 65.11 \u00b0C. EPI Unified MP\ub294 \u2212114.1 \u00b0C, BP\ub294 78.2 \u00b0C\uc774\uba70 \ubd84\ub958\ub294 \uac01\uac01 `derived_or_analogue_database_entry_not_direct_measurement` \ub610\ub294 `epi_database_evidence_provenance_insufficient_to_claim_direct_experiment`\uc774\ub2e4.[12][D6]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 114,
+      "claim_excerpt": "- \uc544\uc138\ud2b8\uc0b0: MPBPWIN MP \u221221.26 \u00b0C, BP 122.30 \u00b0C. EPI Unified MP\ub294 16.635 \u00b0C, BP\ub294 117.9 \u00b0C\uc774\uba70 \ubd84\ub958\ub294 `literature_cited_epi_evidence_not_independently_verified_as_measurement` \ub610\ub294 `epi_database_evidence_provenance_insufficient_to_claim_direct_experiment`\uc774\ub2e4.[12][D6]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 115,
+      "claim_excerpt": "\uc5d0\ud0c4\uc62c, \uc544\uc138\ud2b8\uc0b0, THF, \ub2e4\uc774ethyl \uc5d0\ud130\uc5d0\ub294 \uc815\ud655\ud55c \uad6c\uc870 \uc77c\uce58 \uae30\ub85d\uc774 \uc788\uc5c8\uc9c0\ub9cc, \ubca4\uc870\uce74\uc778\uacfc \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8\uc5d0\ub294 EPI \uac80\uc0c9 \uc77c\uce58\uac00 \uc5c6\uc5b4 \ubcf4\uace0\ub41c \uac12\uc774 \ubaa8\ub378\ubfd0\uc774\uc5c8\ub2e4[D6]. \ub610\ud55c \uc77c\ubd80 \ub179\ub294\uc810 \uae30\ub85d\uc740 \uae30\uc6b8\uae30 \uc720\uc0ac(slope analogy)\ub098 \uc99d\uae30\uc555/\ubb3c \uc6a9\ud574\ub3c4 \ub370\uc774\ud130 \uae30\ubc18 \uacc4\uc0b0 \ub4f1\uc73c\ub85c \uae30\uc220\ub418\uc5b4 \uc9c1\uc811 \uce21\uc815\uc774 \uc544\ub2c8\ub2e4[D6]. \uc544\uc138\ud2b8\uc0b0 MP \uae30\ub85d\uc740 1992 \uc800\uc790 \ubb38\uc790\uc5f4\uc774 \uc788\uc73c\ub098 \uc6d0\ubb38 \ub17c\ubb38\u00b7\ubc29\ubc95\uc774 API\uc5d0 \ud3ec\ud568\ub418\uc9c0 \uc54a\uc544 \uc8fc\uc758\uac00 \ud544\uc694\ud558\ub2e4[D6].",
+      "citations": [
+        "D6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 116,
+      "claim_excerpt": "\ubcc4\ub3c4 \uad50\ucc28 \ud655\uc778\uc73c\ub85c \ud638\uc8fc \uc815\ubd80 \uad6d\uac00 \uc624\uc5fc\ubb3c\uc9c8 \ubaa9\ub85d\uc740 \uc544\uc138\ud2b8\uc0b0 MP 16.7 \u00b0C, BP 118 \u00b0C\ub97c \uc81c\uc2dc\ud558\uba70, \uc774\ub294 EpiUnified \uae30\ub85d 16.635 \u00b0C, 117.9 \u00b0C\uc640 \uac00\uae5d\ub2e4[D6]. \uadf8\ub7ec\ub098 \uc774 \ucd9c\ucc98\ub294 MPBPWIN \uc608\uce21\uac12\uc744 \uac80\uc99d\ud558\uc9c0 \uc54a\ub294\ub2e4. \uc2e4\uc81c\ub85c MPBPWIN\uc758 \uc544\uc138\ud2b8\uc0b0 \ucd94\uc815\uac12\uc740 MP \u221221.26 \u00b0C, BP 122.30 \u00b0C\ub85c \ub2e4\ub974\ub2e4[D6].[12][14]",
+      "citations": [
+        "12",
+        "14",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12",
+        "14"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 117,
+      "claim_excerpt": "\uc911\uc694\ud55c \ud55c\uacc4\ub294, \uc120\ud0dd\ub41c Parrot \uc870\uac74 \uc608\uce21\uc774 \ubc18\uc751 \uc628\ub3c4\u00b7\uc555\ub825\u00b7\ud63c\ud569 \uc870\uc131\u00b7\uc591\uc744 \uc9c0\uc815\ud558\uc9c0 \uc54a\uc558\uace0, EPI Web API\ub294 \uc21c\uc218 \ubb3c\uc9c8 BP/MP \ucd94\uc815\uac12\uacfc \ub370\uc774\ud130\ubca0\uc774\uc2a4 \uae30\ub85d\ub9cc \ubc18\ud658\ud588\uc73c\uba70 \ud63c\ud569 \uc0c1\ud3c9\ud615\uc740 \ubc18\ud658\ud558\uc9c0 \uc54a\uc558\ub2e4\ub294 \uc810\uc774\ub2e4[D6]. \ub530\ub77c\uc11c \uc21c\uc218 \ubb3c\uc9c8\uc758 MP\ub098 BP\ub9cc\uc73c\ub85c \ubc18\uc751 \uc6a9\uc561\uc5d0\uc11c \uc11d\ucd9c\u00b7\uc6a9\uc735\u00b7\uae30\ud654\u00b7\ubc18\uc751 \uc5ec\ubd80\ub97c \ud655\uc815\ud558\uc9c0 \uc54a\ub294\ub2e4. \uc2e4\uc81c \uc6b4\uc601 \uc628\ub3c4\u00b7\uc555\ub825, \uc6a9\ub9e4\u00b7\uc2dc\uc57d \ub2f9\ub7c9\u00b7\ub18d\ub3c4, \uc218\ubd84 \ud568\ub7c9, \ud654\ud559 \ud615\ud0dc\u00b7\uc5fc\u00b7\uc218\ud654 \uc0c1\ud0dc, \uc6a9\ud574\ub3c4\ub098 \ud63c\ud569 \uac70\ub3d9 \uc790\ub8cc\uac00 \uc5c6\uc73c\uba74 \uc0c1\ud0dc \ud310\ub2e8\uc744 \uc720\ubcf4",
+      "citations": [
+        "D6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 118,
+      "claim_excerpt": "\ub610\ud55c `[Pd]`\ub294 \uc6d0\uc18c \uc6d0\uc790 \ud1a0\ud070\uc774\ub77c \uc815\uc758\ub41c \ucd09\ub9e4 \ubb3c\uc9c8\uc774 \uc544\ub2c8\uace0, `[Al+3].[H-]...[Li+]`\ub294 \ubd84\ub9ac\ub41c \uc774\uc628 \ud45c\ud604\uc774\ub77c \uc815\uc758\ub41c \uc21c\uc218 \uc911\uc131 \uc720\uae30 \ud654\ud569\ubb3c\uc774 \uc544\ub2c8\uba70, `FB(F)F`\ub294 \ubb34\uae30 BF\u2083\ub77c MPBPWIN\uc758 \uc720\uae30\ud654\ud569\ubb3c \ubc94\uc704\uc640 \ub2e4\ub974\ub2e4[D6]. \uc774 \uc138 \uc785\ub825\uc740 \uc81c\ucd9c\ub418\uc9c0 \uc54a\uc558\uace0, \uac12\uc744 \ub9cc\ub4e4\uc5b4 \ucc44\uc6b0\uc9c0 \uc54a\uc558\ub2e4[D6].[12]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [
+        "12"
+      ],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 120,
+      "claim_excerpt": "Discovery Studio Visualizer 2025 Client 25.1.0\uc5d0\uc11c \uc2e4\uc81c \ud654\uba74 \uad00\ucc30\uacfc \uce21\uc815\uc774 \uc77c\ubd80 \uc218\ud589\ub418\uc5c8\ub2e4[D7]. \uc774\ubc88 \uc99d\uac70\uc5d0\uc11c \uc2e4\uc81c \uce21\uc815\uc774 \uc774\ub8e8\uc5b4\uc9c4 \ubc94\uc704\ub294 \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8\uc758 PM7 \ubc30\uc88c 1\uacfc \ubc30\uc88c 2\uc5d0 \ub300\ud55c \ubd84\uc790 \ub0b4\ubd80 \uac70\ub9ac\u00b7\uac01\ub3c4\ubfd0\uc774\ub2e4[D7].[10][D5]",
+      "citations": [
+        "10",
+        "D5",
+        "D7"
+      ],
+      "required_method_sources": [
+        "10"
+      ],
+      "required_project_evidence": [
+        "D5",
+        "D7"
+      ]
+    },
+    {
+      "paragraph": 121,
+      "claim_excerpt": "\uc2e4\uc81c \uce21\uc815\uac12\uc740 \ub2e4\uc74c\uacfc \uac19\ub2e4[D7].",
+      "citations": [
+        "D7"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 122,
+      "claim_excerpt": "- \ubc30\uc88c 1: N10\u2013H21 \uac70\ub9ac 2.684 \u00c5, C8\u2013C9\u2013N10 \uac01\ub3c4 119.102\u00b0",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 123,
+      "claim_excerpt": "- \ubc30\uc88c 2: N10\u2013H21 \uac70\ub9ac 2.682 \u00c5, C8\u2013C9\u2013N10 \uac01\ub3c4 119.062\u00b0",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 124,
+      "claim_excerpt": "\uc774 \uac12\ub4e4\uc740 Visualizer\uc758 Measure \ub3c4\uad6c\uc640 DistanceMonitor/AngleMonitor \ud45c\uc5d0\uc11c \uc77d\uc740 \uc2e4\uc81c \uce21\uc815\uac12\uc774\ub2e4[D7]. \ub450 \ubc30\uc88c\uc5d0\uc11c nitro N10\uacfc \uac19\uc740 \ubd84\uc790 \ub0b4 ortho H21\uc758 \uac70\ub9ac\ub294 \uac70\uc758 \uac19\uace0, C8\u2013C9\u2013N10 \uad6d\uc18c \uac01\ub3c4\ub3c4 \uc720\uc0ac\ud558\ub2e4[D7]. \ub530\ub77c\uc11c \ud604\uc7ac Visualizer \uae30\ub85d\uc740 \uc120\ud0dd\ub41c \ub450 PM7 \ucd5c\uc801\ud654 \uae30\ud558\uc5d0\uc11c \ud574\ub2f9 nitro/\uc544\ub9b4 \uc8fc\ubcc0\uc758 \uad6d\uc18c \ub0b4\ubd80 \ubc30\uce58\uac00 \uc11c\ub85c \uc720\uc0ac\ud558\ub2e4\ub294 \uac83\uae4c\uc9c0\ub9cc \ubcf4\uc5ec \uc900\ub2e4. \uac01\ub3c4\ub294 \uc544\ub9b4 C8\u2013C9 \uacb0\ud569\uacfc ",
+      "citations": [
+        "10",
+        "D5",
+        "D7"
+      ],
+      "required_method_sources": [
+        "10"
+      ],
+      "required_project_evidence": [
+        "D5",
+        "D7"
+      ]
+    },
+    {
+      "paragraph": 125,
+      "claim_excerpt": "\uc774 \uac70\ub9ac\u00b7\uac01\ub3c4\ub294 \uc678\ubd80 \ubc18\uc751\ubb3c\uc774 \ubd84\uc790\uc5d0 \uc811\uadfc\ud560 \uacf5\uac04, \uacb0\ud569 \ud615\uc131 \uac00\ub2a5\uc131, \uc785\uccb4\uc7a5\uc560 \uc7a5\ubcbd, \ubc18\uc751\uc18d\ub3c4, \uc804\ud658\uc728, \uc218\uc728\uc744 \uce21\uc815\ud558\uc9c0 \uc54a\ub294\ub2e4[D7]. \ub450 \ubc30\uc88c \uacb0\uacfc\ub9cc\uc73c\ub85c \uc804\uccb4 \ubc30\uc88c \uc9d1\ub2e8\uc774\ub098 \uc6a9\uc561 \uc0c1\ud0dc\ub97c \uc77c\ubc18\ud654\ud558\uc9c0 \uc54a\ub294\ub2e4. route-05\uc758 PABA/ethanol \ubc0f route-01\uc758 \ub098\uba38\uc9c0 \ubc30\uc88c\ub294 \uc2e4\uc81c \uce21\uc815\uc774 \uc5c6\uc5b4 \ud574\uc11d\ud558\uc9c0 \uc54a\ub294\ub2e4[D7].[D1]",
+      "citations": [
+        "D1",
+        "D7"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 126,
+      "claim_excerpt": "\uc2e4\uc81c \ud654\uba74 \uad00\ucc30\uc5d0\ub294 \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8 \ubc30\uc88c 1\uc758 \uc5ec\ub7ec \ubc29\ud5a5 \ud45c\uc2dc, \ubc30\uc88c 2\uc758 \ub2e8\uc77c \ub808\ucf54\ub4dc \ud45c\uc2dc, 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0 PM7 \ubc30\uc88c 4\uc758 \uce74\ubcf5\uc2e4\uae30 \uc6d0\uc790 C6/O7/O8 \ud654\uba74, \uac15\uccb4 \ud68c\uc804\ud55c \ud45c\uc2dc \uc0ac\ubcf8, \uace0\ub9bd \uc5d0\ud0c4\uc62c PM7 \ubc30\uc88c 2 \ud654\uba74\uc774 \ud3ec\ud568\ub41c\ub2e4[D7]. \ub2e4\ub9cc \uac15\uccb4 \ud68c\uc804\ud55c \ud654\uba74\uc740 \uc0c8 \ubc30\uc88c\uac00 \uc544\ub2c8\ub77c \ud45c\uc2dc \ubc29\ud5a5\uc758 \uc0ac\ubcf8\uc774\uba70, \uace0\ub9bd \uc5d0\ud0c4\uc62c \ud654\uba74\uc740 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0\uacfc \ud568\uaed8 \ubc30\uce58\ud558\uc9c0 \uc54a\uc558\ub2e4[D7]. \ub530\ub77c\uc11c \uc774 \ud654\uba74\ub4e4\uc740 \uc815\uc131\uc801 \ub2e8\uc77c \ubd84\uc790 \uad00\ucc30 \uc774\uc0c1\uc73c\ub85c \ubc18\uc751 \ubcf5\ud569\uccb4\ub098 \uc811\uadfc \uada4\uc801\uc744",
+      "citations": [
+        "10",
+        "D5",
+        "D7"
+      ],
+      "required_method_sources": [
+        "10"
+      ],
+      "required_project_evidence": [
+        "D5"
+      ]
+    },
+    {
+      "paragraph": 127,
+      "claim_excerpt": "\uc644\ub8cc\ub41c \ubc94\uc704\ub294 \ubc30\uc88c 1\u00b72\uc758 \uac70\ub9ac\u00b7\uac01\ub3c4 4\uac1c \uce21\uc815\uacfc \ud574\ub2f9 Monitor \ud45c \ucea1\ucc98, \uc6d0\ubcf8 SDF \ud574\uc2dc\uac00 \uc138\uc158 \uc804\ud6c4 \uc77c\uce58\ud568\uc744 \uae30\ub85d\ud55c \uac83\uc774\ub2e4[D7]. \ubbf8\uc644\ub8cc \ubc94\uc704\ub294 \ubc30\uc88c 3\u20135\uc640 route-05\uc758 \ubaa8\ub4e0 \uce21\uc815\uc774\ub2e4[D7]. \ubc30\uc88c \uc804\ud658 \ud6c4 \ud654\uba74 \uc7ac\ub80c\ub354\ub9c1\u00b7\uc120\ud0dd \ub300\uc0c1 \uc5f0\uacb0\uc774 \uac04\ud5d0\uc801\uc73c\ub85c \ubaa8\ud638\ud574\uc84c\uace0, \uc7ac\uc5f4\uae30 \uc774\ud6c4 \uae30\ubcf8 \ubc30\uc88c\uac00 1\ub85c \ub3cc\uc544\uc624\ub294 \uc0ac\ub840\uac00 \uc788\uc5b4 \uc798\ubabb\ub41c \ubc30\uc88c\uc5d0 \uc218\uce58\ub97c \uc5f0\uacb0\ud560 \uc704\ud5d8\uc774 \uc788\uc5c8\uae30 \ub54c\ubb38\uc5d0 \uac19\uc740 \uc870\uc791\uc744 \ubc18\ubcf5\ud558\uc9c0 \uc54a\uc558\ub2e4[D7]. \ubcc4\ub3c4 \ucf54\ub4dc\u00b7\ub3c4\uad6c\ub85c \uacc4\uc0b0\ud55c \uac12\uc740 Visual",
+      "citations": [
+        "D1",
+        "D7"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1",
+        "D7"
+      ]
+    },
+    {
+      "paragraph": 134,
+      "claim_excerpt": "OpenCode\uc640 Pi Coding Agent\uc5d0 \ub300\ud574 \uac01\uac01 1\ud68c\uc529 \uc131\uacf5 \uc751\ub2f5(HTTP 200)\uc744 \ubc1b\uc740 \uc0ac\ub840 \ube44\uad50\uac00 \uc218\ud589\ub418\uc5c8\ub2e4[D8]. \ub450 \ud558\ub124\uc2a4\ub294 \uac19\uc740 \ubaa8\ub378 \uc2a4\ub0c5\uc0f7(solar-pro4-260806), temperature 0, reasoning `none`, max_tokens 10000, n=1, \ub3c4\uad6c \ube44\ud65c\uc131\ud654 \uc870\uac74\uc5d0\uc11c \uc2e4\ud589\ub418\uc5c8\ub2e4[D8]. \uc774\ub294 \uc0ac\ub840 \ube44\uad50\uc774\uba70, \ud558\ub124\uc2a4 \uc77c\ubc18 \uc131\ub2a5\uc758 \uc6b0\uc5f4\uc744 \uc785\uc99d\ud558\uc9c0 \uc54a\ub294\ub2e4[D8].",
+      "citations": [
+        "D8"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D8"
+      ]
+    },
+    {
+      "paragraph": 135,
+      "claim_excerpt": "OpenCode \ucd08\uc548\uc740 \ud0c0\uae43, \uc120\uc815 \uacbd\ub85c 3\uac1c, \uacbd\ub85c \uc810\uc218\u00b7\uc218\uc728, MOPAC \uc791\uc5c5 \uc218\ub834, EPI \uc0c1\ud0dc, Visualizer \uce21\uc815 \ubc94\uc704\ub97c \ub300\uccb4\ub85c \uc81c\uacf5 \uadfc\uac70\uc640 \ub9de\ucdc4\uc73c\ub098, EPI Suite\uc758 \uad6c\uccb4\uc801 MP/BP \ucd94\uc815\uac12\uacfc MOPAC \uac1c\ubcc4 \uc5d0\ub108\uc9c0\u00b7\uacb0\ud569 \uae38\uc774/\uc804\ud558 \uac12\uc774 \uc5c6\uace0 \ucd9c\ucc98 URL\ub3c4 \uc5c6\uc5c8\ub2e4[D8]. Pi \ucd08\uc548\uc740 \ubc18\uc751 SMILES, \ub2e8\uacc4\ubcc4 \uc870\uac74\u00b7\uc218\uc728, \uc810\uc218\uc640 \ucd94\uac00 \ubd84\uc11d\uc744 \ub354 \uad6c\uccb4\uc801\uc73c\ub85c \uc62e\uacbc\uc9c0\ub9cc, \ucd94\uac00 \ubd84\uc11d \uc0c1\ud0dc\ub97c \uc55e\ub4a4 \ub2e4\ub974\uac8c \uc11c\uc220\ud558\ub294 \ub0b4\ubd80 \ubaa8\uc21c\uc774 \uc788\uc5c8\ub2e4[D8]. \ub610\ud55c P",
+      "citations": [
+        "10",
+        "12",
+        "D5",
+        "D6",
+        "D7",
+        "D8"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D5",
+        "D6",
+        "D7",
+        "D8"
+      ]
+    },
+    {
+      "paragraph": 136,
+      "claim_excerpt": "\ub450 \ucd08\uc548 \ubaa8\ub450 \ucd5c\uc885 \ubcf4\uace0\uc11c\uac00 \uc544\ub2c8\uba70, \uadf8\ub9bc\u00b7\uad6c\uc870 \uc774\ubbf8\uc9c0\u00b7\uc2e4\uc81c URL \uc5f0\uacb0 \ucc38\uace0\ubb38\ud5cc\u00b7\ud398\uc774\uc9c0 \uac80\uc99d\uc744 \uc81c\uacf5\ud558\uc9c0 \uc54a\ub294\ub2e4[D8]. \ub530\ub77c\uc11c \uc5b4\ub290 \ucd08\uc548\ub3c4 \uc81c\ucd9c\uc6a9\uc73c\ub85c \ud655\uc815\ud560 \uc218 \uc5c6\ub2e4. \uc774 \ube44\uad50\ub294 \ud558\ub124\uc2a4 \uc0ac\ub840 \ud3c9\uac00\ub85c\ub9cc \ub2e4\ub8e8\uace0, \ucd5c\uc885 \ubcf4\uace0\uc11c\uc758 \ubb38\uccb4\u00b7\uc815\ud655\uc131\uc744 \uc77c\ubc18\ud654\ud558\ub294 \uadfc\uac70\ub85c \uc4f0\uc9c0 \uc54a\ub294\ub2e4[D8].",
+      "citations": [
+        "D8"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 139,
+      "claim_excerpt": "route-01\uc758 \ubcc0\ud658, \uc989 \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8\uc5d0\uc11c \uc5d0\ud2f8 \uc5d0\uc2a4\ud130\ub97c \uc720\uc9c0\ud55c \ubca4\uc870\uce74\uc778(\uc5d0\ud2f8 4-\uc544\ubbf8\ub178\ubca4\uc870\uc5d0\uc774\ud2b8)\uc73c\ub85c\uc758 \ubc29\ud5a5\uc871 \ub2c8\ud2b8\ub85c\uae30 \ud658\uc6d0\uc740 \uc2e4\uc81c\ub85c \uc218\ud589\ub41c \ubc18\uc751\uc774\ub2e4[D9][D1]. \uc774 \uc810\uc740 AI\uac00 \uc870\uac74\uc744 \uc644\uc131\ud588\ub2e4\ub294 \ub73b\uc774 \uc544\ub2c8\ub77c, \ubcc0\ud658 \uadf8\ub798\ud504 \uc790\uccb4\uac00 \uc9c1\uc811 \uc2e4\ud5d8 \ubb38\ud5cc\uacfc \uc77c\uce58\ud55c\ub2e4\ub294 \ub73b\uc774\ub2e4[D9][D1].",
+      "citations": [
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 140,
+      "claim_excerpt": "\uc9c1\uc811 \ud655\uc778\ub41c \ubb38\ud5cc \uc0ac\ub840\ub294 \ub450 \uac00\uc9c0\uc774\ub2e4[D9][D1].",
+      "citations": [
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 141,
+      "claim_excerpt": "- Adams & Cohen, *Organic Syntheses[18]* **8**, 66 (1928): PtO\u2082 \ucd09\ub9e4, \uc218\uc18c \uae30\uccb4(\uc218\uc18c 3\ubd84\uc790 \ub2f9\ub7c9 \ud761\uc218\uae4c\uc9c0), 95% alcohol(\uc5d0\ud0c4\uc62c) \uc6a9\ub9e4\uc5d0\uc11c \uc5d0\ud2f8 4-\ub2c8\ud2b8\ub85c\ubca4\uc870\uc5d0\uc774\ud2b8\ub97c \uc5d0\ud2f8 4-\uc544\ubbf8\ub178\ubca4\uc870\uc5d0\uc774\ud2b8\ub85c \ud658\uc6d0\ud558\uc600\ub2e4[D9][D1]. \uc218\uc728\uc740 15\u201316.5 g, \uc774\ub860\ub7c9\uc758 91\u2013100%\ub85c \ubcf4\uace0\ub418\uc5c8\uace0, \uc0dd\uc131\ubb3c mp\ub294 89\u201390 \u00b0C\uc774\ub2e4[D9][D1]. \uc774 \uc218\uc728\uc740 \uc5ec\uacfc\u00b7\uc5d0\ud0c4\uc62c \uc99d\ub958 \ud6c4 \uc5d0\ud130 \uc7ac\uacb0\uc815\ud55c \uc0dd\uc131\ubb3c\uc758 \uc9c8\ub7c9 \uc218\uc728\uc774\uba70",
+      "citations": [
+        "18",
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 142,
+      "claim_excerpt": "- US 3,037,046[19] Example IV: Rh\u2013alumina oxide \ucd09\ub9e4(Rh 5 wt%), \ubca4\uc820 \uc6a9\ub9e4, \uc57d 60 \u00b0C, 30 psig\uc5d0\uc11c \uc218\uc18c\ud654\ub97c \uc218\ud589\ud558\uc600\ub2e4[D9][D1]. \uc218\uc728\uc740 \uc57d 100% of theory\ub85c \ubcf4\uace0\ub418\uc5c8\uace0, \uc0dd\uc131\ubb3c mp\ub294 86\u201387 \u00b0C, \uc21c\ub3c4\ub294 99.9%\ub85c \uc81c\uc2dc\ub418\uc5c8\ub2e4[D9][D1]. \ub2e4\ub9cc Example IV \uc790\uccb4\uc758 \uc218\uc728 \uce21\uc815\ubc95\uc740 \ubcc4\ub3c4\ub85c \uc815\uc758\ub418\uc9c0 \uc54a\uc558\uace0, Example I\uc758 84.2%\ub294 p-nitrobenzoic acid\ubd80\ud130",
+      "citations": [
+        "19",
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 143,
+      "claim_excerpt": "\uc774 \ubb38\ud5cc \uc815\ubcf4\ub294 \ubaa8\ub378 \uc785\ub825\u00b7\uc810\uc218\uc5d0 \ubc18\uc601\ub41c \uac83\ucc98\ub7fc \uc4f0\uc9c0 \uc54a\ub294\ub2e4. \ubb38\ud5cc \uac80\uc0c9\uc740 \uc608\uce21 \uc774\ud6c4\uc5d0 \uc774\ub8e8\uc5b4\uc84c\uace0, \ubaa8\ub378 \uc785\ub825\uc774\ub098 \uc810\uc218\uc5d0 \uc601\ud5a5\uc744 \uc8fc\uc9c0 \uc54a\uc558\ub2e4. \ub530\ub77c\uc11c \ubb38\ud5cc \uc870\uac74\uc740 \ubaa8\ub378 \ucd9c\ub825\uacfc \ubd84\ub9ac\ud574 \ud6c4\uc18d \uac80\ud1a0 \ud6c4\ubcf4\ub85c \ud45c\uc2dc\ud55c\ub2e4.",
+      "citations": [],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 145,
+      "claim_excerpt": "Parrot rank 1\uacfc rank 4\ub294 \ubaa8\ub450 route-01/step-01\uc758 \ub3d9\uc77c \ubc18\uc751 SMILES\uc5d0 \uc5f0\uacb0\ub418\uc5b4 \uc788\ub2e4[D9][D1]. rank 1\uc740 catalyst1 `[Pd]`, solvent1 `CCO`, reagent1\u00b7reagent2\uac00 \ube44\uc5b4 \uc788\uace0, rank 4\ub294 catalyst1 `[Pd]`, solvent1 `CCO`, reagent1 `[H][H]`\uc774\ub2e4[D9][D1]. \ub450 \ud6c4\ubcf4 \ubaa8\ub450 \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\uc555\ub825\uc744 \uc81c\uacf5\ud558\uc9c0 \uc54a\ub294\ub2e4[D9][D1].",
+      "citations": [
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 146,
+      "claim_excerpt": "\ubb38\ud5cc\uacfc \ube44\uad50\ud558\uba74, rank 1\uacfc rank 4\uc758 `[Pd]`\ub294 Org. Synth.\uc758 PtO\u2082\ub098 \ud2b9\ud5c8 Example IV\uc758 Rh/Al\u2082O\u2083\uc640 \ub2e4\ub974\ub2e4[D9][D1]. `CCO`\ub294 \uc5d0\ud0c4\uc62c \uad6c\uc870 \ud1a0\ud070\uc774\ubbc0\ub85c Org. Synth.\uc758 95% alcohol\uacfc \uc6a9\ub9e4 \uacc4\uc5f4\uc740 \ub9de\uc9c0\ub9cc \ubb3c \ud568\ub7c9\uc740 \ud45c\ud604\ub418\uc9c0 \uc54a\uc73c\uba70, \ud2b9\ud5c8 Example IV\uc758 \ubca4\uc820\uacfc\ub294 \ub2e4\ub974\ub2e4[D9][D1]. rank 4\uc758 `[H][H]`\ub294 \uc218\uc18c \ubd84\uc790 \ud1a0\ud070\uc73c\ub85c \uc218\uc18c\uc6d0 \uc874\uc7ac\ub294 \ubb38\ud5cc\uacfc \uc77c\uce58\ud558\uc9c0\ub9cc, 3\ub2f9\ub7c9 \ud761\uc218\ub7c9\uc774\ub098 \uc218\uc18c\uc555\uc740 ",
+      "citations": [
+        "19",
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 148,
+      "claim_excerpt": "route-01/step-01\uc758 Yield-BERT[6] \uc608\uce21\uc740 82.95371431744555%\uc774\uba70, \uc0c1\ud0dc\ub294 `predicted_not_validated`, conditions_in_input\uc740 false, applicability\ub294 not_assessed\uc774\ub2e4[D9][D1]. \uc774 \uac12\uc740 \ubc18\uc751 \uad6c\uc870\ub9cc \uc785\ub825\ud588\uace0, Org. Synth.\uc758 PtO\u2082/\uc5d0\ud0c4\uc62c/H\u2082 \ub610\ub294 \ud2b9\ud5c8 Example IV\uc758 Rh/Al\u2082O\u2083/\ubca4\uc820/H\u2082 \uc870\uac74\uc744 \ubc18\uc601\ud55c \uc218\uc728 \uc608\uce21\uc774 \uc544\ub2c8\ub2e4[D9][D1]. ",
+      "citations": [
+        "19",
+        "6",
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [
+        "6"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 149,
+      "claim_excerpt": "\ub3d9\uc77c\ud55c \uae30\uc9c8\u00b7\uc0dd\uc131\ubb3c \ubcc0\ud658\uc774\ub77c\ub294 \uc810\uc5d0\uc11c \uc218\uce58\uc758 \uae30\uc220\uc801 \ubcd1\uce58\ub294 \uac00\ub2a5\ud558\ub2e4[D9][D1]. Org. Synth.\uc758 \ubd84\ub9ac \uc218\uc728 91\u2013100% \ubc94\uc704\uc640 \ube44\uad50\ud558\uba74 \uc608\uce21\uc740 \uc57d 8.05\u201317.05 \ud37c\uc13c\ud2b8\ud3ec\uc778\ud2b8 \ub0ae\uace0, \ud2b9\ud5c8 Example IV\uc758 \u201capproximately 100% of theory\u201d\uc640 \ube44\uad50\ud558\uba74 \uba85\ubaa9\uc0c1 \uc57d 17.05 \ud37c\uc13c\ud2b8\ud3ec\uc778\ud2b8 \ub0ae\ub2e4[D9][D1]. \uadf8\ub7ec\ub098 \uc774 \uc608\uc758 \uc218\uc728 \uce21\uc815\ubc95\uc774 \uba85\uc2dc\uc801\uc73c\ub85c \uc815\uc758\ub418\uc9c0 \uc54a\uc558\uc73c\ubbc0\ub85c \ud655\uc815\uc801\uc778 \ub3d9\uc77c \uae30\uc900 \ube44\uad50\ub85c \ud574\uc11d\ud558\uc9c0 \uc54a\ub294\ub2e4[D9][D1].",
+      "citations": [
+        "18",
+        "6",
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [
+        "6"
+      ],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 150,
+      "claim_excerpt": "\ud559\uc2b5 \ub370\uc774\ud130\uc5d0 \ud574\ub2f9 Organic Syntheses \uc808\ucc28\ub098 \ud2b9\ud5c8 \ubc18\uc751\uc774 \ud3ec\ud568\ub410\ub294\uc9c0, \uc911\ubcf5 \uc81c\uac70\u00b7\ubb38\ud5cc \uc911\ubcf5 \uc5ec\ubd80\uac00 \uc5b4\ub5a4\uc9c0 \ud655\uc778\ud560 \uc218 \uc788\ub294 \uae30\ub85d\uc740 \uc774\ubc88 \uc790\ub8cc\uc5d0 \uc5c6\ub2e4[D9][D1]. \ub530\ub77c\uc11c \ud559\uc2b5 \ub370\uc774\ud130 \uc911\ubcf5 \uc5ec\ubd80\ub294 \ubbf8\ud655\uc778\uc774\uba70, \uc788\ub2e4\uace0\ub3c4 \uc5c6\ub2e4\uace0\ub3c4 \uacb0\ub860\ub0b4\ub9ac\uc9c0 \uc54a\ub294\ub2e4[D9][D1]. \ud55c \ubc18\uc751 \uc608\ub85c Yield-BERT\uc758 \uc804\uccb4 \uc815\ud655\ub3c4, \uc870\uac74\ubcc4 \uc218\uc728, \ub610\ub294 \uc2e4\uc81c \ud569\uc131 \uc131\uacf5\uc744 \uc785\uc99d\ud560 \uc218 \uc5c6\ub2e4[D9][D1].[6]",
+      "citations": [
+        "6",
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 153,
+      "claim_excerpt": "- \ubca4\uc870\uce74\uc778\uc740 \uc911\uc131 \uc720\ub9ac \uc5fc\uae30 \ud615\ud0dc\uc758 C\u2089H\u2081\u2081NO\u2082 \ud654\ud569\ubb3c\uc774\uba70, PubChem CID 2337\ub85c \uc2dd\ubcc4\ub41c\ub2e4[1].",
+      "citations": [
+        "1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 154,
+      "claim_excerpt": "- AiZynthFinder \ud0d0\uc0c9\uc740 route-01, route-02, route-05\ub97c \ud3ec\ud568\ud55c 12\uac1c \uacbd\ub85c\ub97c \uc0dd\uc131\ud588\uace0, \uac01 \ubaa8\ub378\uc758 \ucd9c\ub825\uc740 \uc815\uc0c1 \uc0dd\uc131\u00b7\uc815\uaddc\ud654\ub418\uc5c8\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 155,
+      "claim_excerpt": "- route-01\uc758 \ubcc0\ud658\uc740 \ubc29\ud5a5\uc871 \ub2c8\ud2b8\ub85c\uae30 \ud658\uc6d0\uc73c\ub85c, \uc9c1\uc811 \uc2e4\ud5d8 \ubb38\ud5cc\uacfc \uc77c\uce58\ud558\ub294 \ubcc0\ud658 \uadf8\ub798\ud504\uc774\ub2e4[D9][D1].",
+      "citations": [
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 156,
+      "claim_excerpt": "- route-02\ub294 N-\uc544\uc138\ud2f8\uae30 \uc81c\uac70\ub97c \ud1b5\ud55c \uc544\ubbf8\ub178\uae30 \ub178\ucd9c \ubcc0\ud658\uc774\uba70, route-05\ub294 2\ub2e8\uacc4 \uacbd\ub85c\ub85c \uc544\uc138\ud2b8\uc0b0\u2192\uc5d0\ud0c4\uc62c \uac04\uc120\uacfc 4-\uc544\ubbf8\ub178\ubca4\uc870\uc0b0+\uc5d0\ud0c4\uc62c\u2192\ubca4\uc870\uce74\uc778 \ub2e8\uacc4\ub97c \ud3ec\ud568\ud55c\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 157,
+      "claim_excerpt": "- MOPAC PM7 \uacc4\uc0b0\uc740 25/25 \uc218\ub834\ud588\uace0, EPI Web \uc751\ub2f5\uc740 \uc218\uc2e0\ub418\uc5c8\uc73c\uba70, Visualizer\ub294 \uc77c\ubd80 \uc2e4\uc81c \uce21\uc815\uacfc \ud654\uba74\uc744 \uc81c\uacf5\ud588\ub2e4[D5].[10][D7]",
+      "citations": [
+        "10",
+        "D5",
+        "D7"
+      ],
+      "required_method_sources": [
+        "10"
+      ],
+      "required_project_evidence": [
+        "D5",
+        "D7"
+      ]
+    },
+    {
+      "paragraph": 159,
+      "claim_excerpt": "- Parrot \uc870\uac74 \ud6c4\ubcf4\ub294 \uc2e4\ud5d8 \uc870\uac74\uc744 \uac80\uc99d\ud558\uc9c0 \uc54a\ub294\ub2e4. \ud2b9\ud788 route-01 \uc0c1\uc704 \ud6c4\ubcf4\ub294 Pd \ud1a0\ud070\uacfc \uc5d0\ud0c4\uc62c \uacc4\uc5f4 \uc6a9\ub9e4\ub97c \uc81c\uc2dc\ud558\uc9c0\ub9cc, \uc2e4\uc81c \ucd09\ub9e4 \uc81c\ud615\u00b7\ud658\uc6d0\uc81c\u00b7\uc218\uc18c\uc555\u00b7\uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\uc744 \ud655\uc778\ud574 \uc8fc\uc9c0 \uc54a\ub294\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 160,
+      "claim_excerpt": "- route-01 \uc0c1\uc704 \ud6c4\ubcf4\uc758 `solvent1=CO`\ub294 \uba54\ud0c4\uc62c(CH\u2084O)\ub85c \uac80\uc99d\ub418\uba70[D12], `CCO`\ub294 \uc5d0\ud0c4\uc62c \uad6c\uc870 \ud1a0\ud070\uc774\ub2e4. \uc774 \uc2ac\ub86f\ub4e4\uc740 \ud654\ud559\uc801 \uc5ed\ud560\uc744 \ud574\uc11d\ud560 \uc218\ub294 \uc788\uc9c0\ub9cc, \ubaa8\ub378\uc774 \ucd9c\ub825\ud55c \uac12 \uc790\uccb4\uac00 \uc2e4\ud5d8 \uc870\uac74\uc744 \uac80\uc99d\ud588\ub2e4\ub294 \ub73b\uc740 \uc544\ub2c8\ub2e4[D1].",
+      "citations": [
+        "D1",
+        "D12"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 161,
+      "claim_excerpt": "- route-05/step-02 \uc0c1\uc704 \ud6c4\ubcf4\uc758 `CCOCC`\ub294 \ub514\uc5d0\ud2f8 \uc5d0\ud130(C\u2084H\u2081\u2080O)\ub85c, `FB(F)F`\ub294 \uc0bc\ubd88\ud654\ubd95\uc18c(BF\u2083)\ub85c \uac80\uc99d\ub41c\ub2e4[D12]. \uc774 \uc2ac\ub86f\ub4e4\uc740 \ud654\ud559\uc801 \uc5ed\ud560\uc744 \ud574\uc11d\ud560 \uc218\ub294 \uc788\uc9c0\ub9cc, \ubaa8\ub378\uc774 \ucd9c\ub825\ud55c \uac12 \uc790\uccb4\uac00 \uc2e4\ud5d8 \uc870\uac74\uc744 \uac80\uc99d\ud588\ub2e4\ub294 \ub73b\uc740 \uc544\ub2c8\ub2e4[D1].",
+      "citations": [
+        "D1",
+        "D12"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 162,
+      "claim_excerpt": "- Yield-BERT \uc218\uc728\uc740 \uc2e4\ud5d8 \uc218\uc728\uc774 \uc544\ub2c8\uba70, \uc870\uac74 \uc785\ub825\uc774 \uc5c6\uc5c8\uace0 \uc801\uc6a9 \uac00\ub2a5\uc131\ub3c4 \ud3c9\uac00\ub418\uc9c0 \uc54a\uc558\ub2e4[D1].[6]",
+      "citations": [
+        "6",
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 163,
+      "claim_excerpt": "- MOPAC\uc740 \uace0\ub9bd \ubd84\uc790 \uae30\ud558\u00b7\uc0dd\uc131\uc5f4\u00b7\uc804\ud558\u00b7\uc30d\uadf9\uc790\ub9cc\uc744 \uc81c\uacf5\ud558\uba70, \ubc18\uc751 \uc7a5\ubcbd\u00b7\uc18d\ub3c4\u00b7\uc218\uc728\u00b7\uc131\uacf5\uc758 \uc99d\uac70\uac00 \uc544\ub2c8\ub2e4[D5].[10]",
+      "citations": [
+        "10",
+        "D5"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 164,
+      "claim_excerpt": "- EPI Suite \ucd94\uc815\uac12\uacfc \ub370\uc774\ud130\ubca0\uc774\uc2a4 \uae30\ub85d\uc740 \ud63c\ud569 \uc0c1\ud3c9\ud615\uc744 \uc81c\uacf5\ud558\uc9c0 \uc54a\uc73c\uba70, \uc21c\uc218 \ubb3c\uc9c8 MP/BP\ub9cc\uc73c\ub85c \ubc18\uc751 \uc6a9\uc561 \uc0c1\ud0dc\ub97c \ud655\uc815\ud558\uc9c0 \uc54a\ub294\ub2e4[D6].[12]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 165,
+      "claim_excerpt": "- Visualizer\ub294 \uc77c\ubd80 \ubd84\uc790 \ub0b4\ubd80 \uac70\ub9ac\u00b7\uac01\ub3c4\uc640 \uc815\uc131\uc801 \ub2e8\uc77c \ubd84\uc790 \ud654\uba74\ub9cc \uc81c\uacf5\ud558\uba70, \ubc18\uc751\ubb3c \uc811\uadfc\u00b7\uacf5\uaca9\uac01\u00b7\uc785\uccb4\uc7a5\uc560 \uc7a5\ubcbd\u00b7\ubc18\uc751 \uc131\uacf5\u00b7\uc218\uc728\uc744 \uce21\uc815\ud558\uc9c0 \uc54a\ub294\ub2e4[D7].",
+      "citations": [
+        "D7"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D7"
+      ]
+    },
+    {
+      "paragraph": 166,
+      "claim_excerpt": "- route-05\uc758 \uccab\uc9f8 \ub2e8\uacc4\ub294 \uac80\uc0c9 \ubaa8\ub378\uc758 \uacbd\ub85c \uac04\uc120\uc774\uba70, \uc2e4\uc81c \uc21c\ucc28 \ud569\uc131\uc73c\ub85c \uac80\uc99d\ub418\uc9c0 \uc54a\uc558\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 168,
+      "claim_excerpt": "- route-01\uc744 \uc2e4\ud5d8\ud55c\ub2e4\uba74, Parrot rank 1\uc758 H\u2082 \ub204\ub77d\uacfc rank 4\uc758 \uc218\uc18c \ud1a0\ud070 \uc874\uc7ac\ub97c \ubcc4\ub3c4\ub85c \uac80\ud1a0\ud558\uace0, \uc2e4\uc81c \ucd09\ub9e4 \uc81c\ud615(Pd\uc758 \ub2f4\uc9c0\uccb4\u00b7\uc0b0\ud654\uc0c1\ud0dc\u00b7\uc2e4\ubb3c \ud615\ud0dc), \uc6a9\ub9e4 \uc870\uc131(95% alcohol\uc758 \ubb3c \ud568\ub7c9 \ub4f1), \uc218\uc18c\uc555\u00b7\ub2f9\ub7c9\u00b7\uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\uc791\uc5c5\uc5c5\uc744 \ubb38\ud5cc \ub610\ub294 \ubcc4\ub3c4 \uc2e4\ud5d8 \uc124\uacc4\ub85c \ud655\uc815\ud574\uc57c \ud55c\ub2e4[D9][D1].",
+      "citations": [
+        "D1",
+        "D9"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 169,
+      "claim_excerpt": "- route-02\uc640 route-05/step-02\ub294 \uc5d0\uc2a4\ud130\ud654\u00b7\ud0c8\ubcf4\ud638 \uacc4\uc5f4 \ubcc0\ud658\uc73c\ub85c \uc77d\uc744 \uc218 \uc788\uc73c\ub098, \uc774\ubc88 \uc870\uac74 \uc608\uce21\uc740 \uc628\ub3c4\u00b7\uc2dc\uac04\u00b7\ub2f9\ub7c9\u00b7\uc555\ub825\uc744 \uc81c\uacf5\ud558\uc9c0 \uc54a\uc73c\ubbc0\ub85c \uc6b4\uc601 \uc870\uac74\uc744 \ubcc4\ub3c4\ub85c \uc124\uacc4\ud574\uc57c \ud55c\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 170,
+      "claim_excerpt": "- route-05/step-01\uc740 \uacbd\ub85c \uac04\uc120\uc77c \ubfd0 \uc2e4\uc81c \uc21c\ucc28 \ud569\uc131 \uac80\uc99d\uc774 \uc5c6\uc73c\ubbc0\ub85c, \uc774 \ub2e8\uacc4\ub97c \uc2e4\uc81c \ud569\uc131\uc5d0 \ud3ec\ud568\ud558\ub824\uba74 \ub3c5\ub9bd\uc801 \uac80\uc99d\uc774 \ud544\uc694\ud558\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D1"
+      ]
+    },
+    {
+      "paragraph": 171,
+      "claim_excerpt": "- \uc218\uc728 \uc608\uce21\uc740 \ubc18\uc751 \uad6c\uc870\ub9cc \uc785\ub825\ud55c \uac12\uc774\ubbc0\ub85c, \uc2e4\ud5d8 \uacc4\ud68d\uc5d0\uc11c\ub294 \uc870\uac74\ubcc4 \uc218\uc728\u00b7\ubd80\uc0b0\ubb3c\u00b7\ubd84\ub9ac \uc218\uc728\u00b7\uc21c\ub3c4 \uae30\uc900\uc744 \ubcc4\ub3c4\ub85c \uc124\uc815\ud574\uc57c \ud55c\ub2e4[D1].",
+      "citations": [
+        "D1"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 172,
+      "claim_excerpt": "- EPI Suite \uac12\uc740 \uc2a4\ud06c\ub9ac\ub2dd \ucd94\uc815\uc774\ubbc0\ub85c, \uc2e4\uc81c \uc6b4\uc601 \uc0c1\uac70\ub3d9\uc744 \ud310\ub2e8\ud558\ub824\uba74 \ud63c\ud569 \uc870\uc131\u00b7\ub18d\ub3c4\u00b7\uc6a9\ub9e4\u00b7\uc628\ub3c4\u00b7\uc555\ub825\u00b7\uc6a9\ud574\ub3c4\u00b7\uc5fc/\uc218\ud654 \uc0c1\ud0dc \ub4f1\uc758 \uc790\ub8cc\uac00 \ud544\uc694\ud558\ub2e4[D6].[12]",
+      "citations": [
+        "12",
+        "D6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D6"
+      ]
+    },
+    {
+      "paragraph": 173,
+      "claim_excerpt": "- Visualizer \uad00\ucc30\uc740 \ubd84\uc790 \ub0b4\ubd80 \ubc30\uce58\uc758 \uc720\uc0ac\uc131\uae4c\uc9c0\ub9cc \uc9c0\uc9c0\ud558\ubbc0\ub85c, \ubc18\uc751 \uc811\uadfc\uc131\u00b7\uc785\uccb4\uc7a5\uc560\u00b7\ubc18\uc751\uc131 \ud310\ub2e8\uc5d0\ub294 \ucd94\uac00 \ubaa8\ub378\ub9c1 \ub610\ub294 \uc2e4\ud5d8\uc774 \ud544\uc694\ud558\ub2e4[D7].\n## 8. \uc7ac\ud604 \ubc29\ubc95\uacfc \ucd9c\ucc98",
+      "citations": [
+        "D7"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D7"
+      ]
+    },
+    {
+      "paragraph": 175,
+      "claim_excerpt": "\uc774\ubc88 \uc2e4\ud589\uc740 AiZynthFinder \uacbd\ub85c \ud0d0\uc0c9, Parrot \uc870\uac74 \ucd94\ucc9c, rxn_yields \uc218\uc728 \uc608\uce21\uc73c\ub85c \uad6c\uc131\ub418\uc5c8\ub2e4[16][D10]. \uc7ac\ud604 \uad00\ub828 \uae30\ub85d\uc5d0\uc11c routes\uc640 yields\ub294 \uc774\uc804 \uc2e4\ud589(benzocaine-live-20261031-03)\uc758 \uacb0\uacfc\ub97c \ubc14\uc774\ud2b8 \ub2e8\uc704\ub85c \uc7ac\uc0ac\uc6a9\ud588\uace0, \uc870\uac74 \ucd94\ub860\uc740 \uc774\ubc88 \uc2e4\ud589(benzocaine-live-20261031-04)\uc5d0\uc11c \uc218\ud589\ub418\uc5c8\ub2e4[16]. \uc989 \uc774\ubc88 \uc2e4\ud589\uc5d0\uc11c \uc138 \ubaa8\ub378 \ucd94\ub860\uc774 \ubaa8\ub450 \uc0c8\ub85c \uc218\ud589\ub41c \uac83\uc740 \uc544\ub2c8\ub2e4[16].[6]",
+      "citations": [
+        "16",
+        "6",
+        "D10"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 176,
+      "claim_excerpt": "\uc7ac\uc0ac\uc6a9\ub41c routes.json\uacfc yields-rxn_yields.json\uc758 \ud574\uc2dc\ub294 \uac01\uac01 `a5256cab...`\uc640 `18fd9a6f...`\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\uace0, conditions-parrot.json\uc758 \ud574\uc2dc\ub294 `c1ec5ed4...`\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[16][D10]. figures/manifest.json\uc758 \ud574\uc2dc\ub294 `222a4856...`\uc774\ub2e4[16][D10]. \uc785\ub825 input.json\uc758 \ud574\uc2dc\ub294 `71ee5a5a...`\uc774\ub2e4[16][D10].[6]",
+      "citations": [
+        "16",
+        "6",
+        "D10"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 178,
+      "claim_excerpt": "AiZynthFinder\uc640 Parrot/rxn_yields\uc758 Python \ud658\uacbd, \uc800\uc7a5\uc18c, \uccb4\ud06c\ud3ec\uc778\ud2b8\ub294 \ubcf4\uc874\ub41c \uacbd\ub85c \uc544\ub798 \uad6c\uc131\ub418\uc5b4 \uc788\uc73c\uba70, \ub2e4\ub978 \uae30\uacc4\uc5d0\uc11c \uc7ac\ud604\ud558\ub824\uba74 configs/runtime.json\uacfc \ud574\ub2f9 \uc790\uc0b0\uc744 \ub9de\ucdb0\uc57c \ud55c\ub2e4[16]. \ub610\ud55c routes\uc640 yields\ub294 \uc774\uc804 \uc2e4\ud589\uc5d0\uc11c \ubcf5\uc0ac\ub41c \uac83\uc774\ubbc0\ub85c, \uc774\ubc88 \uc2e4\ud589\uc5d0\uc11c \uc138 \ubaa8\ub378 \ucd94\ub860\uc774 \ubaa8\ub450 \uc0c8\ub85c \uc774\ub8e8\uc5b4\uc84c\ub2e4\uace0 \uc8fc\uc7a5\ud558\uc9c0 \uc54a\ub294\ub2e4[16].[6]",
+      "citations": [
+        "16",
+        "6"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": []
+    },
+    {
+      "paragraph": 179,
+      "claim_excerpt": "\uc7ac\uc2e4\ud589 \uac80\uc99d \uae30\ub85d\uc5d0\uc11c\ub294 \ubaa8\ub378\u00b7USPTO \ubc18\uc751 \ud15c\ud50c\ub9bf \uc544\uce74\uc774\ube0c\u00b7\uc7ac\uace0 \ud574\uc2dc\uac00 \uc77c\uce58\ud558\uace0, routes \uc608\uce21\ub3c4 \uc77c\uce58\ud558\uba70, Parrot \uc870\uac74\uacfc Yield-BERT \ucd9c\ub825\ub3c4 \ub300\ud45c \uc2e4\ud589\uacfc \uc77c\uce58\ud558\ub294 \uac83\uc73c\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[16][D10]. \ub2e4\ub9cc \uad6c\uc131 JSON\uc758 \ubc14\uc774\ud2b8 \ud574\uc2dc\ub294 \uc11c\ub85c \ub2e4\ub974\uace0, \uacbd\ub85c \uad6c\ubd84\uc790 \uc815\uaddc\ud654 \ud6c4 \uad6c\uc131 \uac1d\uccb4\uac00 \ub3d9\uc77c\ud574\uc9c0\ub294 \uac83\uc73c\ub85c \uae30\ub85d\ub418\uc5b4 \uc788\ub2e4[16][D10]. \uc774 \ubc14\uc774\ud2b8 \ucc28\uc774\uc758 \uc6d0\uc778\uc740 unresolved\ub85c \ub0a8\uc544 \uc788\ub2e4[16][D10]. \uc774 \uc810\uc740 \ub3d9\uc77c \uc790\uc0b0\u00b7\ub3d9\uc77c \uc608\uce21\uc774\ub77c",
+      "citations": [
+        "16",
+        "6",
+        "D10"
+      ],
+      "required_method_sources": [],
+      "required_project_evidence": [
+        "D10"
+      ]
+    }
+  ]
+}

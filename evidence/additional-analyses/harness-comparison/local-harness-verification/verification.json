@@ -1,0 +1,76 @@
+{
+  "classification": "LOCAL_MOCK_ONLY_NOT_MODEL_OUTPUT",
+  "mock_response": "LOCAL_MOCK_ONLY: BENZOCAINE COMPARISON DRAFT FIXTURE",
+  "payload_sha256": "636BE4F7EE73A4BD08682629B95F906EC246A986E07C17348BB4EA93F72A973E",
+  "harnesses": {
+    "opencode": {
+      "exit_code": 1,
+      "post_count": 11,
+      "first_post": {
+        "model": "solar-pro4-260806",
+        "top_level_fields": [
+          "max_completion_tokens",
+          "messages",
+          "model",
+          "prompt_cache_key",
+          "stream",
+          "stream_options",
+          "tool_choice",
+          "tools"
+        ],
+        "unknown_fields": [
+          "max_completion_tokens",
+          "stream_options",
+          "tool_choice",
+          "tools"
+        ],
+        "user_text_bytes": 199764,
+        "user_text_sha256": "474614AADC5FC1F0A5CA2629317A84264F4960EFF9EAFEAECA85D255354B5705",
+        "full_frozen_payload_present": false,
+        "report_prompt_present": true,
+        "benzocaine_evidence_present": true,
+        "skill_filename_present": true,
+        "store_absent": true,
+        "problems": [
+          "full_frozen_payload_not_attached",
+          "unsupported_top_level_fields:max_completion_tokens,stream_options,tool_choice,tools",
+          "tools_not_disabled",
+          "streaming_unexpected",
+          "expected_exactly_one_post_with_fixed_title",
+          "harness_nonzero_exit"
+        ],
+        "pass": false
+      }
+    },
+    "pi": {
+      "exit_code": 1,
+      "post_count": 4,
+      "first_post": {
+        "model": "solar-pro4-260806",
+        "top_level_fields": [
+          "max_tokens",
+          "messages",
+          "model",
+          "stream",
+          "temperature"
+        ],
+        "unknown_fields": [],
+        "user_text_bytes": 199832,
+        "user_text_sha256": "684AFB71E172EA914548F4CA7611DEAE84377B21FF14DAA1FA305ABF4389179E",
+        "full_frozen_payload_present": false,
+        "report_prompt_present": true,
+        "benzocaine_evidence_present": true,
+        "skill_filename_present": true,
+        "store_absent": true,
+        "problems": [
+          "full_frozen_payload_not_attached",
+          "streaming_unexpected",
+          "expected_exactly_one_post",
+          "harness_nonzero_exit"
+        ],
+        "pass": false
+      }
+    }
+  },
+  "all_passed": false
+}

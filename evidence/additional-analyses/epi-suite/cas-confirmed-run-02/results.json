@@ -1,0 +1,446 @@
+[
+  {
+    "species_id": "p-aminobenzoic-acid",
+    "name": "4-Aminobenzoic acid",
+    "smiles": "Nc1ccc(C(=O)O)cc1",
+    "epi_search_exact_structure_matches": [
+      {
+        "name": "4-AMINOBENZOIC ACID",
+        "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+        "cas": "000150-13-0"
+      },
+      {
+        "name": "4-Aminobenzoic acid",
+        "smiles": "C1=C(C=CC(=C1)N)C(=O)O",
+        "cas": "002906-28-7"
+      }
+    ],
+    "pubchem_synonym_cas_candidates": [
+      "150-13-0",
+      "25136-77-0"
+    ],
+    "cas_used": "150-13-0",
+    "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+    "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+    "search_raw": "analyses\\epi-suite\\raw\\search\\p-aminobenzoic-acid.json",
+    "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\p-aminobenzoic-acid-synonyms.json",
+    "mp_estimated_value": {
+      "value": 94.07730865478516,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "mp_experimental_values": [
+      {
+        "author": "Aromatic acid slope analogy",
+        "year": 0,
+        "order": 1,
+        "value": 188.5,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 1726,
+        "referenceId": 1086,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "mp_selected_value": {
+      "value": 188.5,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:Aromatic acid slope analogy:",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "bp_estimated_value": {
+      "value": 307.7038879394531,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "bp_experimental_values": [],
+    "bp_selected_value": {
+      "value": 307.7038879394531,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "mpbpwin_output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): 94.07730865478516\nMelting Point (adapted Joback, deg C): 178.29000854492188\nMelting Point (Gold/Ogle, deg C): 66.00640869140625\nMelting Point (mean, deg C): 122.14822387695312\nBoiling Point (deg C): 307.7038879394531\nBoiling Point (K uncorrected): 630.280029296875\nBoiling Point (K corrected): 580.8638916015625\nVapor Pressure selected (mm Hg): 2.5167618596655577E-5\nVapor Pressure selected (Pa): 0.003355397246543315\nVapor Pressure subcooled (mm Hg): 0.0012951079988852143\nVapor Pressure subcooled (Pa): 0.17266638862737455\n",
+    "raw_item": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\p-aminobenzoic-acid.json"
+  },
+  {
+    "species_id": "ethanol",
+    "name": "Ethanol",
+    "smiles": "CCO",
+    "epi_search_exact_structure_matches": [
+      {
+        "name": "ETHANOL",
+        "smiles": "CCO",
+        "cas": "000064-17-5"
+      }
+    ],
+    "pubchem_synonym_cas_candidates": [
+      "42845-45-4",
+      "64-17-5"
+    ],
+    "cas_used": "64-17-5",
+    "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+    "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+    "search_raw": "analyses\\epi-suite\\raw\\search\\ethanol.json",
+    "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\ethanol-synonyms.json",
+    "mp_estimated_value": {
+      "value": -87.84295654296875,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "mp_experimental_values": [
+      {
+        "author": "Physprop calculated - based upon VP / Water Sol data",
+        "year": 0,
+        "order": 1,
+        "value": -114.1,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 1660,
+        "referenceId": 148,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "mp_selected_value": {
+      "value": -114.1,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "bp_estimated_value": {
+      "value": 65.10699462890625,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "bp_experimental_values": [
+      {
+        "author": null,
+        "year": 0,
+        "order": 1,
+        "value": 78.2,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "BoilingPoints",
+        "sourceId": 1228,
+        "referenceId": null,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "bp_selected_value": {
+      "value": 78.2,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:BoilingPoints",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "mpbpwin_output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -87.84295654296875\nMelting Point (adapted Joback, deg C): -100.04000854492188\nMelting Point (Gold/Ogle, deg C): -75.64590454101562\nMelting Point (mean, deg C): -87.84295654296875\nBoiling Point (deg C): 65.10699462890625\nBoiling Point (K uncorrected): 332.8399963378906\nBoiling Point (K corrected): 338.2669982910156\nVapor Pressure selected (mm Hg): 60.87327826456847\nVapor Pressure selected (Pa): 8115.747204788798\nVapor Pressure subcooled (mm Hg): 58.64371109008789\nVapor Pressure subcooled (Pa): 7818.496849952698\n",
+    "raw_item": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\ethanol.json"
+  },
+  {
+    "species_id": "acetic-acid",
+    "name": "Acetic acid",
+    "smiles": "CC(=O)O",
+    "epi_search_exact_structure_matches": [
+      {
+        "name": "ACETIC ACID",
+        "smiles": "CC(=O)O",
+        "cas": "000064-19-7"
+      },
+      {
+        "name": "Acetic Acid",
+        "smiles": "CC(=O)O",
+        "cas": "000071-50-1"
+      }
+    ],
+    "pubchem_synonym_cas_candidates": [
+      "64-19-7",
+      "6993-75-5",
+      "77671-22-8"
+    ],
+    "cas_used": "64-19-7",
+    "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+    "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+    "search_raw": "analyses\\epi-suite\\raw\\search\\acetic-acid.json",
+    "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\acetic-acid-synonyms.json",
+    "mp_estimated_value": {
+      "value": -21.25537109375,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "mp_experimental_values": [
+      {
+        "author": "KHAN,I & BRIMBLECOMBE,P",
+        "year": 1992,
+        "order": 1,
+        "value": 16.635,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:KHAN,I & BRIMBLECOMBE,P:1992",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 1215,
+        "referenceId": 536,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "mp_selected_value": {
+      "value": 16.635,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:KHAN,I & BRIMBLECOMBE,P:1992",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "bp_estimated_value": {
+      "value": 122.30035400390625,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "bp_experimental_values": [
+      {
+        "author": null,
+        "year": 0,
+        "order": 1,
+        "value": 117.9,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "BoilingPoints",
+        "sourceId": 845,
+        "referenceId": null,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "bp_selected_value": {
+      "value": 117.9,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:BoilingPoints",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "mpbpwin_output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -21.25537109375\nMelting Point (adapted Joback, deg C): -0.260009765625\nMelting Point (Gold/Ogle, deg C): -42.25071716308594\nMelting Point (mean, deg C): -21.25537109375\nBoiling Point (deg C): 122.30035400390625\nBoiling Point (K uncorrected): 389.989990234375\nBoiling Point (K corrected): 395.4603576660156\nVapor Pressure selected (mm Hg): 17.17132196628612\nVapor Pressure selected (Pa): 2289.314987189198\nVapor Pressure subcooled (mm Hg): 16.053306579589844\nVapor Pressure subcooled (Pa): 2140.2589398040773\n",
+    "raw_item": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\acetic-acid.json"
+  },
+  {
+    "species_id": "tetrahydrofuran-condition-slot",
+    "name": "Tetrahydrofuran",
+    "smiles": "C1CCOC1",
+    "epi_search_exact_structure_matches": [
+      {
+        "name": "TETRAHYDROFURAN",
+        "smiles": "C1CCOC1",
+        "cas": "000109-99-9"
+      }
+    ],
+    "pubchem_synonym_cas_candidates": [
+      "109-99-9"
+    ],
+    "cas_used": "109-99-9",
+    "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+    "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+    "search_raw": "analyses\\epi-suite\\raw\\search\\tetrahydrofuran-condition-slot.json",
+    "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\tetrahydrofuran-condition-slot-synonyms.json",
+    "mp_estimated_value": {
+      "value": -84.88720703125,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "mp_experimental_values": [
+      {
+        "author": "Ether slope analogy",
+        "year": 0,
+        "order": 1,
+        "value": -108.44,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 1381,
+        "referenceId": 128,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "mp_selected_value": {
+      "value": -108.44,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:Ether slope analogy:",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "bp_estimated_value": {
+      "value": 69.35687255859375,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "bp_experimental_values": [
+      {
+        "author": null,
+        "year": 0,
+        "order": 1,
+        "value": 65.0,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "BoilingPoints",
+        "sourceId": 1002,
+        "referenceId": null,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "bp_selected_value": {
+      "value": 65.0,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:BoilingPoints",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "mpbpwin_output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -84.88720703125\nMelting Point (adapted Joback, deg C): -96.61000061035156\nMelting Point (Gold/Ogle, deg C): -73.16441345214844\nMelting Point (mean, deg C): -84.88720703125\nBoiling Point (deg C): 69.35687255859375\nBoiling Point (K uncorrected): 336.91998291015625\nBoiling Point (K corrected): 342.5168762207031\nVapor Pressure selected (mm Hg): 173.3884775747914\nVapor Pressure selected (Pa): 23116.498607226342\nVapor Pressure subcooled (mm Hg): 170.2135772705078\nVapor Pressure subcooled (Pa): 22693.214548858643\n",
+    "raw_item": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\tetrahydrofuran-condition-slot.json"
+  },
+  {
+    "species_id": "diethyl-ether-condition-slot",
+    "name": "Diethyl ether",
+    "smiles": "CCOCC",
+    "epi_search_exact_structure_matches": [
+      {
+        "name": "DIETHYL ETHER",
+        "smiles": "CCOCC",
+        "cas": "000060-29-7"
+      }
+    ],
+    "pubchem_synonym_cas_candidates": [
+      "60-29-7",
+      "667919-88-2"
+    ],
+    "cas_used": "60-29-7",
+    "normalization_rule": "Strip leading zeros in first CAS field for comparison; preserve canonical PubChem CAS in request.",
+    "structure_identity_basis": "EPI experimental catalog exact structure match and PubChem CAS synonym list.",
+    "search_raw": "analyses\\epi-suite\\raw\\search\\diethyl-ether-condition-slot.json",
+    "pubchem_raw": "analyses\\epi-suite\\raw\\pubchem\\diethyl-ether-condition-slot-synonyms.json",
+    "mp_estimated_value": {
+      "value": -101.14971923828125,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "mp_experimental_values": [
+      {
+        "author": "Physprop calculated - based upon VP / Water Sol data",
+        "year": 0,
+        "order": 1,
+        "value": -116.3,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "MeltingPoints",
+        "sourceId": 260,
+        "referenceId": 148,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "mp_selected_value": {
+      "value": -116.3,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:MeltingPoints:Physprop calculated - based upon VP / Water Sol data:",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "bp_estimated_value": {
+      "value": 47.015655517578125,
+      "units": "celsius",
+      "source": "module:mpbpvp",
+      "valueType": "ESTIMATED"
+    },
+    "bp_experimental_values": [
+      {
+        "author": null,
+        "year": 0,
+        "order": 1,
+        "value": 34.6,
+        "units": "celsius",
+        "source": "experimental:EpiUnified:BoilingPoints",
+        "valueType": "EVIDENCE",
+        "method": null,
+        "evidenceType": "UNSPECIFIED",
+        "sourceDatabase": "EpiUnified",
+        "sourceTable": "BoilingPoints",
+        "sourceId": 200,
+        "referenceId": null,
+        "temperatureC": null,
+        "pressureMmHg": null,
+        "notes": null
+      }
+    ],
+    "bp_selected_value": {
+      "value": 34.6,
+      "units": "celsius",
+      "source": "experimental:EpiUnified:BoilingPoints",
+      "valueType": "EVIDENCE",
+      "method": null,
+      "evidenceType": "UNSPECIFIED"
+    },
+    "mpbpwin_output": "MPBPWIN v1.44 Results\nMPBPVP Estimate\nMelting Point (selected, deg C): -101.14971923828125\nMelting Point (adapted Joback, deg C): -116.08999633789062\nMelting Point (Gold/Ogle, deg C): -86.20944213867188\nMelting Point (mean, deg C): -101.14971923828125\nBoiling Point (deg C): 47.015655517578125\nBoiling Point (K uncorrected): 315.739990234375\nBoiling Point (K corrected): 320.1756591796875\nVapor Pressure selected (mm Hg): 539.4412473178643\nVapor Pressure selected (Pa): 71919.38597491231\nVapor Pressure subcooled (mm Hg): 538.6793823242188\nVapor Pressure subcooled (Pa): 71817.81261022949\n",
+    "raw_item": "analyses\\epi-suite\\cas-confirmed-run-02\\raw\\items\\diethyl-ether-condition-slot.json"
+  }
+]

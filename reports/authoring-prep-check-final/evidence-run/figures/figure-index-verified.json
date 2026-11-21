@@ -1,0 +1,82 @@
+[
+  {
+    "basename": "target.png",
+    "source": "results/benzocaine-live-20261031-04/target/target.png",
+    "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+    "bytes": 27429,
+    "sha256_actual": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+    "exists": true
+  },
+  {
+    "basename": "route-01-step-01.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-01-step-01.png",
+    "sha256": "42f47032880a4b4e5936e5cf8572e3ec44232953f592b7132bb230ef21dda3d7",
+    "bytes": 30016,
+    "sha256_actual": "c427ced18853ff281255c83a4a515e05959ab871246a2990785a4aa92031d9f5",
+    "exists": true
+  },
+  {
+    "basename": "route-02-step-01.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-02-step-01.png",
+    "sha256": "cf09de3b47f8354e1bb9bcff219bb8ded618309f2ae77477fbbe052d5b8075c2",
+    "bytes": 28624,
+    "sha256_actual": "f0066e7df6c7cb75353766d20c38f2f4031dda172043095c13ba79f6b0dbe0fd",
+    "exists": true
+  },
+  {
+    "basename": "route-05-step-01.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-05-step-01.png",
+    "sha256": "eb2995a7f1ff8bdd381efa7d5485033b7bab9d1938a44439ff5d00e094ce6c1d",
+    "bytes": 19623,
+    "sha256_actual": "cdc84699e8182e0b5b0344d4aa04d4aebee5690a88f649947af42c68a785b836",
+    "exists": true
+  },
+  {
+    "basename": "route-05-step-02.png",
+    "source": "results/benzocaine-live-20261031-04/figures/route-05-step-02.png",
+    "sha256": "ecc5a2b821d81e10b71cebceeb8e57a3d697e0c45e611da51622ebb99cb0fadb",
+    "bytes": 36407,
+    "sha256_actual": "da589f87a6d9497c2b70ec0c24d2b2ba03fa26a47232dd94251bd4950949db18",
+    "exists": true
+  },
+  {
+    "basename": "visualizer-route01-conf1-distance.png",
+    "source": "analyses/visualizer/screenshots/route01-distance-monitor-table.png",
+    "sha256": "08cc8d0fd4606dd2bcda49862e11fa43d18a85e0a43ca93d051f849e11eb7ab1",
+    "bytes": 111866,
+    "sha256_actual": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f",
+    "exists": true
+  },
+  {
+    "basename": "visualizer-route01-conf1-angle.png",
+    "source": "analyses/visualizer/screenshots/route01-angle-monitor-table.png",
+    "sha256": "61bec9038a65f881eadcfab944f21f8d38e312297225d5f90c30421c96db92bc",
+    "bytes": 112160,
+    "sha256_actual": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1",
+    "exists": true
+  },
+  {
+    "basename": "visualizer-route05-paba-conf4.png",
+    "source": "analyses/visualizer/accessibility-review/screenshots/route05-paba-conf4-visualizer-open.png",
+    "sha256": "c95a2698b0d5d0f1eff09984411ea1e4449ee2f2b9fc0b03af59f5c749d21bae",
+    "bytes": 103302,
+    "sha256_actual": "dac8b2f4ed83dc8600d3117d43cc1e13a929d6ece1b262e2ae113d803003694f",
+    "exists": true
+  },
+  {
+    "basename": "visualizer-route05-paba-edge.png",
+    "source": "analyses/visualizer/accessibility-review/screenshots/route05-p-aminobenzoic-acid-conf4-rot-y90.png",
+    "sha256": "08cec03f71a992d7104d3381df0cc22e7b01d4c11867db7ada820c61561c6d76",
+    "bytes": 94800,
+    "sha256_actual": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b",
+    "exists": true
+  },
+  {
+    "basename": "visualizer-route05-ethanol-conf2.png",
+    "source": "analyses/visualizer/accessibility-review/screenshots/route05-ethanol-conf2.png",
+    "sha256": "dfeb972f8ddad678283a02bb35cffc32fec37019056d24cc48ccf55729d89751",
+    "bytes": 97366,
+    "sha256_actual": "f7ec98aeb179b5c85db0b98efd741ab47f8db0619a3844952a5fa18195a11b95",
+    "exists": true
+  }
+]

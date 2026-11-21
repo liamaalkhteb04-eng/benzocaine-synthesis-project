@@ -1,0 +1,202 @@
+{
+  "status": "prepared_for_manual_DS_Visualizer_import_only",
+  "created_by": "prepare_visualizer_inputs.py",
+  "created_utc": "2026-11-01",
+  "source_run": "benzocaine-live-20261031-04",
+  "geometry_provenance": "Existing converged PM7 optimized MOPAC .arc final geometries; no new calculation.",
+  "mopac_version": "MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b",
+  "method": "PM7 gas-phase isolated-molecule geometry optimization",
+  "conversion": "MOPAC .arc final coordinates copied into the atom/bond graph from the corresponding selected MOPAC SDF. Formal charges from the source SMILES are written as M  CHG records for the nitro group because the source SDF omitted its formal N+/O- charge annotations. No geometry edits or measurements.",
+  "structures": [
+    {
+      "species_id": "ethyl-4-nitrobenzoate",
+      "source_selected_sdf": "analyses\\mopac\\optimized-structures\\ethyl-4-nitrobenzoate-pm7-optimized.sdf",
+      "source_selected_sdf_sha256": "7af20c749cdc8260dc6fc86208d5c42e2dd834bf6d380c19be3a232ae09c7603",
+      "multi_conformer_sdf": "analyses\\visualizer\\inputs\\ethyl-4-nitrobenzoate-mopac-pm7-conformers.sdf",
+      "sha256": "7fd21a27e7ab18d77efb2a417ee7ba8d6797d73bdf136f5035681b7409da2e4c",
+      "atom_count": 23,
+      "bond_count": 23,
+      "conformers": [
+        {
+          "conformer_index": 1,
+          "arc_source": "analyses\\mopac\\ethyl-4-nitrobenzoate\\conformer-01\\ethyl-4-nitrobenzoate-conf-01.arc",
+          "arc_sha256": "0619ead6708357052aa211265f09612a2e470fa592490882713b9a88c8bb612a",
+          "heat_of_formation_kcal_mol": -72.22436,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 2,
+          "arc_source": "analyses\\mopac\\ethyl-4-nitrobenzoate\\conformer-02\\ethyl-4-nitrobenzoate-conf-02.arc",
+          "arc_sha256": "f272ad0abaac6ebc80fb2a0d13c3017d803511cf85fa0fea2e3021853db97cc6",
+          "heat_of_formation_kcal_mol": -71.70703,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 3,
+          "arc_source": "analyses\\mopac\\ethyl-4-nitrobenzoate\\conformer-03\\ethyl-4-nitrobenzoate-conf-03.arc",
+          "arc_sha256": "db7e6ca4d3681366974c65aab6e99899c7f8604a3b28211e8d000768579ecfee",
+          "heat_of_formation_kcal_mol": -72.22602,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 4,
+          "arc_source": "analyses\\mopac\\ethyl-4-nitrobenzoate\\conformer-04\\ethyl-4-nitrobenzoate-conf-04.arc",
+          "arc_sha256": "046b9570d92a823b0687ee94b3da5014e9b5e304d307911caaa6c3e5bdfe2db5",
+          "heat_of_formation_kcal_mol": -72.22692,
+          "selected_lowest_pm7_heat_among_five": true
+        },
+        {
+          "conformer_index": 5,
+          "arc_source": "analyses\\mopac\\ethyl-4-nitrobenzoate\\conformer-05\\ethyl-4-nitrobenzoate-conf-05.arc",
+          "arc_sha256": "87da3a94c2068040238252ec9ef5877fa9f87ec1f5863f2280943028733743fe",
+          "heat_of_formation_kcal_mol": -72.225,
+          "selected_lowest_pm7_heat_among_five": false
+        }
+      ]
+    },
+    {
+      "species_id": "benzocaine",
+      "source_selected_sdf": "analyses\\mopac\\optimized-structures\\benzocaine-pm7-optimized.sdf",
+      "source_selected_sdf_sha256": "4d26153e013a3bca04263faf70a7cf2493d7b757e7d7e39f5c3b163ef550d2f8",
+      "multi_conformer_sdf": "analyses\\visualizer\\inputs\\benzocaine-mopac-pm7-conformers.sdf",
+      "sha256": "bf53a2d04da8cd004d6b1012c00680a370a9aff2f8c16841c47c61d1175dba82",
+      "atom_count": 23,
+      "bond_count": 23,
+      "conformers": [
+        {
+          "conformer_index": 1,
+          "arc_source": "analyses\\mopac\\benzocaine\\conformer-01\\benzocaine-conf-01.arc",
+          "arc_sha256": "2610a38e5afc83ca517890fe37f77e8e9ae45c8c814d1255f32bba13d4b5913b",
+          "heat_of_formation_kcal_mol": -73.05519,
+          "selected_lowest_pm7_heat_among_five": true
+        },
+        {
+          "conformer_index": 2,
+          "arc_source": "analyses\\mopac\\benzocaine\\conformer-02\\benzocaine-conf-02.arc",
+          "arc_sha256": "695aae34fdbcb5bfa6e514674529d6091fba4c5a08a88d6eb50b953b369c40c6",
+          "heat_of_formation_kcal_mol": -72.55669,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 3,
+          "arc_source": "analyses\\mopac\\benzocaine\\conformer-03\\benzocaine-conf-03.arc",
+          "arc_sha256": "34345f52d7b3c4e90c68975204d4170d408496c2f0641ded181e1ca933b47d2a",
+          "heat_of_formation_kcal_mol": -73.05396,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 4,
+          "arc_source": "analyses\\mopac\\benzocaine\\conformer-04\\benzocaine-conf-04.arc",
+          "arc_sha256": "1d98ea7d071df59a43d6918a1795e6ec386f761dd5bf7cdec0cfd8d3b0bdce4a",
+          "heat_of_formation_kcal_mol": -73.04302,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 5,
+          "arc_source": "analyses\\mopac\\benzocaine\\conformer-05\\benzocaine-conf-05.arc",
+          "arc_sha256": "dc2276ceb18f10ffcd8602148356bbb624083de2d5128005bf9f1315b53bb6e1",
+          "heat_of_formation_kcal_mol": -72.55694,
+          "selected_lowest_pm7_heat_among_five": false
+        }
+      ]
+    },
+    {
+      "species_id": "p-aminobenzoic-acid",
+      "source_selected_sdf": "analyses\\mopac\\optimized-structures\\p-aminobenzoic-acid-pm7-optimized.sdf",
+      "source_selected_sdf_sha256": "b1e8fe22cc60058eaa0ecd7147320ab88ecfc78e290fda23d57a6a787c07204e",
+      "multi_conformer_sdf": "analyses\\visualizer\\inputs\\p-aminobenzoic-acid-mopac-pm7-conformers.sdf",
+      "sha256": "e9707fcbb6b32bc598980ceb70e515686021ef063d62e5b758d5fa2a0a9c62b2",
+      "atom_count": 17,
+      "bond_count": 17,
+      "conformers": [
+        {
+          "conformer_index": 1,
+          "arc_source": "analyses\\mopac\\p-aminobenzoic-acid\\conformer-01\\p-aminobenzoic-acid-conf-01.arc",
+          "arc_sha256": "8121eb359f0a9dd7a02b1283c6f2effaed47e66fc2a95852ef85ce59ba33cf2e",
+          "heat_of_formation_kcal_mol": -70.46784,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 2,
+          "arc_source": "analyses\\mopac\\p-aminobenzoic-acid\\conformer-02\\p-aminobenzoic-acid-conf-02.arc",
+          "arc_sha256": "8346fb5e08a3f93a1102fe93d5e689967f5c77fe71fc111d3a82dde53fc60702",
+          "heat_of_formation_kcal_mol": -70.46967,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 3,
+          "arc_source": "analyses\\mopac\\p-aminobenzoic-acid\\conformer-03\\p-aminobenzoic-acid-conf-03.arc",
+          "arc_sha256": "53a698d478201a73874ba607dee5468c6dcc56321fc1aacf6ace32a909703abe",
+          "heat_of_formation_kcal_mol": -70.46936,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 4,
+          "arc_source": "analyses\\mopac\\p-aminobenzoic-acid\\conformer-04\\p-aminobenzoic-acid-conf-04.arc",
+          "arc_sha256": "06264d67a1ec29082158f082f634ae052fbaeb21538f54c5db6e5849180d8886",
+          "heat_of_formation_kcal_mol": -70.47009,
+          "selected_lowest_pm7_heat_among_five": true
+        },
+        {
+          "conformer_index": 5,
+          "arc_source": "analyses\\mopac\\p-aminobenzoic-acid\\conformer-05\\p-aminobenzoic-acid-conf-05.arc",
+          "arc_sha256": "f9955d6fa0a7c8f42a4c5bd9522ff7561e7f80e9e41b3de84930f07977dd60f9",
+          "heat_of_formation_kcal_mol": -70.46825,
+          "selected_lowest_pm7_heat_among_five": false
+        }
+      ]
+    },
+    {
+      "species_id": "ethanol",
+      "source_selected_sdf": "analyses\\mopac\\optimized-structures\\ethanol-pm7-optimized.sdf",
+      "source_selected_sdf_sha256": "3f9c5c3bf5b96997d1a1780e2b68b1b2e7b1838c7e564e5195c9e3bde4f641df",
+      "multi_conformer_sdf": "analyses\\visualizer\\inputs\\ethanol-mopac-pm7-conformers.sdf",
+      "sha256": "bb5636c0fa1a9f1135829c37e537d8f9c43800aca649c5731a2b3dbd2f8941ba",
+      "atom_count": 9,
+      "bond_count": 8,
+      "conformers": [
+        {
+          "conformer_index": 1,
+          "arc_source": "analyses\\mopac\\ethanol\\conformer-01\\ethanol-conf-01.arc",
+          "arc_sha256": "713b69bd85124ada92eeaa2227bee47eed9c982e49a58f6fe97a1afce842aea5",
+          "heat_of_formation_kcal_mol": -55.87034,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 2,
+          "arc_source": "analyses\\mopac\\ethanol\\conformer-02\\ethanol-conf-02.arc",
+          "arc_sha256": "8098037439e3d5c1c68fc5293efe51d48d53d35138419964fa0c41f6f5774b6a",
+          "heat_of_formation_kcal_mol": -57.85665,
+          "selected_lowest_pm7_heat_among_five": true
+        },
+        {
+          "conformer_index": 3,
+          "arc_source": "analyses\\mopac\\ethanol\\conformer-03\\ethanol-conf-03.arc",
+          "arc_sha256": "234e7c16564eb28fa8cd34d6bb2211ade70ac0d876ea98947716af11a245ee73",
+          "heat_of_formation_kcal_mol": -57.85516,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 4,
+          "arc_source": "analyses\\mopac\\ethanol\\conformer-04\\ethanol-conf-04.arc",
+          "arc_sha256": "36ce2a32d6b834531f94db82085a3de0ab7fd7dde90c21880d358e34cb484453",
+          "heat_of_formation_kcal_mol": -57.85594,
+          "selected_lowest_pm7_heat_among_five": false
+        },
+        {
+          "conformer_index": 5,
+          "arc_source": "analyses\\mopac\\ethanol\\conformer-05\\ethanol-conf-05.arc",
+          "arc_sha256": "964eaef8cba2d5f604378245ea18611df33e8b89680c3a87518df09bc46a63eb",
+          "heat_of_formation_kcal_mol": -55.86947,
+          "selected_lowest_pm7_heat_among_five": false
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "This package is not a Discovery Studio result.",
+    "No Visualizer screen was opened or captured.",
+    "No GUI distance/angle measurements or accessibility observations have been made.",
+    "Independent molecules are not arranged as a reaction complex."
+  ]
+}

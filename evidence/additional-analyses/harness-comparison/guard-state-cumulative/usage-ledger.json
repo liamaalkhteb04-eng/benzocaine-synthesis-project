@@ -1,0 +1,88 @@
+{
+  "ledger_version": 2,
+  "created_utc": "2026-11-03T12:26:32Z",
+  "source_ledger_path": "analyses/harness-comparison/guard-state/usage-ledger.json",
+  "source_ledger_sha256": "490A9054905B6638A0971D88B2EA3E1D115334ED310E0558300A0A05BE51E38A",
+  "baseline_usage_usd": 0.08,
+  "baseline_usage_basis": "user-reported 2026-11-02 Solar Pro 4 Usage record: $0.08 charged to credits; coupon identity not shown",
+  "max_external_posts": 4,
+  "max_per_harness": 2,
+  "cumulative_budget_usd": 1.0,
+  "new_run_ids_allowed": {
+    "opencode": "opencode-trial-02",
+    "pi": "pi-trial-02"
+  },
+  "calls": [
+    {
+      "harness": "opencode",
+      "run_id": "opencode-trial-01",
+      "reserved_at_utc": "2026-11-03T12:04:34Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:04:37Z",
+      "http_status": 200,
+      "latency_ms": 3773.2,
+      "input_tokens": 65736,
+      "output_tokens": 9,
+      "actual_cost_usd_ex_vat": 0.0197316,
+      "transport_error_type": null,
+      "actual_cost_usd_including_vat": 0.02170476
+    },
+    {
+      "harness": "pi",
+      "run_id": "pi-trial-01",
+      "reserved_at_utc": "2026-11-03T12:06:02Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:06:03Z",
+      "http_status": 400,
+      "latency_ms": 307.5,
+      "input_tokens": null,
+      "output_tokens": null,
+      "actual_cost_usd_ex_vat": null,
+      "transport_error_type": null
+    },
+    {
+      "harness": "opencode",
+      "run_id": "opencode-trial-02",
+      "reserved_at_utc": "2026-11-03T12:27:16Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:27:31Z",
+      "http_status": 200,
+      "latency_ms": 14796.2,
+      "input_tokens": 65764,
+      "output_tokens": 1128,
+      "actual_cost_usd_ex_vat": 0.0210828,
+      "transport_error_type": null,
+      "actual_cost_usd_including_vat": 0.02319108
+    },
+    {
+      "harness": "pi",
+      "run_id": "pi-trial-02",
+      "reserved_at_utc": "2026-11-03T12:27:48Z",
+      "reserved_max_cost_usd_including_vat": 0.132,
+      "state": "reserved_before_upstream_send",
+      "completed_at_utc": "2026-11-03T12:28:20Z",
+      "http_status": 200,
+      "latency_ms": 31586.7,
+      "input_tokens": 65425,
+      "output_tokens": 3458,
+      "actual_cost_usd_ex_vat": 0.0237771,
+      "transport_error_type": null,
+      "actual_cost_usd_including_vat": 0.02615481
+    }
+  ],
+  "account_usage_after_prior_trials": "not independently inspected; previous OpenCode cost estimate $0.0197316 ex VAT; Pi HTTP 400 supplied no usage",
+  "accounting_summary": {
+    "historical_user_reported_credit_debit_usd": 0.08,
+    "trial_01_actual_estimate_including_vat_usd": 0.02170476,
+    "trial_01_unknown_billed_amount_reservation_usd": 0.132,
+    "trial_02_actual_estimate_including_vat_usd": 0.04934589,
+    "cumulative_conservative_upper_bound_usd": 0.608,
+    "authorized_cap_usd": 1.0,
+    "headroom_under_cap_usd": 0.392,
+    "note": "The upper bound counts the prior user-reported $0.08 debit, reserves $0.132 for each earlier attempt (including Pi HTTP 400 with billing unknown), and reserves $0.132 for each new call. Trial 02 token-based estimated cost is lower. Account usage after trial 02 was not independently inspected."
+  },
+  "account_usage_after_trial_02": "not independently inspected; both trial-02 estimates recorded from API token usage; no billing setting changed and no top-up/purchase performed"
+}

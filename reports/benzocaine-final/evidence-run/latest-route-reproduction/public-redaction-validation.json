@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "run_id": "benzocaine-live-repro-20261105-01",
+  "scope": "public copies compared to local original run outputs; only absolute project roots replaced by ${PROJECT_ROOT}; numerical/model output fields unchanged",
+  "checks": [
+    {
+      "file": "routes.json",
+      "original_sha256": "1dd044c8c7bbef9719715cfcf61d9f8a6d9ae3cdbecba30e93c7aa9180814ecb",
+      "public_sha256": "2e8b962bbab67f6d74f3b6f326a71f03834c189e032df78df929013e8ede2e7e",
+      "only_documented_project_root_redaction": true
+    },
+    {
+      "file": "conditions-parrot.json",
+      "original_sha256": "e589d5af6685ef2a86d4279074e4612c178a222a715ea5bb868fed4d38fc4a79",
+      "public_sha256": "c99bd39b29d222732ee39b37088705fb2f1da81d08db98fef4f175842196ab3c",
+      "only_documented_project_root_redaction": true
+    },
+    {
+      "file": "yields-rxn_yields.json",
+      "original_sha256": "f2e4966b651c7de0d149f77d4aa667a4111cc31eb6b87a1f165ebce5c33a9a8a",
+      "public_sha256": "6fd9924ad811f15f49dec91f6d86c682fdd98bc42a9a9cf6392e1f1c7dba5f70",
+      "only_documented_project_root_redaction": true
+    }
+  ],
+  "path_values_or_original_paths_included": false
+}

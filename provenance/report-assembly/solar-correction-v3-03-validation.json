@@ -1,0 +1,84 @@
+{
+  "status": "failed_not_merged",
+  "run_id": "benzocaine-correction-v3-20261120-03",
+  "attempt_id": "solar-correction-v3-03",
+  "request_sha256": "5c75f6c52afb4ad47d03d842609e6cf4b671e4f7843b03542bb30af4d682848f",
+  "response_sha256": "97dc01eb666e00b7c40c0e24e2d1febaead8c32f46a1e436056242a57baa9586",
+  "response_text_sha256": "9cb18edde75621fa84b0a7cb26181d0fa7474852672b3fd5b61d898af19db2b0",
+  "expected_markers": [
+    "BEGIN_ROUTE05_CONDITION_BLOCK",
+    "END_ROUTE05_CONDITION_BLOCK",
+    "BEGIN_SECTION_4_4_READER_SENTENCE",
+    "END_SECTION_4_4_READER_SENTENCE"
+  ],
+  "actual_markers": [
+    "BEGIN_ROUTE05_CONDITION_BLOCK",
+    "END_ROUTE05_CONDITION_BLOCK",
+    "BEGIN_SECTION_4_4_READER_SENTURE",
+    "END_SECTION_4_4_READER_SENTENCE"
+  ],
+  "citation_auditor_regex": "\\[(D\\d+|\\d+)(?:,\\s*PDF\\s+pp\\.[^\\]]+)?\\]",
+  "parsed_section44_citations": [],
+  "checks": {
+    "request_reasoning_none_max_tokens_2000": true,
+    "single_call_finish_stop_content_present": true,
+    "route05_rank1_rank2_rank3_slots_match_raw": true,
+    "route05_CC0CC_identity_D12": true,
+    "route05_FB3_identity_D12": true,
+    "route05_ethyl_acetate_only_excluded_not_misattributed": true,
+    "route05_does_not_state_raw_total_is_three": false,
+    "raw_candidate_total_confirmed_as_15": true,
+    "section44_required_begin_marker_exact": false,
+    "section44_end_marker_exact": true,
+    "section44_one_reader_sentence_without_editorial_meta": true,
+    "section44_citations_parse_as_D1_and_6": false,
+    "model_slot_vs_experimental_role_distinguished": true,
+    "base_report_unchanged": true
+  },
+  "failed_checks": [
+    "route05_does_not_state_raw_total_is_three",
+    "section44_required_begin_marker_exact",
+    "section44_citations_parse_as_D1_and_6"
+  ],
+  "raw_route05_source_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\results\\benzocaine-live-20261031-04\\conditions-parrot.raw.json",
+  "raw_route05_source_sha256": "6ad0fbf86b3e9dbbd71700e8e3e8ab2785c9494c1d49177a78f01e760c5397a6",
+  "raw_route05_candidate_count": 15,
+  "rank1_raw_slots": {
+    "catalyst1": "",
+    "solvent1": "CCO",
+    "solvent2": "",
+    "reagent1": "CCOCC",
+    "reagent2": "FB(F)F"
+  },
+  "citation_auditor_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\scripts\\audit_citations.py",
+  "citation_auditor_sha256": "99411e448d15cfbfffdfbedd9deb0c5f2f2d4f4d77d19435792b6d6bba0403f4",
+  "base_report_path": "<USER_HOME>\\benzocaine-repro-validation-20261119\\reports\\benzocaine-reproduction-validation-20261120-01\\rendered-rebuild-02\\report.md",
+  "base_report_sha256": "efec7bad85b6c0a47e02428541de0ef97a501a202cb3486113da7a0099994c43",
+  "existing_five_blocks_preserved_separately": true,
+  "report_modified": false,
+  "docx_pdf_generated": false,
+  "github_push": false,
+  "actual_usage": {
+    "prompt_tokens": 956,
+    "completion_tokens": 522,
+    "total_tokens": 1478,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "actual_cost_including_vat_usd": 0.00100452,
+  "local_reservation_usd": 0.02,
+  "api_enforced_billing_cap": false,
+  "cumulative_after_usd": 1.08176318,
+  "project_cap_usd": 1.25,
+  "remaining_usd": 0.16823682,
+  "automatic_retries": 0,
+  "additional_calls": 0
+}

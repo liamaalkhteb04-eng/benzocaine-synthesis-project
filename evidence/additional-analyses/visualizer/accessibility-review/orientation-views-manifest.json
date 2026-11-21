@@ -1,0 +1,168 @@
+{
+  "status": "rigid_orientation_variants_for_visualizer_observation_only",
+  "no_new_geometry_or_reaction_calculation": true,
+  "variants": [
+    {
+      "source": "route01-ethyl-4-nitrobenzoate-conf1.sdf",
+      "output": "route01-ethyl-4-nitrobenzoate-conf1-as-loaded.sdf",
+      "orientation_transform": "as-loaded",
+      "rotation_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "record_count": 1,
+      "max_pair_distance_change_angstrom": 8.881784197001252e-16,
+      "source_sha256": "60e537da8ab7a6d75bd938e581161e4471391986cab301226fd5860dfa7354b1",
+      "output_sha256": "8ec88cbeddba1b2e61bc2707e50190eb8b0fdca2e3ed7626f2c0714ade12430e",
+      "for_visual_presentation_only": true
+    },
+    {
+      "source": "route01-ethyl-4-nitrobenzoate-conf1.sdf",
+      "output": "route01-ethyl-4-nitrobenzoate-conf1-rot-x90.sdf",
+      "orientation_transform": "rot-x90",
+      "rotation_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "record_count": 1,
+      "max_pair_distance_change_angstrom": 8.881784197001252e-16,
+      "source_sha256": "60e537da8ab7a6d75bd938e581161e4471391986cab301226fd5860dfa7354b1",
+      "output_sha256": "eb0201685319e1acae62cea3c8925d6c683f30ba764d7efa5e55328aac01ea08",
+      "for_visual_presentation_only": true
+    },
+    {
+      "source": "route01-ethyl-4-nitrobenzoate-conf1.sdf",
+      "output": "route01-ethyl-4-nitrobenzoate-conf1-rot-y90.sdf",
+      "orientation_transform": "rot-y90",
+      "rotation_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "record_count": 1,
+      "max_pair_distance_change_angstrom": 1.7763568394002505e-15,
+      "source_sha256": "60e537da8ab7a6d75bd938e581161e4471391986cab301226fd5860dfa7354b1",
+      "output_sha256": "5b2f81eabd596338f6d791b61ef5c0f6b1a5abc00908acefe922324f9d294a89",
+      "for_visual_presentation_only": true
+    },
+    {
+      "source": "route05-p-aminobenzoic-acid-conf4.sdf",
+      "output": "route05-p-aminobenzoic-acid-conf4-as-loaded.sdf",
+      "orientation_transform": "as-loaded",
+      "rotation_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "record_count": 1,
+      "max_pair_distance_change_angstrom": 0.0,
+      "source_sha256": "4f4643cbe0d3450dd77ca6ef204651e159f1de6b854bbff025524312ca785f48",
+      "output_sha256": "5997737112313818cd3505fabcfb378ba424bc3df78e3302fd4140ad228fb304",
+      "for_visual_presentation_only": true
+    },
+    {
+      "source": "route05-p-aminobenzoic-acid-conf4.sdf",
+      "output": "route05-p-aminobenzoic-acid-conf4-rot-x90.sdf",
+      "orientation_transform": "rot-x90",
+      "rotation_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "record_count": 1,
+      "max_pair_distance_change_angstrom": 4.440892098500626e-16,
+      "source_sha256": "4f4643cbe0d3450dd77ca6ef204651e159f1de6b854bbff025524312ca785f48",
+      "output_sha256": "2f5707f5116d949d25864dcbafa9a4c0ee5bd72061a40b19acad22609f7bac7c",
+      "for_visual_presentation_only": true
+    },
+    {
+      "source": "route05-p-aminobenzoic-acid-conf4.sdf",
+      "output": "route05-p-aminobenzoic-acid-conf4-rot-y90.sdf",
+      "orientation_transform": "rot-y90",
+      "rotation_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "record_count": 1,
+      "max_pair_distance_change_angstrom": 8.881784197001252e-16,
+      "source_sha256": "4f4643cbe0d3450dd77ca6ef204651e159f1de6b854bbff025524312ca785f48",
+      "output_sha256": "ec9fcf33323916ea4e926b0f7f7cda09671fe6e68bdb352c93e0e4f80b76e3f9",
+      "for_visual_presentation_only": true
+    }
+  ]
+}

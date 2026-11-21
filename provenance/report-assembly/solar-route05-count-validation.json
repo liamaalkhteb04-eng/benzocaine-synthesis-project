@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "run_id": "benzocaine-route05-count-correction-20261121-01",
+  "attempt_id": "solar-route05-count-correction-01",
+  "request_sha256": "f9c30fbe951f17c106052e6dd52f91f58f370f774726d0510830b0758e7d5dae",
+  "captured_response_sha256": "a69e454cb516dd0b517f152679334ae38c5248e9a169c11f096707c4f29ab802",
+  "recovered_text_sha256": "a02df3bad1b9ebf7a9b9a6033b0accb6dbac69b361431fc98513866094ed1fa6",
+  "reversible_latin1_utf8_recovery": true,
+  "validation_checks": {
+    "markers_exactly_once": true,
+    "one_reader_sentence_only": true,
+    "raw_candidate_total_15_matches_source": true,
+    "rank_1_to_3_scope_matches_request": true,
+    "D1_citation_present": true,
+    "no_other_chemistry_or_slots_rewritten": true,
+    "finish_reason_stop": true,
+    "reasoning_tokens_zero": true
+  },
+  "sentence": "route-05/step-02의 반응 `CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1`에 대해 Parrot이 제시한 원시 후보는 총 15개이며 [D1], 이어지는 설명 문단은 그중 rank 1, rank 2, rank 3만을 각각 별도의 슬롯 구성으로 다룬다.",
+  "raw_source_path": "results/benzocaine-live-20261031-04/conditions-parrot.raw.json",
+  "raw_source_sha256": "6ad0fbf86b3e9dbbd71700e8e3e8ab2785c9494c1d49177a78f01e760c5397a6",
+  "source_candidate_count": 15,
+  "linked_step": [
+    {
+      "route_id": "route-05",
+      "step_id": "step-02"
+    }
+  ],
+  "solar_text_provenance_note": "HTTP client capture was decoded as Latin-1. A reversible byte-preserving Latin-1-to-UTF-8 recovery was saved as a derivative; the captured JSON is unchanged."
+}

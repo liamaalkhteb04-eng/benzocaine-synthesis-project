@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "run_id": "benzocaine-report-reproduction-20261119-01",
+  "upstream_model": "solar-pro4-260806",
+  "http_status": 200,
+  "finish_reason": "stop",
+  "latency_ms": 82461.9,
+  "usage": {
+    "prompt_tokens": 66405,
+    "completion_tokens": 11259,
+    "total_tokens": 77664,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "estimated_api_cost_usd_ex_vat": 0.0334323,
+  "estimated_api_cost_usd_including_vat": 0.03677553,
+  "reserved_max_cost_usd_including_vat": 0.1716,
+  "max_tokens": 35000,
+  "retry_count": 0,
+  "api_key_logged": false,
+  "failure_type": null
+}
