@@ -1,0 +1,43 @@
+ethanol | MOPAC PM7 conformer 2
+     MOPAC PM7      3D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+    0.9009    0.1624    0.0123 C   0  0  0  0  0  0  0  0  0  1  0  0
+   -0.4692   -0.5050    0.0036 C   0  0  0  0  0  0  0  0  0  2  0  0
+   -1.4713    0.3877   -0.4421 O   0  0  0  0  0  0  0  0  0  3  0  0
+    1.1201    0.6123   -0.9653 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6968   -0.5584    0.2298 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9622    0.9595    0.7608 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7569   -0.8847    1.0004 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5317   -1.3253   -0.7368 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4361    1.2263    0.0550 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+  2  3  1  0
+  1  4  1  0
+  1  5  1  0
+  1  6  1  0
+  2  7  1  0
+  2  8  1  0
+  3  9  1  0
+M  END
+>  <species_id>
+ethanol
+
+>  <geometry_source>
+MOPAC PM7 optimized .arc final geometry
+
+>  <mopac_version>
+MOPAC version 23.2.5 commit 7594e92530d2b6348c70e98f9758a007e5941c5b
+
+>  <method>
+PM7 gas-phase isolated-molecule geometry optimization
+
+>  <conformer_index>
+2
+
+>  <heat_of_formation_kcal_mol>
+-57.85665
+
+>  <selected_pm7_geometry>
+true
+$$$$
