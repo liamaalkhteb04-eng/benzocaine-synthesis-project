@@ -1,0 +1,272 @@
+{
+  "raw_Word_PDF": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-pressure-corrected-20261128-01\\output\\raw-word-export.pdf",
+  "raw_Word_PDF_sha256": "f2c8f45ad5cdc0c26605a6984d2ade325224352bd8dc5e41a206b2f16bab8bb8",
+  "final_PDF_sha256": "878aba8160fe4a1b7f035f64ab5ed08164619912734b4be818a06bbe6355c890",
+  "actual_pages": 20,
+  "text_extraction_before_after_exactly_equal": true,
+  "all13_image_page_bboxes_unchanged": true,
+  "source_images_not_modified": true,
+  "reason": "Word PDF exporter resamples/reencodes PNGs; restore the exact original13 PNGs at identical xrefs/placement without changing page instructions, captions, font or text. This is export fidelity, not new figure generation.",
+  "figures": [
+    {
+      "figure_id": "old-target",
+      "page": 1,
+      "raw_Word_raster_pixels": [
+        550,
+        385
+      ],
+      "restored_source_pixels": [
+        1000,
+        700
+      ],
+      "placement_bbox_unchanged": [
+        198.4499969482422,
+        350.9999694824219,
+        396.80999755859375,
+        489.8499755859375
+      ],
+      "nearest_image_verification_RMSE": 1.6979548779088343,
+      "source_sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa"
+    },
+    {
+      "figure_id": "SCI-ROUTES",
+      "page": 2,
+      "raw_Word_raster_pixels": [
+        1300,
+        1439
+      ],
+      "restored_source_pixels": [
+        1950,
+        2160
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        246.99993896484375,
+        531.6500244140625,
+        765.3999633789062
+      ],
+      "nearest_image_verification_RMSE": 3.9916773192429127,
+      "source_sha256": "7100bf82d7b03c341933e90036f065159b5ec33aa1415411b8dbc2279113e711"
+    },
+    {
+      "figure_id": "DETAIL-route-01-step-01",
+      "page": 5,
+      "raw_Word_raster_pixels": [
+        1300,
+        759
+      ],
+      "restored_source_pixels": [
+        1950,
+        1140
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        42.499969482421875,
+        531.6500244140625,
+        316.0999755859375
+      ],
+      "nearest_image_verification_RMSE": 2.0043447116326814,
+      "source_sha256": "9c11e8ea081456805936dce833733aed2557a95c9d2ab7dd2276aa184aeafffd"
+    },
+    {
+      "figure_id": "DETAIL-route-02-step-01",
+      "page": 6,
+      "raw_Word_raster_pixels": [
+        1300,
+        759
+      ],
+      "restored_source_pixels": [
+        1950,
+        1140
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        42.499969482421875,
+        531.6500244140625,
+        316.0999755859375
+      ],
+      "nearest_image_verification_RMSE": 2.0124135888075165,
+      "source_sha256": "7202872646da0d4462151d7b3936163b1b80f1783292519d4bad8f6a33c5056d"
+    },
+    {
+      "figure_id": "RESTORE-supply",
+      "page": 7,
+      "raw_Word_raster_pixels": [
+        1300,
+        759
+      ],
+      "restored_source_pixels": [
+        1950,
+        1140
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        57.749969482421875,
+        531.6500244140625,
+        331.3499755859375
+      ],
+      "nearest_image_verification_RMSE": 1.8086542963869738,
+      "source_sha256": "594c149c4f3f3b31c173181e9e4a1d70d8b5cafd04a077100ce7529fe2e8b0f7"
+    },
+    {
+      "figure_id": "DETAIL-route-05-step-02",
+      "page": 8,
+      "raw_Word_raster_pixels": [
+        1300,
+        999
+      ],
+      "restored_source_pixels": [
+        1950,
+        1500
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        57.749969482421875,
+        531.6500244140625,
+        417.7499694824219
+      ],
+      "nearest_image_verification_RMSE": 1.8128397409555888,
+      "source_sha256": "13d862b0fc79b943900e9a89f51f885925debf6cd906d855ea85585de549096b"
+    },
+    {
+      "figure_id": "SCI-MOPAC",
+      "page": 13,
+      "raw_Word_raster_pixels": [
+        1300,
+        1039
+      ],
+      "restored_source_pixels": [
+        1950,
+        1560
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        42.5,
+        531.6500244140625,
+        416.8999938964844
+      ],
+      "nearest_image_verification_RMSE": 1.9627165768136994,
+      "source_sha256": "01ce8394e80fe42e60cb7ca16bb95ed7a35f7ad0f16ce63dd17274f10fd43596"
+    },
+    {
+      "figure_id": "SCI-EPI",
+      "page": 14,
+      "raw_Word_raster_pixels": [
+        1300,
+        1020
+      ],
+      "restored_source_pixels": [
+        1950,
+        1530
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        286.49993896484375,
+        531.6500244140625,
+        653.699951171875
+      ],
+      "nearest_image_verification_RMSE": 1.9262942669321022,
+      "source_sha256": "383fc1fbbd544a875971e45d42c17d87c73276c30378a1159bd5f9b50bcc304f"
+    },
+    {
+      "figure_id": "RESTORE-distance",
+      "page": 15,
+      "raw_Word_raster_pixels": [
+        1542,
+        981
+      ],
+      "restored_source_pixels": [
+        1542,
+        981
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        57.999969482421875,
+        531.5900268554688,
+        355.6999816894531
+      ],
+      "nearest_image_verification_RMSE": 3.393085599444071,
+      "source_sha256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f"
+    },
+    {
+      "figure_id": "RESTORE-angle",
+      "page": 15,
+      "raw_Word_raster_pixels": [
+        1542,
+        981
+      ],
+      "restored_source_pixels": [
+        1542,
+        981
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        384.699951171875,
+        531.5900268554688,
+        682.3999633789062
+      ],
+      "nearest_image_verification_RMSE": 3.18322200931514,
+      "source_sha256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1"
+    },
+    {
+      "figure_id": "home-19_paba_ball_and_stick",
+      "page": 16,
+      "raw_Word_raster_pixels": [
+        637,
+        343
+      ],
+      "restored_source_pixels": [
+        1366,
+        736
+      ],
+      "placement_bbox_unchanged": [
+        56.70000076293945,
+        271.0,
+        286.2799987792969,
+        394.70001220703125
+      ],
+      "nearest_image_verification_RMSE": 3.5478281301821606,
+      "source_sha256": "ff8a95b2ef5a08595b8752ea630367c75b85fec48cb3e2be7b737ca822a5f6ab"
+    },
+    {
+      "figure_id": "RESTORE-paba-edge",
+      "page": 16,
+      "raw_Word_raster_pixels": [
+        637,
+        362
+      ],
+      "restored_source_pixels": [
+        1215,
+        690
+      ],
+      "placement_bbox_unchanged": [
+        297.6499938964844,
+        270.9999694824219,
+        527.1799926757812,
+        401.3499755859375
+      ],
+      "nearest_image_verification_RMSE": 1.4119696904817571,
+      "source_sha256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b"
+    },
+    {
+      "figure_id": "home-13_ethanol_ball_and_stick",
+      "page": 16,
+      "raw_Word_raster_pixels": [
+        1366,
+        736
+      ],
+      "restored_source_pixels": [
+        1366,
+        736
+      ],
+      "placement_bbox_unchanged": [
+        63.650001525878906,
+        488.6999816894531,
+        531.6300048828125,
+        740.8499755859375
+      ],
+      "nearest_image_verification_RMSE": 0.0,
+      "source_sha256": "e2257ba9989699f1c79182934e8fd5375fb24cf197b421cfd4ce2c7e7725fd3f"
+    }
+  ]
+}

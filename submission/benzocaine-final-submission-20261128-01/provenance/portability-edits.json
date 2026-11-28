@@ -1,0 +1,51 @@
+{
+  "historical_home_path_markers": [
+    {
+      "file": "report/records/reused-Solar-spans.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "data/evidence/current/reconciled-primary-facts.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "data/evidence/current/report-citation-registry.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "data/evidence/current/source-projections.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "data/evidence/files/S05__execution_facts.md",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "data/evidence/files/S06__four_step_yield_mapping.csv",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "data/evidence/files/S22__README.md",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "provenance/final-validation/PDF-image-fidelity.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "provenance/final-validation/word-export.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    },
+    {
+      "file": "authoring/section-pipeline/data/evidence-units.json",
+      "type": "historical machine-home path replaced by non-operational provenance marker"
+    }
+  ],
+  "copied_code_changes": [
+    "Removed one machine-specific sys.path injection; dependencies installed in reader environment.",
+    "Renderer/contract/image restorer resolve report/ relative to package code/.",
+    "Raw response hash lookup points to provenance/pressure-call/."
+  ],
+  "fresh_writing_overlay": "OrgSyn pressure and current budget only; original input evidence preserved separately.",
+  "scientific_report_prose_changed": false
+}

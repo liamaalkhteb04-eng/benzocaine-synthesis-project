@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "required_file_missing": [],
+  "figure_count": 13,
+  "figure_hash_failures": [],
+  "checked_local_links": 168,
+  "broken_local_links": [],
+  "Python_syntax_errors": [],
+  "literal_secret_candidates": [],
+  "forbidden_env_files": [],
+  "absolute_runtime_paths": [],
+  "scope": "Offline packaging/path/credential checks; no completed scientific analysis repeated. Historical non-link origin strings are provenance, not runtime paths.",
+  "Solar_calls": 0,
+  "images_note": "13 scientific images are exact previously reviewed files; no new image OCR performed."
+}

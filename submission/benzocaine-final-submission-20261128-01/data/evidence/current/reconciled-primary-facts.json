@@ -1,0 +1,155 @@
+{
+  "document_role": "authoring input and source audit only, not final report prose",
+  "yield_evaluation": {
+    "checkpoint": "uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2",
+    "stored_eval_results": {
+      "eval_loss": 0.8820414721228422,
+      "r2": 0.11658362440393955
+    },
+    "saved_checkpoint_args": {
+      "num_train_epochs": 2,
+      "manual_seed": 42,
+      "max_seq_length": 300,
+      "train_batch_size": 16,
+      "eval_batch_size": 8,
+      "regression": true,
+      "num_labels": 1,
+      "learning_rate": 1.562e-05,
+      "evaluate_during_training": true
+    },
+    "public_gram_table_counts": {
+      "total": 197619,
+      "train": 158095,
+      "test": 39524
+    },
+    "current_training_code_defaults_distinct": {
+      "num_train_epochs": 15,
+      "evaluate_during_training": false
+    },
+    "paper_context": "non-smoothed USPTO gram/random Table3 rounds0.117; printedp7/PDFp8; test_df supplied as eval_df",
+    "limits": [
+      "stored author evaluation, not newly rerun",
+      "not per-query or benzocaine-specific accuracy",
+      "saved args and present script differ; original optimizer/selection logs unavailable",
+      "do not call this a fresh blind independent validation or accuracy11.7%",
+      "official reaction SMILES may contain recorded agents; missing numerical conditions alone not automatic incompatibility"
+    ]
+  },
+  "route05_raw_tree_nodes": [
+    {
+      "pointer": "/routes/route-05/children/0/children/0",
+      "smiles": "CCO",
+      "in_stock": false
+    },
+    {
+      "pointer": "/routes/route-05/children/0/children/0/children/0/children/0",
+      "smiles": "CC(=O)O",
+      "in_stock": true
+    },
+    {
+      "pointer": "/routes/route-05/children/0/children/1",
+      "smiles": "Nc1ccc(C(=O)O)cc1",
+      "in_stock": true
+    }
+  ],
+  "route05_materialized_steps": [
+    {
+      "pointer": "/report_steps/2",
+      "route_id": "route-05",
+      "step_id": "step-01",
+      "precursor_smiles": [
+        "CC(=O)O"
+      ],
+      "precursor_stock_flags": [
+        true
+      ],
+      "reaction_smiles": "CC(=O)O>>CCO"
+    },
+    {
+      "pointer": "/report_steps/3",
+      "route_id": "route-05",
+      "step_id": "step-02",
+      "precursor_smiles": [
+        "CCO",
+        "Nc1ccc(C(=O)O)cc1"
+      ],
+      "precursor_stock_flags": [
+        false,
+        true
+      ],
+      "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1"
+    }
+  ],
+  "route05_resolution": "Both the acetic-acid terminal and materialized step01 precursor are True. Step02 ethanol is False and PABA True. Report statement first precursor False conflicts with these records; correct it, not just relabel as uncertain. Why an intermediate is expanded versus terminal stock is a distinct graph question.",
+  "hydride_water_raw_candidate": {
+    "route_id": "route-05",
+    "step_id": "step-01",
+    "rank": "2",
+    "solvent1": "C1CCOC1",
+    "reagent1": "O",
+    "reagent2": "[Al+3].[H-].[H-].[H-].[H-].[Li+]"
+  },
+  "hydride_review_caution": "Old review prose sometimes calls water reagent2; raw selected candidate has water reagent1 and hydride reagent2. Raw CSV outranks that prose. No addition order/quench record exists.",
+  "harness_raw_request_observations": [
+    {
+      "run": "opencode-trial-02",
+      "original_path": "external-originals/benzocaine-synthesis-project\\results\\harness-comparison\\runs\\opencode-trial-02\\request.redacted.json",
+      "sha256": "281f6830e58d9815d0e51cb05e2e9726c9431a28a68db19aebe208517c89301c",
+      "settings": {
+        "model": "solar-pro4-260806",
+        "temperature": 0,
+        "reasoning_effort": "none",
+        "max_tokens": 10000,
+        "n": 1,
+        "stream": false
+      },
+      "message_bytes_by_role": {
+        "system": 1348,
+        "user": 199764
+      },
+      "message_role_sequence": [
+        "system",
+        "user",
+        "assistant"
+      ],
+      "content_container_types": [
+        "str",
+        "str",
+        "str"
+      ],
+      "assistant_message_bytes": 750,
+      "system_sha256": "46a5ad1c8ea5a5e275fb81ce5d4466125fc842a4252f33b137d1fd6570ceaf40",
+      "user_sha256": "474614aadc5fc1f0a5ca2629317a84264f4960eff9eafeaeca85d255354b5705",
+      "tools_key_present": false
+    },
+    {
+      "run": "pi-trial-02",
+      "original_path": "external-originals/benzocaine-synthesis-project\\results\\harness-comparison\\runs\\pi-trial-02\\request.redacted.json",
+      "sha256": "0240e3bea043e1cc03176c1e8a1cd614cdd2b19c7af40c6e2f1f4b11d79da8dd",
+      "settings": {
+        "model": "solar-pro4-260806",
+        "temperature": 0,
+        "reasoning_effort": "none",
+        "max_tokens": 10000,
+        "n": 1,
+        "stream": false
+      },
+      "message_bytes_by_role": {
+        "system": 585,
+        "user": 199832
+      },
+      "message_role_sequence": [
+        "system",
+        "user"
+      ],
+      "content_container_types": [
+        "str",
+        "list"
+      ],
+      "assistant_message_bytes": 0,
+      "system_sha256": "f4e3ebdd644d62ace74e5130a25b51903876ee7f432f522e2d1d5cdec163759d",
+      "user_sha256": "684afb71e172ea914548f4ca7611deae84377b21ff14daa1fa305abf4389179e",
+      "tools_key_present": false
+    }
+  ]
+}

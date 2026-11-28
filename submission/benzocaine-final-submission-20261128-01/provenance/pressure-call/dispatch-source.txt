@@ -1,0 +1,75 @@
+"""User-approved four-call continuation. Exactly one POST per explicit invocation."""
+from pathlib import Path
+from decimal import Decimal as D
+import sys,json,os,urllib.request,urllib.error,shutil,datetime
+REPO=Path(__file__).resolve().parent.parent
+PREP=REPO/'reports/benzocaine-pressure-inputs-20261128-01'
+sys.path.insert(0,str(REPO/'reports/benzocaine-s01-evidence-prep-20261127-01'));import evidence_tools as e
+p=e.core;RUN=REPO/'reports/benzocaine-pressure-corrected-20261128-01'
+ORDER=['PRESSURE']
+def main():
+ sid=sys.argv[1];assert sid in ORDER
+ cfg=p.load(e.PACKAGE/'config.json');plan=p.load(PREP/'remaining-cost-upper.json')
+ costs={x['section_id']:x for x in plan['per_request']}
+ assert sum(D(str(x['upper_USD_VAT'])) for x in costs.values())<=D('.01')
+ overlay=p.load(PREP/'continuation-overlay.json')
+ assert p.bundle_hash()==overlay['original_base_bundle_SHA256']
+ for s,pins in overlay['accepted_section_pins'].items():
+  for folder,ext in [('responses','json'),('raw-markdown','md')]:assert p.digest(e.RUN/folder/f'{s}.{ext}')==pins[folder]
+ if not (RUN/'execution/approval.json').exists():
+  assert sid=='PRESSURE'
+  base=p.latest_cumulative(cfg);assert base==D(str(plan['project_current_USD']))
+  for folder in ['execution','requests','responses','raw-markdown','validation','attempts']:(RUN/folder).mkdir(parents=True,exist_ok=True)
+  for s in ORDER:shutil.copyfile(PREP/'requests'/f'{s}.json',RUN/'requests'/f'{s}.json')
+  for s in ['S02','S05']:
+   for folder,ext in [('responses','json'),('raw-markdown','md'),('validation','semantic.json')]:shutil.copyfile(e.RUN/folder/f'{s}.{ext}',RUN/folder/f'{s}.{ext}')
+  p.save(RUN/'execution/approval.json',{'prior_project_USD':float(base),'work_cap_USD_VAT':.01,'project_cap_USD':1.5,'free_credit_only':True,'free_credit_basis':'User Console9.97/10.00 Nov26; expiry2027-01-28; prior recorded official free-first rule. Live debit/Postpaid not observed. No payment or recharge.','order':ORDER,'max_POST_per_section':1,'automatic_retries':0,'reused':['S02','S05'],'test_design':'Section authoring and correction execution; not repeated reproducibility'})
+  protected={str(f.relative_to(REPO)):p.digest(f) for root in [e.RUN,e.PACKAGE,PREP,REPO/'reports/benzocaine-edited-final-20261127-01'] for f in root.rglob('*') if f.is_file()}
+  p.save(RUN/'execution/protected-before.json',protected)
+ auth=p.load(RUN/'execution/approval.json');base=D(str(auth['prior_project_USD']));i=ORDER.index(sid)
+ for s in ORDER[:i]:assert p.load(RUN/'validation'/f'{s}.semantic.json')['pass'] is True
+ assert not (RUN/'attempts'/f'{sid}.claim').exists(),'No retry'
+ used=sum((D(str(p.load(RUN/'execution'/f'{s}.status.json')['accounted_USD_VAT'])) for s in ORDER[:i]),D(0))
+ remaining=sum((D(str(costs[s]['upper_USD_VAT'])) for s in ORDER[i:]),D(0))
+ assert used+remaining<=D('.01') and p.latest_cumulative(cfg)+remaining<=D('1.50')
+ assert D('9.97')-base-used>=remaining
+ req=RUN/'requests'/f'{sid}.json';assert p.digest(req)==costs[sid]['request_SHA256']
+ request=p.load(req);upper=D(str(costs[sid]['upper_USD_VAT']))
+ key=os.environ.get('UPSTAGE_API_KEY','').strip()
+ if not key:
+  for line in Path('external-originals/benzocaine-synthesis-project/.env').read_text(encoding='utf-8-sig').splitlines():
+   if '=' in line and line.split('=',1)[0].strip()=='UPSTAGE_API_KEY':key=line.split('=',1)[1].strip().strip('\"\'');break
+ assert key,'No credential; no POST'
+ p.save(RUN/'execution'/f'{sid}.preflight.json',{'latest_project_USD':float(p.latest_cumulative(cfg)),'work_used_USD_VAT':float(used),'remaining_reserved_USD_VAT':float(remaining),'request_SHA256':p.digest(req),'model':request['model'],'max_tokens':request['max_tokens'],'all_caps_pass':True})
+ with (RUN/'attempts'/f'{sid}.claim').open('x') as f:f.write(datetime.datetime.now(datetime.timezone.utc).isoformat())
+ raw=b'';http=None;error=None
+ try:
+  post=urllib.request.Request('https://api.upstage.ai/v1/chat/completions',data=req.read_bytes(),headers={'Content-Type':'application/json','Authorization':'Bearer '+key},method='POST')
+  with urllib.request.build_opener(p.NoRedirect).open(post,timeout=1200) as r:http=r.status;raw=r.read()
+ except urllib.error.HTTPError as ex:http=ex.code;raw=ex.read();error='HTTPError'
+ except Exception as ex:error=type(ex).__name__
+ raw=raw.replace(key.encode(),b'[REDACTED]');(RUN/'responses'/f'{sid}.json').write_bytes(raw)
+ try:r=json.loads(raw)
+ except ValueError:r={}
+ usage=r.get('usage',{});it=usage.get('prompt_tokens');ot=usage.get('completion_tokens');priced=None
+ if isinstance(it,int) and isinstance(ot,int) and it>=0 and 0<=ot<=request['max_tokens']:priced=(D(it)*D('.30')+D(ot)*D('1.2'))*D('1.1')/D(1000000)
+ charge=priced if priced is not None else upper
+ choice=(r.get('choices') or [{}])[0];body=choice.get('message',{}).get('content');errors=[]
+ if http!=200 or choice.get('finish_reason')!='stop':errors.append('transport_or_completion')
+ if r.get('model') not in ['solar-pro4-260806','solar-pro-4-260806']:errors.append('model')
+ if priced is None or priced>upper:errors.append('usage_or_cost')
+ if not isinstance(body,str):errors.append('missing_content')
+ if isinstance(body,str):
+  p.save(RUN/'raw-markdown'/f'{sid}.md',body)
+  p.save(RUN/'validation'/f'{sid}.numbered.txt','\n'.join(f'{i}: {x}' for i,x in enumerate(body.splitlines(),1)))
+  if sid=='PRESSURE':
+   check={'structural_pass':bool(body.strip()) and len(body.splitlines())<=3,'semantic_status':'PENDING'}
+  else:
+   units,registry,figures,tables=p.context_data(cfg);section=next(x for x in cfg['sections'] if x['id']==sid)
+   check=p.validate(section,body,cfg,units,registry,figures,tables)
+  p.save(RUN/'validation'/f'{sid}.json',check)
+ record={'section_id':sid,'http':http,'model':r.get('model'),'finish':choice.get('finish_reason'),'usage':usage,'accounted_USD_VAT':float(charge),'usage_priced_USD_VAT':float(priced) if priced is not None else None,'upper_USD_VAT':float(upper),'POST_attempts':1,'retries':0,'transport_errors':errors,'error':error,'semantic_review':'PENDING','response_SHA256':p.digest(RUN/'responses'/f'{sid}.json')}
+ p.save(RUN/'execution'/f'{sid}.status.json',record)
+ p.save(RUN/'execution/cumulative-ledger-after.json',{'prior_project_USD':float(base),'work_accounted_USD_VAT':float(used+charge),'project_cumulative_conservative_USD':float(base+used+charge),'work_cap_USD_VAT':.01,'project_cap_USD':1.5,'remaining_reserved_USD_VAT':float(remaining-upper),'calls':i+1,'retries':0,'status':'PENDING_SEMANTIC_REVIEW','actual_Console_debit':None,'Paid_with_credits':None,'Postpaid':None})
+ print(json.dumps(record,ensure_ascii=False))
+if __name__=='__main__':main()

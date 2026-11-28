@@ -1,0 +1,11 @@
+{
+  "model": "solar-pro4-260806",
+  "reasoning_effort": "none",
+  "temperature": 0,
+  "default_mode": "LAYOUT_SAVED",
+  "saved_manuscript": "report/report.md",
+  "figure_manifest": "report/figure-manifest.render.json",
+  "output_directory": "work/reflow-new",
+  "automatic_retries": 0,
+  "execute_Solar": false
+}

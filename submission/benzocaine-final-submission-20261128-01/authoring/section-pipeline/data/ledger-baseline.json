@@ -1,0 +1,20 @@
+{
+  "prior_project_USD": 1.38590108,
+  "work_accounted_USD_VAT": 0.00043824,
+  "project_cumulative_conservative_USD": 1.38633932,
+  "work_cap_USD_VAT": 0.01,
+  "project_cap_USD": 1.5,
+  "remaining_reserved_USD_VAT": 0,
+  "calls": 1,
+  "retries": 0,
+  "status": "PASSED_ONE_SENTENCE_20PAGE_CORRECTION",
+  "actual_Console_debit": null,
+  "Paid_with_credits": null,
+  "Postpaid": null,
+  "closed": true,
+  "actual_DOCX_pages": 20,
+  "actual_PDF_pages": 20,
+  "images": 13,
+  "automatic_retries": 0,
+  "repeated_reproducibility_verified": false
+}

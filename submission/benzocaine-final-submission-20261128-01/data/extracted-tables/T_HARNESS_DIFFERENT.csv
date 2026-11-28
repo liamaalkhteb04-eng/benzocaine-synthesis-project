@@ -1,0 +1,6 @@
+분류,항목,OpenCode,Pi,근거 범위
+실제로 다른 항목,요청 system 바이트,1348,585,"serialized API request metadata, not generated response"
+실제로 다른 항목,요청 user 바이트,199764,199832,"serialized API request metadata, not generated response"
+실제로 다른 항목,요청 메시지 역할 순서,"[""system"",""user"",""assistant""]","[""system"",""user""]","serialized API request metadata, not generated response"
+실제로 다른 항목,요청 content 컨테이너 유형,"[""str"",""str"",""str""]","[""str"",""list""]","serialized API request metadata, not generated response"
+실제로 다른 항목,요청 assistant 메시지 바이트,750,0,"serialized API request metadata, not generated response"

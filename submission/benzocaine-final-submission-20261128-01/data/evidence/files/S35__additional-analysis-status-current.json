@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-11-03",
+  "prediction_run": "benzocaine-live-20261031-04",
+  "routes_conditions_yields": "completed; predictions, not experimental validation",
+  "mopac": {
+    "status": "completed",
+    "result": "25/25 isolated-molecule PM7 jobs converged",
+    "limit": "no transition state, barrier, rate, success, or yield evidence"
+  },
+  "epi_suite": {
+    "status": "partial",
+    "result": "web results received; service health degraded; estimated values must be separated from database records"
+  },
+  "discovery_studio_visualizer": {
+    "status": "partial_actual_gui_observation",
+    "new_visualizer_screens": 9,
+    "previous_actual_measurements": 4,
+    "new_measurements": 0,
+    "external_reactant_approach": "not measured",
+    "reaction_pair_created": false
+  },
+  "harness_comparison": {
+    "status": "completed_two_one_shot_drafts",
+    "opencode": "HTTP 200",
+    "pi": "HTTP 200",
+    "general_ranking_supported": false
+  },
+  "final_report": {
+    "status": "not_generated",
+    "solar_calls_this_update": 0,
+    "max_pages_including_references": 20,
+    "author": "Solar Pro 4"
+  },
+  "github_push": false,
+  "supersedes": "results/benzocaine-live-20261031-04/additional-analysis-status.json and historical frozen harness payload status blocks"
+}

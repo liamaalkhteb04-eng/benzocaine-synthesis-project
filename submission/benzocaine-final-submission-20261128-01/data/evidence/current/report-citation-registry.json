@@ -1,0 +1,377 @@
+{
+  "1": {
+    "type": "external",
+    "supports": "Benzocaine identity, formula and structure identifier",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2337",
+    "current_report_definition": "1. Benzocaine identity, formula, structure identifier. PubChem CID 2337. https://pubchem.ncbi.nlm.nih.gov/compound/2337"
+  },
+  "2": {
+    "type": "external",
+    "supports": "AiZynthFinder retrospective route-planning method",
+    "url": "https://github.com/MolecularAI/aizynthfinder",
+    "current_report_definition": "2. AiZynthFinder retrospective route-planning method. [D1] https://github.com/MolecularAI/aizynthfinder"
+  },
+  "3": {
+    "type": "external",
+    "supports": "SynthEx project identity and release-status statements only",
+    "url": "https://github.com/schwallergroup/synthex",
+    "current_report_definition": "3. SynthEx project identity and release-status statements only. https://github.com/schwallergroup/synthex"
+  },
+  "4": {
+    "type": "external",
+    "supports": "ASKCOS v2 context recommender identity and service guidance",
+    "url": "https://gitlab.com/mlpds_mit/askcosv2/context_recommender",
+    "current_report_definition": "4. ASKCOS v2 context recommender identity and service guidance. https://gitlab.com/mlpds_mit/askcosv2/context_recommender"
+  },
+  "5": {
+    "type": "external",
+    "supports": "Parrot reaction-condition prediction method and output fields",
+    "url": "https://github.com/wangxr0526/Parrot",
+    "current_report_definition": "5. Parrot reaction-condition prediction method and output fields. https://github.com/wangxr0526/Parrot"
+  },
+  "6": {
+    "type": "external",
+    "supports": "rxn_yields reaction-SMILES yield-prediction model",
+    "url": "https://github.com/rxn4chemistry/rxn_yields",
+    "current_report_definition": "6. rxn_yields reaction-SMILES yield-prediction model. [6] https://github.com/rxn4chemistry/rxn_yields",
+    "source_type": "official external source already in project; no new fetch"
+  },
+  "7": {
+    "type": "external",
+    "supports": "DRFP reaction fingerprint library identity",
+    "url": "https://github.com/reymond-group/drfp",
+    "current_report_definition": "7. DRFP reaction fingerprint library identity. https://github.com/reymond-group/drfp"
+  },
+  "8": {
+    "type": "external",
+    "supports": "rxn_yields normalization implementation and training-statistic procedure",
+    "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+    "current_report_definition": "8. rxn_yields normalization implementation and training-statistic procedure. [6] https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+    "source_type": "official external source already in project; no new fetch"
+  },
+  "9": {
+    "type": "external",
+    "supports": "USPTO reaction-yield dataset source",
+    "url": "https://ibm.ent.box.com/v/uspto-yields-data",
+    "current_report_definition": "9. USPTO reaction-yield dataset source. https://ibm.ent.box.com/v/uspto-yields-data",
+    "source_type": "official external source already in project; no new fetch"
+  },
+  "10": {
+    "type": "external",
+    "supports": "MOPAC PM7 method documentation",
+    "url": "https://openmopac.net/Manual/pm7.html",
+    "current_report_definition": "10. MOPAC PM7 method documentation. [10][D5] https://openmopac.net/Manual/pm7.html",
+    "source_type": "official external source already in project; no new fetch"
+  },
+  "11": {
+    "type": "external",
+    "supports": "MOPAC geometry gradient/GNORM criterion documentation",
+    "url": "https://openmopac.net/Manual/precision.html",
+    "current_report_definition": "11. MOPAC geometry gradient/GNORM criterion documentation. [10][D5][11] https://openmopac.net/Manual/precision.html"
+  },
+  "12": {
+    "type": "external",
+    "supports": "EPA EPI Suite scope, MPBPWIN estimations, screening-level caveat, current v4.11 notice",
+    "url": "https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface",
+    "current_report_definition": "12. EPA EPI Suite scope, MPBPWIN estimations, screening-level caveat, current v4.11 notice. [12][D6] https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface"
+  },
+  "13": {
+    "type": "external",
+    "supports": "EPI Suite Web beta application endpoint only",
+    "url": "https://episuite.dev/EpiWebSuite/#/",
+    "current_report_definition": "13. EPI Suite Web beta application endpoint only. [12][D6] https://episuite.dev/EpiWebSuite/#/"
+  },
+  "14": {
+    "type": "external",
+    "supports": "Australian government acetic-acid MP/BP reference values",
+    "url": "https://www.dcceew.gov.au/environment/protection/npi/substances/acetic-acid-ethanoic-acid",
+    "current_report_definition": "14. Australian government acetic-acid MP/BP reference values. [14] https://www.dcceew.gov.au/environment/protection/npi/substances/acetic-acid-ethanoic-acid"
+  },
+  "15": {
+    "type": "external",
+    "supports": "rxn_yields USPTO dataset exploration notebook",
+    "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb",
+    "current_report_definition": "15. rxn_yields USPTO dataset exploration notebook. [6] https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb"
+  },
+  "16": {
+    "type": "project",
+    "supports": "Project execution manifests, commands, version and reuse records",
+    "files": [
+      "evidence-run/manifest.json",
+      "evidence-run/reproducibility-manifest.json"
+    ],
+    "current_report_definition": "16. Project execution manifests, commands, version and reuse records. evidence-run/manifest.json; evidence-run/reproducibility-manifest.json"
+  },
+  "17": {
+    "type": "course",
+    "supports": "Course-only claims summarized from the specified original lecture pages; original PDF excluded from redistribution.",
+    "files": [
+      "evidence-run/course-evidence-summary.md",
+      "evidence-run/course-material-acquisition.md"
+    ],
+    "url": "User obtains the course file from the course LMS.",
+    "current_report_definition": "17. Course-only claims summarized from the specified original lecture pages; original PDF excluded from redistribution. evidence-run/course-evidence-summary.md; evidence-run/course-material-acquisition.md. User obtains the course file from the course LMS."
+  },
+  "D1": {
+    "type": "project",
+    "supports": "Route, condition and yield report-evidence output",
+    "file": "evidence-run/report-evidence.json",
+    "current_report_definition": "- D1: Route, condition and yield report-evidence output. evidence-run/report-evidence.json",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\D1\\report-evidence.json",
+        "sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\report-evidence.json"
+      }
+    ]
+  },
+  "D2": {
+    "type": "project",
+    "supports": "Current status of additional analyses",
+    "file": "evidence-run/additional-analysis-status-current.json",
+    "current_report_definition": "- D2: Current status of additional analyses. evidence-run/additional-analysis-status-current.json"
+  },
+  "D3": {
+    "type": "project",
+    "supports": "Resolved evidence conflicts and stale-state corrections",
+    "file": "evidence-run/evidence-conflict-resolution.md",
+    "current_report_definition": "- D3: Resolved evidence conflicts and stale-state corrections. evidence-run/evidence-conflict-resolution.md"
+  },
+  "D4": {
+    "type": "project",
+    "supports": "Validation notes and applicability/unsupported-status checks",
+    "file": "evidence-run/validation_notes.json",
+    "current_report_definition": "- D4: Validation notes and applicability/unsupported-status checks. evidence-run/validation_notes.json",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\D4\\validation_notes.json",
+        "sha256": "d6a46eb70a825d61ffe32a44204eca7db425fd3d3452b07d0b1435df3ed453dd",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\validation_notes.json"
+      }
+    ]
+  },
+  "D5": {
+    "type": "project",
+    "supports": "Actual MOPAC inputs, convergence and computed values",
+    "file": "evidence-run/mopac-results-interpretation.md",
+    "current_report_definition": "- D5: Actual MOPAC inputs, convergence and computed values. evidence-run/mopac-results-interpretation.md[10][D5]",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\D5\\mopac-results-interpretation.md",
+        "sha256": "08ea5ef42fc93aff4b392f84fc6a2508825c42fe3da2cf079578d1b29d133785",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\mopac-results-interpretation.md"
+      }
+    ]
+  },
+  "D6": {
+    "type": "project",
+    "supports": "Actual EPI Web responses, values and provenance classifications",
+    "file": "evidence-run/epi-analysis.md",
+    "current_report_definition": "- D6: Actual EPI Web responses, values and provenance classifications. evidence-run/epi-analysis.md"
+  },
+  "D7": {
+    "type": "project",
+    "supports": "Actual Visualizer observations, screenshots and measurements",
+    "files": [
+      "evidence-run/visualizer-measurement-interpretation.md",
+      "evidence-run/visualizer-observation-index.csv",
+      "evidence-run/visualizer-measurements.csv"
+    ],
+    "current_report_definition": "- D7: Actual Visualizer observations, screenshots and measurements. evidence-run/visualizer-measurement-interpretation.md; evidence-run/visualizer-observation-index.csv; evidence-run/visualizer-measurements.csv[D7]",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\D7\\visualizer-measurements.csv",
+        "sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\visualizer-measurements.csv"
+      },
+      {
+        "path": "evidence\\snapshots\\D7\\visualizer-measurement-interpretation.md",
+        "sha256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\visualizer-measurement-interpretation.md"
+      }
+    ]
+  },
+  "D8": {
+    "type": "project",
+    "supports": "Actual OpenCode/Pi requests, responses and case comparison",
+    "files": [
+      "evidence-run/harness-trial-02-comparison-evaluation.md",
+      "evidence-run/harness-trial-02-status.json",
+      "evidence-run/harness-trial-02-budget.json",
+      "evidence-run/reproducibility-manifest.json"
+    ],
+    "current_report_definition": "- D8: Actual OpenCode/Pi requests, responses and case comparison. evidence-run/harness-trial-02-comparison-evaluation.md; evidence-run/harness-trial-02-status.json; evidence-run/harness-trial-02-budget.json; evidence-run/reproducibility-manifest.json"
+  },
+  "D9": {
+    "type": "project",
+    "supports": "Primary literature comparison, source identity/hash and acquisition guidance, and exact Parrot/Yield-BERT source data",
+    "files": [
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/comparison.json",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/validation.json",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/source-integrity.json",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/source-acquisition.md",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/routes.raw.json",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/conditions-parrot.raw.json",
+      "evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/yields-rxn_yields.raw.json"
+    ],
+    "current_report_definition": "- D9: Primary literature comparison, source identity/hash and acquisition guidance, and exact Parrot/Yield-BERT source data. evidence-run/literature-validation/route-01-primary-comparison-20261114/ 아래의 literature-comparison.md, comparison.json, validation.json, source-integrity.json, source-acquisition.md 및 evidence/routes.raw.json, conditions-parrot.raw.json, yields-rxn_yields.raw.json[6][D1]"
+  },
+  "D10": {
+    "type": "project",
+    "supports": "Existing-PC rerun and corrected asset/configuration comparison; the corrected validation is distinct from the preserved original conflicting record.",
+    "files": [
+      "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+      "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+      "evidence-run/rerun/benzocaine-live-repro-20261105-01/verification.json",
+      "evidence-run/rerun/benzocaine-live-repro-20261105-01/manifest.json"
+    ],
+    "current_report_definition": "- D10: Existing-PC rerun and corrected asset/configuration comparison; corrected validation은 보존된 원본 상충 기록과 구별된다. evidence-run/rerun/benzocaine-live-repro-20261105-01/ 아래의 reproduction-validation-corrected.json, reproduction-validation-original-conflicting.json, verification.json, manifest.json"
+  },
+  "18": {
+    "type": "external",
+    "supports": "Direct ethyl p-nitrobenzoate to benzocaine experiment, procedure, and reported isolated yield",
+    "url": "https://doi.org/10.15227/orgsyn.008.0066",
+    "current_report_definition": "18. Direct ethyl p-nitrobenzoate to benzocaine experiment, procedure, and reported isolated yield. https://doi.org/10.15227/orgsyn.008.0066"
+  },
+  "19": {
+    "type": "external",
+    "supports": "Direct hydrogenation experiment, patent Example IV conditions and reported yield",
+    "url": "https://patents.google.com/patent/US3037046A/en",
+    "current_report_definition": "19. Direct hydrogenation experiment, patent Example IV conditions and reported yield. [19][D9] https://patents.google.com/patent/US3037046A/en"
+  },
+  "D11": {
+    "type": "project",
+    "supports": "User-provided target selection provenance for this report run; not a model inference.",
+    "file": "evidence-run/report-context.json",
+    "current_report_definition": "- D11: User-provided target selection provenance. evidence-run/report-context.json"
+  },
+  "D12": {
+    "type": "project",
+    "supports": "Verified molecular identities for condition-structure tokens; does not assign experimental roles.",
+    "files": [
+      "evidence-run/token-identity-evidence.json",
+      "evidence-run/chemical-token-audit.csv"
+    ],
+    "current_report_definition": "- D12: Verified Parrot structure-token to chemical identity mapping. evidence-run/token-identity-evidence.json; evidence-run/chemical-token-audit.csv"
+  },
+  "D13": {
+    "title": "반응 매핑과 경계·조각 연결 대조",
+    "evidence": [
+      "MAP-BONDS",
+      "MAP-STEPS"
+    ],
+    "replaces": [
+      "D41"
+    ],
+    "current_report_definition": "- D13: 반응 매핑과 경계·조각 연결 대조. evidence-run/mapped-bond-differences.csv; evidence-run/step-structure-detail-20261125-01/"
+  },
+  "D14": {
+    "title": "공급 가지의 원시 경로와 단계 연결 검토",
+    "evidence": [
+      "R-TREE",
+      "R-JOIN",
+      "R-REVIEW"
+    ],
+    "replaces": [
+      "D17"
+    ],
+    "current_report_definition": "- D14: 공급 가지의 원시 경로와 단계 연결 검토. evidence-run/route05-step01-provenance-review.md"
+  },
+  "D15": {
+    "title": "집 PC 단일 분자 관찰 기록",
+    "evidence": [
+      "V-HOME"
+    ],
+    "replaces": [
+      "S19"
+    ],
+    "current_report_definition": "- D15: 집 PC 단일 분자 관찰 기록. evidence-run/home_visualizer/README.md; evidence-run/home_visualizer/capture_manifest.csv"
+  },
+  "D16": {
+    "title": "수율 모델 적용성 검토와 원시 실행 대조",
+    "evidence": [
+      "Y-ASSESS",
+      "Y-STEPS",
+      "Y-METHOD",
+      "Y-VALUES"
+    ],
+    "replaces": [],
+    "current_report_definition": "- D16: 수율 모델 적용성 검토와 원시 실행 대조. evidence-run/yield-applicability/",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\D16\\applicability_method_comparison.csv",
+        "sha256": "75c5a2600a3322c7dc4a59ee38e56a1f43646adfc2a90c02873048f11283965a",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\applicability_method_comparison.csv"
+      },
+      {
+        "path": "evidence\\snapshots\\D16\\applicability_step_verdicts.csv",
+        "sha256": "e0695eaa5645a031005fd30021572090c688f84ee69170ed28ecab840a034967",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\applicability_step_verdicts.csv"
+      },
+      {
+        "path": "evidence\\snapshots\\D16\\four_step_yield_mapping.csv",
+        "sha256": "cb33bf0376e3f38ebe051aa8458d9dd928beffa205a05cdc3165cc4ab1ec301d",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\four_step_yield_mapping.csv"
+      }
+    ]
+  },
+  "D18": {
+    "title": "조건 후보의 구조·역할·불완전성 검토",
+    "evidence": [
+      "C-REVIEW",
+      "C-RAW",
+      "TOKEN"
+    ],
+    "replaces": [],
+    "current_report_definition": "- D18: 조건 후보의 구조·역할·불완전성 검토. evidence-run/parrot-condition-review.md"
+  },
+  "D19": {
+    "title": "학교 문헌 조건·수율 검토",
+    "evidence": [
+      "L-SCHOOL",
+      "L-PRIMARY"
+    ],
+    "replaces": [],
+    "current_report_definition": "- D19: 학교 문헌 조건·수율 검토. evidence-run/yield-improvement-review.md"
+  },
+  "20": {
+    "title": "Prediction of chemical reaction yields using deep learning",
+    "url": "https://doi.org/10.1088/2632-2153/abc81d",
+    "evidence": [
+      "Y-PAPER"
+    ],
+    "current_report_definition": "20. Prediction of chemical reaction yields using deep learning. https://doi.org/10.1088/2632-2153/abc81d",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\20\\applicability_paper_reading_note.md",
+        "sha256": "257fb91f7610a5d3dcbf2813d467ec8fcb4127f91cd1e276fe212837152598f4",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\applicability_paper_reading_note.md"
+      }
+    ]
+  },
+  "21": {
+    "title": "배포 수율 체크포인트의 공식 평가 기록",
+    "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/trained_models/uspto/uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2/eval_results.txt",
+    "evidence": [
+      "Y-EVAL",
+      "Y-ARGS"
+    ],
+    "current_report_definition": "21. 배포 수율 체크포인트의 공식 평가 기록. https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/trained_models/uspto/uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2/eval_results.txt",
+    "local_source_records": [
+      {
+        "path": "evidence\\snapshots\\21\\checkpoint_eval_results.txt",
+        "sha256": "dbec6476cbed8e69bdc9a9573648238a8a0473aa9606dbd14e2b731b0df94250",
+        "original": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-targeted-revision-run-20261126-01\\evidence\\Y-EVAL\\checkpoint_eval_results.txt"
+      }
+    ]
+  },
+  "22": {
+    "title": "McMaster Chem2OB3 벤조카인 실험 절차",
+    "url": "https://www.chemistry.mcmaster.ca/~chem2ob3/2004labmanual/2004_exp4.pdf",
+    "evidence": [
+      "L-SCHOOL"
+    ],
+    "current_report_definition": "22. McMaster Chem2OB3 벤조카인 실험 절차. https://www.chemistry.mcmaster.ca/~chem2ob3/2004labmanual/2004_exp4.pdf"
+  }
+}

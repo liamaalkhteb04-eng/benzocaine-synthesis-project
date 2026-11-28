@@ -1,0 +1,6 @@
+species,formula,selected_conformer,starting_primary_conformer,heat_kcal_mol,gradient_kcal_mol_A,dipole_D,selection_matches,report_heat_found,out,heat_line
+ethyl-4-nitrobenzoate,C9H9NO4,4,2,-72.22692,0.42843,4.508,True,True,analyses\mopac\ethyl-4-nitrobenzoate\conformer-04\ethyl-4-nitrobenzoate-conf-04.out,261
+benzocaine,C9H11NO2,1,5,-73.05519,0.39984,4.1,True,True,analyses\mopac\benzocaine\conformer-01\benzocaine-conf-01.out,261
+p-aminobenzoic-acid,C7H7NO2,4,2,-70.47009,0.48101,4.785,True,True,analyses\mopac\p-aminobenzoic-acid\conformer-04\p-aminobenzoic-acid-conf-04.out,199
+ethanol,C2H6O,2,5,-57.85665,0.3844,2.064,True,True,analyses\mopac\ethanol\conformer-02\ethanol-conf-02.out,158
+acetic-acid,C2H4O2,3,5,-102.19677,0.31766,1.99,True,True,analyses\mopac\acetic-acid\conformer-03\acetic-acid-conf-03.out,144

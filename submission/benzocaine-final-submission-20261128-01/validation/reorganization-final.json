@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "student_id": "20251312",
+  "name": "리야마",
+  "PDF_filename": "20251312_리야마_벤조카인_최종보고서.pdf",
+  "DOCX_filename": "20251312_리야마_벤조카인_최종보고서.docx",
+  "final_PDF_DOCX_bytes_unchanged": true,
+  "report_markdown_bytes_unchanged": true,
+  "prior_package_files_missing_after_move": [],
+  "other_uncommitted_tracked_files_preserved": 12,
+  "other_tracked_changes": [],
+  "original_root_README_backup_preserved": true,
+  "verified_move_count": 19,
+  "root_local_links_checked": 12,
+  "root_broken_links": [],
+  "saved_manuscript_contract_resolves_archived_baseline": true,
+  "saved_renderer_or_Word_reexecuted": false,
+  "fresh_writing_or_science_analysis_reexecuted": false,
+  "Solar_calls": 0,
+  "files_permanently_deleted": 0,
+  "git_push": false,
+  "archive_scope": "Previous untracked duplicate submission moved under root/archive; package drafts/historical/duplicates separated. Other working directories remain to preserve unrelated path dependencies."
+}

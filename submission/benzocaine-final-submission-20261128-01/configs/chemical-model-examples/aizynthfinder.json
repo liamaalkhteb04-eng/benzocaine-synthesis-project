@@ -1,0 +1,23 @@
+{
+  "expansion": {
+    "uspto": [
+      "${AIZYNTH_MODEL_DIR}/uspto_model.onnx",
+      "${AIZYNTH_MODEL_DIR}/uspto_templates.csv.gz"
+    ]
+  },
+  "stock": {
+    "zinc": {
+      "type": "disk_stock.DiskInchiStock",
+      "path": "${AIZYNTH_STOCK_BUCKETS}"
+    }
+  },
+  "search": {
+    "time_limit": 120,
+    "iteration_limit": 100,
+    "max_transforms": 4,
+    "exclude_target_from_stock": true
+  },
+  "post_processing": {
+    "all_routes": true
+  }
+}

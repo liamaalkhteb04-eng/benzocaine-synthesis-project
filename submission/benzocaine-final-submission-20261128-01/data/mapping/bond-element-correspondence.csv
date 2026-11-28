@@ -1,0 +1,9 @@
+route_id,step_id,comparison_class,atom_map_a,atom_map_b,bond_order_before,bond_order_after,inference_scope,element_a_reactant,element_a_product,element_b_reactant,element_b_product,recorded_pair,source_bond_index
+route-01,step-01,absent_boundary_attachment,10,13,2.0,,"recorded graph difference, not an observed elementary bond-breaking event",N,N,O,,N10-O13,0
+route-01,step-01,absent_boundary_attachment,10,14,1.0,,"recorded graph difference, not an observed elementary bond-breaking event",N,N,O,,N10-O14,1
+route-02,step-01,absent_boundary_attachment,10,13,1.0,,"recorded graph difference, not an observed elementary bond-breaking event",N,N,C,,N10-C13,2
+route-02,step-01,absent_internal_fragment,13,14,1.0,,"recorded graph difference, not an observed elementary bond-breaking event",C,,C,,C13-C14,3
+route-02,step-01,absent_internal_fragment,13,15,2.0,,"recorded graph difference, not an observed elementary bond-breaking event",C,,O,,C13-O15,4
+route-05,step-01,absent_boundary_attachment,2,4,2.0,,"recorded graph difference, not an observed elementary bond-breaking event",C,C,O,,C2-O4,5
+route-05,step-02,formed,3,4,,1.0,"recorded graph difference, not an observed elementary bond-breaking event",O,O,C,C,O3-C4,6
+route-05,step-02,absent_boundary_attachment,4,13,1.0,,"recorded graph difference, not an observed elementary bond-breaking event",C,C,O,,C4-O13,7

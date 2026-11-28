@@ -1,0 +1,173 @@
+{
+  "pass_automated": true,
+  "actual_DOCX_pages": 20,
+  "actual_PDF_pages": 20,
+  "within20": true,
+  "DOCX_text_exactly_one_replacement": true,
+  "PDF_body_text_exactly_one_replacement": true,
+  "changed_text_pages": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "changed_visual_pages": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "DOCX_images": 13,
+  "PDF_images": 13,
+  "all_source_image_pixels_preserved": true,
+  "unchanged_baseline_files": 207,
+  "changed_baseline_files": [],
+  "out_of_page_bounds": [],
+  "figure_placements": [
+    {
+      "figure_id": "old-target",
+      "page": 1,
+      "bbox": [
+        198.4499969482422,
+        350.9999694824219,
+        396.80999755859375,
+        489.8499755859375
+      ]
+    },
+    {
+      "figure_id": "SCI-ROUTES",
+      "page": 2,
+      "bbox": [
+        63.650001525878906,
+        246.99993896484375,
+        531.6500244140625,
+        765.3999633789062
+      ]
+    },
+    {
+      "figure_id": "DETAIL-route-01-step-01",
+      "page": 5,
+      "bbox": [
+        63.650001525878906,
+        42.499969482421875,
+        531.6500244140625,
+        316.0999755859375
+      ]
+    },
+    {
+      "figure_id": "DETAIL-route-02-step-01",
+      "page": 6,
+      "bbox": [
+        63.650001525878906,
+        42.499969482421875,
+        531.6500244140625,
+        316.0999755859375
+      ]
+    },
+    {
+      "figure_id": "RESTORE-supply",
+      "page": 7,
+      "bbox": [
+        63.650001525878906,
+        57.749969482421875,
+        531.6500244140625,
+        331.3499755859375
+      ]
+    },
+    {
+      "figure_id": "DETAIL-route-05-step-02",
+      "page": 8,
+      "bbox": [
+        63.650001525878906,
+        57.749969482421875,
+        531.6500244140625,
+        417.7499694824219
+      ]
+    },
+    {
+      "figure_id": "SCI-MOPAC",
+      "page": 13,
+      "bbox": [
+        63.650001525878906,
+        42.5,
+        531.6500244140625,
+        416.8999938964844
+      ]
+    },
+    {
+      "figure_id": "SCI-EPI",
+      "page": 14,
+      "bbox": [
+        63.650001525878906,
+        286.49993896484375,
+        531.6500244140625,
+        653.699951171875
+      ]
+    },
+    {
+      "figure_id": "RESTORE-distance",
+      "page": 15,
+      "bbox": [
+        63.650001525878906,
+        57.999969482421875,
+        531.5900268554688,
+        355.6999816894531
+      ]
+    },
+    {
+      "figure_id": "RESTORE-angle",
+      "page": 15,
+      "bbox": [
+        63.650001525878906,
+        384.699951171875,
+        531.5900268554688,
+        682.3999633789062
+      ]
+    },
+    {
+      "figure_id": "home-19_paba_ball_and_stick",
+      "page": 16,
+      "bbox": [
+        56.70000076293945,
+        271.0,
+        286.2799987792969,
+        394.70001220703125
+      ]
+    },
+    {
+      "figure_id": "RESTORE-paba-edge",
+      "page": 16,
+      "bbox": [
+        297.6499938964844,
+        270.9999694824219,
+        527.1799926757812,
+        401.3499755859375
+      ]
+    },
+    {
+      "figure_id": "home-13_ethanol_ball_and_stick",
+      "page": 16,
+      "bbox": [
+        63.650001525878906,
+        488.6999816894531,
+        531.6300048828125,
+        740.8499755859375
+      ]
+    }
+  ],
+  "visual_review": {
+    "pass": true,
+    "directly_opened_changed_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "clipping_or_overlap_observed": false,
+    "fonts_or_layout_rules_changed": false,
+    "page17_pressure_sentence": "3atm pressure and3molecular equivalents absorbed distinguished;temperature scope and primary citation18 visible;not assigned to Parrot."
+  },
+  "scientific_words_written_by_Solar": true,
+  "citation_only_normalization": true,
+  "final_status": "PASS_ONE_SENTENCE_CORRECTION_ONLY"
+}

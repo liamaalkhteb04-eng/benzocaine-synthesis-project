@@ -1,0 +1,165 @@
+[
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-redundancy-deletion-20261126-01\\report-C01-C02-deleted.md",
+    "decoded_field": "accepted Solar baseline",
+    "start": 32197,
+    "end_exclusive": 32307,
+    "text": "모델이 예측한 슬롯은 실험에서 실제 사용된 시약·용매·촉매 역할을 입증하는 값이 아니므로, 구조 정체성과 실제 실험 역할은 서로 다른 개념으로 다루어야 하며 실험에서의 사용 여부는 확인되지 않았다.",
+    "text_sha256": "bfccd91e09eaf40dd979fa973fb7995bfbe8fcb586f32b52e6cc9311a803a6c5",
+    "verification": "TOKEN/D12 and raw model fields: predicted slot identity does not prove experimental use."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P10-01.raw.json",
+    "source_sha256": "b67dd81231a5aa83b87f25f7386e144aef3d8d407c0199a9d53d8b568e2920c2",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 1018,
+    "end_exclusive": 1107,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "`[Na+].[OH-]`는 염기 계열 구조 토큰으로 읽을 수 있으나, N-acetyl 제거 적합성이나 에스터에 대한 영향 여부는 이 출력만으로 확인되지 않는다.",
+    "text_sha256": "23502d64d5f8f382d931a7a9d6192ef121b3832556b76e7acd0f7382d09d13c0",
+    "verification": "D18: candidate output does not prove N-acetyl deprotection or ester selectivity. No unsupported HCl role inferred."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P10-01.raw.json",
+    "source_sha256": "b67dd81231a5aa83b87f25f7386e144aef3d8d407c0199a9d53d8b568e2920c2",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 1108,
+    "end_exclusive": 1171,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "따라서 이 후보들은 모델 출력 후보로서만 보존되며, 탈보호 선택성·완전 조건·에스터 유지 여부를 입증하지 않는다.",
+    "text_sha256": "006e6fa52b2859ab2caaacb7f682ab0dd2ff4c0db4a2f0a91bc9657a9c179004",
+    "verification": "D18: candidate output does not prove N-acetyl deprotection or ester selectivity. No unsupported HCl role inferred."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P13-ADD.raw.json",
+    "source_sha256": "834f8fc297162827395f62b2582e757a74fb681c6cd0f1f39bda9d1b9ab81cef",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 333,
+    "end_exclusive": 852,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "**후보 슬롯과 hydride·물 비호환 가능성.** route-05/step-01의 원시 후보 표에서 rank2는 solvent1 `C1CCOC1`(tetrahydrofuran 구조), reagent1 `O`(물 구조), reagent2 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`(LiAlH₄ 구성에 해당하는 구조 토큰)로 출력된다[C-RAW]. 이는 hydride 계열 구조 토큰과 물 구조 토큰이 같은 후보 안에 함께 나타난다는 점을 보여주지만, 실제 시약·투입 순서·무수 조건·quench·작업 절차가 확인되었다는 뜻은 아니다[C-REVIEW]. LiAlH₄와 물은 일반적으로 비호환 가능성이 높다고 검토되나, `O`가 실제 물인지, quench나 용매·오류 표기인지, 언제 투입되었는지는 원시 출력만으로 알 수 없다[C-REVIEW]. 따라서 이 후보는 “hydride와 물이 함께 표기된 후보”라는 사실까지만 말할 수 있고, 실제 ethanol 공급 수율을 뒷받침하는 검증된 조건으로 쓸 수 없다.",
+    "text_sha256": "b60a3edcd2487e8af4149770e4ef56af3c60d4ce48842d492c66cdf2f4088380",
+    "verification": "Raw rank2 is THF/reagent1 water/reagent2 hydride. D18 incompatibility caution; actual dosing/quench/use remains unknown. TOKEN/D12 verifies token identities."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P15-03.raw.json",
+    "source_sha256": "7841060721725bda66272920e808809241e75bb60c21b126a030020e881fb812",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 327,
+    "end_exclusive": 522,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "route-05/step-02의 후보 슬롯은 ethanol(CCO), diethyl ether(CCOCC), `FB(F)F`(BF₃ 구조 토큰), acetyl chloride(CC(=O)Cl), sulfuric acid(O=S(=O)(O)O)를 출력하지만, 슬롯 위치는 모델 분류상 역할일 뿐 실제 실험 사용·농도·당량·온도·시간을 검증하지 않는다.",
+    "text_sha256": "8806a6d7d54e4ca60f1f0019aea61d691c85cbe102843bc421f8d7d4c1b3e887",
+    "verification": "D12/TOKEN: ethanol, diethyl ether, BF3, acetyl chloride, sulfuric acid; model slot role is not experimental use."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P04-ADD.raw.json",
+    "source_sha256": "5ee546aa2dcc6dca97b2c2643711cd62c050245d3cbc42b740c47e306289bd2d",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 0,
+    "end_exclusive": 132,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "route-05/step-02(PABA + 에탄올 → 벤조카인)의 경우, McMaster Chem 2OB3 2004 실험 절차에서는 PABA에 약 6 mL 95% 에탄올과 진한 황산 0.5 mL를 넣고 60분간 환류하는 조건이 확인된다.",
+    "text_sha256": "1e9538ad95d398e4b0078161203295773242e335d55d122e99d1facbfdcde32f",
+    "verification": "L-SCHOOL and report source22: PABA,6mL95%EtOH,0.5mL concentratedH2SO4,60min reflux."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P15-03.raw.json",
+    "source_sha256": "7841060721725bda66272920e808809241e75bb60c21b126a030020e881fb812",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 669,
+    "end_exclusive": 698,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "대표 분리수율은 현재 확보 자료에서 확인되지 않는다.",
+    "text_sha256": "09ca06045b83f6f771a64c2a6f3c2569a1bb104af34d6bea41d53ef51bc8c52c",
+    "verification": "L-SCHOOL/D19: representative isolated yield not confirmed; no invented experimental number."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P20-01.raw.json",
+    "source_sha256": "a3658c233ccfc4123aeac72520cc6533ffd71b6bcec1aa5c1352877d85f53a3d",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 724,
+    "end_exclusive": 1455,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "이 실행은 저장된 체크포인트 uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2를 사용했으며, 해당 체크포인트의 저장된 평가 결과는 eval_loss=0.8820414721228422, R²=0.11658362440393955이다[Y-EVAL]. 이 R²는 공식 논문의 Table3 gram/random 행에서 약 0.117로 반올림되어 보고된 값과 대응하며[Y-PAPER], 이는 해당 체크포인트의 공식 홀드아웃 평가이지 개별 예측의 정확도나 benzocaine 4단계 정확도가 아니다[Y-ASSESS]. 체크포인트 저장 인자에는 num_train_epochs=2, manual_seed=42, max_seq_length=300, train_batch_size=16, eval_batch_size=8, regression=true, num_labels=1, learning_rate=1.562e-05, evaluate_during_training=true가 기록되어 있다[Y-ARGS]. 현재 학습 코드의 기본 설정(num_train_epochs=15, evaluate_during_training=false)은 이와 다르며[Y-CODE], 저장된 epoch=2와 현재 스크립트 기본 15 epoch의 차이는 원 학습 명령·선택 로그가 확보되지 않았기 때문에 현재 기본값을 이 체크포인트의 학습 이력으로 대체할 수 없다[Y-EXEC].",
+    "text_sha256": "8a5670036c44a8c5a126da8648b8b70f2d513799db6951c1b878e210bbef16cf",
+    "verification": "Y-EVAL exact stored metrics, Y-PAPER Table3 gram/random, Y-ARGS vs Y-CODE. No fresh independent or benzocaine-specific evaluation claim."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P20-01.raw.json",
+    "source_sha256": "a3658c233ccfc4123aeac72520cc6533ffd71b6bcec1aa5c1352877d85f53a3d",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 1457,
+    "end_exclusive": 1745,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "공개 gram 무작위 분할 표는 총 197619행, train 158095행, test 39524행으로 확인된다[Y-SCAN]. 네 입력 반응 문자열은 이 공개 표에서 선언된 정확·정규 문자열 및 정규 전체 반응 검색으로 발견되지 않았다[Y-SCAN]. 이는 공개 표에 미발견이라는 뜻이며, 전체 학습 노출이나 인접 반응 지원 여부를 판정하는 근거가 아니다[Y-SCAN]. 역정규화 상수와 ddof=1은 보존되며, 입력에는 조건 슬롯이 포함되지 않았다(conditions_in_input=false)[Y-EXEC].",
+    "text_sha256": "c0285a7183404181786195954092f56eb8dee9eda7cf22a64812ace2722d6777",
+    "verification": "Y-SCAN197619/train158095/test39524 and exact/canonical no match; not whole pretraining exposure."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P29-01.raw.json",
+    "source_sha256": "9ff006640e1f2190ec94c1ec91ef022b5bcf3d6ed546a15108111ddc8fb4f915",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 0,
+    "end_exclusive": 611,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "OpenCode와 Pi Coding Agent에 대해 각각 1회씩 성공 응답(HTTP 200)을 받은 사례 비교가 수행되었다[D8]. 두 실행은 같은 모델 스냅샷(solar-pro4-260806), temperature 0, reasoning `none`, max_tokens 10000, n=1, 도구 비활성화 조건에서 실행되었고, 같은 12개 자료 번들과 같은 타깃·작업 요청을 사용했다[D8]. 다만 하네스가 실제 직렬화한 메시지는 바이트 단위로 같지 않았다. OpenCode는 시스템 메시지 1,348 B, 사용자 메시지 199,764 B를 보냈고, Pi는 각각 585 B, 199,832 B를 보냈다. 사용자 메시지의 일부 차이는 첨부 파일 래퍼에서 왔고 시스템 프롬프트 래퍼도 달랐다. 또한 OpenCode는 system/user/assistant 메시지 구조를, Pi는 system/user 구조를 사용했으며, Pi의 사용자 콘텐츠는 문자열과 텍스트 블록 배열로 구성되었다. 따라서 동일한 자료와 설정을 유지했지만, 하네스 자체의 system framing과 요청 직렬화 방식은 비교 변수로 남는다[D8]. 이는 사례 비교이며, 하네스 일반 성능의 우열을 입증하지 않는다[D8].",
+    "text_sha256": "c57949e1a2c1ab94255f489ed85ed6cef816d12ba2b2aff662eec48d82d231ca",
+    "verification": "D8/raw requests: same snapshot/settings,1348/199764 vs585/199832 bytes, role sequences differ. Pi list contains text strings; ambiguous wording is clarified by literal metadata below, not treated as false chemistry."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P08-01.raw.json",
+    "source_sha256": "7e1aef42e800ea8b5b9a10a342200d5666c0989bd6b37e9c942a786b35eb2c41",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 1274,
+    "end_exclusive": 1323,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "이 단계의 82.95%는 실험 수율이 아니라, 특정 체크포인트에서 산출된 예측 수율이다.",
+    "text_sha256": "7354f723384da273a1d6fe3ca4a79436b7a4c65c0b1e604c971ce6ad1809ea59",
+    "verification": "Archived four-step values: route01 82.95371431744555%, rounded82.95%; not experimental yield."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\A-P17-02.raw.json",
+    "source_sha256": "12fb25d0665817fc17220f8ea54568abce2006390cb3bfce4882e44241b782af",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 0,
+    "end_exclusive": 1289,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "| route_id / step_id | 반응 변환(반응 SMILES 기반) | 보고된 예측 수율(%) | 지지(support) | 한계(limitations) | 허용 보고 수준 | 비고 |\n|---|---|---|---|---|---|---|\n| route-01 / step-01 [D1] | 방향족 니트로기→아미노기 환원, 에틸 에스터 보존 | 82.95 | 반응 양쪽 구조·변환이 명시돼 있고 범용 특허 학습 모델을 사용했다. BH 전용 반응이 아니라는 이유만으로 배제할 근거는 없다. | 환원제/수소원·촉매·조건이 입력에 없다. 해당 환원 하위범위의 정확도나 유사 반응 지원은 확인되지 않았다. | 실제 실행에서 나온 탐색적 구조 입력 기반 모델 출력으로만 보존; 정량 실험 수율/조건별 예측으로 사용 불가 | 정확도 미검증; 값이 반드시 틀렸다는 판정은 하지 않음 |\n| route-02 / step-01 [D1] | N-acetyl 제거에 의한 아미노기 노출, 에틸 에스터 보존 | 77.70 | 구조 입력 문법과 양쪽 물질은 명확하다. USPTO는 다양한 변환의 학습 자료다. | 탈보호 조건·선택성·에틸 에스터 유지 여부의 실험 검증은 없다. 이 하위변환에 대한 모델 검증도 미확인이다. | 실제 실행에서 나온 탐색적 구조 입력 기반 모델 출력으로만 보존; 정량 실험 수율/조건별 예측으로 사용 불가 | 정확도 미검증; 값이 반드시 틀렸다는 판정은 하지 않음 |\n| route-05 / step-01 [D1] | 아세트산→에탄올 환원 형태의 검색 경로 간선 | 77.59 | CC(=O)O>>CCO는 분자 구조로 파싱되고 입력/출력 추적도 가능하다. | 검색 간선을 실제 수행된 반응 단계로 검증하지 않았다. 환원 성분·부산물·작업 조건이 없고, 이 변환/작은 생성물에 대한 경험적 모델 지원도 미확인이다. | 실제 실행에서 나온 탐색적 구조 입력 기반 모델 출력으로만 보존; 정량 실험 수율/조건별 예측으로 사용 불가 | 정확도 미검증; 값이 반드시 틀렸다는 판정은 하지 않음 |\n| route-05 / step-02 [D1] | 4-아미노벤조산+에탄올→벤조카인 에스터화 골격 | 79.80 | 출발물질 두 개와 생성물이 명시된다. 형식적으로 공식 입력과 양립한다. | 촉매·비율·물/평형·처리/정제·스케일이 특정되지 않았다. Parrot/BF3 후보 조건을 사용한 예측이 아니며 그 조건 수율로 쓸 수 없다. | 실제 실행에서 나온 탐색적 구조 입력 기반 모델 출력으로만 보존; 정량 실험 수율/조건별 예측으로 사용 불가 | 정확도 미검증; 값이 반드시 틀렸다는 판정은 하지 않음 |",
+    "text_sha256": "639c9c11f55f213aa5ab6e6ab14634d0d12a64a8456c573bb4b62bf046c2d64b",
+    "verification": "D16/Y-METHOD/Y-ASSESS: four values/types/support/limits and no per-query accuracy evidence. Raw old rank1 records duplicate Table2 and remain in archive."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\B-P38-01.raw.json",
+    "source_sha256": "05751396c0f7bd930bbb37e6139556fb7d49f3304253807c7732bc437126eadb",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 0,
+    "end_exclusive": 502,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "MOPAC 23.2.5로 PM7[10] 고립 분자 기하 최적화가 수행되었다[D5]. 이번 작업에서는 다섯 중성 종에 대해 각각 5개의 RDKit ETKDGv3 배좌(conformer)를 MMFF94s로 먼저 최소화한 뒤, 각각을 MOPAC으로 독립 최적화했다[D5]. 입력은 `CHARGE=0 MS=0`으로 설정되어 중성 단일항 상태를 지정했고, MOPAC 출력은 폐쇄껍질 RHF, SCF 완료, 정상 종료, 최종 기울기 노름이 요청된 `GNORM=0.5[11] kcal mol⁻¹ Å⁻¹` 미만임을 확인했다[D5]. 총 25개 작업 중 25개가 수렴했다[D5].\n\n최적화된 구조 중 저장된 것은 각 분자식·전하·스핀에 대해 다섯 시작 배좌 중 PM7 생성열이 가장 낮은 수렴 기하이다[D5]. 이는 best-of-five 탐색이며, 전역 최소점이나 진동수 검증 최소점이라고 단정하지 않는다. 모든 계산은 기체상이며, 용매·촉매·수소·반대이온·반응 파트너·전이상태는 포함되지 않았다[D5][10].",
+    "text_sha256": "603074d1654759b4e0dae3e61825199d3114b8d109bf79b857830af4fd2a25ae",
+    "verification": "D5: PM7 neutral singlet gas optimizations,25/25, five starts, not verified global/vibrational minimum; MOPAC source11 supports GNORM syntax/units."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\C-P26-01.raw.json",
+    "source_sha256": "25e60fadc35ca9b7c264ccedec8647ab455e08503b773edb2fbdedf4c6878a1b",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 0,
+    "end_exclusive": 374,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "실제 화면 관찰에는 에틸 4-니트로벤조에이트 배좌 1의 여러 방향 표시, 배좌 2의 단일 레코드 표시, 4-아미노벤조산 PM7 배좌 4의 카복실기 원자 C6/O7/O8 화면, 강체 회전한 표시 사본, 고립 에탄올 PM7 배좌 2 화면이 포함된다. 이 중 PABA 배좌 4의 카복실기(C6/O7/O8)와 에탄올 배좌 2의 OH(O3)는 각각 그림 10A와 그림 11의 실제 GUI 캡처로 기록되며, 강체 회전한 표시 사본은 그림 10B에 대응한다. 다만 강체 회전한 화면은 새 배좌가 아니라 표시 방향의 사본이며, 고립 에탄올 화면은 4-아미노벤조산과 함께 배치하지 않았다. 따라서 이 화면들은 정성적 단일 분자 관찰 이상으로 반응 복합체나 접근 궤적을 입증하지 않는다.",
+    "text_sha256": "8982d0f88b5b1885ac6b5d848b052a068ebdf787122c47f8d676e10ffa6ed8ca",
+    "verification": "D7 school measurements and D15 home captures: panels10A/10B samePABA4,11 ethanol2; no reaction-complex/accessibility verification."
+  },
+  {
+    "source": "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-small-revision-run-20261126-01\\execution\\responses\\C-P07-ADD.raw.json",
+    "source_sha256": "36b6e9f7a69cdca7a771183616cdef213054257125dbdbfed79d972b63044c3a",
+    "decoded_field": "choices[0].message.content JSON /replacement_text",
+    "start": 0,
+    "end_exclusive": 340,
+    "unit": "Unicode codepoints after decoding replacement_text",
+    "text": "**구조 변화.** 이 단계는 방향족 니트로기(–NO₂)가 아미노기(–NH₂)로 바뀌는 환원 변환이며, 에틸 에스터는 유지된다[D1]. 반응 SMILES는 `CCOC(=O)c1ccc([N+](=O)[O-])cc1 >> CCOC(=O)c1ccc(N)cc1`이다[D1]. 저장된 매핑 반응 SMILES에서는 니트로 질소(atom map 10)의 형식전하가 +1에서 0으로 바뀌고, 결합된 두 산소(atom map 13, 14)와의 연결이 끊어지는 그래프 차이로 기록된다[D13]. 이는 저장된 구조·매핑의 차이이며, 실험적 원자 추적이나 단계별 메커니즘 증명이 아니다. 이 구조 변화는 그림 3에 제시되어 있다.",
+    "text_sha256": "fc0c844ab5fb7a5eea3e341acffb7f77704da07204beae9ad97210513aa33cdf",
+    "verification": "D13 nitro graph mapping and existing figure3; same complete old paragraph plus correct figure reference. Replace, do not append duplicated paragraph."
+  }
+]

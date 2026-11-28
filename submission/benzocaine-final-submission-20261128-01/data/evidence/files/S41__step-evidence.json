@@ -1,0 +1,239 @@
+[
+  {
+    "route_id": "route-01",
+    "step_id": "step-01",
+    "reaction_smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1>>CCOC(=O)c1ccc(N)cc1",
+    "saved_mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([N+:10](=[O:13])[O-:14])[cH:11][cH:12]1",
+    "forward_mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([N+:10](=[O:13])[O-:14])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1",
+    "mapping_orientation": "saved_retrosynthetic_mapping_reversed_for_display",
+    "canonical_components_verified": true,
+    "removed_atom_maps": [
+      13,
+      14
+    ],
+    "added_atom_maps": [],
+    "formed_bonds": [],
+    "removed_graph_bonds": [
+      [
+        10,
+        13
+      ],
+      [
+        10,
+        14
+      ]
+    ],
+    "boundary_attachment_bonds_absent": [
+      [
+        10,
+        13
+      ],
+      [
+        10,
+        14
+      ]
+    ],
+    "changed_bond_orders": [],
+    "changed_atom_properties": [
+      {
+        "atom_map": 10,
+        "before": {
+          "element": "N",
+          "charge": 1,
+          "total_H": 0
+        },
+        "after": {
+          "element": "N",
+          "charge": 0,
+          "total_H": 2
+        }
+      }
+    ],
+    "candidate_ranks_shown": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "candidate_count": 15,
+    "unvalidated_supply_query": false,
+    "source_file": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json",
+    "source_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+    "source_pointer": "/report_steps/0",
+    "scope": "Graph comparison of saved structures and saved mapping only; not experimental atom tracing, mass-balanced mechanism or reaction prediction"
+  },
+  {
+    "route_id": "route-02",
+    "step_id": "step-01",
+    "reaction_smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1>>CCOC(=O)c1ccc(N)cc1",
+    "saved_mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([CH3:14])=[O:15])[cH:11][cH:12]1",
+    "forward_mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH:10][C:13]([CH3:14])=[O:15])[cH:11][cH:12]1>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1",
+    "mapping_orientation": "saved_retrosynthetic_mapping_reversed_for_display",
+    "canonical_components_verified": true,
+    "removed_atom_maps": [
+      13,
+      14,
+      15
+    ],
+    "added_atom_maps": [],
+    "formed_bonds": [],
+    "removed_graph_bonds": [
+      [
+        10,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        15
+      ]
+    ],
+    "boundary_attachment_bonds_absent": [
+      [
+        10,
+        13
+      ]
+    ],
+    "changed_bond_orders": [],
+    "changed_atom_properties": [
+      {
+        "atom_map": 10,
+        "before": {
+          "element": "N",
+          "charge": 0,
+          "total_H": 1
+        },
+        "after": {
+          "element": "N",
+          "charge": 0,
+          "total_H": 2
+        }
+      }
+    ],
+    "candidate_ranks_shown": [
+      1,
+      2,
+      3
+    ],
+    "candidate_count": 15,
+    "unvalidated_supply_query": false,
+    "source_file": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json",
+    "source_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+    "source_pointer": "/report_steps/1",
+    "scope": "Graph comparison of saved structures and saved mapping only; not experimental atom tracing, mass-balanced mechanism or reaction prediction"
+  },
+  {
+    "route_id": "route-05",
+    "step_id": "step-01",
+    "reaction_smiles": "CC(=O)O>>CCO",
+    "saved_mapped_reaction_smiles": "[CH3:1][CH2:2][OH:3]>>[CH3:1][C:2]([OH:3])=[O:4]",
+    "forward_mapped_reaction_smiles": "[CH3:1][C:2]([OH:3])=[O:4]>>[CH3:1][CH2:2][OH:3]",
+    "mapping_orientation": "saved_retrosynthetic_mapping_reversed_for_display",
+    "canonical_components_verified": true,
+    "removed_atom_maps": [
+      4
+    ],
+    "added_atom_maps": [],
+    "formed_bonds": [],
+    "removed_graph_bonds": [
+      [
+        2,
+        4
+      ]
+    ],
+    "boundary_attachment_bonds_absent": [
+      [
+        2,
+        4
+      ]
+    ],
+    "changed_bond_orders": [],
+    "changed_atom_properties": [
+      {
+        "atom_map": 2,
+        "before": {
+          "element": "C",
+          "charge": 0,
+          "total_H": 0
+        },
+        "after": {
+          "element": "C",
+          "charge": 0,
+          "total_H": 2
+        }
+      }
+    ],
+    "candidate_ranks_shown": [
+      1,
+      2,
+      3
+    ],
+    "candidate_count": 15,
+    "unvalidated_supply_query": true,
+    "source_file": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json",
+    "source_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+    "source_pointer": "/report_steps/2",
+    "scope": "Graph comparison of saved structures and saved mapping only; not experimental atom tracing, mass-balanced mechanism or reaction prediction"
+  },
+  {
+    "route_id": "route-05",
+    "step_id": "step-02",
+    "reaction_smiles": "CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1",
+    "saved_mapped_reaction_smiles": "[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1>>[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]",
+    "forward_mapped_reaction_smiles": "[C:4](=[O:5])([c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1)[OH:13].[CH3:1][CH2:2][OH:3]>>[CH3:1][CH2:2][O:3][C:4](=[O:5])[c:6]1[cH:7][cH:8][c:9]([NH2:10])[cH:11][cH:12]1",
+    "mapping_orientation": "saved_retrosynthetic_mapping_reversed_for_display",
+    "canonical_components_verified": true,
+    "removed_atom_maps": [
+      13
+    ],
+    "added_atom_maps": [],
+    "formed_bonds": [
+      [
+        3,
+        4
+      ]
+    ],
+    "removed_graph_bonds": [
+      [
+        4,
+        13
+      ]
+    ],
+    "boundary_attachment_bonds_absent": [
+      [
+        4,
+        13
+      ]
+    ],
+    "changed_bond_orders": [],
+    "changed_atom_properties": [
+      {
+        "atom_map": 3,
+        "before": {
+          "element": "O",
+          "charge": 0,
+          "total_H": 1
+        },
+        "after": {
+          "element": "O",
+          "charge": 0,
+          "total_H": 0
+        }
+      }
+    ],
+    "candidate_ranks_shown": [
+      1,
+      2,
+      3
+    ],
+    "candidate_count": 15,
+    "unvalidated_supply_query": false,
+    "source_file": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json",
+    "source_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+    "source_pointer": "/report_steps/3",
+    "scope": "Graph comparison of saved structures and saved mapping only; not experimental atom tracing, mass-balanced mechanism or reaction prediction"
+  }
+]

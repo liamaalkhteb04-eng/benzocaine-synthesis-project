@@ -1,0 +1,13 @@
+{
+  "type": "case-specific verified evidence, not generic skill",
+  "pressure": {
+    "citation": "18",
+    "source_URL": "https://doi.org/10.15227/orgsyn.008.0066",
+    "source_location": "Preserved original PDF2 reaction diagram and Procedure1",
+    "diagram_label": "H2 (3 atm)",
+    "Procedure1": "Three molecular equivalents hydrogen absorbed; about7min",
+    "temperature": "No numeric reaction temperature in the verified Procedure1 text or diagram; mp89-90C is product melting point.",
+    "applies_to": "OrgSyn literature only, not Parrot/model input or a new project experiment"
+  },
+  "original_source_SHA256": "a7406ae755631c3c47e39a51fb83b7bd83b2910d10aeffe99305ff1d83838a9d"
+}

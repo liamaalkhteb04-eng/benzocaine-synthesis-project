@@ -1,0 +1,7 @@
+# Separate conversion/validation environment. Install outside the submission package;
+# the actual isolated environment path is recorded in REPRODUCIBILITY-REVIEW.md.
+# Python 3.13. Word pagination/PDF export additionally requires Microsoft Word 16 COM.
+python-docx==1.2.0
+markdown-it-py==4.2.0
+PyMuPDF==1.28.2
+Pillow==13.0.0

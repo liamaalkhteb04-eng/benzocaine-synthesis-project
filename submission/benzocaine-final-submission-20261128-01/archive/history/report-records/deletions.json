@@ -1,0 +1,122 @@
+[
+  {
+    "item": "C03",
+    "deleted": "**조건 후보.** Parrot은 이 반응에 대해 15개 후보를 반환했다[D1]. 상위 4개 후보의 주요 슬롯은 다음과 같다.\n\n- rank 1: catalyst1 `[Pd]`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score −1.7008\n- rank 2: catalyst1 `[Pd]`, solvent1 `CO`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score −2.0482\n- rank 3: catalyst1 `[Pd]`, solvent1 `CCOC(C)=O`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score −2.7931\n- rank 4: catalyst1 `[Pd]`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `[H][H]`, reagent2 `\"\"`, sequence_score −2.8787",
+    "sha256": "1020e7f15f508fdc2e537dcccfc4469b79d2f8463be732eb8c55a09c62ffe481",
+    "retained_content_and_evidence": "All candidate ranks/slots/scores present in Table2; count15 retained in model overview and original source archive."
+  },
+  {
+    "item": "C05",
+    "deleted": "**조건 후보.** Parrot은 이 반응에 대해서도 15개 후보를 반환했다[D1]. 상위 3개 후보의 주요 슬롯은 다음과 같다.\n\n- rank 1: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `Cl`, reagent2 `\"\"`, sequence_score −1.3240\n- rank 2: catalyst1 `\"\"`, solvent1 `Cl`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score −2.6605\n- rank 3: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `[Na+].[OH-]`, reagent2 `\"\"`, sequence_score −3.2929",
+    "sha256": "b7c5a32051042b28d52c46fa0d4c814837f01aa830b969b8fa216aaef46e8021",
+    "retained_content_and_evidence": "All candidate ranks/slots/scores present in Table2; count15 retained in model overview and original source archive."
+  },
+  {
+    "item": "C06",
+    "deleted": "**조건 후보.** Parrot은 이 반응에 대해 15개 후보를 반환했다[D1]. 상위 3개 후보의 주요 슬롯은 다음과 같다.\n\n- rank 1: catalyst1 `\"\"`, solvent1 `C1CCOC1`, solvent2 `\"\"`, reagent1 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`, reagent2 `\"\"`, sequence_score −1.8565\n- rank 2: catalyst1 `\"\"`, solvent1 `C1CCOC1`, solvent2 `\"\"`, reagent1 `O`, reagent2 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`, sequence_score −2.7974\n- rank 3: catalyst1 `\"\"`, solvent1 `C1CCOC1`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score −2.9943",
+    "sha256": "08814f7484fe606f2880c62e8fd9fd30f8e0af458c5670d967e3436cf7679ab6",
+    "retained_content_and_evidence": "All candidate ranks/slots/scores present in Table2; count15 retained in model overview and original source archive."
+  },
+  {
+    "item": "C07",
+    "deleted": "**조건 후보.** Parrot은 이 반응에 대해 15개 후보를 반환했다[D1]. 상위 3개 후보의 주요 슬롯은 다음과 같다.\n\n- rank 1: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `CCOCC`, reagent2 `FB(F)F`, sequence_score −2.1755\n- rank 2: catalyst1 `\"\"`, solvent1 `CCO`, solvent2 `\"\"`, reagent1 `CC(=O)Cl`, reagent2 `\"\"`, sequence_score −2.3472\n- rank 3: catalyst1 `\"\"`, solvent1 `O=S(=O)(O)O`, solvent2 `\"\"`, reagent1 `\"\"`, reagent2 `\"\"`, sequence_score −2.6159",
+    "sha256": "2266f248dc425262e77107f4810f98fee7efb6c33b881e3ba3810a9fdb45350c",
+    "retained_content_and_evidence": "All candidate ranks/slots/scores present in Table2; count15 retained in model overview and original source archive."
+  },
+  {
+    "item": "C03",
+    "deleted": "즉 이 수율 예측은 반응 구조만 입력했고 조건 슬롯을 넣지 않았으며, 적용 가능성(applicability)도 평가되지 않았다.",
+    "sha256": "a9317a128776c3e1529c6054cdf5877c271e220bdc14825c19f9918ba225aa1f",
+    "retained_content_and_evidence": "Parrot non-input and structure-input record remain in same numeric paragraph and protected status paragraph; current review state in protected paragraph. All raw values/tokens retained."
+  },
+  {
+    "item": "C07",
+    "deleted": "모델이 예측한 슬롯은 실험에서 실제 사용된 시약·용매·촉매 역할을 입증하는 값이 아니므로, 구조 정체성과 실제 실험 역할은 서로 다른 개념으로 다루어야 하며 실험에서의 사용 여부는 확인되지 않았다.",
+    "sha256": "bfccd91e09eaf40dd979fa973fb7995bfbe8fcb586f32b52e6cc9311a803a6c5",
+    "retained_content_and_evidence": "Same exact complete Solar sentence relocated before Table2."
+  },
+  {
+    "item": "C07",
+    "deleted": "route-05/step-02의 반응 `CCO.Nc1ccc(C(=O)O)cc1>>CCOC(=O)c1ccc(N)cc1`에 대해 Parrot이 제시한 원시 후보는 총 15개이며 [D1], 이어지는 설명 문단은 그중 rank 1, rank 2, rank 3만을 각각 별도의 슬롯 구성으로 다룬다.",
+    "sha256": "a04d9441ccd41288b2187171e4e1f5792538f52cdd68e2a44819c5c27554b21f",
+    "retained_content_and_evidence": "Reaction string in structure paragraph and raw model output; same15 count and all ranks/slots in model overview and Table2."
+  },
+  {
+    "item": "C07",
+    "deleted": "rank 1은 catalyst1=``, solvent1=`CCO`, solvent2=``, reagent1=`CCOCC`, reagent2=`FB(F)F`이고, rank 2는 catalyst1=``, solvent1=`CCO`, solvent2=``, reagent1=`CC(=O)Cl`, reagent2=``이며, rank 3은 catalyst1=``, solvent1=`O=S(=O)(O)O`, solvent2=``, reagent1=``, reagent2=``이다 [D1]. 구조 토큰의 물질명 대응은 다음과 같이 확인된다 [D12]. `CCO`는 에탄올(ethanol, C2H6O; PubChem CID 702)이고, `CCOCC`는 다이에틸 에터(diethyl ether/ethoxyethane, C4H10O; PubChem CID 3283)이며, 이는 에틸 아세테이트 구조가 아니다.",
+    "sha256": "e2701ac1a2de27cf4826dbe97cb729879e2855db867faf2b628f1dc0a5df8f53",
+    "retained_content_and_evidence": "Reaction string in structure paragraph and raw model output; same15 count and all ranks/slots in model overview and Table2."
+  },
+  {
+    "item": "C11",
+    "deleted": "- Yield-BERT 수율은 실험 수율이 아니며, 조건 입력이 없었고 적용 가능성도 평가되지 않았다[D1][6].\n",
+    "sha256": "68cb1aaa39524ace638405888d6a44c434f17124f61633a2a314b1565758fd9f",
+    "retained_content_and_evidence": "Protected paragraph covers model vs experimental yield, no Parrot input, historical state and later review; all sources D1/6 remain."
+  },
+  {
+    "item": "R03",
+    "deleted": "Parrot의 route-05/step-02 rank-1 후보는 catalyst1이 비어 있고, solvent1=`CCO`, solvent2가 비어 있으며, reagent1=`CCOCC`, reagent2=`FB(F)F`이다[D1]. 이 슬롯을 그대로 두면 강의의 황산 촉매 피셔 에스터화와는 촉매·시약 구성이 다르다[17, PDF pp. 80–81]. 화학적으로 `CCO`는 에탄올, `CCOCC`는 디에틸 에터 계열 토큰, `FB(F)F`는 BF₃ 계열 토큰으로 읽을 수 있으나, 이는 해석이며 Parrot의 슬롯 분류가 아니다. 따라서 이 해석을 강의 조건과 합쳐 하나의 조건으로 만들지 않는다. 온도·시간·당량·압력은 제공되지 않았고, 이 단계의 운영 조건은 `NOT SUPPLIED`이다[D1].\n\n",
+    "sha256": "6da90d2bcb8fe3d9a9699272dcd4d929f353adc98e2cc51481969b1818f35d8e",
+    "retained_content_and_evidence": "Table3 keeps H2SO4 lesson, raw rank1 slots, method/equilibrium limits,79.80% prediction vs experiment. Table2 keeps full values and global role caution; electron-flow paragraph unchanged."
+  },
+  {
+    "item": "R03",
+    "deleted": "rxn_yields는 이 반응 SMILES에 대해 79.79832496878097%를 반환했으며, 표시는 79.80%로 하되 상태는 `predicted_not_validated`이다[6][D1]. 이 값은 구조만 입력한 단계 예측이며, Parrot 조건이나 강의 조건에서의 실험 수율이 아니다[17, PDF pp. 80–81].\n\n",
+    "sha256": "69610d9921dfc80852515efd1261ab3463c9fe1baecee910187fe97cb4c1d69b",
+    "retained_content_and_evidence": "Table3 keeps H2SO4 lesson, raw rank1 slots, method/equilibrium limits,79.80% prediction vs experiment. Table2 keeps full values and global role caution; electron-flow paragraph unchanged."
+  },
+  {
+    "item": "R08",
+    "deleted": "또한 routes와 yields는 이전 실행에서 복사된 것이므로, 이번 실행에서 세 모델 추론이 모두 새로 이루어졌다고 주장하지 않는다[16][6].",
+    "sha256": "12a2f4481a4190e5f27439227e2b755a2ff0ef03f3aee1dcd0bc93134fbfe019",
+    "retained_content_and_evidence": "First paragraph retains which outputs were reused and which newly inferred; archive keeps run IDs."
+  },
+  {
+    "item": "R10",
+    "deleted": "- route-01의 Parrot 상위 조건은 문헌의 PtO₂나 Rh/Al₂O₃를 정확히 제시하지 않고, H₂ 슬롯도 후보마다 다르다. 문헌 조건은 모델 출력과 분리해 후속 검토 후보로 남겨 둔다[D9][D1].\n",
+    "sha256": "fe3036b52c776c4279447eaee58e5f8c10c798e923a27d2c005c7f3da5a61e3d",
+    "retained_content_and_evidence": "Same limitations remain in main route, literature, MOPAC/EPI/Visualizer sections and conclusion; source IDs remain defined and cited."
+  },
+  {
+    "item": "R10",
+    "deleted": "- Yield-BERT 예측과 문헌 수율의 차이는 조건 일치 성능 오차로 해석하지 않는다. 학습 데이터 중복 여부도 미확인이다[D9][D1][6].\n",
+    "sha256": "4c0006da8b256b8a0973ecc8a7a3a1549b0481607723ce1ceb2c5749811fa982",
+    "retained_content_and_evidence": "Same limitations remain in main route, literature, MOPAC/EPI/Visualizer sections and conclusion; source IDs remain defined and cited."
+  },
+  {
+    "item": "R10",
+    "deleted": "- MOPAC은 고립 분자만 다루므로 반응 장벽·속도·수율·성공의 증거가 아니다[D5][10].\n",
+    "sha256": "f106ca8719707bdf3f9efa2d66c6ae0851e7316261e7a55de62c6b8719f8004b",
+    "retained_content_and_evidence": "Same limitations remain in main route, literature, MOPAC/EPI/Visualizer sections and conclusion; source IDs remain defined and cited."
+  },
+  {
+    "item": "R10",
+    "deleted": "- EPI Suite는 서비스 저하 상태에서 수신되었고, 혼합 상평형 정보는 제공하지 않는다[D6][12].\n",
+    "sha256": "9a8968da7fba71c16ba7a8c4bf8fecab4efda61d166818fa936528441d267eb3",
+    "retained_content_and_evidence": "Same limitations remain in main route, literature, MOPAC/EPI/Visualizer sections and conclusion; source IDs remain defined and cited."
+  },
+  {
+    "item": "R10",
+    "deleted": "- Visualizer는 일부 분자 내부 거리·각도와 정성적 단일 분자 화면만 제공하며, 반응물 접근·공격각·입체장애·반응 성공·수율을 측정하지 않는다[D7].\n",
+    "sha256": "bc780fab5cce7e5a117424b66d3dcd6b9901aac4890126a19ceaa91862b7b7bc",
+    "retained_content_and_evidence": "Same limitations remain in main route, literature, MOPAC/EPI/Visualizer sections and conclusion; source IDs remain defined and cited."
+  },
+  {
+    "item": "R10",
+    "deleted": "- route-05/step-01은 경로 간선이며 실제 순차 합성 검증이 없다[D1].\n",
+    "sha256": "40c8f955f0fd0491f7265d6b5c2bfae57b252d0e39565236ff5d1fd562f7b88f",
+    "retained_content_and_evidence": "Same limitations remain in main route, literature, MOPAC/EPI/Visualizer sections and conclusion; source IDs remain defined and cited."
+  },
+  {
+    "item": "R10",
+    "deleted": "- 구성 파일 바이트 해시 차이의 원인은 unresolved이며, 경로 구분자 정규화 후 구성 객체가 동일하다는 관찰과 함께 남겨 둔다[16][D10].",
+    "sha256": "7f552b5e68292b0a26cf040142a5f489f8e63f935ace08c1c331d0cdc1513a42",
+    "retained_content_and_evidence": "R08 final paragraph retains byte/object distinction and unresolved cause, with16/D10."
+  },
+  {
+    "item": "R10",
+    "deleted": "이 보고서는 제공된 증거와 스킬 규칙에 따라 작성했으며, 수행되지 않은 계산·GUI 관찰·모델 실행·실험 조건을 수행하지 않은 것으로 서술하지 않았다. 통합 조건·수율 표와 실제 그림 삽입은 문서 렌더러가 검증된 로컬 파일로 수행한다.",
+    "sha256": "70dedbfc902ab40e78aaaba94aaba2c162839a0dfecc89c81874b09615e89a24",
+    "retained_content_and_evidence": "Execution/renderer work note preserved verbatim in external records, not unique scientific results. No chemical limitation removed."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "SHA256": "ec7f22de7b6a4317562791ecbbf229458094096f8323db3083c9894c317fc448"
+    },
+    {
+      "path": "archive/README.md",
+      "SHA256": "f0f65df09c609ef15692e93eb9b3e22791035916083648ccf56958c9caccf6c1"
+    },
+    {
+      "path": "archive/history/.gitignore",
+      "SHA256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    },
+    {
+      "path": "archive/legacy-submissions/.gitignore",
+      "SHA256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d"
+    }
+  ],
+  "other_root_working_files_not_in_change_set": true
+}

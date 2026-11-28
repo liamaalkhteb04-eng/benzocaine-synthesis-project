@@ -1,0 +1,193 @@
+{
+  "upstream_request": "reports\\benzocaine-revised-authoring-trial-20261127-01\\trial-01\\request\\request-sent.json",
+  "upstream_request_sha256": "49fac071237d6c24a634406f186c316c2d2d100491e86436075ba5db7b1ab0b6",
+  "extraction": "Only evidence_units and figure metadata. No system/messages, completed manuscript, raw Solar responses or held-out answers copied into writer inputs. Provenance/extraction notes are audit-only.",
+  "unit_provenance": {
+    "target": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S33__report-context.json",
+      "source_sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "pointer_or_columns": "/identity; /selection_provenance/selected_by",
+      "extraction": "Select identity/user provenance fields only; no authoring instructions."
+    },
+    "routes_and_steps": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S02__report-evidence.json",
+      "source_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+      "pointer_or_columns": "/route_summary; /selected_route_ids; /report_steps selected scalar/numeric fields",
+      "extraction": "Exclude report prose, caveats, plans, captions and reference answers. Preserve raw historical status with timestamp."
+    },
+    "parrot_candidates": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S44__parrot-candidates.csv",
+      "source_sha256": "28f237ffd99d0b2e4ba32ecf9878025d549c74c254254eb438128c43ad245873",
+      "pointer_or_columns": "60 raw candidate rows; declared columns",
+      "extraction": "CSV field whitelist; no shown-in-draft labels or previous report content."
+    },
+    "token_identity": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S03__token-identity-evidence.json",
+      "source_sha256": "fbebf37214f7e647dbd30cf7536076df4684825f3cf957d2e6cffd337a62fb18",
+      "pointer_or_columns": "/tokens identity/formula/URL fields",
+      "extraction": "Exclude correction prompts and report claims; identity lookup facts only."
+    },
+    "normalization": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S02__report-evidence.json",
+      "source_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+      "pointer_or_columns": "/normalization exact arithmetic/provenance fields",
+      "extraction": "Exclude narrative training-domain assessment; retained formula/constants are source records."
+    },
+    "checkpoint_eval": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\reconciled-primary-facts.json",
+      "source_sha256": "b8b494331290e40afabbbd7e4daa0068186f083a6a661de5217effb73698f80d",
+      "pointer_or_columns": "/yield_evaluation numeric and origin fields",
+      "extraction": "Select data and provenance only; exclude existing report interpretation/limits/paper_context narrative."
+    },
+    "official_training_code": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\source-projections.json",
+      "source_sha256": "dc2b016cf58d3b56c613883543f1bd7f22c23634c147318990289fb2ea5bd180",
+      "pointer_or_columns": "/Y-CODE/content",
+      "extraction": "Pinned official source code, not a report paragraph. Inert evidence, do not execute."
+    },
+    "public_table_lookup": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\source-projections.json",
+      "source_sha256": "dc2b016cf58d3b56c613883543f1bd7f22c23634c147318990289fb2ea5bd180",
+      "pointer_or_columns": "/Y-SCAN/content numeric lookup records",
+      "extraction": "Recorded audit results; not a full-training-membership guarantee or a report answer."
+    },
+    "training_input_sample": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\source-projections.json",
+      "source_sha256": "dc2b016cf58d3b56c613883543f1bd7f22c23634c147318990289fb2ea5bd180",
+      "pointer_or_columns": "/Y-INPUT/content",
+      "extraction": "One existing official training-row example; same project evidence, not a new material test."
+    },
+    "mapping": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\source-projections.json",
+      "source_sha256": "dc2b016cf58d3b56c613883543f1bd7f22c23634c147318990289fb2ea5bd180",
+      "pointer_or_columns": "/MAP-STEPS/content plus S42/S43",
+      "extraction": "Structured saved graph mapping, not prior C04/Solar wording. No independently inferred mechanism."
+    },
+    "route_tree": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\reconciled-primary-facts.json",
+      "source_sha256": "b8b494331290e40afabbbd7e4daa0068186f083a6a661de5217effb73698f80d",
+      "pointer_or_columns": "/route05_raw_tree_nodes; /route05_materialized_steps",
+      "extraction": "Raw graph/stock-flag data; exclude route05_resolution report correction text."
+    },
+    "primary_literature": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\source-projections.json",
+      "source_sha256": "dc2b016cf58d3b56c613883543f1bd7f22c23634c147318990289fb2ea5bd180",
+      "pointer_or_columns": "/L-PRIMARY/content/literature; /yield_comparison numeric fields only",
+      "extraction": "Independent primary-source extraction (procedure/table locations). Exclude model-vs-literature prose and priority conclusions."
+    },
+    "mcmaster_procedure": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S15__yield-improvement-review.md",
+      "source_sha256": "aa4d36e590a76ca9f2a0ef81b2cd665d9c5c31c3101938092d089496e72f9567",
+      "pointer_or_columns": "단계별 비교 row route-05/step-02 and route02/supply reviewed-source coverage",
+      "extraction": "Atomic procedure/coverage data; no next-action or report-ready paragraphs."
+    },
+    "mopac_all_conformers": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S30__mopac_conformer_data.csv",
+      "source_sha256": "5673f7cb946e4b68419ba7752ef9c6702652b6c24634321a2e553acdec92f7ac",
+      "pointer_or_columns": "25 recorded PM7 rows",
+      "extraction": "Raw and already-computed relative heat data, preserve value_origin; no new calculation."
+    },
+    "mopac_selected": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S23__selected_conformers.csv",
+      "source_sha256": "3359abfcc37b03aa651a61bd273f2226a682d783f865b6cbb359ee0ae49fb029",
+      "pointer_or_columns": "5 selected conformer records",
+      "extraction": "Exclude report-presence flags and review prose."
+    },
+    "mopac_bonds": {
+      "source_file": "analyses\\mopac\\optimized-bond-lengths.csv",
+      "source_sha256": "e9407b3459426edf6708aca20a3942d46bcafde9760c9fa509430c47b9b47a80",
+      "pointer_or_columns": "selected-conformer rows, raw numeric atom/bond fields",
+      "extraction": "Existing recorded calculation data, not new molecular computation."
+    },
+    "mopac_charges": {
+      "source_file": "analyses\\mopac\\net-atomic-charges.csv",
+      "source_sha256": "8d0a3f47f8ee995dc1a9c6f91b6785de0f963fd2d1a4e8433252a369d0475f8e",
+      "pointer_or_columns": "selected-conformer rows, raw numeric atom/bond fields",
+      "extraction": "Existing recorded calculation data, not new molecular computation."
+    },
+    "epi_data": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S29__epi_plot_data.csv",
+      "source_sha256": "c2115f0eb9eacb871db027563972383aa87648c69d8d9fff8fd545de95c80560",
+      "pointer_or_columns": "28 entries, original property/provenance columns",
+      "extraction": "Exclude original_report_basis/previous-report values; retain missing flags and model-vs-DB classification."
+    },
+    "additional_run_metadata": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\reconciled-primary-facts.json",
+      "source_sha256": "b8b494331290e40afabbbd7e4daa0068186f083a6a661de5217effb73698f80d",
+      "pointer_or_columns": "harness_raw_request_observations; S24/S30 PM7 records; S25 EPI audit",
+      "extraction": "Scalars/run metadata only; no prior harness answers or prose comparisons."
+    },
+    "visualizer_measurements": {
+      "source_file": "analyses\\visualizer\\visualizer-measurements.csv",
+      "source_sha256": "f2419631a9a67252744a4e1c0dabc112675ff0356a8fbb0fdb0b1957b1ecbd33",
+      "pointer_or_columns": "4 actual measurement rows",
+      "extraction": "Stored Measure/Monitor data only; no Solar paragraph."
+    },
+    "visualizer_home": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\files\\S20__new_observations.csv",
+      "source_sha256": "fe7e39c133122906452642ae7344b32b6eded05134fa4c09c0767872d686323b",
+      "pointer_or_columns": "actual GUI observation rows; linked S21 identity rows",
+      "extraction": "Human GUI observation log, not a prior Solar caption/answer. Same-conformer camera views recorded."
+    },
+    "course_reference": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\source-projections.json",
+      "source_sha256": "dc2b016cf58d3b56c613883543f1bd7f22c23634c147318990289fb2ea5bd180",
+      "pointer_or_columns": "/COURSE/content verified page metadata and diagram-step concepts",
+      "extraction": "No report-ready comparison text, no prior Solar electron-flow paragraph."
+    },
+    "citation_registry": {
+      "source_file": "reports\\benzocaine-edited-final-20261127-01\\evidence\\current\\report-citation-registry.json",
+      "source_sha256": "32796e9e7604c9ee9ca1b6ccc1ff5a7f8ddd8cf40ecc2606595af846111c7289",
+      "pointer_or_columns": "ID/type/URL/support metadata only",
+      "extraction": "Exclude current_report_definition or report sentences; independent source IDs and links."
+    },
+    "yield_review_method": {
+      "source_file": "reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\applicability_method_comparison.csv",
+      "source_sha256": "75c5a2600a3322c7dc4a59ee38e56a1f43646adfc2a90c02873048f11283965a",
+      "pointer_or_columns": [
+        "dimension",
+        "official_method",
+        "actual_project",
+        "evidence_ids"
+      ],
+      "source_role": "existing school applicability review evidence, not a completed manuscript or past Solar replacement response"
+    },
+    "yield_review_steps": {
+      "source_file": "reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\applicability_step_verdicts.csv",
+      "source_sha256": "e0695eaa5645a031005fd30021572090c688f84ee69170ed28ecab840a034967",
+      "pointer_or_columns": [
+        "route_id",
+        "step_id",
+        "reaction_smiles",
+        "transformation",
+        "support",
+        "limitations",
+        "correctness_verdict",
+        "official_table_exact_train_matches",
+        "official_table_canonical_train_matches",
+        "official_table_exact_test_matches",
+        "official_table_canonical_test_matches",
+        "missing_and_next_evidence",
+        "evidence_ids",
+        "source_locations"
+      ],
+      "source_role": "existing school applicability review evidence, not a completed manuscript or past Solar replacement response"
+    },
+    "yield_review_catalog": {
+      "source_file": "reports\\benzocaine-small-revision-run-20261126-01\\output\\evidence-run\\yield-applicability\\applicability_evidence_catalog.csv",
+      "source_sha256": "51f51e94240cd25a6125c3e5f4db557444ef5cc60a59b5602bfc2d35dfe944cb",
+      "pointer_or_columns": [
+        "evidence_id",
+        "finding",
+        "source_url",
+        "source_location",
+        "evidence_type",
+        "limitation",
+        "retrieved_date"
+      ],
+      "source_role": "existing school applicability review evidence, not a completed manuscript or past Solar replacement response"
+    }
+  },
+  "latest_ledger": "reports\\benzocaine-revised-authoring-trial-20261127-01\\execution\\cumulative-ledger-after.json",
+  "latest_ledger_sha256": "4142a29dea7cf8afa30c9b2d66c0cb12d4b78669833f242821d59ef6ff872c1b"
+}

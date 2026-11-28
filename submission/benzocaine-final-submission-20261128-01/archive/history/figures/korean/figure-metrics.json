@@ -1,0 +1,105 @@
+{
+  "PNG_dpi": 300,
+  "data_hashes": {
+    "epi_plot_data.csv": "c2115f0eb9eacb871db027563972383aa87648c69d8d9fff8fd545de95c80560",
+    "mopac_conformer_data.csv": "5673f7cb946e4b68419ba7752ef9c6702652b6c24634321a2e553acdec92f7ac",
+    "route_overview_data.csv": "7e015ade1a4ea668d7c1d07743401d71166a4d799958797c5bcba94676838d6b"
+  },
+  "epi": {
+    "DB_points": 9,
+    "missing_DB": 5,
+    "model_points": 14,
+    "unit": "deg C"
+  },
+  "final_captions": "pending Solar; numbered titles are draft identifiers only",
+  "mopac": {
+    "energy": "FINAL HEAT OF FORMATION; within-species subtraction only",
+    "reference_conformers": {
+      "acetic-acid": [
+        3
+      ],
+      "benzocaine": [
+        1
+      ],
+      "ethanol": [
+        2
+      ],
+      "ethyl-4-nitrobenzoate": [
+        4
+      ],
+      "p-aminobenzoic-acid": [
+        4
+      ]
+    },
+    "rows": 25,
+    "spreads_kcal_mol": {
+      "acetic-acid": 0.00047000000000707587,
+      "benzocaine": 0.49849999999999284,
+      "ethanol": 1.9871800000000022,
+      "ethyl-4-nitrobenzoate": 0.5198900000000037,
+      "p-aminobenzoic-acid": 0.002250000000003638
+    }
+  },
+  "print_width_inches": 6.5,
+  "route": {
+    "molecule_drawings": [
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "route-01-start",
+        "smiles": "CCOC(=O)c1ccc([N+](=O)[O-])cc1"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "route-01-target",
+        "smiles": "CCOC(=O)c1ccc(N)cc1"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "route-02-start",
+        "smiles": "CCOC(=O)c1ccc(NC(C)=O)cc1"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "route-02-target",
+        "smiles": "CCOC(=O)c1ccc(N)cc1"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "route-05-start",
+        "smiles": "Nc1ccc(C(=O)O)cc1"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "route-05-target",
+        "smiles": "CCOC(=O)c1ccc(N)cc1"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "supply-acetic-acid",
+        "smiles": "CC(=O)O"
+      },
+      {
+        "drawing_only": true,
+        "font_print_target_pt": 11,
+        "name": "supply-ethanol",
+        "smiles": "CCO"
+      }
+    ],
+    "performance_rankings": false,
+    "recorded_edge_counts": {
+      "route-01": 1,
+      "route-02": 1,
+      "route-05": 2
+    },
+    "rows": 4,
+    "unvalidated_supply_edge": "route-05/step-01",
+    "yield_values_plotted": 0
+  }
+}

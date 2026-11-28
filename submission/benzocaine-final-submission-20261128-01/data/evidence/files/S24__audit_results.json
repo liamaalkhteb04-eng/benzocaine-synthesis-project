@@ -1,0 +1,117 @@
+{
+  "jobs": 25,
+  "converged": 25,
+  "hash_match_jobs": 0,
+  "summary_match_jobs": 25,
+  "gradient_range": [
+    0.29806,
+    0.49866
+  ],
+  "bond_rows": 78,
+  "max_bond_difference_A": 0.0,
+  "charge_rows": 400,
+  "charge_matches": 400,
+  "errors": [
+    [
+      "ethyl-4-nitrobenzoate",
+      1
+    ],
+    [
+      "ethyl-4-nitrobenzoate",
+      2
+    ],
+    [
+      "ethyl-4-nitrobenzoate",
+      3
+    ],
+    [
+      "ethyl-4-nitrobenzoate",
+      4
+    ],
+    [
+      "ethyl-4-nitrobenzoate",
+      5
+    ],
+    [
+      "benzocaine",
+      1
+    ],
+    [
+      "benzocaine",
+      2
+    ],
+    [
+      "benzocaine",
+      3
+    ],
+    [
+      "benzocaine",
+      4
+    ],
+    [
+      "benzocaine",
+      5
+    ],
+    [
+      "p-aminobenzoic-acid",
+      1
+    ],
+    [
+      "p-aminobenzoic-acid",
+      2
+    ],
+    [
+      "p-aminobenzoic-acid",
+      3
+    ],
+    [
+      "p-aminobenzoic-acid",
+      4
+    ],
+    [
+      "p-aminobenzoic-acid",
+      5
+    ],
+    [
+      "ethanol",
+      1
+    ],
+    [
+      "ethanol",
+      2
+    ],
+    [
+      "ethanol",
+      3
+    ],
+    [
+      "ethanol",
+      4
+    ],
+    [
+      "ethanol",
+      5
+    ],
+    [
+      "acetic-acid",
+      1
+    ],
+    [
+      "acetic-acid",
+      2
+    ],
+    [
+      "acetic-acid",
+      3
+    ],
+    [
+      "acetic-acid",
+      4
+    ],
+    [
+      "acetic-acid",
+      5
+    ]
+  ],
+  "scope": "Parsing and arithmetic cross-check only. No MOPAC/chemical calculations run."
+}

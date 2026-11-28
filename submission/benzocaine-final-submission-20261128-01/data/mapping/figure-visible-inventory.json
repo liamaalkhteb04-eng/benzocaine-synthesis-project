@@ -1,0 +1,279 @@
+{
+  "SCI-ROUTES": {
+    "displayed": [
+      "대표 route-01·02·05 구조와 간선 수 1·1·2",
+      "니트로기 환원·아세틸 보호기 제거·에스터 생성의 구조 변화",
+      "아세트산→에탄올 공급 가지 점선",
+      "구조 변화 기록이며 검증된 실험 절차가 아니라는 문구"
+    ],
+    "not_displayed": [
+      "state_score",
+      "policy_probability",
+      "template_code",
+      "수율값",
+      "반응 원자 map 번호",
+      "정량 실험 결과"
+    ],
+    "associated_record_only": [
+      "경로 점수는 routes_and_steps 별도 기록이며 그림에 인쇄되지 않음"
+    ],
+    "asset_path": "data/assets/route_overview_draft.png",
+    "asset_SHA256": "7100bf82d7b03c341933e90036f065159b5ec33aa1415411b8dbc2279113e711",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "DETAIL-route-01-step-01": {
+    "displayed": [
+      "에틸4-니트로벤조에이트→벤조카인 구조와 이름",
+      "니트로기→아미노기·에틸 에스터 유지",
+      "주황색 생성물에서 없는 부착·파란색 변화한 작용기",
+      "구조/매핑 차이 표시이며 반응 기전 검증은 아니라는 문구"
+    ],
+    "not_displayed": [
+      "원자 map 숫자 10·13·14",
+      "경로 점수",
+      "수율",
+      "실험 조건",
+      "전자이동 곡선화살표"
+    ],
+    "associated_record_only": [
+      "N10/O13/O14의 번호·전하는 별도 매핑표에서 확인"
+    ],
+    "asset_path": "data/assets/route-01-step-01-ko.png",
+    "asset_SHA256": "9c11e8ea081456805936dce833733aed2557a95c9d2ab7dd2276aa184aeafffd",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "DETAIL-route-02-step-01": {
+    "displayed": [
+      "에틸4-아세트아미도벤조에이트→벤조카인 구조와 이름",
+      "N-아세틸기 제거·에틸 에스터 유지",
+      "주황색 소실 부착과 파란색 변화 작용기",
+      "기전 검증이 아니라는 문구"
+    ],
+    "not_displayed": [
+      "원자 map 숫자 10·13·14·15",
+      "경로 점수",
+      "수율",
+      "실험 조건",
+      "실험 관찰된 개별 결합 절단"
+    ],
+    "associated_record_only": [
+      "N10-C13 경계, C13-C14 및 C13-O15 조각 내부 대응과 N10 H1→2는 별도 표의 근거"
+    ],
+    "asset_path": "data/assets/route-02-step-01-ko.png",
+    "asset_SHA256": "7202872646da0d4462151d7b3936163b1b80f1783292519d4bad8f6a33c5056d",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "DETAIL-route-05-step-02": {
+    "displayed": [
+      "PABA + 에탄올 → 벤조카인 구조와 물질명",
+      "카복실산 + 알코올 → 에틸 에스터",
+      "초록색 새 연결과 주황색 생성물에서 없는 부착",
+      "구조/매핑 차이이며 기전 검증은 아니라는 문구"
+    ],
+    "not_displayed": [
+      "원자 map 숫자 3·4·13",
+      "수율",
+      "경로 점수",
+      "촉매/용매/시약 후보",
+      "실험 수행 증명"
+    ],
+    "associated_record_only": [
+      "O3-C4와 C4-O13 등의 번호는 별도 매핑 기록"
+    ],
+    "asset_path": "data/assets/route-05-step-02-ko.png",
+    "asset_SHA256": "13d862b0fc79b943900e9a89f51f885925debf6cd906d855ea85585de549096b",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "RESTORE-supply": {
+    "displayed": [
+      "아세트산→에탄올의 구조와 물질명",
+      "회색 점선 화살표",
+      "미검증 에탄올 공급 가지라는 제목",
+      "합성 절차·수율 검증이 아니라는 문구",
+      "구조 변화 강조색"
+    ],
+    "not_displayed": [
+      "in_stock 플래그",
+      "수율 77.59%",
+      "경로 점수",
+      "반응 map 번호",
+      "검증된 실험 조건"
+    ],
+    "associated_record_only": [
+      "재고 플래그는 raw tree의 별도 기록. 재고 여부와 반응 간선의 실험 검증 여부는 다른 항목"
+    ],
+    "asset_path": "data/assets/route-05-step-01-ko.png",
+    "asset_SHA256": "594c149c4f3f3b31c173181e9e4a1d70d8b5cafd04a077100ce7529fe2e8b0f7",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "SCI-EPI": {
+    "displayed": [
+      "A 녹는점·B 끓는점 패널",
+      "7개 물질의 점",
+      "온도 °C 축",
+      "MPBPWIN 추정값 원형과 EPI Unified DB 참조값 마름모 범례",
+      "DB 누락점 미표시·모든 DB값이 직접 측정은 아님·혼합물 거동 미확정 문구"
+    ],
+    "not_displayed": [
+      "개별 점의 정확한 원시 수치 라벨",
+      "반응 수율",
+      "state_score",
+      "직접 측정만으로 구성된 실험 자료",
+      "혼합물 상평형"
+    ],
+    "associated_record_only": [
+      "정확한 값·DB provenance는 epi_data와 코드 표로 추적"
+    ],
+    "asset_path": "data/assets/epi_properties_draft.png",
+    "asset_SHA256": "383fc1fbbd544a875971e45d42c17d87c73276c30378a1159bd5f9b50bcc304f",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "SCI-MOPAC": {
+    "displayed": [
+      "PM7 배좌별 상대 생성열",
+      "5개 분자의 패널과 각5개 시작 배좌",
+      "상대 생성열 kcal/mol 축·시작 배좌 번호",
+      "원형 배좌점과 다섯 배좌 중 최저값 별",
+      "범위 0.51989/0.49850/0.00225/1.98718/0.00047",
+      "분자마다 별도 영점·같은 세로축 척도·다른 분자의 안정성 순위가 아님 문구"
+    ],
+    "not_displayed": [
+      "분자별 절대 생성열",
+      "활성화 장벽",
+      "자유에너지",
+      "반응 성공률",
+      "경로 점수"
+    ],
+    "associated_record_only": [
+      "절대 생성열·전하·수렴 등의 원시값은 별도 MOPAC 기록/표"
+    ],
+    "asset_path": "data/assets/mopac_conformers_draft.png",
+    "asset_SHA256": "01ce8394e80fe42e60cb7ca16bb95ed7a35f7ad0f16ce63dd17274f10fd43596",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "home-19_paba_ball_and_stick": {
+    "displayed": [
+      "Visualizer GUI의 단일 PABA 볼·스틱 화면",
+      "하단 메타데이터의 conformer_index4·PM7와 생성열 약-70.4701",
+      "카복실기·고리·아미노기 구조"
+    ],
+    "not_displayed": [
+      "다른 반응물과의 상대 배치",
+      "접근성 측정",
+      "거리/각도 monitor",
+      "반응 원자 map 번호"
+    ],
+    "associated_record_only": [
+      "배좌와 정성 관찰 범위는 visualizer_home의 연결 기록"
+    ],
+    "asset_path": "data/assets/19_paba_ball_and_stick.png",
+    "asset_SHA256": "ff8a95b2ef5a08595b8752ea630367c75b85fec48cb3e2be7b737ca822a5f6ab",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "home-13_ethanol_ball_and_stick": {
+    "displayed": [
+      "Visualizer GUI의 단일 에탄올 볼·스틱 화면",
+      "하단 메타데이터의 conformer_index2·PM7와 생성열 약-57.8567",
+      "OH와 에틸 골격"
+    ],
+    "not_displayed": [
+      "PABA와의 상대 배치",
+      "접근 거리/공격각",
+      "반응 원자 map 번호"
+    ],
+    "associated_record_only": [
+      "정성 관찰·대상 구조는 visualizer_home의 연결 기록"
+    ],
+    "asset_path": "data/assets/13_ethanol_ball_and_stick.png",
+    "asset_SHA256": "e2257ba9989699f1c79182934e8fd5375fb24cf197b421cfd4ce2c7e7725fd3f",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "RESTORE-distance": {
+    "displayed": [
+      "첫 번째 니트로 출발물질 배좌의 Visualizer 화면",
+      "초록색 원자 숫자 라벨과 DistanceMonitor 값2.684",
+      "같은 분자 내부의 거리 표시"
+    ],
+    "not_displayed": [
+      "배좌2의 값2.682",
+      "문자 라벨 H21",
+      "반응 공격 거리",
+      "반응 매핑번호에 대한 범용 대응표"
+    ],
+    "associated_record_only": [
+      "N10-H21/Å 및 배좌1 식별은 저장 measurement 기록과 연결. 화면의 0 라벨을 반응 map0으로 간주하지 않음"
+    ],
+    "asset_path": "data/assets/visualizer-route01-conf1-distance.png",
+    "asset_SHA256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "RESTORE-angle": {
+    "displayed": [
+      "같은 첫 번째 배좌의 Visualizer 화면",
+      "AngleMonitor 값119.102",
+      "분자 내부 국소 각도와 숫자 원자 라벨"
+    ],
+    "not_displayed": [
+      "배좌2의 값119.062",
+      "전이상태 공격각",
+      "반응 매핑번호에 대한 범용 대응표"
+    ],
+    "associated_record_only": [
+      "C8-C9-N10/도 단위와 배좌 식별은 저장 measurement 기록에서 연결"
+    ],
+    "asset_path": "data/assets/visualizer-route01-conf1-angle.png",
+    "asset_SHA256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "RESTORE-paba-edge": {
+    "displayed": [
+      "검은 배경의 PABA 볼·스틱 다른 시점 화면",
+      "카르복실기·고리·아미노기와 달라진 투영/겹침"
+    ],
+    "not_displayed": [
+      "배좌 번호 라벨",
+      "새 배좌 계산",
+      "거리·각도 측정",
+      "정량 접근성"
+    ],
+    "associated_record_only": [
+      "같은 배좌4의 강체 카메라 회전이라는 식별은 provenance 기록. 그림만으로 새 배좌라고 말하지 않음"
+    ],
+    "asset_path": "data/assets/visualizer-route05-paba-edge.png",
+    "asset_SHA256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  },
+  "old-target": {
+    "displayed": [
+      "벤조카인의 2D 구조식",
+      "O와 NH2 등의 원소/작용기 문자"
+    ],
+    "not_displayed": [
+      "PubChem CID 숫자",
+      "분자식 텍스트",
+      "원자 map 번호",
+      "경로 점수",
+      "수율",
+      "경로 우선순위"
+    ],
+    "associated_record_only": [
+      "CID2337·분자식과 정체성은 target 레코드. 구조 그림에 해당 숫자가 인쇄됐다는 뜻은 아님"
+    ],
+    "asset_path": "data/assets/target.png",
+    "asset_SHA256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+    "inspection_basis": "Direct visual inspection of this pinned PNG; source metadata used only where marked associated_record_only",
+    "inspection_date": "2026-11-27"
+  }
+}

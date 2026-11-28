@@ -1,0 +1,182 @@
+{
+  "purpose": "Report display only; calculation/reproduction must use raw exact values below, not rounded report figures.",
+  "values": [
+    {
+      "raw_exact": "0.46616947650909424",
+      "report_display": "0.46616948",
+      "decimal_places": 8,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.21513395011425018",
+      "report_display": "0.21513395",
+      "decimal_places": 8,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.2100452482700348",
+      "report_display": "0.21004525",
+      "decimal_places": 8,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.31552639603614807",
+      "report_display": "0.31552640",
+      "decimal_places": 8,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "82.95371431744555",
+      "report_display": "82.95",
+      "decimal_places": 2,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "77.69549187778327",
+      "report_display": "77.70",
+      "decimal_places": 2,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "77.58890327412914",
+      "report_display": "77.59",
+      "decimal_places": 2,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "79.79832496878097",
+      "report_display": "79.80",
+      "decimal_places": 2,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.7318926847478698",
+      "report_display": "0.73189268",
+      "decimal_places": 8,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.20946128682168402",
+      "report_display": "0.20946129",
+      "decimal_places": 8,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.11658362440393955",
+      "report_display": "0.117",
+      "decimal_places": 3,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "0.8820414721228422",
+      "report_display": "0.8820",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-1.700762152671814",
+      "report_display": "-1.7008",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.0481550693511963",
+      "report_display": "-2.0482",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.7931230068206787",
+      "report_display": "-2.7931",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.878655195236206",
+      "report_display": "-2.8787",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-1.3239554166793823",
+      "report_display": "-1.3240",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.660543441772461",
+      "report_display": "-2.6605",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-3.2928555011749268",
+      "report_display": "-3.2929",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-1.8564977645874023",
+      "report_display": "-1.8565",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.797421455383301",
+      "report_display": "-2.7974",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.994331121444702",
+      "report_display": "-2.9943",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.1754837036132812",
+      "report_display": "-2.1755",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.3472180366516113",
+      "report_display": "-2.3472",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    },
+    {
+      "raw_exact": "-2.6159138679504395",
+      "report_display": "-2.6159",
+      "decimal_places": 4,
+      "occurrences": 1,
+      "source": "Original baseline/CSV; display only, not model recalculation; archived exact precision controls reproduction."
+    }
+  ],
+  "all_four_raws_and_percents_source": "evidence/files/S06__four_step_yield_mapping.csv",
+  "candidate_full_precision_source": "evidence/files/S44__parrot-candidates.csv"
+}

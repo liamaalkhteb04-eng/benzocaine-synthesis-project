@@ -1,0 +1,12 @@
+smiles,rdkit_formula,identity,pubchem_cid
+CO,CH4O,methanol,887
+CCOCC,C4H10O,diethyl ether (ethoxyethane),3283
+CCOC(=O)C,C4H8O2,ethyl acetate,8857
+FB(F)F,BF3,boron trifluoride (trifluoroborane; Korean: 삼불화붕소),6356
+Cl,HCl,hydrogen chloride / hydrochloric acid structure record,313
+CCO,C2H6O,ethanol,702
+CCOC(C)=O,C4H8O2,ethyl acetate,8857
+[H][H],H2,hydrogen molecule,783
+C1CCOC1,C4H8O,tetrahydrofuran (THF),8028
+CC(=O)Cl,C2H3ClO,acetyl chloride,6367
+O,H2O,water,962

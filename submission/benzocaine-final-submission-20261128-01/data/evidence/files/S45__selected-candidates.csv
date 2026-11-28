@@ -1,0 +1,14 @@
+route_id,step_id,rank,catalyst1,solvent1,solvent2,reagent1,reagent2,sequence_score,shown_in_draft,source_pointer,source_file
+route-01,step-01,1,[Pd],CCO,,,,-1.700762152671814,True,/report_steps/0/conditions/candidates/0,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-01,step-01,2,[Pd],CO,,,,-2.0481550693511963,True,/report_steps/0/conditions/candidates/1,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-01,step-01,3,[Pd],CCOC(C)=O,,,,-2.7931230068206787,True,/report_steps/0/conditions/candidates/2,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-01,step-01,4,[Pd],CCO,,[H][H],,-2.878655195236206,True,/report_steps/0/conditions/candidates/3,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-02,step-01,1,,CCO,,Cl,,-1.3239554166793823,True,/report_steps/1/conditions/candidates/0,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-02,step-01,2,,Cl,,,,-2.660543441772461,True,/report_steps/1/conditions/candidates/1,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-02,step-01,3,,CCO,,[Na+].[OH-],,-3.2928555011749268,True,/report_steps/1/conditions/candidates/2,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-05,step-01,1,,C1CCOC1,,[Al+3].[H-].[H-].[H-].[H-].[Li+],,-1.8564977645874023,True,/report_steps/2/conditions/candidates/0,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-05,step-01,2,,C1CCOC1,,O,[Al+3].[H-].[H-].[H-].[H-].[Li+],-2.797421455383301,True,/report_steps/2/conditions/candidates/1,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-05,step-01,3,,C1CCOC1,,,,-2.994331121444702,True,/report_steps/2/conditions/candidates/2,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-05,step-02,1,,CCO,,CCOCC,FB(F)F,-2.1754837036132812,True,/report_steps/3/conditions/candidates/0,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-05,step-02,2,,CCO,,CC(=O)Cl,,-2.3472180366516113,True,/report_steps/3/conditions/candidates/1,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json
+route-05,step-02,3,,O=S(=O)(O)O,,,,-2.6159138679504395,True,/report_steps/3/conditions/candidates/2,reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json

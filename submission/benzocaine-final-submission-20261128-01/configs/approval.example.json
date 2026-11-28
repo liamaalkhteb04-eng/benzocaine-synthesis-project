@@ -1,0 +1,13 @@
+{
+  "approved": false,
+  "bundle_SHA256": "FILL_AFTER_OFFLINE_BUILD",
+  "max_calls": 6,
+  "free_credit_only": true,
+  "automatic_retries": 0,
+  "project_cap_USD": 1.5,
+  "work_cap_USD_VAT": 0,
+  "free_credit_expiry_UTC": null,
+  "free_credit_conservative_available_USD": 0,
+  "official_free_first_rule_confirmed": false,
+  "note": "Example only; all previous call approvals are closed. New writing requires new explicit approval and current credit/pricing checks."
+}

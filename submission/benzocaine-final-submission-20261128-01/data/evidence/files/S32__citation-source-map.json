@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "policy": "Model/tool references support method descriptions; project claims and numerical outputs require matching D evidence.",
+  "sources": {
+    "1": {
+      "type": "external",
+      "supports": "Benzocaine identity, formula and structure identifier",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2337"
+    },
+    "2": {
+      "type": "external",
+      "supports": "AiZynthFinder retrospective route-planning method",
+      "url": "https://github.com/MolecularAI/aizynthfinder"
+    },
+    "3": {
+      "type": "external",
+      "supports": "SynthEx project identity and release-status statements only",
+      "url": "https://github.com/schwallergroup/synthex"
+    },
+    "4": {
+      "type": "external",
+      "supports": "ASKCOS v2 context recommender identity and service guidance",
+      "url": "https://gitlab.com/mlpds_mit/askcosv2/context_recommender"
+    },
+    "5": {
+      "type": "external",
+      "supports": "Parrot reaction-condition prediction method and output fields",
+      "url": "https://github.com/wangxr0526/Parrot"
+    },
+    "6": {
+      "type": "external",
+      "supports": "rxn_yields reaction-SMILES yield-prediction model",
+      "url": "https://github.com/rxn4chemistry/rxn_yields"
+    },
+    "7": {
+      "type": "external",
+      "supports": "DRFP reaction fingerprint library identity",
+      "url": "https://github.com/reymond-group/drfp"
+    },
+    "8": {
+      "type": "external",
+      "supports": "rxn_yields normalization implementation and training-statistic procedure",
+      "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py"
+    },
+    "9": {
+      "type": "external",
+      "supports": "USPTO reaction-yield dataset source",
+      "url": "https://ibm.ent.box.com/v/uspto-yields-data"
+    },
+    "10": {
+      "type": "external",
+      "supports": "MOPAC PM7 method documentation",
+      "url": "https://openmopac.net/Manual/pm7.html"
+    },
+    "11": {
+      "type": "external",
+      "supports": "MOPAC geometry gradient/GNORM criterion documentation",
+      "url": "https://openmopac.net/Manual/precision.html"
+    },
+    "12": {
+      "type": "external",
+      "supports": "EPA EPI Suite scope, MPBPWIN estimations, screening-level caveat, current v4.11 notice",
+      "url": "https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface"
+    },
+    "13": {
+      "type": "external",
+      "supports": "EPI Suite Web beta application endpoint only",
+      "url": "https://episuite.dev/EpiWebSuite/#/"
+    },
+    "14": {
+      "type": "external",
+      "supports": "Australian government acetic-acid MP/BP reference values",
+      "url": "https://www.dcceew.gov.au/environment/protection/npi/substances/acetic-acid-ethanoic-acid"
+    },
+    "15": {
+      "type": "external",
+      "supports": "rxn_yields USPTO dataset exploration notebook",
+      "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb"
+    },
+    "16": {
+      "type": "project",
+      "supports": "Project execution manifests, commands, version and reuse records",
+      "files": [
+        "evidence-run/manifest.json",
+        "evidence-run/reproducibility-manifest.json"
+      ]
+    },
+    "17": {
+      "type": "course",
+      "supports": "Course-only claims summarized from the specified original lecture pages; original PDF excluded from redistribution.",
+      "files": [
+        "evidence-run/course-evidence-summary.md",
+        "evidence-run/course-material-acquisition.md"
+      ],
+      "url": "User obtains the course file from the course LMS."
+    },
+    "D1": {
+      "type": "project",
+      "supports": "Route, condition and yield report-evidence output",
+      "file": "evidence-run/report-evidence.json"
+    },
+    "D2": {
+      "type": "project",
+      "supports": "Current status of additional analyses",
+      "file": "evidence-run/additional-analysis-status-current.json"
+    },
+    "D3": {
+      "type": "project",
+      "supports": "Resolved evidence conflicts and stale-state corrections",
+      "file": "evidence-run/evidence-conflict-resolution.md"
+    },
+    "D4": {
+      "type": "project",
+      "supports": "Validation notes and applicability/unsupported-status checks",
+      "file": "evidence-run/validation_notes.json"
+    },
+    "D5": {
+      "type": "project",
+      "supports": "Actual MOPAC inputs, convergence and computed values",
+      "file": "evidence-run/mopac-results-interpretation.md"
+    },
+    "D6": {
+      "type": "project",
+      "supports": "Actual EPI Web responses, values and provenance classifications",
+      "file": "evidence-run/epi-analysis.md"
+    },
+    "D7": {
+      "type": "project",
+      "supports": "Actual Visualizer observations, screenshots and measurements",
+      "files": [
+        "evidence-run/visualizer-measurement-interpretation.md",
+        "evidence-run/visualizer-observation-index.csv",
+        "evidence-run/visualizer-measurements.csv"
+      ]
+    },
+    "D8": {
+      "type": "project",
+      "supports": "Actual OpenCode/Pi requests, responses and case comparison",
+      "files": [
+        "evidence-run/harness-trial-02-comparison-evaluation.md",
+        "evidence-run/harness-trial-02-status.json",
+        "evidence-run/harness-trial-02-budget.json",
+        "evidence-run/reproducibility-manifest.json"
+      ]
+    },
+    "D9": {
+      "type": "project",
+      "supports": "Primary literature comparison, source identity/hash and acquisition guidance, and exact Parrot/Yield-BERT source data",
+      "files": [
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/literature-comparison.md",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/comparison.json",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/validation.json",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/source-integrity.json",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/source-acquisition.md",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/routes.raw.json",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/conditions-parrot.raw.json",
+        "evidence-run/literature-validation/route-01-primary-comparison-20261114/evidence/yields-rxn_yields.raw.json"
+      ]
+    },
+    "D10": {
+      "type": "project",
+      "supports": "Existing-PC rerun and corrected asset/configuration comparison; the corrected validation is distinct from the preserved original conflicting record.",
+      "files": [
+        "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-corrected.json",
+        "evidence-run/rerun/benzocaine-live-repro-20261105-01/reproduction-validation-original-conflicting.json",
+        "evidence-run/rerun/benzocaine-live-repro-20261105-01/verification.json",
+        "evidence-run/rerun/benzocaine-live-repro-20261105-01/manifest.json"
+      ]
+    },
+    "18": {
+      "type": "external",
+      "supports": "Direct ethyl p-nitrobenzoate to benzocaine experiment, procedure, and reported isolated yield",
+      "url": "https://doi.org/10.15227/orgsyn.008.0066"
+    },
+    "19": {
+      "type": "external",
+      "supports": "Direct hydrogenation experiment, patent Example IV conditions and reported yield",
+      "url": "https://patents.google.com/patent/US3037046A/en"
+    },
+    "D11": {
+      "type": "project",
+      "supports": "User-provided target selection provenance for this report run; not a model inference.",
+      "file": "evidence-run/report-context.json"
+    },
+    "D12": {
+      "type": "project",
+      "supports": "Verified molecular identities for condition-structure tokens; does not assign experimental roles.",
+      "files": [
+        "evidence-run/token-identity-evidence.json",
+        "evidence-run/chemical-token-audit.csv"
+      ]
+    }
+  }
+}

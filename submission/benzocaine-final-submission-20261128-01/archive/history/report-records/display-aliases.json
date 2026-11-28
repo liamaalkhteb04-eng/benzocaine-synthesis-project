@@ -1,0 +1,632 @@
+[
+  {
+    "item": "C03",
+    "source_marker": "temperature_status",
+    "display_alias": "온도 제공 상태",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "temperature, time, yield_percent",
+    "display_alias": "온도·시간·수율 필드",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "not_provided_by_checkpoint",
+    "display_alias": "체크포인트 미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "NOT SUPPLIED",
+    "display_alias": "미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "conditions_in_input은 false",
+    "display_alias": "조건 슬롯 포함 여부는 false",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "predicted_not_validated",
+    "display_alias": "미검증 예측",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "standardized_fraction",
+    "display_alias": "표준화 분율",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "raw_value",
+    "display_alias": "원시 출력값",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "catalyst1",
+    "display_alias": "촉매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 2,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C03",
+    "source_marker": "0.0 Unrecognized",
+    "display_alias": "0.0 미분류",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "temperature_status",
+    "display_alias": "온도 제공 상태",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "temperature, time, yield_percent",
+    "display_alias": "온도·시간·수율 필드",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "not_provided_by_checkpoint",
+    "display_alias": "체크포인트 미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "NOT SUPPLIED",
+    "display_alias": "미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "conditions_in_input은 false",
+    "display_alias": "조건 슬롯 포함 여부는 false",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "predicted_not_validated",
+    "display_alias": "미검증 예측",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "standardized_fraction",
+    "display_alias": "표준화 분율",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "raw_value",
+    "display_alias": "원시 출력값",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "catalyst1",
+    "display_alias": "촉매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "reagent1",
+    "display_alias": "시약 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C05",
+    "source_marker": "0.0 Unrecognized",
+    "display_alias": "0.0 미분류",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "temperature_status",
+    "display_alias": "온도 제공 상태",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "temperature, time, yield_percent",
+    "display_alias": "온도·시간·수율 필드",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "not_provided_by_checkpoint",
+    "display_alias": "체크포인트 미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "NOT SUPPLIED",
+    "display_alias": "미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "conditions_in_input은 false",
+    "display_alias": "조건 슬롯 포함 여부는 false",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "predicted_not_validated",
+    "display_alias": "미검증 예측",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "standardized_fraction",
+    "display_alias": "표준화 분율",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "raw_value",
+    "display_alias": "원시 출력값",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "reagent1",
+    "display_alias": "시약 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "reagent2",
+    "display_alias": "시약 슬롯2",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C06",
+    "source_marker": "0.0 Unrecognized",
+    "display_alias": "0.0 미분류",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C07",
+    "source_marker": "conditions_in_input은 false",
+    "display_alias": "조건 슬롯 포함 여부는 false",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C07",
+    "source_marker": "predicted_not_validated",
+    "display_alias": "미검증 예측",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C07",
+    "source_marker": "standardized_fraction",
+    "display_alias": "표준화 분율",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C07",
+    "source_marker": "raw_value",
+    "display_alias": "원시 출력값",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C07",
+    "source_marker": "0.0 Unrecognized",
+    "display_alias": "0.0 미분류",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C08",
+    "source_marker": "standardized_fraction",
+    "display_alias": "표준화 분율",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C10",
+    "source_marker": "conditions_in_input=false",
+    "display_alias": "조건 슬롯 미입력",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C11",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C12",
+    "source_marker": "route_id / step_id",
+    "display_alias": "경로·단계",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C12",
+    "source_marker": "지지(support)",
+    "display_alias": "지지 근거",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "C12",
+    "source_marker": "한계(limitations)",
+    "display_alias": "한계",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "Parrot rank",
+    "display_alias": "Parrot 후보 순위",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "predicted_not_validated",
+    "display_alias": "미검증 예측",
+    "count": 13,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "sequence_score",
+    "display_alias": "순서 생성 점수",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "catalyst1",
+    "display_alias": "촉매 슬롯1",
+    "count": 13,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 13,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "solvent2",
+    "display_alias": "용매 슬롯2",
+    "count": 13,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "reagent1",
+    "display_alias": "시약 슬롯1",
+    "count": 13,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R02",
+    "source_marker": "reagent2",
+    "display_alias": "시약 슬롯2",
+    "count": 13,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "Parrot rank",
+    "display_alias": "Parrot 후보 순위",
+    "count": 2,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "conditions_in_input false",
+    "display_alias": "조건 슬롯 미입력",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "predicted_not_validated",
+    "display_alias": "미검증 예측",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "catalyst1",
+    "display_alias": "촉매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "solvent2",
+    "display_alias": "용매 슬롯2",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "reagent1",
+    "display_alias": "시약 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R03",
+    "source_marker": "reagent2",
+    "display_alias": "시약 슬롯2",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "routes는 success로",
+    "display_alias": "`경로 출력`은 `정상 출력`으로",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "conditions는 success로",
+    "display_alias": "`조건 출력`은 `정상 출력`으로",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "temperature_status",
+    "display_alias": "온도 제공 상태",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "temperature, time, yield_percent",
+    "display_alias": "온도·시간·수율 필드",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "not_provided_by_checkpoint",
+    "display_alias": "체크포인트 미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "NOT SUPPLIED",
+    "display_alias": "미제공",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "sequence_score",
+    "display_alias": "순서 생성 점수",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "catalyst1",
+    "display_alias": "촉매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "solvent1",
+    "display_alias": "용매 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "solvent2",
+    "display_alias": "용매 슬롯2",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "reagent1",
+    "display_alias": "시약 슬롯1",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "reagent2",
+    "display_alias": "시약 슬롯2",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R04",
+    "source_marker": "0.0 Unrecognized",
+    "display_alias": "0.0 미분류",
+    "count": 2,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "derived_or_analogue_database_entry_not_direct_measurement",
+    "display_alias": "유도·유사물질 DB 항목(직접 측정 아님)",
+    "count": 2,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "epi_database_evidence_provenance_insufficient_to_claim_direct_experiment",
+    "display_alias": "직접 실험으로 단정할 출처 근거 부족",
+    "count": 2,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "literature_cited_epi_evidence_not_independently_verified_as_measurement",
+    "display_alias": "문헌 인용 DB 기록(측정값 여부 독립 미확인)",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "requestHandling.healthy=false",
+    "display_alias": "요청 처리 정상 여부=false",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "degraded",
+    "display_alias": "서비스 제한",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "estimatedValue",
+    "display_alias": "모델 추정 필드",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "experimentalValues",
+    "display_alias": "DB 반환 기록 필드",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "selectedValue",
+    "display_alias": "선택 반환값",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "ESTIMATED",
+    "display_alias": "모델 추정",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R06",
+    "source_marker": "다이ethyl",
+    "display_alias": "다이에틸",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R08",
+    "source_marker": "routes와 yields는",
+    "display_alias": "`경로·수율 출력`은",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R08",
+    "source_marker": "unresolved",
+    "display_alias": "미해결",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R10",
+    "source_marker": "not_implemented",
+    "display_alias": "미구현",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R10",
+    "source_marker": "준비-phase",
+    "display_alias": "준비 단계",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  },
+  {
+    "item": "R11",
+    "source_marker": "routes, conditions, yields가",
+    "display_alias": "`경로·조건·수율 출력`이",
+    "count": 1,
+    "support": "Existing schema/enum or already-verified identity; original spelling preserved in source archive. No value/unit/role reassigned."
+  }
+]

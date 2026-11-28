@@ -1,0 +1,126 @@
+[
+  {
+    "figure_id": "old-target",
+    "asset_path": "data/assets/target.png",
+    "sha256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa",
+    "data_unit": "target",
+    "width_cm": 7.0
+  },
+  {
+    "figure_id": "SCI-ROUTES",
+    "asset_path": "data/assets/route_overview_draft.png",
+    "sha256": "7100bf82d7b03c341933e90036f065159b5ec33aa1415411b8dbc2279113e711",
+    "data_units": [
+      "routes_and_steps",
+      "mapping"
+    ],
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "DETAIL-route-01-step-01",
+    "asset_path": "data/assets/route-01-step-01-ko.png",
+    "sha256": "9c11e8ea081456805936dce833733aed2557a95c9d2ab7dd2276aa184aeafffd",
+    "data_units": [
+      "routes_and_steps",
+      "mapping"
+    ],
+    "recorded_step_id": "route-01-step-01",
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "DETAIL-route-02-step-01",
+    "asset_path": "data/assets/route-02-step-01-ko.png",
+    "sha256": "7202872646da0d4462151d7b3936163b1b80f1783292519d4bad8f6a33c5056d",
+    "data_units": [
+      "routes_and_steps",
+      "mapping"
+    ],
+    "recorded_step_id": "route-02-step-01",
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "DETAIL-route-05-step-02",
+    "asset_path": "data/assets/route-05-step-02-ko.png",
+    "sha256": "13d862b0fc79b943900e9a89f51f885925debf6cd906d855ea85585de549096b",
+    "data_units": [
+      "routes_and_steps",
+      "mapping"
+    ],
+    "recorded_step_id": "route-05-step-02",
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "SCI-EPI",
+    "asset_path": "data/assets/epi_properties_draft.png",
+    "sha256": "383fc1fbbd544a875971e45d42c17d87c73276c30378a1159bd5f9b50bcc304f",
+    "data_units": [
+      "epi_data"
+    ],
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "SCI-MOPAC",
+    "asset_path": "data/assets/mopac_conformers_draft.png",
+    "sha256": "01ce8394e80fe42e60cb7ca16bb95ed7a35f7ad0f16ce63dd17274f10fd43596",
+    "data_units": [
+      "mopac_all_conformers",
+      "mopac_selected"
+    ],
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "home-19_paba_ball_and_stick",
+    "asset_path": "data/assets/19_paba_ball_and_stick.png",
+    "sha256": "ff8a95b2ef5a08595b8752ea630367c75b85fec48cb3e2be7b737ca822a5f6ab",
+    "data_unit": "visualizer_home",
+    "species": "PABA",
+    "conformer": 4,
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "home-13_ethanol_ball_and_stick",
+    "asset_path": "data/assets/13_ethanol_ball_and_stick.png",
+    "sha256": "e2257ba9989699f1c79182934e8fd5375fb24cf197b421cfd4ce2c7e7725fd3f",
+    "data_unit": "visualizer_home",
+    "species": "ethanol",
+    "conformer": 2,
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "RESTORE-distance",
+    "asset_path": "data/assets/visualizer-route01-conf1-distance.png",
+    "sha256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f",
+    "data_unit": "visualizer_measurements",
+    "measurement_id": "D-01",
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "RESTORE-angle",
+    "asset_path": "data/assets/visualizer-route01-conf1-angle.png",
+    "sha256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1",
+    "data_unit": "visualizer_measurements",
+    "measurement_id": "A-01",
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "RESTORE-paba-edge",
+    "asset_path": "data/assets/visualizer-route05-paba-edge.png",
+    "sha256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b",
+    "data_unit": "visualizer_home",
+    "species": "PABA",
+    "conformer": 4,
+    "view_transform": "rigid camera rotation only",
+    "width_cm": 16.51
+  },
+  {
+    "figure_id": "RESTORE-supply",
+    "asset_path": "data/assets/route-05-step-01-ko.png",
+    "sha256": "594c149c4f3f3b31c173181e9e4a1d70d8b5cafd04a077100ce7529fe2e8b0f7",
+    "data_units": [
+      "routes_and_steps",
+      "mapping"
+    ],
+    "recorded_step_id": "route-05/step-01",
+    "width_cm": 16.51
+  }
+]

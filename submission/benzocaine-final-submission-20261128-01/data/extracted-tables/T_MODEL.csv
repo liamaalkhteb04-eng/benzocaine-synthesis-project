@@ -1,0 +1,10 @@
+field,value
+checkpoint,uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2
+R2,0.11658362440393955
+eval_loss,0.8820414721228422
+train_rows,158095
+test_rows,39524
+normalization_mean,0.7318926847478698
+normalization_std,0.20946128682168402
+saved_epochs,2
+current_default_epochs,15

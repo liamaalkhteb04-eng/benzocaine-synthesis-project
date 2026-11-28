@@ -1,0 +1,14 @@
+{
+  "PDF_SHA256": "878aba8160fe4a1b7f035f64ab5ed08164619912734b4be818a06bbe6355c890",
+  "DOCX_SHA256": "a9caacc9cc0371182f388c541cd09a2c9b19d6b4013ec795043e43f8260b770b",
+  "exact_user_approved_bytes": true,
+  "science_or_prose_review_repeated": false,
+  "Solar_calls": 0,
+  "pushed": false,
+  "source_baseline_files_changed": [],
+  "files": [
+    "report/20251312_리야마_벤조카인_최종보고서.docx",
+    "report/20251312_리야마_벤조카인_최종보고서.pdf"
+  ],
+  "filename_only_renamed": true
+}

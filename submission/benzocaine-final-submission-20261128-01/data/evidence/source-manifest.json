@@ -1,0 +1,457 @@
+{
+  "historical_sources": [
+    {
+      "source_id": "S01",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/report.md",
+      "packaged_path": "archive/history/evidence-files/S01__report.md",
+      "sha256": "c6a17ea69bafdfb47415d786033510dc2d9d78d59ec47a79230094c6a3fdc4e3",
+      "original_manifest_sha256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "5dfc3f6c0550b1f231021669d110f30af23806b3837485692f0df93e222ab133"
+    },
+    {
+      "source_id": "S02",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-evidence.json",
+      "packaged_path": "data/evidence/files/S02__report-evidence.json",
+      "sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+      "original_manifest_sha256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "6e07113d3e561a3ec375865c98f0e919d7d54df29738def200d8b4e293c3ab2b"
+    },
+    {
+      "source_id": "S03",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/token-identity-evidence.json",
+      "packaged_path": "data/evidence/files/S03__token-identity-evidence.json",
+      "sha256": "ea60bcf0ec4b6625ecd11904dc0c4ed41afd3437600a4343023c5759a3582fb1",
+      "original_manifest_sha256": "fbebf37214f7e647dbd30cf7536076df4684825f3cf957d2e6cffd337a62fb18",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "fbebf37214f7e647dbd30cf7536076df4684825f3cf957d2e6cffd337a62fb18"
+    },
+    {
+      "source_id": "S04",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/chemical-token-audit.csv",
+      "packaged_path": "data/evidence/files/S04__chemical-token-audit.csv",
+      "sha256": "a56dd1b74befd91917de85e43dd8624a8a15d6ae3e6b8090fb81275aafcafaec",
+      "original_manifest_sha256": "126bf1400f315abbd286f9beb97cc442c9f166a5f3af03a1d45939adf35b867d",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "126bf1400f315abbd286f9beb97cc442c9f166a5f3af03a1d45939adf35b867d"
+    },
+    {
+      "source_id": "S05",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/execution_facts.md",
+      "packaged_path": "data/evidence/files/S05__execution_facts.md",
+      "sha256": "c5a87797259bede20822b45762e9c8a546bef6485fd2766cd86aeb978c746775",
+      "original_manifest_sha256": "80c2162511038dad016570ae9621d09e1ee42010df0a67d1360c83c367aa443c",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "80c2162511038dad016570ae9621d09e1ee42010df0a67d1360c83c367aa443c"
+    },
+    {
+      "source_id": "S06",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/four_step_yield_mapping.csv",
+      "packaged_path": "data/evidence/files/S06__four_step_yield_mapping.csv",
+      "sha256": "e6973a88b901c245050b92f14fe9be5b5dec1acf6a078ed6df6ca247f48cb092",
+      "original_manifest_sha256": "cb33bf0376e3f38ebe051aa8458d9dd928beffa205a05cdc3165cc4ab1ec301d",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "cb33bf0376e3f38ebe051aa8458d9dd928beffa205a05cdc3165cc4ab1ec301d"
+    },
+    {
+      "source_id": "S07",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_assessment_ko.md",
+      "packaged_path": "data/evidence/files/S07__applicability_assessment_ko.md",
+      "sha256": "646a280da5625570e7a6603eb68cc98f6f0aa5af5f265a24eef3c3c0c8cb5c3e",
+      "original_manifest_sha256": "646a280da5625570e7a6603eb68cc98f6f0aa5af5f265a24eef3c3c0c8cb5c3e",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "646a280da5625570e7a6603eb68cc98f6f0aa5af5f265a24eef3c3c0c8cb5c3e"
+    },
+    {
+      "source_id": "S08",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_method_comparison.md",
+      "packaged_path": "data/evidence/files/S08__applicability_method_comparison.md",
+      "sha256": "d0fc3da415c581d61c330280561a2523ba6f0223370d048967024079b4b0cde2",
+      "original_manifest_sha256": "d0fc3da415c581d61c330280561a2523ba6f0223370d048967024079b4b0cde2",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "d0fc3da415c581d61c330280561a2523ba6f0223370d048967024079b4b0cde2"
+    },
+    {
+      "source_id": "S09",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_step_verdicts.csv",
+      "packaged_path": "data/evidence/files/S09__applicability_step_verdicts.csv",
+      "sha256": "1124b07fb125f638570f0464cf2599ef792f8ff918efc5041371fc9def3f94e3",
+      "original_manifest_sha256": "e0695eaa5645a031005fd30021572090c688f84ee69170ed28ecab840a034967",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "e0695eaa5645a031005fd30021572090c688f84ee69170ed28ecab840a034967"
+    },
+    {
+      "source_id": "S10",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_paper_reading_note.md",
+      "packaged_path": "data/evidence/files/S10__applicability_paper_reading_note.md",
+      "sha256": "257fb91f7610a5d3dcbf2813d467ec8fcb4127f91cd1e276fe212837152598f4",
+      "original_manifest_sha256": "257fb91f7610a5d3dcbf2813d467ec8fcb4127f91cd1e276fe212837152598f4",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "257fb91f7610a5d3dcbf2813d467ec8fcb4127f91cd1e276fe212837152598f4"
+    },
+    {
+      "source_id": "S11",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_membership_summary.csv",
+      "packaged_path": "data/evidence/files/S11__applicability_membership_summary.csv",
+      "sha256": "d1cd0dc5af16556151d0d259088e981390763ef74ec0a72c79134619132943f8",
+      "original_manifest_sha256": "31b0928ddc0503ca0a08c5e3609811e70b9329181f2150a0727d501413865978",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "31b0928ddc0503ca0a08c5e3609811e70b9329181f2150a0727d501413865978"
+    },
+    {
+      "source_id": "S12",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_source_catalog.csv",
+      "packaged_path": "data/evidence/files/S12__applicability_source_catalog.csv",
+      "sha256": "96999731ea212fdffe0f574ee90cb089d9875a792572753949f6714ac8e17085",
+      "original_manifest_sha256": "7362e174ff03baccf0e0249c769c68f8c4376219f230f0bb934a0d5ec1343c56",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "7362e174ff03baccf0e0249c769c68f8c4376219f230f0bb934a0d5ec1343c56"
+    },
+    {
+      "source_id": "S13",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_evidence_catalog.csv",
+      "packaged_path": "data/evidence/files/S13__applicability_evidence_catalog.csv",
+      "sha256": "0b0275d3a87e5b0711c79d3305a104807a693bb34f0dd5d51463ef86e589ee91",
+      "original_manifest_sha256": "51f51e94240cd25a6125c3e5f4db557444ef5cc60a59b5602bfc2d35dfe944cb",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "51f51e94240cd25a6125c3e5f4db557444ef5cc60a59b5602bfc2d35dfe944cb"
+    },
+    {
+      "source_id": "S14",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/yield_applicability/applicability_unresolved_questions.csv",
+      "packaged_path": "data/evidence/files/S14__applicability_unresolved_questions.csv",
+      "sha256": "62260ab6ce65b17e0c454334283234e958db03c35a19ed8725c26c11c5493770",
+      "original_manifest_sha256": "2a175c724cb8f6b3b2e91afe699daad9ddcb579d5369887dfe65d91fa72c4f9b",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "2a175c724cb8f6b3b2e91afe699daad9ddcb579d5369887dfe65d91fa72c4f9b"
+    },
+    {
+      "source_id": "S15",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/school_handoff/yield-improvement-review.md",
+      "packaged_path": "data/evidence/files/S15__yield-improvement-review.md",
+      "sha256": "2a7b3d4dc248d0adcd6c8c215524670070033dedb37aab96a71a16fd541d8cc0",
+      "original_manifest_sha256": "aa4d36e590a76ca9f2a0ef81b2cd665d9c5c31c3101938092d089496e72f9567",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "aa4d36e590a76ca9f2a0ef81b2cd665d9c5c31c3101938092d089496e72f9567"
+    },
+    {
+      "source_id": "S16",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/school_handoff/parrot-condition-review.md",
+      "packaged_path": "data/evidence/files/S16__parrot-condition-review.md",
+      "sha256": "9bf7c41b8bb6fd58d39b9064a6b01670473a5ee62f38d59f8a210d399546d442",
+      "original_manifest_sha256": "e0ad8e559527cde43dd30d1dfd171e4f2f370f298202b44bea465a6b31aed795",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "e0ad8e559527cde43dd30d1dfd171e4f2f370f298202b44bea465a6b31aed795"
+    },
+    {
+      "source_id": "S17",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/school_handoff/route05-step01-provenance-review.md",
+      "packaged_path": "data/evidence/files/S17__route05-step01-provenance-review.md",
+      "sha256": "d34f4d890850a22d8eaef9f3c45bfb9b7484d273fb6a6c8421c154e29809335f",
+      "original_manifest_sha256": "bd4ec789b91926d55d853e7152c9aeb446f30a5b0c2aeac200544f54074d09ee",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "bd4ec789b91926d55d853e7152c9aeb446f30a5b0c2aeac200544f54074d09ee"
+    },
+    {
+      "source_id": "S18",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/school_handoff/yield-epi-integration-review.md",
+      "packaged_path": "data/evidence/files/S18__yield-epi-integration-review.md",
+      "sha256": "8fc1a53cfe25b62b8978fbab85c0a933bb3fadec59983158d45fefab8279acb2",
+      "original_manifest_sha256": "da783257b24698a8d815d644efce24bc9b961c5f7257d8064858f03b14a1c6fc",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "da783257b24698a8d815d644efce24bc9b961c5f7257d8064858f03b14a1c6fc"
+    },
+    {
+      "source_id": "S19",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/README.md",
+      "packaged_path": "data/evidence/files/S19__README.md",
+      "sha256": "19f1bc6eae02c54638d3b80311503e71174f37ac829d9c4e54ca99762d6d3fb3",
+      "original_manifest_sha256": "19f1bc6eae02c54638d3b80311503e71174f37ac829d9c4e54ca99762d6d3fb3",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "19f1bc6eae02c54638d3b80311503e71174f37ac829d9c4e54ca99762d6d3fb3"
+    },
+    {
+      "source_id": "S20",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/new_observations.csv",
+      "packaged_path": "data/evidence/files/S20__new_observations.csv",
+      "sha256": "8f3d7dad5fe4b38cc2c683a3590e4c6f3a7bb17f32a9f1ec1d3232b534492504",
+      "original_manifest_sha256": "fe7e39c133122906452642ae7344b32b6eded05134fa4c09c0767872d686323b",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "fe7e39c133122906452642ae7344b32b6eded05134fa4c09c0767872d686323b"
+    },
+    {
+      "source_id": "S21",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_visualizer/GUI_identity_trace.csv",
+      "packaged_path": "data/evidence/files/S21__GUI_identity_trace.csv",
+      "sha256": "64bf79d38b622e2169363f66b4e024b50d1134ac0a8964f06350194a6026f196",
+      "original_manifest_sha256": "6f124acdd7eb0840821fac45282f8a33264ea0dc1a61c0a163e1fa43f62f9549",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "6f124acdd7eb0840821fac45282f8a33264ea0dc1a61c0a163e1fa43f62f9549"
+    },
+    {
+      "source_id": "S22",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_mopac_review/README.md",
+      "packaged_path": "data/evidence/files/S22__README.md",
+      "sha256": "72ebfe7da80f01101775747561aba5fad030145e213d7350c4b785297e13765b",
+      "original_manifest_sha256": "f028d1996aa5ace7596458d3a043f458cc82c6ad3884fc38ccbec171b9d4bdff",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "f028d1996aa5ace7596458d3a043f458cc82c6ad3884fc38ccbec171b9d4bdff"
+    },
+    {
+      "source_id": "S23",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_mopac_review/selected_conformers.csv",
+      "packaged_path": "data/evidence/files/S23__selected_conformers.csv",
+      "sha256": "90c53f8ad37ec70375f8be4eeb8952abe1d10bb510cc85f78604576d84bbe548",
+      "original_manifest_sha256": "3359abfcc37b03aa651a61bd273f2226a682d783f865b6cbb359ee0ae49fb029",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "3359abfcc37b03aa651a61bd273f2226a682d783f865b6cbb359ee0ae49fb029"
+    },
+    {
+      "source_id": "S24",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/home_mopac_review/audit_results.json",
+      "packaged_path": "data/evidence/files/S24__audit_results.json",
+      "sha256": "216bc12a08dec5b91e34e2c56846a0f4383eb40ac047caad870b41440dc0438d",
+      "original_manifest_sha256": "216bc12a08dec5b91e34e2c56846a0f4383eb40ac047caad870b41440dc0438d",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "216bc12a08dec5b91e34e2c56846a0f4383eb40ac047caad870b41440dc0438d"
+    },
+    {
+      "source_id": "S25",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/epi-analysis.md",
+      "packaged_path": "data/evidence/files/S25__epi-analysis.md",
+      "sha256": "eee96f0927788cd54ce6d3cae85fac54a596794afa588c7599a64c19d61b35b0",
+      "original_manifest_sha256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "22c5d1f646c0ac272b8f51e798de53bfdf951a163cf4f1d653e366da44592a84"
+    },
+    {
+      "source_id": "S26",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/visualizer-measurement-interpretation.md",
+      "packaged_path": "data/evidence/files/S26__visualizer-measurement-interpretation.md",
+      "sha256": "ba496a314a0fefb958459651e7182127d87d89469a31c66865b7455ee3e4d6f9",
+      "original_manifest_sha256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "954e0398296ae85af6dbb03df313b120ab745f4704db78ab6fd5f3e17168d9b0"
+    },
+    {
+      "source_id": "S27",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/harness-trial-02-comparison-evaluation.md",
+      "packaged_path": "data/evidence/files/S27__harness-trial-02-comparison-evaluation.md",
+      "sha256": "a64c4a1e356076c1709654412fed616342647d0ae46c3349b03f13bdb540350c",
+      "original_manifest_sha256": "9ed7562e32255963608a61fb84c19de44bd210735a3e399f4f0d28a9d7232584",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "9ed7562e32255963608a61fb84c19de44bd210735a3e399f4f0d28a9d7232584"
+    },
+    {
+      "source_id": "S28",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/original_reference_coverage.csv",
+      "packaged_path": "data/evidence/files/S28__original_reference_coverage.csv",
+      "sha256": "50873c204cdd9254e530489150b9c724b9070ba0e3295828195126a9468a699b",
+      "original_manifest_sha256": "508c7290c4872d1867be807d242e0d947297d3290fd5b77704c56de6e4c42bec",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "508c7290c4872d1867be807d242e0d947297d3290fd5b77704c56de6e4c42bec"
+    },
+    {
+      "source_id": "S29",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/graph-drafts-20261124-01/epi_plot_data.csv",
+      "packaged_path": "data/evidence/files/S29__epi_plot_data.csv",
+      "sha256": "487b4f70ff32c2ef511087928d686005086763cee66dab8856d627dae67137b3",
+      "original_manifest_sha256": "c2115f0eb9eacb871db027563972383aa87648c69d8d9fff8fd545de95c80560",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "c2115f0eb9eacb871db027563972383aa87648c69d8d9fff8fd545de95c80560"
+    },
+    {
+      "source_id": "S30",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/graph-drafts-20261124-01/mopac_conformer_data.csv",
+      "packaged_path": "data/evidence/files/S30__mopac_conformer_data.csv",
+      "sha256": "529a83f8a22a1dd37d5ff3f3f84b7676df51e06abac68e409034e2e46343a23b",
+      "original_manifest_sha256": "5673f7cb946e4b68419ba7752ef9c6702652b6c24634321a2e553acdec92f7ac",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "5673f7cb946e4b68419ba7752ef9c6702652b6c24634321a2e553acdec92f7ac"
+    },
+    {
+      "source_id": "S31",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/course-evidence-summary.md",
+      "packaged_path": "data/evidence/files/S31__course-evidence-summary.md",
+      "sha256": "580ad8f569a8a6f388f93b81a16a53323ebd29e3960c5a66c4bd8e2fab4d6dfe",
+      "original_manifest_sha256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "9e4026aef621bf2deb972ca2945176ac7be9a55f4ee331e081d334e6d5daa46a"
+    },
+    {
+      "source_id": "S32",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/citation-source-map.json",
+      "packaged_path": "data/evidence/files/S32__citation-source-map.json",
+      "sha256": "106dc01356c9e20c8459eb678ada7594395811aacff0970f363ff528da2f9c1e",
+      "original_manifest_sha256": "106dc01356c9e20c8459eb678ada7594395811aacff0970f363ff528da2f9c1e",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "106dc01356c9e20c8459eb678ada7594395811aacff0970f363ff528da2f9c1e"
+    },
+    {
+      "source_id": "S33",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/report-context.json",
+      "packaged_path": "data/evidence/files/S33__report-context.json",
+      "sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "original_manifest_sha256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "1d4624b3043ac9ec3e375d2141fd34ae4842cb01bd8a3710b3e9f237eb15cdbc"
+    },
+    {
+      "source_id": "S34",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/reproducibility-manifest.json",
+      "packaged_path": "data/evidence/files/S34__reproducibility-manifest.json",
+      "sha256": "d52839cf2294c53a1f9c92c85430782b13bcc266be76d32172d0d61ff159ab4c",
+      "original_manifest_sha256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "1cff8879630095e346246ce0eddd0eb6a941bf567e3305f08232541a696d9d69"
+    },
+    {
+      "source_id": "S35",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/additional-analysis-status-current.json",
+      "packaged_path": "data/evidence/files/S35__additional-analysis-status-current.json",
+      "sha256": "3e48ee8a927c39d5ed92fc07637a3f1555fd1bbd164b636f4cdc196c328bca13",
+      "original_manifest_sha256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "79fd4fc41b53f833355e8ff076ce2f214375a470d1fd804afe7b4f5eb48963e0"
+    },
+    {
+      "source_id": "S36",
+      "original_repository_path": "reviews/solar-evidence-bundle-20261124-01/inputs/prior_final_report/evidence-run/evidence-conflict-resolution.md",
+      "packaged_path": "data/evidence/files/S36__evidence-conflict-resolution.md",
+      "sha256": "7ae125cabd33c6690a82377e4c23382a094d2d0782b67d1b624e5f88003e0b0b",
+      "original_manifest_sha256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "2da1739ba4abe7e609a60e8f2f1fdffdb68ce70131f62c1afbcdf79e6cce61f8"
+    },
+    {
+      "source_id": "S37",
+      "original_repository_path": "reviews/scientific-presentation-20261125-01/data/compact-content-map.csv",
+      "packaged_path": "data/evidence/files/S37__compact-content-map.csv",
+      "sha256": "321b0f7fa4b6afeebc403671c0fd6db7ca594f295702d18cc32a1240f9ee8561",
+      "original_manifest_sha256": "6500a74ff195be05dce60e3ba4ce3b935420467bd4ddac409d971d1182a40dd6",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "6500a74ff195be05dce60e3ba4ce3b935420467bd4ddac409d971d1182a40dd6"
+    },
+    {
+      "source_id": "S38",
+      "original_repository_path": "reviews/scientific-presentation-20261125-01/data/route_overview_data.csv",
+      "packaged_path": "data/evidence/files/S38__route_overview_data.csv",
+      "sha256": "437c810c16420733bfbe246f2e6762f8a79adda4c133e449b6a5fdae242da6ef",
+      "original_manifest_sha256": "7e015ade1a4ea668d7c1d07743401d71166a4d799958797c5bcba94676838d6b",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "7e015ade1a4ea668d7c1d07743401d71166a4d799958797c5bcba94676838d6b"
+    },
+    {
+      "source_id": "S39",
+      "original_repository_path": "reviews/scientific-presentation-20261125-01/table-registry.csv",
+      "packaged_path": "data/evidence/files/S39__table-registry.csv",
+      "sha256": "1aafe23ae8251ee652cae31a43e5945a7850d399345d595ae7e6170dd32372c1",
+      "original_manifest_sha256": "750848044e92060284bb04f04374787b914ac78f9ac1189d14e8f0b080e8a9c4",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "750848044e92060284bb04f04374787b914ac78f9ac1189d14e8f0b080e8a9c4"
+    },
+    {
+      "source_id": "S40",
+      "original_repository_path": "reviews/scientific-presentation-20261125-01/reproducibility/source-crosswalk.csv",
+      "packaged_path": "data/evidence/files/S40__source-crosswalk.csv",
+      "sha256": "7031a541177209bfe60cc1d862b45c8410939c4ad0b75d62a85981fbc8c77c65",
+      "original_manifest_sha256": "399b26d7b2b9d27c565fdcbe6fdd8ec8e1e78ad8aa7a659cd8c6283dc2372d74",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "399b26d7b2b9d27c565fdcbe6fdd8ec8e1e78ad8aa7a659cd8c6283dc2372d74"
+    },
+    {
+      "source_id": "S41",
+      "original_repository_path": "reviews/step-structure-detail-20261125-01/data/step-evidence.json",
+      "packaged_path": "data/evidence/files/S41__step-evidence.json",
+      "sha256": "0d4b8f7fc98fda7032bb9a1cbfccc931270be62c8754bca1b4c8587a91ae6302",
+      "original_manifest_sha256": "0d4b8f7fc98fda7032bb9a1cbfccc931270be62c8754bca1b4c8587a91ae6302",
+      "matches_historical_original_hash": true,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "0d4b8f7fc98fda7032bb9a1cbfccc931270be62c8754bca1b4c8587a91ae6302"
+    },
+    {
+      "source_id": "S42",
+      "original_repository_path": "reviews/step-structure-detail-20261125-01/data/reaction-components.csv",
+      "packaged_path": "data/evidence/files/S42__reaction-components.csv",
+      "sha256": "2fe5b628a6b12938e4b8d65d68fbf649b3f5b34c8d3d384b3ce40a924485128f",
+      "original_manifest_sha256": "cd8c01e7c04c5f16f9f0de9d946d21d920f92d972efd7795a464112027e061b6",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "cd8c01e7c04c5f16f9f0de9d946d21d920f92d972efd7795a464112027e061b6"
+    },
+    {
+      "source_id": "S43",
+      "original_repository_path": "reviews/step-structure-detail-20261125-01/data/mapped-bond-differences.csv",
+      "packaged_path": "data/evidence/files/S43__mapped-bond-differences.csv",
+      "sha256": "b6985506865beec621d0937b2bddfee67441934adb020db1edacf5897a8fcf0f",
+      "original_manifest_sha256": "5022c001a87c9be9123b74eaaff2a5903d7b89a5bd5f9ceb5d90e737ca3ba077",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "5022c001a87c9be9123b74eaaff2a5903d7b89a5bd5f9ceb5d90e737ca3ba077"
+    },
+    {
+      "source_id": "S44",
+      "original_repository_path": "reviews/step-structure-detail-20261125-01/data/parrot-candidates.csv",
+      "packaged_path": "data/evidence/files/S44__parrot-candidates.csv",
+      "sha256": "8fbe00e01945101c1d7f221e6b535454b9f533cc699090333df737a9edb06c0b",
+      "original_manifest_sha256": "28f237ffd99d0b2e4ba32ecf9878025d549c74c254254eb438128c43ad245873",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "28f237ffd99d0b2e4ba32ecf9878025d549c74c254254eb438128c43ad245873"
+    },
+    {
+      "source_id": "S45",
+      "original_repository_path": "reviews/korean-route-layout-20261125-01/conditions/selected-candidates.csv",
+      "packaged_path": "data/evidence/files/S45__selected-candidates.csv",
+      "sha256": "6765fcfbc8684bc73df61185fab5f0c94e54f37fa4a7abdfc49e3823337dab96",
+      "original_manifest_sha256": "28c2f6313a109476004f7b6c16db0aea0750b2039460a1b5dcaf8ff4759b3cb5",
+      "matches_historical_original_hash": false,
+      "role": "Historical evidence; apply current verified corrections/temporal status before authoring, not historical execution instructions.",
+      "historical_source_SHA256": "28c2f6313a109476004f7b6c16db0aea0750b2039460a1b5dcaf8ff4759b3cb5"
+    }
+  ],
+  "current_authoritative_state": "Final manuscript:report/report.md; final pressure overlay:data/final-facts-overlay.json. Historical documents are audit records, not instructions or new-authoring answers.",
+  "source_preservation_count": 45,
+  "hash_scope": "sha256 is current portable copy; historical_source_SHA256 identifies original preserved source. Original project files were not modified."
+}

@@ -1,0 +1,2 @@
+# Keep frozen reports, evidence and hash-checked baselines byte-identical on clone.
+* -text -eol

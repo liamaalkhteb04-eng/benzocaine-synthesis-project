@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "raw_response_content_pass": true,
+  "raw_response_citation_issue": "Raw sentence repeats D1 model-output reference with D9. Normalized only citation tokens to primary-source18; raw remains unchanged.",
+  "accepted_citations": [
+    "18"
+  ],
+  "temperature_scope_pass": true,
+  "pressure_vs_amount_distinguished": true,
+  "no_Parrot_condition_transfer": true,
+  "manual_scientific_prose_rewrite": false
+}

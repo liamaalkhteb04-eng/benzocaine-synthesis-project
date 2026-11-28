@@ -1,0 +1,6 @@
+table_id,question,input_role,fields,caption_author,cross_reference
+Table1,conditions and literature comparison,Parrot records + primary literature comparison,all original slots/identity/experimental role uncertainty/conditions/yield definition/citations,Solar,required in main text
+Table2,yield output and applicability,four_step_yield_mapping.csv + applicability assessments,input/model variant/version/normalization/status;77.59 separate query-only row,Solar,required in main text
+Table3,EPI exact values and classifications,epi_plot_data.csv,model/DB/missing/classification/unit/citation,Solar,required in main text
+Table4,MOPAC selected values and methods,selected_conformers.csv + mopac_conformer_data.csv,molecule/conformer/heat/gradient/dipole/charge/method/limits/citation,Solar,required in main text
+Table5,harness scientific case comparison,harness comparison evaluation,model/settings/tools/input scope/attempt count/failures and findings; no costs/approval notes,Solar,required in main text

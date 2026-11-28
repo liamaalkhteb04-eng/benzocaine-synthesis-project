@@ -1,0 +1,67 @@
+[
+  {
+    "alias": "report/assets/target.png",
+    "canonical": "archive/duplicates/figure-originals/target.png",
+    "SHA256": "257f09a109f1e38da95989f42a595f2362a5adb7628c243374e0a3cef439efaa"
+  },
+  {
+    "alias": "report/assets/route_overview_draft.png",
+    "canonical": "report/assets/korean/route_overview_draft.png",
+    "SHA256": "7100bf82d7b03c341933e90036f065159b5ec33aa1415411b8dbc2279113e711"
+  },
+  {
+    "alias": "report/assets/route-01-step-01-ko.png",
+    "canonical": "archive/duplicates/figure-originals/route-01-step-01-ko.png",
+    "SHA256": "9c11e8ea081456805936dce833733aed2557a95c9d2ab7dd2276aa184aeafffd"
+  },
+  {
+    "alias": "report/assets/route-02-step-01-ko.png",
+    "canonical": "archive/duplicates/figure-originals/route-02-step-01-ko.png",
+    "SHA256": "7202872646da0d4462151d7b3936163b1b80f1783292519d4bad8f6a33c5056d"
+  },
+  {
+    "alias": "report/assets/route-05-step-02-ko.png",
+    "canonical": "archive/duplicates/figure-originals/route-05-step-02-ko.png",
+    "SHA256": "13d862b0fc79b943900e9a89f51f885925debf6cd906d855ea85585de549096b"
+  },
+  {
+    "alias": "report/assets/epi_properties_draft.png",
+    "canonical": "report/assets/korean/epi_properties_draft.png",
+    "SHA256": "383fc1fbbd544a875971e45d42c17d87c73276c30378a1159bd5f9b50bcc304f"
+  },
+  {
+    "alias": "report/assets/mopac_conformers_draft.png",
+    "canonical": "report/assets/korean/mopac_conformers_draft.png",
+    "SHA256": "01ce8394e80fe42e60cb7ca16bb95ed7a35f7ad0f16ce63dd17274f10fd43596"
+  },
+  {
+    "alias": "report/assets/19_paba_ball_and_stick.png",
+    "canonical": "archive/duplicates/figure-originals/19_paba_ball_and_stick.png",
+    "SHA256": "ff8a95b2ef5a08595b8752ea630367c75b85fec48cb3e2be7b737ca822a5f6ab"
+  },
+  {
+    "alias": "report/assets/13_ethanol_ball_and_stick.png",
+    "canonical": "archive/duplicates/figure-originals/13_ethanol_ball_and_stick.png",
+    "SHA256": "e2257ba9989699f1c79182934e8fd5375fb24cf197b421cfd4ce2c7e7725fd3f"
+  },
+  {
+    "alias": "report/assets/visualizer-route01-conf1-distance.png",
+    "canonical": "archive/duplicates/figure-originals/visualizer-route01-conf1-distance.png",
+    "SHA256": "fd36fc545ced9284d5392daed5625e7ddf493e5f9ba91f4be5b006e862a3b44f"
+  },
+  {
+    "alias": "report/assets/visualizer-route01-conf1-angle.png",
+    "canonical": "archive/duplicates/figure-originals/visualizer-route01-conf1-angle.png",
+    "SHA256": "237d787fa970f2be7cbe3532b996dc91d6294473cf9b7ffb5986a323e7c315c1"
+  },
+  {
+    "alias": "report/assets/visualizer-route05-paba-edge.png",
+    "canonical": "archive/duplicates/figure-originals/visualizer-route05-paba-edge.png",
+    "SHA256": "0a8e95cd3184f97c14ca402f78377e3a04084f1dd6717c40265402d320af4e1b"
+  },
+  {
+    "alias": "report/assets/route-05-step-01-ko.png",
+    "canonical": "archive/duplicates/figure-originals/route-05-step-01-ko.png",
+    "SHA256": "594c149c4f3f3b31c173181e9e4a1d70d8b5cafd04a077100ce7529fe2e8b0f7"
+  }
+]

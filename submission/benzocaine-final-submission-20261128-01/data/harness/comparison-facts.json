@@ -1,0 +1,211 @@
+{
+  "same": [
+    {
+      "field": "model",
+      "label": "모델",
+      "left": "solar-pro4-260806",
+      "right": "solar-pro4-260806",
+      "source_paths": [
+        "/harness/0/settings/model",
+        "/harness/1/settings/model"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    },
+    {
+      "field": "temperature",
+      "label": "temperature",
+      "left": 0,
+      "right": 0,
+      "source_paths": [
+        "/harness/0/settings/temperature",
+        "/harness/1/settings/temperature"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    },
+    {
+      "field": "reasoning_effort",
+      "label": "reasoning_effort",
+      "left": "none",
+      "right": "none",
+      "source_paths": [
+        "/harness/0/settings/reasoning_effort",
+        "/harness/1/settings/reasoning_effort"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    },
+    {
+      "field": "max_tokens",
+      "label": "최대 출력 토큰",
+      "left": 10000,
+      "right": 10000,
+      "source_paths": [
+        "/harness/0/settings/max_tokens",
+        "/harness/1/settings/max_tokens"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    },
+    {
+      "field": "n",
+      "label": "반환 수 n",
+      "left": 1,
+      "right": 1,
+      "source_paths": [
+        "/harness/0/settings/n",
+        "/harness/1/settings/n"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    },
+    {
+      "field": "stream",
+      "label": "stream",
+      "left": false,
+      "right": false,
+      "source_paths": [
+        "/harness/0/settings/stream",
+        "/harness/1/settings/stream"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    },
+    {
+      "field": "tools_key_present",
+      "label": "요청 tools 키 존재 여부",
+      "left": false,
+      "right": false,
+      "source_paths": [
+        "/harness/0/tools_key_present",
+        "/harness/1/tools_key_present"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "same"
+    }
+  ],
+  "different": [
+    {
+      "field": "system_bytes",
+      "label": "요청 system 바이트",
+      "left": 1348,
+      "right": 585,
+      "source_paths": [
+        "/harness/0/message_bytes_by_role/system",
+        "/harness/1/message_bytes_by_role/system"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "different"
+    },
+    {
+      "field": "user_bytes",
+      "label": "요청 user 바이트",
+      "left": 199764,
+      "right": 199832,
+      "source_paths": [
+        "/harness/0/message_bytes_by_role/user",
+        "/harness/1/message_bytes_by_role/user"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "different"
+    },
+    {
+      "field": "roles",
+      "label": "요청 메시지 역할 순서",
+      "left": [
+        "system",
+        "user",
+        "assistant"
+      ],
+      "right": [
+        "system",
+        "user"
+      ],
+      "source_paths": [
+        "/harness/0/message_role_sequence",
+        "/harness/1/message_role_sequence"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "different"
+    },
+    {
+      "field": "containers",
+      "label": "요청 content 컨테이너 유형",
+      "left": [
+        "str",
+        "str",
+        "str"
+      ],
+      "right": [
+        "str",
+        "list"
+      ],
+      "source_paths": [
+        "/harness/0/content_container_types",
+        "/harness/1/content_container_types"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "different"
+    },
+    {
+      "field": "assistant_bytes",
+      "label": "요청 assistant 메시지 바이트",
+      "left": 750,
+      "right": 0,
+      "source_paths": [
+        "/harness/0/assistant_message_bytes",
+        "/harness/1/assistant_message_bytes"
+      ],
+      "scope": "serialized API request metadata, not generated response",
+      "classification": "different"
+    }
+  ],
+  "unconfirmed": [
+    {
+      "field": "effective_tool_use",
+      "label": "하네스 내부의 실제 도구 사용",
+      "left": null,
+      "right": null,
+      "source_paths": [],
+      "scope": "요청의 tools 키 미포함만으로 하네스 전체의 도구 사용 여부를 확정할 수 없음",
+      "classification": "unconfirmed"
+    },
+    {
+      "field": "prompt_semantic_equivalence",
+      "label": "실제 프롬프트 의미의 동등성",
+      "left": null,
+      "right": null,
+      "source_paths": [],
+      "scope": "바이트·역할·컨테이너 자료만 제공됐으며 본문 의미 동등성을 검증한 결과는 없음",
+      "classification": "unconfirmed"
+    },
+    {
+      "field": "causal_effect_on_quality",
+      "label": "구조 차이가 출력 품질에 미친 인과 효과",
+      "left": null,
+      "right": null,
+      "source_paths": [],
+      "scope": "대조 실험·반복 측정·인과 평가 자료가 제공되지 않음",
+      "classification": "unconfirmed"
+    },
+    {
+      "field": "general_superiority",
+      "label": "일반적인 하네스 성능 우위",
+      "left": null,
+      "right": null,
+      "source_paths": [],
+      "scope": "공급된 한 쌍의 사례로 일반 성능 우위를 추정할 수 없음",
+      "classification": "unconfirmed"
+    },
+    {
+      "field": "repeated_stability",
+      "label": "반복 실행 안정성",
+      "left": null,
+      "right": null,
+      "source_paths": [],
+      "scope": "이번 입력은 하네스별 사례 하나씩이며 반복 결과 분포가 없음",
+      "classification": "unconfirmed"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+molecule,conformer,SDF_atom_serial,element,GUI_name,GUI_ID,evidence,role_from_prepared_mapping,note
+PABA,4,6,C,C6,6,21_paba_atom_mapping_GUI.png,carbonyl carbon,Prepared identity linked to visible GUI table; no new geometry calculation
+PABA,4,7,O,O7,7,21_paba_atom_mapping_GUI.png,carbonyl oxygen,No new distance/angle
+PABA,4,8,O,O8,8,21_paba_atom_mapping_GUI.png,hydroxyl oxygen,No new distance/angle
+ethanol,2,3,O,O3,3,26_ethanol_O3_mapping_GUI.png,hydroxyl oxygen,No inter-molecular placement
+ethanol,2,9,H,H9,0,26_ethanol_O3_mapping_GUI.png,hydroxyl H as prepared,GUI ID0 for hydrogen is not its SDF atom serial. No angle measured.

@@ -1,0 +1,29 @@
+{
+  "checkpoint_sha256": "2931dab333037a120ec4ec4de9ea91a4cd27da5caf0173b16e8b224e1c982fbb",
+  "training_data_reference": "https://ibm.ent.box.com/v/uspto-yields-data",
+  "training_domain": "USPTO gram-scale random split; target-specific applicability not assessed",
+  "output_scale": "standardized_fraction",
+  "normalization_reference": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+  "normalization_note": "Recovered from original gram random_split=train rows using the authors' preprocessing and pandas sample standard deviation. Not global-dataset substitute statistics.",
+  "source_commit": "d9e6b87ce1b881978490d68bfc00021e3b48127a",
+  "training_yield_mean": 0.7318926847478698,
+  "training_yield_std": 0.20946128682168402,
+  "training_yield_units": "fraction",
+  "std_ddof": 1,
+  "normalization_formula": "yield_percent = 100 * (raw_z * training_yield_std + training_yield_mean)",
+  "normalization_provenance": {
+    "recovered_at": "2026-10-30T13:28:49.726548+00:00",
+    "source_url": "https://ibm.ent.box.com/index.php?rm=box_download_shared_file&shared_name=p08w6nysh4ua0nqie04qnspe0unri0ll&file_id=f_682273338317",
+    "source_file": "rxn_yields/data/yields_above_200622.tsv (external training data; not bundled)",
+    "source_sha256": "0e5952a277d4fa1ba0a24b753c3cd3c7da4b2de7af24a0164226db0aeb1274f4",
+    "source_size_bytes": 95196581,
+    "source_total_rows": 197619,
+    "train_rows": 158095,
+    "test_rows": 39524,
+    "preprocessing_reference": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb",
+    "training_reference": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+    "selection": "random_split == 'train'; calc_yield_above / 100",
+    "published_checkpoint": "uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2",
+    "pandas_version": "3.0.1"
+  }
+}

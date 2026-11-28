@@ -1,0 +1,29 @@
+species_id,property,series,value_celsius,unit,availability,classification
+ethyl-4-nitrobenzoate,melting_point,model_estimate,80.65613555908203,deg C,available,MPBPWIN model estimate
+ethyl-4-nitrobenzoate,melting_point,DB_reference,,deg C,no_DB_record_returned,no EPI Unified record returned
+ethyl-4-nitrobenzoate,boiling_point,model_estimate,297.2542419433594,deg C,available,MPBPWIN model estimate
+ethyl-4-nitrobenzoate,boiling_point,DB_reference,,deg C,no_DB_record_returned,no EPI Unified record returned
+benzocaine,melting_point,model_estimate,66.16531372070312,deg C,available,MPBPWIN model estimate
+benzocaine,melting_point,DB_reference,,deg C,no_DB_record_returned,no EPI Unified record returned
+benzocaine,boiling_point,model_estimate,279.8981018066406,deg C,available,MPBPWIN model estimate
+benzocaine,boiling_point,DB_reference,,deg C,no_DB_record_returned,no EPI Unified record returned
+p-aminobenzoic-acid,melting_point,model_estimate,94.07730865478516,deg C,available,MPBPWIN model estimate
+p-aminobenzoic-acid,melting_point,DB_reference,188.5,deg C,available,derived_or_analogue_database_entry_not_direct_measurement
+p-aminobenzoic-acid,boiling_point,model_estimate,307.7038879394531,deg C,available,MPBPWIN model estimate
+p-aminobenzoic-acid,boiling_point,DB_reference,,deg C,no_DB_record_returned,no EPI Unified record returned
+ethanol,melting_point,model_estimate,-87.84295654296875,deg C,available,MPBPWIN model estimate
+ethanol,melting_point,DB_reference,-114.1,deg C,available,derived_or_analogue_database_entry_not_direct_measurement
+ethanol,boiling_point,model_estimate,65.10699462890625,deg C,available,MPBPWIN model estimate
+ethanol,boiling_point,DB_reference,78.2,deg C,available,epi_database_evidence_provenance_insufficient_to_claim_direct_experiment
+acetic-acid,melting_point,model_estimate,-21.25537109375,deg C,available,MPBPWIN model estimate
+acetic-acid,melting_point,DB_reference,16.635,deg C,available,literature_cited_epi_evidence_not_independently_verified_as_measurement
+acetic-acid,boiling_point,model_estimate,122.30035400390625,deg C,available,MPBPWIN model estimate
+acetic-acid,boiling_point,DB_reference,117.9,deg C,available,epi_database_evidence_provenance_insufficient_to_claim_direct_experiment
+tetrahydrofuran-condition-slot,melting_point,model_estimate,-84.88720703125,deg C,available,MPBPWIN model estimate
+tetrahydrofuran-condition-slot,melting_point,DB_reference,-108.44,deg C,available,derived_or_analogue_database_entry_not_direct_measurement
+tetrahydrofuran-condition-slot,boiling_point,model_estimate,69.35687255859375,deg C,available,MPBPWIN model estimate
+tetrahydrofuran-condition-slot,boiling_point,DB_reference,65.0,deg C,available,epi_database_evidence_provenance_insufficient_to_claim_direct_experiment
+diethyl-ether-condition-slot,melting_point,model_estimate,-101.14971923828125,deg C,available,MPBPWIN model estimate
+diethyl-ether-condition-slot,melting_point,DB_reference,-116.3,deg C,available,derived_or_analogue_database_entry_not_direct_measurement
+diethyl-ether-condition-slot,boiling_point,model_estimate,47.015655517578125,deg C,available,MPBPWIN model estimate
+diethyl-ether-condition-slot,boiling_point,DB_reference,34.6,deg C,available,epi_database_evidence_provenance_insufficient_to_claim_direct_experiment

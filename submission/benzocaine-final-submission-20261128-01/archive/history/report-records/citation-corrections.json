@@ -1,0 +1,53 @@
+[
+  {
+    "before": "`[Na+].[OH-]`는 염기 계열 구조 토큰으로 읽을 수 있으나, N-acetyl 제거 적합성이나 에스터에 대한 영향 여부는 이 출력만으로 확인되지 않는다. 따라서 이 후보들은 모델 출력 후보로서만 보존되며, 탈보호 선택성·완전 조건·에스터 유지 여부를 입증하지 않는다.",
+    "after": "`[Na+].[OH-]`는 염기 계열 구조 토큰으로 읽을 수 있으나, N-acetyl 제거 적합성이나 에스터에 대한 영향 여부는 이 출력만으로 확인되지 않는다. 따라서 이 후보들은 모델 출력 후보로서만 보존되며, 탈보호 선택성·완전 조건·에스터 유지 여부를 입증하지 않는다[D18].",
+    "support": "Parrot condition review D18: missing complete conditions and unverified selectivity; validated token identity D12 does not establish real use."
+  },
+  {
+    "before": "**후보 슬롯과 hydride·물 비호환 가능성.** route-05/step-01의 원시 후보 표에서 rank2는 solvent1 `C1CCOC1`(tetrahydrofuran 구조), reagent1 `O`(물 구조), reagent2 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`(LiAlH₄ 구성에 해당하는 구조 토큰)로 출력된다[C-RAW]. 이는 hydride 계열 구조 토큰과 물 구조 토큰이 같은 후보 안에 함께 나타난다는 점을 보여주지만, 실제 시약·투입 순서·무수 조건·quench·작업 절차가 확인되었다는 뜻은 아니다[C-REVIEW]. LiAlH₄와 물은 일반적으로 비호환 가능성이 높다고 검토되나, `O`가 실제 물인지, quench나 용매·오류 표기인지, 언제 투입되었는지는 원시 출력만으로 알 수 없다[C-REVIEW]. 따라서 이 후보는 “hydride와 물이 함께 표기된 후보”라는 사실까지만 말할 수 있고, 실제 ethanol 공급 수율을 뒷받침하는 검증된 조건으로 쓸 수 없다.",
+    "after": "**후보 슬롯과 hydride·물 비호환 가능성.** route-05/step-01의 원시 후보 표에서 rank2는 solvent1 `C1CCOC1`(tetrahydrofuran 구조), reagent1 `O`(물 구조), reagent2 `[Al+3].[H-].[H-].[H-].[H-].[Li+]`(LiAlH₄ 구성에 해당하는 구조 토큰)로 출력된다[D1][D18]. 이는 hydride 계열 구조 토큰과 물 구조 토큰이 같은 후보 안에 함께 나타난다는 점을 보여주지만, 실제 시약·투입 순서·무수 조건·quench·작업 절차가 확인되었다는 뜻은 아니다[D18]. LiAlH₄와 물은 일반적으로 비호환 가능성이 높다고 검토되나, `O`가 실제 물인지, quench나 용매·오류 표기인지, 언제 투입되었는지는 원시 출력만으로 알 수 없다[D18]. 따라서 이 후보는 “hydride와 물이 함께 표기된 후보”라는 사실까지만 말할 수 있고, 실제 ethanol 공급 수율을 뒷받침하는 검증된 조건으로 쓸 수 없다.",
+    "support": "D1/raw conditions output and D18 condition audit; source rank2 fields checked against raw CSV."
+  },
+  {
+    "before": "route-05/step-02의 후보 슬롯은 ethanol(CCO), diethyl ether(CCOCC), `FB(F)F`(BF₃ 구조 토큰), acetyl chloride(CC(=O)Cl), sulfuric acid(O=S(=O)(O)O)를 출력하지만, 슬롯 위치는 모델 분류상 역할일 뿐 실제 실험 사용·농도·당량·온도·시간을 검증하지 않는다.",
+    "after": "route-05/step-02의 후보 슬롯은 ethanol(CCO), diethyl ether(CCOCC), `FB(F)F`(BF₃ 구조 토큰), acetyl chloride(CC(=O)Cl), sulfuric acid(O=S(=O)(O)O)를 출력하지만, 슬롯 위치는 모델 분류상 역할일 뿐 실제 실험 사용·농도·당량·온도·시간을 검증하지 않는다[D12][D18].",
+    "support": "Verified TOKEN identities and role limits; sulfuric acid name is present in TOKEN."
+  },
+  {
+    "before": "route-05/step-02(PABA + 에탄올 → 벤조카인)의 경우, McMaster Chem 2OB3 2004 실험 절차에서는 PABA에 약 6 mL 95% 에탄올과 진한 황산 0.5 mL를 넣고 60분간 환류하는 조건이 확인된다.",
+    "after": "route-05/step-02(PABA + 에탄올 → 벤조카인)의 경우, McMaster Chem 2OB3 2004 실험 절차에서는 PABA에 약 6 mL 95% 에탄올과 진한 황산 0.5 mL를 넣고 60분간 환류하는 조건이 확인된다[22][D19].",
+    "support": "Exact McMaster procedure recorded in L-SCHOOL; official22 URL unchanged."
+  },
+  {
+    "before": "대표 분리수율은 현재 확보 자료에서 확인되지 않는다.",
+    "after": "대표 분리수율은 현재 확보 자료에서 확인되지 않는다[22][D19].",
+    "support": "No confirmed representative isolated yield in acquired procedure."
+  },
+  {
+    "before": "이 실행은 저장된 체크포인트 uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2를 사용했으며, 해당 체크포인트의 저장된 평가 결과는 eval_loss=0.8820414721228422, R²=0.11658362440393955이다[Y-EVAL]. 이 R²는 공식 논문의 Table3 gram/random 행에서 약 0.117로 반올림되어 보고된 값과 대응하며[Y-PAPER], 이는 해당 체크포인트의 공식 홀드아웃 평가이지 개별 예측의 정확도나 benzocaine 4단계 정확도가 아니다[Y-ASSESS]. 체크포인트 저장 인자에는 num_train_epochs=2, manual_seed=42, max_seq_length=300, train_batch_size=16, eval_batch_size=8, regression=true, num_labels=1, learning_rate=1.562e-05, evaluate_during_training=true가 기록되어 있다[Y-ARGS]. 현재 학습 코드의 기본 설정(num_train_epochs=15, evaluate_during_training=false)은 이와 다르며[Y-CODE], 저장된 epoch=2와 현재 스크립트 기본 15 epoch의 차이는 원 학습 명령·선택 로그가 확보되지 않았기 때문에 현재 기본값을 이 체크포인트의 학습 이력으로 대체할 수 없다[Y-EXEC].",
+    "after": "이 실행은 저장된 체크포인트 uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2를 사용했으며, 해당 체크포인트의 저장된 평가 결과는 eval_loss=0.8820414721228422, R²=0.11658362440393955이다[21]. 이 R²는 공식 논문의 Table3 gram/random 행에서 약 0.117로 반올림되어 보고된 값과 대응하며[20], 이는 해당 체크포인트의 공식 홀드아웃 평가이지 개별 예측의 정확도나 benzocaine 4단계 정확도가 아니다[D16]. 체크포인트 저장 인자에는 num_train_epochs=2, manual_seed=42, max_seq_length=300, train_batch_size=16, eval_batch_size=8, regression=true, num_labels=1, learning_rate=1.562e-05, evaluate_during_training=true가 기록되어 있다[D16]. 현재 학습 코드의 기본 설정(num_train_epochs=15, evaluate_during_training=false)은 이와 다르며[8], 저장된 epoch=2와 현재 스크립트 기본 15 epoch의 차이는 원 학습 명령·선택 로그가 확보되지 않았기 때문에 현재 기본값을 이 체크포인트의 학습 이력으로 대체할 수 없다[D16].",
+    "support": "21 eval file supports R²/loss;20 paper supports roundedTable3;D16 stored args/execution audit;8 actual current training code defaults."
+  },
+  {
+    "before": "이 단계의 82.95%는 실험 수율이 아니라, 특정 체크포인트에서 산출된 예측 수율이다.",
+    "after": "이 단계의 82.95%는 실험 수율이 아니라, 특정 체크포인트에서 산출된 예측 수율이다[D1][6].",
+    "support": "Raw prediction and model6; exact precision remains C03 and source records."
+  },
+  {
+    "before": "공개 gram 무작위 분할 표는 총 197619행, train 158095행, test 39524행으로 확인된다[Y-SCAN]. 네 입력 반응 문자열은 이 공개 표에서 선언된 정확·정규 문자열 및 정규 전체 반응 검색으로 발견되지 않았다[Y-SCAN]. 이는 공개 표에 미발견이라는 뜻이며, 전체 학습 노출이나 인접 반응 지원 여부를 판정하는 근거가 아니다[Y-SCAN]. 역정규화 상수와 ddof=1은 보존되며, 입력에는 조건 슬롯이 포함되지 않았다(conditions_in_input=false)[Y-EXEC].",
+    "after": "공개 gram 무작위 분할 표는 총 197619행, train 158095행, test 39524행으로 확인된다[D16]. 네 입력 반응 문자열은 이 공개 표에서 선언된 정확·정규 문자열 및 정규 전체 반응 검색으로 발견되지 않았다[D16]. 이는 공개 표에 미발견이라는 뜻이며, 전체 학습 노출이나 인접 반응 지원 여부를 판정하는 근거가 아니다[D16]. 역정규화 상수와 ddof=1은 보존되며, 입력에는 조건 슬롯이 포함되지 않았다(conditions_in_input=false)[D16].",
+    "support": "D16 public dataset scan and original execution facts, no total-training exclusion claim."
+  },
+  {
+    "item": "R05",
+    "before": "`GNORM=0.5[11] kcal mol⁻¹ Å⁻¹`",
+    "after": "`GNORM=0.5 kcal mol⁻¹ Å⁻¹`[11]",
+    "support": "D5 recorded threshold,11 official GNORM documentation; number/unit unchanged."
+  },
+  {
+    "before": "실제 화면 관찰에는 에틸 4-니트로벤조에이트 배좌 1의 여러 방향 표시, 배좌 2의 단일 레코드 표시, 4-아미노벤조산 PM7 배좌 4의 카복실기 원자 C6/O7/O8 화면, 강체 회전한 표시 사본, 고립 에탄올 PM7 배좌 2 화면이 포함된다. 이 중 PABA 배좌 4의 카복실기(C6/O7/O8)와 에탄올 배좌 2의 OH(O3)는 각각 그림 10A와 그림 11의 실제 GUI 캡처로 기록되며, 강체 회전한 표시 사본은 그림 10B에 대응한다. 다만 강체 회전한 화면은 새 배좌가 아니라 표시 방향의 사본이며, 고립 에탄올 화면은 4-아미노벤조산과 함께 배치하지 않았다. 따라서 이 화면들은 정성적 단일 분자 관찰 이상으로 반응 복합체나 접근 궤적을 입증하지 않는다.",
+    "after": "실제 화면 관찰에는 에틸 4-니트로벤조에이트 배좌 1의 여러 방향 표시, 배좌 2의 단일 레코드 표시, 4-아미노벤조산 PM7 배좌 4의 카복실기 원자 C6/O7/O8 화면, 강체 회전한 표시 사본, 고립 에탄올 PM7 배좌 2 화면이 포함된다. 이 중 PABA 배좌 4의 카복실기(C6/O7/O8)와 에탄올 배좌 2의 OH(O3)는 각각 그림 10A와 그림 11의 실제 GUI 캡처로 기록되며, 강체 회전한 표시 사본은 그림 10B에 대응한다. 다만 강체 회전한 화면은 새 배좌가 아니라 표시 방향의 사본이며, 고립 에탄올 화면은 4-아미노벤조산과 함께 배치하지 않았다. 따라서 이 화면들은 정성적 단일 분자 관찰 이상으로 반응 복합체나 접근 궤적을 입증하지 않는다[D7][D15].",
+    "support": "D7 school observations plus D15 home captures, retained qualitative limits."
+  }
+]

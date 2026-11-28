@@ -1,0 +1,5 @@
+route_id,step_id,raw_value,yield_percent,input_tokens,max_input_tokens,input_truncated,conditions_in_input
+route-01,step-01,0.46616947650909424,82.95371431744555,46,300,False,False
+route-02,step-01,0.21513395011425018,77.69549187778327,47,300,False,False
+route-05,step-01,0.2100452482700348,77.58890327412914,13,300,False,False
+route-05,step-02,0.31552639603614807,79.79832496878097,43,300,False,False

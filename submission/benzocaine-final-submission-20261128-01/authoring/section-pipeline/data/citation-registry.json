@@ -1,0 +1,363 @@
+{
+  "1": {
+    "id": "1",
+    "type": "external",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2337",
+    "supports": "Benzocaine identity, formula and structure identifier",
+    "title": "Benzocaine identity, formula and structure identifier"
+  },
+  "2": {
+    "id": "2",
+    "type": "external",
+    "url": "https://github.com/MolecularAI/aizynthfinder",
+    "supports": "AiZynthFinder retrospective route-planning method",
+    "title": "AiZynthFinder retrospective route-planning method"
+  },
+  "3": {
+    "id": "3",
+    "type": "external",
+    "url": "https://github.com/schwallergroup/synthex",
+    "supports": "SynthEx project identity and release-status statements only",
+    "title": "SynthEx project identity and release-status statements only"
+  },
+  "4": {
+    "id": "4",
+    "type": "external",
+    "url": "https://gitlab.com/mlpds_mit/askcosv2/context_recommender",
+    "supports": "ASKCOS v2 context recommender identity and service guidance",
+    "title": "ASKCOS v2 context recommender identity and service guidance"
+  },
+  "5": {
+    "id": "5",
+    "type": "external",
+    "url": "https://github.com/wangxr0526/Parrot",
+    "supports": "Parrot reaction-condition prediction method and output fields",
+    "title": "Parrot reaction-condition prediction method and output fields"
+  },
+  "6": {
+    "id": "6",
+    "type": "external",
+    "url": "https://github.com/rxn4chemistry/rxn_yields",
+    "supports": "rxn_yields reaction-SMILES yield-prediction model",
+    "title": "rxn_yields reaction-SMILES yield-prediction model"
+  },
+  "7": {
+    "id": "7",
+    "type": "external",
+    "url": "https://github.com/reymond-group/drfp",
+    "supports": "DRFP reaction fingerprint library identity",
+    "title": "DRFP reaction fingerprint library identity"
+  },
+  "8": {
+    "id": "8",
+    "type": "external",
+    "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/training_scripts/launch_uspto_training.py",
+    "supports": "rxn_yields normalization implementation and training-statistic procedure",
+    "title": "rxn_yields normalization implementation and training-statistic procedure",
+    "source_unit_ids": [
+      "official_training_code",
+      "normalization"
+    ]
+  },
+  "9": {
+    "id": "9",
+    "type": "external",
+    "url": "https://ibm.ent.box.com/v/uspto-yields-data",
+    "supports": "USPTO reaction-yield dataset source",
+    "title": "USPTO reaction-yield dataset source",
+    "source_unit_ids": [
+      "public_table_lookup"
+    ]
+  },
+  "10": {
+    "id": "10",
+    "type": "external",
+    "url": "https://openmopac.net/Manual/pm7.html",
+    "supports": "MOPAC PM7 method documentation",
+    "title": "MOPAC PM7 method documentation"
+  },
+  "11": {
+    "id": "11",
+    "type": "external",
+    "url": "https://openmopac.net/Manual/precision.html",
+    "supports": "MOPAC geometry gradient/GNORM criterion documentation",
+    "title": "MOPAC geometry gradient/GNORM criterion documentation"
+  },
+  "12": {
+    "id": "12",
+    "type": "external",
+    "url": "https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface",
+    "supports": "EPA EPI Suite scope, MPBPWIN estimations, screening-level caveat, current v4.11 notice",
+    "title": "EPA EPI Suite scope, MPBPWIN estimations, screening-level caveat, current v4.11 notice"
+  },
+  "13": {
+    "id": "13",
+    "type": "external",
+    "url": "https://episuite.dev/EpiWebSuite/#/",
+    "supports": "EPI Suite Web beta application endpoint only",
+    "title": "EPI Suite Web beta application endpoint only"
+  },
+  "14": {
+    "id": "14",
+    "type": "external",
+    "url": "https://www.dcceew.gov.au/environment/protection/npi/substances/acetic-acid-ethanoic-acid",
+    "supports": "Australian government acetic-acid MP/BP reference values",
+    "title": "Australian government acetic-acid MP/BP reference values"
+  },
+  "15": {
+    "id": "15",
+    "type": "external",
+    "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/nbs/02_uspto_data_exploration.ipynb",
+    "supports": "rxn_yields USPTO dataset exploration notebook",
+    "title": "rxn_yields USPTO dataset exploration notebook"
+  },
+  "16": {
+    "id": "16",
+    "type": "project",
+    "supports": "Project execution manifests, commands, version and reuse records",
+    "title": "Project execution manifests, commands, version and reuse records"
+  },
+  "17": {
+    "id": "17",
+    "type": "course",
+    "url": "User obtains the course file from the course LMS.",
+    "supports": "Course-only claims summarized from the specified original lecture pages; original PDF excluded from redistribution.",
+    "title": "Course-only claims summarized from the specified original lecture pages; original PDF excluded from redistribution.",
+    "source_unit_ids": [
+      "course_reference"
+    ]
+  },
+  "D1": {
+    "id": "D1",
+    "type": "project",
+    "supports": "Route, condition and yield report-evidence output",
+    "title": "Route, condition and yield report-evidence output",
+    "source_unit_ids": [
+      "routes_and_steps",
+      "parrot_candidates"
+    ]
+  },
+  "D2": {
+    "id": "D2",
+    "type": "project",
+    "supports": "Current status of additional analyses",
+    "title": "Current status of additional analyses"
+  },
+  "D3": {
+    "id": "D3",
+    "type": "project",
+    "supports": "Resolved evidence conflicts and stale-state corrections",
+    "title": "Resolved evidence conflicts and stale-state corrections"
+  },
+  "D4": {
+    "id": "D4",
+    "type": "project",
+    "supports": "Validation notes and applicability/unsupported-status checks",
+    "title": "Validation notes and applicability/unsupported-status checks"
+  },
+  "D5": {
+    "id": "D5",
+    "type": "project",
+    "supports": "Actual MOPAC inputs, convergence and computed values",
+    "title": "Actual MOPAC inputs, convergence and computed values",
+    "source_unit_ids": [
+      "mopac_all_conformers",
+      "mopac_selected",
+      "mopac_bonds",
+      "mopac_charges"
+    ]
+  },
+  "D6": {
+    "id": "D6",
+    "type": "project",
+    "supports": "Actual EPI Web responses, values and provenance classifications",
+    "title": "Actual EPI Web responses, values and provenance classifications",
+    "source_unit_ids": [
+      "epi_data",
+      "additional_run_metadata"
+    ]
+  },
+  "D7": {
+    "id": "D7",
+    "type": "project",
+    "supports": "Actual Visualizer observations, screenshots and measurements",
+    "title": "Actual Visualizer observations, screenshots and measurements",
+    "source_unit_ids": [
+      "visualizer_measurements",
+      "visualizer_home"
+    ]
+  },
+  "D8": {
+    "id": "D8",
+    "type": "project",
+    "supports": "Actual OpenCode/Pi requests, responses and case comparison",
+    "title": "Actual OpenCode/Pi requests, responses and case comparison",
+    "source_unit_ids": [
+      "additional_run_metadata"
+    ]
+  },
+  "D9": {
+    "id": "D9",
+    "type": "project",
+    "supports": "Primary literature comparison, source identity/hash and acquisition guidance, and exact Parrot/Yield-BERT source data",
+    "title": "Primary literature comparison, source identity/hash and acquisition guidance, and exact Parrot/Yield-BERT source data",
+    "source_unit_ids": [
+      "primary_literature"
+    ]
+  },
+  "D10": {
+    "id": "D10",
+    "type": "project",
+    "supports": "Existing-PC rerun and corrected asset/configuration comparison; the corrected validation is distinct from the preserved original conflicting record.",
+    "title": "Existing-PC rerun and corrected asset/configuration comparison; the corrected validation is distinct from the preserved original conflicting record."
+  },
+  "18": {
+    "id": "18",
+    "type": "external",
+    "url": "https://doi.org/10.15227/orgsyn.008.0066",
+    "supports": "Direct ethyl p-nitrobenzoate to benzocaine experiment, procedure, and reported isolated yield",
+    "title": "Direct ethyl p-nitrobenzoate to benzocaine experiment, procedure, and reported isolated yield",
+    "source_unit_ids": [
+      "primary_literature"
+    ]
+  },
+  "19": {
+    "id": "19",
+    "type": "external",
+    "url": "https://patents.google.com/patent/US3037046A/en",
+    "supports": "Direct hydrogenation experiment, patent Example IV conditions and reported yield",
+    "title": "Direct hydrogenation experiment, patent Example IV conditions and reported yield",
+    "source_unit_ids": [
+      "primary_literature"
+    ]
+  },
+  "D11": {
+    "id": "D11",
+    "type": "project",
+    "supports": "User-provided target selection provenance for this report run; not a model inference.",
+    "title": "User-provided target selection provenance for this report run; not a model inference.",
+    "source_unit_ids": [
+      "target"
+    ]
+  },
+  "D12": {
+    "id": "D12",
+    "type": "project",
+    "supports": "Verified molecular identities for condition-structure tokens; does not assign experimental roles.",
+    "title": "Verified molecular identities for condition-structure tokens; does not assign experimental roles.",
+    "source_unit_ids": [
+      "token_identity"
+    ]
+  },
+  "D13": {
+    "id": "D13",
+    "title": "반응 매핑과 경계·조각 연결 대조",
+    "evidence": [
+      "MAP-BONDS",
+      "MAP-STEPS"
+    ],
+    "source_unit_ids": [
+      "mapping"
+    ]
+  },
+  "D14": {
+    "id": "D14",
+    "title": "공급 가지의 원시 경로와 단계 연결 검토",
+    "evidence": [
+      "R-TREE",
+      "R-JOIN",
+      "R-REVIEW"
+    ],
+    "source_unit_ids": [
+      "route_tree"
+    ]
+  },
+  "D15": {
+    "id": "D15",
+    "title": "집 PC 단일 분자 관찰 기록",
+    "evidence": [
+      "V-HOME"
+    ],
+    "source_unit_ids": [
+      "visualizer_home"
+    ]
+  },
+  "D16": {
+    "id": "D16",
+    "title": "수율 모델 적용성 검토와 원시 실행 대조",
+    "evidence": [
+      "Y-ASSESS",
+      "Y-STEPS",
+      "Y-METHOD",
+      "Y-VALUES"
+    ],
+    "source_unit_ids": [
+      "checkpoint_eval",
+      "normalization",
+      "public_table_lookup",
+      "training_input_sample",
+      "yield_review_method",
+      "yield_review_steps",
+      "yield_review_catalog"
+    ]
+  },
+  "D18": {
+    "id": "D18",
+    "title": "조건 후보의 구조·역할·불완전성 검토",
+    "evidence": [
+      "C-REVIEW",
+      "C-RAW",
+      "TOKEN"
+    ],
+    "source_unit_ids": [
+      "parrot_candidates",
+      "token_identity"
+    ]
+  },
+  "D19": {
+    "id": "D19",
+    "title": "학교 문헌 조건·수율 검토",
+    "evidence": [
+      "L-SCHOOL",
+      "L-PRIMARY"
+    ],
+    "source_unit_ids": [
+      "mcmaster_procedure",
+      "primary_literature"
+    ]
+  },
+  "20": {
+    "id": "20",
+    "url": "https://doi.org/10.1088/2632-2153/abc81d",
+    "title": "Prediction of chemical reaction yields using deep learning",
+    "evidence": [
+      "Y-PAPER"
+    ],
+    "source_unit_ids": [
+      "yield_review_catalog"
+    ]
+  },
+  "21": {
+    "id": "21",
+    "url": "https://github.com/rxn4chemistry/rxn_yields/blob/d9e6b87ce1b881978490d68bfc00021e3b48127a/trained_models/uspto/uspto_gram_random_test_epochs_2_pretrained/checkpoint-19762-epoch-2/eval_results.txt",
+    "title": "배포 수율 체크포인트의 공식 평가 기록",
+    "evidence": [
+      "Y-EVAL",
+      "Y-ARGS"
+    ],
+    "source_unit_ids": [
+      "checkpoint_eval"
+    ]
+  },
+  "22": {
+    "id": "22",
+    "url": "https://www.chemistry.mcmaster.ca/~chem2ob3/2004labmanual/2004_exp4.pdf",
+    "title": "McMaster Chem2OB3 벤조카인 실험 절차",
+    "evidence": [
+      "L-SCHOOL"
+    ],
+    "source_unit_ids": [
+      "mcmaster_procedure"
+    ]
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "schema": 1,
+  "model": "solar-pro4-260806",
+  "repository_relative": "../..",
+  "sections": [
+    {
+      "id": "S01",
+      "name": "경로·매핑·Parrot 조건",
+      "source_units": [
+        "routes_and_steps",
+        "parrot_candidates",
+        "token_identity",
+        "mapping",
+        "route_tree"
+      ],
+      "figures": [
+        "SCI-ROUTES",
+        "DETAIL-route-01-step-01",
+        "DETAIL-route-02-step-01",
+        "DETAIL-route-05-step-02",
+        "RESTORE-supply"
+      ],
+      "allowed_citations": [
+        "D1",
+        "D12",
+        "D13",
+        "D14",
+        "D18"
+      ],
+      "max_output_tokens": 5500,
+      "fragments": [
+        "S01"
+      ],
+      "items": [
+        {
+          "id": "ROUTES",
+          "question": "세 경로의 단계·출발물질·작용기 변환과 모델 간선의 해석 범위는?",
+          "required_cites": [
+            "D1"
+          ]
+        },
+        {
+          "id": "MAPPING",
+          "question": "N10-C13 경계와 조각 내부 결합·수소1→2의 차이는? 그래프 차이와 전자이동 설명을 구분.",
+          "required_cites": [
+            "D13"
+          ]
+        },
+        {
+          "id": "SLOTS",
+          "question": "원시 후보 rank/slot, BF3 reagent2와 구조 이름·실험 역할은 어떻게 구분하는가?",
+          "required_cites": [
+            "D12"
+          ]
+        },
+        {
+          "id": "SUPPLY",
+          "question": "route05 raw tree와 가공 precursor flag 및 미검증 공급 간선은 무엇을 뜻하는가?",
+          "required_cites": [
+            "D14"
+          ]
+        }
+      ],
+      "tables": [
+        "T_PARROT",
+        "T_IDENTITIES"
+      ],
+      "format": {
+        "fragment": "[[BEGIN:<fragment>]]\n...\n[[END:<fragment>]]",
+        "required_item": "[[item:<item_id>]]\n실제 본문과 허용 [cite: ID]\n[[/item]]",
+        "table": "[table: ID]",
+        "figure": "[figure: ID]\n\n캡션: Solar가 새로 작성한 한 문단",
+        "references": "Do not produce a bibliography; code generates canonical entries",
+        "tables": "Only markers. Never reproduce table rows, even if identical."
+      }
+    },
+    {
+      "id": "S02",
+      "name": "수율 실행·공식 검토·단계별 적용성",
+      "source_units": [
+        "routes_and_steps",
+        "normalization",
+        "checkpoint_eval",
+        "official_training_code",
+        "public_table_lookup",
+        "training_input_sample",
+        "yield_review_method",
+        "yield_review_steps",
+        "yield_review_catalog"
+      ],
+      "figures": [],
+      "allowed_citations": [
+        "6",
+        "8",
+        "9",
+        "20",
+        "21",
+        "D1",
+        "D16"
+      ],
+      "max_output_tokens": 4500,
+      "fragments": [
+        "S02"
+      ],
+      "items": [
+        {
+          "id": "Y_TIME",
+          "question": "과거 실행 상태와 후속 공식 검토 완료, 단계별 정확도 검증은 어떻게 다른가?",
+          "required_cites": [
+            "D16"
+          ]
+        },
+        {
+          "id": "Y_METHOD",
+          "question": "공식 입력 구성·학습/평가 범위와 실제 구조 입력·역정규화는 어디까지 일치하는가?",
+          "required_cites": [
+            "8",
+            "D16"
+          ]
+        },
+        {
+          "id": "Y_STEPS",
+          "question": "네 단계별 적용 지지 근거·부족한 정보·정확도 판단 범위는?",
+          "required_cites": [
+            "D16"
+          ]
+        },
+        {
+          "id": "Y_INPUT",
+          "question": "input_truncated=false와 입력 토큰수, 현재 기본값과 당시 설정을 구분.",
+          "required_cites": [
+            "D1"
+          ]
+        },
+        {
+          "id": "Y_EVAL",
+          "question": "저장 R2의 평가 대상과 벤조카인 단계별 검증의 차이는?",
+          "required_cites": [
+            "21"
+          ]
+        }
+      ],
+      "tables": [
+        "T_YIELDS",
+        "T_MODEL",
+        "T_REVIEW",
+        "T_TIMELINE"
+      ],
+      "format": {
+        "fragment": "[[BEGIN:<fragment>]]\n...\n[[END:<fragment>]]",
+        "required_item": "[[item:<item_id>]]\n실제 본문과 허용 [cite: ID]\n[[/item]]",
+        "table": "[table: ID]",
+        "figure": "[figure: ID]\n\n캡션: Solar가 새로 작성한 한 문단",
+        "references": "Do not produce a bibliography; code generates canonical entries",
+        "tables": "Only markers. Never reproduce table rows, even if identical."
+      }
+    },
+    {
+      "id": "S03",
+      "name": "강의·문헌 비교",
+      "source_units": [
+        "routes_and_steps",
+        "primary_literature",
+        "mcmaster_procedure",
+        "course_reference"
+      ],
+      "figures": [],
+      "allowed_citations": [
+        "17",
+        "18",
+        "19",
+        "22",
+        "D1",
+        "D9",
+        "D19"
+      ],
+      "max_output_tokens": 3000,
+      "fragments": [
+        "S03"
+      ],
+      "items": [
+        {
+          "id": "L_PRIMARY",
+          "question": "OrgSyn와 특허의 조건·시간·수율 정의와 모델 변환의 관계는?",
+          "required_cites": [
+            "18",
+            "19"
+          ]
+        },
+        {
+          "id": "L_MCMASTER",
+          "question": "McMaster에서 확인한 양·농도·시간과 미확인 분리수율을 구분.",
+          "required_cites": [
+            "22"
+          ]
+        },
+        {
+          "id": "L_COURSE",
+          "question": "제공된 강의 쪽수의 작용기·전자쌍 이동 설명과 실제 모델 조건의 차이는?",
+          "required_cites": [
+            "17"
+          ]
+        }
+      ],
+      "tables": [
+        "T_LITERATURE"
+      ],
+      "format": {
+        "fragment": "[[BEGIN:<fragment>]]\n...\n[[END:<fragment>]]",
+        "required_item": "[[item:<item_id>]]\n실제 본문과 허용 [cite: ID]\n[[/item]]",
+        "table": "[table: ID]",
+        "figure": "[figure: ID]\n\n캡션: Solar가 새로 작성한 한 문단",
+        "references": "Do not produce a bibliography; code generates canonical entries",
+        "tables": "Only markers. Never reproduce table rows, even if identical."
+      }
+    },
+    {
+      "id": "S04",
+      "name": "EPI·MOPAC·Visualizer 추가 분석",
+      "source_units": [
+        "mopac_all_conformers",
+        "mopac_selected",
+        "mopac_bonds",
+        "mopac_charges",
+        "epi_data",
+        "visualizer_measurements",
+        "visualizer_home",
+        "additional_run_metadata"
+      ],
+      "figures": [
+        "SCI-EPI",
+        "SCI-MOPAC",
+        "home-19_paba_ball_and_stick",
+        "home-13_ethanol_ball_and_stick",
+        "RESTORE-distance",
+        "RESTORE-angle",
+        "RESTORE-paba-edge"
+      ],
+      "allowed_citations": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "D5",
+        "D6",
+        "D7",
+        "D15"
+      ],
+      "max_output_tokens": 5000,
+      "fragments": [
+        "S04"
+      ],
+      "items": [
+        {
+          "id": "A_EPI",
+          "question": "EPI 모델추정/DB참조 분류·서비스 제한과 판단 범위는?",
+          "required_cites": [
+            "D6"
+          ]
+        },
+        {
+          "id": "A_MOPAC",
+          "question": "PM7 계산 조건·수렴·동일 분자 상대생성열 비교가 판단에 기여한 것과 못하는 것은?",
+          "required_cites": [
+            "D5"
+          ]
+        },
+        {
+          "id": "A_VISUAL",
+          "question": "배좌·같은 구조의 카메라 회전·내부 측정값과 정성 관찰의 한계는?",
+          "required_cites": [
+            "D7"
+          ]
+        }
+      ],
+      "tables": [
+        "T_EPI",
+        "T_MOPAC",
+        "T_VISUALIZER"
+      ],
+      "format": {
+        "fragment": "[[BEGIN:<fragment>]]\n...\n[[END:<fragment>]]",
+        "required_item": "[[item:<item_id>]]\n실제 본문과 허용 [cite: ID]\n[[/item]]",
+        "table": "[table: ID]",
+        "figure": "[figure: ID]\n\n캡션: Solar가 새로 작성한 한 문단",
+        "references": "Do not produce a bibliography; code generates canonical entries",
+        "tables": "Only markers. Never reproduce table rows, even if identical."
+      }
+    },
+    {
+      "id": "S05",
+      "name": "하네스 사례 비교",
+      "source_units": [
+        "additional_run_metadata"
+      ],
+      "figures": [],
+      "allowed_citations": [
+        "D8"
+      ],
+      "max_output_tokens": 1500,
+      "fragments": [
+        "S05"
+      ],
+      "items": [
+        {
+          "id": "H_MATCH",
+          "question": "OpenCode/Pi의 동일한 모델·설정과 각 실행 사례의 범위는?",
+          "required_cites": [
+            "D8"
+          ]
+        },
+        {
+          "id": "H_DIFF",
+          "question": "system/user byte, roles/container/assistant 차이는 무엇이며 하네스 해석을 어떻게 제한하는가?",
+          "required_cites": [
+            "D8"
+          ]
+        }
+      ],
+      "tables": [
+        "T_HARNESS"
+      ],
+      "format": {
+        "fragment": "[[BEGIN:<fragment>]]\n...\n[[END:<fragment>]]",
+        "required_item": "[[item:<item_id>]]\n실제 본문과 허용 [cite: ID]\n[[/item]]",
+        "table": "[table: ID]",
+        "figure": "[figure: ID]\n\n캡션: Solar가 새로 작성한 한 문단",
+        "references": "Do not produce a bibliography; code generates canonical entries",
+        "tables": "Only markers. Never reproduce table rows, even if identical."
+      }
+    },
+    {
+      "id": "S06",
+      "name": "도입·근거 기반 경로 판단·결론",
+      "source_units": [
+        "target",
+        "routes_and_steps",
+        "primary_literature",
+        "mcmaster_procedure",
+        "checkpoint_eval",
+        "yield_review_steps"
+      ],
+      "figures": [
+        "old-target"
+      ],
+      "allowed_citations": [
+        "1",
+        "18",
+        "19",
+        "22",
+        "D1",
+        "D11",
+        "D16",
+        "D19"
+      ],
+      "max_output_tokens": 2000,
+      "fragments": [
+        "S06.INTRO",
+        "S06.CONCLUSION"
+      ],
+      "items": [
+        {
+          "id": "INTRO",
+          "question": "표적·사용자 선정·근거 수준별 핵심 결과를 간결히 소개.",
+          "required_cites": [
+            "1"
+          ]
+        },
+        {
+          "id": "CONCLUSION",
+          "question": "확인된 결과에서 조건부 우선 검토와 그 근거·한계·추가 확인을 독립적으로 판단. 예측 순위만으로 결론 내리지 않음.",
+          "required_cites": [
+            "18",
+            "D16"
+          ]
+        }
+      ],
+      "tables": [],
+      "format": {
+        "fragment": "[[BEGIN:<fragment>]]\n...\n[[END:<fragment>]]",
+        "required_item": "[[item:<item_id>]]\n실제 본문과 허용 [cite: ID]\n[[/item]]",
+        "table": "[table: ID]",
+        "figure": "[figure: ID]\n\n캡션: Solar가 새로 작성한 한 문단",
+        "references": "Do not produce a bibliography; code generates canonical entries",
+        "tables": "Only markers. Never reproduce table rows, even if identical."
+      },
+      "fragment_item_ownership": {
+        "S06.INTRO": [
+          "INTRO"
+        ],
+        "S06.CONCLUSION": [
+          "CONCLUSION"
+        ]
+      }
+    }
+  ],
+  "assembly_order": [
+    "S06.INTRO",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06.CONCLUSION"
+  ],
+  "table_source_units": {
+    "T_PARROT": "parrot_candidates",
+    "T_IDENTITIES": "token_identity",
+    "T_MOPAC": "mopac_all_conformers",
+    "T_EPI": "epi_data",
+    "T_VISUALIZER": "visualizer_measurements"
+  },
+  "price": {
+    "input_per_M": 0.3,
+    "output_per_M": 1.2,
+    "VAT": 0.1,
+    "cached_discount_applied": false,
+    "source": "https://www.upstage.ai/pricing/api",
+    "checked_date": "2026-11-27",
+    "use_conservative_headline_not_discount": true
+  },
+  "project_cap_USD": 1.5,
+  "current_stage_allows_calls": false,
+  "body_parrot_rule": "rank<=3 or route01 rank4; full60 preserved in CSV. Selection fixed before any new generation.",
+  "semantic_limit": "Item presence/citation/slot table integrity can be tested offline. Free scientific meaning and source support require independent review; no keyword matching is scientific proof."
+}

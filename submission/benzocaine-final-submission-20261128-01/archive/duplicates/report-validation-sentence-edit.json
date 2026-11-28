@@ -1,0 +1,13 @@
+{
+  "before": "온도·압력은 문헌에 수치로 기재되지 않았다[D9][D1].",
+  "raw_Solar_sentence": "OrgSyn 원문 반응 도식의 H₂ 3 atm은 압력 표시이고 Procedure 1의 수소 3분자 당량은 흡수된 수소량이며[D9][D1], 반응 온도는 제공된 Procedure 1 본문과 도식에 수치 반응 온도가 기재되지 않아 생성물 mp 89–90 °C와 구분되고[D9][D1], 이 조건은 [18] OrgSyn DOI 10.15227/orgsyn.008.0066의 문헌 조건으로만 읽는다[D9][D1].",
+  "accepted_sentence": "OrgSyn 원문 반응 도식의 H₂ 3 atm은 압력 표시이고 Procedure 1의 수소 3분자 당량은 흡수된 수소량이며[18], 반응 온도는 제공된 Procedure 1 본문과 도식에 수치 반응 온도가 기재되지 않아 생성물 mp 89–90 °C와 구분되고[18], 이 조건은 [18] OrgSyn DOI 10.15227/orgsyn.008.0066의 문헌 조건으로만 읽는다[18].",
+  "source_report_SHA256": "1cf8ab6b4b198c0410e04d7967065f81bbeb16955664974d35dd79b819ba9884",
+  "corrected_report_SHA256": "e9f8f6d0e2dd7739e248483feb79a53b9cc4e4371212b3195c59160c5b7ce26f",
+  "raw_response_SHA256": "becd4165738f13a1bb86c1c4f9377c42904f6eff0e6cf3c4b824995b3fe2513b",
+  "replacement_count": 1,
+  "all_other_report_characters_unchanged": true,
+  "citation_normalization": "D9/D1 mixed references replaced by verified primary-source18; no words or scientific claim changed. Prior permission for source-based citation normalization applied within approved replacement only.",
+  "exact_raw_Solar_scientific_words_preserved": true,
+  "source": "OrgSyn DOI10.15227/orgsyn.008.0066 PDF2 diagram H2(3atm); Procedure1 three molecular equivalents absorbed,about7min; no numeric reaction temperature in supplied text/diagram;mp89-90 is product property."
+}

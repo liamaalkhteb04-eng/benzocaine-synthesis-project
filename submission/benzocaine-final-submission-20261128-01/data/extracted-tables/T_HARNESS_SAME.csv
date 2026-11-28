@@ -1,0 +1,8 @@
+분류,항목,OpenCode,Pi,근거 범위
+동일한 항목,모델,"""solar-pro4-260806""","""solar-pro4-260806""","serialized API request metadata, not generated response"
+동일한 항목,temperature,0,0,"serialized API request metadata, not generated response"
+동일한 항목,reasoning_effort,"""none""","""none""","serialized API request metadata, not generated response"
+동일한 항목,최대 출력 토큰,10000,10000,"serialized API request metadata, not generated response"
+동일한 항목,반환 수 n,1,1,"serialized API request metadata, not generated response"
+동일한 항목,stream,false,false,"serialized API request metadata, not generated response"
+동일한 항목,요청 tools 키 존재 여부,false,false,"serialized API request metadata, not generated response"

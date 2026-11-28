@@ -1,0 +1,10 @@
+{
+    "word_pdf_same_layout_engine":  true,
+    "PDF":  "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-pressure-corrected-20261128-01\\output\\benzocaine-pressure-corrected.pdf",
+    "DOCX":  "external-originals/benzocaine-repro-validation-20261119\\reports\\benzocaine-pressure-corrected-20261128-01\\output\\benzocaine-pressure-corrected.docx",
+    "actual_DOCX_pages":  20,
+    "status":  "success",
+    "word_version":  "16.0",
+    "within20":  true,
+    "converter":  "Microsoft Word ExportAsFixedFormat"
+}

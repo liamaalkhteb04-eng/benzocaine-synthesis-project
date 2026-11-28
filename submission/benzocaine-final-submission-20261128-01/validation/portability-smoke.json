@@ -1,0 +1,15 @@
+{
+  "saved_renderer_with_spaces_pass": true,
+  "relocated_paths": "archive/local-checks/work/relocated package (historical smoke artifacts, excluded from GitHub)",
+  "source_manuscript_SHA256": "e9f8f6d0e2dd7739e248483feb79a53b9cc4e4371212b3195c59160c5b7ce26f",
+  "figures_resolved": 13,
+  "table_records": 4,
+  "Word_repagination_repeated": false,
+  "fresh_writing_offline_build_from_other_CWD_pass": true,
+  "fresh_writer_actual_calls": 0,
+  "fresh_six_request_upper_USD_VAT": 0.08447406,
+  "new_approval_required": true,
+  "new_writing_repeated_reproducibility_verified": false,
+  "PowerShell_AST_parse_pass": true,
+  "actual_source_files_changed": []
+}

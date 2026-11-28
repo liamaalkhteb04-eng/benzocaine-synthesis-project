@@ -1,0 +1,92 @@
+{
+  "moves": [
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/benzocaine-pressure-corrected.pdf",
+      "after": "submission/benzocaine-final-submission-20261128-01/report/20251312_리야마_벤조카인_최종보고서.pdf"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/benzocaine-pressure-corrected.docx",
+      "after": "submission/benzocaine-final-submission-20261128-01/report/20251312_리야마_벤조카인_최종보고서.docx"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/baseline.md",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/baselines/baseline20.md"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/validation/sentence-edit.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/duplicates/report-validation-sentence-edit.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/full-before.md",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/full-before.md"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/23-before-after.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/23-before-after.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/citation-corrections.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/citation-corrections.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/deletions.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/deletions.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/display-aliases.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/display-aliases.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/edit-log.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/edit-log.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/reused-Solar-spans.json",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/reused-Solar-spans.json"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/records/technical-history.md",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/report-records/technical-history.md"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/data/evidence/files/S01__report.md",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/evidence-files/S01__report.md"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/skill/used-revision-system.txt",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/skill/used-revision-system.txt"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/provenance/original-source-index.md",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/duplicates/original-source-index.md"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/assets/original",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/duplicates/figure-originals"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/work",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/local-checks/work"
+    },
+    {
+      "before": "submission/benzocaine-professor-reproduction-package-20261121",
+      "after": "archive/legacy-submissions/benzocaine-professor-reproduction-package-20261121"
+    },
+    {
+      "before": "submission/benzocaine-final-submission-20261128-01/report/assets/korean",
+      "after": "submission/benzocaine-final-submission-20261128-01/archive/history/figures/korean"
+    }
+  ],
+  "Markdown_link_files_updated": [
+    "submission\\benzocaine-final-submission-20261128-01\\README.md",
+    "submission\\benzocaine-final-submission-20261128-01\\archive\\history\\report-records\\full-before.md",
+    "submission\\benzocaine-final-submission-20261128-01\\report\\records\\source-index.md"
+  ],
+  "resolved_path_guard": "All move sources and targets verified within intended repository before renaming; no recursive deletion.",
+  "other_tracked_modifications_unchanged": true,
+  "approved_PDF_DOCX_bytes_unchanged": true,
+  "report_markdown_unchanged": true,
+  "files_permanently_deleted": 0,
+  "Solar_calls": 0,
+  "git_push": false
+}
